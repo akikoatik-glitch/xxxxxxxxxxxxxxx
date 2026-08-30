@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String         @id @default(uuid())
+  email     String         @unique
+  name      String?
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  watchlist WatchlistItem[]
+}
+
+model WatchlistItem {
+  id        String   @id @default(uuid())
+  userId    String
+  matchId   String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, matchId])
+  @@index([userId])
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
+
+model Prediction {
+  matchId       String  @id
+  homeTeamId    String
+  awayTeamId    String
+  homeTeam      String
+  awayTeam      String
+  leagueId      String
+  kickoffUtc    String
+  modelVersion  String
+  generatedAt   String
+  probabilities String
+  predictedScore String
+  outcome       String
+  confidence    Int
+  btts          Float
+  over25        Float
+  fairOdds      String
+  xG            String
+  factors       String
+
+  @@index([leagueId])
+  @@index([kickoffUtc])
+}

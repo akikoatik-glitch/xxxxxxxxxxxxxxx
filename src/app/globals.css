@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #080d0a;
+  --surface: #0c1410;
+  --elevated: #14201a;
+  --line: #1e3027;
+  --accent: #34d399;
+  --accent-strong: #10b981;
+  --gold: #f5c518;
+  --success: #34d399;
+  --warning: #f59e0b;
+  --danger: #f06057;
+  --ink: #edf7f2;
+  --mute: #8ca39a;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+
+/* Stadium atmosphere: subtle green side glow + faint football pitch markings */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 55% at 50% -10%, rgba(16, 185, 129, 0.12), transparent 65%),
+    radial-gradient(ellipse 60% 45% at 88% 105%, rgba(16, 185, 129, 0.06), transparent 60%),
+    linear-gradient(180deg, #070c09 0%, var(--bg) 45%, #060a08 100%);
+}
+
+/* Faint football pitch grid */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(52, 211, 153, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(52, 211, 153, 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 100% 70% at 50% 0%, black 30%, transparent 90%);
+}
+
+::selection {
+  background: rgba(52, 211, 153, 0.28);
+  color: #f0fdf4;
+}
+
+/* Accessible focus */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a100c;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3027;
+  border-radius: 8px;
+  border: 2px solid #0a100c;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-strong);
+}
+
+@layer components {
+  .glass {
+    @apply rounded-2xl border border-line bg-surface/90;
+  }
+
+  .glass-elevated {
+    @apply rounded-2xl border border-line bg-elevated/90;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-surface shadow-card;
+    transition:
+      border-color 0.25s ease,
+      box-shadow 0.25s ease;
+  }
+  .card:hover {
+    border-color: rgba(52, 211, 153, 0.4);
+  }
+
+  .btn {
+    @apply relative inline-flex select-none items-center justify-center gap-2 rounded-xl px-6 py-3 font-semibold transition-all duration-200;
+    box-shadow:
+      0 4px 0 0 rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+  .btn:active {
+    transform: translateY(2px);
+    box-shadow:
+      0 1px 0 0 rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .btn:disabled {
+    @apply cursor-not-allowed opacity-50;
+    transform: none;
+  }
+
+  .btn-primary {
+    @apply btn bg-accent-strong text-[#04110b];
+  }
+  .btn-secondary {
+    @apply btn border border-line bg-elevated text-ink;
+  }
+  .btn-gold {
+    @apply btn bg-gold text-[#241a00];
+  }
+
+  /* Kept for component compatibility */
+  .btn-accent {
+    @apply btn bg-accent-strong text-[#04110b];
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-elevated text-ink;
+  }
+  .btn-royal {
+    @apply btn bg-gold text-[#241a00];
+  }
+  .card-3d {
+    @apply card;
+  }
+  .text-gradient-gold {
+    background: linear-gradient(120deg, #f5c518 0%, #f59e0b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .text-glow {
+    text-shadow: 0 0 22px rgba(52, 211, 153, 0.5);
+  }
+
+  .text-gradient {
+    background: linear-gradient(120deg, #34d399 0%, #a7f3d0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .kicker {
+    @apply font-mono text-xs font-bold uppercase tracking-[0.3em] text-accent;
+  }
+
+  .cyl-bar {
+    position: relative;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #070d0a;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  .cyl-bar-fill {
+    position: relative;
+    height: 100%;
+    border-radius: 999px;
+    transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .cyl-bar-fill::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.06) 45%,
+      rgba(0, 0, 0, 0.22) 100%
+    );
+  }
+}
+
+/* Decorational football used in the loader and hero */
+.football {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  position: relative;
+  background: radial-gradient(circle at 32% 28%, #ffffff 0%, #e8eef2 48%, #a9b8c3 100%);
+  box-shadow:
+    0 14px 30px -10px rgba(0, 0, 0, 0.7),
+    inset -6px -8px 16px rgba(0, 0, 0, 0.32);
+  animation: ball-spin 1.6s linear infinite;
+}
+.football::before,
+.football::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #12201a;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+}
+.football::before {
+  top: 12px;
+  left: 22px;
+}
+.football::after {
+  top: 32px;
+  left: 10px;
+  transform: scale(0.8) rotate(30deg);
+  box-shadow: 22px 8px 0 0 #12201a;
+}
+.football-shadow {
+  width: 46px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(0, 0, 0, 0.45), transparent 70%);
+}
+.football-orbit {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  border: 1px dashed rgba(52, 211, 153, 0.4);
+  border-radius: 50%;
+  animation: spin-slow 7s linear infinite;
+}
+
+/* Pitch marking decoration (center circle + halfway line) */
+.pitch-marks {
+  position: relative;
+}
+.pitch-marks::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(52, 211, 153, 0.14);
+  transform: translateX(-50%);
+}
+.pitch-marks::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 56%;
+  aspect-ratio: 1;
+  border: 1px solid rgba(52, 211, 153, 0.14);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

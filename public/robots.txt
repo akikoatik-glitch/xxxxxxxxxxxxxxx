@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /dashboard
+
+# Host
+Host: https://xwhizliteeeeeeeeeeee.vercel.app
+
+# Sitemaps
+Sitemap: https://xwhizliteeeeeeeeeeee.vercel.app/sitemap.xml
