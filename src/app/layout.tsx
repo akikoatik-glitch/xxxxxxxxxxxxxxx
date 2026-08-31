@@ -39,7 +39,10 @@ export const metadata: Metadata = {
     "1X2 predictions",
     "match predictions",
     "premier league predictions",
-    "xwhiz lite"
+    "football news",
+    "soccer news today",
+    "champions league news",
+    "transfer news"
   ],
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   alternates: { canonical: "/" },
@@ -68,7 +71,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0C1410",
+  themeColor: "#FAF7F0",
   width: "device-width",
   initialScale: 1
 };
@@ -76,7 +79,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html lang="en" className="light" suppressHydrationWarning>
       <body
         className={`${oswald.variable} ${inter.variable} ${jetbrains.variable} min-h-screen font-sans antialiased`}
       >

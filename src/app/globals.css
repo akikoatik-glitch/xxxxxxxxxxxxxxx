@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --bg: #050806;
-  --surface: #0a110d;
-  --elevated: #101b15;
-  --line: #1c2f25;
-  --accent: #34d399;
-  --accent-strong: #10b981;
-  --gold: #f5c518;
-  --success: #34d399;
-  --warning: #f59e0b;
-  --danger: #f06057;
-  --ink: #eefbf4;
-  --mute: #8fa79d;
+  --bg: #faf7f0;
+  --surface: #ffffff;
+  --elevated: #f4f0e6;
+  --line: #eae4d8;
+  --accent: #10b981;
+  --accent-strong: #0e9e6e;
+  --gold: #c8961e;
+  --success: #16a34a;
+  --warning: #e08b16;
+  --danger: #d64545;
+  --ink: #12231b;
+  --mute: #67736a;
 }
 
 html {
@@ -36,10 +36,10 @@ body::before {
   z-index: -3;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 90% 60% at 50% -12%, rgba(16, 185, 129, 0.16), transparent 65%),
-    radial-gradient(ellipse 55% 45% at 100% 0%, rgba(52, 211, 153, 0.08), transparent 55%),
-    radial-gradient(ellipse 60% 45% at 0% 108%, rgba(245, 197, 24, 0.05), transparent 60%),
-    linear-gradient(180deg, #050907 0%, var(--bg) 40%, #040706 100%);
+    radial-gradient(ellipse 90% 55% at 50% -12%, rgba(16, 185, 129, 0.14), transparent 65%),
+    radial-gradient(ellipse 50% 40% at 100% 0%, rgba(16, 185, 129, 0.07), transparent 55%),
+    radial-gradient(ellipse 55% 40% at 0% 108%, rgba(200, 150, 30, 0.06), transparent 60%),
+    linear-gradient(180deg, #fdfbf5 0%, var(--bg) 45%, #f6f1e6 100%);
 }
 
 /* Faint football pitch grid */
@@ -50,15 +50,15 @@ body::after {
   z-index: -2;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(52, 211, 153, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(52, 211, 153, 0.035) 1px, transparent 1px);
+    linear-gradient(rgba(16, 185, 129, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.04) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse 100% 70% at 50% 0%, black 30%, transparent 90%);
 }
 
 ::selection {
-  background: rgba(52, 211, 153, 0.28);
-  color: #f0fdf4;
+  background: rgba(16, 185, 129, 0.22);
+  color: #06291f;
 }
 
 /* Accessible focus */
@@ -73,12 +73,12 @@ body::after {
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a100c;
+  background: #f1ecdf;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1e3027;
+  background: #cdd6cd;
   border-radius: 8px;
-  border: 2px solid #0a100c;
+  border: 2px solid #f1ecdf;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-strong);
@@ -86,43 +86,43 @@ body::after {
 
 @layer components {
   .glass {
-    @apply rounded-2xl border border-line/80 bg-surface/85;
+    @apply rounded-2xl border border-line bg-white/85;
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.04),
-      0 20px 50px -24px rgba(0, 0, 0, 0.8);
+      inset 0 1px 0 rgba(255, 255, 255, 0.7),
+      0 10px 34px -18px rgba(40, 60, 50, 0.28);
   }
 
   .glass-elevated {
-    @apply rounded-2xl border border-line/80 bg-elevated/90;
+    @apply rounded-2xl border border-line bg-white;
     box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.05),
-      0 24px 60px -24px rgba(0, 0, 0, 0.85);
+      inset 0 1px 0 rgba(255, 255, 255, 0.8),
+      0 16px 44px -20px rgba(40, 60, 50, 0.35);
   }
 
   .card {
-    @apply rounded-2xl border border-line/80 bg-surface shadow-card;
-    background-image: linear-gradient(180deg, rgba(52, 211, 153, 0.05), transparent 45%);
+    @apply rounded-2xl border border-line bg-white shadow-card;
+    background-image: linear-gradient(180deg, rgba(16, 185, 129, 0.05), transparent 45%);
     transition:
       border-color 0.25s ease,
       box-shadow 0.25s ease,
       transform 0.25s ease;
   }
   .card:hover {
-    border-color: rgba(52, 211, 153, 0.45);
-    box-shadow: 0 18px 48px -20px rgba(0, 0, 0, 0.85), 0 0 28px -10px rgba(52, 211, 153, 0.25);
+    border-color: rgba(16, 185, 129, 0.5);
+    box-shadow: 0 18px 44px -20px rgba(40, 60, 50, 0.4), 0 0 24px -12px rgba(16, 185, 129, 0.35);
   }
 
   .btn {
     @apply relative inline-flex select-none items-center justify-center gap-2 rounded-xl px-6 py-3 font-semibold transition-all duration-200;
     box-shadow:
-      0 4px 0 0 rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.16);
+      0 4px 0 0 rgba(40, 60, 50, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
   }
   .btn:active {
     transform: translateY(2px);
     box-shadow:
-      0 1px 0 0 rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      0 1px 0 0 rgba(40, 60, 50, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.6);
   }
   .btn:disabled {
     @apply cursor-not-allowed opacity-50;
@@ -130,36 +130,36 @@ body::after {
   }
 
   .btn-primary {
-    @apply btn bg-accent-strong text-[#04110b];
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 55%);
+    @apply btn bg-accent-strong text-white;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 55%);
   }
   .btn-secondary {
-    @apply btn border border-line bg-elevated text-ink;
+    @apply btn border border-line bg-white text-ink;
   }
   .btn-gold {
-    @apply btn bg-gold text-[#241a00];
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0) 55%);
+    @apply btn bg-gold text-white;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0) 55%);
     box-shadow:
-      0 4px 0 0 rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.4),
-      0 0 22px -6px rgba(245, 158, 11, 0.5);
+      0 4px 0 0 rgba(40, 60, 50, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.45),
+      0 0 22px -6px rgba(200, 150, 30, 0.45);
   }
   .btn-gold:active {
     box-shadow:
-      0 1px 0 0 rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.3),
-      0 0 12px -6px rgba(245, 158, 11, 0.4);
+      0 1px 0 0 rgba(40, 60, 50, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35),
+      0 0 12px -6px rgba(200, 150, 30, 0.35);
   }
 
   /* Kept for component compatibility */
   .btn-accent {
-    @apply btn bg-accent-strong text-[#04110b];
+    @apply btn bg-accent-strong text-white;
   }
   .btn-ghost {
-    @apply btn border border-line bg-elevated text-ink;
+    @apply btn border border-line bg-white text-ink;
   }
   .btn-royal {
-    @apply btn bg-gold text-[#241a00];
+    @apply btn bg-gold text-white;
   }
   .card-3d {
     @apply card;
@@ -171,11 +171,11 @@ body::after {
     color: transparent;
   }
   .text-glow {
-    text-shadow: 0 0 24px rgba(52, 211, 153, 0.55);
+    text-shadow: 0 0 20px rgba(16, 185, 129, 0.35);
   }
 
   .text-gradient {
-    background: linear-gradient(120deg, #34d399 0%, #6ee7b7 45%, #a7f3d0 100%);
+    background: linear-gradient(120deg, #0e9e6e 0%, #14734f 55%, #0b3d2e 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -189,8 +189,8 @@ body::after {
     position: relative;
     overflow: hidden;
     border-radius: 999px;
-    background: #070d0a;
-    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.6);
+    background: #eae4d8;
+    box-shadow: inset 0 2px 6px rgba(40, 60, 50, 0.12);
   }
   .cyl-bar-fill {
     position: relative;
@@ -230,7 +230,7 @@ body::after {
   position: absolute;
   width: 12px;
   height: 12px;
-  background: #12201a;
+  background: #1a3a2b;
   clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
 }
 .football::before {
@@ -241,7 +241,7 @@ body::after {
   top: 32px;
   left: 10px;
   transform: scale(0.8) rotate(30deg);
-  box-shadow: 22px 8px 0 0 #12201a;
+  box-shadow: 22px 8px 0 0 #1a3a2b;
 }
 .football-shadow {
   width: 46px;

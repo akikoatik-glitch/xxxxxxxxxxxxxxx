@@ -2,14 +2,25 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Send, ShieldAlert, TrendingUp } from "lucide-react";
+import { Send, ShieldAlert, TrendingUp, Newspaper, BarChart3, Trophy, Users } from "lucide-react";
 import { siteConfig } from "@/lib/config";
 
 const PRODUCT_LINKS = [
-  { href: "/predictions", label: "Today's Predictions" },
-  { href: "/leagues", label: "Leagues" },
-  { href: "/teams", label: "Teams" },
-  { href: "/stats", label: "Model Performance" }
+  { href: siteConfig.links.home, label: "Home", icon: null },
+  { href: siteConfig.links.predictions, label: "Football Predictions", icon: null },
+  { href: siteConfig.links.news, label: "Football News", icon: Newspaper },
+  { href: siteConfig.links.leagues, label: "League Standings", icon: null },
+  { href: siteConfig.links.teams, label: "Club Analysis", icon: null },
+  { href: siteConfig.links.stats, label: "Model Performance", icon: BarChart3 }
+];
+
+const NEWS_CATEGORIES = [
+  { href: "/news/category/premier-league", label: "Premier League News" },
+  { href: "/news/category/la-liga", label: "La Liga News" },
+  { href: "/news/category/champions-league", label: "Champions League News" },
+  { href: "/news/category/african", label: "African Football News" },
+  { href: "/news/category/algerian", label: "Algerian Football News" },
+  { href: "/news/category/transfers", label: "Transfer News" }
 ];
 
 const RESOURCES = [
@@ -42,20 +53,21 @@ export function Footer() {
   }
 
   return (
-    <footer className="relative z-10 mt-24 border-t border-line/70 bg-surface/40 backdrop-blur-xl">
+    <footer className="relative z-10 mt-24 border-t border-pitch-700/60 bg-pitch-900 backdrop-blur-xl">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          {/* Brand */}
           <div>
-            <Link href="/" className="font-display text-xl tracking-wider">
-              <span className="font-bold">XWHIZ</span>{" "}
-              <span className="font-medium text-accent">.COM</span>
+            <Link href={siteConfig.links.home} className="font-display text-xl tracking-wider">
+              <span className="font-bold text-white">XWHIZ</span>{" "}
+              <span className="font-medium text-grass-400">.COM</span>
             </Link>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-mute">
-              Free football predictions built on a transparent Poisson xG model with honest confidence
-              ratings — no paywalls, no hype.
+            <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/55">
+              Football predictions and worldwide football news — AI-driven analytics, live
+              data, transparent models and fresh daily stories.
             </p>
-            <div className="mt-4 flex items-center gap-2 text-xs text-mute">
-              <ShieldAlert className="h-4 w-4 shrink-0 text-warning" />
+            <div className="mt-4 flex items-center gap-2 text-xs text-white/45">
+              <ShieldAlert className="h-4 w-4 shrink-0 text-amber-400" />
               <span>
                 Predictions are statistical estimates, not guarantees. Never risk money you cannot
                 afford to lose. 18+.
@@ -63,12 +75,18 @@ export function Footer() {
             </div>
           </div>
 
+          {/* Football News */}
           <div>
-            <h4 className="font-display text-sm font-bold uppercase tracking-widest text-ink">Product</h4>
+            <h4 className="font-display text-sm font-bold uppercase tracking-widest text-white">
+              <span className="flex items-center gap-2">
+                <Newspaper className="h-4 w-4 text-grass-400" />
+                Football News
+              </span>
+            </h4>
             <ul className="mt-4 space-y-2.5">
-              {PRODUCT_LINKS.map((l) => (
+              {NEWS_CATEGORIES.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="text-sm text-mute transition-colors hover:text-accent">
+                  <Link href={l.href} className="text-sm text-white/55 transition-colors hover:text-grass-400">
                     {l.label}
                   </Link>
                 </li>
@@ -76,73 +94,92 @@ export function Footer() {
             </ul>
           </div>
 
+          {/* Predictions */}
           <div>
-            <h4 className="font-display text-sm font-bold uppercase tracking-widest text-ink">Resources</h4>
+            <h4 className="font-display text-sm font-bold uppercase tracking-widest text-white">
+              <span className="flex items-center gap-2">
+                <Trophy className="h-4 w-4 text-grass-400" />
+                Predictions &amp; Stats
+              </span>
+            </h4>
             <ul className="mt-4 space-y-2.5">
-              {RESOURCES.map((l) => (
+              {PRODUCT_LINKS.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="text-sm text-mute transition-colors hover:text-accent">
+                  <Link href={l.href} className="text-sm text-white/55 transition-colors hover:text-grass-400">
                     {l.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <div className="mt-4 flex items-center gap-2 text-xs text-mute">
-              <TrendingUp className="h-4 w-4 shrink-0 text-accent" />
+          </div>
+
+          {/* Resources + Partner */}
+          <div>
+            <h4 className="font-display text-sm font-bold uppercase tracking-widest text-white">
+              Resources
+            </h4>
+            <ul className="mt-4 space-y-2.5">
+              {RESOURCES.map((l) => (
+                <li key={l.label}>
+                  <Link href={l.href} className="text-sm text-white/55 transition-colors hover:text-grass-400">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-5 flex items-center gap-2 text-xs text-white/45">
+              <TrendingUp className="h-4 w-4 shrink-0 text-grass-400" />
               <span>
                 Betting partner:{" "}
                 <a
                   href={siteConfig.affiliate.url}
                   rel="sponsored noopener nofollow"
-                  className="text-accent hover:underline"
+                  className="text-grass-400 hover:underline"
                 >
                   {siteConfig.affiliate.label}
                 </a>{" "}
-                · promo <span className="font-mono">{siteConfig.affiliate.promoCode}</span>
+                · promo <span className="font-mono text-gold">{siteConfig.affiliate.promoCode}</span>
               </span>
             </div>
-          </div>
 
-          <div>
-            <h4 className="font-display text-sm font-bold uppercase tracking-widest text-ink">
-              Free Weekly Picks
+            {/* Newsletter */}
+            <h4 className="mt-6 font-display text-sm font-bold uppercase tracking-widest text-white">
+              Weekly Picks
             </h4>
-            <p className="mt-4 text-sm text-mute">
-              A round-up of our highest-confidence predictions every week, straight to your inbox.
+            <p className="mt-2 text-sm text-white/50">
+              Highest-confidence picks every week, straight to your inbox.
             </p>
-            <form onSubmit={subscribe} className="mt-4 flex gap-2">
-              <label htmlFor="footer-email" className="sr-only">
-                Email address
-              </label>
+            <form onSubmit={subscribe} className="mt-3 flex gap-2">
+              <label htmlFor="footer-newsletter" className="sr-only">Email</label>
               <input
-                id="footer-email"
+                id="footer-newsletter"
                 type="email"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="you@email.com"
-                className="w-full rounded-lg border border-line bg-elevated px-3 py-2.5 text-sm text-ink outline-none transition-colors placeholder:text-mute focus:border-accent/60"
+                className="w-full rounded-lg border border-white/15 bg-white/10 px-3 py-2.5 text-sm text-white outline-none transition-colors placeholder:text-white/40 focus:border-grass-400"
               />
               <button
                 type="submit"
                 disabled={status === "loading"}
-                className="btn-primary !px-3.5 !py-2.5"
+                className="rounded-lg bg-grass-500 px-3.5 py-2.5 font-semibold text-white transition-colors hover:bg-grass-400"
                 aria-label="Subscribe"
               >
                 <Send className="h-4 w-4" />
               </button>
             </form>
-            {status === "ok" && <p className="mt-2 text-xs text-success">Subscribed. Check your inbox.</p>}
-            {status === "error" && <p className="mt-2 text-xs text-danger">Something went wrong. Try again.</p>}
+            {status === "ok" && <p className="mt-2 text-xs text-grass-300">Subscribed. Check your inbox.</p>}
+            {status === "error" && <p className="mt-2 text-xs text-red">Something went wrong. Try again.</p>}
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-line/60 pt-6 text-xs text-mute sm:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-white/40 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
           </p>
           <p className="font-mono">
-            Model: {siteConfig.modelVersion} · For entertainment purposes only
+            Model: {siteConfig.modelVersion} &middot; For entertainment purposes only
           </p>
         </div>
       </div>

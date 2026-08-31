@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "XWhiz",
   tagline: "Football Predictions · AI Analytics",
   description:
-    "Free AI-driven football predictions for the Premier League, La Liga, Serie A, Bundesliga and Ligue 1 — 1X2 probabilities, predicted scores, model fair odds and transparent confidence, built from real match data.",
+    "Free AI-driven football predictions for the Premier League, La Liga, Serie A, Bundesliga and Ligue 1 — 1X2 probabilities, predicted scores, model fair odds and transparent confidence, plus worldwide football news and the latest transfer updates, built from real match data.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.xwhiz.com",
   modelVersion: "XWhiz Poisson v3.0",
   coverage:
@@ -13,6 +13,8 @@ export const siteConfig = {
     url: "https://refpa3665.com/L?tag=d_5217846m_2170c_&site=5217846&ad=2170"
   },
   links: {
+    home: "/",
+    news: "/news",
     predictions: "/predictions",
     leagues: "/leagues",
     teams: "/teams",

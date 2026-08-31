@@ -6,6 +6,7 @@ import {
   Features,
   AffiliateBanner
 } from "@/components/home/sections";
+import { HomeNewsStrip } from "@/components/home/home-news";
 import { FeaturedPredictions } from "@/components/home/featured-predictions";
 import { WebSiteJsonLd, ItemListJsonLd } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/config";
@@ -44,6 +45,7 @@ export default async function HomePage() {
       <StatsStrip />
       <FeaturedPredictions />
       <LeaguesStrip />
+      <HomeNewsStrip />
       <HowItWorks />
       <Features />
       <AffiliateBanner />

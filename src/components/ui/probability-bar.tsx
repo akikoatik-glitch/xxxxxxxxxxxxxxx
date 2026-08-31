@@ -19,7 +19,7 @@ export function ProbabilityBar({ probabilities, showLegend = true, className }: 
 
   return (
     <div className={className}>
-      <div className="cyl-bar flex h-4 w-full gap-px bg-[#070d0a] p-0">
+      <div className="cyl-bar flex h-4 w-full gap-px p-0">
         {segments.map((s) => (
           <motion.div
             key={s.key}

@@ -3,6 +3,10 @@
     {
       "path": "/api/football/sync",
       "schedule": "5 5 * * *"
+    },
+    {
+      "path": "/api/news/refresh",
+      "schedule": "35 5,11,17,23 * * *"
     }
   ]
 }

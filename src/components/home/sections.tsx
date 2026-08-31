@@ -16,7 +16,7 @@ import { getHomeOverview } from "@/lib/predictions";
 import { getUpcomingMatches } from "@/data/service";
 import { siteConfig } from "@/lib/config";
 
-const STAT_TONES = ["text-accent", "text-white", "text-gold", "text-accent"] as const;
+const STAT_TONES = ["text-accent", "text-pitch-900", "text-gold", "text-accent"] as const;
 
 export async function StatsStrip() {
   const overview = await getHomeOverview();
@@ -123,7 +123,7 @@ export function HowItWorks() {
         {steps.map((step, i) => (
           <div key={step.title} className="animate-fade-up" style={{ animationDelay: `${i * 90}ms` }}>
             <GlassCard className="group relative h-full overflow-hidden">
-              <div className="absolute -right-6 -top-6 font-display text-8xl font-black text-elevated transition-colors group-hover:text-accent/10">
+              <div className="absolute -right-6 -top-6 font-display text-8xl font-black text-[#ece5d6] transition-colors group-hover:text-accent/15">
                 {i + 1}
               </div>
               <step.icon className="h-10 w-10 text-accent" />
@@ -200,7 +200,7 @@ export function AffiliateBanner() {
             </a>
             <p className="mt-4 max-w-xl text-[11px] leading-relaxed text-mute">
               Disclosure: this is a {siteConfig.affiliate.label} affiliate link. If you sign up through
-              it, XWhiz Lite may earn a commission at no extra cost to you. Predictions are
+              it, XWhiz may earn a commission at no extra cost to you. Predictions are
               statistical estimates, not guarantees. Football outcomes are unpredictable. Never risk
               money you cannot afford to lose. 18+.
             </p>
