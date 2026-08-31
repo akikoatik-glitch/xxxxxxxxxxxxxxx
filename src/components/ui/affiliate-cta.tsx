@@ -48,7 +48,8 @@ export function AffiliateCta({ className }: { className?: string }) {
 
         <a
           href={url}
-          rel="sponsored noopener nofollow"
+          target="_blank"
+          rel="sponsored noopener noreferrer nofollow"
           className="btn-gold shrink-0 text-center sm:px-7"
         >
           Visit {label} · Use{" "}

@@ -192,7 +192,8 @@ export function AffiliateBanner() {
             </p>
             <a
               href={siteConfig.affiliate.url}
-              rel="sponsored noopener nofollow"
+              target="_blank"
+              rel="sponsored noopener noreferrer nofollow"
               className="btn-gold mt-6"
             >
               Visit {siteConfig.affiliate.label}

@@ -236,7 +236,8 @@ export default async function MatchPage({ params }: { params: { id: string } }) 
           Our betting partner{" "}
           <a
             href={siteConfig.affiliate.url}
-            rel="sponsored noopener nofollow"
+            target="_blank"
+            rel="sponsored noopener noreferrer nofollow"
             className="font-semibold text-accent underline decoration-dotted underline-offset-2"
           >
             {siteConfig.affiliate.label}
@@ -245,7 +246,7 @@ export default async function MatchPage({ params }: { params: { id: string } }) 
           <span className="font-mono font-semibold text-ink">{siteConfig.affiliate.promoCode}</span>. We may
           earn a commission if you sign up.
         </p>
-        <a href={siteConfig.affiliate.url} rel="sponsored noopener nofollow" className="btn-gold mt-4">
+        <a href={siteConfig.affiliate.url} target="_blank" rel="sponsored noopener noreferrer nofollow" className="btn-gold mt-4">
           Check odds at {siteConfig.affiliate.label}
           <ExternalLink className="h-4 w-4" />
         </a>

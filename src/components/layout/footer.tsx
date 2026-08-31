@@ -133,7 +133,8 @@ export function Footer() {
                 Betting partner:{" "}
                 <a
                   href={siteConfig.affiliate.url}
-                  rel="sponsored noopener nofollow"
+                  target="_blank"
+                  rel="sponsored noopener noreferrer nofollow"
                   className="text-grass-400 hover:underline"
                 >
                   {siteConfig.affiliate.label}
