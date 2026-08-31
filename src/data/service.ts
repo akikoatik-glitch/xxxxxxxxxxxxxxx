@@ -1,4 +1,5 @@
 import { openfootballProvider, type NormalizedSeason } from "@/data/providers/openfootball";
+import { apiFootballProvider, apiFootballEnabled } from "@/data/providers/apifootball";
 import { LEAGUE_BY_ID, FOOTBALL_LEAGUES, currentSeasonLabel, previousSeasonLabel } from "@/data/leagues";
 import type { DataStatus, FBMatch, FBTeam, StandingRow, TeamMatchStats } from "@/data/types";
 import { dateKeyUtcFromUtc } from "@/data/time";
@@ -83,7 +84,7 @@ function matches(): FBMatch[] {
 
 export function dataStatus(): DataStatus {
   return {
-    provider: "openfootball/football.json",
+    provider: apiFootballEnabled() ? "api-football" : "openfootball/football.json",
     status: state.dataStatus,
     lastSyncAt: state.lastSyncAt,
     loadedSeasons: [...new Set(matches().map((m) => m.season))],
@@ -324,15 +325,30 @@ export function getHeadToHead(teamIdA: string, teamIdB: string, count = 8): FBMa
 /** Replace the in-memory index with freshly fetched real data (used by the sync route). */
 export async function refresh(): Promise<SyncReport> {
   const seasons = [currentSeasonLabel(), previousSeasonLabel(currentSeasonLabel())];
+  const usingApi = apiFootballEnabled();
   const next: NormalizedSeason[] = [];
   for (const season of seasons) {
-    await openfootballProvider.refresh(season);
-    next.push(await openfootballProvider.get(season));
+    let normalized: NormalizedSeason | null = null;
+    if (usingApi) {
+      // Live data via API-Football. Fall back to openfootball if it yields nothing.
+      await apiFootballProvider.refresh(season);
+      const apiResult = await apiFootballProvider.get(season);
+      if (apiResult.matches.length > 0) {
+        normalized = apiResult;
+      } else {
+        await openfootballProvider.refresh(season);
+        normalized = await openfootballProvider.get(season);
+      }
+    } else {
+      await openfootballProvider.refresh(season);
+      normalized = await openfootballProvider.get(season);
+    }
+    if (normalized) next.push(normalized);
   }
   state = buildState(next, new Date());
   const reportedSeasons = [...new Set(matches().map((m) => m.season))];
   return {
-    provider: "openfootball/football.json",
+    provider: usingApi ? "api-football" : "openfootball/football.json",
     status: state.dataStatus,
     seasons: reportedSeasons,
     matches: state.pool.size,
