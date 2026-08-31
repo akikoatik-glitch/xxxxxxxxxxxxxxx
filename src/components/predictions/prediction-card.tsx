@@ -69,9 +69,14 @@ export function PredictionCard({ item, className }: { item: EnrichedPrediction; 
 
         <footer className="mt-auto flex items-center justify-between border-t border-line/70 pt-4">
           <ConfidenceBadge value={prediction.confidence} />
-          <span className="inline-flex items-center gap-1 text-xs font-semibold text-mute transition-colors group-hover:text-accent">
-            Full analysis <ArrowRight className="h-3.5 w-3.5" />
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="hidden font-mono text-[11px] text-mute sm:inline">
+              O2.5 <span className="text-accent">{prediction.over25.toFixed(0)}%</span>
+            </span>
+            <span className="inline-flex items-center gap-1 text-xs font-semibold text-mute transition-colors group-hover:text-accent">
+              Full analysis <ArrowRight className="h-3.5 w-3.5" />
+            </span>
+          </div>
         </footer>
       </Link>
     </article>

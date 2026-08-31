@@ -11,7 +11,8 @@ const LINKS = [
   { href: "/predictions", label: "Predictions" },
   { href: "/leagues", label: "Leagues" },
   { href: "/teams", label: "Teams" },
-  { href: "/stats", label: "Model Stats" }
+  { href: "/stats", label: "Model Stats" },
+  { href: "/#how-it-works", label: "How It Works" }
 ];
 
 export function Navbar() {
@@ -47,7 +48,7 @@ export function Navbar() {
           </span>
           <span className="font-display text-lg tracking-wider">
             <span className="font-bold text-ink">XWHIZ</span>
-            <span className="font-medium text-accent"> LITE</span>
+            <span className="font-medium text-accent"> .COM</span>
           </span>
         </Link>
 

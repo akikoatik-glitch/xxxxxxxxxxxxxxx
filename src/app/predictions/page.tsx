@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PredictionsExplorer } from "@/components/predictions/predictions-explorer";
+import { AffiliateCta } from "@/components/ui/affiliate-cta";
 import { getUpcomingPredictions } from "@/lib/predictions";
 
 export const metadata: Metadata = {
@@ -29,6 +30,7 @@ export default async function PredictionsPage({
           confidence. Filter by league, date, prediction type or team — every pick is free.
         </p>
       </div>
+      <AffiliateCta className="mb-10" />
       <PredictionsExplorer items={items} initialLeague={searchParams?.league} />
     </div>
   );

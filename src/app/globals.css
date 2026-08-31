@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --bg: #080d0a;
-  --surface: #0c1410;
-  --elevated: #14201a;
-  --line: #1e3027;
+  --bg: #050806;
+  --surface: #0a110d;
+  --elevated: #101b15;
+  --line: #1c2f25;
   --accent: #34d399;
   --accent-strong: #10b981;
   --gold: #f5c518;
   --success: #34d399;
   --warning: #f59e0b;
   --danger: #f06057;
-  --ink: #edf7f2;
-  --mute: #8ca39a;
+  --ink: #eefbf4;
+  --mute: #8fa79d;
 }
 
 html {
@@ -36,9 +36,10 @@ body::before {
   z-index: -3;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 80% 55% at 50% -10%, rgba(16, 185, 129, 0.12), transparent 65%),
-    radial-gradient(ellipse 60% 45% at 88% 105%, rgba(16, 185, 129, 0.06), transparent 60%),
-    linear-gradient(180deg, #070c09 0%, var(--bg) 45%, #060a08 100%);
+    radial-gradient(ellipse 90% 60% at 50% -12%, rgba(16, 185, 129, 0.16), transparent 65%),
+    radial-gradient(ellipse 55% 45% at 100% 0%, rgba(52, 211, 153, 0.08), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 0% 108%, rgba(245, 197, 24, 0.05), transparent 60%),
+    linear-gradient(180deg, #050907 0%, var(--bg) 40%, #040706 100%);
 }
 
 /* Faint football pitch grid */
@@ -85,28 +86,37 @@ body::after {
 
 @layer components {
   .glass {
-    @apply rounded-2xl border border-line bg-surface/90;
+    @apply rounded-2xl border border-line/80 bg-surface/85;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.04),
+      0 20px 50px -24px rgba(0, 0, 0, 0.8);
   }
 
   .glass-elevated {
-    @apply rounded-2xl border border-line bg-elevated/90;
+    @apply rounded-2xl border border-line/80 bg-elevated/90;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.05),
+      0 24px 60px -24px rgba(0, 0, 0, 0.85);
   }
 
   .card {
-    @apply rounded-2xl border border-line bg-surface shadow-card;
+    @apply rounded-2xl border border-line/80 bg-surface shadow-card;
+    background-image: linear-gradient(180deg, rgba(52, 211, 153, 0.05), transparent 45%);
     transition:
       border-color 0.25s ease,
-      box-shadow 0.25s ease;
+      box-shadow 0.25s ease,
+      transform 0.25s ease;
   }
   .card:hover {
-    border-color: rgba(52, 211, 153, 0.4);
+    border-color: rgba(52, 211, 153, 0.45);
+    box-shadow: 0 18px 48px -20px rgba(0, 0, 0, 0.85), 0 0 28px -10px rgba(52, 211, 153, 0.25);
   }
 
   .btn {
     @apply relative inline-flex select-none items-center justify-center gap-2 rounded-xl px-6 py-3 font-semibold transition-all duration-200;
     box-shadow:
       0 4px 0 0 rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.14);
+      inset 0 1px 0 rgba(255, 255, 255, 0.16);
   }
   .btn:active {
     transform: translateY(2px);
@@ -121,12 +131,24 @@ body::after {
 
   .btn-primary {
     @apply btn bg-accent-strong text-[#04110b];
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 55%);
   }
   .btn-secondary {
     @apply btn border border-line bg-elevated text-ink;
   }
   .btn-gold {
     @apply btn bg-gold text-[#241a00];
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0) 55%);
+    box-shadow:
+      0 4px 0 0 rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.4),
+      0 0 22px -6px rgba(245, 158, 11, 0.5);
+  }
+  .btn-gold:active {
+    box-shadow:
+      0 1px 0 0 rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3),
+      0 0 12px -6px rgba(245, 158, 11, 0.4);
   }
 
   /* Kept for component compatibility */
@@ -143,17 +165,17 @@ body::after {
     @apply card;
   }
   .text-gradient-gold {
-    background: linear-gradient(120deg, #f5c518 0%, #f59e0b 100%);
+    background: linear-gradient(120deg, #f8d94f 0%, #f5a623 60%, #f59e0b 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
   .text-glow {
-    text-shadow: 0 0 22px rgba(52, 211, 153, 0.5);
+    text-shadow: 0 0 24px rgba(52, 211, 153, 0.55);
   }
 
   .text-gradient {
-    background: linear-gradient(120deg, #34d399 0%, #a7f3d0 100%);
+    background: linear-gradient(120deg, #34d399 0%, #6ee7b7 45%, #a7f3d0 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

@@ -6,7 +6,7 @@ Disallow: /api
 Disallow: /dashboard
 
 # Host
-Host: https://xwhizliteeeeeeeeeeee.vercel.app
+Host: https://www.xwhiz.com
 
 # Sitemaps
-Sitemap: https://xwhizliteeeeeeeeeeee.vercel.app/sitemap.xml
+Sitemap: https://www.xwhiz.com/sitemap.xml

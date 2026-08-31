@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://xwhizliteeeeeeeeeeee.vercel.app",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.xwhiz.com",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ["/admin", "/admin/*", "/api/*", "/dashboard"],

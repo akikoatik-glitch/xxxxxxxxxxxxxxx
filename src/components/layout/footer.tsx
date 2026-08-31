@@ -14,8 +14,9 @@ const PRODUCT_LINKS = [
 
 const RESOURCES = [
   { href: "/stats", label: "Accuracy Reports" },
-  { href: "/predictions", label: "Value Bet Finder" },
-  { href: "/predictions", label: "Daily Value Picks" },
+  { href: "/leagues", label: "League Standings" },
+  { href: "/teams", label: "Club Analysis" },
+  { href: "/#how-it-works", label: "How It Works" },
   { href: "/admin", label: "System Status" }
 ];
 
@@ -47,7 +48,7 @@ export function Footer() {
           <div>
             <Link href="/" className="font-display text-xl tracking-wider">
               <span className="font-bold">XWHIZ</span>{" "}
-              <span className="font-medium text-accent">LITE</span>
+              <span className="font-medium text-accent">.COM</span>
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-mute">
               Free football predictions built on a transparent Poisson xG model with honest confidence

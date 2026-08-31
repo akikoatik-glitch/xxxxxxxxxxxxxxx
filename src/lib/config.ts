@@ -1,15 +1,15 @@
 export const siteConfig = {
-  name: "XWhiz Lite",
-  tagline: "Free Football Predictions",
+  name: "XWhiz",
+  tagline: "Football Predictions · AI Analytics",
   description:
-    "Free football predictions for the Premier League, La Liga, Serie A, Bundesliga and Ligue 1 — 1X2 probabilities, predicted scores and transparent confidence, built from real match data.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://xwhizliteeeeeeeeeeee.vercel.app",
+    "Free AI-driven football predictions for the Premier League, La Liga, Serie A, Bundesliga and Ligue 1 — 1X2 probabilities, predicted scores, model fair odds and transparent confidence, built from real match data.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.xwhiz.com",
   modelVersion: "XWhiz Poisson v3.0",
   coverage:
     "XWhiz analyzes the top 5 European domestic leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1). Predictions are for entertainment and information only.",
   affiliate: {
     label: "Melbet",
-    promoCode: "kikos77",
+    promoCode: "KIKOS77",
     url: "https://refpa3665.com/L?tag=d_5217846m_2170c_&site=5217846&ad=2170"
   },
   links: {
