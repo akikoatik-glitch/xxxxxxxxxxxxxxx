@@ -1,0 +1,20 @@
+/* XWhiz — Arabic (RTL) overrides. Loaded only on /ar/ pages. */
+html[lang="ar"] body { font-family: 'Tajawal', 'Inter', system-ui, sans-serif; }
+
+html[dir="rtl"] .tracking-tight,
+html[dir="rtl"] .tracking-widest,
+html[dir="rtl"] .tracking-wider { letter-spacing: 0 !important; }
+
+html[dir="rtl"] .text-left { text-align: right; }
+html[dir="rtl"] .text-right { text-align: left; }
+
+html[dir="rtl"] table th { text-align: right; }
+html[dir="rtl"] table td { text-align: right; }
+html[dir="rtl"] .divide-x > :not([hidden]) ~ :not([hidden]) { border-left-width: 0; border-right-width: 1px; }
+
+html[dir="rtl"] .list-disc { padding-left: 0; padding-right: 1.25rem; }
+
+/* Move the mobile dropdown so it stays under the burger in RTL (burger is on the left). */
+html[dir="rtl"] header details > div.absolute { right: auto; left: 0; }
+
+html[dir="rtl"] .space-x-reverse { --tw-space-x-reverse: 1; }

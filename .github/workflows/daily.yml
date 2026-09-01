@@ -1,0 +1,39 @@
+name: Daily Predictions Update
+on:
+  schedule:
+    - cron: '0 6 * * *' # Runs every day at 06:00 UTC (entire season)
+  workflow_dispatch: # Allow manual run from GitHub button
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Fetch all football data (today/tomorrow/upcoming/yesterday - real data only)
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          MELBET_LINK: ${{ secrets.MELBET_LINK }}
+        run: node scripts/fetch_football.js
+      - name: Generate daily predictions (always, with Dixon-Coles)
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          MELBET_LINK: ${{ secrets.MELBET_LINK }}
+        run: node scripts/generate-predictions.js
+      - name: Fetch daily sports news (real ESPN API, no fake)
+        run: node scripts/fetch_news.js
+      - name: Rebuild multilingual site (predictions pages, hubs, search, sitemap)
+        run: node scripts/sitegen.js
+      - name: Regenerate site.css from generated pages
+        run: node scripts/build_css.js
+      - name: Commit and push if changed
+        run: |
+          git config user.name "XWhiz Bot"
+          git config user.email "bot@xwhiz.com"
+          git add -A
+          git diff --staged --quiet || (git commit -m "Auto: daily predictions & news $(date +%Y-%m-%d)" && git push)
