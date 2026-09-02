@@ -1,81 +1,93 @@
 {
-  "lastUpdate": "2026-08-28T00:59:53.799Z",
+  "lastUpdate": "2026-09-02T06:05:17.056Z",
   "news": [
     {
-      "title": "Champions League draw: Good games for Liverpool, bad for Barcelona",
-      "league": "Champions League",
-      "time": "-1h ago",
-      "published": "2026-08-27T21:44:22.000Z",
-      "excerpt": "The Champions League is back! So let's unpack all the must-see games, winners and losers, and talking points from Thursday's draw for the 20",
+      "title": "Monfils, 40, oldest man to win US Open match since Connors in '92",
+      "league": "Tennis • ATP",
+      "time": "2h ago",
+      "published": "2026-09-02T03:08:50.000Z",
+      "excerpt": "Gael Monfils, playing on his 40th birthday, beat Adolfo Daniel Vallejo in four sets Tuesday night to become the oldest man to win a US Open ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49740823/uefa-champions-league-draw-reaction-analysis-liverpool-barcelona-psg-man-city-arsenal-real-madrid",
-      "image": "https://a.espncdn.com/photo/2026/0827/r1707753_1296x729_16-9.jpg",
-      "category": "football"
+      "url": "https://www.espn.com/tennis/story/_/id/49798949/gael-monfils-40th-birthday-oldest-man-win-us-open-match-jimmy-connors-1992",
+      "image": "https://a.espncdn.com/photo/2026/0902/r1710233_600x400_3-2.jpg",
+      "category": "tennis"
     },
     {
-      "title": "Rodri debuts as Barcelona beat Athletic to continue hot start",
-      "league": "La Liga",
-      "time": "-1h ago",
-      "published": "2026-08-27T21:31:08.000Z",
-      "excerpt": "Rodri made a winning return to LaLiga as Barcelona beat Athletic Club 2-0 at Camp Nou on Thursday thanks to goals from Raphinha and Fermín L",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401882921",
-      "image": "https://a.espncdn.com/photo/2026/0827/r1707835_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Barcelona vs. Athletic Club - Game Highlights",
-      "league": "La Liga",
-      "time": "-1h ago",
-      "published": "2026-08-27T21:10:28.000Z",
-      "excerpt": "Watch the Game Highlights from Barcelona vs. Athletic Club, 08/27/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49746297/barcelona-vs-athletic-club-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0827/430d0db1-c0f6-4d5f-b0d1-ba524c8e6598/430d0db1-c0f6-4d5f-b0d1-ba524c8e6598.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Arsenal eye move for Marseille's Paixão",
+      "title": "Summer transfer window: Grading big signings in men's soccer",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-08-27T20:32:42.000Z",
-      "excerpt": "Arsenal are reportedly keen on signing Marseille winger Igor Paixão. Transfer Talk has the latest.",
+      "time": "3h ago",
+      "published": "2026-09-02T02:58:49.000Z",
+      "excerpt": "The 2026 summer transfer window has closed. Here is how we rated the biggest deals.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49739360/transfer-rumors-news-arsenal-man-city-fight-everton-winger-ndiaye",
-      "image": "https://a.espncdn.com/photo/2026/0827/r1707803_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer",
+      "image": "https://a.espncdn.com/photo/2026/0831/r1709704_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Premier League: Man City stun rivals",
+      "title": "2026 NBA buzz: Latest free agency and trade updates",
+      "league": "Basketball • NBA",
+      "time": "6h ago",
+      "published": "2026-09-01T23:55:23.000Z",
+      "excerpt": "We're tracking deals, trades and buzz across the NBA, including the latest on Jonathan Kuminga.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason",
+      "image": "https://a.espncdn.com/photo/2026/0826/r1707368_576x324_16-9.jpg",
+      "category": "basketball"
+    },
+    {
+      "title": "Arthur Fery falls short of Wimbledon heroics in early US Open defeat",
+      "league": "Tennis • ATP",
+      "time": "6h ago",
+      "published": "2026-09-01T23:06:16.000Z",
+      "excerpt": "Wimbledon hero Arthur Fery fell back to earth on Tuesday as he was beaten 6-3, 6-3, 7-5 on his US Open debut by Italian 13th seed Lorenzo Mu",
+      "source": "ESPN",
+      "url": "https://www.espn.com/tennis/story/_/id/49797300/arthur-fery-falls-short-wimbledon-heroics-early-us-open-defeat-tennis",
+      "image": "https://a.espncdn.com/photo/2026/0901/r1710161_1296x729_16-9.jpg",
+      "category": "tennis"
+    },
+    {
+      "title": "Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City",
       "league": "Premier League",
-      "time": "8h ago",
-      "excerpt": "Top flight thriller, xG analysis inside.",
-      "source": "BBC Sport",
-      "image": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400"
+      "time": "7h ago",
+      "published": "2026-09-01T23:03:38.000Z",
+      "excerpt": "We recap the latest news, rumors, done deals and reaction throughout Europe's transfer deadline day, up to the Premier League window closing",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49746632/live-transfer-window-rumors-news-updates-deadline-day-premier-league-laliga-bundesliga-serie-ligue-1",
+      "image": "https://a.espncdn.com/photo/2026/0901/r1710167_1296x729_16-9.jpg",
+      "category": "football"
     },
     {
-      "title": "La Liga: Real Madrid star returns",
-      "league": "La Liga",
-      "time": "9h ago",
-      "excerpt": "Team news and predicted XI for tonight.",
-      "source": "Marca",
-      "image": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400"
+      "title": "76ers sign 7-foot-6 center Tacko Fall, others to camp deal",
+      "league": "Basketball • NBA",
+      "time": "10h ago",
+      "published": "2026-09-01T19:46:43.000Z",
+      "excerpt": "The Philadelphia 76ers have signed Tacko Fall, Jameer Nelson Jr. and Saint Thomas to Exhibit 10 contracts.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/nba/story/_/id/49795456/76ers-sign-7-foot-6-center-tacko-fall-others-camp-deal",
+      "image": "https://a.espncdn.com/photo/2019/1026/r618633_600x400_3-2.jpg",
+      "category": "basketball"
     },
     {
-      "title": "Champions League: Draw reveals heavyweight clash",
+      "title": "EFL criticises UEFA after rescheduling three domestic fixtures",
       "league": "Champions League",
-      "time": "11h ago",
-      "excerpt": "UCL group stage heats up.",
-      "source": "UEFA",
-      "image": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400"
+      "time": "31/08/2026",
+      "published": "2026-08-31T17:12:54.000Z",
+      "excerpt": "The English Football League has accused UEFA of an \"unwillingness to cooperate\" after it says the European governing body's stance forced th",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49783362/efl-criticises-uefa-rescheduling-three-domestic-fixtures",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707643_1296x729_16-9.jpg",
+      "category": "football"
     },
     {
-      "title": "Serie A: Derby ends level",
-      "league": "Serie A",
-      "time": "12h ago",
-      "excerpt": "Derby della Madonnina report.",
-      "source": "Gazzetta",
-      "image": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400"
+      "title": "Aston Villa's Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund",
+      "league": "Champions League",
+      "time": "29/08/2026",
+      "published": "2026-08-29T21:11:27.000Z",
+      "excerpt": "Aston Villa have been handed a tough draw in the league phase of the Champions League with a trip to Barcelona and a home clash against back",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49659323/aston-villa-champions-league-draw-paris-saint-germain-barcelona-borussia-dortmund",
+      "image": "https://a.espncdn.com/photo/2026/0319/r1630909_1296x729_16-9.jpg",
+      "category": "football"
     }
   ]
 }
