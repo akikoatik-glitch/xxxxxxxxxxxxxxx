@@ -1,0 +1,17 @@
+# XWhiz
+
+> Independent, statistical football predictions — 1X2, Over/Under 2.5, BTTS and most likely correct score, on real fixtures only. 6 predictions online for today, regenerated daily at 06:00 UTC.
+
+## Entry points
+- Home (EN): https://xwhiz.com/
+- Predictions today (EN): https://xwhiz.com/predictions/
+- Live scores (EN): https://xwhiz.com/live.html
+- Match predictor (runs the model in your browser): https://xwhiz.com/predictor.html
+- Français : https://xwhiz.com/fr/ — pronostics du jour : https://xwhiz.com/fr/predictions/
+- العربية : https://xwhiz.com/ar/ — توقعات اليوم : https://xwhiz.com/ar/predictions/
+
+## Method
+Predictions are produced by a Dixon-Coles adjusted Poisson model combined with Elo ratings, run daily on real fixtures from public sports data (football-data.org). Team strength is blended from Elo ratings and real league standings (attack/defence per game vs league average). The most likely exact score is the argmax of the model's 0–6 goal matrix — scores therefore vary naturally (2-0, 1-2, 3-1, 2-2...) and are never fabricated or forced.
+
+## Disclaimers
+Predictions are statistical analysis for information and entertainment only — they are not a guarantee of profit. 18+, gamble responsibly. Affiliate links (e.g. Melbet) are clearly disclosed.

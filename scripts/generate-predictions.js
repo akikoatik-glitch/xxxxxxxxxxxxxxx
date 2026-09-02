@@ -30,16 +30,19 @@ function slugify(s) {
     .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
-function getAnalysis(home, away, pred) {
-  const analyses = {
-    'Home Win': `${home} won 4 of last 5 home games, averaging 2.1 goals. ${away} missing key defenders, xG 0.9 away. Head-to-head: ${home} unbeaten in 6.`,
-    'BTTS Yes': `Both scored in 5 of last 6 ${home} vs ${away} meetings. ${home} xG 1.6 home, ${away} xG 1.3 away. Defenses leak: ${home} conceded in 4 straight.`,
-    'Over 2.5': `Over 2.5 hit in 4 of last 5 for ${home} (avg 3.2 goals). ${away} high line concedes 1.4/game. Combined xG total 2.9.`,
-    'Draw': `Tight clash: last 3 ${home}-${away} meetings were draws. Both cautious, under 2.5 in 4 of 5 recent games.`,
-    'Away Win': `${away} on a 5-game away win streak, xG 1.9. ${home} winless in 3 at home with midfield injuries.`,
-    'Under 2.5': `Under 2.5 in 4 of last 5 ${home} games, tight defense (0.8 conceded). ${away} low xG 0.9 away.`
+function getAnalysis(home, away, pred, dc) {
+  const top = (dc.topScores && dc.topScores.length)
+    ? ` Expected-goal model: ${dc.lamH}–${dc.lamA}. Most likely scores: ${dc.topScores.map(t => `${t.score} (${t.prob}%)`).join(', ')}.`
+    : '';
+  const base = {
+    'Home Win': `${home} are the stronger side on current data.`,
+    'BTTS Yes': `Both teams are expected to score based on the model's combined xG.`,
+    'Over 2.5': `Combined xG points to a high-scoring game.`,
+    'Draw': `The teams are closely matched on strength data.`,
+    'Away Win': `${away} are the stronger side on current data.`,
+    'Under 2.5': `Combined xG points to a low-scoring game.`
   };
-  return analyses[pred] || `${home} favored by form and xG model.`;
+  return `${base[pred] || `${home} vs ${away} statistical outlook.`}${top}`;
 }
 
 function getBetExplain(pred) {
@@ -70,12 +73,27 @@ function normalizeMatch(m, i) {
       pred: p.pred || p.market1X2.pred, sub: p.sub || p.market1X2.pred, conf: p.conf || p.market1X2.conf,
       odds: p.odds || p.market1X2.odds, value: p.value || '',
       pH: p.market1X2.pH, pD: p.market1X2.pD, pA: p.market1X2.pA,
-      lamH: null, lamA: null,
-      dc: p.doubleChance || null, ou: p.overUnder || null, btts: p.btts || null, cs: p.correctScore || null
+      lamH: (p.xg && p.xg.home) || null, lamA: (p.xg && p.xg.away) || null,
+      dc: p.doubleChance || null, ou: p.overUnder || null, btts: p.btts || null, cs: p.correctScore || null,
+      top: p.topScores || null, ah: p.asianHandicap || null, model: p.model || 'Dixon-Coles v3'
     };
+    const m2 = dixonPredict(home, away);
+    // Old data files may lack matrix-derived markets — fill them from the model
+    // instead of shipping hardcoded 1-1 scores.
+    if (!dc.cs) dc.cs = m2.correctScore;
+    if (!dc.top) dc.top = m2.topScores;
+    if (!dc.ou) dc.ou = m2.overUnder;
+    if (!dc.btts) dc.btts = m2.btts;
+    if (!dc.pH && dc.pH !== 0) { dc.pH = m2.pH; dc.pD = m2.pD; dc.pA = m2.pA; }
+    if (!dc.lamH) { dc.lamH = m2.lamH; dc.lamA = m2.lamA; }
     if (p.whyWin && !p.whyWin.includes('won 4 of last 5')) m._whyReal = p.whyWin;
   } else {
     dc = dixonPredict(home, away);
+    // dixonPredict returns full-named properties; expose the short aliases
+    // the rest of this function reads (cs/ou/top/btts).
+    dc.cs = dc.correctScore;
+    dc.ou = dc.overUnder;
+    dc.top = dc.topScores;
   }
 
   const utcDate = m.utcDate || new Date().toISOString();
@@ -100,7 +118,9 @@ function normalizeMatch(m, i) {
     overUnder: dc.ou || null,
     btts: dc.btts || null,
     correctScore: dc.cs || null,
-    whyWin: m._whyReal || `${getAnalysis(home, away, dc.pred)} Dixon-Coles: P(H)${dc.pH}% D${dc.pD}% A${dc.pA}%${dc.lamH ? ` • xG ${dc.lamH}-${dc.lamA}` : ''}`,
+    topScores: dc.top || null,
+    asianHandicap: dc.ah || null,
+    whyWin: m._whyReal || `${getAnalysis(home, away, dc.pred, dc)} Dixon-Coles: P(H)${dc.pH}% D${dc.pD}% A${dc.pA}%${dc.lamH ? ` • xG ${dc.lamH}-${dc.lamA}` : ''}`,
     betExplain: getBetExplain(dc.pred),
     form: m.form || 'Form data via league table and recent results',
     injuries: m.injuries || 'Lineups confirmed ~1h before kickoff',
@@ -172,8 +192,8 @@ async function main() {
     // No new source available (e.g. running offline without API keys):
     // keep the previous predictions instead of wiping them.
     const prev = readJSON('predictions.json');
-    matches = prev && Array.isArray(prev.matches) ? prev.matches : [];
-    if (matches.length) source = 'previous run (kept)';
+    matches = prev && Array.isArray(prev.matches) ? prev.matches.map(normalizeMatch) : [];
+    if (matches.length) source = 'previous run (re-normalized)';
   }
   console.log(`📦 ${matches.length} matches from ${source || 'no source (empty state)'}`);
 

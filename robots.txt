@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
 Disallow: /404.html
+Disallow: /search.html
+Disallow: /fr/search.html
+Disallow: /ar/search.html
+Disallow: /fr/404.html
+Disallow: /ar/404.html
 
 Sitemap: https://xwhiz.com/sitemap.xml

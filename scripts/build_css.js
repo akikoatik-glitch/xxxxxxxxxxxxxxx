@@ -7,10 +7,15 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const tailwind = require('../wassil/node_modules/tailwindcss');
-const postcss = require('../wassil/node_modules/postcss');
-
 const ROOT = path.resolve(__dirname, '..');
+let tailwind, postcss;
+for (const base of [path.join(ROOT, 'node_modules'), path.join(ROOT, '..', 'wassil', 'node_modules')]) {
+  try { tailwind = require(path.join(base, 'tailwindcss')); postcss = require(path.join(base, 'postcss')); break; } catch (e) { /* try next */ }
+}
+if (!tailwind || !postcss) {
+  console.error('tailwindcss/postcss not found. Run: npm install (root package.json).');
+  process.exit(1);
+}
 const OUT = path.join(ROOT, 'site.css');
 
 function walk(dir, acc = [], exts) {

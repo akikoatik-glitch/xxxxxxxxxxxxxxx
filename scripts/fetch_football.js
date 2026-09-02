@@ -1,8 +1,16 @@
-// Fetches real football data from football-data.org (free tier).
+// Fetches real football data from football-data.org (free tier, real fixtures only).
 // Outputs:
 //   football/today.json, tomorrow.json, yesterday.json, upcoming.json, results.json, fixtures.json
 //   football/live.json          -> consumed by /live.html (matches + standings + scorers)
 // Predictions.json is owned by generate-predictions.js (runs after this in the workflow).
+//
+// Prediction upgrade (v3):
+//   - Real league standings (goals for / against per game) are turned into per-team
+//     attack / defense ratings for every competition that has fixtures today.
+//   - Those ratings are blended into the Dixon-Coles expected-goals estimate, so
+//     predicted scores differ per team instead of defaulting to a uniform 1-1/1-0.
+//   - The recommended correct score is the argmax of the score matrix (statistical),
+//     and Over/Under + BTTS come from the same matrix.
 const fs = require('fs');
 const path = require('path');
 
@@ -23,7 +31,10 @@ try {
 } catch (e) {}
 
 const KEY = process.env.FOOTBALL_DATA_API_KEY;
-const { predict } = require('./dixon_coles');
+const { predict, rating } = require('./dixon_coles');
+
+// Competitions that have standings on the free tier (used to derive real team strengths).
+const STANDINGS_CODES = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'BSA', 'PPL', 'NL1', 'SB'];
 
 function getDates() {
   const day = 86400000;
@@ -50,29 +61,60 @@ async function fetchMatches(dateFrom, dateTo) {
   } catch (e) { console.log('fetchMatches error', e.message); return []; }
 }
 
-async function fetchStandings(competition = 'PL') {
+async function fetchStandings(competition) {
   try { return await fdGet(`https://api.football-data.org/v4/competitions/${competition}/standings`); }
   catch (e) { return null; }
 }
-
 async function fetchScorers(competition = 'PL') {
   try { return await fdGet(`https://api.football-data.org/v4/competitions/${competition}/scorers`); }
   catch (e) { return null; }
 }
 
-function enrichMatch(m) {
+// ---- real team strengths from standings ----
+// attack_i   = (goals for / played)   / league average goals-per-game
+// defense_i  = (goals against / played) / league average goals-per-game
+function buildStrengths(standingsData) {
+  const out = new Map();
+  if (!standingsData || !standingsData.standings || !standingsData.standings[0]) return out;
+  const rows = standingsData.standings[0].table || [];
+  const entries = rows.map(r => {
+    const played = Math.max(1, r.playedGames || 0);
+    return { name: r.team.name, gf: (r.goalsFor || 0) / played, ga: (r.goalsAgainst || 0) / played };
+  });
+  if (!entries.length) return out;
+  const avg = entries.reduce((s, e) => s + e.gf, 0) / entries.length || 1;
+  for (const e of entries) {
+    out.set(e.name, { attack: +(e.gf / avg).toFixed(3), defense: +(e.ga / avg).toFixed(3) });
+  }
+  return out;
+}
+
+// Blend real standings strengths into the model context for a match.
+function ctxFor(home, away, strengths) {
+  const hs = strengths.get(home), as = strengths.get(away);
+  return {
+    hr: rating(home),
+    ar: rating(away),
+    hatk: hs && js(hs.attack) || 1, hdef: hs && js(hs.defense) || 1,
+    aatk: as && js(as.attack) || 1, adef: as && js(as.defense) || 1
+  };
+}
+const js = v => (v == null || !isFinite(v) || v <= 0) ? 1 : v;
+
+function enrichMatch(m, strengths) {
   const d = new Date(m.utcDate);
   const utcStr = d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC';
   const cetStr = d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Paris' }) + ' CET';
-  const dc = predict(m.homeTeam.name, m.awayTeam.name);
-  const pH = dc.pH, pD = dc.pD, pA = dc.pA;
-  const xGTotal = parseFloat(dc.lamH) + parseFloat(dc.lamA);
-  const overProb = Math.min(85, Math.max(30, Math.round(30 + xGTotal * 15)));
-  const bttsProb = Math.round(45 + (pH + pA) / 2 * 0.3);
-  let correctScore = '1-0';
-  if (dc.pred === 'Away Win') correctScore = '1-2';
-  else if (dc.pred === 'Draw') correctScore = '1-1';
-  else if (dc.pred === 'Home Win' && xGTotal > 2.5) correctScore = '2-1';
+  const home = m.homeTeam.name, away = m.awayTeam.name;
+
+  // Only use per-competition standings when the fixture is in a competition we
+  // have real numbers for; otherwise fall back to the Elo databank alone.
+  const strengthsOk = strengths && strengths.size >= 4;
+  const dc = predict(home, away, strengthsOk ? ctxFor(home, away, strengths) : undefined);
+
+  const over = dc.overUnder, btts = dc.btts, cs = dc.correctScore;
+  const whyWin = `${home} vs ${away}: Dixon-Coles P(H)${dc.pH}% D${dc.pD}% A${dc.pA}% • xG ${dc.lamH}-${dc.lamA} • most likely score ${cs.score} (${cs.prob}%) • ${dc.pred} confidence ${dc.conf}%${strengthsOk ? ' • strengths derived from real league standings' : ''}`;
+
   return {
     id: m.id,
     utcDate: m.utcDate,
@@ -85,16 +127,18 @@ function enrichMatch(m) {
     awayTeam: { id: m.awayTeam.id, name: m.awayTeam.name, shortName: m.awayTeam.shortName, tla: m.awayTeam.tla, crest: m.awayTeam.crest },
     score: m.score,
     prediction: {
-      market1X2: { pred: dc.pred, conf: dc.conf, odds: dc.odds, pH, pD, pA },
-      doubleChance: { '1X': Math.min(97, pH + pD), 'X2': Math.min(97, pD + pA), '12': Math.min(97, pH + pA) },
-      overUnder: { over2_5: overProb, under2_5: 100 - overProb, oddsOver: (100 / overProb).toFixed(2), oddsUnder: (100 / (100 - overProb)).toFixed(2) },
-      btts: { yes: bttsProb, no: 100 - bttsProb },
-      correctScore: { score: correctScore, prob: Math.round(Math.max(pH, pD, pA) * 0.3) },
+      market1X2: { pred: dc.pred, conf: dc.conf, odds: dc.odds, pH: dc.pH, pD: dc.pD, pA: dc.pA },
+      doubleChance: dc.doubleChance,
+      overUnder: over,
+      btts,
+      correctScore: cs,
+      topScores: dc.topScores,
+      asianHandicap: dc.asianHandicap,
       halfTime: dc.pred === 'Home Win' ? 'Home Win HT' : dc.pred === 'Away Win' ? 'Away Win HT' : 'Draw HT',
-      asianHandicap: dc.pH > pA ? 'Home -0.5' : 'Away +0.5',
       pred: dc.pred, sub: dc.sub, conf: dc.conf, odds: dc.odds, value: dc.value,
-      model: 'Dixon-Coles',
-      whyWin: `${m.homeTeam.name} vs ${m.awayTeam.name}: Dixon-Coles P(H)${pH}% D${pD}% A${pA}% • xG ${dc.lamH}-${dc.lamA} • ${dc.pred} confidence ${dc.conf}%`
+      model: dc.model,
+      xg: dc.xg,
+      whyWin
     }
   };
 }
@@ -122,12 +166,24 @@ async function main() {
   ]);
   console.log(`Today: ${todayMatches.length}, Tomorrow: ${tomorrowMatches.length}, Yesterday: ${yesterdayMatches.length}, Upcoming: ${upcomingMatches.length}`);
 
-  const enrich = arr => arr.map(enrichMatch);
+  // Build real team strengths per competition, limited to free-tier leagues.
+  const allMatches = todayMatches.concat(tomorrowMatches);
+  const compCodes = [...new Set(allMatches.map(m => m.competition && m.competition.code).filter(Boolean))];
+  const toFetch = compCodes.filter(c => STANDINGS_CODES.includes(c)).slice(0, 10);
+  const strengths = new Map();
+  for (const code of toFetch) {
+    const st = await fetchStandings(code);
+    const s = buildStrengths(st);
+    console.log(`  standings ${code}: ${s.size} teams with goals data`);
+    for (const [k, v] of s) strengths.set(k, v);
+  }
+
+  const enrich = arr => arr.map(m => enrichMatch(m, strengths));
   const write = (file, data) => {
     fs.mkdirSync(path.dirname(file), { recursive: true });
     fs.writeFileSync(file, JSON.stringify(data, null, 2));
   };
-  const stamp = { source: 'football-data.org', lastUpdate: new Date().toISOString() };
+  const stamp = { source: 'football-data.org', strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() };
 
   write('football/today.json', { date: today, count: todayMatches.length, matches: enrich(todayMatches), ...stamp });
   write('football/tomorrow.json', { date: tomorrow, count: tomorrowMatches.length, matches: enrich(tomorrowMatches), ...stamp });

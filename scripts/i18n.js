@@ -10,7 +10,7 @@ const L = {
       name: 'XWhiz',
       tagline: 'Independent statistical football predictions',
       suffix: '| XWhiz',
-      home: { title: 'Football Predictions Today — Free Tips, Odds & Live Scores | XWhiz', desc: 'Free football predictions today from our Dixon-Coles statistical model. 1X2, Over/Under 2.5 and BTTS picks with confidence scores, odds and live scores. Updated daily 06:00 UTC.' }
+      home: { title: 'Football Predictions Today: Tips, Odds & Live Scores | XWhiz', desc: 'Free football predictions today: 1X2, Over/Under 2.5 and BTTS picks from the Dixon-Coles model, with confidence, odds and live scores. Updated daily.' }
     },
     nav: { predictions: 'Predictions', football: 'Football', live: 'Live Scores', news: 'News', predictor: 'Match Predictor', search: 'Search' },
     topbar: { text: 'Independent statistical football predictions · 18+ gamble responsibly', bonus: 'Melbet bonus' },
@@ -43,7 +43,14 @@ const L = {
       how3: 'Probabilities for every market, refreshed daily',
       howBody: 'Each match is evaluated as an independent event. The model outputs a probability for the 1X2 result, totals and Both Teams To Score, plus a recommended pick and its fair price. This is statistical analysis for information purposes — not a promise of profit. 18+, bet responsibly.',
       update: 'Updated daily at 06:00 UTC from football-data.org.',
-      dataNote: 'Real fixtures only — we never display invented matches.'
+      dataNote: 'Real fixtures only — we never display invented matches.',
+      trendTitle: 'Most likely exact scores today',
+      trendBody: 'The bottom line of our model: the most probable exact scoreline for every pick today — useful for correct-score and scorecast markets.',
+      trendPick: 'Pick',
+      aboutTitle: 'About today\'s football predictions',
+      aboutP1: 'XWhiz produces football predictions every day from a Dixon-Coles adjusted Poisson model combined with Elo ratings, using real fixtures from public sports data. Every pick includes a 1X2 recommendation, expected goals, Over/Under 2.5 and BTTS probabilities, plus the most likely correct score.',
+      aboutH3: 'Why the model varies scores naturally',
+      aboutP2: 'We never fabricate a scoreline. The most likely score is the one with the highest probability inside the model\'s score matrix, so you see natural variety — 2-0, 1-2, 3-1, 2-2 — instead of forced or repeated 1-1s. Predictions refresh daily at 06:00 UTC.'
     },
     market: {
       _1x2: '1X2', dc: 'Double Chance', ou: 'Over / Under 2.5', btts: 'Both Teams To Score', cs: 'Correct Score',
@@ -54,6 +61,9 @@ const L = {
     status: { scheduled: 'Scheduled', finished: 'Finished', live: 'Live now', ht: 'Half-time', ft: 'Full-time', postponed: 'Postponed', cancelled: 'Cancelled', timed: 'Scheduled' },
     analysis: {
       title: 'Prediction analysis',
+      scoresTitle: 'Most likely exact scores',
+      scoresPre: 'Inside the score matrix, the three most probable final scores are',
+      leagueLink: 'All predictions for this competition',
       intro: 'We model the {home} vs {away} match (Competition: {league}) with a Dixon-Coles adjusted Poisson process. Estimated expected goals are {xgh}–{xga} in favour of a neutral observer. The implied probabilities are P(Home) {pH}%, P(Draw) {pD}%, P(Away) {pA}%. The model recommendation is {pred} at fair odds of {odds}, with {conf}% confidence.',
       why: 'Why {pred}?',
       formLabel: 'Form & context',
@@ -82,12 +92,20 @@ const L = {
       desc: 'Every match prediction for today with the full market breakdown — 1X2, Double Chance, Over/Under 2.5, BTTS and correct score. {n} matches covered.',
       count: '{n} predicted matches',
       empty: 'No fixtures available right now. Real fixtures are added daily at 06:00 UTC — no invented matches.',
-      group: 'Predictions by competition'
+      group: 'Predictions by competition',
+      intro: 'The complete list of football predictions today, grouped by competition. Every card links to a full statistical analysis with expected goals, the most likely exact score and all markets — 1X2, Over/Under 2.5 and BTTS. {n} matches covered.'
     },
     detail: {
       vs: 'vs', tag: 'XWHIZ STATISTICAL PICK', kickoff: 'Kick-off', matchday: 'Matchday', veg: 'All markets by our model',
       more: 'More predictions today',
-      views: 'prediction pages'
+      views: 'prediction pages',
+      titleToken: 'Prediction',
+      desc: '{home} vs {away}: {pred} @ {odds} ({conf}% confidence) plus expected goals, Over/Under 2.5, BTTS and most likely score.'
+    },
+    marketHub: {
+      today: 'today',
+      descOver: '{n} matches with a model probability of three or more goals above 55% — real fixtures, statistical totals, refreshed daily at 06:00 UTC.',
+      descBtts: '{n} matches where the model backs both teams to score — real fixtures and BTTS probabilities, refreshed daily at 06:00 UTC.'
     },
     live: {
       title: 'Live football scores',
@@ -103,10 +121,11 @@ const L = {
       examples: 'Popular pairings', modelDesc: 'Method: Elo ratings → expected goals (Poisson with Dixon-Coles low-score correction) → full market probabilities.',
       placeholder: 'Start typing a team…', suggestions: 'Suggestions'
     },
-    search: { title: 'Search XWhiz', placeholder: 'Search predictions, teams, news…', empty: 'Type at least two characters to search.', count: '{n} results for “{q}”', no: 'No results found for “{q}”. Try a team, competition or market.' },
+    search: { title: 'Search XWhiz', placeholder: 'Search predictions, teams, news…', empty: 'Type at least two characters to search.', count: '{n} results for “{q}”', no: 'No results found for “{q}”. Try a team, competition or market.', meta: 'Search XWhiz for football predictions today, match analysis, teams, competitions, live scores and sports news.' },
     notFound: { title: 'Page not found', body: 'The page you requested does not exist. Head back to the homepage or browse today\'s predictions.', home: 'Homepage', predictions: 'Predictions' },
     football: {
       hubTitle: 'Football',
+      hubKey: 'Predictions, Leagues & Live Scores',
       hubDesc: 'Competitions, teams, fixtures, results and league tables from our daily real-data feed.',
       leagues: 'Leagues', teams: 'Teams', fixtures: 'Fixtures', results: 'Results',
       today: 'Today', tomorrow: 'Tomorrow', upcoming: 'Upcoming 7 days', finished: 'Finished',
@@ -114,7 +133,7 @@ const L = {
       standingsNote: 'Free sports-data tier returns standings for a limited set of competitions.',
       overview: 'Overview', predictionsGroup: 'Prediction index'
     },
-    news: { title: 'Sports news', desc: 'Football, tennis and basketball news, updated daily from public feeds.', cat: { football: 'Football news', tennis: 'Tennis news', basketball: 'Basketball news', all: 'All categories' }, read: 'Read article', by: 'Source' },
+    news: { title: 'Sports News Today', desc: 'Football, tennis and basketball news, updated daily from public feeds.', cat: { football: 'Football News Today', tennis: 'Tennis News Today', basketball: 'Basketball News Today', all: 'All categories' }, read: 'Read article', by: 'Source' },
     rg: {
       block: 'Responsible gambling: our predictions are statistical analysis for information and entertainment — they are not a guarantee of profit. 18+. Never bet more than you can afford to lose.',
       help: 'BeGambleAware.org',
@@ -138,7 +157,7 @@ const L = {
       name: 'XWhiz',
       tagline: 'Pronostics football statistiques et indépendants',
       suffix: '| XWhiz',
-      home: { title: 'Pronostics Football Aujourd\'hui — Conseils Gratuits, Cotes et Scores en Direct | XWhiz', desc: 'Pronostics football gratuits du jour calculés par notre modèle statistique Dixon-Coles. 1N2, Plus/Moins 2,5 buts et « les deux équipes marquent » avec taux de confiance, cotes et scores en direct. Mis à jour chaque jour à 06h00 UTC.' }
+      home: { title: 'Pronostic Football Aujourd\'hui : Conseils & Cotes | XWhiz', desc: 'Pronostics football gratuits du jour : 1N2, plus/moins 2,5 et BTTS calculés par le modèle Dixon-Coles, avec confiance, cotes et scores en direct. Mis à jour chaque jour.' }
     },
     nav: { predictions: 'Pronostics', football: 'Football', live: 'Direct', news: 'Actus', predictor: 'Pronostiqueur', search: 'Recherche' },
     topbar: { text: 'Pronostics football statistiques et indépendants · 18+ jouez responsable', bonus: 'Bonus Melbet' },
@@ -171,7 +190,14 @@ const L = {
       how3: 'Probabilités pour tous les marchés, chaque jour',
       howBody: 'Chaque match est analysé comme un événement indépendant. Le modèle calcule la probabilité du 1N2, des totaux et des deux équipes marquent, plus un pronostic conseillé avec sa cote juste. Il s\'agit d\'une analyse statistique à but informatif, pas d\'une promesse de gain. 18+, jouez de manière responsable.',
       update: 'Mis à jour chaque jour à 06h00 UTC à partir de football-data.org.',
-      dataNote: 'Seuls de vrais matchs — nous n\'affichons jamais de rencontres inventées.'
+      dataNote: 'Seuls de vrais matchs — nous n\'affichons jamais de rencontres inventées.',
+      trendTitle: 'Les scores exacts les plus probables du jour',
+      trendBody: 'L\'essentiel de notre modèle : le score le plus probable pour chaque pronostic du jour — utile pour les paris « score exact » et « scorecast ».',
+      trendPick: 'Prono',
+      aboutTitle: 'À propos de ces pronostics football',
+      aboutP1: 'XWhiz produit des pronostics football chaque jour avec un modèle de Poisson ajusté Dixon-Coles combiné aux cotes Elo, sur de vraies rencontres issues de données sportives publiques. Chaque pronostic inclut une recommandation 1N2, les buts attendus, plus/moins 2,5 et les probabilités « les deux équipes marquent », ainsi que le score exact le plus probable.',
+      aboutH3: 'Pourquoi le modèle varie les scores naturellement',
+      aboutP2: 'Nous n\'inventons jamais un score. Le score le plus probable est celui qui a la probabilité la plus forte dans la matrice du modèle — d\'où une variété naturelle (2-0, 1-2, 3-1, 2-2) au lieu de 1-1 répétés ou forcés. Mise à jour chaque jour à 06h00 UTC.'
     },
     market: {
       _1x2: '1N2', dc: 'Double chance', ou: 'Plus / Moins 2,5 buts', btts: 'Les deux équipes marquent', cs: 'Score exact',
@@ -182,6 +208,9 @@ const L = {
     status: { scheduled: 'Programmé', finished: 'Terminé', live: 'En direct', ht: 'Mi-temps', ft: 'Temps plein', postponed: 'Reporté', cancelled: 'Annulé', timed: 'Programmé' },
     analysis: {
       title: 'Analyse du pronostic',
+      scoresTitle: 'Scores exacts les plus probables',
+      scoresPre: 'Dans la matrice des buts, voici les trois scores les plus probables :',
+      leagueLink: 'Tous les pronostics de cette compétition',
       intro: 'Nous modélisons le match {home} – {away} (Compétition : {league}) avec un processus de Poisson ajusté à la Dixon-Coles. Les buts attendus estimés sont de {xgh}–{xga}. Les probabilités implicites sont P(Domicile) {pH}%, P(Nul) {pD}%, P(Extérieur) {pA}%. Le pronostic conseillé est {pred} à une cote juste de {odds}, avec {conf}% de confiance.',
       why: 'Pourquoi {pred} ?',
       formLabel: 'Forme et contexte',
@@ -210,11 +239,19 @@ const L = {
       desc: 'Tous les pronostics de matchs du jour avec le détail complet des marchés — 1N2, double chance, plus/moins 2,5 buts, buteurs et score exact. {n} matchs couverts.',
       count: '{n} matchs pronostiqués',
       empty: 'Aucune rencontre disponible pour le moment. De vrais matchs sont ajoutés chaque jour à 06h00 UTC — jamais de rencontres inventées.',
-      group: 'Pronostics par compétition'
+      group: 'Pronostics par compétition',
+      intro: 'Tous les pronostics football du jour, classés par compétition. Chaque carte renvoie à une analyse statistique détaillée avec les buts attendus, le score exact le plus probable et tous les marchés — 1N2, plus/moins 2,5 et les deux équipes marquent. {n} matchs couverts.'
     },
     detail: {
       vs: '–', tag: 'PRONO STATISTIQUE XWHIZ', kickoff: 'Coup d\'envoi', matchday: 'Journée',
-      more: 'Plus de pronostics aujourd\'hui', views: 'pages de pronostics'
+      more: 'Plus de pronostics aujourd\'hui', views: 'pages de pronostics',
+      titleToken: 'pronostic',
+      desc: '{home} contre {away} : {pred} @ {odds} ({conf}% de confiance) plus buts attendus, plus/moins 2,5, BTTS et score exact le plus probable.'
+    },
+    marketHub: {
+      today: 'aujourd\'hui',
+      descOver: '{n} matchs avec une probabilité de trois buts ou plus supérieure à 55 % selon le modèle — de vrais matchs, des totaux statistiques, mis à jour chaque jour à 06h00 UTC.',
+      descBtts: '{n} matchs où le modèle soutient la marque des deux équipes — de vrais matchs et probabilités BTTS, mis à jour chaque jour à 06h00 UTC.'
     },
     live: {
       title: 'Scores de football en direct',
@@ -231,10 +268,11 @@ const L = {
       examples: 'Affrontements populaires', modelDesc: 'Méthode : cotes Elo → buts attendus (Poisson avec correction Dixon-Coles) → probabilités complètes.',
       placeholder: 'Commencez à taper une équipe…', suggestions: 'Suggestions'
     },
-    search: { title: 'Rechercher sur XWhiz', placeholder: 'Rechercher pronostics, équipes, actus…', empty: 'Tapez au moins deux caractères pour lancer la recherche.', count: '{n} résultats pour « {q} »', no: 'Aucun résultat pour « {q} ». Essayez une équipe, une compétition ou un marché.' },
+    search: { title: 'Rechercher sur XWhiz', placeholder: 'Rechercher pronostics, équipes, actus…', empty: 'Tapez au moins deux caractères pour lancer la recherche.', count: '{n} résultats pour « {q} »', no: 'Aucun résultat pour « {q} ». Essayez une équipe, une compétition ou un marché.', meta: 'Recherchez sur XWhiz : pronostics du jour, analyses de matchs, équipes, compétitions, scores en direct et actualités sportives.' },
     notFound: { title: 'Page introuvable', body: 'La page demandée n\'existe pas. Revenez à l\'accueil ou parcourez les pronostics du jour.', home: 'Accueil', predictions: 'Pronostics' },
     football: {
       hubTitle: 'Football',
+      hubKey: 'Pronostics, Ligues & Scores en Direct',
       hubDesc: 'Compétitions, équipes, calendrier, résultats et classements issus de notre flux quotidien de données réelles.',
       leagues: 'Ligues', teams: 'Équipes', fixtures: 'Calendrier', results: 'Résultats',
       today: 'Aujourd\'hui', tomorrow: 'Demain', upcoming: 'Prochains 7 jours', finished: 'Terminés',
@@ -242,7 +280,7 @@ const L = {
       standingsNote: 'L\'offre gratuite de données sportives ne renvoie les classements que pour un nombre limité de compétitions.',
       overview: 'Aperçu', predictionsGroup: 'Index des pronostics'
     },
-    news: { title: 'Actualités sportives', desc: 'Actualités football, tennis et basket mises à jour chaque jour à partir de flux publics.', cat: { football: 'Football', tennis: 'Tennis', basketball: 'Basket', all: 'Toutes les catégories' }, read: 'Lire l\'article', by: 'Source' },
+    news: { title: 'Actualités Sportives Aujourd\'hui', desc: 'Actualités football, tennis et basket mises à jour chaque jour à partir de flux publics.', cat: { football: 'Football du jour', tennis: 'Tennis du jour', basketball: 'Basket du jour', all: 'Toutes les catégories' }, read: 'Lire l\'article', by: 'Source' },
     rg: {
       block: 'Jeu responsable : nos pronostics sont une analyse statistique informative — ils ne garantissent aucun gain. 18+. Ne misez jamais plus que ce que vous pouvez vous permettre de perdre.',
       help: 'BeGambleAware.org',
@@ -266,7 +304,7 @@ const L = {
       name: 'XWhiz',
       tagline: 'توقعات كرة القدم الإحصائية المستقلة',
       suffix: '| XWhiz',
-      home: { title: 'توقعات مباريات اليوم — توقعات مجانية واحتمالات ونتائج مباشرة | XWhiz', desc: 'توقعات كرة القدم المجانية اليوم وفق نموذجنا الإحصائي Dixon-Coles. توقعات 1X2 وأكثر/أقل من 2.5 هدف وكلا الفريقين يسجلان مع نسب الثقة والاحتمالات والنتائج المباشرة. تُحدَّث يوميًا في الساعة 06:00 بالتوقيت العالمي.' }
+      home: { title: 'توقعات مباريات اليوم — مجانية واحتمالات ونتائج مباشرة | XWhiz', desc: 'توقعات كرة القدم المجانية اليوم: 1X2 وأكثر/أقل من 2.5 وكلا الفريقين يسجلان وفق نموذج Dixon-Coles مع نسب الثقة والاحتمالات والنتائج المباشرة. تُحدَّث يوميًا.' }
     },
     nav: { predictions: 'التوقعات', football: 'كرة القدم', live: 'النتائج المباشرة', news: 'الأخبار', predictor: 'مُنبّئ المباريات', search: 'بحث' },
     topbar: { text: 'توقعات كرة القدم الإحصائية المستقلة · 18+ العب بمسؤولية', bonus: 'مكافأة Melbet' },
@@ -299,7 +337,14 @@ const L = {
       how3: 'احتمالات جميع الأسواق، تُحدَّث يوميًا',
       howBody: 'تُقيَّم كل مباراة كحدث مستقل. يحسب النموذج احتمال نتيجة 1X2 والأهداف الإجمالية وكلا الفريقين يسجلان، مع التوقع الموصى به وسعره العادل. هذا تحليل إحصائي لأغراض إعلامية فقط، وليس وعدًا بالربح. 18+، العب بمسؤولية.',
       update: 'تُحدَّث يوميًا في الساعة 06:00 بتوقيت غرينتش من football-data.org.',
-      dataNote: 'مباريات حقيقية فقط — لا نعرض أبدًا مباريات مختلَقة.'
+      dataNote: 'مباريات حقيقية فقط — لا نعرض أبدًا مباريات مختلَقة.',
+      trendTitle: 'النتائج الأكثر ترجيحًا اليوم',
+      trendBody: 'خلاصة نموذجنا: أكثر نتيجة دقيقة ترجيحًا لكل توقع اليوم — مفيدة لسوق النتيجة الصحيحة.',
+      trendPick: 'التوقع',
+      aboutTitle: 'عن توقعات اليوم',
+      aboutP1: 'ينتج XWhiz توقعات كرة القدم يوميًا من نموذج بواسون معدَّل بطريقة Dixon-Coles مع تصنيفات Elo، على مباريات حقيقية من بيانات رياضية عامة. كل توقع يشمل توصية 1X2 والأهداف المتوقعة وأكثر/أقل من 2.5 وكلا الفريقين يسجلان، بالإضافة إلى النتيجة الصحيحة الأكثر احتمالًا.',
+      aboutH3: 'لماذا تتنوع النتائج في النموذج بشكل طبيعي',
+      aboutP2: 'لا نخترع أبدًا نتيجة. النتيجة الأكثر احتمالًا هي الأعلى احتمالًا داخل مصفوفة النموذج، لذا ترى تنوعًا طبيعيًا — 2-0، 1-2، 3-1، 2-2 — بدل 1-1 مكررة ومفروضة. تُحدَّث التوقعات يوميًا الساعة 06:00 UTC.'
     },
     market: {
       _1x2: '1X2', dc: 'فرصة مزدوجة', ou: 'أكثر / أقل من 2.5 هدف', btts: 'كلا الفريقين يسجلان', cs: 'النتيجة الصحيحة',
@@ -310,6 +355,9 @@ const L = {
     status: { scheduled: 'مجدولة', finished: 'انتهت', live: 'مباشرة الآن', ht: 'استراحة', ft: 'انتهت', postponed: 'مؤجلة', cancelled: 'ملغاة', timed: 'مجدولة' },
     analysis: {
       title: 'تحليل التوقع',
+      scoresTitle: 'النتائج الدقيقة الأكثر احتمالًا',
+      scoresPre: 'داخل مصفوفة الأهداف، هذه أقوى ثلاث نتائج:',
+      leagueLink: 'جميع توقعات هذه المسابقة',
       intro: 'نموذجنا، وهو عملية بواسون معدَّلة بطريقة Dixon-Coles، يقيّم مباراة {home} ضد {away} (المسابقة: {league}). الأهداف المتوقعة المقدرة هي {xgh}–{xga}. الاحتمالات المستنتجة: فوز {home} {pH}%، التعادل {pD}%، فوز {away} {pA}%. التوقع الموصى به هو {pred} بسعر عادل {odds} مع ثقة {conf}%.',
       why: 'لماذا {pred}؟',
       formLabel: 'السياق والتشكيلة',
@@ -338,11 +386,19 @@ const L = {
       desc: 'كل توقعات مباريات اليوم مع التفاصيل الكاملة للأسواق — 1X2، فرصة مزدوجة، أكثر/أقل من 2.5 هدف، كلا الفريقين يسجلان والنتيجة الصحيحة. يغطي {n} مباراة.',
       count: '{n} مباراة متوقعة',
       empty: 'لا توجد مباريات متاحة حاليًا. تُضاف المباريات الحقيقية يوميًا الساعة 06:00 بتوقيت غرينتش — لا مباريات مختلَقة.',
-      group: 'التوقعات حسب المسابقة'
+      group: 'التوقعات حسب المسابقة',
+      intro: 'جميع توقعات مباريات اليوم مصنَّفة حسب المسابقة. كل بطاقة تقود إلى تحليل إحصائي مفصل مع الأهداف المتوقعة والنتيجة الأكثر احتمالًا وجميع الأسواق — 1X2 وأكثر/أقل من 2.5 وكلا الفريقين يسجلان. يغطي {n} مباراة.'
     },
     detail: {
       vs: 'ضد', tag: 'توقع XWHIZ الإحصائي', kickoff: 'الانطلاق', matchday: 'الجولة',
-      more: 'المزيد من توقعات اليوم', views: 'صفحات التوقعات'
+      more: 'المزيد من توقعات اليوم', views: 'صفحات التوقعات',
+      titleToken: 'توقع',
+      desc: '{home} ضد {away}: {pred} @ {odds} (ثقة {conf}%) + الأهداف المتوقعة وأكثر/أقل من 2.5 وكلا الفريقين يسجلان والنتيجة الأكثر احتمالًا.'
+    },
+    marketHub: {
+      today: 'اليوم',
+      descOver: '{n} مباراة باحتمال ثلاثة أهداف أو أكثر أعلى من 55% وفق النموذج — مباريات حقيقية وإجماليات إحصائية تُحدَّث يوميًا.',
+      descBtts: '{n} مباراة يمنح فيها النموذج الفريقين فرصة قوية للتسجيل — مباريات حقيقية واحتمالات BTTS تُحدَّث يوميًا.'
     },
     live: {
       title: 'نتائج مباريات كرة القدم المباشرة',
@@ -359,10 +415,11 @@ const L = {
       examples: 'مواجهات شائعة', modelDesc: 'الطريقة: تصنيفات Elo ← الأهداف المتوقعة (بواسون مع تصحيح Dixon-Coles) ← احتمالات جميع الأسواق.',
       placeholder: 'ابدأ بكتابة اسم الفريق…', suggestions: 'اقتراحات'
     },
-    search: { title: 'ابحث في XWhiz', placeholder: 'ابحث في التوقعات والفرق والأخبار…', empty: 'اكتب حرفين على الأقل لبدء البحث.', count: '{n} نتيجة لـ «{q}»', no: 'لا توجد نتائج لـ «{q}». جرّب فريقًا أو مسابقة أو سوقًا آخر.' },
+    search: { title: 'ابحث في XWhiz', placeholder: 'ابحث في التوقعات والفرق والأخبار…', empty: 'اكتب حرفين على الأقل لبدء البحث.', count: '{n} نتيجة لـ «{q}»', no: 'لا توجد نتائج لـ «{q}». جرّب فريقًا أو مسابقة أو سوقًا آخر.', meta: 'ابحث في XWhiz عن توقعات مباريات اليوم وتحليلات المباريات والفرق والمسابقات والنتائج المباشرة والأخبار الرياضية.' },
     notFound: { title: 'الصفحة غير موجودة', body: 'الصفحة التي طلبتها غير موجودة. عد إلى الصفحة الرئيسية أو تصفّح توقعات اليوم.', home: 'الصفحة الرئيسية', predictions: 'التوقعات' },
     football: {
       hubTitle: 'كرة القدم',
+      hubKey: 'توقعات ودوريات ونتائج مباشرة',
       hubDesc: 'المسابقات والفرق والمباريات والنتائج وجدول الترتيب من بياناتنا الحقيقية اليومية.',
       leagues: 'الدوريات', teams: 'الفرق', fixtures: 'المباريات', results: 'النتائج',
       today: 'اليوم', tomorrow: 'غدًا', upcoming: 'السبعة أيام القادمة', finished: 'المنتهية',

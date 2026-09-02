@@ -3,7 +3,7 @@
 // Replaces the old build_pages.js.
 //   Input : predictions.json, news.json, football/*.json
 //   Output: all HTML pages per locale, sitemap.xml (with hreflang),
-//           robots.txt, per-locale search-index.json
+//           robots.txt, llms.txt, per-locale search-index.json
 // Run daily in CI after fetch_football.js + generate-predictions.js + fetch_news.js
 // Usage: node scripts/sitegen.js [--batch|--full]
 // ============================================================
@@ -17,6 +17,24 @@ const ROOT = path.join(__dirname, '..');
 const SITE = 'https://xwhiz.com';
 const LOCALES = ['en', 'fr', 'ar'];
 const DAY = 86400000;
+
+// Tiny .env loader (so GA4_ID / MELBET_LINK can come from env in CI)
+try {
+  const envPaths = ['.env', path.join(ROOT, '.env')];
+  for (const ep of envPaths) {
+    if (fs.existsSync(ep)) {
+      fs.readFileSync(ep, 'utf8').split('\n').forEach(l => {
+        const idx = l.indexOf('=');
+        if (idx === -1) return;
+        const k = l.slice(0, idx).trim(), v = l.slice(idx + 1).trim();
+        if (k && v && !process.env[k]) process.env[k] = v;
+      });
+      break;
+    }
+  }
+} catch (e) {}
+// Google Analytics 4 — only injected when a measurement ID is provided.
+const GA4 = (process.env.GA4_ID || '').trim();
 
 const read = f => { try { return fs.readFileSync(path.join(ROOT, f), 'utf8'); } catch (e) { return null; } };
 const readJSON = f => { try { return JSON.parse(read(f)); } catch (e) { return null; } };
@@ -90,7 +108,12 @@ function normalizeMatch(m) {
   const probs = haveProbs ? m.probs : { home: dc.pH, draw: dc.pD, away: dc.pA };
   const pH = Math.round(probs.home), pD = Math.round(probs.draw), pA = Math.round(probs.away);
   const conf = m.conf || dc.conf;
-  const over = Math.min(85, Math.max(30, Math.round(30 + (parseFloat(dc.lamH) + parseFloat(dc.lamA)) * 15)));
+  // Matrix-derived markets (v3): Over/Under + BTTS come from the same Dixon-Coles
+  // score matrix as the 1X2 probs; the correct score is the matrix argmax.
+  const over = m.overUnder || dc.overUnder;
+  const btts = m.btts || dc.btts;
+  const cs = m.correctScore || dc.correctScore;
+  const topScores = m.topScores || dc.topScores;
   return Object.assign({}, m, {
     slug,
     league: m.league || 'Football',
@@ -101,14 +124,16 @@ function normalizeMatch(m) {
     odds: m.odds != null ? m.odds : dc.odds,
     value: m.value || `+${Math.round((conf - 60) / 2)}%`,
     probs,
-    xg: m.xg || { home: dc.lamH, away: dc.lamA, total: (parseFloat(dc.lamH) + parseFloat(dc.lamA)).toFixed(2) },
+    xg: m.xg || dc.xg,
     doubleChance: m.doubleChance || { '1X': Math.min(97, pH + pD), 'X2': Math.min(97, pD + pA), '12': Math.min(97, pH + pA) },
-    overUnder: m.overUnder || { over2_5: over, under2_5: 100 - over, oddsOver: (100 / over).toFixed(2), oddsUnder: (100 / (100 - over)).toFixed(2) },
-    btts: m.btts || (() => { const y = Math.round(45 + (pH + pA) / 2 * 0.3); return { yes: y, no: 100 - y }; })(),
-    correctScore: m.correctScore || { score: dc.pred === 'Away Win' ? '1-2' : dc.pred === 'Draw' ? '1-1' : (parseFloat(dc.lamH) + parseFloat(dc.lamA)) > 2.5 ? '2-1' : '1-0', prob: Math.round(Math.max(pH, pD, pA) * 0.3) },
+    overUnder: over,
+    btts,
+    correctScore: cs,
+    topScores,
+    asianHandicap: m.asianHandicap || dc.asianHandicap,
     precise: m.precise || `${String(m.time || '').slice(0, 5)} — ${home} vs ${away}`,
     countdown: m.countdown || '',
-    model: m.model || 'Dixon-Coles + Elo',
+    model: m.model || dc.model,
     date: m.date || String(m.utcDate || '').slice(0, 10)
   });
 }
@@ -211,6 +236,24 @@ function schemaOrg(loc) {
   }];
 }
 
+const GA_SNIPPET = GA4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(GA4)}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(GA4)}',{send_page_view:true});</script>` : '';
+
+const FX_CSS = `/* ---- XWhiz 3D football effects (progressive enhancement, GPU-light) ---- */
+.xw-hero{position:absolute;right:clamp(4px,4vw,2rem);top:50%;width:230px;height:258px;transform:translateY(-50%);perspective:900px;pointer-events:none;z-index:0}
+.xw-ball{position:absolute;right:0;top:0;width:200px;height:200px;background:url('/football.svg') no-repeat center/contain;animation:xw-spin 10s linear infinite;will-change:transform}
+.xw-shadow{position:absolute;right:26px;bottom:2px;width:148px;height:16px;border-radius:50%;background:rgba(0,0,0,.35);filter:blur(6px);animation:xw-sb 10s linear infinite}
+@keyframes xw-spin{0%{transform:rotateY(0deg)}50%{transform:rotateY(180deg)}100%{transform:rotateY(360deg)}}
+@keyframes xw-sb{0%,100%{transform:scaleX(1);opacity:.85}25%,75%{transform:scaleX(.55);opacity:.5}50%{transform:scaleX(1);opacity:.85}}
+@media (max-width:767px){.xw-hero{display:none}}
+@media (prefers-reduced-motion: reduce){.xw-ball,.xw-shadow{animation:none}}
+`;
+const FX_JS = `<script>(function(){try{if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!window.matchMedia('(pointer: fine)').matches)return;
+var L=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);if(L)return;
+function r(e){var el=e.currentTarget,b=el.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;el.style.transform='perspective(700px) rotateX('+(-y*3.5).toFixed(2)+'deg) rotateY('+(x*3.5).toFixed(2)+'deg) translateZ(0)'}
+function o(e){e.currentTarget.style.transform='';e.currentTarget.style.transformOrigin='center'}
+document.querySelectorAll('[data-tilt]').forEach(function(el){el.style.transformOrigin='center';el.addEventListener('pointermove',r,{passive:true});el.addEventListener('pointerleave',o)})}catch(e){}})();</script>`;
+
 function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonld = [], extraHead = '' }) {
   const meta = i18n[loc].meta;
   const robots = noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">';
@@ -238,6 +281,8 @@ ${hreflang(loc, page)}
 <meta name="twitter:image" content="${OG_IMG}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://a.espncdn.com">
+<link rel="preload" as="image" href="/football.svg">
 <link href="https://fonts.googleapis.com/css2?family=${FONT[loc]}&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=${FONT[loc]}&display=swap" rel="stylesheet"></noscript>
 <link rel="preload" as="style" href="/site.css">
@@ -245,7 +290,9 @@ ${hreflang(loc, page)}
 ${loc === 'ar' ? '<link rel="stylesheet" href="/rtl.css">' : ''}
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
+${GA_SNIPPET}
 ${extraHead}
+<style>${FX_CSS}</style>
 ${json}
 </head>
 <body class="bg-white text-zinc-900">
@@ -253,6 +300,7 @@ ${topBar(loc)}
 ${header(loc, page)}
 ${body}
 ${footer(loc)}
+${FX_JS}
 </body>
 </html>`;
 }
@@ -328,7 +376,7 @@ const PILL_GREY = 'bg-zinc-100 text-zinc-700';
 
 function predCard(loc, m) {
   const href = pageUrl(loc, { type: 'pred', arg: m.slug });
-  return `<a href="${href}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50 hover:shadow-sm transition block">
+  return `<a href="${href}" data-tilt class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50 hover:shadow-sm transition block">
 <div class="flex items-center justify-between gap-2"><span class="text-xs font-bold tracking-widest text-brand-700">${esc(flag(m.code))} ${esc(m.league).toUpperCase()}</span><span class="text-xs font-mono text-zinc-400">${esc(utcTime(m))} UTC</span></div>
 <div class="mt-2 font-bold leading-tight">${esc(m.home)} ${t(loc, 'detail.vs')} ${esc(m.away)}</div>
 <div class="mt-2 flex flex-wrap items-center gap-2 text-xs">${marketBadge(loc, `${esc(m.pred)} @ ${esc(m.odds)}`, false, PILL_GREEN_STRONG)}${marketBadge(loc, `${m.conf}% ${t(loc, 'market.conf')}`, false, PILL_GREY)}</div>
@@ -385,13 +433,14 @@ function homePage(loc) {
   const comps = [...byCompetition.keys()].slice(0, 8).map(name => {
     const ms = byCompetition.get(name)[0];
     const slug = leagueSlug(name);
-    return `<a href="${pageUrl(loc, { type: 'league', arg: slug })}" class="border border-zinc-200 rounded-2xl p-4 hover:bg-zinc-50 transition block"><div class="text-xs text-zinc-400">${esc(flag(ms.code))} ${t('football.leagues')}</div><div class="mt-1 font-bold text-sm">${esc(name)}</div><div class="mt-1 text-xs text-brand-700">${byCompetition.get(name).length} ${t('detail.views').toLowerCase()}</div></a>`;
+    return `<a href="${pageUrl(loc, { type: 'league', arg: slug })}" data-tilt class="border border-zinc-200 rounded-2xl p-4 hover:bg-zinc-50 transition block"><div class="text-xs text-zinc-400">${esc(flag(ms.code))} ${t('football.leagues')}</div><div class="mt-1 font-bold text-sm">${esc(name)}</div><div class="mt-1 text-xs text-brand-700">${byCompetition.get(name).length} ${t('detail.views').toLowerCase()}</div></a>`;
   }).join('');
 
   const body = `
 <main>
 <div class="relative overflow-hidden bg-zinc-900 text-white">
-<div class="max-w-7xl mx-auto px-4 md:px-6 py-14 md:py-20">
+<div class="xw-hero"><div class="xw-ball"></div><div class="xw-shadow"></div></div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-14 md:py-20">
 <p class="text-xs font-bold tracking-widest text-green-400 uppercase">${t('hero.badge')}</p>
 <h1 class="mt-3 text-3xl md:text-5xl font-black tracking-tight leading-tight max-w-3xl">${t('hero.h1')}</h1>
 <p class="mt-4 text-zinc-300 max-w-2xl">${t('hero.sub')}</p>
@@ -453,6 +502,13 @@ ${scorersPanel(loc)}
 </div>
 </div>
 </div>
+${(MATCHES.length ? `<div class="border-t border-zinc-100">
+<div class="max-w-7xl mx-auto px-4 md:px-6 py-10">
+<h2 class="text-2xl font-extrabold tracking-tight">${t('sec.trendTitle')}</h2>
+<p class="mt-3 text-sm text-zinc-600 max-w-3xl">${t('sec.trendBody')}</p>
+<div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${top.map(m => { const cs = m.correctScore ? `${esc(m.correctScore.score)} (${m.correctScore.prob}%)` : ''; return `<div class="border border-zinc-200 rounded-2xl p-5 text-sm"><div class="text-xs text-zinc-400">${esc(m.league)}</div><div class="mt-1 font-bold">${esc(m.home)} ${t('detail.vs')} ${esc(m.away)}</div><div class="mt-1 text-zinc-500">${t('sec.trendPick')}: ${esc(m.pred)} @ ${esc(m.odds)} • ${m.conf}%${cs ? ' • ' + t('market.cs') + ': ' + cs : ''}</div></div>`; }).join('')}</div>
+</div>
+</div>` : '')}
 <div class="border-t border-zinc-100">
 <div class="max-w-7xl mx-auto px-4 md:px-6 py-10">
 <h2 class="text-2xl font-extrabold tracking-tight">${t('sec.howTitle')}</h2>
@@ -463,12 +519,21 @@ ${[t('sec.how1'), t('sec.how2'), t('sec.how3')].map(h => `<div class="border bor
 <p class="mt-4 text-xs text-zinc-400">${t('sec.update')} ${t('sec.dataNote')}</p>
 </div>
 </div>
+<div class="border-t border-zinc-100">
+<div class="max-w-7xl mx-auto px-4 md:px-6 py-10">
+<h2 class="text-2xl font-extrabold tracking-tight">${t('sec.aboutTitle')}</h2>
+<p class="mt-3 text-sm text-zinc-600 max-w-3xl">${t('sec.aboutP1')}</p>
+<h3 class="mt-6 text-lg font-extrabold">${t('sec.aboutH3')}</h3>
+<p class="mt-2 text-sm text-zinc-600 max-w-3xl">${t('sec.aboutP2')}</p>
+</div>
+</div>
 ${rgNote(loc)}
 </main>`;
+  const itemList = MATCHES.length ? [{ '@context': 'https://schema.org', '@type': 'ItemList', name: t('sec.topPicks'), numberOfItems: top.length, itemListElement: top.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: `${m.home} vs ${m.away} — ${m.pred} @ ${m.odds}`, url: `${SITE}${pageUrl(loc, { type: 'pred', arg: m.slug })}` })) }] : [];
   return shell(loc, {
     title: t('site.home.title'), desc: t('site.home.desc'), page: { type: 'home' },
     canonical: `${SITE}${pageUrl(loc, { type: 'home' })}`, body,
-    jsonld: [{ '@context': 'https://schema.org', '@type': 'SportsEvent', name: 'XWhiz Football Predictions', sport: 'Soccer', description: t('site.home.desc') }]
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'SportsEvent', name: 'XWhiz Football Predictions', sport: 'Soccer', description: t('site.home.desc') }].concat(itemList)
   });
 }
 
@@ -514,6 +579,10 @@ ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc
 <span class="bg-zinc-100 px-3 py-1.5 rounded-full font-semibold">${MATCHES.length} ${tR(loc, 'predHub.count', { n: MATCHES.length })}</span>
 <span class="bg-zinc-100 px-3 py-1.5 rounded-full font-semibold">${tR(loc, 'sec.update')}</span>
 </div>
+<section class="mt-6">
+<h2 class="text-xl font-extrabold">${tR(loc, 'predHub.group')}</h2>
+<p class="mt-2 text-sm text-zinc-600 max-w-3xl">${tR(loc, 'predHub.intro', { n: MATCHES.length })}</p>
+</section>
 ${sections}
 <div class="mt-10 grid sm:grid-cols-2 gap-4">
 <a href="${pageUrl(loc, { type: 'btts' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${tR(loc, 'footer.btts')}</div><div class="text-sm text-zinc-500 mt-1">${tR(loc, 'market.btts')}</div></a>
@@ -529,27 +598,28 @@ ${rgNote(loc)}
   });
 }
 
-function marketHubPage(loc, which) {
+const marketHubPage = (loc, which) => {
   const isOver = which === 'over';
   const matches = MATCHES.filter(m => isOver ? m.pred === 'Over 2.5' : m.pred === 'BTTS Yes');
   const title = isOver ? tR(loc, 'footer.over') : tR(loc, 'footer.btts');
-  const desc = isOver ? tR(loc, 'market.ou') : tR(loc, 'market.btts');
+  const desc = tR(loc, isOver ? 'marketHub.descOver' : 'marketHub.descBtts', { n: matches.length });
   const page = { type: isOver ? 'over' : 'btts' };
   const cards = matches.map(m => predCard(loc, m)).join('') || `<div class="mt-6 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${tR(loc, 'predHub.empty')}</div>`;
   const body = `
 <main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
 ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'predIndex' }), label: tR(loc, 'nav.predictions') }, { label: title }])}
-<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${title}</h1>
-<p class="mt-2 text-zinc-600">${desc} — ${matches.length} ${tR(loc, 'detail.views').toLowerCase()} du jour.</p>
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${title} ${tR(loc, 'marketHub.today')}</h1>
+<p class="mt-2 text-zinc-600">${tR(loc, isOver ? 'marketHub.descOver' : 'marketHub.descBtts', { n: matches.length })}</p>
 <div class="mt-8 grid md:grid-cols-2 gap-4">${cards}</div>
+<div class="mt-10 flex flex-wrap gap-3"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">← ${tR(loc, 'nav.predictions')}</a><a href="${pageUrl(loc, { type: 'predictor' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${tR(loc, 'nav.predictor')}</a></div>
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: `${title} — ${tR(loc, 'market.markets')} | XWhiz`,
-    desc: `${title} du jour — statistique Dixon-Coles.`, page,
+    title: `${title} ${tR(loc, 'marketHub.today')} | XWhiz`,
+    desc: desc, page,
     canonical: `${SITE}${pageUrl(loc, page)}`, body
   });
-}
+};
 
 function predDetailPage(loc, m, related) {
   const url = `${SITE}${pageUrl(loc, { type: 'pred', arg: m.slug })}`;
@@ -584,6 +654,11 @@ ${breadcrumb(loc, [
 ])}
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight leading-tight">${esc(m.home)} ${t(loc, 'detail.vs')} ${esc(m.away)} — ${t(loc, 'analysis.title')}</h1>
 <p class="mt-2 text-zinc-600">${esc(m.league)} • ${esc(dateStr)} • ${esc(m.precise)}</p>
+<div class="mt-3 flex flex-wrap gap-2 text-xs">
+<a href="${pageUrl(loc, { type: 'league', arg: leagueSlug(m.league) })}" class="font-semibold text-brand-700 hover:underline">${t(loc, 'analysis.leagueLink')}</a>
+<a href="${pageUrl(loc, { type: 'team', arg: slugify(m.home) })}" class="font-semibold text-brand-700 hover:underline">${esc(m.home)}</a>
+<a href="${pageUrl(loc, { type: 'team', arg: slugify(m.away) })}" class="font-semibold text-brand-700 hover:underline">${esc(m.away)}</a>
+</div>
 
 <div class="mt-6 bg-zinc-900 text-white rounded-3xl p-6 md:p-8">
 <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -615,6 +690,8 @@ ${marketRows.map(r => `<tr class="hover:bg-zinc-50"><td class="px-5 py-3 font-bo
 <article class="mt-10 leading-relaxed">
 <h2 class="text-2xl font-extrabold">${t(loc, 'analysis.title')}</h2>
 <p class="mt-3 text-zinc-700">${t(loc, 'analysis.intro', { home: m.home, away: m.away, league: m.league, xgh, xga, pH, pD, pA, pred: m.pred, odds: m.odds, conf: m.conf })}</p>
+${m.topScores && m.topScores.length ? `<h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.scoresTitle')}</h3>
+<p class="text-zinc-700">${t(loc, 'analysis.scoresPre')} ${m.topScores.map(s => `${esc(s.score)} (${s.prob}%)`).join(' · ')}.</p>` : ''}
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.why', { pred: m.pred })}</h3>
 <ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1">
 <li>${t(loc, 'bet.' + m.pred)}</li>
@@ -636,12 +713,12 @@ ${faqBlock(loc, faqs)}
 </main>`;
 
   return shell(loc, {
-    title: `${esc(m.home)} vs ${esc(m.away)} — ${t(loc, 'analysis.title')} ${dateISO} | XWhiz`,
-    desc: `${esc(m.home)} vs ${esc(m.away)} — ${m.pred} @ ${m.odds} (${m.conf}% confidence). All markets: 1X2, Over/Under 2.5, BTTS, correct score.`,
+    title: `${esc(m.home)} vs ${esc(m.away)} ${t(loc, 'detail.titleToken')} | XWhiz`,
+    desc: t(loc, 'detail.desc', { home: m.home, away: m.away, pred: m.pred, odds: m.odds, conf: m.conf }),
     canonical: url, page: { type: 'pred', arg: m.slug }, body,
     jsonld: [
-      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis.` },
-      { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz' }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, mainEntityOfPage: url, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.` },
+      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}.` },
+      { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz' }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.` },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: `${m.home} vs ${m.away}`, item: url }] },
       { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
     ]
@@ -717,18 +794,19 @@ ${teamNames.length ? `<div class="mt-4 text-xs text-zinc-500"><span>${t(loc, 'pr
 </div>
 <script>
 (function(){
-var ELO=${safeJson({
-  'Man City': 2050, 'Arsenal': 2000, 'Liverpool': 1980, 'Chelsea': 1850, 'Man Utd': 1820, 'Tottenham': 1800,
-  'Real Madrid': 2030, 'Barcelona': 1980, 'Atletico': 1850, 'Bayern Munich': 2000, 'Dortmund': 1860, 'Leipzig': 1820, 'Leverkusen': 1880,
-  'Inter': 1920, 'AC Milan': 1880, 'Juventus': 1870, 'Roma': 1800, 'Napoli': 1850, 'PSG': 1950, 'Marseille': 1750, 'Lyon': 1720, 'Monaco': 1760,
-  'Benfica': 1800, 'Porto': 1780, 'Ajax': 1750, 'Feyenoord': 1700})};
+var ELO=${safeJson(dcModel.RATINGS)};
 var LABEL=${safeJson(predLabels)};
-function elo(t){return ELO[t]||1700}
-function expG(eh,ea){var d=(eh+100-ea)/400;var h=1.4*Math.pow(10,d/2),a=1.2*Math.pow(10,-d/2);return[Math.max(.6,h),Math.max(.5,a)]}
+function nm(t){var n=String(t||'').toLowerCase().replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue').replace(/ß/g,'ss').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim();n=n.replace(/^(fc|ac|as|sc|ss|cd|cf|de|1\.)\s+/,'').replace(/\s+(fc|ac|as|sc|ss|afc|cf|cd|ud)$/,'');return n}
+function elo(t){var v=ELO[nm(t)];return v||1600}
 function pois(k,l){var p=Math.exp(-l);for(var i=1;i<=k;i++)p*=l/i;return p}
-function mat(lh,la){var rho=.13,P=[];for(var i=0;i<5;i++){P[i]=[];for(var j=0;j<5;j++){var p=pois(i,lh)*pois(j,la);if(i===0&&j===0)p*=1-lh*la*rho;else if(i===1&&j===0)p*=1+la*rho;else if(i===0&&j===1)p*=1+lh*rho;else if(i===1&&j===1)p*=1-rho;P[i][j]=p}}return P}
-function run(h,a){var g=expG(elo(h),elo(a)),P=mat(g[0],g[1]),pH=0,pD=0,pA=0,i,j;for(i=0;i<5;i++)for(j=0;j<5;j++){if(i>j)pH+=P[i][j];else if(i===j)pD+=P[i][j];else pA+=P[i][j]}var tot=pH+pD+pA;pH/=tot;pD/=tot;pA/=tot;var over=0,btts=0;for(i=0;i<5;i++)for(j=0;j<5;j++){if(i+j>2)over+=P[i][j];if(i>0&&j>0)btts+=P[i][j]}over/=tot;btts/=tot;var pred;if(pH>pD&&pH>pA)pred='Home Win';else if(pA>pH&&pA>pD)pred='Away Win';else if(pD>.28)pred='Draw';else if(over>.55)pred='Over 2.5';else pred='BTTS Yes';var conf=Math.min(83,Math.max(62,pred==='Draw'?Math.round(60+pD*25):Math.round(62+Math.max(pH,pA)*20)));return{home:h,away:a,pH:Math.round(pH*100),pD:Math.round(pD*100),pA:Math.round(pA*100),over:Math.round(over*100),btts:Math.round(btts*100),pred:pred,conf:conf,odds:(1/Math.max(pH,pD,pA)).toFixed(2),xg:g}}
-function paint(h,a){var r=run(h,a),o=document.getElementById('pdr');o.classList.remove('hidden');o.innerHTML='<div class="text-xs font-bold tracking-widest text-brand-700 uppercase">XWHIZ</div><div class="mt-1 text-2xl font-black">'+LABEL[r.pred]+' <span class="text-sm font-semibold text-zinc-400">@ '+r.odds+'</span></div><div class="mt-1 text-xs text-zinc-500">'+r.conf+'% confidence</div><div class="mt-4 grid grid-cols-3 gap-2 text-center text-sm"><div class="bg-zinc-50 rounded-xl py-3"><div class="text-xs text-zinc-500">'+r.home+'</div><div class="text-xl font-black">'+r.pH+'%</div></div><div class="bg-zinc-50 rounded-xl py-3"><div class="text-xs text-zinc-500">Draw</div><div class="text-xl font-black">'+r.pD+'%</div></div><div class="bg-zinc-50 rounded-xl py-3"><div class="text-xs text-zinc-500">'+r.away+'</div><div class="text-xl font-black">'+r.pA+'%</div></div></div><div class="mt-3 grid grid-cols-2 gap-2 text-sm"><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">xG</span><div class="font-bold">'+r.xg[0]+' : '+r.xg[1]+'</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">2.5+</span><div class="font-bold">'+r.over+'%</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">BTTS</span><div class="font-bold">'+r.btts+'%</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">1X2</span><div class="font-bold">'+r.pH+'/'+r.pD+'/'+r.pA+'</div></div></div>';
+function mat(lh,la){var rho=.08,N=6,M=[];var i,j;for(i=0;i<=N;i++){M[i]=[];for(j=0;j<=N;j++){var p=pois(i,lh)*pois(j,la);if(i===0&&j===0)p*=1-lh*la*rho;else if(i===1&&j===0)p*=1+la*rho;else if(i===0&&j===1)p*=1+lh*rho;else if(i===1&&j===1)p*=1-rho;M[i][j]=p}}var tot=0;for(i=0;i<=N;i++)for(j=0;j<=N;j++)tot+=M[i][j];for(i=0;i<=N;i++)for(j=0;j<=N;j++)M[i][j]/=tot;return M}
+function run(h,a){var eh=elo(h),ea=elo(a),d=(eh+100-ea)/400,g=[1.4*Math.pow(10,d/2),1.2*Math.pow(10,-d/2)];g[0]=Math.max(.35,Math.min(4.2,g[0]));g[1]=Math.max(.3,Math.min(4,g[1]));var P=mat(g[0],g[1]),pH=0,pD=0,pA=0,over=0,btts=0,i,j;for(i=0;i<P.length;i++)for(j=0;j<P.length;j++){if(i>j)pH+=P[i][j];else if(i===j)pD+=P[i][j];else pA+=P[i][j];if(i+j>=3)over+=P[i][j];if(i>=1&&j>=1)btts+=P[i][j]}
+var q=Math.max(pH,pD,pA);var pred;if(pH>=pA&&pH>=pD)pred='Home Win';else if(pA>=pH&&pA>=pD)pred='Away Win';else pred='Draw';
+var conf=Math.min(90,Math.max(58,Math.round(58+(q-0.36)*160)));var odds=(1/q*0.95).toFixed(2);
+var bi=0,bj=0,best=-1;for(i=0;i<P.length;i++)for(j=0;j<P.length;j++){if(P[i][j]>best+1e-9||(Math.abs(P[i][j]-best)<1e-9&&(i+j<bi+bj||(i+j===bi+bj&&i<bi)))){best=P[i][j];bi=i;bj=j}}
+var cells=[];for(i=0;i<P.length;i++)for(j=0;j<P.length;j++)cells.push([i+j,P[i][j],i,j]);cells.sort(function(x,y){return y[1]-x[1]||(x[0]-y[0])||(x[2]-y[2])});
+return{home:h,away:a,pH:Math.round(pH*100),pD:Math.round(pD*100),pA:Math.round(pA*100),over:Math.round(over*100),btts:Math.round(btts*100),pred:pred,conf:conf,odds:odds,xg:g,cs:bi+'-'+bj,csP:Math.round(best*100),top:cells.slice(0,3).map(function(c){return c[2]+'-'+c[3]+' ('+Math.round(c[1]*100)+'%)'}),ah:(g[0]-g[1])>=0?'Home -'+(Math.round(Math.abs(g[0]-g[1])*4)/4).toFixed(2):'Away +'+(Math.round(Math.abs(g[0]-g[1])*4)/4).toFixed(2)}}
+function paint(h,a){var r=run(h,a),o=document.getElementById('pdr');o.classList.remove('hidden');o.innerHTML='<div class="text-xs font-bold tracking-widest text-brand-700 uppercase">XWHIZ</div><div class="mt-1 text-2xl font-black">'+LABEL[r.pred]+' <span class="text-sm font-semibold text-zinc-400">@ '+r.odds+'</span></div><div class="mt-1 text-xs text-zinc-500">'+r.conf+'% confidence</div><div class="mt-4 grid grid-cols-3 gap-2 text-center text-sm"><div class="bg-zinc-50 rounded-xl py-3"><div class="text-xs text-zinc-500">'+r.home+'</div><div class="text-xl font-black">'+r.pH+'%</div></div><div class="bg-zinc-50 rounded-xl py-3"><div class="text-xs text-zinc-500">Draw</div><div class="text-xl font-black">'+r.pD+'%</div></div><div class="bg-zinc-50 rounded-xl py-3"><div class="text-xs text-zinc-500">'+r.away+'</div><div class="text-xl font-black">'+r.pA+'%</div></div></div><div class="mt-3 grid grid-cols-2 gap-2 text-sm"><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">xG</span><div class="font-bold">'+r.xg[0].toFixed(2)+' : '+r.xg[1].toFixed(2)+'</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">2.5+</span><div class="font-bold">'+r.over+'%</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">BTTS</span><div class="font-bold">'+r.btts+'%</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">1X2</span><div class="font-bold">'+r.pH+'/'+r.pD+'/'+r.pA+'</div></div></div><div class="mt-3 grid grid-cols-2 gap-2 text-sm"><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">Most likely</span><div class="font-bold">'+r.cs+' ('+r.csP+'%)</div></div><div class="border border-zinc-100 rounded-xl p-3"><span class="text-xs text-zinc-400">Top scores</span><div class="font-bold">'+r.top.join(', ')+'</div></div></div><div class="mt-3 text-xs text-zinc-500">Handicap ~ '+r.ah+' • '+${safeJson(t(loc, 'predictor.uncertainty'))}+'</div>';
 }
 document.getElementById('pdc').addEventListener('click',function(){var h=document.getElementById('pdh').value.trim(),a=document.getElementById('pda').value.trim();if(!h||!a){document.getElementById('pdr').classList.remove('hidden');document.getElementById('pdr').innerHTML='<div class="text-sm text-red-600">Enter two teams.</div>';return}paint(h,a)});
 document.getElementById('pds').addEventListener('click',function(){var h=document.getElementById('pdh'),a=document.getElementById('pda');var tmp=h.value;h.value=a.value;a.value=tmp;if(h.value&&a.value)paint(h.value,a.value)});
@@ -766,7 +844,7 @@ ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: `${tR(loc, 'football.hubTitle')} — ${tR(loc, 'site.tagline')} | XWhiz`, desc: tR(loc, 'football.hubDesc'), page: { type: 'football' },
+    title: `${tR(loc, 'football.hubTitle')} — ${tR(loc, 'football.hubKey')} | XWhiz`, desc: tR(loc, 'football.hubDesc'), page: { type: 'football' },
     canonical: `${SITE}${pageUrl(loc, { type: 'football' })}`, body
   });
 }
@@ -963,7 +1041,7 @@ inp.addEventListener('input',function(){render(inp.value)});if(location.search){
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: `${tR(loc, 'search.title')} | XWhiz`, desc: tR(loc, 'search.title'), page: { type: 'search' },
+    title: `${tR(loc, 'search.title')} | XWhiz`, desc: tR(loc, 'search.meta'), page: { type: 'search' },
     canonical: `${SITE}${pageUrl(loc, { type: 'search' })}`, body
   });
 }
@@ -1020,7 +1098,40 @@ function buildSitemap() {
 }
 
 function buildRobotsTxt() {
-  return `User-agent: *\nAllow: /\nDisallow: /404.html\n\nSitemap: ${SITE}/sitemap.xml\n`;
+  return `User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /search.html
+Disallow: /fr/search.html
+Disallow: /ar/search.html
+Disallow: /fr/404.html
+Disallow: /ar/404.html
+
+Sitemap: ${SITE}/sitemap.xml
+`;
+}
+
+function buildLlmsText() {
+  const tot = MATCHES.length;
+  const topLine = tot ? `${tot} predictions online for today, regenerated daily at 06:00 UTC.` : 'Standby — predictions regenerate daily at 06:00 UTC from real fixtures.';
+  return `# XWhiz
+
+> Independent, statistical football predictions — 1X2, Over/Under 2.5, BTTS and most likely correct score, on real fixtures only. ${topLine}
+
+## Entry points
+- Home (EN): https://xwhiz.com/
+- Predictions today (EN): https://xwhiz.com/predictions/
+- Live scores (EN): https://xwhiz.com/live.html
+- Match predictor (runs the model in your browser): https://xwhiz.com/predictor.html
+- Français : https://xwhiz.com/fr/ — pronostics du jour : https://xwhiz.com/fr/predictions/
+- العربية : https://xwhiz.com/ar/ — توقعات اليوم : https://xwhiz.com/ar/predictions/
+
+## Method
+Predictions are produced by a Dixon-Coles adjusted Poisson model combined with Elo ratings, run daily on real fixtures from public sports data (football-data.org). Team strength is blended from Elo ratings and real league standings (attack/defence per game vs league average). The most likely exact score is the argmax of the model's 0–6 goal matrix — scores therefore vary naturally (2-0, 1-2, 3-1, 2-2...) and are never fabricated or forced.
+
+## Disclaimers
+Predictions are statistical analysis for information and entertainment only — they are not a guarantee of profit. 18+, gamble responsibly. Affiliate links (e.g. Melbet) are clearly disclosed.
+`;
 }
 
 function buildSearchIndex(loc) {
@@ -1101,6 +1212,7 @@ function main() {
 
   writePath('sitemap.xml', buildSitemap());
   writePath('robots.txt', buildRobotsTxt());
+  writePath('llms.txt', buildLlmsText());
   console.log('Done.');
 }
 
