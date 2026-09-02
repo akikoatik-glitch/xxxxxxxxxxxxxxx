@@ -24,6 +24,8 @@ const L = {
     },
     sec: {
       topPicks: 'Top picks for today',
+      latestPicks: 'Latest picks',
+      asOf: 'Data as of {date} — refreshed daily at 06:00 UTC',
       todayMatches: 'Today\'s matches',
       allCta: 'All predictions today',
       overCta: 'Over 2.5 tips',
@@ -125,7 +127,8 @@ const L = {
       leagues: 'Leagues', teams: 'Teams', fixtures: 'Fixtures', results: 'Results',
       live: 'Live scores', news: 'Sports news', search: 'Search', sitemap: 'Sitemap'
     },
-    cta: { bet: 'Bet {pred} on Melbet', bonus: 'Promo code {code} · welcome bonus up to $130' },
+    cta: { bet: 'Bet {pred} on Melbet', betHome: 'Bet on Melbet now', bonus: 'Promo code {code} · welcome bonus up to $130' },
+    promo: { disclose: 'Affiliate link: we may earn a commission if you sign up via this link at no extra cost to you. 18+ only — gamble responsibly.' },
     odds: { at: 'at', from: 'from', vs: 'vs' }
   },
 
@@ -149,6 +152,8 @@ const L = {
     },
     sec: {
       topPicks: 'Meilleurs pronostics du jour',
+      latestPicks: 'Derniers pronostics',
+      asOf: 'Données au {date} — actualisées chaque jour à 06:00 UTC',
       todayMatches: 'Matchs du jour',
       allCta: 'Tous les pronostics du jour',
       overCta: 'Pronostics Plus de 2,5',
@@ -250,7 +255,8 @@ const L = {
       leagues: 'Ligues', teams: 'Équipes', fixtures: 'Calendrier', results: 'Résultats',
       live: 'Direct', news: 'Actualités', search: 'Recherche', sitemap: 'Plan du site'
     },
-    cta: { bet: 'Parier {pred} chez Melbet', bonus: 'Code promo {code} · bonus de bienvenue jusqu\'à 130 $' },
+    cta: { bet: 'Parier {pred} chez Melbet', betHome: 'Pariez sur Melbet maintenant', bonus: 'Code promo {code} · bonus de bienvenue jusqu\'à 130 $' },
+    promo: { disclose: 'Lien d\'affiliation : nous pouvons percevoir une commission si vous vous inscrivez via ce lien, sans frais supplémentaires pour vous. Réservé aux 18+ — jouez responsable.' },
     odds: { at: 'à', from: 'de', vs: '–' }
   },
 
@@ -274,6 +280,8 @@ const L = {
     },
     sec: {
       topPicks: 'أبرز توقعات اليوم',
+      latestPicks: 'أحدث التوقعات',
+      asOf: 'البيانات حتى {date} — تُحدَّث يومياً الساعة 06:00 UTC',
       todayMatches: 'مباريات اليوم',
       allCta: 'جميع توقعات اليوم',
       overCta: 'أكثر من 2.5 هدف',
@@ -375,7 +383,8 @@ const L = {
       leagues: 'الدوريات', teams: 'الفرق', fixtures: 'المباريات', results: 'النتائج',
       live: 'النتائج المباشرة', news: 'الأخبار الرياضية', search: 'البحث', sitemap: 'خريطة الموقع'
     },
-    cta: { bet: 'اراهن بـ {pred} على Melbet', bonus: 'رمز الترويج {code} · مكافأة ترحيب حتى 130$' },
+    cta: { bet: 'اراهن بـ {pred} على Melbet', betHome: 'اراهن على Melbet الآن', bonus: 'رمز الترويج {code} · مكافأة ترحيب حتى 130$' },
+    promo: { disclose: 'رابط إحالة: قد نحصل على عمولة إذا سجّلت عبر هذا الرابط دون أي تكلفة إضافية عليك. للمراهنين 18+ فقط — العب بمسؤولية.' },
     odds: { at: 'عند', from: 'من', vs: 'ضد' }
   }
 };

@@ -375,7 +375,7 @@ function rgNote(loc) {
 // ---------------- PAGES ----------------
 
 function homePage(loc) {
-  const t = k => tR(loc, k);
+  const t = (k, p) => tR(loc, k, p);
   const top = MATCHES.slice(0, 6);
   const over = MATCHES.filter(m => m.pred === 'Over 2.5').slice(0, 3);
   const btts = MATCHES.filter(m => m.pred === 'BTTS Yes').slice(0, 3);
@@ -404,7 +404,8 @@ function homePage(loc) {
 </div>
 <div id="picks" class="max-w-7xl mx-auto px-4 md:px-6 py-10 scroll-mt-24">
 <div class="flex items-center justify-between gap-3">
-<h2 class="text-2xl font-extrabold tracking-tight">${t('sec.topPicks')}</h2>
+<h2 class="text-2xl font-extrabold tracking-tight">${(MATCHES.length && new Date(MATCHES[0].utcDate).toISOString().slice(0, 10) === todayISO()) ? t('sec.topPicks') : t('sec.latestPicks')}</h2>
+${MATCHES.length && new Date(MATCHES[0].utcDate).toISOString().slice(0, 10) !== todayISO() ? `<p class="mt-1 text-xs text-brand-700">${t('sec.asOf', { date: fmtDate(loc, MATCHES[0].utcDate) })}</p>` : ''}
 <a href="${pageUrl(loc, { type: 'predIndex' })}" class="text-sm font-bold text-brand-700 hover:underline">${t('sec.allCta')} →</a>
 </div>
 ${MATCHES.length ? `<div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${top.map(m => predCard(loc, m)).join('')}</div>` : `<div class="mt-5 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${t('predHub.empty')}</div>`}
@@ -443,9 +444,12 @@ ${scorersPanel(loc)}
 </div>
 <div id="promo" class="border-t border-zinc-100 scroll-mt-24">
 <div class="max-w-7xl mx-auto px-4 md:px-6 py-10">
-<div class="rounded-3xl bg-zinc-900 text-white p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+<div class="rounded-3xl bg-zinc-900 text-white p-6 md:p-8">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
 <div><h2 class="text-2xl font-black">${PROMO_H[loc]}</h2><p class="mt-1 text-sm text-zinc-300">${t('cta.bonus', { code: CODE })}</p></div>
-<a href="${MELBET}" rel="sponsored nofollow noopener" class="bg-brand-600 hover:bg-brand-700 text-white font-black px-8 py-4 rounded-full text-center">${t('cta.bet', { pred: 'Melbet' })} →</a>
+<a href="${MELBET}" rel="sponsored nofollow noopener" class="bg-brand-600 hover:bg-brand-700 text-white font-black px-8 py-4 rounded-full text-center">${t('cta.betHome')} →</a>
+</div>
+<p class="mt-3 text-xs text-zinc-400">${t('promo.disclose')}</p>
 </div>
 </div>
 </div>
