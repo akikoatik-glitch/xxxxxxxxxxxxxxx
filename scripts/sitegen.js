@@ -170,8 +170,10 @@ function pageUrl(loc, page) {
 }
 
 function hreflang(loc, page) {
-  let out = '';
-  for (const ll of LOCALES) out += `<link rel="alternate" hreflang="${ll}" href="${SITE}${pageUrl(ll, page)}">` + '\n';
+  // Self alternate first, then the other language versions, then x-default.
+  const others = LOCALES.filter(ll => ll !== loc);
+  let out = `<link rel="alternate" hreflang="${loc}" href="${SITE}${pageUrl(loc, page)}">` + '\n';
+  for (const ll of others) out += `<link rel="alternate" hreflang="${ll}" href="${SITE}${pageUrl(ll, page)}">` + '\n';
   out += `<link rel="alternate" hreflang="x-default" href="${SITE}${pageUrl('en', page)}">` + '\n';
   return out;
 }
@@ -222,6 +224,7 @@ function predSlugFor(home, away) { return MATCH_KEY_TO_SLUG.get(`${String(home).
 // ---- shared shell ----
 const FONT = { en: 'Inter:wght@400;600;700;800;900', fr: 'Inter:wght@400;600;700;800;900', ar: 'Tajawal:wght@400;500;700;800;900' };
 const OG_IMG = `${SITE}/og-image.png`;
+const OG_LOC = { en: 'en_US', fr: 'fr_FR', ar: 'ar_AR' };
 
 function schemaOrg(loc) {
   return [{
@@ -268,13 +271,16 @@ function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonl
 ${robots}
 <link rel="canonical" href="${canonical}">
 ${hreflang(loc, page)}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:site_name" content="XWhiz">
 <meta property="og:image" content="${OG_IMG}">
-<meta property="og:locale" content="${loc}">
+<meta property="og:locale" content="${OG_LOC[loc]}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
@@ -330,7 +336,7 @@ ${navLinks}
 </nav>
 <div class="flex items-center gap-2">
 <div class="hidden md:flex items-center gap-1">${linkLangs}</div>
-<a href="${MELBET}" rel="sponsored nofollow noopener" class="hidden sm:inline text-xs font-bold px-4 py-2 rounded-full bg-brand-600 text-white hover:bg-brand-700">${t(loc, 'topbar.bonus')}</a>
+<a href="${MELBET}" rel="sponsored nofollow noopener" class="hidden sm:inline text-xs font-bold px-4 py-2 rounded-full bg-brand-600 text-white hover:bg-brand-700">${t(loc, 'topbar.cta')}</a>
 <details class="md:hidden relative">
 <summary class="cursor-pointer list-none text-2xl leading-none px-2" aria-label="Menu">☰</summary>
 <div class="absolute right-0 top-10 w-56 bg-white border border-zinc-100 rounded-2xl shadow-lg p-3 space-y-2 text-sm z-50">
@@ -376,12 +382,16 @@ const PILL_GREY = 'bg-zinc-100 text-zinc-700';
 
 function predCard(loc, m) {
   const href = pageUrl(loc, { type: 'pred', arg: m.slug });
-  return `<a href="${href}" data-tilt class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50 hover:shadow-sm transition block">
-<div class="flex items-center justify-between gap-2"><span class="text-xs font-bold tracking-widest text-brand-700">${esc(flag(m.code))} ${esc(m.league).toUpperCase()}</span><span class="text-xs font-mono text-zinc-400">${esc(utcTime(m))} UTC</span></div>
+  return `<div class="border border-zinc-200 rounded-2xl hover:bg-zinc-50 hover:shadow-sm transition">
+<a href="${href}" data-tilt class="block p-5 pb-2">
+<div><span class="text-xs font-bold tracking-widest text-brand-700">${esc(flag(m.code))} ${esc(m.league).toUpperCase()}</span></div>
 <div class="mt-2 font-bold leading-tight">${esc(m.home)} ${t(loc, 'detail.vs')} ${esc(m.away)}</div>
-<div class="mt-2 flex flex-wrap items-center gap-2 text-xs">${marketBadge(loc, `${esc(m.pred)} @ ${esc(m.odds)}`, false, PILL_GREEN_STRONG)}${marketBadge(loc, `${m.conf}% ${t(loc, 'market.conf')}`, false, PILL_GREY)}</div>
-<div class="mt-2 text-xs text-zinc-500">${fmtDate(loc, m.utcDate)} • ${esc(m.precise || '')}</div>
-</a>`;
+</a>
+<div class="px-5 pb-5">
+<div class="flex flex-wrap items-center gap-2 text-xs">${marketBadge(loc, `${esc(m.pred)} @ ${esc(m.odds)}`, false, PILL_GREEN_STRONG)}${marketBadge(loc, `${m.conf}% ${t(loc, 'market.conf')}`, false, PILL_GREY)}</div>
+<div class="mt-2 text-xs text-zinc-500">${esc(fmtDate(loc, m.utcDate))} • ${esc(utcTime(m))} UTC${m.precise ? ' • ' + esc(m.precise) : ''}</div>
+</div>
+</div>`;
 }
 
 function homeMatchRow(loc, m) {
@@ -403,13 +413,17 @@ function statusLabel(loc, st) {
 
 function newsCard(loc, n) {
   const img = n.image || '';
-  return `<a href="${esc(n.url || pageUrl(loc, { type: 'news' }))}" target="_blank" rel="noopener sponsored nofollow" class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition block">
+  const url = n.url || pageUrl(loc, { type: 'news' });
+  return `<div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
+<a href="${esc(url)}" target="_blank" rel="noopener sponsored nofollow" class="block">
 ${img ? `<img loading="lazy" src="${esc(img)}" alt="${esc(n.title || '')}" class="h-40 w-full object-cover">` : ''}
-<div class="p-4"><div class="text-xs text-zinc-400 font-medium">${esc(n.category || '')}${n.league ? ' · ' + esc(n.league) : ''}</div>
-<div class="mt-1 font-bold text-sm leading-snug">${esc(n.title || '')}</div>
+<div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">${esc(n.title || '')} →</div></div>
+</a>
+<div class="px-4 pb-4">
+<div class="text-xs text-zinc-400 font-medium">${esc(n.category || '')}${n.league ? ' · ' + esc(n.league) : ''}</div>
 <p class="mt-1 text-xs text-zinc-500">${esc((n.excerpt || '').slice(0, 110))}…</p>
-<div class="mt-2 text-xs text-brand-700 font-semibold">${t(loc, 'news.read')} →</div>
-</div></a>`;
+</div>
+</div>`;
 }
 
 function faqBlock(loc, items) {
@@ -417,7 +431,7 @@ function faqBlock(loc, items) {
 }
 
 function rgNote(loc) {
-  return `<div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-xs leading-relaxed">${t(loc, 'rg.block')} · <a href="https://www.begambleaware.org" target="_blank" rel="nofollow noopener" class="underline font-semibold">${t(loc, 'rg.help')}</a></div>`;
+  return `<div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-xs leading-relaxed">${t(loc, 'rg.block')} · <a href="https://www.begambleaware.org" target="_blank" rel="nofollow noopener" class="underline font-semibold">${t(loc, 'rg.helpCta')}</a></div>`;
 }
 
 // ---------------- PAGES ----------------
@@ -565,7 +579,7 @@ function predIndexPage(loc) {
     const slug = leagueSlug(league);
     const first = ms[0];
     return `<section class="mt-8">
-<div class="flex items-center justify-between gap-2"><h2 class="text-lg font-extrabold">${esc(flag(first.code))} ${esc(league)}</h2><a href="${pageUrl(loc, { type: 'league', arg: slug })}" class="text-xs font-bold text-brand-700 hover:underline">${tR(loc, 'sec.allCta')}</a></div>
+<div class="flex items-center justify-between gap-2"><h2 class="text-lg font-extrabold">${esc(flag(first.code))} ${esc(league)}</h2><a href="${pageUrl(loc, { type: 'league', arg: slug })}" class="text-xs font-bold text-brand-700 hover:underline">${tR(loc, 'league.seeAll', { name: league })}</a></div>
 <div class="mt-3 grid md:grid-cols-2 gap-4">${ms.map(m => predCard(loc, m)).join('')}</div>
 </section>`;
   }).join('') || `<div class="mt-8 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${tR(loc, 'predHub.empty')}</div>`;
@@ -611,7 +625,7 @@ ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${title} ${tR(loc, 'marketHub.today')}</h1>
 <p class="mt-2 text-zinc-600">${tR(loc, isOver ? 'marketHub.descOver' : 'marketHub.descBtts', { n: matches.length })}</p>
 <div class="mt-8 grid md:grid-cols-2 gap-4">${cards}</div>
-<div class="mt-10 flex flex-wrap gap-3"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">← ${tR(loc, 'nav.predictions')}</a><a href="${pageUrl(loc, { type: 'predictor' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${tR(loc, 'nav.predictor')}</a></div>
+<div class="mt-10 flex flex-wrap gap-3"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">← ${tR(loc, 'marketHub.back')}</a><a href="${pageUrl(loc, { type: 'predictor' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${tR(loc, 'marketHub.tryPredictor')}</a></div>
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
@@ -642,7 +656,7 @@ function predDetailPage(loc, m, related) {
     { q: t(loc, 'analysis.faq3.q', { home: m.home, away: m.away }), a: t(loc, 'analysis.faq3.a', { precise: m.precise, countdown: m.countdown }) }
   ];
 
-  const relatedHTML = related.map(r => `<a href="${pageUrl(loc, { type: 'pred', arg: r.slug })}" class="block border border-zinc-200 rounded-2xl p-4 hover:bg-zinc-50"><div class="font-bold text-sm">${esc(r.home)} ${t(loc, 'detail.vs')} ${esc(r.away)}</div><div class="text-xs text-zinc-500 mt-1">${esc(r.league)} • ${esc(r.pred)} @ ${esc(r.odds)} • ${r.conf}%</div></a>`).join('');
+  const relatedHTML = related.map(r => `<div class="block border border-zinc-200 rounded-2xl hover:bg-zinc-50"><a href="${pageUrl(loc, { type: 'pred', arg: r.slug })}" class="block p-4 pb-1"><div class="font-bold text-sm">${esc(r.home)} ${t(loc, 'detail.vs')} ${esc(r.away)}</div></a><div class="px-4 pb-4 text-xs text-zinc-500">${esc(r.league)} • ${esc(r.pred)} @ ${esc(r.odds)} • ${r.conf}%</div></div>`).join('');
 
   const body = `
 <main class="max-w-4xl mx-auto px-4 md:px-6 py-8">
@@ -701,14 +715,14 @@ ${m.topScores && m.topScores.length ? `<h3 class="mt-6 text-lg font-extrabold">$
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.howTo')}</h3>
 <p class="text-zinc-700">${t(loc, 'analysis.stakeNote')}</p>
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.whereTo')}</h3>
-<p class="text-zinc-700">${t(loc, 'analysis.whereNote', { bookie: 'Melbet', code: CODE })} — <a href="${MELBET}" rel="sponsored nofollow noopener" class="text-brand-700 underline">${t(loc, 'footer.predictor')}</a></p>
+<p class="text-zinc-700">${t(loc, 'analysis.whereNote', { bookie: 'Melbet', code: CODE })} — <a href="${MELBET}" rel="sponsored nofollow noopener" class="text-brand-700 underline">${t(loc, 'detail.register')}</a></p>
 </article>
 ${rgNote(loc)}
 ${faqBlock(loc, faqs)}
 <section class="mt-10">
 <h2 class="text-2xl font-extrabold">${t(loc, 'detail.more')}</h2>
 <div class="mt-4 grid md:grid-cols-2 gap-4">${relatedHTML}</div>
-<div class="mt-6 flex flex-wrap gap-3"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">← ${t(loc, 'nav.predictions')}</a><a href="${pageUrl(loc, { type: 'btts' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${t(loc, 'footer.btts')}</a><a href="${pageUrl(loc, { type: 'over' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${t(loc, 'footer.over')}</a></div>
+<div class="mt-6 flex flex-wrap gap-3"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">← ${t(loc, 'marketHub.back')}</a><a href="${pageUrl(loc, { type: 'btts' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${t(loc, 'detail.seeBtts')}</a><a href="${pageUrl(loc, { type: 'over' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">${t(loc, 'detail.seeOver')}</a></div>
 </section>
 </main>`;
 
@@ -817,7 +831,7 @@ document.getElementById('pda').addEventListener('keypress',function(e){if(e.key=
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: `${t(loc, 'predictor.title')} | XWhiz`, desc: t(loc, 'predictor.sub'), page: { type: 'predictor' },
+    title: `${t(loc, 'predictor.title')} | XWhiz`, desc: t(loc, 'predictor.desc'), page: { type: 'predictor' },
     canonical: `${SITE}${pageUrl(loc, { type: 'predictor' })}`, body
   });
 }
@@ -836,11 +850,13 @@ function footballHubPage(loc) {
 ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { label: tR(loc, 'nav.football') }])}
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${tR(loc, 'football.hubTitle')}</h1>
 <p class="mt-2 text-zinc-600">${tR(loc, 'football.hubDesc')}</p>
+<p class="mt-3 text-sm text-zinc-600 max-w-3xl">${tR(loc, 'football.hubIntro')}</p>
 <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">${cards.map(c => `<a href="${c.href}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${c.t}</div><div class="text-sm text-zinc-500 mt-1">${c.d}</div></a>`).join('')}</div>
 <h2 class="mt-10 text-2xl font-extrabold">${tR(loc, 'sec.leagues')}</h2>
 <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${comps || `<div class="text-sm text-zinc-500">${tR(loc, 'football.noMatches')}</div>`}</div>
 <h2 class="mt-10 text-2xl font-extrabold">${tR(loc, 'footer.teams')}</h2>
 <div class="mt-4 flex flex-wrap gap-2">${teams || `<div class="text-sm text-zinc-500">${tR(loc, 'football.noMatches')}</div>`}</div>
+<p class="mt-8 text-xs text-zinc-400">${tR(loc, 'sec.update')} — ${tR(loc, 'sec.dataNote')}</p>
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
@@ -879,6 +895,7 @@ function leaguePage(loc, slug, lg) {
 ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'football' }), label: tR(loc, 'nav.football') }, { href: pageUrl(loc, { type: 'leagues' }), label: tR(loc, 'footer.leagues') }, { label: name }])}
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(flag(lg.code))} ${esc(name)}</h1>
 <p class="mt-2 text-zinc-600">${tR(loc, 'football.overview')} — ${tR(loc, 'football.hubDesc')}</p>
+<p class="mt-3 text-sm text-zinc-600 max-w-3xl">${tR(loc, 'league.intro', { name })}</p>
 <div class="mt-6">
 <details class="border border-zinc-200 rounded-2xl overflow-hidden" open>
 <summary class="px-5 py-4 font-extrabold cursor-pointer hover:bg-zinc-50">${tR(loc, 'sec.topPicks')}</summary>
@@ -929,6 +946,7 @@ function teamPage(loc, slug, name) {
 ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'football' }), label: tR(loc, 'nav.football') }, { href: pageUrl(loc, { type: 'teams' }), label: tR(loc, 'footer.teams') }, { label: name }])}
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(name)}</h1>
 <p class="mt-2 text-zinc-600">${tR(loc, 'football.hubDesc')}</p>
+<p class="mt-3 text-sm text-zinc-600 max-w-3xl">${tR(loc, 'team.intro', { name })}</p>
 <div class="mt-6">
 <details class="border border-zinc-200 rounded-2xl overflow-hidden" open>
 <summary class="px-5 py-4 font-extrabold cursor-pointer hover:bg-zinc-50">${tR(loc, 'sec.topPicks')}</summary>

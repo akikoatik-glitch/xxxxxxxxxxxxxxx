@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+  <rect width="64" height="64" rx="14" fill="#16a34a"/>
+  <g transform="translate(14 14) scale(0.18)">
+    <defs>
+      <radialGradient id="xg" cx="38%" cy="32%" r="78%">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="62%" stop-color="#e8f0ee"/>
+        <stop offset="100%" stop-color="#c6d8d1"/>
+      </radialGradient>
+      <clipPath id="xm"><circle cx="100" cy="100" r="98"/></clipPath>
+    </defs>
+    <circle cx="100" cy="100" r="98" fill="url(#xg)"/>
+    <g clip-path="url(#xm)" fill="#141518">
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84"/>
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84" transform="translate(0,78)"/>
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84" transform="rotate(72 100 100) translate(0,78)"/>
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84" transform="rotate(144 100 100) translate(0,78)"/>
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84" transform="rotate(216 100 100) translate(0,78)"/>
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84" transform="rotate(288 100 100) translate(0,78)"/>
+    </g>
+    <g clip-path="url(#xm)" stroke="#8fa8a0" stroke-width="2" fill="none">
+      <polygon points="100,66 130,84 119.5,118 80.5,118 70,84"/>
+      <line x1="100" y1="66" x2="100" y2="144"/>
+      <line x1="100" y1="66" x2="30" y2="100"/>
+      <line x1="100" y1="66" x2="170" y2="100"/>
+    </g>
+    <ellipse cx="72" cy="52" rx="34" ry="22" fill="#ffffff" opacity="0.55"/>
+  </g>
+</svg>

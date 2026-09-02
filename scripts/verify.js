@@ -22,7 +22,7 @@ function allHtml() {
       } else if (e.name.endsWith('.html')) out.push(full);
     }
   };
-  for (const f of ['index.html', '404.html', 'live.html', 'predictor.html', 'search.html', 'seo-checkup.html']) {
+  for (const f of ['index.html', '404.html', 'live.html', 'predictor.html', 'search.html']) {
     const p = path.join(ROOT, f);
     if (fs.existsSync(p)) out.push(p);
   }
@@ -70,7 +70,7 @@ for (const f of htmlFiles) {
   const c = fs.readFileSync(f, 'utf8');
   const rel = path.relative(ROOT, f).replace(/\\/g, '/');
   const locale = f.match(/[\\/](fr|ar)[\\/]/) ? f.match(/[\\/](fr|ar)[\\/]/)[1] : 'en';
-  if (rel === 'seo-checkup.html' || rel === 'site.css') continue;
+  if (rel === 'site.css') continue;
   const lang = c.match(/<html lang="([^"]+)" dir="([^"]+)">/);
   if (!lang) { err('no lang/dir on <html>', rel); continue; }
   if (locale === 'ar' && (lang[1] !== 'ar' || lang[2] !== 'rtl')) err('ar page must be lang=ar dir=rtl', rel);
@@ -96,6 +96,19 @@ for (const f of htmlFiles) {
   const h1s = (c.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) err('expected exactly 1 H1, found ' + h1s, rel);
   if (!c.includes('football.svg')) warn('football.svg not referenced (3D hero ball)', rel);
+  if (!c.includes('rel="icon"')) err('missing favicon <link rel="icon">', rel);
+  if (!c.includes('href="/favicon.svg"')) err('missing /favicon.svg icon link', rel);
+  if (!c.includes('href="/favicon-32x32.png"')) err('missing /favicon-32x32.png icon link', rel);
+  if (rel !== '404.html') {
+    const canon = (c.match(/<link rel="canonical" href="([^"]+)"/) || [])[1] || '';
+    const served = '/' + rel;
+    const servedDir = served.endsWith('/index.html') ? served.slice(0, -'index.html'.length) : served;
+    const canonPath = canon.replace(SITE, '').split('#')[0].split('?')[0];
+    if (!canon) err('no canonical link', rel);
+    else if (canonPath !== servedDir) err('canonical "' + canonPath + '" does not match page URL "' + servedDir + '"', rel);
+    const ogUrl = (c.match(/<meta property="og:url" content="([^"]+)"/) || [])[1] || '';
+    if (ogUrl !== canon) err('og:url does not match canonical', rel);
+  }
 }
 
 // ---------- 2b. no unresolved templating leftovers in rendered body ----------
@@ -112,7 +125,7 @@ console.log('== 3. JSON-LD valid JSON ==');
 for (const f of htmlFiles) {
   const c = fs.readFileSync(f, 'utf8');
   const rel = path.relative(ROOT, f).replace(/\\/g, '/');
-  if (rel === 'seo-checkup.html') continue;
+  if (rel === 'site.css') continue;
   const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
   let mm, n = 0;
   while ((mm = re.exec(c))) { try { JSON.parse(mm[1]); n++; } catch (e) { err('invalid JSON-LD: ' + e.message, rel); } }
@@ -171,6 +184,9 @@ if (!fs.existsSync(path.join(ROOT, 'football.svg'))) err('missing football.svg')
 if (!fs.existsSync(path.join(ROOT, 'logo.png'))) err('missing logo.png');
 if (!fs.existsSync(path.join(ROOT, 'og-image.png'))) err('missing og-image.png');
 if (!fs.existsSync(path.join(ROOT, 'apple-touch-icon.png'))) err('missing apple-touch-icon.png');
+if (!fs.existsSync(path.join(ROOT, 'favicon.svg'))) err('missing favicon.svg');
+if (!fs.existsSync(path.join(ROOT, 'favicon-32x32.png'))) err('missing favicon-32x32.png');
+if (!fs.existsSync(path.join(ROOT, 'favicon-16x16.png'))) err('missing favicon-16x16.png');
 if (!fs.existsSync(path.join(ROOT, 'rtl.css'))) err('missing rtl.css');
 if (!fs.existsSync(path.join(ROOT, 'search-index.json'))) err('missing en search-index.json');
 if (!fs.existsSync(path.join(ROOT, 'fr/search-index.json'))) err('missing fr search-index.json');

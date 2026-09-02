@@ -13,13 +13,15 @@ const L = {
       home: { title: 'Football Predictions Today: Tips, Odds & Live Scores | XWhiz', desc: 'Free football predictions today: 1X2, Over/Under 2.5 and BTTS picks from the Dixon-Coles model, with confidence, odds and live scores. Updated daily.' }
     },
     nav: { predictions: 'Predictions', football: 'Football', live: 'Live Scores', news: 'News', predictor: 'Match Predictor', search: 'Search' },
-    topbar: { text: 'Independent statistical football predictions · 18+ gamble responsibly', bonus: 'Melbet bonus' },
+    topbar: { text: 'Independent statistical football predictions · 18+ gamble responsibly', bonus: 'Melbet bonus', cta: 'Claim bonus' },
+    league: { seeAll: 'All {name} predictions →', intro: '{name} — fixtures, results, league table and our statistical football predictions for the competition, recomputed daily at 06:00 UTC from real data.' },
+    team: { intro: '{name} — upcoming fixtures, recent results and our statistical football predictions for this team, recomputed daily at 06:00 UTC from real data.' },
     hero: {
       badge: 'Updated daily at 06:00 UTC',
       h1: 'Football predictions today, backed by statistics',
       sub: 'Our Dixon-Coles + Elo model estimates expected goals for every match, then turns them into probabilities for 1X2, Over/Under 2.5 and Both Teams To Score. No streaks, no gut feeling — just maths.',
       cta1: "Today's picks — free",
-      cta2: 'Live scores',
+      cta2: 'View live scores',
       trust: 'Free · Independent · Added daily · Never fake fixtures'
     },
     sec: {
@@ -100,12 +102,17 @@ const L = {
       more: 'More predictions today',
       views: 'prediction pages',
       titleToken: 'Prediction',
-      desc: '{home} vs {away}: {pred} @ {odds} ({conf}% confidence) plus expected goals, Over/Under 2.5, BTTS and most likely score.'
+      desc: '{home} vs {away}: {pred} @ {odds} ({conf}% confidence) plus expected goals, Over/Under 2.5, BTTS and most likely score.',
+      seeBtts: 'All BTTS tips today',
+      seeOver: 'All Over 2.5 tips today',
+      register: 'Register with Melbet'
     },
     marketHub: {
       today: 'today',
       descOver: '{n} matches with a model probability of three or more goals above 55% — real fixtures, statistical totals, refreshed daily at 06:00 UTC.',
-      descBtts: '{n} matches where the model backs both teams to score — real fixtures and BTTS probabilities, refreshed daily at 06:00 UTC.'
+      descBtts: '{n} matches where the model backs both teams to score — real fixtures and BTTS probabilities, refreshed daily at 06:00 UTC.',
+      back: 'Back to all predictions',
+      tryPredictor: 'Try the free match predictor'
     },
     live: {
       title: 'Live football scores',
@@ -115,7 +122,8 @@ const L = {
     },
     predictor: {
       title: 'Free match predictor',
-      sub: 'Pick any two teams and our Dixon-Coles statistical model returns instant probabilities for the 1X2, totals and both-teams-to-score markets. Runs entirely in your browser.',
+      desc: 'Free match predictor: pick two teams and get instant 1X2, Over/Under 2.5 and BTTS probabilities from our Dixon-Coles statistical model — no sign-up.',
+      sub: 'Pick any two teams and our Dixon-Coles statistical model returns instant probabilities for the 1X2, totals and both-teams-to-score markets. Runs entirely in your browser — free, no sign-up.',
       teamA: 'Home team', teamB: 'Away team', swap: 'Swap teams', calc: 'Run the model',
       resultTitle: 'Model output', predLine: 'Recommended pick', oddsTag: 'Fair odds', uncertainty: 'This is a probability estimate for information purposes only — betting is risk. 18+.',
       examples: 'Popular pairings', modelDesc: 'Method: Elo ratings → expected goals (Poisson with Dixon-Coles low-score correction) → full market probabilities.',
@@ -127,6 +135,7 @@ const L = {
       hubTitle: 'Football',
       hubKey: 'Predictions, Leagues & Live Scores',
       hubDesc: 'Competitions, teams, fixtures, results and league tables from our daily real-data feed.',
+      hubIntro: 'Football is our core coverage on XWhiz. Each day we publish statistical predictions, live scores, fixtures and results for the competitions below — every fixture is real data from football-data.org, analysed with the Dixon-Coles + Elo model and refreshed at 06:00 UTC.',
       leagues: 'Leagues', teams: 'Teams', fixtures: 'Fixtures', results: 'Results',
       today: 'Today', tomorrow: 'Tomorrow', upcoming: 'Upcoming 7 days', finished: 'Finished',
       noMatches: 'No matches available for this view yet.',
@@ -137,6 +146,7 @@ const L = {
     rg: {
       block: 'Responsible gambling: our predictions are statistical analysis for information and entertainment — they are not a guarantee of profit. 18+. Never bet more than you can afford to lose.',
       help: 'BeGambleAware.org',
+      helpCta: 'Get responsible gambling help',
       affiliate: 'Affiliate disclosure: this site uses affiliate links. If you register via our Melbet links we may earn a commission at no extra cost to you. 18+ | Gamble responsibly'
     },
     footer: {
@@ -160,13 +170,15 @@ const L = {
       home: { title: 'Pronostic Football Aujourd\'hui : Conseils & Cotes | XWhiz', desc: 'Pronostics football gratuits du jour : 1N2, plus/moins 2,5 et BTTS calculés par le modèle Dixon-Coles, avec confiance, cotes et scores en direct. Mis à jour chaque jour.' }
     },
     nav: { predictions: 'Pronostics', football: 'Football', live: 'Direct', news: 'Actus', predictor: 'Pronostiqueur', search: 'Recherche' },
-    topbar: { text: 'Pronostics football statistiques et indépendants · 18+ jouez responsable', bonus: 'Bonus Melbet' },
+    topbar: { text: 'Pronostics football statistiques et indépendants · 18+ jouez responsable', bonus: 'Bonus Melbet', cta: 'Réclamer le bonus' },
+    league: { seeAll: 'Tous les pronostics {name} →', intro: '{name} — calendrier, résultats, classement et nos pronostics football statistiques pour la compétition, recalculés chaque jour à 06h00 UTC à partir de données réelles.' },
+    team: { intro: '{name} — prochains matchs, derniers résultats et nos pronostics football statistiques pour cette équipe, recalculés chaque jour à 06h00 UTC à partir de données réelles.' },
     hero: {
       badge: 'Mis à jour chaque jour à 06h00 UTC',
       h1: 'Pronostics football du jour, fondés sur les statistiques',
       sub: 'Notre modèle Dixon-Coles + Elo estime les buts attendus de chaque rencontre puis traduit ces données en probabilités 1N2, Plus/Moins 2,5 buts et « les deux équipes marquent ». Pas d\'impressions, que des maths.',
       cta1: 'Les pronostics du jour — gratuits',
-      cta2: 'Scores en direct',
+      cta2: 'Voir les scores en direct',
       trust: 'Gratuit · Indépendant · Mis à jour chaque jour · Jamais de faux matchs'
     },
     sec: {
@@ -246,12 +258,17 @@ const L = {
       vs: '–', tag: 'PRONO STATISTIQUE XWHIZ', kickoff: 'Coup d\'envoi', matchday: 'Journée',
       more: 'Plus de pronostics aujourd\'hui', views: 'pages de pronostics',
       titleToken: 'pronostic',
-      desc: '{home} contre {away} : {pred} @ {odds} ({conf}% de confiance) plus buts attendus, plus/moins 2,5, BTTS et score exact le plus probable.'
+      desc: '{home} contre {away} : {pred} @ {odds} ({conf}% de confiance) plus buts attendus, plus/moins 2,5, BTTS et score exact le plus probable.',
+      seeBtts: 'Tous les pronostics BTTS du jour',
+      seeOver: 'Tous les pronostics Plus de 2,5 du jour',
+      register: 'S\'inscrire chez Melbet'
     },
     marketHub: {
       today: 'aujourd\'hui',
       descOver: '{n} matchs avec une probabilité de trois buts ou plus supérieure à 55 % selon le modèle — de vrais matchs, des totaux statistiques, mis à jour chaque jour à 06h00 UTC.',
-      descBtts: '{n} matchs où le modèle soutient la marque des deux équipes — de vrais matchs et probabilités BTTS, mis à jour chaque jour à 06h00 UTC.'
+      descBtts: '{n} matchs où le modèle soutient la marque des deux équipes — de vrais matchs et probabilités BTTS, mis à jour chaque jour à 06h00 UTC.',
+      back: 'Retour à tous les pronostics',
+      tryPredictor: 'Essayez le pronostiqueur gratuit'
     },
     live: {
       title: 'Scores de football en direct',
@@ -261,7 +278,8 @@ const L = {
     },
     predictor: {
       title: 'Pronostiqueur de matchs gratuit',
-      sub: 'Choisissez deux équipes et notre modèle statistique Dixon-Coles calcule instantanément les probabilités 1N2, totaux et « les deux équipes marquent ». Tout se passe dans votre navigateur.',
+      desc: 'Pronostiqueur de matchs gratuit : probabilités 1N2, plus/moins 2,5 et BTTS instantanées avec notre modèle statistique Dixon-Coles — sans inscription.',
+      sub: 'Choisissez deux équipes et notre modèle statistique Dixon-Coles calcule instantanément les probabilités 1N2, totaux et « les deux équipes marquent ». Tout se passe dans votre navigateur — gratuit, sans inscription.',
       teamA: 'Équipe à domicile', teamB: 'Équipe à l\'extérieur', swap: 'Inverser', calc: 'Lancer le modèle',
       resultTitle: 'Résultat du modèle', predLine: 'Pronostic conseillé', oddsTag: 'Cote juste',
       uncertainty: 'Ceci est une estimation de probabilité à but informatif — parier comporte un risque. 18+.',
@@ -274,6 +292,7 @@ const L = {
       hubTitle: 'Football',
       hubKey: 'Pronostics, Ligues & Scores en Direct',
       hubDesc: 'Compétitions, équipes, calendrier, résultats et classements issus de notre flux quotidien de données réelles.',
+      hubIntro: 'Le football est le cœur de XWhiz. Chaque jour nous publions des pronostics statistiques, des scores en direct, un calendrier et des résultats pour les compétitions ci-dessous — chaque rencontre provient de vraies données football-data.org analysées avec le modèle Dixon-Coles + Elo, actualisées à 06h00 UTC.',
       leagues: 'Ligues', teams: 'Équipes', fixtures: 'Calendrier', results: 'Résultats',
       today: 'Aujourd\'hui', tomorrow: 'Demain', upcoming: 'Prochains 7 jours', finished: 'Terminés',
       noMatches: 'Aucun match disponible pour le moment.',
@@ -284,6 +303,7 @@ const L = {
     rg: {
       block: 'Jeu responsable : nos pronostics sont une analyse statistique informative — ils ne garantissent aucun gain. 18+. Ne misez jamais plus que ce que vous pouvez vous permettre de perdre.',
       help: 'BeGambleAware.org',
+      helpCta: 'Aide au jeu responsable',
       affiliate: 'Divulgation d\'affiliation : ce site utilise des liens affiliés. Si vous vous inscrivez via nos liens Melbet, nous pouvons percevoir une commission sans frais supplémentaires pour vous. 18+ | Jouez responsablement.'
     },
     footer: {
@@ -307,13 +327,15 @@ const L = {
       home: { title: 'توقعات مباريات اليوم — مجانية واحتمالات ونتائج مباشرة | XWhiz', desc: 'توقعات كرة القدم المجانية اليوم: 1X2 وأكثر/أقل من 2.5 وكلا الفريقين يسجلان وفق نموذج Dixon-Coles مع نسب الثقة والاحتمالات والنتائج المباشرة. تُحدَّث يوميًا.' }
     },
     nav: { predictions: 'التوقعات', football: 'كرة القدم', live: 'النتائج المباشرة', news: 'الأخبار', predictor: 'مُنبّئ المباريات', search: 'بحث' },
-    topbar: { text: 'توقعات كرة القدم الإحصائية المستقلة · 18+ العب بمسؤولية', bonus: 'مكافأة Melbet' },
+    topbar: { text: 'توقعات كرة القدم الإحصائية المستقلة · 18+ العب بمسؤولية', bonus: 'مكافأة Melbet', cta: 'اطلب المكافأة' },
+    league: { seeAll: 'جميع توقعات {name} ←', intro: '{name} — مباريات ونتائج وجدول ترتيب وتوقعات كرة القدم الإحصائية للمسابقة، تُعاد حساباتها يوميًا من بيانات حقيقية الساعة 06:00 UTC.' },
+    team: { intro: '{name} — مباريات قادمة ونتائج حديثة وتوقعات كرة القدم الإحصائية لهذا الفريق، تُعاد حساباتها يوميًا من بيانات حقيقية.' },
     hero: {
       badge: 'تُحدَّث يوميًا في الساعة 06:00 بتوقيت غرينتش',
       h1: 'توقعات مباريات اليوم، مدعومة بالإحصاءات',
       sub: 'يعمل نموذجنا Dixon-Coles + Elo على تقدير الأهداف المتوقعة في كل مباراة ثم تحويلها إلى احتمالات لسوق 1X2 وأكثر/أقل من 2.5 هدف وكلا الفريقين يسجلان. لا حظوظ ولا تخمينات — فقط أرقام.',
       cta1: 'توقعات اليوم مجانًا',
-      cta2: 'النتائج المباشرة',
+      cta2: 'شاهد النتائج المباشرة',
       trust: 'مجاني · مستقل · يُضاف يوميًا · لا مباريات مختلَقة أبدًا'
     },
     sec: {
@@ -393,12 +415,17 @@ const L = {
       vs: 'ضد', tag: 'توقع XWHIZ الإحصائي', kickoff: 'الانطلاق', matchday: 'الجولة',
       more: 'المزيد من توقعات اليوم', views: 'صفحات التوقعات',
       titleToken: 'توقع',
-      desc: '{home} ضد {away}: {pred} @ {odds} (ثقة {conf}%) + الأهداف المتوقعة وأكثر/أقل من 2.5 وكلا الفريقين يسجلان والنتيجة الأكثر احتمالًا.'
+      desc: '{home} ضد {away}: {pred} @ {odds} (ثقة {conf}%) + الأهداف المتوقعة وأكثر/أقل من 2.5 وكلا الفريقين يسجلان والنتيجة الأكثر احتمالًا.',
+      seeBtts: 'جميع توقعات كلا الفريقين يسجلان اليوم',
+      seeOver: 'جميع توقعات أكثر من 2.5 اليوم',
+      register: 'سجّل مع Melbet'
     },
     marketHub: {
       today: 'اليوم',
       descOver: '{n} مباراة باحتمال ثلاثة أهداف أو أكثر أعلى من 55% وفق النموذج — مباريات حقيقية وإجماليات إحصائية تُحدَّث يوميًا.',
-      descBtts: '{n} مباراة يمنح فيها النموذج الفريقين فرصة قوية للتسجيل — مباريات حقيقية واحتمالات BTTS تُحدَّث يوميًا.'
+      descBtts: '{n} مباراة يمنح فيها النموذج الفريقين فرصة قوية للتسجيل — مباريات حقيقية واحتمالات BTTS تُحدَّث يوميًا.',
+      back: 'العودة إلى جميع التوقعات',
+      tryPredictor: 'جرّب مُنبّئ المباريات المجاني'
     },
     live: {
       title: 'نتائج مباريات كرة القدم المباشرة',
@@ -408,7 +435,8 @@ const L = {
     },
     predictor: {
       title: 'مُنَبّئ المباريات المجاني',
-      sub: 'اختر أي فريقين وسيحسب نموذجنا الإحصائي Dixon-Coles على الفور احتمال نتيجتي 1X2 والأهداف الإجمالية وكلا الفريقين يسجلان. يعمل كليًا داخل متصفحك.',
+      desc: 'مُنَبّئ مباريات مجاني: اختر فريقين واحصل فورًا على احتمالات 1X2 والأهداف الإجمالية وكلا الفريقين يسجلان من نموذجنا Dixon-Coles — دون تسجيل.',
+      sub: 'اختر أي فريقين وسيحسب نموذجنا الإحصائي Dixon-Coles على الفور احتمال نتيجتي 1X2 والأهداف الإجمالية وكلا الفريقين يسجلان. يعمل كليًا داخل متصفحك — مجاني، دون تسجيل.',
       teamA: 'الفريق المستضيف', teamB: 'الفريق الضيف', swap: 'تبديل الفريقين', calc: 'تشغيل النموذج',
       resultTitle: 'نتيجة النموذج', predLine: 'التوقع الموصى به', oddsTag: 'السعر العادل',
       uncertainty: 'هذا تقدير احتمالي لأغراض إعلامية فقط — المراهنة تنطوي على مخاطر. 18+.',
@@ -421,6 +449,7 @@ const L = {
       hubTitle: 'كرة القدم',
       hubKey: 'توقعات ودوريات ونتائج مباشرة',
       hubDesc: 'المسابقات والفرق والمباريات والنتائج وجدول الترتيب من بياناتنا الحقيقية اليومية.',
+      hubIntro: 'كرة القدم هي جوهر تغطية XWhiz. ننشر يوميًا توقعات إحصائية ونتائج مباشرة ومباريات ونتائج للمسابقات أدناه — كل مباراة مصدرها بيانات حقيقية من football-data.org، تُحلَّل بنموذج Dixon-Coles + Elo وتُحدَّث الساعة 06:00 UTC.',
       leagues: 'الدوريات', teams: 'الفرق', fixtures: 'المباريات', results: 'النتائج',
       today: 'اليوم', tomorrow: 'غدًا', upcoming: 'السبعة أيام القادمة', finished: 'المنتهية',
       noMatches: 'لا توجد مباريات في هذا القسم حاليًا.',
@@ -431,6 +460,7 @@ const L = {
     rg: {
       block: 'اللعب المسؤول: توقعاتنا تحليل إحصائي لأغراض إعلامية وترفيهية — وليست ضمانًا للربح. 18+. لا تراهن أبدًا بأكثر مما يمكنك تحمّل خسارته.',
       help: 'BeGambleAware.org',
+      helpCta: 'مساعدة في اللعب المسؤول',
       affiliate: 'إفصاح تابع: يستخدم الموقع روابط تابعة. إذا سجّلت عبر روابطنا لـ Melbet فقد نكسب عمولة دون أي تكلفة إضافية عليك. 18+ | العب بمسؤولية.'
     },
     footer: {

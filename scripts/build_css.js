@@ -32,7 +32,7 @@ function walk(dir, acc = [], exts) {
 const htmlFiles = [];
 const jsFiles = walk(ROOT, [], ['.js']);
 for (const sub of ['football', 'news', 'predictions', 'fr', 'ar']) walk(path.join(ROOT, sub), htmlFiles, ['.html']);
-for (const f of ['index.html', '404.html', 'live.html', 'search.html', 'predictor.html', 'seo-checkup.html', 'news.html']) {
+for (const f of ['index.html', '404.html', 'live.html', 'search.html', 'predictor.html', 'news.html']) {
   const p = path.join(ROOT, f);
   if (fs.existsSync(p)) htmlFiles.push(p);
 }
