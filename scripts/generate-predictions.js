@@ -120,10 +120,10 @@ function normalizeMatch(m, i) {
     correctScore: dc.cs || null,
     topScores: dc.top || null,
     asianHandicap: dc.ah || null,
+    form: m.form || null,
+    injuries: m.injuries || 'Lineups confirmed ~1h before kickoff',
     whyWin: m._whyReal || `${getAnalysis(home, away, dc.pred, dc)} Dixon-Coles: P(H)${dc.pH}% D${dc.pD}% A${dc.pA}%${dc.lamH ? ` • xG ${dc.lamH}-${dc.lamA}` : ''}`,
     betExplain: getBetExplain(dc.pred),
-    form: m.form || 'Form data via league table and recent results',
-    injuries: m.injuries || 'Lineups confirmed ~1h before kickoff',
     model: 'Dixon-Coles + Elo',
     locked: false
   };
@@ -167,33 +167,86 @@ function readJSON(file) {
 
 async function main() {
   const today = new Date().toISOString().slice(0, 10);
-  let raw = null, source = '';
+  const now = new Date().toISOString();
+  let raw = null, source = '', dataTimestamp = null;
 
   const fToday = readJSON('football/today.json');
   const fTomorrow = readJSON('football/tomorrow.json');
   const fUpcoming = readJSON('football/upcoming.json');
 
-  if (fToday && fToday.matches && fToday.matches.length) { raw = fToday.matches; source = 'football-data.org (today)'; }
-  else if (fTomorrow && fTomorrow.matches && fTomorrow.matches.length) { raw = fTomorrow.matches; source = 'football-data.org (tomorrow)'; }
-  else if (fUpcoming && fUpcoming.matches && fUpcoming.matches.length) { raw = fUpcoming.matches.slice(0, 12); source = 'football-data.org (upcoming)'; }
-  else {
-    const direct = await fetchFootballDataDirect();
-    if (direct && direct.length) { raw = direct; source = 'football-data.org (direct)'; }
-    else {
-      const af = await fetchApiFootballDirect();
-      if (af && af.length) { raw = af; source = 'API-Football'; }
-    }
+  if (fToday && fToday.matches && fToday.matches.length) {
+    raw = fToday.matches; source = 'football-data.org (today)'; dataTimestamp = fToday.lastUpdate;
+  } else if (fTomorrow && fTomorrow.matches && fTomorrow.matches.length) {
+    raw = fTomorrow.matches; source = 'football-data.org (tomorrow)'; dataTimestamp = fTomorrow.lastUpdate;
+  } else if (fUpcoming && fUpcoming.matches && fUpcoming.matches.length) {
+    raw = fUpcoming.matches.slice(0, 12); source = 'football-data.org (upcoming)'; dataTimestamp = fUpcoming.lastUpdate;
+  } else {
+    try {
+      const direct = await fetchFootballDataDirect();
+      if (direct && direct.length) { raw = direct; source = 'football-data.org (direct)'; dataTimestamp = now; }
+      else {
+        const af = await fetchApiFootballDirect();
+        if (af && af.length) { raw = af; source = 'API-Football'; dataTimestamp = now; }
+      }
+    } catch (e) { console.log('Direct API fallback failed:', e.message); }
   }
+
+  // Check for stale data (warn if older than 48 hours)
+  let dataFreshness = 'fresh';
+  if (dataTimestamp) {
+    const ageMs = new Date(now) - new Date(dataTimestamp);
+    const ageH = Math.round(ageMs / 3600000);
+    if (ageH > 48) { dataFreshness = `stale (${ageH}h old)`; console.log(`⚠️ Data is ${ageH} hours old — may be outdated`); }
+    else if (ageH > 12) { dataFreshness = `recent (${ageH}h ago)`; }
+  }
+
+  // Only predict matches from major leagues (ones we have standings data for)
+  const PREDICTION_LEAGUES = new Set([
+    'Premier League', 'La Liga', 'Bundesliga', 'Serie A', 'Ligue 1',
+    'Eredivisie', 'Primeira Liga', 'Championship', 'Brasileirão', 'Süper Lig',
+    'UEFA Champions League', 'UEFA Europa League', 'UEFA Conference League',
+    'FA Cup', 'Copa del Rey', 'DFB Pokal', 'Coppa Italia', 'Coupe de France',
+    'J1 League', 'K League 1', 'MLS', 'Saudi Pro League',
+    'LigaPro Serie A', 'Categoría Primera A', 'Brazilian Cup',
+  ]);
 
   let matches;
   if (raw) {
-    matches = raw.slice(0, 12).map(normalizeMatch);
+    // Filter to major leagues only, then upcoming only
+    const majorOnly = raw.filter(m => {
+      const league = (m.competition && m.competition.name) || '';
+      return PREDICTION_LEAGUES.has(league) || PREDICTION_LEAGUES.has(m._ssCompetition || '');
+    });
+    if (majorOnly.length > 0) raw = majorOnly;
+    // Filter out finished/matches that already kicked off — only keep upcoming
+    const upcoming = raw.filter(m => {
+      const st = (m.status || '').toUpperCase();
+      return st === 'TIMED' || st === 'SCHEDULED' || st === 'TIMED' || st === '' || st === 'NS';
+    });
+    matches = (upcoming.length ? upcoming : raw).slice(0, 12).map(normalizeMatch);
+    console.log(`Major leagues: ${majorOnly.length} of ${raw.length} matches, upcoming: ${upcoming.length}`);
+    if (matches.length < raw.length) console.log(`Filtered ${raw.length - matches.length} finished matches, keeping ${matches.length} upcoming`);
   } else {
     // No new source available (e.g. running offline without API keys):
     // keep the previous predictions instead of wiping them.
     const prev = readJSON('predictions.json');
-    matches = prev && Array.isArray(prev.matches) ? prev.matches.map(normalizeMatch) : [];
-    if (matches.length) source = 'previous run (re-normalized)';
+    matches = prev && Array.isArray(prev.matches) ? prev.matches
+      .filter(m => {
+        // Even from cache, skip finished matches
+        const st = (m.status || '').toUpperCase();
+        if (st === 'FINISHED' || st === 'FT') return false;
+        // Skip matches whose kickoff has passed (more than 3h ago)
+        if (m.utcDate) {
+          const diff = Date.now() - new Date(m.utcDate).getTime();
+          if (diff > 3 * 3600000) return false;
+        }
+        return true;
+      })
+      .map(normalizeMatch) : [];
+    if (matches.length) {
+      source = 'previous run (re-normalized)';
+      dataFreshness = 'stale (cached from previous run)';
+    }
   }
   console.log(`📦 ${matches.length} matches from ${source || 'no source (empty state)'}`);
 
@@ -212,7 +265,10 @@ async function main() {
 
   const data = {
     date: matches.length ? matches[0].date : today,
-    lastUpdate: new Date().toISOString(),
+    lastUpdate: now,
+    predictionGenerated: now,
+    dataTimestamp: dataTimestamp || now,
+    dataFreshness,
     source,
     matches,
     results,
@@ -222,7 +278,7 @@ async function main() {
   };
 
   fs.writeFileSync('predictions.json', JSON.stringify(data, null, 2));
-  console.log(`✅ predictions.json written (${matches.length} matches, ${results.length} results, ${news.length} news)`);
+  console.log(`✅ predictions.json written (${matches.length} matches, ${results.length} results, ${news.length} news) [${dataFreshness}]`);
 }
 
 main().catch(e => { console.error('FATAL', e); process.exit(1); });

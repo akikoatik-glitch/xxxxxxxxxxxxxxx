@@ -1,43 +1,52 @@
-name: Daily Predictions Update
+name: Daily football predictions
 on:
   schedule:
-    - cron: '0 6 * * *' # Runs every day at 06:00 UTC (entire season)
-  workflow_dispatch: # Allow manual run from GitHub button
+    # Run every day at 03:00 UTC (06:00 CET / Algiers)
+    - cron: '0 3 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/daily.yml'
 
 jobs:
-  update:
+  predict:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: npm
-          cache-dependency-path: package-lock.json
-      - name: Install build dependencies (tailwindcss/postcss for build_css.js)
-        run: npm install
-      - name: Fetch all football data (today/tomorrow/upcoming/yesterday - real data only)
+          node-version: 20
+
+      - name: Fetch football data
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-          MELBET_LINK: ${{ secrets.MELBET_LINK }}
         run: node scripts/fetch_football.js
-      - name: Generate daily predictions (always, with Dixon-Coles)
-        env:
-          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-          MELBET_LINK: ${{ secrets.MELBET_LINK }}
-        run: node scripts/generate-predictions.js
-      - name: Fetch daily sports news (real ESPN API, no fake)
+
+      - name: Fetch news
         run: node scripts/fetch_news.js
-      - name: Rebuild multilingual site (predictions pages, hubs, search, sitemap)
-        run: node scripts/sitegen.js
-      - name: Regenerate site.css from generated pages
-        run: node scripts/build_css.js
-      - name: Commit and push if changed
+
+      - name: Generate predictions
+        run: node scripts/generate-predictions.js
+
+      - name: Build site
         run: |
-          git config user.name "XWhiz Bot"
+          node scripts/sitegen.js
+          node scripts/build_css.js
+
+      - name: Verify
+        run: node scripts/verify.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "xwhiz-bot"
           git config user.email "bot@xwhiz.com"
           git add -A
-          git diff --staged --quiet || (git commit -m "Auto: daily predictions & news $(date +%Y-%m-%d)" && git push)
+          # Only commit if something changed
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Daily prediction update $(date -u +%Y-%m-%d)"
+          git push origin main

@@ -363,6 +363,7 @@ function footer(loc) {
 <div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colF')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'leagues' })}" class="block hover:text-zinc-900">${t(loc, 'footer.leagues')}</a><a href="${pageUrl(loc, { type: 'teams' })}" class="block hover:text-zinc-900">${t(loc, 'footer.teams')}</a><a href="${pageUrl(loc, { type: 'fixtures' })}" class="block hover:text-zinc-900">${t(loc, 'footer.fixtures')}</a><a href="${pageUrl(loc, { type: 'results' })}" class="block hover:text-zinc-900">${t(loc, 'footer.results')}</a></div></div>
 <div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colM')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'live' })}" class="block hover:text-zinc-900">${t(loc, 'footer.live')}</a><a href="${pageUrl(loc, { type: 'news' })}" class="block hover:text-zinc-900">${t(loc, 'footer.news')}</a><a href="${pageUrl(loc, { type: 'search' })}" class="block hover:text-zinc-900">${t(loc, 'footer.search')}</a><a href="${SITE}/sitemap.xml" class="block hover:text-zinc-900">${t(loc, 'footer.sitemap')}</a></div></div>
 </div>
+<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="dofollow" title="Sports data by SportScore" class="underline">SportScore</a></p>
 </footer>
 </div>`;
 }

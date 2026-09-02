@@ -1,51 +1,54 @@
 {
-  "date": "2026-08-28",
-  "lastUpdate": "2026-09-02T01:59:35.930Z",
-  "source": "previous run (re-normalized)",
+  "date": "2026-09-02",
+  "lastUpdate": "2026-09-02T13:46:24.803Z",
+  "predictionGenerated": "2026-09-02T13:46:24.803Z",
+  "dataTimestamp": "2026-09-02T13:46:23.946Z",
+  "dataFreshness": "fresh",
+  "source": "football-data.org (today)",
   "matches": [
     {
-      "id": null,
-      "slug": "real-racing-club-de-santander-vs-elche-cf-prediction",
-      "utcDate": "2026-08-28T17:00:00Z",
-      "date": "2026-08-28",
-      "time": "17:00",
-      "precise": "17:00 UTC • 19:00 CET (Algiers)",
+      "id": "mushuc-runa-vs-liga-dep-universitaria-quito",
+      "slug": "liga-dep-universitaria-quito-vs-mushuc-runa-prediction",
+      "utcDate": "2026-09-02T00:00:00+00:00",
+      "date": "2026-09-02",
+      "time": "00:00",
+      "precise": "00:00 UTC • 02:00 CET",
       "countdown": "0h to kickoff",
-      "home": "Real Racing Club de Santander",
-      "away": "Elche CF",
-      "league": "Primera Division",
+      "home": "Liga Dep Universitaria Quito",
+      "away": "Mushuc Runa",
+      "league": "LigaPro Serie A",
       "code": "",
-      "flag": "🇪🇸",
-      "status": "TIMED",
+      "flag": "⚽",
+      "status": "FINISHED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 89,
-      "odds": "1.72",
-      "value": "+3%",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
       "probs": {
-        "home": 55,
-        "draw": 22,
-        "away": 22
+        "home": 61,
+        "draw": 21,
+        "away": 19
       },
       "xg": {
-        "home": "1.71",
-        "away": "0.98",
-        "total": "2.69"
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
       },
       "doubleChance": {
-        "12": 77,
-        "1X": 77,
-        "X2": 44
+        "12": 79,
+        "1X": 81,
+        "X2": 39
       },
       "overUnder": {
-        "over2_5": 50,
-        "under2_5": 50,
-        "oddsOver": "1.90",
-        "oddsUnder": "1.90"
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
       },
       "btts": {
-        "yes": 50,
-        "no": 50
+        "yes": 49,
+        "no": 51
       },
       "correctScore": {
         "score": "1-0",
@@ -57,74 +60,77 @@
           "prob": 13
         },
         {
-          "score": "1-1",
-          "prob": 10
+          "score": "2-0",
+          "prob": 11
         },
         {
-          "score": "2-0",
+          "score": "2-1",
           "prob": 10
         }
       ],
-      "asianHandicap": null,
-      "whyWin": "Real Racing Club de Santander are the stronger side on current data. Expected-goal model: 1.71–0.98. Most likely scores: 1-0 (13%), 1-1 (10%), 2-0 (10%). Dixon-Coles: P(H)55% D22% A22% • xG 1.71-0.98",
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": "D",
+        "away": "D"
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Liga Dep Universitaria Quito vs Mushuc Runa: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • Recent form: Liga Dep Universitaria Quito D · Mushuc Runa D • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "form": "Real Racing Club de Santander strong home form",
-      "injuries": "Check lineup 1h before",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
     {
-      "id": null,
-      "slug": "fc-groningen-vs-fortuna-sittard-prediction",
-      "utcDate": "2026-08-28T18:00:00Z",
-      "date": "2026-08-28",
-      "time": "18:00",
-      "precise": "18:00 UTC • 20:00 CET (Algiers)",
+      "id": "cruzeiro-esporte-clube-vs-atletico-mineiro",
+      "slug": "atletico-mineiro-mg-vs-cruzeiro-mg-prediction",
+      "utcDate": "2026-09-02T00:00:00+00:00",
+      "date": "2026-09-02",
+      "time": "00:00",
+      "precise": "00:00 UTC • 02:00 CET",
       "countdown": "0h to kickoff",
-      "home": "FC Groningen",
-      "away": "Fortuna Sittard",
-      "league": "Eredivisie",
+      "home": "Atlético Mineiro - MG",
+      "away": "Cruzeiro - MG",
+      "league": "Brazilian Cup",
       "code": "",
       "flag": "⚽",
-      "status": "TIMED",
+      "status": "FINISHED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 90,
-      "odds": "1.48",
-      "value": "+7%",
+      "conf": 66,
+      "odds": "1.44",
+      "value": "+8%",
       "probs": {
-        "home": 64,
+        "home": 66,
         "draw": 19,
-        "away": 16
+        "away": 15
       },
       "xg": {
-        "home": "1.98",
-        "away": "0.85",
-        "total": "2.83"
+        "home": "2.06",
+        "away": "0.84",
+        "total": "2.90"
       },
       "doubleChance": {
-        "12": 80,
-        "1X": 83,
-        "X2": 35
+        "12": 81,
+        "1X": 85,
+        "X2": 34
       },
       "overUnder": {
-        "over2_5": 53,
-        "under2_5": 47,
-        "oddsOver": "1.79",
-        "oddsUnder": "2.02"
+        "over2_5": 55,
+        "under2_5": 45,
+        "oddsOver": "1.73",
+        "oddsUnder": "2.11"
       },
       "btts": {
-        "yes": 48,
-        "no": 52
+        "yes": 49,
+        "no": 51
       },
       "correctScore": {
         "score": "1-0",
-        "prob": 13
+        "prob": 12
       },
       "topScores": [
         {
           "score": "1-0",
-          "prob": 13
+          "prob": 12
         },
         {
           "score": "2-0",
@@ -135,267 +141,60 @@
           "prob": 10
         }
       ],
-      "asianHandicap": null,
-      "whyWin": "FC Groningen are the stronger side on current data. Expected-goal model: 1.98–0.85. Most likely scores: 1-0 (13%), 2-0 (12%), 2-1 (10%). Dixon-Coles: P(H)64% D19% A16% • xG 1.98-0.85",
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": "W",
+        "away": "L"
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Atlético Mineiro - MG vs Cruzeiro - MG: Dixon-Coles P(H)66% D19% A15% • xG 2.06-0.84 • most likely score 1-0 (12%) • Home Win confidence 66% • Recent form: Atlético Mineiro - MG W · Cruzeiro - MG L • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "form": "FC Groningen strong home form",
-      "injuries": "Check lineup 1h before",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
     {
-      "id": null,
-      "slug": "fc-bayern-muenchen-vs-vfb-stuttgart-prediction",
-      "utcDate": "2026-08-28T18:30:00Z",
-      "date": "2026-08-28",
-      "time": "18:30",
-      "precise": "18:30 UTC • 20:30 CET (Algiers)",
+      "id": "fortaleza-fc-vs-deportiva-once-caldas",
+      "slug": "fortaleza-f-c-vs-deportiva-once-caldas-prediction",
+      "utcDate": "2026-09-02T01:00:00+00:00",
+      "date": "2026-09-02",
+      "time": "01:00",
+      "precise": "01:00 UTC • 03:00 CET",
       "countdown": "0h to kickoff",
-      "home": "FC Bayern München",
-      "away": "VfB Stuttgart",
-      "league": "Bundesliga",
+      "home": "Fortaleza F.C",
+      "away": "Deportiva Once Caldas",
+      "league": "Categoría Primera A",
       "code": "",
-      "flag": "🇩🇪",
-      "status": "TIMED",
+      "flag": "⚽",
+      "status": "FINISHED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 90,
-      "odds": "1.10",
-      "value": "+18%",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
       "probs": {
-        "home": 86,
-        "draw": 9,
-        "away": 5
-      },
-      "xg": {
-        "home": "3.05",
-        "away": "0.55",
-        "total": "3.60"
-      },
-      "doubleChance": {
-        "12": 91,
-        "1X": 95,
-        "X2": 14
-      },
-      "overUnder": {
-        "over2_5": 69,
-        "under2_5": 31,
-        "oddsOver": "1.38",
-        "oddsUnder": "3.06"
-      },
-      "btts": {
-        "yes": 40,
-        "no": 60
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "4-0",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": null,
-      "whyWin": "FC Bayern München are the stronger side on current data. Expected-goal model: 3.05–0.55. Most likely scores: 3-0 (13%), 2-0 (13%), 4-0 (10%). Dixon-Coles: P(H)86% D9% A5% • xG 3.05-0.55",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "form": "FC Bayern München strong home form",
-      "injuries": "Check lineup 1h before",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": null,
-      "slug": "lille-osc-vs-paris-saint-germain-fc-prediction",
-      "utcDate": "2026-08-28T18:45:00Z",
-      "date": "2026-08-28",
-      "time": "18:45",
-      "precise": "18:45 UTC • 20:45 CET (Algiers)",
-      "countdown": "0h to kickoff",
-      "home": "Lille OSC",
-      "away": "Paris Saint-Germain FC",
-      "league": "Ligue 1",
-      "code": "",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 66,
-      "odds": "2.33",
-      "value": "+0%",
-      "probs": {
-        "home": 41,
-        "draw": 24,
-        "away": 35
-      },
-      "xg": {
-        "home": "1.36",
-        "away": "1.24",
-        "total": "2.60"
-      },
-      "doubleChance": {
-        "12": 76,
-        "1X": 65,
-        "X2": 59
-      },
-      "overUnder": {
-        "over2_5": 48,
-        "under2_5": 52,
-        "oddsOver": "1.98",
-        "oddsUnder": "1.83"
-      },
-      "btts": {
-        "yes": 52,
-        "no": 48
-      },
-      "correctScore": {
-        "score": "1-1",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "1-1",
-          "prob": 12
-        },
-        {
-          "score": "1-0",
-          "prob": 11
-        },
-        {
-          "score": "0-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": null,
-      "whyWin": "Lille OSC are the stronger side on current data. Expected-goal model: 1.36–1.24. Most likely scores: 1-1 (12%), 1-0 (11%), 0-1 (10%). Dixon-Coles: P(H)41% D24% A35% • xG 1.36-1.24",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "form": "Lille OSC strong home form",
-      "injuries": "Check lineup 1h before",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": null,
-      "slug": "ac-milan-vs-venezia-fc-prediction",
-      "utcDate": "2026-08-28T18:45:00Z",
-      "date": "2026-08-28",
-      "time": "18:45",
-      "precise": "18:45 UTC • 20:45 CET (Algiers)",
-      "countdown": "0h to kickoff",
-      "home": "AC Milan",
-      "away": "Venezia FC",
-      "league": "Serie A",
-      "code": "",
-      "flag": "🇮🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 90,
-      "odds": "1.06",
-      "value": "+20%",
-      "probs": {
-        "home": 90,
-        "draw": 7,
-        "away": 3
-      },
-      "xg": {
-        "home": "3.37",
-        "away": "0.50",
-        "total": "3.87"
-      },
-      "doubleChance": {
-        "12": 93,
-        "1X": 97,
-        "X2": 10
-      },
-      "overUnder": {
-        "over2_5": 73,
-        "under2_5": 27,
-        "oddsOver": "1.30",
-        "oddsUnder": "3.52"
-      },
-      "btts": {
-        "yes": 38,
-        "no": 62
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 14
-        },
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "4-0",
-          "prob": 12
-        }
-      ],
-      "asianHandicap": null,
-      "whyWin": "AC Milan are the stronger side on current data. Expected-goal model: 3.37–0.50. Most likely scores: 3-0 (14%), 2-0 (13%), 4-0 (12%). Dixon-Coles: P(H)90% D7% A3% • xG 3.37-0.50",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "form": "AC Milan strong home form",
-      "injuries": "Check lineup 1h before",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": null,
-      "slug": "wrexham-afc-vs-birmingham-city-fc-prediction",
-      "utcDate": "2026-08-28T19:00:00Z",
-      "date": "2026-08-28",
-      "time": "19:00",
-      "precise": "19:00 UTC • 21:00 CET (Algiers)",
-      "countdown": "0h to kickoff",
-      "home": "Wrexham AFC",
-      "away": "Birmingham City FC",
-      "league": "Championship",
-      "code": "",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 90,
-      "odds": "1.63",
-      "value": "+4%",
-      "probs": {
-        "home": 58,
+        "home": 61,
         "draw": 21,
-        "away": 20
+        "away": 19
       },
       "xg": {
-        "home": "1.79",
-        "away": "0.94",
-        "total": "2.73"
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
       },
       "doubleChance": {
-        "12": 78,
-        "1X": 79,
-        "X2": 41
+        "12": 79,
+        "1X": 81,
+        "X2": 39
       },
       "overUnder": {
-        "over2_5": 51,
-        "under2_5": 49,
-        "oddsOver": "1.86",
-        "oddsUnder": "1.94"
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
       },
       "btts": {
-        "yes": 50,
-        "no": 50
+        "yes": 49,
+        "no": 51
       },
       "correctScore": {
         "score": "1-0",
@@ -408,18 +207,21 @@
         },
         {
           "score": "2-0",
-          "prob": 10
+          "prob": 11
         },
         {
-          "score": "1-1",
+          "score": "2-1",
           "prob": 10
         }
       ],
-      "asianHandicap": null,
-      "whyWin": "Wrexham AFC are the stronger side on current data. Expected-goal model: 1.79–0.94. Most likely scores: 1-0 (13%), 2-0 (10%), 1-1 (10%). Dixon-Coles: P(H)58% D21% A20% • xG 1.79-0.94",
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": "L",
+        "away": "W"
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Fortaleza F.C vs Deportiva Once Caldas: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • Recent form: Fortaleza F.C L · Deportiva Once Caldas W • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "form": "Wrexham AFC strong home form",
-      "injuries": "Check lineup 1h before",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }

@@ -238,7 +238,8 @@ function predict(home, away, ctx) {
   else if (pA >= pH && pA >= pD) { pred = 'Away Win'; sub = '2 • Full Time'; }
   else { pred = 'Draw'; sub = 'X • Full Time'; }
 
-  const conf = Math.min(90, Math.max(58, Math.round(58 + (q - 0.36) * 160)));
+  // Honest confidence: probability of the recommended outcome (not inflated).
+  const conf = Math.round(q * 100);
   const margin = 0.05;
   const fair = 1 / q;
   const listed = Math.max(1.01, fair * (1 - margin));
