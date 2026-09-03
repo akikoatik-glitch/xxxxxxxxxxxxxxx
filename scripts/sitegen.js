@@ -121,7 +121,7 @@ const fTom = readJSON('football/tomorrow.json');
 const fYest = readJSON('football/yesterday.json');
 const fLive = readJSON('football/live.json');
 const fFix = readJSON('football/fixtures.json');
-const MELBET = preds.melbetLink || ('https://refpa3665.com/L?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77');
+const MELBET = preds.melbetLink || ('https://melbet-49771.bar/en?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77');
 const CODE = preds.promoCode || 'KIKOS77';
 
 const slugUsed = new Set();

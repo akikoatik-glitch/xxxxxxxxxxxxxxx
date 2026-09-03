@@ -20,7 +20,7 @@ try {
   }
 } catch (e) {}
 
-const MELBET_LINK = process.env.MELBET_LINK || 'https://refpa3665.com/L?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77';
+const MELBET_LINK = process.env.MELBET_LINK || 'https://melbet-49771.bar/en?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77';
 const { predict: dixonPredict } = require('./dixon_coles');
 
 function slugify(s) {
