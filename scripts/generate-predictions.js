@@ -203,11 +203,10 @@ async function main() {
   // Only predict matches from major leagues (ones we have standings data for)
   const PREDICTION_LEAGUES = new Set([
     'Premier League', 'La Liga', 'Bundesliga', 'Serie A', 'Ligue 1',
-    'Eredivisie', 'Primeira Liga', 'Championship', 'Brasileirão', 'Süper Lig',
+    'Championship', 'Eredivisie', 'Primeira Liga', 'Brasileirão', 'Süper Lig',
     'UEFA Champions League', 'UEFA Europa League', 'UEFA Conference League',
     'FA Cup', 'Copa del Rey', 'DFB Pokal', 'Coppa Italia', 'Coupe de France',
     'J1 League', 'K League 1', 'MLS', 'Saudi Pro League',
-    'LigaPro Serie A', 'Categoría Primera A', 'Brazilian Cup',
   ]);
 
   let matches;

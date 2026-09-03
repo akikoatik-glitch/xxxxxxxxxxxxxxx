@@ -261,6 +261,14 @@ function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonl
   const meta = i18n[loc].meta;
   const robots = noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">';
   const json = jsonld.concat(schemaOrg(loc)).map(j => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n');
+  // XWhiz 3D / glassmorphism overlay. Full-3D (Three.js) on key templates,
+  // lightweight CSS-only on deep page types. Loaded after site.css.
+  const pt = (page && page.type) || '';
+  const FULL3D_TYPES = new Set(['home', 'predIndex', 'pred', 'live', 'predictor', 'news', 'newsCat', 'search', '404']);
+  const overlayCss = '<link rel="stylesheet" href="/xwhiz-3d.css">';
+  const overlayHead = FULL3D_TYPES.has(pt)
+    ? overlayCss + '\n<script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>\n<script defer src="/xwhiz-3d.js"></script>'
+    : overlayCss;
   return `<!DOCTYPE html>
 <html lang="${meta.lang}" dir="${meta.dir}">
 <head>
@@ -293,7 +301,8 @@ ${hreflang(loc, page)}
 <noscript><link href="https://fonts.googleapis.com/css2?family=${FONT[loc]}&display=swap" rel="stylesheet"></noscript>
 <link rel="preload" as="style" href="/site.css">
 <link rel="stylesheet" href="/site.css">
-${loc === 'ar' ? '<link rel="stylesheet" href="/rtl.css">' : ''}
+ ${loc === 'ar' ? '<link rel="stylesheet" href="/rtl.css">' : ''}
+${overlayHead}
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
 ${GA_SNIPPET}

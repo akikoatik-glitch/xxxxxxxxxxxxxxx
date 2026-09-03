@@ -304,10 +304,10 @@ async function fetchWc26Standings(leagueSlug) {
   return data;
 }
 
-// ── openfootball/football.json (free public-domain JSON, all top-5 leagues) ─
-// Daily auto-updated at 05:00 UTC. No API key. Covers ALL five major European
-// leagues: Premier League (en.1), Bundesliga (de.1), La Liga (es.1),
-// Serie A (it.1), Ligue 1 (fr.1). Each body is a season of fixtures/results:
+// ── openfootball/football.json (free public-domain JSON, all top-8 leagues) ─
+// No API key. Daily auto-updated by the upstream repo. Covers the 5 major
+// European leagues plus the Championship (en.2), Eredivisie (nl.1) and
+// Primeira Liga (pt.1). Each body is a season of fixtures/results:
 //   { name, matches: [ { date:"YYYY-MM-DD", round, team1, team2, score:{ht,ft}|{} } ] }
 const FOOTBALL_JSON = {
   base: 'https://raw.githubusercontent.com/openfootball/football.json/master/2026-27',
@@ -317,6 +317,9 @@ const FOOTBALL_JSON = {
     { slug: 'de.1', name: 'Bundesliga',          code: 'BL1' },
     { slug: 'it.1', name: 'Serie A',             code: 'SA' },
     { slug: 'fr.1', name: 'Ligue 1',             code: 'FL1' },
+    { slug: 'en.2', name: 'Championship',        code: 'ELC' },
+    { slug: 'nl.1', name: 'Eredivisie',          code: 'DED' },
+    { slug: 'pt.1', name: 'Primeira Liga',       code: 'PPL' },
   ]
 };
 
