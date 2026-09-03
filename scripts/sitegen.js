@@ -418,13 +418,13 @@ ${navLinks}
 </nav>
 <div class="flex items-center gap-2">
 <div class="hidden md:flex items-center gap-1">${linkLangs}</div>
-<a href="${MELBET}" rel="sponsored nofollow noopener" class="hidden sm:inline text-xs font-bold px-4 py-2 rounded-full bg-brand-600 text-white hover:bg-brand-700">${t(loc, 'topbar.cta')}</a>
+<a href="${MELBET}" target="_blank" rel="sponsored nofollow noopener" class="hidden sm:inline text-xs font-bold px-4 py-2 rounded-full bg-brand-600 text-white hover:bg-brand-700">${t(loc, 'topbar.cta')}</a>
 <details class="md:hidden relative">
 <summary class="cursor-pointer list-none text-2xl leading-none px-2" aria-label="Menu">☰</summary>
 <div class="absolute right-0 top-10 w-56 bg-white border border-zinc-100 rounded-2xl shadow-lg p-3 space-y-2 text-sm z-50">
 ${nav.map(n => `<a href="${n.href}" class="block font-medium text-zinc-700 px-3 py-2 rounded-xl hover:bg-zinc-50">${n.label}</a>`).join('')}
 <a href="${pageUrl(loc, { type: 'search' })}" class="block font-medium text-zinc-700 px-3 py-2 rounded-xl hover:bg-zinc-50">${t(loc, 'nav.search')}</a>
-<a href="${MELBET}" rel="sponsored nofollow noopener" class="block font-bold text-white bg-brand-600 px-3 py-2 rounded-xl text-center">Melbet</a>
+<a href="${MELBET}" target="_blank" rel="sponsored nofollow noopener" class="block font-bold text-white bg-brand-600 px-3 py-2 rounded-xl text-center">Melbet</a>
 <div class="flex items-center gap-1 pt-2 border-t border-zinc-100">${linkLangs}</div>
 </div>
 </details>
@@ -594,7 +594,7 @@ ${scorersPanel(loc)}
 <div class="rounded-3xl bg-zinc-900 text-white p-6 md:p-8">
 <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
 <div><h2 class="text-2xl font-black">${PROMO_H[loc]}</h2><p class="mt-1 text-sm text-zinc-300">${t('cta.bonus', { code: CODE })}</p></div>
-<a href="${MELBET}" rel="sponsored nofollow noopener" class="bg-brand-600 hover:bg-brand-700 text-white font-black px-8 py-4 rounded-full text-center">${t('cta.betHome')} →</a>
+<a href="${MELBET}" target="_blank" rel="sponsored nofollow noopener" class="bg-brand-600 hover:bg-brand-700 text-white font-black px-8 py-4 rounded-full text-center">${t('cta.betHome')} →</a>
 </div>
 <p class="mt-3 text-xs text-zinc-400">${t('promo.disclose')}</p>
 </div>
@@ -773,7 +773,7 @@ ${breadcrumb(loc, [
 <div class="bg-white/10 rounded-2xl py-3"><div class="text-xs text-zinc-400">${t(loc, 'market.draw')}</div><div class="text-2xl font-black">${pD}%</div></div>
 <div class="bg-white/10 rounded-2xl py-3"><div class="text-xs text-zinc-400">${esc(m.away)}</div><div class="text-2xl font-black">${pA}%</div></div>
 </div>
-<a href="${MELBET}" rel="sponsored nofollow noopener" class="mt-6 block bg-green-600 hover:bg-green-700 text-white text-center font-black px-8 py-4 rounded-full">${t(loc, 'cta.bet', { pred: m.pred })} → <span class="block text-xs font-normal mt-0.5">${t(loc, 'cta.bonus', { code: CODE })}</span></a>
+<a href="${MELBET}" target="_blank" rel="sponsored nofollow noopener" class="mt-6 block bg-green-600 hover:bg-green-700 text-white text-center font-black px-8 py-4 rounded-full">${t(loc, 'cta.bet', { pred: m.pred })} → <span class="block text-xs font-normal mt-0.5">${t(loc, 'cta.bonus', { code: CODE })}</span></a>
 </div>
 
 <h2 class="mt-10 text-2xl font-extrabold">${t(loc, 'market.markets')}</h2>
@@ -800,7 +800,7 @@ ${m.topScores && m.topScores.length ? `<h3 class="mt-6 text-lg font-extrabold">$
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.howTo')}</h3>
 <p class="text-zinc-700">${t(loc, 'analysis.stakeNote')}</p>
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.whereTo')}</h3>
-<p class="text-zinc-700">${t(loc, 'analysis.whereNote', { bookie: 'Melbet', code: CODE })} — <a href="${MELBET}" rel="sponsored nofollow noopener" class="text-brand-700 underline">${t(loc, 'detail.register')}</a></p>
+<p class="text-zinc-700">${t(loc, 'analysis.whereNote', { bookie: 'Melbet', code: CODE })} — <a href="${MELBET}" target="_blank" rel="sponsored nofollow noopener" class="text-brand-700 underline">${t(loc, 'detail.register')}</a></p>
 </article>
 ${rgNote(loc)}
 ${faqBlock(loc, faqs)}
