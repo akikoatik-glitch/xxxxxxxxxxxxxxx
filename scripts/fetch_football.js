@@ -304,6 +304,57 @@ async function fetchWc26Standings(leagueSlug) {
   return data;
 }
 
+// ── openfootball/football.json (free public-domain JSON, all top-5 leagues) ─
+// Daily auto-updated at 05:00 UTC. No API key. Covers ALL five major European
+// leagues: Premier League (en.1), Bundesliga (de.1), La Liga (es.1),
+// Serie A (it.1), Ligue 1 (fr.1). Each body is a season of fixtures/results:
+//   { name, matches: [ { date:"YYYY-MM-DD", round, team1, team2, score:{ht,ft}|{} } ] }
+const FOOTBALL_JSON = {
+  base: 'https://raw.githubusercontent.com/openfootball/football.json/master/2026-27',
+  leagues: [
+    { slug: 'en.1', name: 'Premier League',      code: 'PL' },
+    { slug: 'es.1', name: 'La Liga',             code: 'PD' },
+    { slug: 'de.1', name: 'Bundesliga',          code: 'BL1' },
+    { slug: 'it.1', name: 'Serie A',             code: 'SA' },
+    { slug: 'fr.1', name: 'Ligue 1',             code: 'FL1' },
+  ]
+};
+
+// Fetch & map one league's season JSON into our internal match shape (dates only,
+// no kickoff time — we use the date at 15:00 local default and filter by day).
+async function fetchFootballJson(slug, name, code) {
+  try {
+    const url = `${FOOTBALL_JSON.base}/${slug}.json`;
+    const res = await fetch(url);
+    if (!res.ok) { console.log(`FJSON ${slug} -> ${res.status}`); return []; }
+    const data = await res.json();
+    const out = [];
+    for (const m of (data.matches || [])) {
+      const home = m.team1 || '', away = m.team2 || '';
+      if (!home || !away) continue;
+      const ft = m.score && m.score.ft;
+      const status = (Array.isArray(ft) && ft.length === 2) ? 'FINISHED' : 'TIMED';
+      const fullTime = status === 'FINISHED'
+        ? { home: parseInt(ft[0], 10), away: parseInt(ft[1], 10) } : null;
+      out.push({
+        id: `${slug}:${m.date}:${home}:${away}`,
+        utcDate: `${m.date}T15:00:00Z`,
+        status: status,
+        matchday: typeof m.round === 'string' ? (parseInt(m.round.replace(/\D+/g, ''), 10) || null) : null,
+        competition: { id: code, name: name, code: code, emblem: null },
+        homeTeam: { id: null, name: home.replace(/\s*FC$/, ''), shortName: home.replace(/\s*FC$/, ''), tla: null, crest: null },
+        awayTeam: { id: null, name: away.replace(/\s*FC$/, ''), shortName: away.replace(/\s*FC$/, ''), tla: null, crest: null },
+        score: fullTime,
+        _ssCompetition: name,
+        _league: name,
+        _source: 'FootballJSON',
+        _ssUrl: ''
+      });
+    }
+    return out;
+  } catch (e) { console.log('FJSON fetch error:', e.message); return []; }
+}
+
 // ── football-data.org (optional fallback, needs key) ───────────────────────
 
 async function fdGet(url) {
@@ -506,6 +557,7 @@ async function main() {
 
   let ssToday = [], ssTomorrow = [], ssYesterday = [];
   let afToday = [], afTomorrow = [], afYesterday = [];
+  let fjAll = []; // openfootball/football.json — all top-5 leagues
   let wcToday = [], wcTomorrow = [], wcYesterday = [];
   let fdToday = [], fdTomorrow = [], fdYesterday = [], fdUpcoming = [], fdRecent = [];
 
@@ -523,7 +575,18 @@ async function main() {
     console.log(`API-Football: today=${afToday.length}, tomorrow=${afTomorrow.length}, yesterday=${afYesterday.length}`);
   }
 
-  // ── Step 2: WorldCup26 free API (England + Spain, zero key) ──
+  // ── Step 2: openfootball/football.json — free public-domain, ALL top-5 leagues ──
+  console.log('Trying openfootball/football.json (free public-domain, all top-5)...');
+  const fjByLeague = await Promise.all(FOOTBALL_JSON.leagues.map(l =>
+    fetchFootballJson(l.slug, l.name, l.code)
+  ));
+  fjAll = fjByLeague.flat();
+  const fjToday = fjAll.filter(m => m.utcDate && m.utcDate.slice(0, 10) === today);
+  const fjTomorrow = fjAll.filter(m => m.utcDate && m.utcDate.slice(0, 10) === tomorrow);
+  const fjYesterday = fjAll.filter(m => m.utcDate && m.utcDate.slice(0, 10) === yesterday);
+  console.log(`FootballJSON: today=${fjToday.length}, tomorrow=${fjTomorrow.length}, yesterday=${fjYesterday.length}, seasonTotal=${fjAll.length}`);
+
+  // ── Step 3: WorldCup26 free API (England + Spain, zero key) ──
   console.log('Trying WorldCup26 (worldcup26.ir, no key) — England & Spain...');
   const wcSlugs = Object.keys(WC26.slugs);
   const wcResults = await Promise.all(wcSlugs.map(slug =>
@@ -571,19 +634,25 @@ async function main() {
   }
 
   // ── Step 5: Pick primary per-day source with priority ──
-  // Prefer API-Football (if it gave matches), else WorldCup26 (England+Spain),
-  // else SportScore, else football-data.org.
-  function pick(af, wc, ss, fd) {
+  // Prefer API-Football (if it gave matches), then openfootball/football.json
+  // (free, ALL top-5 leagues), then WorldCup26 (England+Spain), then SportScore,
+  // then football-data.org.
+  const fjMatch = (arr, day) => arr.filter(m => m.utcDate && m.utcDate.slice(0, 10) === day);
+  function pick(af, fj, wc, ss, fd, day) {
     if (af.length) return af;
+    if (fj.length) return fj;
+    const fjw = fjMatch(fjAll, day);
+    if (fjw.length) return fjw;
     if (wc.length) return wc;
     if (ss.length) return ss;
     return fd;
   }
-  let todayFinal = pick(afToday, wcToday, ssToday, fdToday);
-  let tomorrowFinal = pick(afTomorrow, wcTomorrow, ssTomorrow, fdTomorrow);
-  let yesterdayFinal = pick(afYesterday, wcYesterday, ssYesterday, fdYesterday);
+  let todayFinal = pick(afToday, fjToday, wcToday, ssToday, fdToday, today);
+  let tomorrowFinal = pick(afTomorrow, fjTomorrow, wcTomorrow, ssTomorrow, fdTomorrow, tomorrow);
+  let yesterdayFinal = pick(afYesterday, fjYesterday, wcYesterday, ssYesterday, fdYesterday, yesterday);
   const upcomingFinal = sortByLeague(dropNoise(
     afTomorrow.length ? afTomorrow.concat(afToday)
+    : fjTomorrow.length ? fjTomorrow.concat(fjToday)
     : wcTomorrow.length ? wcTomorrow.concat(wcToday)
     : ssTomorrow.length ? ssTomorrow.concat(ssToday)
     : fdUpcoming.length ? fdUpcoming : ssMatches
@@ -591,9 +660,12 @@ async function main() {
 
   // Recent results for form from every source
   const allRecent = fdRecent.length > 0 ? fdRecent :
-    ssYesterday.concat(ssToday.filter(m => m.status === 'FINISHED')).concat(afYesterday).concat(afToday.filter(m => m.status === 'FINISHED'));
+    fjYesterday.filter(m => m.status === 'FINISHED').concat(
+      ssYesterday.concat(ssToday.filter(m => m.status === 'FINISHED')).concat(afYesterday).concat(afToday.filter(m => m.status === 'FINISHED'))
+    );
 
   const dataSource = API_FOOTBALL_KEY && afToday.length > 0 ? 'API-Football'
+    : todayFinal && todayFinal[0] && todayFinal[0]._source === 'FootballJSON' ? 'openfootball/football.json'
     : todayFinal && todayFinal[0] && todayFinal[0]._source === 'WorldCup26' ? 'WorldCup26'
     : todayFinal && todayFinal[0] && todayFinal[0]._source === 'SportScore' ? 'SportScore'
     : todayFinal && todayFinal[0] && todayFinal[0]._source === 'API-Football' ? 'API-Football'
@@ -644,12 +716,12 @@ async function main() {
     return;
   }
 
-  write('football/today.json', { date: today, count: todayFinal.length, matches: enrich(todayFinal), source: `API-Football + SportScore + football-data.org`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/tomorrow.json', { date: tomorrow, count: tomorrowFinal.length, matches: enrich(tomorrowFinal), source: `API-Football + SportScore + football-data.org`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/yesterday.json', { date: yesterday, count: yesterdayFinal.length, matches: enrich(yesterdayFinal), source: `API-Football + SportScore + football-data.org`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/upcoming.json', { dateFrom: today, dateTo: weekLater, count: upcomingFinal.length, matches: enrich(upcomingFinal).slice(0, 30), source: `API-Football + SportScore + football-data.org`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/results.json', { date: yesterday, count: yesterdayFinal.length, matches: enrich(yesterdayFinal.filter(m => m.status === 'FINISHED')), source: `API-Football + SportScore + football-data.org`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/fixtures.json', { dateFrom: today, dateTo: weekLater, count: upcomingFinal.length, matches: enrich(upcomingFinal), source: `API-Football + SportScore + football-data.org`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/today.json', { date: today, count: todayFinal.length, matches: enrich(todayFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/tomorrow.json', { date: tomorrow, count: tomorrowFinal.length, matches: enrich(tomorrowFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/yesterday.json', { date: yesterday, count: yesterdayFinal.length, matches: enrich(yesterdayFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/upcoming.json', { dateFrom: today, dateTo: weekLater, count: upcomingFinal.length, matches: enrich(upcomingFinal).slice(0, 30), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/results.json', { date: yesterday, count: yesterdayFinal.length, matches: enrich(yesterdayFinal.filter(m => m.status === 'FINISHED')), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/fixtures.json', { dateFrom: today, dateTo: weekLater, count: upcomingFinal.length, matches: enrich(upcomingFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
 
   // ── live.json (drives /live.html) ──
   let plStandings = null;
