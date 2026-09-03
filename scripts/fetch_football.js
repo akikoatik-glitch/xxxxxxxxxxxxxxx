@@ -650,16 +650,32 @@ async function main() {
     if (ss.length) return ss;
     return fd;
   }
-  let todayFinal = pick(afToday, fjToday, wcToday, ssToday, fdToday, today);
-  let tomorrowFinal = pick(afTomorrow, fjTomorrow, wcTomorrow, ssTomorrow, fdTomorrow, tomorrow);
-  let yesterdayFinal = pick(afYesterday, fjYesterday, wcYesterday, ssYesterday, fdYesterday, yesterday);
-  const upcomingFinal = sortByLeague(dropNoise(
-    afTomorrow.length ? afTomorrow.concat(afToday)
-    : fjTomorrow.length ? fjTomorrow.concat(fjToday)
-    : wcTomorrow.length ? wcTomorrow.concat(wcToday)
-    : ssTomorrow.length ? ssTomorrow.concat(ssToday)
-    : fdUpcoming.length ? fdUpcoming : ssMatches
-  )).slice(0, 30);
+  // Merge multiple sources and dedupe, keeping league priority order.
+  // This lets us KEEP broader coverage (SportScore's non-noise small leagues,
+  // e.g. LigaPro, Categoría Primera A, Brazilian Cup) alongside the top-8
+  // football.json majors instead of replacing them.
+  function mergeSourceSets(sets) {
+    const seen = new Set();
+    const out = [];
+    for (const arr of sets) {
+      for (const m of arr || []) {
+        const key = m.id || `${(m.homeTeam && m.homeTeam.name) || ''}||${(m.awayTeam && m.awayTeam.name) || ''}||${m.utcDate}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        out.push(m);
+      }
+    }
+    return sortByLeague(out);
+  }
+  let todayFinal = mergeSourceSets([pick(afToday, fjToday, wcToday, ssToday, fdToday, today), ssToday]);
+  let tomorrowFinal = mergeSourceSets([pick(afTomorrow, fjTomorrow, wcTomorrow, ssTomorrow, fdTomorrow, tomorrow), ssTomorrow]);
+  let yesterdayFinal = mergeSourceSets([pick(afYesterday, fjYesterday, wcYesterday, ssYesterday, fdYesterday, yesterday), ssYesterday]);
+  const upcomingFinal = mergeSourceSets([
+    afTomorrow.length ? afTomorrow : fjTomorrow.length ? fjTomorrow : wcTomorrow.length ? wcTomorrow : [],
+    ssTomorrow,
+    afToday.length ? afToday : fjToday.length ? fjToday : wcToday.length ? wcToday : [],
+    ssToday,
+  ]).slice(0, 40);
 
   // Recent results for form from every source
   const allRecent = fdRecent.length > 0 ? fdRecent :
