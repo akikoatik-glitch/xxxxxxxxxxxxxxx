@@ -40,6 +40,64 @@ const read = f => { try { return fs.readFileSync(path.join(ROOT, f), 'utf8'); } 
 const readJSON = f => { try { return JSON.parse(read(f)); } catch (e) { return null; } };
 const writePath = (f, c) => { fs.mkdirSync(path.dirname(path.join(ROOT, f)), { recursive: true }); fs.writeFileSync(path.join(ROOT, f), c); console.log('  • ' + f); };
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+// Format a match "form" value into readable text. m.form may be a plain string
+// or an object like { home: "WDLWW", away: "DLWWD" } (or nulls when unknown).
+function fmtForm(f) {
+  if (f == null) return 'No recent form data available.';
+  if (typeof f === 'string') return f.trim() ? f.trim() : 'No recent form data available.';
+  if (typeof f === 'object') {
+    const parts = [];
+    if (f.home) parts.push(`Home: ${f.home}`);
+    if (f.away) parts.push(`Away: ${f.away}`);
+    if (parts.length) return parts.join(' · ');
+    return 'No recent form data available.';
+  }
+  return String(f);
+}
+// Clean team names coming from feeds: fix spacing/casing artefacts like
+// "Barcelona SC(ECU)" -> "Barcelona SC (ECU)" or "Knoxville troops" -> "Knoxville Troops".
+// Keeps acronyms (SC, FC, RC) uppercase, title-cases ordinary words.
+function cleanTeamName(n) {
+  if (n == null) return '';
+  let s = String(n).trim().replace(/\s+/g, ' ');
+  if (!s) return '';
+  s = s.replace(/([A-Za-z])\((ECU|USA|ENG|ESP|FRA|GER|ITA)\)/g, '$1 ($2)');
+  s = s.replace(/\)\(/g, ') (');
+  const KEEP = new Set(['SC', 'FC', 'RC', 'AC', 'AS', 'CF', 'CD', 'UD', 'CA', 'ECU', 'USA', 'U20', 'OSC', 'PSG', 'BVB']);
+  s = s.split(' ').map(w => {
+    const up = w.toUpperCase();
+    if (KEEP.has(up)) return up;
+    if (/^[A-Z0-9\-\.']+$/.test(w) && w.length <= 4) return w.toUpperCase();
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(' ');
+  return s;
+}
+// Single source of truth for "date • time" lines. predictions.json `precise`
+// already contains "15:00 UTC • 17:00 CET", so don't prepend utcTime() again
+// (that produced "15:00 UTC • 15:00 UTC • 17:00 CET" on cards).
+function formatMatchTime(loc, m) {
+  const date = fmtDate(loc, m.utcDate);
+  const precise = (m.precise || '').trim();
+  if (precise && /UTC/.test(precise)) return `${date} • ${precise}`;
+  const tt = utcTime(m);
+  if (precise) return `${date} • ${tt} UTC • ${precise}`;
+  return `${date} • ${tt} UTC`;
+}
+// Over 2.5 / BTTS hubs: m.pred is a 1X2 pick ("Home Win"...), never "Over 2.5",
+// so filtering by pred always yields 0 tips (thin "0 Over 2.5" cards). Derive
+// from the Dixon-Coles matrix probabilities instead.
+function isOverTip(m) {
+  if (!m) return false;
+  if (m.pred === 'Over 2.5') return true;
+  const v = m.overUnder && (m.overUnder.over2_5 ?? m.overUnder.over);
+  return typeof v === 'number' && v >= 55;
+}
+function isBttsTip(m) {
+  if (!m) return false;
+  if (m.pred === 'BTTS Yes') return true;
+  const v = m.btts && m.btts.yes;
+  return typeof v === 'number' && v >= 55;
+}
 const todayISO = () => new Date().toISOString().slice(0, 10);
 const slugify = s => String(s == null ? '' : s).toLowerCase()
   .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue').replace(/ß/g, 'ss')
@@ -67,6 +125,10 @@ const CODE = preds.promoCode || 'KIKOS77';
 const slugUsed = new Set();
 const MATCHES = Array.isArray(preds.matches) ? preds.matches.map(normalizeMatch).filter(Boolean) : [];
 const NEWS = Array.isArray(newsData.news) ? newsData.news : [];
+// News categories actually present in the feed (football-only since fetch_news
+// was scoped to soccer). Avoids thin empty /news/tennis + /news/basketball hubs.
+const NEWS_CATS = [...new Set(NEWS.map(n => (n.category || '').toLowerCase()).filter(Boolean))];
+if (!NEWS_CATS.length) NEWS_CATS.push('football');
 const TOMORROW = Array.isArray(fTom && fTom.matches) ? fTom.matches : [];
 const YESTERDAY = Array.isArray(fYest && fYest.matches) ? fYest.matches.filter(m => m.status === 'FINISHED') : [];
 const TODAY = Array.isArray(fDay && fDay.matches) ? fDay.matches : [];
@@ -261,14 +323,13 @@ function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonl
   const meta = i18n[loc].meta;
   const robots = noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">';
   const json = jsonld.concat(schemaOrg(loc)).map(j => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n');
-  // XWhiz 3D / glassmorphism overlay. Full-3D (Three.js) on key templates,
-  // lightweight CSS-only on deep page types. Loaded after site.css.
+  // XWhiz 3D / glassmorphism overlay. CSS-only + tiny local JS (tilt/reveal).
+  // NOTE: no Three.js CDN — it cost ~600KB on every page for a decorative
+  // background and hurt LCP/Core Web Vitals. xwhiz-3d.js already no-ops its
+  // WebGL part when THREE is undefined, so tilt/reveal keep working.
   const pt = (page && page.type) || '';
-  const FULL3D_TYPES = new Set(['home', 'predIndex', 'pred', 'live', 'predictor', 'news', 'newsCat', 'search', '404']);
   const overlayCss = '<link rel="stylesheet" href="/xwhiz-3d.css">';
-  const overlayHead = FULL3D_TYPES.has(pt)
-    ? overlayCss + '\n<script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>\n<script defer src="/xwhiz-3d.js"></script>'
-    : overlayCss;
+  const overlayHead = overlayCss + '\n<script defer src="/xwhiz-3d.js"></script>';
   return `<!DOCTYPE html>
 <html lang="${meta.lang}" dir="${meta.dir}">
 <head>
@@ -288,11 +349,15 @@ ${hreflang(loc, page)}
 <meta property="og:url" content="${canonical}">
 <meta property="og:site_name" content="XWhiz">
 <meta property="og:image" content="${OG_IMG}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="XWhiz — Football predictions today">
 <meta property="og:locale" content="${OG_LOC[loc]}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${OG_IMG}">
+<meta name="twitter:image:alt" content="XWhiz — Football predictions today">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://a.espncdn.com">
@@ -372,7 +437,7 @@ function footer(loc) {
 <div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colF')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'leagues' })}" class="block hover:text-zinc-900">${t(loc, 'footer.leagues')}</a><a href="${pageUrl(loc, { type: 'teams' })}" class="block hover:text-zinc-900">${t(loc, 'footer.teams')}</a><a href="${pageUrl(loc, { type: 'fixtures' })}" class="block hover:text-zinc-900">${t(loc, 'footer.fixtures')}</a><a href="${pageUrl(loc, { type: 'results' })}" class="block hover:text-zinc-900">${t(loc, 'footer.results')}</a></div></div>
 <div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colM')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'live' })}" class="block hover:text-zinc-900">${t(loc, 'footer.live')}</a><a href="${pageUrl(loc, { type: 'news' })}" class="block hover:text-zinc-900">${t(loc, 'footer.news')}</a><a href="${pageUrl(loc, { type: 'search' })}" class="block hover:text-zinc-900">${t(loc, 'footer.search')}</a><a href="${SITE}/sitemap.xml" class="block hover:text-zinc-900">${t(loc, 'footer.sitemap')}</a></div></div>
 </div>
-<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="dofollow" title="Sports data by SportScore" class="underline">SportScore</a></p>
+<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="noopener" title="Sports data by SportScore" class="underline">SportScore</a></p>
 </footer>
 </div>`;
 }
@@ -395,24 +460,25 @@ function predCard(loc, m) {
   return `<div class="border border-zinc-200 rounded-2xl hover:bg-zinc-50 hover:shadow-sm transition">
 <a href="${href}" data-tilt class="block p-5 pb-2">
 <div><span class="text-xs font-bold tracking-widest text-brand-700">${esc(flag(m.code))} ${esc(m.league).toUpperCase()}</span></div>
-<div class="mt-2 font-bold leading-tight">${esc(m.home)} ${t(loc, 'detail.vs')} ${esc(m.away)}</div>
+<div class="mt-2 font-bold leading-tight">${esc(cleanTeamName(m.home))} ${t(loc, 'detail.vs')} ${esc(cleanTeamName(m.away))}</div>
 </a>
 <div class="px-5 pb-5">
 <div class="flex flex-wrap items-center gap-2 text-xs">${marketBadge(loc, `${esc(m.pred)} @ ${esc(m.odds)}`, false, PILL_GREEN_STRONG)}${marketBadge(loc, `${m.conf}% ${t(loc, 'market.conf')}`, false, PILL_GREY)}</div>
-<div class="mt-2 text-xs text-zinc-500">${esc(fmtDate(loc, m.utcDate))} • ${esc(utcTime(m))} UTC${m.precise ? ' • ' + esc(m.precise) : ''}</div>
+<div class="mt-2 text-xs text-zinc-500">${esc(formatMatchTime(loc, m))}</div>
 </div>
 </div>`;
 }
 
 function homeMatchRow(loc, m) {
-  const home = homeName(m), away = awayName(m);
-  const slug = predSlugFor(home, away);
+  const home = cleanTeamName(homeName(m)), away = cleanTeamName(awayName(m));
+  const slug = predSlugFor(homeName(m), awayName(m)) || predSlugFor(home, away);
   const score = (m.score && m.score.fullTime && m.score.fullTime.home != null) ? `${m.score.fullTime.home} - ${m.score.fullTime.away}` : null;
   const status = statusLabel(loc, m.status);
   const linkTarget = slug ? pageUrl(loc, { type: 'pred', arg: slug }) : pageUrl(loc, { type: 'team', arg: slugify(home) });
+  const timeLabel = score != null ? 'FT' : esc(utcTime(m));
   return `<a href="${linkTarget}" class="bg-white border border-zinc-200 rounded-2xl p-3 flex items-center justify-between gap-3 hover:bg-zinc-50 transition">
 <div class="min-w-0"><div class="text-xs text-zinc-400 font-medium">${esc(compName(m))} · ${esc(status)}</div><div class="font-bold text-sm truncate">${esc(home)} ${t(loc, 'detail.vs')} ${esc(away)}</div></div>
-<div class="shrink-0"><span class="text-sm font-semibold text-zinc-500">${esc(utcTime(m))}</span>${score != null ? ` · <span class="font-bold text-zinc-900">${score}</span>` : ''}</div></a>`;
+<div class="shrink-0"><span class="text-sm font-semibold text-zinc-500">${timeLabel}</span>${score != null ? ` · <span class="font-bold text-zinc-900">${score}</span>` : ''}</div></a>`;
 }
 
 function statusLabel(loc, st) {
@@ -425,8 +491,8 @@ function newsCard(loc, n) {
   const img = n.image || '';
   const url = n.url || pageUrl(loc, { type: 'news' });
   return `<div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="${esc(url)}" target="_blank" rel="noopener sponsored nofollow" class="block">
-${img ? `<img loading="lazy" src="${esc(img)}" alt="${esc(n.title || '')}" class="h-40 w-full object-cover">` : ''}
+<a href="${esc(url)}" target="_blank" rel="noopener nofollow" class="block">
+${img ? `<img loading="lazy" decoding="async" width="600" height="400" referrerpolicy="no-referrer" src="${esc(img)}" alt="${esc(n.title || '')}" class="h-40 w-full object-cover">` : ''}
 <div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">${esc(n.title || '')} →</div></div>
 </a>
 <div class="px-4 pb-4">
@@ -449,8 +515,8 @@ function rgNote(loc) {
 function homePage(loc) {
   const t = (k, p) => tR(loc, k, p);
   const top = MATCHES.slice(0, 6);
-  const over = MATCHES.filter(m => m.pred === 'Over 2.5').slice(0, 3);
-  const btts = MATCHES.filter(m => m.pred === 'BTTS Yes').slice(0, 3);
+  const over = MATCHES.filter(isOverTip).slice(0, 3);
+  const btts = MATCHES.filter(isBttsTip).slice(0, 3);
   const newsHead = NEWS.slice(0, 3);
   const liveRows = UI_matches(loc, LIVE_JSON.matches.slice(0, 6));
   const byCompetition = groupBy(MATCHES, m => m.league);
@@ -483,8 +549,8 @@ ${MATCHES.length && new Date(MATCHES[0].utcDate).toISOString().slice(0, 10) !== 
 </div>
 ${MATCHES.length ? `<div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${top.map(m => predCard(loc, m)).join('')}</div>` : `<div class="mt-5 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${t('predHub.empty')}</div>`}
 <div class="mt-8 grid sm:grid-cols-2 gap-4">
-<a href="${pageUrl(loc, { type: 'over' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${t('sec.overCta')}</div><div class="text-sm text-zinc-500 mt-1">${over.length} ${t('market.over')}</div></a>
-<a href="${pageUrl(loc, { type: 'btts' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${t('sec.bttsCta')}</div><div class="text-sm text-zinc-500 mt-1">${btts.length} ${t('market.btts')}</div></a>
+<a href="${pageUrl(loc, { type: 'over' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${t('sec.overCta')}</div><div class="text-sm text-zinc-500 mt-1">${over.length ? `${over.length} ${t('market.over')}` : t('football.noMatches')}</div></a>
+<a href="${pageUrl(loc, { type: 'btts' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${t('sec.bttsCta')}</div><div class="text-sm text-zinc-500 mt-1">${btts.length ? `${btts.length} ${t('market.btts')}` : t('football.noMatches')}</div></a>
 </div>
 </div>
 <div class="border-t border-zinc-100">
@@ -530,7 +596,7 @@ ${(MATCHES.length ? `<div class="border-t border-zinc-100">
 <div class="max-w-7xl mx-auto px-4 md:px-6 py-10">
 <h2 class="text-2xl font-extrabold tracking-tight">${t('sec.trendTitle')}</h2>
 <p class="mt-3 text-sm text-zinc-600 max-w-3xl">${t('sec.trendBody')}</p>
-<div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${top.map(m => { const cs = m.correctScore ? `${esc(m.correctScore.score)} (${m.correctScore.prob}%)` : ''; return `<div class="border border-zinc-200 rounded-2xl p-5 text-sm"><div class="text-xs text-zinc-400">${esc(m.league)}</div><div class="mt-1 font-bold">${esc(m.home)} ${t('detail.vs')} ${esc(m.away)}</div><div class="mt-1 text-zinc-500">${t('sec.trendPick')}: ${esc(m.pred)} @ ${esc(m.odds)} • ${m.conf}%${cs ? ' • ' + t('market.cs') + ': ' + cs : ''}</div></div>`; }).join('')}</div>
+<div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${top.map(m => { const cs = m.correctScore ? `${esc(m.correctScore.score)} (${m.correctScore.prob}%)` : ''; return `<div class="border border-zinc-200 rounded-2xl p-5 text-sm"><div class="text-xs text-zinc-400">${esc(m.league)}</div><div class="mt-1 font-bold">${esc(cleanTeamName(m.home))} ${t('detail.vs')} ${esc(cleanTeamName(m.away))}</div><div class="mt-1 text-zinc-500">${t('sec.trendPick')}: ${esc(m.pred)} @ ${esc(m.odds)} • ${m.conf}%${cs ? ' • ' + t('market.cs') + ': ' + cs : ''}</div></div>`; }).join('')}</div>
 </div>
 </div>` : '')}
 <div class="border-t border-zinc-100">
@@ -570,13 +636,13 @@ function groupBy(arr, fn) {
 function standingsPanel(loc) {
   const st = LIVE_JSON.standings;
   if (!st || !st.table || !st.table.length) return '';
-  const rows = st.table.slice(0, 8).map(r => `<div class="flex items-center gap-2 text-xs"><span class="w-5 text-zinc-400">${r.position}</span><span class="flex-1 font-medium truncate">${esc(r.team)}</span><span class="font-bold tabular-nums">${r.points}</span></div>`).join('');
+  const rows = st.table.slice(0, 8).map(r => `<div class="flex items-center gap-2 text-xs"><span class="w-5 text-zinc-400">${r.position}</span><span class="flex-1 font-medium truncate">${esc(cleanTeamName(r.team))}</span><span class="font-bold tabular-nums">${r.points}</span></div>`).join('');
   return `<div class="border border-zinc-200 rounded-2xl p-4"><div class="font-bold text-sm">${tR(loc, 'sec.standings')}</div><div class="mt-3 space-y-1.5">${rows}</div></div>`;
 }
 function scorersPanel(loc) {
   const sc = LIVE_JSON.scorers;
   if (!sc.length) return '';
-  const rows = sc.slice(0, 6).map(s => `<div class="flex items-center gap-2 text-xs"><span class="flex-1 font-medium truncate">${esc(s.player)}</span><span class="text-zinc-400 truncate">${esc(s.team)}</span><span class="font-bold tabular-nums">${s.goals}</span></div>`).join('');
+  const rows = sc.slice(0, 6).map(s => `<div class="flex items-center gap-2 text-xs"><span class="flex-1 font-medium truncate">${esc(s.player)}</span><span class="text-zinc-400 truncate">${esc(cleanTeamName(s.team))}</span><span class="font-bold tabular-nums">${s.goals}</span></div>`).join('');
   return `<div class="border border-zinc-200 rounded-2xl p-4"><div class="font-bold text-sm">${tR(loc, 'sec.scorers')}</div><div class="mt-3 space-y-1.5">${rows}</div></div>`;
 }
 function UI_matches(loc, list) {
@@ -624,7 +690,7 @@ ${rgNote(loc)}
 
 const marketHubPage = (loc, which) => {
   const isOver = which === 'over';
-  const matches = MATCHES.filter(m => isOver ? m.pred === 'Over 2.5' : m.pred === 'BTTS Yes');
+  const matches = MATCHES.filter(m => isOver ? isOverTip(m) : isBttsTip(m));
   const title = isOver ? tR(loc, 'footer.over') : tR(loc, 'footer.btts');
   const desc = tR(loc, isOver ? 'marketHub.descOver' : 'marketHub.descBtts', { n: matches.length });
   const page = { type: isOver ? 'over' : 'btts' };
@@ -719,7 +785,7 @@ ${m.topScores && m.topScores.length ? `<h3 class="mt-6 text-lg font-extrabold">$
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.why', { pred: m.pred })}</h3>
 <ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1">
 <li>${t(loc, 'bet.' + m.pred)}</li>
-<li>${t(loc, 'analysis.formLabel')}: ${esc(m.form)}</li>
+<li>${t(loc, 'analysis.formLabel')}: ${esc(fmtForm(m.form))}</li>
 <li>${t(loc, 'analysis.injuriesLabel')}: ${esc(m.injuries)} · ${t(loc, 'analysis.formNote')}</li>
 </ul>
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.howTo')}</h3>
@@ -752,9 +818,9 @@ ${faqBlock(loc, faqs)}
 function livePage(loc) {
   const live = LIVE_JSON.matches;
   const rows = live.length ? live.map(m => {
-    const home = homeName(m), away = awayName(m);
+    const home = cleanTeamName(homeName(m)), away = cleanTeamName(awayName(m));
     const score = (m.score && m.score.fullTime && m.score.fullTime.home != null) ? `${m.score.fullTime.home}–${m.score.fullTime.away}` : '—';
-    const slug = predSlugFor(home, away);
+    const slug = predSlugFor(homeName(m), awayName(m)) || predSlugFor(home, away);
     const link = slug ? pageUrl(loc, { type: 'pred', arg: slug }) : pageUrl(loc, { type: 'team', arg: slugify(home) });
     return `<a href="${link}" class="border border-zinc-200 rounded-2xl p-4 flex items-center justify-between gap-3 hover:bg-zinc-50 transition"><div><div class="text-xs text-zinc-400">${esc(compName(m))} • ${statusLabel(loc, m.status)}</div><div class="font-bold">${esc(home)} ${t(loc, 'detail.vs')} ${esc(away)}</div></div><div class="text-xl font-black tabular-nums">${score}</div></a>`;
   }).join('') : `<div class="p-5 border border-zinc-200 rounded-2xl text-sm text-zinc-500">${t(loc, 'live.mg')}</div>`;
@@ -779,13 +845,13 @@ ${rgNote(loc)}
 function standingsPanelFull(loc) {
   const st = LIVE_JSON.standings;
   if (!st || !st.table || !st.table.length) return `<div class="border border-zinc-200 rounded-2xl p-4 text-sm text-zinc-500">${tR(loc, 'football.standingsNote')}</div>`;
-  const rows = st.table.map(r => `<div class="flex items-center gap-2 text-xs py-1.5 border-b border-zinc-50 last:border-0"><span class="w-5 text-zinc-400">${r.position}</span><span class="flex-1 font-medium truncate">${esc(r.team)}</span><span class="text-zinc-400 w-6 text-center">${r.played}</span><span class="w-6 text-center">${r.won}</span><span class="w-6 text-center">${r.draw}</span><span class="w-6 text-center">${r.lost}</span><span class="font-bold tabular-nums w-8 text-right">${r.points}</span></div>`).join('');
+  const rows = st.table.map(r => `<div class="flex items-center gap-2 text-xs py-1.5 border-b border-zinc-50 last:border-0"><span class="w-5 text-zinc-400">${r.position}</span><span class="flex-1 font-medium truncate">${esc(cleanTeamName(r.team))}</span><span class="text-zinc-400 w-6 text-center">${r.played}</span><span class="w-6 text-center">${r.won}</span><span class="w-6 text-center">${r.draw}</span><span class="w-6 text-center">${r.lost}</span><span class="font-bold tabular-nums w-8 text-right">${r.points}</span></div>`).join('');
   return `<div class="border border-zinc-200 rounded-2xl p-4"><div class="font-bold text-sm">${tR(loc, 'live.standings')}</div><div class="mt-2 flex gap-2 text-[10px] text-zinc-400 font-semibold"><span class="w-5"></span><span class="flex-1">${tR(loc, 'football.teams')}</span><span class="w-6 text-center">J</span><span class="w-6 text-center">G</span><span class="w-6 text-center">N</span><span class="w-6 text-center">P</span><span class="w-8 text-right">Pts</span></div><div class="mt-1">${rows}</div></div>`;
 }
 function scorersPanelFull(loc) {
   const sc = LIVE_JSON.scorers;
   if (!sc.length) return `<div class="border border-zinc-200 rounded-2xl p-4 text-sm text-zinc-500">${tR(loc, 'football.standingsNote')}</div>`;
-  const rows = sc.map((s, i) => `<div class="flex items-center gap-2 text-xs py-1.5 border-b border-zinc-50 last:border-0"><span class="w-5 text-zinc-400">${i + 1}</span><span class="flex-1 font-medium truncate">${esc(s.player)}</span><span class="text-zinc-400 truncate">${esc(s.team)}</span><span class="font-bold tabular-nums">${s.goals}</span></div>`).join('');
+  const rows = sc.map((s, i) => `<div class="flex items-center gap-2 text-xs py-1.5 border-b border-zinc-50 last:border-0"><span class="w-5 text-zinc-400">${i + 1}</span><span class="flex-1 font-medium truncate">${esc(s.player)}</span><span class="text-zinc-400 truncate">${esc(cleanTeamName(s.team))}</span><span class="font-bold tabular-nums">${s.goals}</span></div>`).join('');
   return `<div class="border border-zinc-200 rounded-2xl p-4"><div class="font-bold text-sm">${tR(loc, 'live.scorers')}</div><div class="mt-2">${rows}</div></div>`;
 }
 
@@ -1012,7 +1078,7 @@ ${rgNote(loc)}
 }
 
 function newsIndexPage(loc) {
-  const cats = ['football', 'tennis', 'basketball'].map(c => `<a href="${pageUrl(loc, { type: 'newsCat', arg: c })}" class="border border-zinc-200 rounded-2xl px-4 py-2 text-sm font-medium hover:bg-zinc-50">${tR(loc, 'news.cat.' + c)}</a>`).join('');
+  const cats = NEWS_CATS.map(c => `<a href="${pageUrl(loc, { type: 'newsCat', arg: c })}" class="border border-zinc-200 rounded-2xl px-4 py-2 text-sm font-medium hover:bg-zinc-50">${tR(loc, 'news.cat.' + c)}</a>`).join('');
   const cards = NEWS.slice(0, 12).map(n => newsCard(loc, n)).join('');
   const body = `
 <main class="max-w-6xl mx-auto px-4 md:px-6 py-8">
@@ -1110,7 +1176,7 @@ function buildSitemap() {
   add({ type: 'fixtures' }, 'daily', '0.7');
   add({ type: 'results' }, 'daily', '0.7');
   add({ type: 'news' }, 'daily', '0.8');
-  ['football', 'tennis', 'basketball'].forEach(c => add({ type: 'newsCat', arg: c }, 'daily', '0.6'));
+  NEWS_CATS.forEach(c => add({ type: 'newsCat', arg: c }, 'daily', '0.6'));
   MATCHES.forEach(m => add({ type: 'pred', arg: m.slug }, 'daily', '0.8'));
   const byLoc = loc => entries.filter(e => e.ll === loc);
   const linkFor = e => {
@@ -1234,7 +1300,7 @@ function main() {
     writePath(rel + 'football/fixtures/index.html', fixturesPage(loc));
     writePath(rel + 'football/results/index.html', resultsPage(loc));
     writePath(rel + 'news/index.html', newsIndexPage(loc));
-    ['football', 'tennis', 'basketball'].forEach(c => writePath(rel + `news/${c}/index.html`, newsCatPage(loc, c)));
+    NEWS_CATS.forEach(c => writePath(rel + `news/${c}/index.html`, newsCatPage(loc, c)));
     writePath(rel + 'search-index.json', JSON.stringify(buildSearchIndex(loc)));
   }
 

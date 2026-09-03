@@ -1,4 +1,42 @@
 {
   "outputDirectory": ".",
-  "buildCommand": ""
+  "buildCommand": "",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin-allow-popups" }
+      ]
+    },
+    {
+      "source": "/site.css",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=1209600, immutable" }]
+    },
+    {
+      "source": "/xwhiz-3d.(css|js)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=1209600, immutable" }]
+    },
+    {
+      "source": "/(favicon.svg|favicon-32x32.png|favicon-16x16.png|apple-touch-icon.png|logo.png|og-image.png|football.svg)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ],
+  "redirects": [
+    { "source": "/live/", "destination": "/live.html", "permanent": true },
+    { "source": "/predictor/", "destination": "/predictor.html", "permanent": true },
+    { "source": "/search/", "destination": "/search.html", "permanent": true }
+  ]
 }

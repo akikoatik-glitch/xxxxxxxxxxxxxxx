@@ -21,11 +21,15 @@
 <meta property="og:url" content="https://xwhiz.com/news/">
 <meta property="og:site_name" content="XWhiz">
 <meta property="og:image" content="https://xwhiz.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="XWhiz — Football predictions today">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Sports News Today | XWhiz">
 <meta name="twitter:description" content="Football, tennis and basketball news, updated daily from public feeds.">
 <meta name="twitter:image" content="https://xwhiz.com/og-image.png">
+<meta name="twitter:image:alt" content="XWhiz — Football predictions today">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://a.espncdn.com">
@@ -36,7 +40,6 @@
 <link rel="stylesheet" href="/site.css">
  
 <link rel="stylesheet" href="/xwhiz-3d.css">
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script defer src="/xwhiz-3d.js"></script>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
@@ -51,7 +54,7 @@
 @media (max-width:767px){.xw-hero{display:none}}
 @media (prefers-reduced-motion: reduce){.xw-ball,.xw-shadow{animation:none}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Sports News Today","itemListElement":[{"@type":"ListItem","position":1,"name":"Monfils, 40, oldest man to win US Open match since Connors in '92","url":"https://www.espn.com/tennis/story/_/id/49798949/gael-monfils-40th-birthday-oldest-man-win-us-open-match-jimmy-connors-1992"},{"@type":"ListItem","position":2,"name":"Summer transfer window: Grading big signings in men's soccer","url":"https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer"},{"@type":"ListItem","position":3,"name":"2026 NBA buzz: Latest free agency and trade updates","url":"https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason"},{"@type":"ListItem","position":4,"name":"Arthur Fery falls short of Wimbledon heroics in early US Open defeat","url":"https://www.espn.com/tennis/story/_/id/49797300/arthur-fery-falls-short-wimbledon-heroics-early-us-open-defeat-tennis"},{"@type":"ListItem","position":5,"name":"Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City","url":"https://www.espn.com/soccer/story/_/id/49746632/live-transfer-window-rumors-news-updates-deadline-day-premier-league-laliga-bundesliga-serie-ligue-1"},{"@type":"ListItem","position":6,"name":"76ers sign 7-foot-6 center Tacko Fall, others to camp deal","url":"https://www.espn.com/nba/story/_/id/49795456/76ers-sign-7-foot-6-center-tacko-fall-others-camp-deal"},{"@type":"ListItem","position":7,"name":"EFL criticises UEFA after rescheduling three domestic fixtures","url":"https://www.espn.com/soccer/story/_/id/49783362/efl-criticises-uefa-rescheduling-three-domestic-fixtures"},{"@type":"ListItem","position":8,"name":"Aston Villa's Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund","url":"https://www.espn.com/soccer/story/_/id/49659323/aston-villa-champions-league-draw-paris-saint-germain-barcelona-borussia-dortmund"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Sports News Today","itemListElement":[{"@type":"ListItem","position":1,"name":"Summer transfer window: Grading big signings in men's soccer","url":"https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer"},{"@type":"ListItem","position":2,"name":"Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City","url":"https://www.espn.com/soccer/story/_/id/49746632/live-transfer-window-rumors-news-updates-deadline-day-premier-league-laliga-bundesliga-serie-ligue-1"},{"@type":"ListItem","position":3,"name":"EFL criticises UEFA after rescheduling three domestic fixtures","url":"https://www.espn.com/soccer/story/_/id/49783362/efl-criticises-uefa-rescheduling-three-domestic-fixtures"},{"@type":"ListItem","position":4,"name":"Aston Villa's Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund","url":"https://www.espn.com/soccer/story/_/id/49659323/aston-villa-champions-league-draw-paris-saint-germain-barcelona-borussia-dortmund"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"XWhiz","url":"https://xwhiz.com","logo":{"@type":"ImageObject","url":"https://xwhiz.com/logo.png"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer support","url":"https://xwhiz.com"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"XWhiz","url":"https://xwhiz.com/","inLanguage":"en","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://xwhiz.com/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
 </head>
@@ -88,19 +91,10 @@
 <nav class="text-xs text-zinc-500 flex flex-wrap items-center gap-1" aria-label="Breadcrumb"><a href="/" class="hover:underline">Home</a><span aria-hidden="true"> › </span><span aria-current="page">News</span></nav>
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">Sports News Today</h1>
 <p class="mt-2 text-zinc-600">Football, tennis and basketball news, updated daily from public feeds.</p>
-<div class="mt-4 flex flex-wrap gap-2"><a href="/news/football/" class="border border-zinc-200 rounded-2xl px-4 py-2 text-sm font-medium hover:bg-zinc-50">Football News Today</a><a href="/news/tennis/" class="border border-zinc-200 rounded-2xl px-4 py-2 text-sm font-medium hover:bg-zinc-50">Tennis News Today</a><a href="/news/basketball/" class="border border-zinc-200 rounded-2xl px-4 py-2 text-sm font-medium hover:bg-zinc-50">Basketball News Today</a> <a href="/news/" class="bg-zinc-900 text-white border border-zinc-900 rounded-2xl px-4 py-2 text-sm font-medium">All categories</a></div>
+<div class="mt-4 flex flex-wrap gap-2"><a href="/news/football/" class="border border-zinc-200 rounded-2xl px-4 py-2 text-sm font-medium hover:bg-zinc-50">Football News Today</a> <a href="/news/" class="bg-zinc-900 text-white border border-zinc-900 rounded-2xl px-4 py-2 text-sm font-medium">All categories</a></div>
 <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4"><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/tennis/story/_/id/49798949/gael-monfils-40th-birthday-oldest-man-win-us-open-match-jimmy-connors-1992" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0902/r1710233_600x400_3-2.jpg" alt="Monfils, 40, oldest man to win US Open match since Connors in &#39;92" class="h-40 w-full object-cover">
-<div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">Monfils, 40, oldest man to win US Open match since Connors in &#39;92 →</div></div>
-</a>
-<div class="px-4 pb-4">
-<div class="text-xs text-zinc-400 font-medium">tennis · Tennis • ATP</div>
-<p class="mt-1 text-xs text-zinc-500">Gael Monfils, playing on his 40th birthday, beat Adolfo Daniel Vallejo in four sets Tuesday night to become th…</p>
-</div>
-</div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0831/r1709704_1296x729_16-9.jpg" alt="Summer transfer window: Grading big signings in men&#39;s soccer" class="h-40 w-full object-cover">
+<a href="https://www.espn.com/soccer/story/_/id/48990955/summer-transfer-window-grading-big-signings-mens-soccer" target="_blank" rel="noopener nofollow" class="block">
+<img loading="lazy" decoding="async" width="600" height="400" referrerpolicy="no-referrer" src="https://a.espncdn.com/photo/2026/0831/r1709704_1296x729_16-9.jpg" alt="Summer transfer window: Grading big signings in men&#39;s soccer" class="h-40 w-full object-cover">
 <div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">Summer transfer window: Grading big signings in men&#39;s soccer →</div></div>
 </a>
 <div class="px-4 pb-4">
@@ -108,26 +102,8 @@
 <p class="mt-1 text-xs text-zinc-500">The 2026 summer transfer window has closed. Here is how we rated the biggest deals.…</p>
 </div>
 </div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0826/r1707368_576x324_16-9.jpg" alt="2026 NBA buzz: Latest free agency and trade updates" class="h-40 w-full object-cover">
-<div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">2026 NBA buzz: Latest free agency and trade updates →</div></div>
-</a>
-<div class="px-4 pb-4">
-<div class="text-xs text-zinc-400 font-medium">basketball · Basketball • NBA</div>
-<p class="mt-1 text-xs text-zinc-500">We&#39;re tracking deals, trades and buzz across the NBA, including the latest on Jonathan Kuminga.…</p>
-</div>
-</div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/tennis/story/_/id/49797300/arthur-fery-falls-short-wimbledon-heroics-early-us-open-defeat-tennis" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0901/r1710161_1296x729_16-9.jpg" alt="Arthur Fery falls short of Wimbledon heroics in early US Open defeat" class="h-40 w-full object-cover">
-<div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">Arthur Fery falls short of Wimbledon heroics in early US Open defeat →</div></div>
-</a>
-<div class="px-4 pb-4">
-<div class="text-xs text-zinc-400 font-medium">tennis · Tennis • ATP</div>
-<p class="mt-1 text-xs text-zinc-500">Wimbledon hero Arthur Fery fell back to earth on Tuesday as he was beaten 6-3, 6-3, 7-5 on his US Open debut b…</p>
-</div>
-</div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/soccer/story/_/id/49746632/live-transfer-window-rumors-news-updates-deadline-day-premier-league-laliga-bundesliga-serie-ligue-1" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0901/r1710167_1296x729_16-9.jpg" alt="Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City" class="h-40 w-full object-cover">
+<a href="https://www.espn.com/soccer/story/_/id/49746632/live-transfer-window-rumors-news-updates-deadline-day-premier-league-laliga-bundesliga-serie-ligue-1" target="_blank" rel="noopener nofollow" class="block">
+<img loading="lazy" decoding="async" width="600" height="400" referrerpolicy="no-referrer" src="https://a.espncdn.com/photo/2026/0901/r1710167_1296x729_16-9.jpg" alt="Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City" class="h-40 w-full object-cover">
 <div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City →</div></div>
 </a>
 <div class="px-4 pb-4">
@@ -135,17 +111,8 @@
 <p class="mt-1 text-xs text-zinc-500">We recap the latest news, rumors, done deals and reaction throughout Europe&#39;s transfer deadline day, up to the…</p>
 </div>
 </div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/nba/story/_/id/49795456/76ers-sign-7-foot-6-center-tacko-fall-others-camp-deal" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2019/1026/r618633_600x400_3-2.jpg" alt="76ers sign 7-foot-6 center Tacko Fall, others to camp deal" class="h-40 w-full object-cover">
-<div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">76ers sign 7-foot-6 center Tacko Fall, others to camp deal →</div></div>
-</a>
-<div class="px-4 pb-4">
-<div class="text-xs text-zinc-400 font-medium">basketball · Basketball • NBA</div>
-<p class="mt-1 text-xs text-zinc-500">The Philadelphia 76ers have signed Tacko Fall, Jameer Nelson Jr. and Saint Thomas to Exhibit 10 contracts.…</p>
-</div>
-</div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/soccer/story/_/id/49783362/efl-criticises-uefa-rescheduling-three-domestic-fixtures" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0827/r1707643_1296x729_16-9.jpg" alt="EFL criticises UEFA after rescheduling three domestic fixtures" class="h-40 w-full object-cover">
+<a href="https://www.espn.com/soccer/story/_/id/49783362/efl-criticises-uefa-rescheduling-three-domestic-fixtures" target="_blank" rel="noopener nofollow" class="block">
+<img loading="lazy" decoding="async" width="600" height="400" referrerpolicy="no-referrer" src="https://a.espncdn.com/photo/2026/0827/r1707643_1296x729_16-9.jpg" alt="EFL criticises UEFA after rescheduling three domestic fixtures" class="h-40 w-full object-cover">
 <div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">EFL criticises UEFA after rescheduling three domestic fixtures →</div></div>
 </a>
 <div class="px-4 pb-4">
@@ -153,8 +120,8 @@
 <p class="mt-1 text-xs text-zinc-500">The English Football League has accused UEFA of an &quot;unwillingness to cooperate&quot; after it says the European gov…</p>
 </div>
 </div><div class="border border-zinc-200 rounded-2xl overflow-hidden hover:bg-zinc-50 hover:shadow-sm transition">
-<a href="https://www.espn.com/soccer/story/_/id/49659323/aston-villa-champions-league-draw-paris-saint-germain-barcelona-borussia-dortmund" target="_blank" rel="noopener sponsored nofollow" class="block">
-<img loading="lazy" src="https://a.espncdn.com/photo/2026/0319/r1630909_1296x729_16-9.jpg" alt="Aston Villa&#39;s Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund" class="h-40 w-full object-cover">
+<a href="https://www.espn.com/soccer/story/_/id/49659323/aston-villa-champions-league-draw-paris-saint-germain-barcelona-borussia-dortmund" target="_blank" rel="noopener nofollow" class="block">
+<img loading="lazy" decoding="async" width="600" height="400" referrerpolicy="no-referrer" src="https://a.espncdn.com/photo/2026/0319/r1630909_1296x729_16-9.jpg" alt="Aston Villa&#39;s Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund" class="h-40 w-full object-cover">
 <div class="p-4 pb-2"><div class="font-bold text-sm leading-snug">Aston Villa&#39;s Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund →</div></div>
 </a>
 <div class="px-4 pb-4">
@@ -173,7 +140,7 @@
 <div><div class="font-semibold text-zinc-900">Football</div><div class="mt-3 space-y-2 text-xs"><a href="/football/leagues/" class="block hover:text-zinc-900">Leagues</a><a href="/football/teams/" class="block hover:text-zinc-900">Teams</a><a href="/football/fixtures/" class="block hover:text-zinc-900">Fixtures</a><a href="/football/results/" class="block hover:text-zinc-900">Results</a></div></div>
 <div><div class="font-semibold text-zinc-900">More</div><div class="mt-3 space-y-2 text-xs"><a href="/live.html" class="block hover:text-zinc-900">Live scores</a><a href="/news/" class="block hover:text-zinc-900">Sports news</a><a href="/search.html" class="block hover:text-zinc-900">Search</a><a href="https://xwhiz.com/sitemap.xml" class="block hover:text-zinc-900">Sitemap</a></div></div>
 </div>
-<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="dofollow" title="Sports data by SportScore" class="underline">SportScore</a></p>
+<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="noopener" title="Sports data by SportScore" class="underline">SportScore</a></p>
 </footer>
 </div>
 <script>(function(){try{if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!window.matchMedia('(pointer: fine)').matches)return;

@@ -542,9 +542,28 @@ function slimStandingsSS(data, n = 10) {
   return { competition: data.competition, code: null, table: t, updatedAt: new Date().toISOString() };
 }
 
+// Drop matches whose teams are anonymous/placeholder names (e.g. SportScore
+// returns ""Team zp5rzgh1lepq82w"" or "to-be-confirmed"). These would otherwise
+// generate junk team pages and fill the sitemap with thin auto-generated URLs.
+function isJunkTeamName(n) {
+  if (!n) return true;
+  const lc = String(n).trim().toLowerCase();
+  if (!lc) return true;
+  // Placeholder / anonymous opponents (spaces or hyphens), both English forms.
+  if (lc === 'to be confirmed' || lc === 'to-be-confirmed' || lc === 'tbc' ||
+      lc === 'to be decided' || lc === 'to-be-decided' || lc === 'tbd' ||
+      lc === 'team' || lc === 'undecided' || lc === 'unknown' || lc === 'bye') return true;
+  // "team <random-hash>" anonymous placeholders from the feed
+  return /^team [a-z0-9]{6,}$/.test(lc) || /^team [a-f0-9]{8,}$/.test(lc);
+}
+
 // Clean noise out of an internal match list.
 const dropNoise = arr => arr.filter(m => {
   const league = m._league || m._ssCompetition || (m.competition && m.competition.name) || '';
+  // Drop matches with anonymous/placeholder teams on either side.
+  const homeN = (m.homeTeam && m.homeTeam.name) || (m._home) || '';
+  const awayN = (m.awayTeam && m.awayTeam.name) || (m._away) || '';
+  if (isJunkTeamName(homeN) || isJunkTeamName(awayN)) return false;
   // Keep known-good leagues always.
   if (leaguePriority(league) >= 50) return true;
   // For unknown leagues, keep matches that are NOT clearly noise.
@@ -659,7 +678,11 @@ async function main() {
     const out = [];
     for (const arr of sets) {
       for (const m of arr || []) {
-        const key = m.id || `${(m.homeTeam && m.homeTeam.name) || ''}||${(m.awayTeam && m.awayTeam.name) || ''}||${m.utcDate}`;
+        const h = (m.homeTeam && m.homeTeam.name) || m._home || '';
+        const a = (m.awayTeam && m.awayTeam.name) || m._away || '';
+        // Never let anonymous/placeholder team matches into the output, whatever source.
+        if (isJunkTeamName(h) || isJunkTeamName(a)) continue;
+        const key = m.id || `${h}||${a}||${m.utcDate}`;
         if (seen.has(key)) continue;
         seen.add(key);
         out.push(m);

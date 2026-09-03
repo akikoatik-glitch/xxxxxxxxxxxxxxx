@@ -5,9 +5,9 @@ const NEWS_SOURCES = [
   {sport:'football', league:'Premier League', url:'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/news', category:'football'},
   {sport:'football', league:'La Liga', url:'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/news', category:'football'},
   {sport:'football', league:'Champions League', url:'https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/news', category:'football'},
-  {sport:'tennis', league:'Tennis • ATP', url:'https://site.api.espn.com/apis/site/v2/sports/tennis/atp/news', category:'tennis'},
-  {sport:'basketball', league:'Basketball • NBA', url:'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news', category:'basketball'},
-  {sport:'basketball', league:'Basketball • EuroLeague', url:'https://site.api.espn.com/apis/site/v2/sports/basketball/euroleague/news', category:'basketball'},
+  {sport:'football', league:'Serie A', url:'https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/news', category:'football'},
+  {sport:'football', league:'Bundesliga', url:'https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/news', category:'football'},
+  {sport:'football', league:'Ligue 1', url:'https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/news', category:'football'},
 ];
 
 async function fetchESPN(url){

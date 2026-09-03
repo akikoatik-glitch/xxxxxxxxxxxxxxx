@@ -21,11 +21,15 @@
 <meta property="og:url" content="https://xwhiz.com/fr/predictor/">
 <meta property="og:site_name" content="XWhiz">
 <meta property="og:image" content="https://xwhiz.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="XWhiz — Football predictions today">
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Pronostiqueur de matchs gratuit | XWhiz">
 <meta name="twitter:description" content="Pronostiqueur de matchs gratuit : probabilités 1N2, plus/moins 2,5 et BTTS instantanées avec notre modèle statistique Dixon-Coles — sans inscription.">
 <meta name="twitter:image" content="https://xwhiz.com/og-image.png">
+<meta name="twitter:image:alt" content="XWhiz — Football predictions today">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://a.espncdn.com">
@@ -36,7 +40,6 @@
 <link rel="stylesheet" href="/site.css">
  
 <link rel="stylesheet" href="/xwhiz-3d.css">
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script defer src="/xwhiz-3d.js"></script>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
@@ -93,7 +96,7 @@
 <div><label class="text-xs font-bold text-zinc-500" for="pdh">Équipe à domicile</label><input id="pdh" list="pdl" class="mt-1 w-full border border-zinc-200 rounded-2xl px-4 py-3 text-sm outline-none focus:border-brand-600" placeholder="Commencez à taper une équipe…" autocomplete="off"></div>
 <div><label class="text-xs font-bold text-zinc-500" for="pda">Équipe à l'extérieur</label><input id="pda" list="pdl" class="mt-1 w-full border border-zinc-200 rounded-2xl px-4 py-3 text-sm outline-none focus:border-brand-600" placeholder="Commencez à taper une équipe…" autocomplete="off"></div>
 </div>
-<datalist id="pdl"><option value="Real Sociedad de Fútbol"></option><option value="RC Celta de Vigo"></option><option value="Toulouse"></option><option value="Lille OSC"></option><option value="Barcelona SC(ECU)"></option><option value="Independiente del Valle"></option><option value="Forward Madison FC"></option><option value="Knoxville troops"></option><option value="Salcedo FC"></option><option value="Mount Pleasant FA"></option><option value="Deportes Limache"></option><option value="Nublense"></option><option value="Santos FC - SP"></option><option value="Palmeiras - SP"></option><option value="Vitória - BA"></option><option value="Vasco da Gama Saf - RJ"></option><option value="Academia Quintana"></option><option value="Caguas Sporting"></option><option value="Independiente Santa Fe"></option><option value="Millonarios"></option><option value="North Bangkok University"></option><option value="Thammasat University"></option><option value="Iran U20"></option><option value="To Be Confirmed"></option><option value="Velez Sarsfield"></option><option value="Boca Juniors"></option><option value="Real Esteli"></option><option value="San Marcos FC"></option><option value="Toluca"></option><option value="Club Leon"></option><option value="Vancouver Whitecaps"></option><option value="Montreal Impact"></option><option value="Club America"></option><option value="Rayados de Monterrey"></option><option value="Team 23xmvkhxnzdqg8n"></option><option value="Ashanti Golden Boys"></option><option value="Team zp5rzgh1lepq82w"></option><option value="Team k82rekhoe0krepz"></option><option value="Team 965mkyhz691r1ge"></option><option value="Fregat Kherson"></option><option value="AS FAR Rabat"></option><option value="Olympique de Safi"></option><option value="Ipswich Town"></option><option value="Liverpool"></option><option value="Real Betis Balompié"></option><option value="Real Madrid CF"></option><option value="VfB Stuttgart"></option><option value="1. FC Köln"></option><option value="Genoa C"></option><option value="Como 1907"></option><option value="Olympique Lyonnais"></option><option value="AJ Auxerre"></option><option value="Paris Saint-Germain"></option><option value="AS Monaco"></option><option value="Sparta Rotterdam"></option><option value="PEC Zwolle"></option><option value="FC Porto"></option><option value="Moreirense"></option></datalist>
+<datalist id="pdl"><option value="Real Sociedad de Fútbol"></option><option value="RC Celta de Vigo"></option><option value="Toulouse"></option><option value="Lille OSC"></option><option value="Barcelona SC(ECU)"></option><option value="Independiente del Valle"></option><option value="Forward Madison FC"></option><option value="Knoxville troops"></option><option value="Salcedo FC"></option><option value="Mount Pleasant FA"></option><option value="Deportes Limache"></option><option value="Nublense"></option><option value="Santos FC - SP"></option><option value="Palmeiras - SP"></option><option value="Vitória - BA"></option><option value="Vasco da Gama Saf - RJ"></option><option value="Academia Quintana"></option><option value="Caguas Sporting"></option><option value="Independiente Santa Fe"></option><option value="Millonarios"></option><option value="North Bangkok University"></option><option value="Thammasat University"></option><option value="Velez Sarsfield"></option><option value="Boca Juniors"></option><option value="Real Esteli"></option><option value="San Marcos FC"></option><option value="Toluca"></option><option value="Club Leon"></option><option value="Vancouver Whitecaps"></option><option value="Montreal Impact"></option><option value="Club America"></option><option value="Rayados de Monterrey"></option><option value="AS FAR Rabat"></option><option value="Olympique de Safi"></option><option value="Ipswich Town"></option><option value="Liverpool"></option><option value="Real Betis Balompié"></option><option value="Real Madrid CF"></option><option value="VfB Stuttgart"></option><option value="1. FC Köln"></option><option value="Genoa C"></option><option value="Como 1907"></option><option value="Olympique Lyonnais"></option><option value="AJ Auxerre"></option><option value="Paris Saint-Germain"></option><option value="AS Monaco"></option><option value="Sparta Rotterdam"></option><option value="PEC Zwolle"></option><option value="FC Porto"></option><option value="Moreirense"></option></datalist>
 <div class="mt-4 flex flex-wrap gap-3">
 <button id="pdc" class="bg-brand-600 hover:bg-brand-700 text-white font-black px-6 py-3 rounded-full">Lancer le modèle</button>
 <button id="pds" class="bg-zinc-100 hover:bg-zinc-200 font-bold px-6 py-3 rounded-full">Inverser</button>
@@ -135,7 +138,7 @@ document.getElementById('pda').addEventListener('keypress',function(e){if(e.key=
 <div><div class="font-semibold text-zinc-900">Football</div><div class="mt-3 space-y-2 text-xs"><a href="/fr/football/leagues/" class="block hover:text-zinc-900">Ligues</a><a href="/fr/football/teams/" class="block hover:text-zinc-900">Équipes</a><a href="/fr/football/fixtures/" class="block hover:text-zinc-900">Calendrier</a><a href="/fr/football/results/" class="block hover:text-zinc-900">Résultats</a></div></div>
 <div><div class="font-semibold text-zinc-900">Plus</div><div class="mt-3 space-y-2 text-xs"><a href="/fr/live/" class="block hover:text-zinc-900">Direct</a><a href="/fr/news/" class="block hover:text-zinc-900">Actualités</a><a href="/fr/search.html" class="block hover:text-zinc-900">Recherche</a><a href="https://xwhiz.com/sitemap.xml" class="block hover:text-zinc-900">Plan du site</a></div></div>
 </div>
-<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="dofollow" title="Sports data by SportScore" class="underline">SportScore</a></p>
+<p class="max-w-7xl mx-auto mt-6 text-[10px] text-zinc-400 flex items-center gap-1.5">Live data by <a href="https://sportscore.com/" rel="noopener" title="Sports data by SportScore" class="underline">SportScore</a></p>
 </footer>
 </div>
 <script>(function(){try{if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!window.matchMedia('(pointer: fine)').matches)return;
