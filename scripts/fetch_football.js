@@ -228,6 +228,82 @@ async function fetchApiFootballDate(dateStr) {
   return sortByLeague(matches);
 }
 
+// ── WorldCup26 free API (worldcup26.ir) — zero-key, covers England+Spain ────
+// Free, no API key. Premier League (eng.1) & LaLiga (esp.1) reliably present.
+// Covers England & Spain. (Serie A / Bundesliga / Ligue 1 need the
+// API-Football key.) Base: https://worldcup26.ir/get/soccer/{league_slug}/...
+const WC26 = {
+  base: 'https://worldcup26.ir/get/soccer',
+  // league_slug -> internal league name
+  slugs: {
+    'eng.1': 'Premier League',
+    'eng.2': 'Championship',
+    'esp.1': 'La Liga',
+  },
+};
+
+async function wc26Get(url) {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) { console.log(`WC26 ${url.slice(0, 60)}... -> ${res.status}`); return null; }
+    return res.json();
+  } catch (e) { console.log('WC26 fetch error:', e.message); return null; }
+}
+
+// Fetch yesterday/today/tomorrow fixtures from worldcup26.ir for a league slug.
+async function fetchWc26(leagueSlug, leagueName, from, to) {
+  try {
+    const data = await wc26Get(`${WC26.base}/${leagueSlug}/fixtures?from=${from}&to=${to}`);
+    if (!data || !data.events) return [];
+    const out = [];
+    for (const ev of data.events) {
+      const c = ev.competitions && ev.competitions[0];
+      if (!c) continue;
+      const hm = (c.competitors || []).find(x => x.homeAway === 'home');
+      const aw = (c.competitors || []).find(x => x.homeAway === 'away');
+      if (!hm || !aw) continue;
+      const homeName = (hm.team && hm.team.name) || '';
+      const awayName = (aw.team && aw.team.name) || '';
+      if (!homeName || !awayName) continue;
+      const short = (c.status && c.status.type && c.status.type.shortDetail) || '';
+      const statusMap = { 'FT': 'FINISHED', 'AET': 'FINISHED', 'PEN': 'FINISHED',
+        'HT': 'IN_PLAY', '1H': 'IN_PLAY', '2H': 'IN_PLAY', 'ET': 'IN_PLAY',
+        'Scheduled': 'TIMED', 'Postponed': 'POSTPONED', 'Cancelled': 'CANCELED',
+        'Delayed': 'POSTPONED' };
+      let st = statusMap[short] || 'TIMED';
+      if (/^[0-9]+'$/.test(short) || short === 'Halftime') st = 'IN_PLAY';
+      let fullTime = null;
+      if (st === 'FINISHED') {
+        const h = parseInt(hm.score), a = parseInt(aw.score);
+        if (!isNaN(h) && !isNaN(a)) fullTime = { home: h, away: a };
+      }
+      out.push({
+        id: String(ev.id),
+        utcDate: ev.date || new Date().toISOString(),
+        status: st,
+        matchday: null,
+        competition: { id: ev.id, name: leagueName, code: leagueSlug, emblem: null },
+        homeTeam: { id: hm.team && hm.team.id, name: homeName, shortName: homeName,
+          tla: (hm.team && hm.team.abbreviation) || null, crest: (hm.team && hm.team.logo) || null },
+        awayTeam: { id: aw.team && aw.team.id, name: awayName, shortName: awayName,
+          tla: (aw.team && aw.team.abbreviation) || null, crest: (aw.team && aw.team.logo) || null },
+        score: fullTime,
+        _ssCompetition: leagueName,
+        _league: leagueName,
+        _source: 'WorldCup26',
+        _ssUrl: ''
+      });
+    }
+    return out;
+  } catch (e) { console.log('WC26 fetch error:', e.message); return []; }
+}
+
+// Fetch standings (top table) from worldcup26.ir for a league slug.
+async function fetchWc26Standings(leagueSlug) {
+  const data = await wc26Get(`${WC26.base}/${leagueSlug}/standings`);
+  return data;
+}
+
 // ── football-data.org (optional fallback, needs key) ───────────────────────
 
 async function fdGet(url) {
@@ -430,6 +506,7 @@ async function main() {
 
   let ssToday = [], ssTomorrow = [], ssYesterday = [];
   let afToday = [], afTomorrow = [], afYesterday = [];
+  let wcToday = [], wcTomorrow = [], wcYesterday = [];
   let fdToday = [], fdTomorrow = [], fdYesterday = [], fdUpcoming = [], fdRecent = [];
 
   // ── Step 1: API-Football (primary, when key present) ──
@@ -446,7 +523,26 @@ async function main() {
     console.log(`API-Football: today=${afToday.length}, tomorrow=${afTomorrow.length}, yesterday=${afYesterday.length}`);
   }
 
-  // ── Step 2: SportScore (zero-key fallback / enrichment) ──
+  // ── Step 2: WorldCup26 free API (England + Spain, zero key) ──
+  console.log('Trying WorldCup26 (worldcup26.ir, no key) — England & Spain...');
+  const wcSlugs = Object.keys(WC26.slugs);
+  const wcResults = await Promise.all(wcSlugs.map(slug =>
+    Promise.all([
+      fetchWc26(slug, WC26.slugs[slug], today.replace(/-/g, ''), today.replace(/-/g, '')),
+      fetchWc26(slug, WC26.slugs[slug], tomorrow.replace(/-/g, ''), tomorrow.replace(/-/g, '')),
+      fetchWc26(slug, WC26.slugs[slug], yesterday.replace(/-/g, ''), yesterday.replace(/-/g, '')),
+    ])
+  ));
+  // Flatten across leagues; merge home/away so we keep all matches
+  for (let qi = 0; qi < wcSlugs.length; qi++) {
+    wcToday = wcToday.concat(wcResults[qi][0]);
+    wcTomorrow = wcTomorrow.concat(wcResults[qi][1]);
+    wcYesterday = wcYesterday.concat(wcResults[qi][2]);
+  }
+  wcToday = sortByLeague(wcToday); wcTomorrow = sortByLeague(wcTomorrow); wcYesterday = sortByLeague(wcYesterday);
+  console.log(`WorldCup26: today=${wcToday.length}, tomorrow=${wcTomorrow.length}, yesterday=${wcYesterday.length}`);
+
+  // ── Step 3: SportScore (zero-key fallback / enrichment) ──
   console.log('Trying SportScore (no API key required)...');
   const ssMatches = await fetchSportScoreToday(120);
   console.log(`SportScore returned ${ssMatches.length} matches (raw)`);
@@ -457,7 +553,7 @@ async function main() {
   ssToday = sortByLeague(ssToday); ssTomorrow = sortByLeague(ssTomorrow); ssYesterday = sortByLeague(ssYesterday);
   console.log(`SportScore filtered: today=${ssToday.length}, tomorrow=${ssTomorrow.length}, yesterday=${ssYesterday.length}`);
 
-  // ── Step 3: football-data.org (optional) ──
+  // ── Step 4: football-data.org (optional) ──
   if (KEY) {
     console.log('Also fetching from football-data.org...');
     [fdToday, fdTomorrow, fdYesterday, fdUpcoming] = await Promise.all([
@@ -474,18 +570,21 @@ async function main() {
     } catch (e) { console.log('Recent results fetch failed:', e.message); }
   }
 
-  // ── Step 4: Pick primary per-day source with priority ──
-  // Prefer API-Football (if it gave matches), else SportScore, else football-data.org.
-  function pick(af, ss, fd) {
+  // ── Step 5: Pick primary per-day source with priority ──
+  // Prefer API-Football (if it gave matches), else WorldCup26 (England+Spain),
+  // else SportScore, else football-data.org.
+  function pick(af, wc, ss, fd) {
     if (af.length) return af;
+    if (wc.length) return wc;
     if (ss.length) return ss;
     return fd;
   }
-  let todayFinal = pick(afToday, ssToday, fdToday);
-  let tomorrowFinal = pick(afTomorrow, ssTomorrow, fdTomorrow);
-  let yesterdayFinal = pick(afYesterday, ssYesterday, fdYesterday);
+  let todayFinal = pick(afToday, wcToday, ssToday, fdToday);
+  let tomorrowFinal = pick(afTomorrow, wcTomorrow, ssTomorrow, fdTomorrow);
+  let yesterdayFinal = pick(afYesterday, wcYesterday, ssYesterday, fdYesterday);
   const upcomingFinal = sortByLeague(dropNoise(
     afTomorrow.length ? afTomorrow.concat(afToday)
+    : wcTomorrow.length ? wcTomorrow.concat(wcToday)
     : ssTomorrow.length ? ssTomorrow.concat(ssToday)
     : fdUpcoming.length ? fdUpcoming : ssMatches
   )).slice(0, 30);
@@ -495,6 +594,7 @@ async function main() {
     ssYesterday.concat(ssToday.filter(m => m.status === 'FINISHED')).concat(afYesterday).concat(afToday.filter(m => m.status === 'FINISHED'));
 
   const dataSource = API_FOOTBALL_KEY && afToday.length > 0 ? 'API-Football'
+    : todayFinal && todayFinal[0] && todayFinal[0]._source === 'WorldCup26' ? 'WorldCup26'
     : todayFinal && todayFinal[0] && todayFinal[0]._source === 'SportScore' ? 'SportScore'
     : todayFinal && todayFinal[0] && todayFinal[0]._source === 'API-Football' ? 'API-Football'
     : fdToday.length > 0 ? 'football-data.org' : 'none';
