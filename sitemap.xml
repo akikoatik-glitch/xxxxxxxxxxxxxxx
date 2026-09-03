@@ -2491,6 +2491,186 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/news/football/"/>
   </url>
   <url>
+    <loc>https://xwhiz.com/about/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/about/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/about/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/about/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/about/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/fr/about/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/about/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/about/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/about/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/about/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/ar/about/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/about/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/about/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/about/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/about/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/methodology/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/methodology/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/fr/methodology/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/methodology/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/ar/methodology/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/methodology/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/methodology/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/contact/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/contact/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/contact/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/fr/contact/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/contact/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/contact/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/ar/contact/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/contact/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/contact/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/contact/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/contact/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/privacy/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/fr/privacy/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/ar/privacy/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/privacy/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/terms/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/terms/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/terms/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/terms/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/fr/terms/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/terms/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/terms/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/terms/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/ar/terms/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/terms/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/terms/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/terms/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/terms/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/safer-gambling/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/safer-gambling/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/fr/safer-gambling/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/safer-gambling/"/>
+  </url>
+  <url>
+    <loc>https://xwhiz.com/ar/safer-gambling/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/safer-gambling/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/safer-gambling/"/>
+  </url>
+  <url>
     <loc>https://xwhiz.com/predictions/real-sociedad-de-futbol-vs-rc-celta-de-vigo-prediction.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>daily</changefreq>
