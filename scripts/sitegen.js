@@ -216,6 +216,8 @@ function pageUrl(loc, page) {
     case 'pred': return p + '/predictions/' + page.arg + '.html';
     case 'btts': return p + '/predictions/btts-predictions-today.html';
     case 'over': return p + '/predictions/over-2-5-goals-predictions-today.html';
+    case 'botd': return p + '/bet-of-the-day/';
+    case 'acca': return p + '/accumulator-tips/';
     case 'live': return loc === 'en' ? '/live.html' : p + '/live/';
     case 'predictor': return loc === 'en' ? '/predictor.html' : p + '/predictor/';
     case 'search': return p + '/search.html';
@@ -441,7 +443,7 @@ function footer(loc) {
 <footer class="border-t border-zinc-100 py-10">
 <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
 <div class="col-span-2 md:col-span-1"><div class="flex items-center gap-2 font-extrabold"><span class="w-7 h-7 rounded-lg bg-brand-600 text-white flex items-center justify-center text-xs">⚽</span> XWhiz</div><p class="mt-3 text-zinc-500 text-xs">${t(loc, 'footer.blurb')}</p><p class="mt-3 text-xs text-zinc-400">© ${new Date().getFullYear()} XWhiz</p></div>
-<div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colP')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="block hover:text-zinc-900">${t(loc, 'footer.today')}</a><a href="${pageUrl(loc, { type: 'btts' })}" class="block hover:text-zinc-900">${t(loc, 'footer.btts')}</a><a href="${pageUrl(loc, { type: 'over' })}" class="block hover:text-zinc-900">${t(loc, 'footer.over')}</a><a href="${pageUrl(loc, { type: 'predictor' })}" class="block hover:text-zinc-900">${t(loc, 'footer.predictor')}</a></div></div>
+<div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colP')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'predIndex' })}" class="block hover:text-zinc-900">${t(loc, 'footer.today')}</a><a href="${pageUrl(loc, { type: 'botd' })}" class="block hover:text-zinc-900">${boa(loc, 'botd').nav}</a><a href="${pageUrl(loc, { type: 'acca' })}" class="block hover:text-zinc-900">${boa(loc, 'acca').nav}</a><a href="${pageUrl(loc, { type: 'btts' })}" class="block hover:text-zinc-900">${t(loc, 'footer.btts')}</a><a href="${pageUrl(loc, { type: 'over' })}" class="block hover:text-zinc-900">${t(loc, 'footer.over')}</a><a href="${pageUrl(loc, { type: 'predictor' })}" class="block hover:text-zinc-900">${t(loc, 'footer.predictor')}</a></div></div>
 <div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colF')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'leagues' })}" class="block hover:text-zinc-900">${t(loc, 'footer.leagues')}</a><a href="${pageUrl(loc, { type: 'teams' })}" class="block hover:text-zinc-900">${t(loc, 'footer.teams')}</a><a href="${pageUrl(loc, { type: 'fixtures' })}" class="block hover:text-zinc-900">${t(loc, 'footer.fixtures')}</a><a href="${pageUrl(loc, { type: 'results' })}" class="block hover:text-zinc-900">${t(loc, 'footer.results')}</a></div></div>
 <div><div class="font-semibold text-zinc-900">${t(loc, 'footer.colM')}</div><div class="mt-3 space-y-2 text-xs"><a href="${pageUrl(loc, { type: 'live' })}" class="block hover:text-zinc-900">${t(loc, 'footer.live')}</a><a href="${pageUrl(loc, { type: 'news' })}" class="block hover:text-zinc-900">${t(loc, 'footer.news')}</a><a href="${pageUrl(loc, { type: 'search' })}" class="block hover:text-zinc-900">${t(loc, 'footer.search')}</a><a href="${SITE}/sitemap.xml" class="block hover:text-zinc-900">${t(loc, 'footer.sitemap')}</a><a href="${pageUrl(loc, { type: 'about' })}" class="block hover:text-zinc-900">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).about}</a><a href="${pageUrl(loc, { type: 'methodology' })}" class="block hover:text-zinc-900">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).methodology}</a><a href="${pageUrl(loc, { type: 'contact' })}" class="block hover:text-zinc-900">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).contact}</a><a href="${pageUrl(loc, { type: 'privacy' })}" class="block hover:text-zinc-900">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).privacy}</a><a href="${pageUrl(loc, { type: 'terms' })}" class="block hover:text-zinc-900">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).terms}</a><a href="${pageUrl(loc, { type: 'safer-gambling' })}" class="block hover:text-zinc-900">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en)['safer-gambling']}</a></div></div>
 </div>
@@ -557,6 +559,8 @@ ${MATCHES.length && new Date(MATCHES[0].utcDate).toISOString().slice(0, 10) !== 
 </div>
 ${MATCHES.length ? `<div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">${top.map(m => predCard(loc, m)).join('')}</div>` : `<div class="mt-5 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${t('predHub.empty')}</div>`}
 <div class="mt-8 grid sm:grid-cols-2 gap-4">
+${(() => { const bp = bestPick(); return `<a href="${pageUrl(loc, { type: 'botd' })}" class="border border-brand-600/30 bg-brand-600/5 rounded-2xl p-5 hover:bg-brand-600/10"><div class="font-bold">${boa(loc, 'botd').nav} ⭐</div><div class="text-sm text-zinc-500 mt-1">${bp ? `${esc(cleanTeamName(bp.home))} ${t('detail.vs')} ${esc(cleanTeamName(bp.away))} — ${esc(bp.pred)} @ ${esc(bp.odds)}` : t('football.noMatches')}</div></a>`; })()}
+${(() => { const legs = accaLegs(); return `<a href="${pageUrl(loc, { type: 'acca' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${boa(loc, 'acca').nav}</div><div class="text-sm text-zinc-500 mt-1">${legs.length >= 2 ? `${legs.length} legs @ ${accaOdds(legs).toFixed(2)}` : t('football.noMatches')}</div></a>`; })()}
 <a href="${pageUrl(loc, { type: 'over' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${t('sec.overCta')}</div><div class="text-sm text-zinc-500 mt-1">${over.length ? `${over.length} ${t('market.over')}` : t('football.noMatches')}</div></a>
 <a href="${pageUrl(loc, { type: 'btts' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${t('sec.bttsCta')}</div><div class="text-sm text-zinc-500 mt-1">${btts.length ? `${btts.length} ${t('market.btts')}` : t('football.noMatches')}</div></a>
 </div>
@@ -683,6 +687,8 @@ ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc
 </section>
 ${sections}
 <div class="mt-10 grid sm:grid-cols-2 gap-4">
+<a href="${pageUrl(loc, { type: 'botd' })}" class="border border-brand-600/30 bg-brand-600/5 rounded-2xl p-5 hover:bg-brand-600/10"><div class="font-bold">${boa(loc, 'botd').nav} ⭐</div><div class="text-sm text-zinc-500 mt-1">${boa(loc, 'botd').sub.slice(0, 90)}…</div></a>
+<a href="${pageUrl(loc, { type: 'acca' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${boa(loc, 'acca').nav}</div><div class="text-sm text-zinc-500 mt-1">${boa(loc, 'acca').sub.slice(0, 90)}…</div></a>
 <a href="${pageUrl(loc, { type: 'btts' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${tR(loc, 'footer.btts')}</div><div class="text-sm text-zinc-500 mt-1">${tR(loc, 'market.btts')}</div></a>
 <a href="${pageUrl(loc, { type: 'over' })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50"><div class="font-bold">${tR(loc, 'footer.over')}</div><div class="text-sm text-zinc-500 mt-1">${tR(loc, 'market.ou')}</div></a>
 </div>
@@ -718,6 +724,92 @@ ${rgNote(loc)}
     canonical: `${SITE}${pageUrl(loc, page)}`, body
   });
 };
+
+// ---- Bet of the Day + Accumulator hubs (high-volume keywords, built from model data) ----
+const bestPick = () => MATCHES.slice().sort((a, b) => b.conf - a.conf)[0] || null;
+const accaLegs = () => MATCHES.slice().sort((a, b) => b.conf - a.conf).slice(0, 4);
+const legOdds = m => { const v = parseFloat(m.odds); return isFinite(v) && v > 1 ? v : null; };
+const accaOdds = legs => legs.reduce((acc, m) => { const o = legOdds(m); return o ? acc * o : acc; }, 1);
+const accaProb = legs => legs.reduce((acc, m) => acc * (m.conf / 100), 1) * 100;
+const BOA = {
+  botd: {
+    en: { nav: 'Bet of the Day', h1: 'Bet of the Day Today', sub: 'Our single strongest pick today — the highest-confidence output of the Dixon-Coles + Elo model, published with its fair odds.', why: 'Why this pick', empty: 'No bet of the day yet — check back at 06:00 UTC.', faq1q: 'What is the bet of the day?', faq1a: 'The model pick with the highest confidence across all of today\'s matches. It is still a probability estimate, not a guarantee.', faq2q: 'What odds should I expect?', faq2a: 'We publish fair odds (100 divided by probability). Bookmaker prices move — only bet if the offered price matches or beats fair.' },
+    fr: { nav: 'Pari du jour', h1: 'Pari du jour', sub: 'Notre pronostic le plus solide du jour — la sortie du modèle Dixon-Coles + Elo avec la plus haute confiance, publiée avec sa cote équitable.', why: 'Pourquoi ce pari', empty: 'Pas encore de pari du jour — revenez à 06h00 UTC.', faq1q: 'Qu\'est-ce que le pari du jour ?', faq1a: 'Le pronostic du modèle avec la plus haute confiance parmi tous les matchs du jour. Cela reste une estimation de probabilité, pas une garantie.', faq2q: 'Quelle cote attendre ?', faq2a: 'Nous publions des cotes équitables (100 divisé par la probabilité). Les cotes bookmakers bougent — ne pariez que si le prix offert égale ou dépasse l\'équitable.' },
+    ar: { nav: 'رهان اليوم', h1: 'رهان اليوم', sub: 'أقوى توقعاتنا اليوم — أعلى مخرجات نموذج Dixon-Coles + Elo ثقةً، منشورًا مع احتماله العادل.', why: 'لماذا هذا الرهان', empty: 'لا يوجد رهان اليوم بعد — عُد الساعة 06:00 بتوقيت غرينتش.', faq1q: 'ما هو رهان اليوم؟', faq1a: 'توقع النموذج الأعلى ثقة بين جميع مباريات اليوم. يبقى تقديرًا احتماليًا وليس ضمانًا.', faq2q: 'ما الاحتمال المتوقع؟', faq2a: 'ننشر احتمالات عادلة (100 مقسومًا على الاحتمال). أسعار المراهنات تتحرك — لا تراهن إلا إذا كان السعر المعروض مساويًا أو أفضل.' }
+  },
+  acca: {
+    en: { nav: 'Accumulator Tips', h1: 'Accumulator Tips Today', sub: 'Today\'s acca combines our highest-confidence picks into one bet. Combined odds and the true combined probability are shown honestly.', legs: 'Acca legs', combined: 'Combined', trueProb: 'True combined probability', warn: 'Warning: an accumulator needs every leg to win. The true probability above is low by design — accas are high-risk entertainment, never a steady strategy.', empty: 'No accumulator today — fewer than 2 qualifying picks. Check back at 06:00 UTC.', faq1q: 'How is the acca built?', faq1a: 'We take up to 4 of today\'s highest-confidence model picks. Combined odds multiply; the true win probability multiplies too — which is why it drops fast.', faq2q: 'Should I bet accumulators daily?', faq2a: 'No. Even strong legs combine into a long shot. Small stakes for fun only, if at all.' },
+    fr: { nav: 'Pronostics Combinés', h1: 'Combinés du jour', sub: 'Le combiné du jour assemble nos pronostics les plus solides en un seul pari. Cote totale et vraie probabilité combinée affichées honnêtement.', legs: 'Sélections du combiné', combined: 'Combiné', trueProb: 'Vraie probabilité combinée', warn: 'Attention : un combiné exige que chaque sélection gagne. La vraie probabilité ci-dessus est faible par construction — les combinés sont un divertissement à haut risque, jamais une stratégie régulière.', empty: 'Pas de combiné aujourd\'hui — moins de 2 sélections qualifiées. Revenez à 06h00 UTC.', faq1q: 'Comment le combiné est-il construit ?', faq1a: 'Nous prenons jusqu\'à 4 pronostics du jour à plus haute confiance. Les cotes se multiplient ; la vraie probabilité de gain aussi — d\'où sa chute rapide.', faq2q: 'Faut-il jouer des combinés chaque jour ?', faq2a: 'Non. Même des sélections solides forment un pari lointain. Petites mises pour le plaisir uniquement, voire aucune.' },
+    ar: { nav: 'توقعات التراكمي', h1: 'توقعات التراكمي اليوم', sub: 'يجمع رهان اليوم التراكمي أعلى توقعاتنا ثقة في رهان واحد. نعرض الاحتمال الإجمالي واحتمال الفوز الحقيقي بأمانة.', legs: 'أرجل التراكمي', combined: 'الإجمالي', trueProb: 'احتمال الفوز الحقيقي', warn: 'تحذير: يحتاج التراكمي فوز كل الأرجل. الاحتمال الحقيقي أعلاه منخفض بالتصميم — التراكمي ترفيه عالي المخاطر وليس استراتيجية ثابتة أبدًا.', empty: 'لا يوجد تراكمي اليوم — أقل من توقعين مؤهلين. عُد الساعة 06:00 بتوقيت غرينتش.', faq1q: 'كيف يُبنى التراكمي؟', faq1a: 'نأخذ حتى 4 من أعلى توقعات اليوم ثقة. تتضاعف الاحتمالات ويتضاعف احتمال الفوز الحقيقي أيضًا — لهذا ينخفض بسرعة.', faq2q: 'هل أراهن على التراكمي يوميًا؟', faq2a: 'لا. حتى الأرجل القوية تشكل رهانًا بعيدًا. مبالغ صغيرة للمتعة فقط إن وُجدت.' }
+  }
+};
+const boa = (loc, k) => ((BOA[k] && BOA[k][loc]) || BOA[k].en);
+
+function botdPage(loc) {
+  const m = bestPick();
+  const L = boa(loc, 'botd');
+  const page = { type: 'botd' };
+  const url = `${SITE}${pageUrl(loc, { type: 'botd' })}`;
+  const pickHtml = m ? predCard(loc, m) + `<div class="mt-4 flex flex-wrap gap-3"><a href="${pageUrl(loc, { type: 'pred', arg: m.slug })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">${t(loc, 'analysis.title')} →</a></div>
+<h2 class="mt-8 text-xl font-extrabold">${esc(L.why)}</h2>
+<ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1"><li>${m.conf}% ${t(loc, 'market.conf')} — ${esc(m.pred)} @ ${esc(m.odds)}</li><li>${t(loc, 'sec.how2')}</li><li>${t(loc, 'rg.block')}</li></ul>`
+    : `<div class="mt-6 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${esc(L.empty)}</div>`;
+  const faqs = [{ q: L.faq1q, a: L.faq1a }, { q: L.faq2q, a: L.faq2a }];
+  const body = `
+<main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'predIndex' }), label: t(loc, 'nav.predictions') }, { label: L.nav }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(L.h1)}</h1>
+<p class="mt-2 text-zinc-600">${esc(L.sub)}</p>
+<p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Updated ${esc(todayISO())}</p>
+<div class="mt-6 grid md:grid-cols-2 gap-4">${m ? pickHtml : `<div class="col-span-full">${pickHtml}</div>`}</div>
+${faqBlock(loc, faqs)}
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: `${L.h1} | XWhiz`, desc: L.sub, page, canonical: url, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'Article', headline: L.h1, datePublished: todayISO(), dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: SITE }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: L.sub },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: L.nav, item: url }] },
+      { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
+    ].concat(m ? [{ '@context': 'https://schema.org', '@type': 'ItemList', name: L.h1, numberOfItems: 1, itemListElement: [{ '@type': 'ListItem', position: 1, name: `${m.home} vs ${m.away} — ${m.pred} @ ${m.odds}`, url: `${SITE}${pageUrl(loc, { type: 'pred', arg: m.slug })}` }] }] : [])
+  });
+}
+
+function accaPage(loc) {
+  const legs = accaLegs();
+  const L = boa(loc, 'acca');
+  const page = { type: 'acca' };
+  const url = `${SITE}${pageUrl(loc, { type: 'acca' })}`;
+  const ok = legs.length >= 2;
+  const odds = ok ? accaOdds(legs) : 0;
+  const prob = ok ? accaProb(legs) : 0;
+  const rows = legs.map((m, i) => `<tr class="hover:bg-zinc-50"><td class="px-5 py-3 font-bold">${i + 1}. ${esc(cleanTeamName(m.home))} ${t(loc, 'detail.vs')} ${esc(cleanTeamName(m.away))}</td><td class="px-4 py-3">${esc(m.pred)}</td><td class="px-4 py-3 font-semibold">@ ${esc(m.odds)}</td><td class="px-4 py-3 text-right"><span class="inline-block px-2.5 py-1 rounded-full text-xs font-bold bg-zinc-100 text-zinc-700">${m.conf}%</span></td></tr>`).join('');
+  const faqs = [{ q: L.faq1q, a: L.faq1a }, { q: L.faq2q, a: L.faq2a }];
+  const body = `
+<main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'predIndex' }), label: t(loc, 'nav.predictions') }, { label: L.nav }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(L.h1)}</h1>
+<p class="mt-2 text-zinc-600">${esc(L.sub)}</p>
+<p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Updated ${esc(todayISO())}</p>
+${ok ? `<div class="mt-6 grid sm:grid-cols-3 gap-4">
+<div class="bg-zinc-900 text-white rounded-2xl p-5 text-center"><div class="text-xs text-zinc-400">${esc(L.legs)}: ${legs.length}</div><div class="text-3xl font-black mt-1">@ ${odds.toFixed(2)}</div><div class="text-xs text-zinc-400 mt-1">${esc(L.combined)}</div></div>
+<div class="border border-zinc-200 rounded-2xl p-5 text-center"><div class="text-xs text-zinc-400">${esc(L.trueProb)}</div><div class="text-3xl font-black mt-1">${prob.toFixed(1)}%</div><div class="text-xs text-zinc-400 mt-1">${t(loc, 'market.conf')}</div></div>
+<div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 text-xs leading-relaxed text-zinc-700">${esc(L.warn)}</div>
+</div>
+<div class="mt-6 overflow-x-auto border border-zinc-200 rounded-2xl"><table class="w-full text-sm"><tbody class="divide-y divide-zinc-100">${rows}</tbody></table></div>`
+: `<div class="mt-6 p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${esc(L.empty)}</div>`}
+${faqBlock(loc, faqs)}
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: `${L.h1} | XWhiz`, desc: L.sub, page, canonical: url, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'Article', headline: L.h1, datePublished: todayISO(), dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: SITE }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: L.sub },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: L.nav, item: url }] },
+      { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
+    ].concat(ok ? [{ '@context': 'https://schema.org', '@type': 'ItemList', name: L.h1, numberOfItems: legs.length, itemListElement: legs.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: `${m.home} vs ${m.away} — ${m.pred} @ ${m.odds}`, url: `${SITE}${pageUrl(loc, { type: 'pred', arg: m.slug })}` })) }] : [])
+  });
+}
 
 function predDetailPage(loc, m, related) {
   const url = `${SITE}${pageUrl(loc, { type: 'pred', arg: m.slug })}`;
@@ -1234,6 +1326,8 @@ function buildSitemap() {
   };
   add({ type: 'home' }, 'daily', '1.0');
   add({ type: 'predIndex' }, 'daily', '0.9');
+  add({ type: 'botd' }, 'daily', '0.9');
+  add({ type: 'acca' }, 'daily', '0.8');
   add({ type: 'btts' }, 'daily', '0.8');
   add({ type: 'over' }, 'daily', '0.8');
   add({ type: 'live' }, 'hourly', '0.9');
@@ -1308,6 +1402,8 @@ function buildSearchIndex(loc) {
     { t: t(loc, 'predictor.title'), u: pageUrl(loc, { type: 'predictor' }), d: t(loc, 'predictor.sub').slice(0, 160) },
     { t: t(loc, 'footer.btts'), u: pageUrl(loc, { type: 'btts' }), d: t(loc, 'market.btts') },
     { t: t(loc, 'footer.over'), u: pageUrl(loc, { type: 'over' }), d: t(loc, 'market.ou') },
+    { t: boa(loc, 'botd').h1 + ' — XWhiz', u: pageUrl(loc, { type: 'botd' }), d: boa(loc, 'botd').sub.slice(0, 160) },
+    { t: boa(loc, 'acca').h1 + ' — XWhiz', u: pageUrl(loc, { type: 'acca' }), d: boa(loc, 'acca').sub.slice(0, 160) },
     { t: t(loc, 'footer.leagues'), u: pfx + '/football/leagues/', d: t(loc, 'football.hubDesc').slice(0, 120) },
     { t: t(loc, 'footer.teams'), u: pfx + '/football/teams/', d: t(loc, 'football.hubDesc').slice(0, 120) },
     { t: t(loc, 'news.title'), u: pfx + '/news/', d: t(loc, 'news.desc').slice(0, 120) }
@@ -1361,6 +1457,8 @@ function main() {
     writePath(rel + (loc === 'en' ? 'predictor.html' : 'predictor/index.html'), predictorPage(loc));
     writePath(rel + 'search.html', searchPage(loc));
     writePath(rel + 'predictions/index.html', predIndexPage(loc));
+    writePath(rel + 'bet-of-the-day/index.html', botdPage(loc));
+    writePath(rel + 'accumulator-tips/index.html', accaPage(loc));
     writePath(rel + 'predictions/btts-predictions-today.html', marketHubPage(loc, 'btts'));
     writePath(rel + 'predictions/over-2-5-goals-predictions-today.html', marketHubPage(loc, 'over'));
     MATCHES.forEach((m, i) => {
