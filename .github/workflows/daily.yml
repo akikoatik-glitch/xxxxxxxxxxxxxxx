@@ -25,6 +25,7 @@ jobs:
       - name: Fetch football data
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: node scripts/fetch_football.js
 
       - name: Fetch news
