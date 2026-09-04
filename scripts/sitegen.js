@@ -400,6 +400,17 @@ ${json}
 ${topBar(loc)}
 ${header(loc, page)}
 ${body}
+<div class="max-w-7xl mx-auto px-4 md:px-6 py-6 border-t border-zinc-100">
+<p class="text-sm font-bold text-zinc-700 mb-3">${t(loc, 'share.title', { title: esc(title) })}</p>
+<div class="flex flex-wrap gap-2">
+<a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(canonical || '')}&text=${encodeURIComponent(title)}" target="_blank" rel="noopener nofollow" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#1DA1F2] text-white text-xs font-bold hover:opacity-90">Twitter / X</a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonical || '')}" target="_blank" rel="noopener nofollow" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#1877F2] text-white text-xs font-bold hover:opacity-90">Facebook</a>
+<a href="https://api.whatsapp.com/send?text=${encodeURIComponent(title + ' ' + (canonical || ''))}" target="_blank" rel="noopener nofollow" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#25D366] text-white text-xs font-bold hover:opacity-90">WhatsApp</a>
+<a href="https://t.me/share/url?url=${encodeURIComponent(canonical || '')}&text=${encodeURIComponent(title)}" target="_blank" rel="noopener nofollow" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0088cc] text-white text-xs font-bold hover:opacity-90">Telegram</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical || '')}" target="_blank" rel="noopener nofollow" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0A66C2] text-white text-xs font-bold hover:opacity-90">LinkedIn</a>
+<a href="mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(canonical || '')}" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-zinc-600 text-white text-xs font-bold hover:opacity-90">Email</a>
+</div>
+</div>
 ${footer(loc)}
 ${FX_JS}
 </body>

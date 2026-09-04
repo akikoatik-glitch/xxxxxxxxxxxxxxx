@@ -149,6 +149,7 @@ const L = {
       helpCta: 'Get responsible gambling help',
       affiliate: 'Affiliate disclosure: this site uses affiliate links. If you register via our Melbet links we may earn a commission at no extra cost to you. 18+ | Gamble responsibly'
     },
+    share: { title: 'Share this prediction' },
     footer: {
       blurb: 'Statistical football predictions, live scores and news — informative, free and built on real data.',
       colP: 'Predictions', colF: 'Football', colM: 'More',
@@ -308,6 +309,7 @@ const L = {
       helpCta: 'Aide au jeu responsable',
       affiliate: 'Divulgation d\'affiliation : ce site utilise des liens affiliés. Si vous vous inscrivez via nos liens Melbet, nous pouvons percevoir une commission sans frais supplémentaires pour vous. 18+ | Jouez responsablement.'
     },
+    share: { title: 'Partager ce pronostic' },
     footer: {
       blurb: 'Pronostics football statistiques, scores en direct et actualités — informatifs, gratuits et fondés sur de vraies données.',
       colP: 'Pronostics', colF: 'Football', colM: 'Plus',
@@ -467,6 +469,7 @@ const L = {
       helpCta: 'مساعدة في اللعب المسؤول',
       affiliate: 'إفصاح تابع: يستخدم الموقع روابط تابعة. إذا سجّلت عبر روابطنا لـ Melbet فقد نكسب عمولة دون أي تكلفة إضافية عليك. 18+ | العب بمسؤولية.'
     },
+    share: { title: 'شارك هذا التوقع' },
     footer: {
       blurb: 'توقعات كرة القدم الإحصائية والنتائج المباشرة والأخبار — معلوماتية ومجانية ومبنية على بيانات حقيقية.',
       colP: 'التوقعات', colF: 'كرة القدم', colM: 'المزيد',
