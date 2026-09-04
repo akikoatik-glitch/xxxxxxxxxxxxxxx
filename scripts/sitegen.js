@@ -376,13 +376,16 @@ ${articleMeta}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://a.espncdn.com">
-<link rel="preload" as="image" href="/football.svg">
+<link rel="preload" as="image" href="/football.svg" fetchpriority="high">
 <link href="https://fonts.googleapis.com/css2?family=${FONT[loc]}&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=${FONT[loc]}&display=swap" rel="stylesheet"></noscript>
 <link rel="preload" as="style" href="/site.css">
-<link rel="stylesheet" href="/site.css">
- ${loc === 'ar' ? '<link rel="stylesheet" href="/rtl.css">' : ''}
-${overlayHead}
+<link rel="stylesheet" href="/site.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/site.css"></noscript>
+${loc === 'ar' ? '<link rel="preload" as="style" href="/rtl.css"><link rel="stylesheet" href="/rtl.css" media="print" onload="this.media=\'all\'"><noscript><link rel="stylesheet" href="/rtl.css"></noscript>' : ''}
+<link rel="preload" as="style" href="/xwhiz-3d.css">
+<link rel="stylesheet" href="/xwhiz-3d.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/xwhiz-3d.css"></noscript>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
 <link rel="manifest" href="/manifest.json">
@@ -393,6 +396,16 @@ ${overlayHead}
 <link rel="alternate" type="application/rss+xml" title="XWhiz Predictions RSS" href="/feed.xml">
 ${GA_SNIPPET}
 ${extraHead}
+<style>/* Critical CSS for fast FCP/LCP */
+body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#fff;color:#18181b}
+.bg-zinc-900{background:#18181b}.text-white{color:#fff}.text-green-400{color:#4ade80}
+.border-t{border-top-width:1px}.border-b{border-bottom-width:1px}.sticky{position:sticky}.top-0{top:0}.z-50{z-index:50}
+.max-w-7xl{max-width:80rem}.mx-auto{margin-left:auto;margin-right:auto}.px-4{padding-left:1rem;padding-right:1rem}
+.py-3{padding-top:.75rem;padding-bottom:.75rem}.flex{display:flex}.items-center{align-items:center}.justify-between{justify-content:space-between}
+.gap-3{gap:.75rem}.font-extrabold{font-weight:800}.text-lg{font-size:1.125rem}.rounded-full{border-radius:9999px}
+.bg-brand-600{background:#16a34a}.hover\:bg-brand-700:hover{background:#15803d}.text-xs{font-size:.75rem}
+.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}
+</style>
 <style>${FX_CSS}</style>
 ${json}
 </head>
