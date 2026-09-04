@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevisAlg — L'IA qui gère vos devis, factures et clients</title>
+  <meta name="description" content="خلّي الـAI يخدم معاك ويجاوب زبائنك — Devis, factures, WhatsApp et assistant IA en Darija/Français pour les commerçants algériens.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/landing.css">
+</head>
+<body class="landing">
+  <div class="l-hero">
+    <div id="l-scene"></div>
+    <nav class="l-nav">
+      <div class="brand"><span class="dot">D</span> DevisAlg</div>
+      <div style="display:flex;gap:18px;align-items:center">
+        <a href="/login.html">Connexion</a>
+        <a href="/register.html">Créer un compte</a>
+      </div>
+    </nav>
+    <div class="l-hero-grid">
+      <div class="l-hero-left">
+        <div class="l-badge">🇩🇿 Fait pour les commerçants algériens</div>
+        <h1>خلّي الـAI يخدم معاك <span class="grad">ويجاوب زبائنك</span></h1>
+        <p class="lead">DevisAlg comprend le Darija et le Français, répond à vos clients 24h/24, crée des devis et factures professionnels en secondes, et les envoie par WhatsApp. Sans le moindre effort technique.</p>
+        <div class="l-hero-cta">
+          <a class="btn btn-primary btn-lg" href="/register.html">Commencer gratuitement</a>
+          <a class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,.3);color:#fff" href="#fonctionnalites">Voir comment ça marche</a>
+        </div>
+        <div class="l-hero-meta">✅ Devis illimités en version Pro &nbsp;·&nbsp; 🇩🇿 Darija / 🇫🇷 Français &nbsp;·&nbsp; 💵 DZD</div>
+      </div>
+      <div class="l-demo">
+        <div class="l-demo-head">
+          <span class="ava">س</span>
+          <div><b style="font-size:14px">Salim — Client</b><div class="l-msg" style="all:unset;display:block;font-size:12px;color:#94a3b8">installation climatisation</div></div>
+        </div>
+        <div class="l-msgs" id="l-msgs"></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="l-section" id="fonctionnalites">
+    <h2 style="text-align:center;font-size:clamp(24px,4vw,34px);color:#fff;margin-bottom:30px">Tout ce qu'il faut pour gérer votre commerce</h2>
+    <div class="l-features">
+      <div class="l-card"><div class="ico">🤖</div><h3>Assistant IA en Darija</h3><p>Répond à vos clients naturellement en darija algérienne et en français, comprend les demandes de prix et pose les bonnes questions.</p></div>
+      <div class="l-card"><div class="ico">📄</div><h3>Devis en quelques secondes</h3><p>Créez un devis professionnel avec vos vrais prix. Le PDF est généré automatiquement et prêt à envoyer.</p></div>
+      <div class="l-card"><div class="ico">🧾</div><h3>Factures faciles</h3><p>Convertissez un devis accepté en facture d'un clic. Numérotation automatique, suivi de paiement simple.</p></div>
+      <div class="l-card"><div class="ico">📱</div><h3>Envoi WhatsApp</h3><p>Envoyez vos devis et factures directement à vos clients sur WhatsApp, et recevez leurs messages automatiquement.</p></div>
+      <div class="l-card"><div class="ico">⏰</div><h3>Rappels de paiement</h3><p>Relancez automatiquement les factures non payées avec un message poli en darija, sans effort.</p></div>
+      <div class="l-card"><div class="ico">👥</div><h3>Gestion des clients</h3><p>Tous vos clients, conversations, devis et factures au même endroit. Recherche simple par nom ou téléphone.</p></div>
+    </div>
+  </section>
+
+  <section class="l-section">
+    <div class="l-workflow">
+      <h2 style="font-size:clamp(22px,4vw,32px);color:#fff">Comment ça marche?</h2>
+      <p style="color:#94a3b8;max-width:640px;margin:12px auto 0">Un client vous écrit, l'IA comprend et répond, vous validez et envoyez le devis. C'est tout.</p>
+      <div class="l-flow">
+        <div class="step">💬 Message client</div><span class="arrow">→</span>
+        <div class="step">🤖 IA comprend</div><span class="arrow">→</span>
+        <div class="step">📄 Devis créé</div><span class="arrow">→</span>
+        <div class="step">⬇️ PDF généré</div><span class="arrow">→</span>
+        <div class="step">📱 Envoyé WhatsApp</div><span class="arrow">→</span>
+        <div class="step">✓ Devis → Facture</div><span class="arrow">→</span>
+        <div class="step">💰 Paiement suivi</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="l-cta">
+    <h2>Prêt à faire gagner du temps à votre commerce?</h2>
+    <p style="color:#94a3b8;margin-bottom:22px">Gratuit pour commencer. Aucune carte requise.</p>
+    <a class="btn btn-primary btn-lg" href="/register.html">Créer mon compte gratuit</a>
+  </div>
+
+  <footer class="l-footer">DevisAlg © 2026 · Fait pour les commerçants d'Algérie 🇩🇿 · Devis · Factures · Assistant IA · WhatsApp</footer>
+
+  <!-- Lazy-load the 3D scene only when needed -->
+  <script>
+  const messages = [
+    { side:'left', text:'سلام، نحب نعرف شحال تديرولي installation climatisation؟ 😊' },
+    { side:'right', text:'سلام 👋 مرحبا بيك. ثمن التركيب يعتمد على نوع الجهاز والمسافة. نقدر نسقسيك على الموديل باش نعطيك السعر بالضبط.' },
+    { side:'left', text:'Climatiseur 12000 BTU، في الدار لي عندي.' },
+    { side:'right', text:'تمام! الثمن: 55,000 DA ✅ نعمل لك Devis؟' },
+    { side:'left', text:'نعم، صافي 👌' },
+    { side:'right', text:'تم! Devis #DEV-2026-0001 جاهز 📄 نبعثهولك على WhatsApp الآن 📱' },
+  ];
+  (function animateMsgs(){
+    const box=document.getElementById('l-msgs');
+    let i=0;
+    function next(){
+      if(i>=messages.length){ setTimeout(()=>{box.innerHTML='';i=0;next();},4000); return; }
+      const m=messages[i];
+      const el=document.createElement('div');
+      el.className='l-msg '+(m.side==='left'?'left':'right');
+      el.textContent=m.text;
+      box.appendChild(el);
+      i++;
+      setTimeout(next, m.side==='right'?2200:900);
+    }
+    // reduced motion: show static
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      box.innerHTML=messages.slice(0,3).map(m=>'<div class="l-msg '+(m.side==='left'?'left':'right')+'">'+m.text+'</div>').join('');
+    } else { setTimeout(next, 600); }
+  })();
+
+  // Load Three.js scene lazily (only when hero is visible & no reduced motion)
+  (function loadScene(){
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if(!('IntersectionObserver' in window)) return;
+    const hero=document.querySelector('.l-hero');
+    const obs=new IntersectionObserver((e)=>{
+      if(e[0].isIntersecting){
+        obs.disconnect();
+        const s=document.createElement('script');
+        s.type='module';
+        s.src='/static/js/landing/scene.js';
+        document.body.appendChild(s);
+      }
+    },{rootMargin:'0px'});
+    obs.observe(hero);
+  })();
+  </script>
+</body>
+</html>

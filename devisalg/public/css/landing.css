@@ -1,0 +1,59 @@
+/* DevisAlg landing page styles */
+.landing { --bg: #0b1020; --text: #fff; }
+.landing body { background: var(--bg); }
+.l-hero {
+  min-height: 100vh; display: flex; flex-direction: column; position: relative; overflow: hidden;
+  color: #fff; background: radial-gradient(1200px 600px at 80% -10%, rgba(124,58,237,.35), transparent), radial-gradient(900px 500px at 10% 110%, rgba(14,165,233,.25), transparent), #0b1020;
+}
+.l-nav { display: flex; align-items: center; justify-content: space-between; padding: 18px 24px; position: relative; z-index: 10; }
+.l-nav .brand { font-weight: 800; font-size: 20px; display: flex; align-items: center; gap: 10px; }
+.l-nav .brand .dot { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg,var(--brand),var(--accent)); display: inline-flex; align-items: center; justify-content: center; }
+.l-nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; font-weight: 600; }
+.l-nav a:hover { color: #fff; }
+.l-hero-grid { display: grid; grid-template-columns: 1fr; gap: 20px; padding: 30px 24px 0; position: relative; z-index: 5; align-items: center; flex: 1; }
+@media (min-width: 960px) { .l-hero-grid { grid-template-columns: 1.05fr .95fr; padding: 20px 60px 0; } }
+.l-hero-left { max-width: 640px; }
+.l-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); padding: 6px 14px; border-radius: 999px; font-size: 13px; color: #dbeafe; margin-bottom: 20px; }
+.l-hero h1 { font-size: clamp(30px, 6vw, 56px); line-height: 1.12; margin-bottom: 18px; font-weight: 800; }
+.l-hero h1 .grad { background: linear-gradient(90deg,#a78bfa,#38bdf8); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.l-hero p.lead { font-size: clamp(16px,2.4vw,19px); color: #cbd5e1; max-width: 540px; line-height: 1.6; }
+.l-hero-cta { display: flex; gap: 12px; margin-top: 28px; flex-wrap: wrap; }
+.l-hero-meta { margin-top: 26px; color: #94a3b8; font-size: 13px; }
+
+/* Live demo chat card in hero */
+.l-demo { background: rgba(15,23,42,.6); border: 1px solid rgba(255,255,255,.12); border-radius: 22px; padding: 18px; backdrop-filter: blur(10px); box-shadow: 0 30px 60px rgba(0,0,0,.4); }
+.l-demo-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.l-demo-head .ava { width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg,#34d399,#06b6d4); display: flex; align-items: center; justify-content: center; font-weight: 700; }
+.l-msgs { display: flex; flex-direction: column; gap: 10px; }
+.l-msg { max-width: 85%; padding: 9px 13px; border-radius: 14px; font-size: 14px; line-height: 1.5; animation: lfade .5s both; }
+.l-msg.left { align-self: flex-start; background: #1e293b; border-bottom-left-radius: 4px; }
+.l-msg.right { align-self: flex-end; background: linear-gradient(135deg,#7c3aed,#6d28d9); border-bottom-right-radius: 4px; }
+@keyframes lfade { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: none;} }
+
+/* 3D canvas */
+#l-scene { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+#l-scene canvas { width: 100%; height: 100%; display: block; }
+
+/* Features */
+.l-section { padding: 60px 24px; color: #e2e8f0; max-width: 1100px; margin: 0 auto; }
+.l-features { display: grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap: 16px; }
+.l-card { background: #111a33; border: 1px solid rgba(255,255,255,.08); border-radius: 18px; padding: 22px; transition: transform .2s; }
+.l-card:hover { transform: translateY(-4px); }
+.l-card .ico { font-size: 30px; margin-bottom: 12px; }
+.l-card h3 { font-size: 18px; margin-bottom: 8px; color: #fff; }
+.l-card p { font-size: 14px; color: #94a3b8; line-height: 1.55; }
+
+/* Workflow story */
+.l-workflow { background: linear-gradient(180deg,transparent,#111a33); border-radius: 26px; padding: 40px 22px; text-align: center; }
+.l-flow { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 26px; }
+.l-flow .step { background: #1e293b; border: 1px solid rgba(255,255,255,.1); padding: 14px 18px; border-radius: 14px; font-size: 14px; font-weight: 600; }
+.l-flow .arrow { color: var(--brand); font-weight: 800; font-size: 18px; }
+
+.l-cta { text-align: center; padding: 50px 24px; }
+.l-cta h2 { font-size: clamp(24px,4vw,36px); color: #fff; margin-bottom: 12px; }
+footer.l-footer { border-top: 1px solid rgba(255,255,255,.08); padding: 28px 24px; color: #64748b; font-size: 13px; text-align: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  #l-scene { display: none; }
+  .l-msg { animation: none; }
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assist. — Agent IA pour entreprises algériennes</title>
+  <meta name="description" content="Assistant IA intelligent : boîte de réception unifiée, commandes automatiques, PDF professionnels, WhatsApp / Instagram / Facebook / Telegram.">
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Fustat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/landing.css">
+</head>
+<body>
+
+  <!-- ── Liquid Glass Navigation ── -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo"><span class="logo-a">Assist</span><span class="logo-dot">.</span></a>
+      <div class="nav-links">
+        <a href="#features">Fonctionnalités</a>
+        <a href="#platforms">Plateformes</a>
+        <a href="#how">Comment ça marche</a>
+      </div>
+      <div class="nav-actions">
+        <a href="/login" class="btn-ghost">Se connecter</a>
+        <a href="/register" class="btn-primary">Commencer</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-aura aura-1"></div>
+    <div class="hero-aura aura-2"></div>
+    <div class="hero-grid">
+      <!-- Left Column -->
+      <div class="hero-left">
+        <div class="hero-badge">🚀 Agent IA pour entreprises algériennes</div>
+        <h1 class="hero-heading">
+          Votre <span class="text-gradient">assistant intelligent</span> qui gère vos clients, commandes et factures automatiquement.
+        </h1>
+        <p class="hero-sub">
+          Boîte de réception unifiée WhatsApp / Instagram / Facebook / Telegram. L'IA répond à vos clients, collecte les commandes, confirme et génère des factures PDF professionnelles.
+        </p>
+
+        <div class="hero-cta">
+          <a href="/register" class="btn-primary btn-lg">Démarrer gratuitement</a>
+          <a href="#features" class="btn-ghost btn-lg">En savoir plus →</a>
+        </div>
+
+        <div class="hero-social-proof">
+          <div class="avatars">
+            <div class="avatar" style="background:#0084ff;">A</div>
+            <div class="avatar" style="background:#319AFF;">S</div>
+            <div class="avatar" style="background:#60B1FF;">M</div>
+          </div>
+          <span class="social-text">Déjà <strong>150+</strong> entreprises algériennes</span>
+        </div>
+      </div>
+
+      <!-- Right Column — Robot + Floating Cards -->
+      <div class="hero-right">
+        <div class="robot-container">
+          <canvas id="robot-canvas" width="500" height="500"></canvas>
+        </div>
+
+        <!-- Floating Task Cards -->
+        <div class="float-card card-1">
+          <div class="float-icon">💬</div>
+          <div><div class="float-title">Nouveau message</div><div class="float-sub">WhatsApp — Ahmed</div></div>
+        </div>
+        <div class="float-card card-2">
+          <div class="float-icon">📦</div>
+          <div><div class="float-title">Commande #2024-0042</div><div class="float-sub">Confirmée — 4,500 DA</div></div>
+        </div>
+        <div class="float-card card-3">
+          <div class="float-icon">📄</div>
+          <div><div class="float-title">PDF généré</div><div class="float-sub">Facture automatique</div></div>
+        </div>
+        <div class="float-card card-4">
+          <div class="float-icon">🤖</div>
+          <div><div class="float-title">IA active</div><div class="float-sub">Réponse automatique</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Platforms ── -->
+  <section id="platforms" class="section">
+    <h2 class="section-heading">Intégrations avec vos <span class="text-gradient">plateformes préférées</span></h2>
+    <p class="section-sub">Tout dans une seule boîte de réception. L'IA gère les messages automatiquement.</p>
+    <div class="platform-grid">
+      <div class="platform-card">
+        <div class="platform-icon whatsapp-bg">W</div>
+        <h3>WhatsApp</h3>
+        <p>Cloud API — Messages et documents automatiques</p>
+        <span class="status-badge connected">Intégré</span>
+      </div>
+      <div class="platform-card">
+        <div class="platform-icon instagram-bg">IG</div>
+        <h3>Instagram</h3>
+        <p>DM — Réponses aux messages privés</p>
+        <span class="status-badge connected">Intégré</span>
+      </div>
+      <div class="platform-card">
+        <div class="platform-icon facebook-bg">f</div>
+        <h3>Facebook Messenger</h3>
+        <p>Page Messenger — Conversations client</p>
+        <span class="status-badge connected">Intégré</span>
+      </div>
+      <div class="platform-card">
+        <div class="platform-icon telegram-bg">T</div>
+        <h3>Telegram</h3>
+        <p>Bot — Messages et documents</p>
+        <span class="status-badge connected">Intégré</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Features ── -->
+  <section id="features" class="section">
+    <h2 class="section-heading">Tout ce dont votre entreprise a besoin</h2>
+    <p class="section-sub">De la réception du message à la facture PDF — tout est automatisé.</p>
+    <div class="features-grid">
+      <div class="feature-card glass">
+        <div class="feature-icon">🤖</div>
+        <h3>Agent IA intelligent</h3>
+        <p>Comprend le français, l'arabe, l'anglais et la darija. Répond aux questions, guide les clients, collecte les commandes.</p>
+      </div>
+      <div class="feature-card glass">
+        <div class="feature-icon">📬</div>
+        <h3>Boîte de réception unifiée</h3>
+        <p>Toutes les conversations WhatsApp, Instagram, Facebook et Telegram dans un seul écran.</p>
+      </div>
+      <div class="feature-card glass">
+        <div class="feature-icon">📦</div>
+        <h3>Gestion des commandes</h3>
+        <p>L'IA collecte automatiquement les informations client, confirme la commande et met à jour les statuts.</p>
+      </div>
+      <div class="feature-card glass">
+        <div class="feature-icon">📄</div>
+        <h3>Factures PDF automatiques</h3>
+        <p>PDF professionnel généré automatiquement après confirmation. Envoyé directement au client.</p>
+      </div>
+      <div class="feature-card glass">
+        <div class="feature-icon">📊</div>
+        <h3>Dashboard analytique</h3>
+        <p>Statistiques en temps réel : commandes, clients, revenus, performances de l'IA.</p>
+      </div>
+      <div class="feature-card glass">
+        <div class="feature-icon">⚙️</div>
+        <h3>Configuration facile</h3>
+        <p>Aucune connaissance technique requise. Configurez vos produits, prix et préférences en quelques clics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── How It Works ── -->
+  <section id="how" class="section">
+    <h2 class="section-heading">Comment ça <span class="text-gradient">marche</span></h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>Connectez vos plateformes</h3>
+        <p>WhatsApp, Instagram, Facebook, Telegram — en quelques clics.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>Configurez votre catalogue</h3>
+        <p>Ajoutez vos produits, prix, frais de livraison.</p>
+      </div>
+      <div class="step-arrow">→</div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>L'IA s'occupe du reste</h3>
+        <p>Répond, commande, confirme, facture — automatiquement.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="cta-section">
+    <div class="cta-glass">
+      <h2>Prêt à automatiser votre business ?</h2>
+      <p>Créez votre compte gratuit et lancez votre agent IA en 2 minutes.</p>
+      <a href="/register" class="btn-primary btn-lg">Créer un compte gratuit →</a>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="logo-a">Assist</span><span class="logo-dot">.</span></div>
+      <p class="footer-copy">© 2024 Assist. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="/static/js/landing/scene.js"></script>
+</body>
+</html>

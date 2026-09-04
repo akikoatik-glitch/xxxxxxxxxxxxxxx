@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assist. — Dashboard</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+
+  <!-- ── Sidebar ── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <a href="/" class="sidebar-logo"><span class="logo-a">Assist</span><span class="logo-dot">.</span></a>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="/app/dashboard" class="nav-item active" data-view="dashboard">
+        <span class="nav-icon">📊</span><span class="nav-label">Aperçu</span>
+      </a>
+      <a href="/app/inbox" class="nav-item" data-view="inbox">
+        <span class="nav-icon">📬</span><span class="nav-label">Boîte de réception</span>
+      </a>
+      <a href="/app/orders" class="nav-item" data-view="orders">
+        <span class="nav-icon">📦</span><span class="nav-label">Commandes</span>
+      </a>
+      <a href="/app/products" class="nav-item" data-view="products">
+        <span class="nav-icon">🛒</span><span class="nav-label">Produits</span>
+      </a>
+      <a href="/app/customers" class="nav-item" data-view="customers">
+        <span class="nav-icon">👥</span><span class="nav-label">Clients</span>
+      </a>
+      <a href="/app/connect" class="nav-item" data-view="connect">
+        <span class="nav-icon">🔗</span><span class="nav-label">Plateformes</span>
+      </a>
+      <div class="nav-divider"></div>
+      <a href="/app/settings" class="nav-item" data-view="settings">
+        <span class="nav-icon">⚙️</span><span class="nav-label">Paramètres IA</span>
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="nav-item" id="userBadge">
+        <span class="nav-icon">👤</span><span class="nav-label" id="userName">Chargement…</span>
+      </div>
+      <button class="btn-sm" id="logoutBtn">Déconnexion</button>
+    </div>
+  </aside>
+
+  <!-- ── Mobile top bar ── -->
+  <header class="topbar" id="topbar">
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <span class="topbar-title" id="topbarTitle">Aperçu</span>
+    <div class="topbar-actions">
+      <span class="notif-badge" id="notifBadge" style="display:none">0</span>
+    </div>
+  </header>
+
+  <!-- ── Main Content ── -->
+  <main class="main" id="main">
+    <div class="loading-spinner" id="loadingSpinner">
+      <div class="spinner"></div>
+    </div>
+  </main>
+
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

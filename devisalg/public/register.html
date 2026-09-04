@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription — DevisAlg</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body style="background:linear-gradient(135deg,#7c3aed,#0ea5e9);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px">
+  <div class="card" style="max-width:420px;width:100%;padding:28px">
+    <div style="text-align:center;margin-bottom:20px">
+      <div style="font-size:34px;font-weight:800;color:var(--brand)">DevisAlg</div>
+      <div class="muted small">Commencez gratuitement — 2 minutes</div>
+    </div>
+    <div id="err" style="display:none;background:var(--red-soft);color:var(--red);padding:10px;border-radius:8px;margin-bottom:12px"></div>
+    <form onsubmit="doRegister(event)">
+      <div class="field"><label>Nom de votre commerce</label><input id="biz" class="input" required placeholder="Ex: Électricité Benali"></div>
+      <div class="field"><label>Email</label><input id="email" class="input" type="email" required></div>
+      <div class="field"><label>Mot de passe</label><input id="pass" class="input" type="password" minlength="6" required></div>
+      <button class="btn btn-primary btn-block btn-lg" type="submit">Créer mon compte</button>
+    </form>
+    <div class="small muted" style="text-align:center;margin-top:16px">Déjà un compte ?
+      <a href="/login.html" style="color:var(--brand);font-weight:600">Se connecter</a>
+    </div>
+  </div>
+  <script>
+  async function doRegister(e){
+    e.preventDefault();
+    const err=document.getElementById('err');
+    err.style.display='none';
+    try{
+      const res=await fetch('/api/auth/register',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:document.getElementById('email').value,password:document.getElementById('pass').value,businessName:document.getElementById('biz').value})});
+      const data=await res.json();
+      if(!res.ok) throw new Error(data.error||'Erreur');
+      location.href='/app/dashboard';
+    }catch(x){err.textContent=x.message;err.style.display='block';}
+  }
+  </script>
+</body>
+</html>

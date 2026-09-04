@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Créer un compte — Assist.</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/landing.css">
+</head>
+<body>
+  <div class="auth-page">
+    <div class="auth-card">
+      <div class="auth-logo"><a href="/" class="nav-logo"><span class="logo-a">Assist</span><span class="logo-dot">.</span></a></div>
+      <h1>Créer un compte</h1>
+      <p class="auth-sub">Lancez votre agent IA en 2 minutes</p>
+      <form id="registerForm">
+        <div class="form-group">
+          <label>Nom de l'entreprise</label>
+          <input type="text" id="businessName" required placeholder="Mon Business" autocomplete="organization">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email" required placeholder="vous@example.com" autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label>Mot de passe</label>
+          <input type="password" id="password" required minlength="6" placeholder="••••••••" autocomplete="new-password">
+        </div>
+        <div class="auth-error" id="error"></div>
+        <button type="submit" class="btn-primary">Créer mon compte</button>
+      </form>
+      <p class="auth-link">Déjà un compte ? <a href="/login">Se connecter</a></p>
+    </div>
+  </div>
+  <script>
+    document.getElementById('registerForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const err = document.getElementById('error');
+      err.textContent = '';
+      try {
+        const res = await fetch('/api/auth/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            businessName: document.getElementById('businessName').value,
+            email: document.getElementById('email').value,
+            password: document.getElementById('password').value,
+          }),
+        });
+        const data = await res.json();
+        if (!res.ok) { err.textContent = data.error || 'Erreur'; return; }
+        localStorage.setItem('assist_token', data.token);
+        window.location.href = '/app/dashboard';
+      } catch { err.textContent = 'Erreur de connexion.'; }
+    });
+  </script>
+</body>
+</html>

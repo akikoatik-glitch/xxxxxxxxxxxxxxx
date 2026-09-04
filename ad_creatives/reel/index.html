@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Reel — AI Assistant for Algerian Businesses</title>
+<style>
+  :root{
+    --c-dark:#0a0f1f;
+    --c-dark2:#141c38;
+    --c-coral:#ff6d5a;
+    --c-teal:#2dd4bf;
+    --c-amber:#facc15;
+    --c-white:#ffffff;
+    --c-gray:#a4b2cc;
+    --c-green:#25d366;
+    --c-fb:#1877f2;
+    --c-ig:#e4405f;
+    --c-wa:#25d366;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:100%;height:100%;background:#05070f;overflow:hidden;
+    font-family:'Segoe UI', Tahoma, Arial, sans-serif;}
+  #stage{
+    position:relative;
+    width:1080px;height:1920px;
+    margin:0 auto;
+    background:var(--c-dark);
+    overflow:hidden;
+    transform-origin:top center;
+  }
+  /* Background layers */
+  .bg{position:absolute;inset:0;}
+  .bg-grad{position:absolute;inset:0;
+    background:linear-gradient(160deg,var(--c-dark) 0%,var(--c-dark2) 55%,#1a2547 100%);}
+  .glow{position:absolute;border-radius:50%;filter:blur(90px);opacity:.55;}
+  .glow.coral{width:560px;height:560px;background:radial-gradient(circle,rgba(255,109,90,.6),transparent 70%);top:-120px;right:-140px;}
+  .glow.teal{width:620px;height:620px;background:radial-gradient(circle,rgba(45,212,191,.5),transparent 70%);bottom:-160px;left:-180px;}
+  .glow.amber{width:380px;height:380px;background:radial-gradient(circle,rgba(250,204,21,.35),transparent 70%);top:520px;left:40px;}
+
+  .fg{position:absolute;inset:0;display:none;}
+  .fg.active{display:block;}
+
+  /* ===== generic scene helpers ===== */
+  .center{position:absolute;left:0;right:0;margin:0 auto;}
+  .bignum{position:absolute;font-weight:900;color:rgba(255,255,255,.05);
+    font-size:520px;line-height:1;z-index:0;pointer-events:none;}
+
+  /* ===== typography ===== */
+  .arabic{font-family:'Segoe UI','Tahoma','Arial',sans-serif;}
+  .kicker{display:inline-block;padding:14px 34px;border-radius:50px;font-size:34px;font-weight:700;
+    letter-spacing:1px;opacity:0;}
+  .headline{font-size:88px;font-weight:900;line-height:1.28;color:var(--c-white);
+    text-shadow:0 8px 40px rgba(0,0,0,.6);opacity:0;}
+  .sub{font-size:44px;font-weight:400;color:var(--c-gray);line-height:1.5;opacity:0;}
+  .highlight{color:var(--c-teal);}
+
+  /* ===== incoming animation utility ===== */
+  @keyframes riseIn{0%{opacity:0;transform:translateY(40px)}100%{opacity:1;transform:translateY(0)}}
+  @keyframes fadeIn{0%{opacity:0}100%{opacity:1}}
+  @keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.06)}100%{opacity:1;transform:scale(1)}}
+  .anim-rise{opacity:0;}
+  .anim-rise.on{animation:riseIn .7s cubic-bezier(.2,.7,.3,1) forwards;}
+  .anim-fade{opacity:0;}
+  .anim-fade.on{animation:fadeIn .6s ease forwards;}
+  .anim-pop{opacity:0;}
+  .anim-pop.on{animation:pop .65s cubic-bezier(.2,.8,.3,1.2) forwards;}
+
+  /* ===== message bubbles ===== */
+  .chat{position:relative;width:100%;}
+  .notif{position:absolute;width:640px;border-radius:30px;padding:32px 40px;
+    box-shadow:0 30px 70px rgba(0,0,0,.45);opacity:0;}
+  .notif.in{animation:notifIn .5s cubic-bezier(.2,.8,.3,1.2) forwards;}
+  @keyframes notifIn{0%{opacity:0;transform:translateX(90px) scale(.92)}60%{transform:translateX(-8px)}100%{opacity:1;transform:translateX(0) scale(1)}}
+  .notif .approw{display:flex;align-items:center;gap:18px;margin-bottom:14px;}
+  .appico{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;}
+  .appname{font-size:34px;font-weight:700;color:var(--c-white);}
+  .msgtext{font-size:36px;color:#eef2ff;line-height:1.4;}
+  .notif-info{background:rgba(20,28,56,.95);border:1px solid rgba(255,255,255,.08);}
+  .notif-coral{background:linear-gradient(135deg,#3a2330,#2a1c30);border:1px solid rgba(255,109,90,.4);}
+
+  /* phone frame */
+  .phone{position:absolute;width:520px;height:900px;border-radius:60px;padding:16px;
+    background:linear-gradient(155deg,#1a2338,#0c1120);
+    border:3px solid rgba(255,255,255,.14);
+    box-shadow:0 60px 120px rgba(0,0,0,.6), inset 0 0 0 2px rgba(0,0,0,.4);}
+  .phone .screen{width:100%;height:100%;border-radius:46px;background:#0b101f;overflow:hidden;position:relative;padding:28px 22px;}
+  .phone .notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:150px;height:26px;
+    background:#05070f;border-radius:20px;z-index:5;}
+  .bubble{max-width:70%;padding:20px 24px;border-radius:22px;font-size:30px;line-height:1.35;margin:10px 0;opacity:0;}
+  .bubble.on{animation:fadeIn .4s ease forwards;}
+  .bubble.me{align-self:flex-start;background:#1e2738;color:#dfe7ff;border-top-left-radius:6px;}
+  .bubble.you{align-self:flex-end;background:linear-gradient(135deg,#10b981,#0d9488);color:#04211c;font-weight:600;border-top-right-radius:6px;}
+  .chatcol{display:flex;flex-direction:column;height:100%;padding-top:20px;}
+
+  /* ===== platform icon chips ===== */
+  .pchip{width:210px;height:210px;border-radius:48px;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 30px 70px rgba(0,0,0,.5);opacity:0;}
+  .pchip.wa{background:linear-gradient(150deg,#25d366,#128c7e);}
+  .pchip.fb{background:linear-gradient(150deg,#1877f2,#0a4dc2);}
+  .pchip.ig{background:radial-gradient(circle at 30% 110%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);}
+  .ic-svg{width:110px;height:110px;}
+
+  /* ===== connector / flow drawing ===== */
+  .flowline{position:absolute;height:4px;background:transparent;z-index:2;}
+  .flowline svg{width:100%;height:100%;display:block;overflow:visible;}
+  .dashpath{animation:dashflow 1.4s linear infinite;}
+  @keyframes dashflow{to{stroke-dashoffset:-80;}}
+  .autoflow{position:absolute;z-index:3;}
+  .autoflow .dot{width:18px;height:18px;border-radius:50%;background:var(--c-coral);box-shadow:0 0 16px rgba(255,109,90,.9);}
+  .travel{animation:travelX 1.1s linear infinite;}
+  @keyframes travelX{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(520px);opacity:0}}
+
+  /* ===== pulse dot ===== */
+  .pulse{width:26px;height:26px;border-radius:50%;background:var(--c-teal);position:relative;animation:pulse 1.6s infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(45,212,191,.7)}70%{box-shadow:0 0 0 30px rgba(45,212,191,0)}100%{box-shadow:0 0 0 0 rgba(45,212,191,0)}}
+
+  /* ===== dashboard scene ===== */
+  .dash{position:absolute;width:880px;height:820px;border-radius:44px;padding:40px;
+    background:linear-gradient(160deg,rgba(26,35,56,.95),rgba(12,17,32,.95));
+    border:1px solid rgba(255,255,255,.1);
+    box-shadow:0 60px 130px rgba(0,0,0,.6);opacity:0;}
+  .dash.on{animation:riseIn .7s cubic-bezier(.2,.7,.3,1) forwards;}
+  .dash-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px;}
+  .dash-title{font-size:40px;font-weight:800;color:var(--c-white);}
+  .dash-badge{font-size:28px;font-weight:700;color:#0b2b24;background:var(--c-teal);
+    padding:10px 26px;border-radius:40px;}
+  .statrow{display:flex;gap:24px;}
+  .stat{flex:1;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.07);border-radius:26px;padding:26px;}
+  .stat .n{font-size:58px;font-weight:900;color:var(--c-white);}
+  .stat .l{font-size:28px;color:var(--c-gray);margin-top:8px;}
+  .stat .n.green{color:#4ade80;}
+  .stat .n.teal{color:var(--c-teal);}
+  .stat .n.coral{color:var(--c-coral);}
+  .logline{display:flex;align-items:center;gap:20px;padding:20px 0;border-bottom:1px solid rgba(255,255,255,.06);}
+  .logline:last-child{border:none;}
+  .dot-mini{width:18px;height:18px;border-radius:50%;}
+  .logtxt{font-size:31px;color:#dbe4ff;flex:1;}
+  .logtime{font-size:26px;color:var(--c-gray);}
+
+  /* ===== CTA ===== */
+  .cta-btn{display:inline-flex;align-items:center;gap:24px;background:var(--c-green);color:#04211c;
+    font-size:46px;font-weight:800;padding:34px 56px;border-radius:70px;box-shadow:0 30px 80px rgba(37,211,102,.45);
+    opacity:0;}
+  .cta-btn .wa-ico{width:60px;height:60px;}
+  .cta-note{font-size:32px;color:var(--c-gray);opacity:0;}
+
+  /* ===== progress bar ===== */
+  #bar{position:absolute;bottom:0;left:0;height:10px;width:0;background:linear-gradient(90deg,var(--c-coral),var(--c-amber),var(--c-teal));z-index:50;}
+
+  /* ===== scene timing via JS adds .active + .on ===== */
+  #hint{position:absolute;top:22px;left:0;right:0;text-align:center;color:rgba(255,255,255,.35);
+    font-size:20px;z-index:60;letter-spacing:1px;}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="bg">
+    <div class="bg-grad"></div>
+    <div class="glow coral"></div>
+    <div class="glow teal"></div>
+    <div class="glow amber"></div>
+  </div>
+
+  <!-- ============ SCENE 1 : PROBLEM ============ -->
+  <section class="fg" id="s1">
+    <div class="bignum" style="top:-40px;left:-60px;">١</div>
+    <div style="position:absolute;top:120px;left:0;right:0;text-align:center;">
+      <span class="kicker" style="background:rgba(255,109,90,.16);color:var(--c-coral);">مشكل كل بزنس صغير</span>
+    </div>
+    <div class="center anim-rise" style="top:250px;width:920px;text-align:center;">
+      <div class="headline">الزبائن يبعثولك ميساجات...<br/><span class="highlight">وأنت ما تلحقش تجاوب؟</span></div>
+    </div>
+
+    <div style="position:absolute;top:640px;width:1080px;height:900px;">
+      <div class="notif notif-info anim-pop" style="top:40px;right:120px;">
+        <div class="approw"><span class="appico" style="background:var(--c-wa);">
+          <svg class="ic-svg" style="width:30px;height:30px;" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.5 5.5L7.5 21A9.9 9.9 0 1 0 12 2zm0 2a7.9 7.9 0 1 1-4.2 14.6l-.5-.3-3 1 .9-3-.3-.5A7.9 7.9 0 0 1 12 4zm-3.5 4.1c-.1 0-.3 0-.4.1-.2 0-.4.2-.5.4-.2.2-.7.7-.7 1.6s.7 1.9.8 2c.1.2 1 1.5 2.4 2.5 1.4 1 1.9 1.2 2.5 1.2.4 0 .9-.2 1.1-.4.3-.3.5-.6.6-1 .1-.2 0-.4 0-.5l-1-.5c-.2-.1-.4-.1-.5 0l-.5.6c-.1.1-.2.2-.4.1-.4-.1-1-.4-1.6-.9-.6-.4-1-1-1.1-1.1-.1-.2 0-.3.1-.4l.4-.5c.1-.1.1-.2.1-.3 0-.1 0-.3-.1-.4l-.5-1.1c-.1-.3-.3-.4-.5-.4z"/></svg>
+        </span><span class="appname">واتساب</span></div>
+        <div class="msgtext">سلام، بغيت نسقسيك على الخدمة ديالكم.</div>
+      </div>
+      <div class="notif notif-info anim-pop" style="top:300px;left:110px;">
+        <div class="approw"><span class="appico" style="background:var(--c-fb);">
+          <svg class="ic-svg" style="width:30px;height:30px;" viewBox="0 0 24 24"><path fill="#fff" d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+        </span><span class="appname">فيسبوك</span></div>
+        <div class="msgtext">واش صاحبي، هل ممكن معلومات أكتر؟</div>
+      </div>
+      <div class="notif notif-info anim-pop" style="top:560px;right:120px;">
+        <div class="approw"><span class="appico" style="background:var(--c-ig);">
+          <svg class="ic-svg" style="width:30px;height:30px;" viewBox="0 0 24 24"><path fill="#fff" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4s-.8.7-1.4.9c-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4a3.9 3.9 0 0 1-1.4-.9c-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4s.8-.7 1.4-.9c.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1 0-1.7.2-2.1.4-.5.2-.9.4-1.2.8-.4.4-.6.7-.8 1.2-.2.4-.4 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c0 1.1.2 1.7.4 2.1.2.5.4.9.8 1.2s.7.6 1.2.8c.4.2 1 .4 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1 0 1.7-.2 2.1-.4.5-.2.9-.4 1.2-.8s.6-.7.8-1.2c.2-.4.4-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c0-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.2S18 5.7 17.4 5.6c-.4-.2-1-.4-2.1-.4-1.2-.1-1.6-.1-4.7-.1h.4zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2zm5.1-2.8a1.1 1.1 0 1 1 0 2.3 1.1 1.1 0 0 1 0-2.3z"/></svg>
+        </span><span class="appname">إنستغرام</span></div>
+        <div class="msgtext">واش لازالت الخدمة متاحة؟ أحتاجها اليوم.</div>
+      </div>
+      <div class="pulse" style="position:absolute;top:860px;left:540px;"></div>
+    </div>
+
+    <div class="center anim-rise" style="top:1560px;width:900px;text-align:center;">
+      <div class="sub">كثرة الميساجات، والرد بطيء... = <span class="highlight">زبائن يزيدو لمشاهديكم</span></div>
+    </div>
+  </section>
+
+  <!-- ============ SCENE 2 : SOLUTION ============ -->
+  <section class="fg" id="s2">
+    <div class="bignum" style="bottom:-60px;right:-40px;">٢</div>
+    <div style="position:absolute;top:110px;left:0;right:0;text-align:center;">
+      <span class="kicker" style="background:rgba(45,212,191,.16);color:var(--c-teal);">الحل</span>
+    </div>
+
+    <!-- phone chat -->
+    <div class="phone" style="top:230px;left:40px;">
+      <div class="notch"></div>
+      <div class="screen chatcol">
+        <div class="bubble you">سلام! واش عندك خدمة أتمتة للرد على الزبائن؟</div>
+        <div class="bubble me">وعليكم السلام! نعم، عندنا خدمة رد آلي ذكية لواتساب وفيسبوك وإنستغرام. 🤖</div>
+        <div class="bubble you">وواش تجاوبو حتى على الأسئلة؟</div>
+        <div class="bubble me">بالطبيعة، نجاوبو على السعر والخدمات، ونبقاو المحادثة واصلين. 👌</div>
+        <div class="bubble you">ممتاز! كيفاه نبدا؟</div>
+        <div class="bubble me">ابعتلنا ميساج وهانا نرشدوك خطوة بخطوة.</div>
+      </div>
+    </div>
+
+    <!-- AI badge right -->
+    <div style="position:absolute;top:300px;right:70px;width:430px;">
+      <div class="pchip wa anim-pop" style="position:relative;width:150px;height:150px;border-radius:36px;background:linear-gradient(150deg,#2a3550,#141c38);border:2px solid rgba(45,212,191,.5);">
+        <span style="font-size:66px;">🤖</span>
+        <span class="pulse" style="position:absolute;right:-14px;top:-14px;"></span>
+      </div>
+      <div class="headline anim-rise" style="font-size:64px;margin-top:30px;">مساعد يدير البزنس <span class="highlight">وحدو</span></div>
+      <ul style="list-style:none;margin-top:40px;font-size:38px;color:#dbe4ff;line-height:1.9;">
+        <li class="anim-rise">✅ يجاوب في ثواني</li>
+        <li class="anim-rise">✅ يفهم السؤال</li>
+        <li class="anim-rise">✅ يقدم الرد المناسب</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ SCENE 3 : MULTI-PLATFORM ============ -->
+  <section class="fg" id="s3">
+    <div class="bignum" style="top:-60px;right:-40px;">٣</div>
+    <div style="position:absolute;top:110px;left:0;right:0;text-align:center;">
+      <span class="kicker" style="background:rgba(250,204,21,.16);color:var(--c-amber);">في كل منصاتك</span>
+    </div>
+    <div class="headline center anim-rise" style="top:220px;width:940px;text-align:center;font-size:72px;">
+      رد واحد يفهم <span class="highlight">واتساب + فيسبوك + إنستغرام</span>
+    </div>
+
+    <div style="position:absolute;top:520px;width:1080px;height:820px;">
+      <div class="pchip wa anim-pop" style="position:absolute;left:80px;top:20px;">
+        <svg class="ic-svg" viewBox="0 0 24 24"><path fill="#fff" d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.5 5.5L7.5 21A9.9 9.9 0 1 0 12 2zm0 2a7.9 7.9 0 1 1-4.2 14.6l-.5-.3-3 1 .9-3-.3-.5A7.9 7.9 0 0 1 12 4zm-3.5 4.1c-.1 0-.3 0-.4.1-.2 0-.4.2-.5.4-.2.2-.7.7-.7 1.6s.7 1.9.8 2c.1.2 1 1.5 2.4 2.5 1.4 1 1.9 1.2 2.5 1.2.4 0 .9-.2 1.1-.4.3-.3.5-.6.6-1 .1-.2 0-.4 0-.5l-1-.5c-.2-.1-.4-.1-.5 0l-.5.6c-.1.1-.2.2-.4.1-.4-.1-1-.4-1.6-.9-.6-.4-1-1-1.1-1.1-.1-.2 0-.3.1-.4l.4-.5c.1-.1.1-.2.1-.3 0-.1 0-.3-.1-.4l-.5-1.1c-.1-.3-.3-.4-.5-.4z"/></svg>
+      </div>
+      <div class="pchip fb anim-pop" style="position:absolute;right:80px;top:20px;">
+        <svg class="ic-svg" viewBox="0 0 24 24"><path fill="#fff" d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+      </div>
+      <div class="pchip ig anim-pop" style="position:absolute;left:50%;transform:translateX(-50%);top:20px;">
+        <svg class="ic-svg" viewBox="0 0 24 24"><path fill="#fff" d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4s-.8.7-1.4.9c-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.2-2.2-.4a3.9 3.9 0 0 1-1.4-.9c-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4s.8-.7 1.4-.9c.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1 0-1.7.2-2.1.4-.5.2-.9.4-1.2.8-.4.4-.6.7-.8 1.2-.2.4-.4 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c0 1.1.2 1.7.4 2.1.2.5.4.9.8 1.2s.7.6 1.2.8c.4.2 1 .4 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1 0 1.7-.2 2.1-.4.5-.2.9-.4 1.2-.8s.6-.7.8-1.2c.2-.4.4-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c0-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.2S18 5.7 17.4 5.6c-.4-.2-1-.4-2.1-.4-1.2-.1-1.6-.1-4.7-.1h.4zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2zm5.1-2.8a1.1 1.1 0 1 1 0 2.3 1.1 1.1 0 0 1 0-2.3z"/></svg>
+      </div>
+
+      <!-- central AI core -->
+      <div class="pchip anim-pop" style="position:absolute;left:50%;transform:translateX(-50%);top:360px;
+        width:240px;height:240px;border-radius:60px;background:linear-gradient(150deg,#1e2a4d,#101735);
+        border:2px solid rgba(45,212,191,.7);box-shadow:0 0 60px rgba(45,212,191,.25);">
+        <div style="font-size:96px;">🤖</div>
+        <div style="font-size:34px;font-weight:800;color:var(--c-white);margin-top:6px;">المساعد الذكي</div>
+        <span class="pulse" style="position:absolute;left:-16px;bottom:14px;"></span>
+      </div>
+
+      <!-- flowing connector paths (3D feel) -->
+      <svg style="position:absolute;inset:0;width:1080px;height:820px;" viewBox="0 0 1080 820" fill="none">
+        <g class="dashpath">
+          <path d="M185 170 C 300 300, 380 300, 480 400" stroke="rgba(37,211,102,.65)" stroke-width="6" stroke-dasharray="18 16"/>
+          <path d="M540 170 C 540 250, 540 300, 540 400" stroke="rgba(250,204,21,.65)" stroke-width="6" stroke-dasharray="18 16"/>
+          <path d="M895 170 C 780 300, 700 300, 600 400" stroke="rgba(228,64,95,.65)" stroke-width="6" stroke-dasharray="18 16"/>
+        </g>
+        <circle cx="480" cy="400" r="9" fill="#25d366"/>
+        <circle cx="540" cy="400" r="9" fill="#facc15"/>
+        <circle cx="600" cy="400" r="9" fill="#e4405f"/>
+      </svg>
+      <div class="autoflow travel" style="left:150px;top:210px;"><div class="dot" style="background:#25d366;"></div></div>
+      <div class="autoflow travel" style="left:505px;top:140px;animation-delay:.4s;"><div class="dot" style="background:#facc15;"></div></div>
+      <div class="autoflow travel" style="left:860px;top:210px;animation-delay:.8s;"><div class="dot" style="background:#e4405f;"></div></div>
+    </div>
+
+    <div class="center anim-rise" style="top:1420px;width:940px;text-align:center;">
+      <div class="sub">نفس المساعد الذكي يجمع ميساجات <span class="highlight">المنصات الثلاثة</span> ويرد عليهم وحدو.</div>
+    </div>
+  </section>
+
+  <!-- ============ SCENE 4 : BENEFITS ============ -->
+  <section class="fg" id="s4">
+    <div class="bignum" style="bottom:-60px;left:-40px;">٤</div>
+    <div style="position:absolute;top:110px;left:0;right:0;text-align:center;">
+      <span class="kicker" style="background:rgba(45,212,191,.16);color:var(--c-teal);">شنو كتربح؟</span>
+    </div>
+    <div class="headline center anim-rise" style="top:210px;width:940px;text-align:center;font-size:72px;">
+      مزايا تحس بيها <span class="highlight">من اليوم الأول</span>
+    </div>
+
+    <div style="position:absolute;top:480px;left:80px;width:920px;">
+      <div class="benefit anim-rise" style="display:flex;align-items:center;gap:30px;margin:26px 0;opacity:0;">
+        <span style="min-width:250px;height:110px;border-radius:26px;display:flex;align-items:center;justify-content:center;
+          background:rgba(45,212,191,.14);border:1px solid rgba(45,212,191,.4);font-size:54px;">⚡</span>
+        <span style="font-size:44px;color:#eef2ff;font-weight:700;">رد تلقائي فوري، في ثواني</span>
+      </div>
+      <div class="benefit anim-rise" style="display:flex;align-items:center;gap:30px;margin:26px 0;opacity:0;">
+        <span style="min-width:250px;height:110px;border-radius:26px;display:flex;align-items:center;justify-content:center;
+          background:rgba(74,222,128,.14);border:1px solid rgba(74,222,128,.4);font-size:54px;">🕐</span>
+        <span style="font-size:44px;color:#eef2ff;font-weight:700;">متاح 24/24، حتى كي تكون نايم أو مشغول</span>
+      </div>
+      <div class="benefit anim-rise" style="display:flex;align-items:center;gap:30px;margin:26px 0;opacity:0;">
+        <span style="min-width:250px;height:110px;border-radius:26px;display:flex;align-items:center;justify-content:center;
+          background:rgba(250,204,21,.14);border:1px solid rgba(250,204,21,.4);font-size:54px;">🎯</span>
+        <span style="font-size:44px;color:#eef2ff;font-weight:700;">ما تفوتك حتى فرصة زبون</span>
+      </div>
+      <div class="benefit anim-rise" style="display:flex;align-items:center;gap:30px;margin:26px 0;opacity:0;">
+        <span style="min-width:250px;height:110px;border-radius:26px;display:flex;align-items:center;justify-content:center;
+          background:rgba(255,109,90,.14);border:1px solid rgba(255,109,90,.4);font-size:54px;">🤝</span>
+        <span style="font-size:44px;color:#eef2ff;font-weight:700;">أقل شغل متكرر، وركز على خدمتك</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCENE 5 : PREMIUM / DASHBOARD ============ -->
+  <section class="fg" id="s5">
+    <div class="bignum" style="top:-60px;right:-40px;">٥</div>
+    <div style="position:absolute;top:100px;left:0;right:0;text-align:center;">
+      <span class="kicker" style="background:rgba(45,212,191,.16);color:var(--c-teal);">خدمة احترافية</span>
+    </div>
+
+    <div class="dash" style="top:220px;left:100px;opacity:0;">
+      <div class="dash-head">
+        <div class="dash-title">مركز التحكم ديال مساعدك</div>
+        <div class="dash-badge">يعمل الآن</div>
+      </div>
+      <div class="statrow">
+        <div class="stat"><div class="n green">247</div><div class="l">ميساج تجاوب عليهم</div></div>
+        <div class="stat"><div class="n teal">1.2s</div><div class="l">متوسط زمن الرد</div></div>
+        <div class="stat"><div class="n coral">03</div><div class="l">منصات مربوطة</div></div>
+      </div>
+      <div style="margin-top:34px;">
+        <div class="logline"><span class="dot-mini" style="background:#25d366;"></span><span class="logtxt">زبون يسقسى على السعر → رجعو له في الحال</span><span class="logtime">آنياً</span></div>
+        <div class="logline"><span class="dot-mini" style="background:#1877f2;"></span><span class="logtxt">فيسبوك — سؤال على الخدمة → جاوب</span><span class="logtime">آنياً</span></div>
+        <div class="logline"><span class="dot-mini" style="background:#e4405f;"></span><span class="logtxt">إنستغرام — بغى التفاصيل → تزوّد</span><span class="logtime">آنياً</span></div>
+      </div>
+    </div>
+    <div class="center anim-rise" style="top:1160px;width:940px;text-align:center;">
+      <div class="headline" style="font-size:64px;">مساعد جاد، يقدر <span class="highlight">يبقى يخدم معاك</span> بلا ما يطلب راحة</div>
+    </div>
+  </section>
+
+  <!-- ============ SCENE 6 : CTA ============ -->
+  <section class="fg" id="s6">
+    <div class="bignum" style="bottom:-60px;left:-40px;">٦</div>
+    <div style="position:absolute;top:230px;left:0;right:0;text-align:center;">
+      <span class="kicker" style="background:rgba(45,212,191,.16);color:var(--c-teal);">نبذو الحين</span>
+    </div>
+    <div class="headline center anim-rise" style="top:340px;width:940px;text-align:center;font-size:82px;">
+      خلي الـ<span style="color:var(--c-teal);">AI</span> يجاوب على زبائنك<br/>وأنت ركّز على <span class="highlight">خدمتك</span>.
+    </div>
+
+    <div class="center anim-rise" style="top:760px;width:940px;text-align:center;">
+      <div class="sub" style="font-size:42px;color:#c8d4f0;">لا توقفش نشاطك خاطر ما تقدرش تجاوب على كلشي. المساعد الذكي هو الحل.</div>
+    </div>
+
+    <div class="center" style="top:1100px;text-align:center;">
+      <div class="cta-btn anim-pop">
+        <svg class="wa-ico" viewBox="0 0 24 24"><path fill="#04211c" d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.5 5.5L7.5 21A9.9 9.9 0 1 0 12 2zm0 2a7.9 7.9 0 1 1-4.2 14.6l-.5-.3-3 1 .9-3-.3-.5A7.9 7.9 0 0 1 12 4zm-3.5 4.1c-.1 0-.3 0-.4.1-.2 0-.4.2-.5.4-.2.2-.7.7-.7 1.6s.7 1.9.8 2c.1.2 1 1.5 2.4 2.5 1.4 1 1.9 1.2 2.5 1.2.4 0 .9-.2 1.1-.4.3-.3.5-.6.6-1 .1-.2 0-.4 0-.5l-1-.5c-.2-.1-.4-.1-.5 0l-.5.6c-.1.1-.2.2-.4.1-.4-.1-1-.4-1.6-.9-.6-.4-1-1-1.1-1.1-.1-.2 0-.3.1-.4l.4-.5c.1-.1.1-.2.1-.3 0-.1 0-.3-.1-.4l-.5-1.1c-.1-.3-.3-.4-.5-.4z"/></svg>
+        حاب تعرف كيفاش؟ ابعثنا ميساج
+      </div>
+    </div>
+
+    <div class="center anim-rise" style="top:1330px;text-align:center;">
+      <div class="cta-note">رد سريع = زبون ما يضيعش. الرد يبدأ من ميساج واحد.</div>
+    </div>
+
+    <div style="position:absolute;top:1500px;left:0;right:0;text-align:center;font-size:30px;color:var(--c-gray);letter-spacing:1px;">
+      ✦ خدمة أتمتة ذكية للبزنس الجزائري ✦
+    </div>
+  </section>
+
+  <div id="bar"></div>
+  <div id="hint">تشغيل تلقائي — اضغط على الشاشة للانتقال السريع إلى المشهد التالي</div>
+</div>
+
+<script>
+(function(){
+  var scenes=[].slice.call(document.querySelectorAll('.fg'));
+  var bar=document.getElementById('bar');
+
+  // scene durations (ms). Total ~28s.
+  var dur=[6200,4700,4700,4700,4500,4500];
+  var TOTAL=0; dur.forEach(function(d){TOTAL+=d;});
+
+  // per-scene animation triggers: [timeOffset, selector] pairs.
+  // The element gets class 'on' added => its CSS animation plays.
+  var trigger={
+    0:[[500,'.kicker'],[1100,'.headline'],[2100,'.notif:nth-of-type(1)'],[2700,'.notif:nth-of-type(2)'],[3300,'.notif:nth-of-type(3)'],[3900,'.pulse'],[4600,'.sub']],
+    1:[[500,'.kicker'],[900,'.pchip'],[1300,'.headline'],[1800,'.bubble:nth-of-type(1)'],[2300,'.bubble:nth-of-type(2)'],[2800,'.bubble:nth-of-type(3)'],[3300,'.bubble:nth-of-type(4)'],[3800,'.bubble:nth-of-type(5)'],[4300,'.bubble:nth-of-type(6)']],
+    2:[[500,'.kicker'],[1100,'.headline'],[1900,'.pchip'],[2300,'.pchip'],[2700,'.pchip'],[3800,'.sub']],
+    3:[[500,'.kicker'],[1100,'.headline'],[1600,'.benefit:nth-of-type(1)'],[2100,'.benefit:nth-of-type(2)'],[2600,'.benefit:nth-of-type(3)'],[3100,'.benefit:nth-of-type(4)']],
+    4:[[500,'.kicker'],[1100,'.dash'],[2300,'.headline']],
+    5:[[500,'.kicker'],[1000,'.headline'],[1800,'.sub'],[2300,'.cta-btn'],[3000,'.cta-note']]
+  };
+
+  var sceneIndex=0, acc=0;
+  var running=false;
+
+  function toggleOn(sceneRoot, time){
+    var list=trigger[sceneIndex];
+    if(!list) return;
+    for(var i=0;i<list.length;i++){
+      var off=list[i][0];
+      if(time>=off){
+        var els=sceneRoot.querySelectorAll(list[i][1]);
+        els.forEach(function(el){ el.classList.add('on'); });
+      }
+    }
+  }
+
+  function activateScene(i){
+    sceneIndex=i;
+    scenes.forEach(function(s){s.classList.remove('active');});
+    scenes[i].classList.add('active');
+    acc=0;
+    // reset all .on within this scene
+    var els=scenes[i].querySelectorAll('.on'); els.forEach(function(e){e.classList.remove('on');});
+    // for elements that should be always on (persistent), re-add
+    var always=scenes[i].querySelectorAll('[data-always]');
+    always.forEach(function(e){e.classList.add('on');});
+  }
+
+  function applyScene(sceneRoot, time){
+    toggleOn(sceneRoot,time);
+  }
+
+  var rafId=null, last=0;
+
+  function tick(now){
+    if(!running){return;}
+    if(!last){last=now;}
+    var dt=now-last; last=now;
+    acc+=dt;
+    var sceneRoot=scenes[sceneIndex];
+    if(acc>=dur[sceneIndex]){
+      // move to next scene
+      acc=dur[sceneIndex];
+      applyScene(sceneRoot,acc);
+      if(sceneIndex<scenes.length-1){
+        activateScene(sceneIndex+1);
+      } else {
+        // loop
+        activateScene(0);
+      }
+      // reset last to avoid jump
+      last=now;
+      // update bar
+      var pct=(acc/dur[sceneIndex])*100;
+    }
+    // update bar based on overall progress
+    var totalAcc = (sceneIndex>0? dur.slice(0,sceneIndex).reduce(function(a,b){return a+b;}):0) + acc;
+    var pct= (totalAcc/TOTAL)*100;
+    bar.style.width=pct+'%';
+    applyScene(sceneRoot,acc);
+    rafId=requestAnimationFrame(tick);
+  }
+
+  function start(){
+    if(running) return;
+    running=true; last=0;
+    activateScene(0);
+    rafId=requestAnimationFrame(tick);
+  }
+
+  // Autoplay on load (browsers may block; also allow click on stage)
+  document.getElementById('stage').addEventListener('click',function(){
+    if(!running){start();}
+    else{
+      // restart: go to next scene quickly
+      if(sceneIndex<scenes.length-1){activateScene(sceneIndex+1);}else{activateScene(0);}
+    }
+  });
+
+  // Debug: allow forcing a scene via ?scene=N&t=MS (used for screenshots/recording)
+  var qs=new URLSearchParams(location.search);
+  if(qs.has('debug')){
+    var forced=parseInt(qs.get('scene')||'0',10);
+    var ft=parseInt(qs.get('t')||'3000',10);
+    running=true; activateScene(forced);
+    applyScene(scenes[forced], ft);
+    // trigger all on for forced scene up to ft
+    var tl=trigger[forced];
+    if(tl){ for(var i2=0;i2<tl.length;i2++){ if(ft>=tl[i2][0]){ scenes[forced].querySelectorAll(tl[i2][1]).forEach(function(e){e.classList.add('on');}); } } }
+    // style wide for preview convenience is not needed
+  } else {
+    start();
+  }
+})();
+</script>
+</body>
+</html>

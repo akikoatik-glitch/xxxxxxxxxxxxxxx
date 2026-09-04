@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>DevisAlg — Gestion commerciale</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+  <div id="toast-container"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <span class="dot">D</span>
+        <span>DevisAlg</span>
+      </div>
+      <nav id="nav"></nav>
+      <div style="padding:16px;border-top:1px solid var(--border);margin-top:12px">
+        <button class="btn btn-danger-ghost btn-sm btn-block" onclick="logout()">Déconnexion</button>
+      </div>
+    </aside>
+
+    <div class="main">
+      <div class="topbar">
+        <button class="menu-btn" onclick="toggleSidebar()" aria-label="Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <div class="page-title" id="page-title">Tableau de bord</div>
+        <button class="btn btn-outline btn-sm" id="lang-toggle" onclick="toggleLang()" title="Langue">عربية</button>
+      </div>
+      <div class="content" id="view"></div>
+    </div>
+  </div>
+
+  <script src="/static/js/common.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
