@@ -1,127 +1,346 @@
 {
-  "date": "2026-09-03",
-  "lastUpdate": "2026-09-03T13:17:17.715Z",
-  "predictionGenerated": "2026-09-03T13:17:17.715Z",
-  "dataTimestamp": "2026-09-03T13:16:52.724Z",
+  "date": "2026-09-04",
+  "lastUpdate": "2026-09-04T15:23:07.017Z",
+  "predictionGenerated": "2026-09-04T15:23:07.017Z",
+  "dataTimestamp": "2026-09-04T15:22:54.358Z",
   "dataFreshness": "fresh",
   "source": "football-data.org (today)",
   "matches": [
     {
-      "id": "es.1:2026-09-03:Real Sociedad de Fútbol:RC Celta de Vigo",
-      "slug": "real-sociedad-de-futbol-vs-rc-celta-de-vigo-prediction",
-      "utcDate": "2026-09-03T15:00:00Z",
-      "date": "2026-09-03",
+      "id": "en.1:2026-09-04:Ipswich Town FC:Liverpool FC",
+      "slug": "ipswich-town-vs-liverpool-prediction",
+      "utcDate": "2026-09-04T15:00:00Z",
+      "date": "2026-09-04",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "1h to kickoff",
-      "home": "Real Sociedad de Fútbol",
-      "away": "RC Celta de Vigo",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
+      "countdown": "0h to kickoff",
+      "home": "Ipswich Town",
+      "away": "Liverpool",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 51,
-      "odds": "1.86",
-      "value": "+1%",
+      "conf": 82,
+      "odds": "1.15",
+      "value": "+16%",
       "probs": {
-        "home": 26,
-        "draw": 23,
-        "away": 51
+        "home": 8,
+        "draw": 10,
+        "away": 82
       },
       "xg": {
-        "home": "1.05",
-        "away": "1.60",
-        "total": "2.65"
+        "home": "1.25",
+        "away": "4.00",
+        "total": "5.25"
       },
       "doubleChance": {
-        "12": 77,
-        "1X": 49,
-        "X2": 74
+        "12": 90,
+        "1X": 18,
+        "X2": 92
       },
       "overUnder": {
-        "over2_5": 49,
-        "under2_5": 51,
-        "oddsOver": "1.94",
-        "oddsUnder": "1.86"
+        "over2_5": 88,
+        "under2_5": 12,
+        "oddsOver": "1.08",
+        "oddsUnder": "7.92"
       },
       "btts": {
-        "yes": 51,
-        "no": 49
+        "yes": 70,
+        "no": 30
       },
       "correctScore": {
-        "score": "0-1",
-        "prob": 12
+        "score": "1-3",
+        "prob": 8
       },
       "topScores": [
         {
-          "score": "0-1",
-          "prob": 12
+          "score": "1-3",
+          "prob": 8
         },
         {
-          "score": "1-1",
-          "prob": 11
+          "score": "1-4",
+          "prob": 8
         },
         {
-          "score": "1-2",
-          "prob": 10
+          "score": "1-5",
+          "prob": 6
         }
       ],
-      "asianHandicap": "Away +0.50",
+      "asianHandicap": "Away +2.0",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Real Sociedad de Fútbol vs RC Celta de Vigo: Dixon-Coles P(H)26% D23% A51% • xG 1.05-1.60 • most likely score 0-1 (12%) • Away Win confidence 51% • strengths from real standings",
+      "whyWin": "Ipswich Town vs Liverpool: Dixon-Coles P(H)8% D10% A82% • xG 1.25-4.00 • most likely score 1-3 (8%) • Away Win confidence 82% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
     {
-      "id": "fr.1:2026-09-03:Toulouse FC:Lille OSC",
-      "slug": "toulouse-vs-lille-osc-prediction",
-      "utcDate": "2026-09-03T15:00:00Z",
-      "date": "2026-09-03",
+      "id": "it.1:2026-09-04:Genoa CFC:Como 1907",
+      "slug": "genoa-c-vs-como-1907-prediction",
+      "utcDate": "2026-09-04T15:00:00Z",
+      "date": "2026-09-04",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "1h to kickoff",
-      "home": "Toulouse",
-      "away": "Lille OSC",
+      "countdown": "0h to kickoff",
+      "home": "Genoa C",
+      "away": "Como 1907",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Genoa C vs Como 1907: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-09-04:Olympique Lyonnais:AJ Auxerre",
+      "slug": "olympique-lyonnais-vs-aj-auxerre-prediction",
+      "utcDate": "2026-09-04T15:00:00Z",
+      "date": "2026-09-04",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "0h to kickoff",
+      "home": "Olympique Lyonnais",
+      "away": "AJ Auxerre",
       "league": "Ligue 1",
       "code": "FL1",
       "flag": "🇫🇷",
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 47,
-      "odds": "2.02",
-      "value": "+0%",
+      "conf": 92,
+      "odds": "1.04",
+      "value": "+21%",
       "probs": {
-        "home": 47,
-        "draw": 24,
-        "away": 29
+        "home": 92,
+        "draw": 6,
+        "away": 3
       },
       "xg": {
-        "home": "1.50",
-        "away": "1.12",
-        "total": "2.62"
+        "home": "4.20",
+        "away": "0.69",
+        "total": "4.89"
       },
       "doubleChance": {
-        "12": 76,
-        "1X": 71,
-        "X2": 53
+        "12": 94,
+        "1X": 97,
+        "X2": 8
       },
       "overUnder": {
-        "over2_5": 49,
-        "under2_5": 51,
-        "oddsOver": "1.94",
-        "oddsUnder": "1.86"
+        "over2_5": 85,
+        "under2_5": 15,
+        "oddsOver": "1.12",
+        "oddsUnder": "6.33"
       },
       "btts": {
-        "yes": 51,
-        "no": 49
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 11
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 11
+        },
+        {
+          "score": "3-0",
+          "prob": 11
+        },
+        {
+          "score": "5-0",
+          "prob": 9
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Olympique Lyonnais vs AJ Auxerre: Dixon-Coles P(H)92% D6% A3% • xG 4.20-0.69 • most likely score 4-0 (11%) • Home Win confidence 92% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-09-04:Paris Saint-Germain FC:AS Monaco FC",
+      "slug": "paris-saint-germain-vs-as-monaco-prediction",
+      "utcDate": "2026-09-04T15:00:00Z",
+      "date": "2026-09-04",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "0h to kickoff",
+      "home": "Paris Saint-Germain",
+      "away": "AS Monaco",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 77,
+      "odds": "1.23",
+      "value": "+13%",
+      "probs": {
+        "home": 77,
+        "draw": 14,
+        "away": 9
+      },
+      "xg": {
+        "home": "2.49",
+        "away": "0.69",
+        "total": "3.18"
+      },
+      "doubleChance": {
+        "12": 86,
+        "1X": 91,
+        "X2": 23
+      },
+      "overUnder": {
+        "over2_5": 61,
+        "under2_5": 39,
+        "oddsOver": "1.56",
+        "oddsUnder": "2.44"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        },
+        {
+          "score": "3-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Paris Saint-Germain vs AS Monaco: Dixon-Coles P(H)77% D14% A9% • xG 2.49-0.69 • most likely score 2-0 (13%) • Home Win confidence 77% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "nl.1:2026-09-04:Sparta Rotterdam:PEC Zwolle",
+      "slug": "sparta-rotterdam-vs-pec-zwolle-prediction",
+      "utcDate": "2026-09-04T15:00:00Z",
+      "date": "2026-09-04",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "0h to kickoff",
+      "home": "Sparta Rotterdam",
+      "away": "PEC Zwolle",
+      "league": "Eredivisie",
+      "code": "DED",
+      "flag": "🇳🇱",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 66,
+      "odds": "1.44",
+      "value": "+8%",
+      "probs": {
+        "home": 66,
+        "draw": 19,
+        "away": 15
+      },
+      "xg": {
+        "home": "2.04",
+        "away": "0.83",
+        "total": "2.87"
+      },
+      "doubleChance": {
+        "12": 81,
+        "1X": 85,
+        "X2": 34
+      },
+      "overUnder": {
+        "over2_5": 54,
+        "under2_5": 46,
+        "oddsOver": "1.76",
+        "oddsUnder": "2.07"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
       },
       "correctScore": {
         "score": "1-0",
@@ -133,21 +352,94 @@
           "prob": 12
         },
         {
-          "score": "1-1",
-          "prob": 11
+          "score": "2-0",
+          "prob": 12
         },
         {
           "score": "2-1",
-          "prob": 9
+          "prob": 10
         }
       ],
-      "asianHandicap": "Home -0.50",
+      "asianHandicap": "Home -1.3",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Toulouse vs Lille OSC: Dixon-Coles P(H)47% D24% A29% • xG 1.50-1.12 • most likely score 1-0 (12%) • Home Win confidence 47% • strengths from real standings",
+      "whyWin": "Sparta Rotterdam vs PEC Zwolle: Dixon-Coles P(H)66% D19% A15% • xG 2.04-0.83 • most likely score 1-0 (12%) • Home Win confidence 66% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "pt.1:2026-09-04:FC Porto:Moreirense FC",
+      "slug": "fc-porto-vs-moreirense-prediction",
+      "utcDate": "2026-09-04T15:00:00Z",
+      "date": "2026-09-04",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "0h to kickoff",
+      "home": "FC Porto",
+      "away": "Moreirense",
+      "league": "Primeira Liga",
+      "code": "PPL",
+      "flag": "🇵🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 82,
+      "odds": "1.16",
+      "value": "+16%",
+      "probs": {
+        "home": 82,
+        "draw": 12,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.75",
+        "away": "0.61",
+        "total": "3.36"
+      },
+      "doubleChance": {
+        "12": 88,
+        "1X": 94,
+        "X2": 18
+      },
+      "overUnder": {
+        "over2_5": 65,
+        "under2_5": 35,
+        "oddsOver": "1.46",
+        "oddsUnder": "2.71"
+      },
+      "btts": {
+        "yes": 42,
+        "no": 58
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Porto vs Moreirense: Dixon-Coles P(H)82% D12% A6% • xG 2.75-0.61 • most likely score 2-0 (13%) • Home Win confidence 82% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -155,17 +447,6 @@
   ],
   "results": [],
   "news": [
-    {
-      "title": "Monfils, 40, oldest man to win US Open match since Connors in '92",
-      "league": "Tennis • ATP",
-      "time": "2h ago",
-      "published": "2026-09-02T03:08:50.000Z",
-      "excerpt": "Gael Monfils, playing on his 40th birthday, beat Adolfo Daniel Vallejo in four sets Tuesday night to become the oldest man to win a US Open ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/tennis/story/_/id/49798949/gael-monfils-40th-birthday-oldest-man-win-us-open-match-jimmy-connors-1992",
-      "image": "https://a.espncdn.com/photo/2026/0902/r1710233_600x400_3-2.jpg",
-      "category": "tennis"
-    },
     {
       "title": "Summer transfer window: Grading big signings in men's soccer",
       "league": "Premier League",
@@ -178,26 +459,37 @@
       "category": "football"
     },
     {
-      "title": "2026 NBA buzz: Latest free agency and trade updates",
-      "league": "Basketball • NBA",
-      "time": "6h ago",
-      "published": "2026-09-01T23:55:23.000Z",
-      "excerpt": "We're tracking deals, trades and buzz across the NBA, including the latest on Jonathan Kuminga.",
+      "title": "Transfer deadline day recap: Everton hopeful on Balogun deal, Enzo signs for Man City",
+      "league": "Premier League",
+      "time": "7h ago",
+      "published": "2026-09-01T23:03:38.000Z",
+      "excerpt": "We recap the latest news, rumors, done deals and reaction throughout Europe's transfer deadline day, up to the Premier League window closing",
       "source": "ESPN",
-      "url": "https://www.espn.com/nba/story/_/id/48377855/2026-nba-buzz-latest-live-updates-news-intel-nba-draft-offseason",
-      "image": "https://a.espncdn.com/photo/2026/0826/r1707368_576x324_16-9.jpg",
-      "category": "basketball"
+      "url": "https://www.espn.com/soccer/story/_/id/49746632/live-transfer-window-rumors-news-updates-deadline-day-premier-league-laliga-bundesliga-serie-ligue-1",
+      "image": "https://a.espncdn.com/photo/2026/0901/r1710167_1296x729_16-9.jpg",
+      "category": "football"
     },
     {
-      "title": "Arthur Fery falls short of Wimbledon heroics in early US Open defeat",
-      "league": "Tennis • ATP",
-      "time": "6h ago",
-      "published": "2026-09-01T23:06:16.000Z",
-      "excerpt": "Wimbledon hero Arthur Fery fell back to earth on Tuesday as he was beaten 6-3, 6-3, 7-5 on his US Open debut by Italian 13th seed Lorenzo Mu",
+      "title": "EFL criticises UEFA after rescheduling three domestic fixtures",
+      "league": "Champions League",
+      "time": "31/08/2026",
+      "published": "2026-08-31T17:12:54.000Z",
+      "excerpt": "The English Football League has accused UEFA of an \"unwillingness to cooperate\" after it says the European governing body's stance forced th",
       "source": "ESPN",
-      "url": "https://www.espn.com/tennis/story/_/id/49797300/arthur-fery-falls-short-wimbledon-heroics-early-us-open-defeat-tennis",
-      "image": "https://a.espncdn.com/photo/2026/0901/r1710161_1296x729_16-9.jpg",
-      "category": "tennis"
+      "url": "https://www.espn.com/soccer/story/_/id/49783362/efl-criticises-uefa-rescheduling-three-domestic-fixtures",
+      "image": "https://a.espncdn.com/photo/2026/0827/r1707643_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Aston Villa's Champions League draw: Paris Saint-Germain, Barcelona, Borussia Dortmund",
+      "league": "Champions League",
+      "time": "29/08/2026",
+      "published": "2026-08-29T21:11:27.000Z",
+      "excerpt": "Aston Villa have been handed a tough draw in the league phase of the Champions League with a trip to Barcelona and a home clash against back",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49659323/aston-villa-champions-league-draw-paris-saint-germain-barcelona-borussia-dortmund",
+      "image": "https://a.espncdn.com/photo/2026/0319/r1630909_1296x729_16-9.jpg",
+      "category": "football"
     }
   ],
   "melbetLink": "https://melbet-49771.bar/en?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77",
