@@ -99,7 +99,7 @@ for (const f of htmlFiles) {
   if (!c.includes('rel="icon"')) err('missing favicon <link rel="icon">', rel);
   if (!c.includes('href="/favicon.svg"')) err('missing /favicon.svg icon link', rel);
   if (!c.includes('href="/favicon-32x32.png"')) err('missing /favicon-32x32.png icon link', rel);
-  if (rel !== '404.html') {
+  if (!rel.includes('404.html')) {
     const canon = (c.match(/<link rel="canonical" href="([^"]+)"/) || [])[1] || '';
     const served = '/' + rel;
     const servedDir = served.endsWith('/index.html') ? served.slice(0, -'index.html'.length) : served;

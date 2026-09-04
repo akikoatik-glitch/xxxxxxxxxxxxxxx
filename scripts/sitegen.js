@@ -310,7 +310,7 @@ function schemaOrg(loc) {
     contactPoint: [{ '@type': 'ContactPoint', contactType: 'customer support', url: SITE }]
   }, {
     '@context': 'https://schema.org', '@type': 'WebSite',
-    name: 'XWhiz', url: `${SITE}${prefix(loc)}${loc === 'en' ? '/' : '/'}`,
+    name: 'XWhiz', url: `${SITE}${prefix(loc)}/`,
     inLanguage: loc,
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${SITE}${prefix(loc)}/search.html?q={search_term_string}` }, 'query-input': 'required name=search_term_string' }
   }];
@@ -334,17 +334,16 @@ function r(e){var el=e.currentTarget,b=el.getBoundingClientRect(),x=(e.clientX-b
 function o(e){e.currentTarget.style.transform='';e.currentTarget.style.transformOrigin='center'}
 document.querySelectorAll('[data-tilt]').forEach(function(el){el.style.transformOrigin='center';el.addEventListener('pointermove',r,{passive:true});el.addEventListener('pointerleave',o)})}catch(e){}})();</script>`;
 
-function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonld = [], extraHead = '' }) {
+function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonld = [], extraHead = '', ogType = 'website', publishedTime = '' }) {
   const meta = i18n[loc].meta;
   const robots = noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">';
   const json = jsonld.concat(schemaOrg(loc)).map(j => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join('\n');
-  // XWhiz 3D / glassmorphism overlay. CSS-only + tiny local JS (tilt/reveal).
-  // NOTE: no Three.js CDN — it cost ~600KB on every page for a decorative
-  // background and hurt LCP/Core Web Vitals. xwhiz-3d.js already no-ops its
-  // WebGL part when THREE is undefined, so tilt/reveal keep working.
   const pt = (page && page.type) || '';
   const overlayCss = '<link rel="stylesheet" href="/xwhiz-3d.css">';
   const overlayHead = overlayCss + '\n<script defer src="/xwhiz-3d.js"></script>';
+  const ogImgAlt = desc ? esc(desc.slice(0, 100)) : 'XWhiz — Football predictions today';
+  const articleMeta = publishedTime ? `<meta property="article:published_time" content="${esc(publishedTime)}">` : '';
+  const canonicalTag = canonical ? `<link rel="canonical" href="${canonical}">` : '';
   return `<!DOCTYPE html>
 <html lang="${meta.lang}" dir="${meta.dir}">
 <head>
@@ -353,26 +352,27 @@ function shell(loc, { title, desc, canonical, body, page, noindex = false, jsonl
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${robots}
-<link rel="canonical" href="${canonical}">
+${canonicalTag}
 ${hreflang(loc, page)}
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<meta property="og:type" content="website">
+<meta property="og:type" content="${ogType}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
-<meta property="og:url" content="${canonical}">
+<meta property="og:url" content="${canonical || ''}">
 <meta property="og:site_name" content="XWhiz">
 <meta property="og:image" content="${OG_IMG}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="XWhiz — Football predictions today">
+<meta property="og:image:alt" content="${ogImgAlt}">
 <meta property="og:locale" content="${OG_LOC[loc]}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(desc)}">
 <meta name="twitter:image" content="${OG_IMG}">
-<meta name="twitter:image:alt" content="XWhiz — Football predictions today">
+<meta name="twitter:image:alt" content="${ogImgAlt}">
+${articleMeta}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://a.espncdn.com">
@@ -646,7 +646,10 @@ ${rgNote(loc)}
   return shell(loc, {
     title: t('site.home.title'), desc: t('site.home.desc'), page: { type: 'home' },
     canonical: `${SITE}${pageUrl(loc, { type: 'home' })}`, body,
-    jsonld: [{ '@context': 'https://schema.org', '@type': 'SportsEvent', name: 'XWhiz Football Predictions', sport: 'Soccer', description: t('site.home.desc') }].concat(itemList)
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: 'XWhiz Football Predictions', sport: 'Soccer', description: t('site.home.desc') },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }] }
+    ].concat(itemList)
   });
 }
 
@@ -777,7 +780,7 @@ ${faqBlock(loc, faqs)}
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: `${L.h1} | XWhiz`, desc: L.sub, page, canonical: url, body,
+    title: `${L.h1} | XWhiz`, desc: L.sub, page, canonical: url, body, ogType: 'article', publishedTime: todayISO(),
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'Article', headline: L.h1, datePublished: todayISO(), dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: SITE }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: L.sub },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: L.nav, item: url }] },
@@ -813,7 +816,7 @@ ${faqBlock(loc, faqs)}
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: `${L.h1} | XWhiz`, desc: L.sub, page, canonical: url, body,
+    title: `${L.h1} | XWhiz`, desc: L.sub, page, canonical: url, body, ogType: 'article', publishedTime: todayISO(),
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'Article', headline: L.h1, datePublished: todayISO(), dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: SITE }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: L.sub },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: L.nav, item: url }] },
@@ -917,7 +920,7 @@ ${faqBlock(loc, faqs)}
   return shell(loc, {
     title: `${esc(m.home)} vs ${esc(m.away)} ${t(loc, 'detail.titleToken')} | XWhiz`,
     desc: t(loc, 'detail.desc', { home: m.home, away: m.away, pred: m.pred, odds: m.odds, conf: m.conf }),
-    canonical: url, page: { type: 'pred', arg: m.slug }, body,
+    canonical: url, page: { type: 'pred', arg: m.slug }, body, ogType: 'article', publishedTime: dateISO,
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}.` },
       { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz' }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.` },
@@ -1299,7 +1302,7 @@ ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc
 ${rgNote(loc)}
 </main>`;
   return shell(loc, {
-    title: L.title, desc: L.desc, page: { type }, canonical: url, body,
+    title: L.title, desc: L.desc, page: { type }, canonical: url, body, ogType: 'article', publishedTime: dateISO,
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'Article', headline: L.h1, datePublished: dateISO, dateModified: dateISO, author: { '@type': 'Organization', name: 'XWhiz Data Team', url: SITE }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: L.desc },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: label, item: url }] }
@@ -1329,21 +1332,20 @@ ${rgNote(loc)}
 </main>`;
   return shell(loc, {
     title: `${tR(loc, 'search.title')} | XWhiz`, desc: tR(loc, 'search.meta'), page: { type: 'search' },
-    canonical: `${SITE}${pageUrl(loc, { type: 'search' })}`, body
+    canonical: `${SITE}${pageUrl(loc, { type: 'search' })}`, body, noindex: true
   });
 }
 
 function notFoundPage(loc) {
   const body = `
 <main class="max-w-3xl mx-auto px-4 md:px-6 py-16 text-center">
-<h1 class="text-5xl font-black">404</h1>
-<h2 class="mt-2 text-2xl font-extrabold">${tR(loc, 'notFound.title')}</h2>
+<h1 class="text-3xl md:text-4xl font-black tracking-tight">${tR(loc, 'notFound.title')}</h1>
 <p class="mt-3 text-zinc-600">${tR(loc, 'notFound.body')}</p>
 <div class="mt-8 flex justify-center gap-4 text-sm"><a href="${pageUrl(loc, { type: 'home' })}" class="bg-zinc-900 text-white px-6 py-3 rounded-full">${tR(loc, 'notFound.home')}</a><a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-100 px-6 py-3 rounded-full">${tR(loc, 'notFound.predictions')}</a></div>
 </main>`;
   return shell(loc, {
-    title: `404 — ${tR(loc, 'notFound.title')} | XWhiz`, desc: '404', page: { type: '404' }, noindex: true, body,
-    canonical: `${SITE}${pageUrl(loc, { type: '404' })}`
+    title: `404 — ${tR(loc, 'notFound.title')} | XWhiz`, desc: 'Page not found', page: { type: '404' }, noindex: true, body,
+    canonical: `${SITE}${pageUrl(loc, { type: 'home' })}`
   });
 }
 
@@ -1368,8 +1370,6 @@ function buildSitemap() {
   [...LEAGUES.keys()].forEach(s => add({ type: 'league', arg: s }, 'daily', '0.7'));
   add({ type: 'teams' }, 'daily', '0.6');
   [...TEAMS.keys()].forEach(s => add({ type: 'team', arg: s }, 'daily', '0.5'));
-  add({ type: 'fixtures' }, 'daily', '0.7');
-  add({ type: 'results' }, 'daily', '0.7');
   add({ type: 'news' }, 'daily', '0.8');
   NEWS_CATS.forEach(c => add({ type: 'newsCat', arg: c }, 'daily', '0.6'));
   LEGAL_TYPES.forEach(lt => add({ type: lt }, 'monthly', '0.5'));
@@ -1457,7 +1457,7 @@ ${rgNote(loc)}
 </main>`;
   return shell(loc, {
     title: `${bonus.name} Bonus Code ${bonus.code} — ${tR(loc, 'bonusCodes.pageTitle')} | XWhiz`, desc: `${bonus.name} bonus code: ${bonus.code} — ${bonus.bonus}. ${bonus.desc}`,
-    canonical: url, page: { type: 'bonusCode', arg: bonus.slug }, body,
+    canonical: url, page: { type: 'bonusCode', arg: bonus.slug }, body, ogType: 'article', publishedTime: todayISO(),
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'Product', name: `${bonus.name} Bonus Code`, description: bonus.desc, brand: { '@type': 'Brand', name: bonus.name }, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: bonus.bonus } },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'bonusCodes.title'), item: `${SITE}${pageUrl(loc, { type: 'bonusCodes' })}` }, { '@type': 'ListItem', position: 3, name: bonus.name, item: url }] }
@@ -1513,7 +1513,7 @@ ${rgNote(loc)}
 </main>`;
   return shell(loc, {
     title: `${guide.title} | XWhiz Betting Guide`, desc: guide.desc,
-    canonical: url, page: { type: 'bettingGuide', arg: guide.slug }, body,
+    canonical: url, page: { type: 'bettingGuide', arg: guide.slug }, body, ogType: 'article', publishedTime: todayISO(),
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'Article', headline: guide.title, datePublished: todayISO(), dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz' }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: guide.desc },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'bettingGuides.title'), item: `${SITE}${pageUrl(loc, { type: 'bettingGuides' })}` }, { '@type': 'ListItem', position: 3, name: guide.title, item: url }] }
