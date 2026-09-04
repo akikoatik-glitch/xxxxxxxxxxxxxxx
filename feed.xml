@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>XWhiz — Football Predictions</title>
+  <link>https://xwhiz.com</link>
+  <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
+  <language>en</language>
+  <lastBuildDate>Fri, 04 Sep 2026 15:14:49 GMT</lastBuildDate>
+  <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Real Sociedad de Fútbol vs RC Celta de Vigo — Away Win @ 1.86</title>
+    <link>https://xwhiz.com/predictions/real-sociedad-de-futbol-vs-rc-celta-de-vigo-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/real-sociedad-de-futbol-vs-rc-celta-de-vigo-prediction.html</guid>
+    <pubDate>Thu, 03 Sep 2026 15:00:00 GMT</pubDate>
+    <description>La Liga — 51% confidence. Away Win at 1.86. Match kickoff: Thu, 03 Sep 2026 15:00:00 GMT.</description>
+    <category>La Liga</category>
+  </item>
+  <item>
+    <title>Toulouse vs Lille OSC — Home Win @ 2.02</title>
+    <link>https://xwhiz.com/predictions/toulouse-vs-lille-osc-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/toulouse-vs-lille-osc-prediction.html</guid>
+    <pubDate>Thu, 03 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 47% confidence. Home Win at 2.02. Match kickoff: Thu, 03 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+</channel>
+</rss>

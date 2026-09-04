@@ -224,12 +224,17 @@ function pageUrl(loc, page) {
     case 'football': return p + '/football/';
     case 'leagues': return p + '/football/leagues/';
     case 'league': return p + '/football/leagues/' + page.arg + '/';
+    case 'leaguePreds': return p + '/football/leagues/' + page.arg + '/predictions/';
     case 'teams': return p + '/football/teams/';
     case 'team': return p + '/football/teams/' + page.arg + '/';
     case 'fixtures': return p + '/football/fixtures/';
     case 'results': return p + '/football/results/';
     case 'news': return p + '/news/';
     case 'newsCat': return p + '/news/' + page.arg + '/';
+    case 'bonusCodes': return p + '/bonus-codes/';
+    case 'bonusCode': return p + '/bonus-codes/' + page.arg + '/';
+    case 'bettingGuides': return p + '/betting-guides/';
+    case 'bettingGuide': return p + '/betting-guides/' + page.arg + '/';
     case 'about': return p + '/about/';
     case 'methodology': return p + '/methodology/';
     case 'contact': return p + '/contact/';
@@ -380,6 +385,12 @@ ${hreflang(loc, page)}
 ${overlayHead}
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
+<link rel="manifest" href="/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="XWhiz">
+<link rel="alternate" type="application/rss+xml" title="XWhiz Predictions RSS" href="/feed.xml">
 ${GA_SNIPPET}
 ${extraHead}
 <style>${FX_CSS}</style>
@@ -1216,6 +1227,26 @@ ${rgNote(loc)}
 
 // ---- Trust / legal pages (E-E-A-T for a gambling-adjacent YMYL site) ----
 const LEGAL_TYPES = ['about', 'methodology', 'contact', 'privacy', 'terms', 'safer-gambling'];
+const BONUS_CODES = [
+  { slug: 'melbet', name: 'Melbet', code: 'KIKOS77', bonus: 'Welcome bonus up to $130', rating: '4.8', desc: 'Melbet offers a wide range of football markets, live streaming, and competitive odds. Use promo code KIKOS77 for a welcome bonus.', features: ['Live streaming', 'Cash out', 'Build a bet', '200+ markets per match'], url: 'https://melbet-49771.bar/en?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77' },
+  { slug: 'bet365', name: 'Bet365', code: 'SPORTSMAX', bonus: 'Bet £10, get £30 in free bets', rating: '4.9', desc: 'Bet365 is one of the world\'s largest bookmakers, offering extensive football coverage, in-play betting, and live streaming.', features: ['Best live streaming', 'In-play betting', 'Edit bet', 'Auto cash out'], url: '#' },
+  { slug: 'betway', name: 'Betway', code: 'FOWAY', bonus: 'Free bet & free spins', rating: '4.5', desc: 'Betway is a leading global sportsbook with competitive odds on all major football leagues.', features: ['Free bet welcome offer', 'Bet builder', 'Daily promotions', 'Esports betting'], url: '#' },
+  { slug: '1xbet', name: '1xBet', code: 'CASHMAX', bonus: 'Up to 15,000 BDT bonus', rating: '4.6', desc: '1xBet covers more football markets than almost any other bookmaker, with excellent live betting options.', features: ['300+ markets', 'Live streaming', 'Cryptocurrency accepted', 'Fast withdrawals'], url: '#' }
+];
+const BETTING_GUIDES = [
+  { slug: 'betting-odds-explained', title: 'Betting Odds Explained', desc: 'Learn how to read and calculate football betting odds — fractional, decimal and American formats explained with examples.', body: `<h2 class="text-xl font-extrabold mt-6">What are betting odds?</h2><p class="mt-2 text-zinc-700">Betting odds represent the probability of an outcome occurring and determine how much you can win from a bet. Understanding odds is fundamental to making informed football predictions.</p><h2 class="text-xl font-extrabold mt-6">Decimal odds (European)</h2><p class="mt-2 text-zinc-700">Decimal odds show your total return per £1 wagered. For example, odds of 2.50 mean you receive £2.50 back for every £1 bet (including your stake). To calculate: Stake × Odds = Total Return.</p><h2 class="text-xl font-extrabold mt-6">Fractional odds (UK)</h2><p class="mt-2 text-zinc-700">Fractional odds show your profit relative to your stake. Odds of 5/1 mean you win £5 for every £1 bet. To convert to decimal: divide and add 1 (5/1 = 6.00).</p><h2 class="text-xl font-extrabold mt-6">American odds (US)</h2><p class="mt-2 text-zinc-700">Positive odds (+200) show profit on a $100 stake. Negative odds (-150) show how much you need to bet to win $100.</p><h2 class="text-xl font-extrabold mt-6">How our model calculates fair odds</h2><p class="mt-2 text-zinc-700">XWhiz uses the Dixon-Coles statistical model to calculate true probabilities for every outcome. Fair odds are then derived as 1/probability, adjusted for bookmaker margin. This gives you a benchmark to compare against bookmaker prices and find value bets.</p>` },
+  { slug: 'draw-no-bet-explained', title: 'Draw No Bet Meaning', desc: 'What does Draw No Bet (DNB) mean in football betting? Learn how DNB removes the draw from the equation and reduces your risk.', body: `<h2 class="text-xl font-extrabold mt-6">What is Draw No Bet?</h2><p class="mt-2 text-zinc-700">Draw No Bet (DNB) is a betting market that removes the draw outcome from the 1X2 equation. If your selected team wins, you win. If the match ends in a draw, your stake is refunded. You only lose if your team loses.</p><h2 class="text-xl font-extrabold mt-6">When to use Draw No Bet</h2><p class="mt-2 text-zinc-700">DNB is popular for matches where you fancy a team to win but want insurance against a draw. It's especially useful in knockout competitions or when backing an underdog.</p><h2 class="text-xl font-extrabold mt-6">DNB vs Double Chance</h2><p class="mt-2 text-zinc-700">Double Chance (1X, X2, 12) covers two outcomes but at lower odds. DNB only covers one team but refunds the draw — often offering better value when the draw probability is low.</p>` },
+  { slug: 'asian-handicap-explained', title: 'Asian Handicap Betting', desc: 'Complete guide to Asian Handicap betting — how handicap lines work, why they eliminate draws, and how to find value.', body: `<h2 class="text-xl font-extrabold mt-6">What is Asian Handicap?</h2><p class="mt-2 text-zinc-700">Asian Handicap is a form of football betting that eliminates the draw by giving one team a goal advantage or disadvantage. This creates a two-outcome market, similar to tennis.</p><h2 class="text-xl font-extrabold mt-6">How handicap lines work</h2><p class="mt-2 text-zinc-700">A -0.5 handicap means the team must win by at least one goal. A -1.0 handicap means they must win by two or more. If the margin matches the handicap exactly, your stake is refunded (with quarter lines offering half-win/half-loss).</p><h2 class="text-xl font-extrabold mt-6">Why use Asian Handicap?</h2><p class="mt-2 text-zinc-700">Asian Handicap offers better odds than the 1X2 market because it removes the draw. It's popular with statistical bettors because it aligns with expected goal models — our Dixon-Coles model outputs Asian Handicap predictions for every match.</p>` },
+  { slug: 'over-under-2-5-explained', title: 'Over/Under 2.5 Goals Betting', desc: 'How Over/Under 2.5 goals betting works, when to back Over 2.5, and how our Dixon-Coles model predicts total goals.', body: `<h2 class="text-xl font-extrabold mt-6">What is Over/Under 2.5?</h2><p class="mt-2 text-zinc-700">Over 2.5 means you bet on three or more goals being scored in the match. Under 2.5 means two or fewer goals. It's one of the most popular football betting markets because it doesn't depend on which team wins.</p><h2 class="text-xl font-extrabold mt-6">How our model predicts totals</h2><p class="mt-2 text-zinc-700">The Dixon-Coles model estimates expected goals (xG) for each team based on their attack strength, defensive strength, and home advantage. The combined xG determines the Over/Under probability. When combined xG exceeds 2.5, the model favours Over 2.5.</p><h2 class="text-xl font-extrabold mt-6">When to back Over 2.5</h2><p class="mt-2 text-zinc-700">Over 2.5 typically offers value when both teams have strong attacks and weak defences. Derbies and matches between top-half teams often produce high-scoring games.</p>` },
+  { slug: 'btts-prediction-guide', title: 'BTTS Prediction Guide', desc: 'How Both Teams To Score (BTTS) predictions work, what factors the model considers, and how to use BTTS in accumulators.', body: `<h2 class="text-xl font-extrabold mt-6">What is BTTS?</h2><p class="mt-2 text-zinc-700">BTTS (Both Teams To Score) is a betting market where you predict whether both teams will score at least one goal during the match. It doesn't matter who wins — both teams just need to find the net.</p><h2 class="text-xl font-extrabold mt-6">How our BTTS model works</h2><p class="mt-2 text-zinc-700">Our Dixon-Coles model calculates the probability that each team scores at least one goal. BTTS Yes probability = 1 - P(Home 0) - P(Away 0) + P(Both 0). When this probability exceeds 55%, we flag it as a BTTS tip.</p><h2 class="text-xl font-extrabold mt-6">BTTS in accumulators</h2><p class="mt-2 text-zinc-700">BTTS selections often offer good accumulator legs because the odds are typically between 1.70-2.20. Combined with strong statistical backing, BTTS can add value to accumulators without the risk of backing a specific result.</p>` }
+];
+const LEAGUE_INTROS = {
+  'Premier League': { title: 'Premier League Predictions Today', desc: 'Free Premier League predictions today with statistical analysis, expected goals, 1X2 tips and correct score probabilities from the Dixon-Coles model.', body: `<p class="mt-3 text-zinc-700">The Premier League is the most-watched football league in the world, and our Dixon-Coles model provides statistical predictions for every match. We analyse team strength from Elo ratings and real league standings, then calculate expected goals, 1X2 probabilities, Over/Under 2.5, BTTS and the most likely correct score.</p><h2 class="mt-6 text-xl font-extrabold">How we predict Premier League matches</h2><p class="mt-2 text-zinc-700">Our model uses historical data from hundreds of Premier League matches to calibrate team attack and defence ratings. These are combined with Elo ratings for a robust strength estimate. The Dixon-Coles adjustment corrects for the low-scoring nature of football, giving accurate probabilities for 0-0, 1-0, 0-1 and 1-1 draws.</p><h2 class="mt-6 text-xl font-extrabold">Premier League betting markets</h2><p class="mt-2 text-zinc-700">We cover all major Premier League betting markets: 1X2, Double Chance, Over/Under 2.5 goals, Both Teams To Score, correct score, Asian handicap and both-half predictions. Every pick includes fair odds so you can compare against your bookmaker.</p>` },
+  'La Liga': { title: 'La Liga Predictions Today', desc: 'Free La Liga predictions today with statistical analysis, expected goals, 1X2 tips and correct score probabilities from the Dixon-Coles model.', body: `<p class="mt-3 text-zinc-700">La Liga features some of the most technically gifted teams in world football. Our model analyses every La Liga fixture with the same rigorous statistical approach used for the Premier League, covering Real Madrid, Barcelona, Atletico Madrid and all 20 teams.</p><h2 class="mt-6 text-xl font-extrabold">La Liga prediction methodology</h2><p class="mt-2 text-zinc-700">We combine Elo ratings with La Liga standings data to calculate attack and defence strength ratings for each team. The Dixon-Coles Poisson model then generates expected goals and full market probabilities. La Liga matches tend to be lower-scoring than the Premier League, which the model accounts for naturally.</p>` },
+  'Bundesliga': { title: 'Bundesliga Predictions Today', desc: 'Free Bundesliga predictions today with statistical analysis, expected goals, 1X2 tips and correct score probabilities from the Dixon-Coles model.', body: `<p class="mt-3 text-zinc-700">The Bundesliga is known for its high-scoring, attacking football. Our Dixon-Coles model captures this with accurate expected goals estimates that reflect the league's attacking nature. We cover Bayern Munich, Borussia Dortmund, Bayer Leverkusen and all 18 teams.</p><h2 class="mt-6 text-xl font-extrabold">Bundesliga goals market</h2><p class="mt-2 text-zinc-700">Bundesliga matches average more goals than most European leagues, making Over 2.5 and BTTS markets particularly interesting. Our model shows Bundesliga Over 2.5 probability typically runs 5-8% higher than equivalent Premier League fixtures.</p>` },
+  'Serie A': { title: 'Serie A Predictions Today', desc: 'Free Serie A predictions today with statistical analysis, expected goals, 1X2 tips and correct score probabilities from the Dixon-Coles model.', body: `<p class="mt-3 text-zinc-700">Serie A is Italy's top flight, featuring tactical football with a strong defensive tradition. Our model accounts for Serie A's typically lower-scoring nature when calculating expected goals and market probabilities. We cover Inter, Napoli, AC Milan, Juventus and all 20 teams.</p><h2 class="mt-6 text-xl font-extrabold">Serie A prediction特点</h2><p class="mt-2 text-zinc-700">Serie A matches often produce fewer goals than other top European leagues, which our model reflects in its Under 2.5 predictions. The league's competitive balance means draws are more common, and our model captures this through accurate draw probability estimates.</p>` },
+  'Ligue 1': { title: 'Ligue 1 Predictions Today', desc: 'Free Ligue 1 predictions today with statistical analysis, expected goals, 1X2 tips and correct score probabilities from the Dixon-Coles model.', body: `<p class="mt-3 text-zinc-700">Ligue 1 features Paris Saint-Germain alongside competitive sides like Monaco, Marseille and Lyon. Our model provides statistical predictions for every Ligue 1 fixture, accounting for the league's unique competitive dynamics.</p><h2 class="mt-6 text-xl font-extrabold">Ligue 1 statistical analysis</h2><p class="mt-2 text-zinc-700">Our Dixon-Coles model combines Elo ratings with Ligue 1 standings to produce accurate expected goals. PSG's dominance affects the league's statistical profile, and our model accounts for this when predicting matches involving the Parisian club.</p>` }
+};
 const LEGAL = {
   about: {
     en: { title: 'About XWhiz | Independent football predictions', desc: 'XWhiz publishes free, independent statistical football predictions from a Dixon-Coles + Elo model on real fixtures only. Learn who we are and how we are funded.', h1: 'About XWhiz', body: `<p class="mt-3 text-zinc-700">XWhiz is an independent football predictions site. Every day our model analyses real fixtures and publishes 1X2, Over/Under 2.5, BTTS and most-likely-score probabilities — free, with no account and no invented matches.</p><h2 class="mt-6 text-xl font-extrabold">Who runs XWhiz</h2><p class="mt-2 text-zinc-700">XWhiz is maintained by the XWhiz Data Team, who build and operate the prediction pipeline: data ingestion, the Dixon-Coles + Elo model, and this website. Editorial responsibility sits with the team as a whole; we do not publish anonymous tips.</p><h2 class="mt-6 text-xl font-extrabold">How we are funded</h2><p class="mt-2 text-zinc-700">XWhiz is free and affiliate-funded. Pages may contain Melbet affiliate links, always labelled and disclosed. If you register via those links we may earn a commission at no extra cost to you. Affiliate revenue never changes a pick: the model output is published as computed.</p><h2 class="mt-6 text-xl font-extrabold">Our principles</h2><ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1"><li>Real fixtures only — never fabricated matches or scores.</li><li>Probabilities, not promises — every pick states its confidence.</li><li>18+ only — gamble responsibly. See our <a class="underline font-semibold" href="/safer-gambling/">safer gambling</a> page.</li></ul>` },
@@ -1342,6 +1373,11 @@ function buildSitemap() {
   add({ type: 'news' }, 'daily', '0.8');
   NEWS_CATS.forEach(c => add({ type: 'newsCat', arg: c }, 'daily', '0.6'));
   LEGAL_TYPES.forEach(lt => add({ type: lt }, 'monthly', '0.5'));
+  add({ type: 'bonusCodes' }, 'monthly', '0.6');
+  BONUS_CODES.forEach(b => add({ type: 'bonusCode', arg: b.slug }, 'monthly', '0.5'));
+  add({ type: 'bettingGuides' }, 'monthly', '0.7');
+  BETTING_GUIDES.forEach(g => add({ type: 'bettingGuide', arg: g.slug }, 'monthly', '0.6'));
+  [...LEAGUES.keys()].forEach(s => { if (LEAGUE_INTROS[LEAGUES.get(s).name]) add({ type: 'leaguePreds', arg: s }, 'daily', '0.8'); });
   MATCHES.forEach(m => add({ type: 'pred', arg: m.slug }, 'daily', '0.8'));
   const byLoc = loc => entries.filter(e => e.ll === loc);
   const linkFor = e => {
@@ -1356,6 +1392,199 @@ function buildSitemap() {
   return xml;
 }
 
+// ---- Bonus Codes pages ----
+function bonusCodesPage(loc) {
+  const cards = BONUS_CODES.map(b => `<div class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50 transition">
+    <div class="flex items-center justify-between"><div class="font-extrabold text-lg">${esc(b.name)}</div><span class="bg-brand-600 text-white px-3 py-1 rounded-full text-xs font-bold">${esc(b.rating)}</span></div>
+    <p class="mt-2 text-sm text-zinc-600">${esc(b.desc)}</p>
+    <div class="mt-3 flex flex-wrap gap-1.5">${b.features.map(f => `<span class="bg-zinc-100 text-zinc-700 px-2 py-0.5 rounded-full text-xs">${esc(f)}</span>`).join('')}</div>
+    <div class="mt-3 flex items-center justify-between"><span class="bg-green-50 text-green-700 px-3 py-1 rounded-full text-xs font-bold">${esc(b.bonus)}</span><a href="${esc(b.url)}" target="_blank" rel="sponsored nofollow noopener" class="bg-brand-600 hover:bg-brand-700 text-white font-bold px-4 py-2 rounded-full text-xs">Claim →</a></div>
+    <p class="mt-2 text-[10px] text-zinc-400">Promo code: ${esc(b.code)} · 18+ · Gamble responsibly</p>
+  </div>`).join('');
+  const body = `
+<main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { label: tR(loc, 'bonusCodes.title') }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${tR(loc, 'bonusCodes.h1')}</h1>
+<p class="mt-2 text-zinc-600">${tR(loc, 'bonusCodes.desc')}</p>
+<p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Updated ${esc(todayISO())}</p>
+<div class="mt-6 space-y-4">${cards}</div>
+<div class="mt-10 p-6 bg-zinc-900 text-white rounded-3xl">
+  <h2 class="text-xl font-extrabold">${tR(loc, 'bonusCodes.whyTitle')}</h2>
+  <p class="mt-2 text-sm text-zinc-300">${tR(loc, 'bonusCodes.whyBody')}</p>
+</div>
+${faqBlock(loc, [
+  { q: tR(loc, 'bonusCodes.faq1q'), a: tR(loc, 'bonusCodes.faq1a') },
+  { q: tR(loc, 'bonusCodes.faq2q'), a: tR(loc, 'bonusCodes.faq2a') },
+  { q: tR(loc, 'bonusCodes.faq3q'), a: tR(loc, 'bonusCodes.faq3a') }
+])}
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: tR(loc, 'bonusCodes.pageTitle'), desc: tR(loc, 'bonusCodes.pageDesc'), page: { type: 'bonusCodes' },
+    canonical: `${SITE}${pageUrl(loc, { type: 'bonusCodes' })}`, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'ItemList', name: tR(loc, 'bonusCodes.h1'), itemListElement: BONUS_CODES.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: `${b.name} bonus code — ${b.bonus}`, url: `${SITE}${pageUrl(loc, { type: 'bonusCode', arg: b.slug })}` })) },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'bonusCodes.title'), item: `${SITE}${pageUrl(loc, { type: 'bonusCodes' })}` }] }
+    ]
+  });
+}
+
+function bonusCodeDetailPage(loc, bonus) {
+  const url = `${SITE}${pageUrl(loc, { type: 'bonusCode', arg: bonus.slug })}`;
+  const body = `
+<main class="max-w-4xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'bonusCodes' }), label: tR(loc, 'bonusCodes.title') }, { label: bonus.name }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(bonus.name)} Bonus Code ${esc(bonus.code)}</h1>
+<p class="mt-2 text-zinc-600">${esc(bonus.desc)}</p>
+<div class="mt-4 flex flex-wrap gap-3 text-xs">
+  <span class="bg-brand-600 text-white px-3 py-1.5 rounded-full font-bold">${esc(bonus.rating)} rating</span>
+  <span class="bg-green-50 text-green-700 px-3 py-1.5 rounded-full font-bold">${esc(bonus.bonus)}</span>
+  <span class="bg-zinc-100 text-zinc-700 px-3 py-1.5 rounded-full font-bold">Code: ${esc(bonus.code)}</span>
+</div>
+<div class="mt-6 grid sm:grid-cols-2 gap-4">
+  <div class="border border-zinc-200 rounded-2xl p-5"><h3 class="font-extrabold">Features</h3><ul class="mt-2 space-y-1 text-sm text-zinc-700">${bonus.features.map(f => `<li>• ${esc(f)}</li>`).join('')}</ul></div>
+  <div class="border border-zinc-200 rounded-2xl p-5"><h3 class="font-extrabold">How to claim</h3><ol class="mt-2 space-y-1 text-sm text-zinc-700 list-decimal pl-4"><li>Click "Claim" below</li><li>Register a new account</li><li>Enter code: <strong>${esc(bonus.code)}</strong></li><li>Make a qualifying deposit</li><li>Receive your welcome bonus</li></ol></div>
+</div>
+<a href="${esc(bonus.url)}" target="_blank" rel="sponsored nofollow noopener" class="mt-6 block bg-brand-600 hover:bg-brand-700 text-white text-center font-black px-8 py-4 rounded-full">Claim ${esc(bonus.name)} bonus →</a>
+<p class="mt-3 text-xs text-zinc-400 text-center">18+ only · Gamble responsibly · <a href="https://www.begambleaware.org" target="_blank" rel="nofollow noopener" class="underline">BeGambleAware.org</a></p>
+<h2 class="mt-10 text-2xl font-extrabold">Why we recommend ${esc(bonus.name)}</h2>
+<p class="mt-3 text-zinc-700">${esc(bonus.desc)} Our prediction model works alongside any licensed bookmaker — always compare odds before placing a bet.</p>
+${faqBlock(loc, [
+  { q: `What is the ${bonus.name} promo code?`, a: `The ${bonus.name} promo code is ${bonus.code}. Enter it during registration to claim the welcome bonus: ${bonus.bonus}.` },
+  { q: `Is ${bonus.name} safe and licensed?`, a: `Yes, ${bonus.name} is a licensed and regulated bookmaker. Always gamble responsibly and only bet what you can afford to lose.` }
+])}
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: `${bonus.name} Bonus Code ${bonus.code} — ${tR(loc, 'bonusCodes.pageTitle')} | XWhiz`, desc: `${bonus.name} bonus code: ${bonus.code} — ${bonus.bonus}. ${bonus.desc}`,
+    canonical: url, page: { type: 'bonusCode', arg: bonus.slug }, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'Product', name: `${bonus.name} Bonus Code`, description: bonus.desc, brand: { '@type': 'Brand', name: bonus.name }, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', description: bonus.bonus } },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'bonusCodes.title'), item: `${SITE}${pageUrl(loc, { type: 'bonusCodes' })}` }, { '@type': 'ListItem', position: 3, name: bonus.name, item: url }] }
+    ]
+  });
+}
+
+// ---- Betting Guides pages ----
+function bettingGuidesPage(loc) {
+  const cards = BETTING_GUIDES.map(g => `<a href="${pageUrl(loc, { type: 'bettingGuide', arg: g.slug })}" class="border border-zinc-200 rounded-2xl p-5 hover:bg-zinc-50 hover:shadow-sm transition block">
+    <h2 class="font-extrabold text-lg">${esc(g.title)}</h2>
+    <p class="mt-2 text-sm text-zinc-600">${esc(g.desc)}</p>
+    <span class="mt-3 inline-block text-sm font-bold text-brand-700">Read guide →</span>
+  </a>`).join('');
+  const body = `
+<main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { label: tR(loc, 'bettingGuides.title') }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${tR(loc, 'bettingGuides.h1')}</h1>
+<p class="mt-2 text-zinc-600">${tR(loc, 'bettingGuides.desc')}</p>
+<div class="mt-6 grid sm:grid-cols-2 gap-4">${cards}</div>
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: tR(loc, 'bettingGuides.pageTitle'), desc: tR(loc, 'bettingGuides.pageDesc'), page: { type: 'bettingGuides' },
+    canonical: `${SITE}${pageUrl(loc, { type: 'bettingGuides' })}`, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'ItemList', name: tR(loc, 'bettingGuides.h1'), itemListElement: BETTING_GUIDES.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.title, url: `${SITE}${pageUrl(loc, { type: 'bettingGuide', arg: g.slug })}` })) },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'bettingGuides.title'), item: `${SITE}${pageUrl(loc, { type: 'bettingGuides' })}` }] }
+    ]
+  });
+}
+
+function bettingGuideDetailPage(loc, guide) {
+  const url = `${SITE}${pageUrl(loc, { type: 'bettingGuide', arg: guide.slug })}`;
+  const body = `
+<main class="max-w-4xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'bettingGuides' }), label: tR(loc, 'bettingGuides.title') }, { label: guide.title }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(guide.title)}</h1>
+<p class="mt-2 text-zinc-600">${esc(guide.desc)}</p>
+<p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Last updated ${esc(todayISO())}</p>
+<article class="mt-6 prose prose-zinc max-w-none text-zinc-700 leading-relaxed">
+${guide.body}
+</article>
+<div class="mt-8 flex flex-wrap gap-3">
+  <a href="${pageUrl(loc, { type: 'predictor' })}" class="bg-brand-600 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-full">Try our free predictor →</a>
+  <a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-100 hover:bg-zinc-200 font-bold px-6 py-3 rounded-full">Today's predictions →</a>
+</div>
+${faqBlock(loc, [
+  { q: `What is ${guide.title.toLowerCase()}?`, a: guide.desc },
+  { q: 'How does the XWhiz model work?', a: 'XWhiz uses a Dixon-Coles adjusted Poisson model combined with Elo ratings to calculate expected goals and market probabilities for every match.' }
+])}
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: `${guide.title} | XWhiz Betting Guide`, desc: guide.desc,
+    canonical: url, page: { type: 'bettingGuide', arg: guide.slug }, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'Article', headline: guide.title, datePublished: todayISO(), dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz' }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: guide.desc },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'bettingGuides.title'), item: `${SITE}${pageUrl(loc, { type: 'bettingGuides' })}` }, { '@type': 'ListItem', position: 3, name: guide.title, item: url }] }
+    ]
+  });
+}
+
+// ---- League-specific prediction pages with unique editorial content ----
+function leaguePredsPage(loc, slug, lg) {
+  const name = lg.name;
+  const intros = LEAGUE_INTROS[name] || { title: `${name} Predictions Today`, desc: `Free ${name} predictions today with statistical analysis from the Dixon-Coles model.`, body: `<p class="mt-3 text-zinc-700">Our statistical model provides predictions for every ${name} fixture, updated daily at 06:00 UTC.</p>` };
+  const preds = MATCHES.filter(m => m.league === name);
+  const cards = preds.map(m => predCard(loc, m)).join('');
+  const upcoming = UPCOMING.filter(m => compName(m) === name).slice(0, 8);
+  const upcomingRows = upcoming.map(m => homeMatchRow(loc, m)).join('');
+  const url = `${SITE}${pageUrl(loc, { type: 'leaguePreds', arg: slug })}`;
+  const body = `
+<main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
+${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'football' }), label: tR(loc, 'nav.football') }, { href: pageUrl(loc, { type: 'league', arg: slug }), label: name }, { label: 'Predictions' }])}
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${esc(intros.title)}</h1>
+<p class="mt-2 text-zinc-600">${esc(intros.desc)}</p>
+<p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Updated daily at 06:00 UTC · ${preds.length} matches today</p>
+<article class="mt-6 text-sm text-zinc-700 leading-relaxed">${intros.body}</article>
+<div class="mt-8">
+  <h2 class="text-xl font-extrabold">Today's ${esc(name)} predictions</h2>
+  <div class="mt-4 grid md:grid-cols-2 gap-4">${cards || `<div class="col-span-full p-6 border border-zinc-200 rounded-2xl text-sm text-zinc-600">${tR(loc, 'predHub.empty')}</div>`}</div>
+</div>
+${upcomingRows ? `<div class="mt-10"><h2 class="text-xl font-extrabold">Upcoming ${esc(name)} fixtures</h2><div class="mt-4 space-y-2">${upcomingRows}</div></div>` : ''}
+<div class="mt-8 flex flex-wrap gap-3">
+  <a href="${pageUrl(loc, { type: 'league', arg: slug })}" class="bg-zinc-900 text-white font-bold px-6 py-3 rounded-full">← ${esc(name)} overview</a>
+  <a href="${pageUrl(loc, { type: 'predIndex' })}" class="bg-zinc-100 font-bold px-6 py-3 rounded-full">All predictions today →</a>
+</div>
+${rgNote(loc)}
+</main>`;
+  return shell(loc, {
+    title: `${intros.title} | XWhiz`, desc: intros.desc, page: { type: 'leaguePreds', arg: slug },
+    canonical: url, body,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'ItemList', name: intros.title, itemListElement: preds.slice(0, 10).map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: `${m.home} vs ${m.away} — ${m.pred} @ ${m.odds}`, url: `${SITE}${pageUrl(loc, { type: 'pred', arg: m.slug })}` })) },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: tR(loc, 'nav.football'), item: `${SITE}${pageUrl(loc, { type: 'football' })}` }, { '@type': 'ListItem', position: 3, name: `${name} Predictions`, item: url }] }
+    ]
+  });
+}
+
+function buildRssFeed() {
+  const items = MATCHES.slice(0, 50).map(m => {
+    const pubDate = new Date(m.utcDate).toUTCString();
+    return `  <item>
+    <title>${esc(m.home)} vs ${esc(m.away)} — ${esc(m.pred)} @ ${esc(m.odds)}</title>
+    <link>${SITE}/predictions/${m.slug}.html</link>
+    <guid isPermaLink="true">${SITE}/predictions/${m.slug}.html</guid>
+    <pubDate>${pubDate}</pubDate>
+    <description>${esc(m.league)} — ${m.conf}% confidence. ${esc(m.pred)} at ${esc(m.odds)}. Match kickoff: ${pubDate}.</description>
+    <category>${esc(m.league)}</category>
+  </item>`;
+  }).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>XWhiz — Football Predictions</title>
+  <link>${SITE}</link>
+  <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
+  <language>en</language>
+  <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+  <atom:link href="${SITE}/feed.xml" rel="self" type="application/rss+xml"/>
+${items}
+</channel>
+</rss>
+`;
+}
+
 function buildRobotsTxt() {
   return `User-agent: *
 Allow: /
@@ -1365,6 +1594,12 @@ Disallow: /fr/search.html
 Disallow: /ar/search.html
 Disallow: /fr/404.html
 Disallow: /ar/404.html
+Disallow: /football/fixtures/
+Disallow: /football/results/
+Disallow: /fr/football/fixtures/
+Disallow: /fr/football/results/
+Disallow: /ar/football/fixtures/
+Disallow: /ar/football/results/
 
 Sitemap: ${SITE}/sitemap.xml
 `;
@@ -1412,6 +1647,10 @@ function buildSearchIndex(loc) {
     const L = (LEGAL[lt] && LEGAL[lt][loc]) || LEGAL[lt].en;
     pages.push({ t: L.h1 + ' — XWhiz', u: pageUrl(loc, { type: lt }), d: L.desc.slice(0, 160) });
   });
+  pages.push({ t: t(loc, 'bonusCodes.title') + ' — XWhiz', u: pageUrl(loc, { type: 'bonusCodes' }), d: t(loc, 'bonusCodes.desc').slice(0, 160) });
+  BONUS_CODES.forEach(b => pages.push({ t: b.name + ' Bonus Code — XWhiz', u: pageUrl(loc, { type: 'bonusCode', arg: b.slug }), d: b.desc.slice(0, 160) }));
+  pages.push({ t: t(loc, 'bettingGuides.title') + ' — XWhiz', u: pageUrl(loc, { type: 'bettingGuides' }), d: t(loc, 'bettingGuides.desc').slice(0, 160) });
+  BETTING_GUIDES.forEach(g => pages.push({ t: g.title + ' — XWhiz', u: pageUrl(loc, { type: 'bettingGuide', arg: g.slug }), d: g.desc.slice(0, 160) }));
   const matches = MATCHES.map(m => ({ t: `${m.home} ${t(loc, 'detail.vs')} ${m.away} — ${m.pred} @ ${m.odds}`, u: pageUrl(loc, { type: 'pred', arg: m.slug }), d: `${m.league} • ${m.conf}% ${t(loc, 'market.conf')} • ${fmtDate(loc, m.utcDate)}` }));
   const news = NEWS.map(n => ({ t: n.title, u: n.url || pfx + '/news/', d: `${n.league || n.category || ''} • ${n.source || ''}` }));
   return { pages, matches, news };
@@ -1420,7 +1659,7 @@ function buildSearchIndex(loc) {
 // ---- build & write ----
 function purge() {
   // predictions/ and news/ contain only generated HTML (their .json live at root).
-  for (const d of ['predictions', 'news', 'fr', 'ar']) {
+  for (const d of ['predictions', 'news', 'fr', 'ar', 'bonus-codes', 'betting-guides']) {
     const full = path.join(ROOT, d);
     if (fs.existsSync(full)) fs.rmSync(full, { recursive: true, force: true });
   }
@@ -1475,12 +1714,18 @@ function main() {
     writePath(rel + 'news/index.html', newsIndexPage(loc));
     NEWS_CATS.forEach(c => writePath(rel + `news/${c}/index.html`, newsCatPage(loc, c)));
     LEGAL_TYPES.forEach(lt => writePath(rel + `${lt}/index.html`, legalPage(loc, lt)));
+    writePath(rel + 'bonus-codes/index.html', bonusCodesPage(loc));
+    BONUS_CODES.forEach(b => writePath(rel + `bonus-codes/${b.slug}/index.html`, bonusCodeDetailPage(loc, b)));
+    writePath(rel + 'betting-guides/index.html', bettingGuidesPage(loc));
+    BETTING_GUIDES.forEach(g => writePath(rel + `betting-guides/${g.slug}/index.html`, bettingGuideDetailPage(loc, g)));
+    [...LEAGUES.keys()].forEach(s => { if (LEAGUE_INTROS[LEAGUES.get(s).name]) writePath(rel + `football/leagues/${s}/predictions/index.html`, leaguePredsPage(loc, s, LEAGUES.get(s))); });
     writePath(rel + 'search-index.json', JSON.stringify(buildSearchIndex(loc)));
   }
 
   writePath('sitemap.xml', buildSitemap());
   writePath('robots.txt', buildRobotsTxt());
   writePath('llms.txt', buildLlmsText());
+  writePath('feed.xml', buildRssFeed());
   console.log('Done.');
 }
 

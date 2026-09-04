@@ -43,6 +43,12 @@
 <script defer src="/xwhiz-3d.js"></script>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#16a34a">
+<link rel="manifest" href="/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="XWhiz">
+<link rel="alternate" type="application/rss+xml" title="XWhiz Predictions RSS" href="/feed.xml">
 
 
 <style>/* ---- XWhiz 3D football effects (progressive enhancement, GPU-light) ---- */
@@ -54,7 +60,7 @@
 @media (max-width:767px){.xw-hero{display:none}}
 @media (prefers-reduced-motion: reduce){.xw-ball,.xw-shadow{animation:none}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Méthodologie des pronostics","datePublished":"2026-09-03","dateModified":"2026-09-03","author":{"@type":"Organization","name":"XWhiz Data Team","url":"https://xwhiz.com"},"publisher":{"@type":"Organization","name":"XWhiz","logo":{"@type":"ImageObject","url":"https://xwhiz.com/logo.png"}},"image":"https://xwhiz.com/og-image.png","mainEntityOfPage":"https://xwhiz.com/fr/methodology/","isAccessibleForFree":true,"description":"Comment fonctionnent les pronostics XWhiz : classements Elo, buts attendus de Poisson Dixon-Coles, matrice des scores pour 1N2, Plus/Moins 2,5, BTTS et score exact. Mis à jour chaque jour."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Méthodologie des pronostics","datePublished":"2026-09-04","dateModified":"2026-09-04","author":{"@type":"Organization","name":"XWhiz Data Team","url":"https://xwhiz.com"},"publisher":{"@type":"Organization","name":"XWhiz","logo":{"@type":"ImageObject","url":"https://xwhiz.com/logo.png"}},"image":"https://xwhiz.com/og-image.png","mainEntityOfPage":"https://xwhiz.com/fr/methodology/","isAccessibleForFree":true,"description":"Comment fonctionnent les pronostics XWhiz : classements Elo, buts attendus de Poisson Dixon-Coles, matrice des scores pour 1N2, Plus/Moins 2,5, BTTS et score exact. Mis à jour chaque jour."}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://xwhiz.com/fr/"},{"@type":"ListItem","position":2,"name":"Méthodologie","item":"https://xwhiz.com/fr/methodology/"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"XWhiz","url":"https://xwhiz.com","logo":{"@type":"ImageObject","url":"https://xwhiz.com/logo.png"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer support","url":"https://xwhiz.com"}]}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"XWhiz","url":"https://xwhiz.com/fr/","inLanguage":"fr","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://xwhiz.com/fr/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
@@ -91,7 +97,7 @@
 <main class="max-w-3xl mx-auto px-4 md:px-6 py-8">
 <nav class="text-xs text-zinc-500 flex flex-wrap items-center gap-1" aria-label="Breadcrumb"><a href="/fr/" class="hover:underline">Accueil</a><span aria-hidden="true"> › </span><span aria-current="page">Méthodologie</span></nav>
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">Méthodologie des pronostics</h1>
-<p class="mt-2 text-xs text-zinc-400">By XWhiz Data Team · Updated 2026-09-03 · Model Dixon-Coles v3</p>
+<p class="mt-2 text-xs text-zinc-400">By XWhiz Data Team · Updated 2026-09-04 · Model Dixon-Coles v3</p>
 <div class="mt-4 leading-relaxed"><p class="mt-3 text-zinc-700">Chaque match est évalué comme un événement indépendant. La force des équipes vient de notes de type Elo combinées aux vrais classements (attaque et défense par match par rapport à la moyenne du championnat). Les buts attendus alimentent un modèle de Poisson ajusté Dixon-Coles, qui produit une matrice complète des scores de 0 à 6 buts.</p><ul class="mt-3 list-disc pl-5 text-zinc-700 space-y-1"><li><strong>1N2 :</strong> probabilités domicile/nul/extérieur sommées depuis la matrice.</li><li><strong>Plus/Moins 2,5 et BTTS :</strong> issus de la même matrice, pas de formules séparées.</li><li><strong>Score exact :</strong> l'argmax de la matrice — le score unique le plus probable — d'où une variété naturelle.</li><li><strong>Cotes affichées :</strong> cotes équitables (100 ÷ probabilité), pas des cotes bookmaker.</li></ul><h2 class="mt-6 text-xl font-extrabold">Ce que le modèle ne voit pas</h2><p class="mt-2 text-zinc-700">Blessures de dernière minute, suspensions, turnover, météo et motivation ne sont pas dans les chiffres. Considérez chaque pronostic comme une estimation de probabilité avec sa confiance affichée — jamais une garantie de gain. Actualisation chaque jour à 06h00 UTC.</p></div>
 <div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-xs leading-relaxed">Jeu responsable : nos pronostics sont une analyse statistique informative — ils ne garantissent aucun gain. 18+. Ne misez jamais plus que ce que vous pouvez vous permettre de perdre. · <a href="https://www.begambleaware.org" target="_blank" rel="nofollow noopener" class="underline font-semibold">Aide au jeu responsable</a></div>
 </main>

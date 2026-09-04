@@ -6,5 +6,11 @@ Disallow: /fr/search.html
 Disallow: /ar/search.html
 Disallow: /fr/404.html
 Disallow: /ar/404.html
+Disallow: /football/fixtures/
+Disallow: /football/results/
+Disallow: /fr/football/fixtures/
+Disallow: /fr/football/results/
+Disallow: /ar/football/fixtures/
+Disallow: /ar/football/results/
 
 Sitemap: https://xwhiz.com/sitemap.xml

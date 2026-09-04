@@ -158,7 +158,9 @@ const L = {
     },
     cta: { bet: 'Bet {pred} on Melbet', betHome: 'Bet on Melbet now', bonus: 'Promo code {code} · welcome bonus up to $130' },
     promo: { disclose: 'Affiliate link: we may earn a commission if you sign up via this link at no extra cost to you. 18+ only — gamble responsibly.' },
-    odds: { at: 'at', from: 'from', vs: 'vs' }
+    odds: { at: 'at', from: 'from', vs: 'vs' },
+    bonusCodes: { title: 'Bonus Codes', h1: 'Football Betting Bonus Codes', desc: 'Welcome bonus codes and promo offers from the best football bookmakers. Compare offers and claim your bonus.', pageTitle: 'Bonus Codes — Football Betting Offers | XWhiz', pageDesc: 'Compare welcome bonus codes from top football bookmakers. Melbet, Bet365, Betway and more — claim your bonus today.', whyTitle: 'Why use a bonus code?', whyBody: 'Bonus codes give you extra value when signing up for a new bookmaker account. Welcome bonuses can include free bets, deposit matches and enhanced odds. Always read the terms and conditions before claiming.', faq1q: 'Are bonus codes safe to use?', faq1a: 'Yes, all bookmakers listed are licensed and regulated. Bonus codes are a standard part of bookmaker marketing.', faq2q: 'Can I use multiple bonus codes?', faq2a: 'You can register with multiple bookmakers and claim each welcome offer. However, each offer is limited to one per household/IP address.', faq3q: 'Do bonus codes expire?', faq3a: 'Most bonus codes have an expiry date. Check the terms of each offer for the current validity period.' },
+    bettingGuides: { title: 'Betting Guides', h1: 'Football Betting Guides', desc: 'Learn how football betting works — from odds formats to Asian handicaps, Over/Under 2.5, BTTS and value betting strategies.', pageTitle: 'Football Betting Guides — Learn How to Bet | XWhiz', pageDesc: 'Comprehensive football betting guides covering odds, handicaps, Over/Under, BTTS and more. Learn the fundamentals of football betting.' }
   },
 
   fr: {
@@ -315,7 +317,9 @@ const L = {
     },
     cta: { bet: 'Parier {pred} chez Melbet', betHome: 'Pariez sur Melbet maintenant', bonus: 'Code promo {code} · bonus de bienvenue jusqu\'à 130 $' },
     promo: { disclose: 'Lien d\'affiliation : nous pouvons percevoir une commission si vous vous inscrivez via ce lien, sans frais supplémentaires pour vous. Réservé aux 18+ — jouez responsable.' },
-    odds: { at: 'à', from: 'de', vs: '–' }
+    odds: { at: 'à', from: 'de', vs: '–' },
+    bonusCodes: { title: 'Codes Promo', h1: 'Codes Promo de Paris Foot', desc: 'Offres de bienvenue et codes promo des meilleurs bookmakers de football. Comparez les offres et réclamez votre bonus.', pageTitle: 'Codes Promo — Offres de Paris Foot | XWhiz', pageDesc: 'Comparez les codes promo de bienvenue des meilleurs bookmakers de football. Melbet, Bet365, Betway et plus — réclamez votre bonus.', whyTitle: 'Pourquoi utiliser un code promo ?', whyBody: 'Les codes promo vous donnent une valeur ajoutée lors de l\'inscription chez un bookmaker. Les offres de bienvenue peuvent inclure des paris gratuits, des bonus de dépôt et des cotes améliorées. Lisez toujours les conditions avant de réclamer.', faq1q: 'Les codes promo sont-ils sûrs ?', faq1a: 'Oui, tous les bookmakers listés sont agréés et réglementés. Les codes promo font partie standard du marketing des bookmakers.', faq2q: 'Puis-je utiliser plusieurs codes promo ?', faq2a: 'Vous pouvez vous inscrire chez plusieurs bookmakers et réclamer chaque offre de bienvenue. Cependant, chaque offre est limitée à une par adresse IP/foyer.', faq3q: 'Les codes promo expirent-ils ?', faq3a: 'La plupart des codes promo ont une date d\'expiration. Vérifiez les conditions de chaque offre pour la période de validité.' },
+    bettingGuides: { title: 'Guides de Paris', h1: 'Guides de Paris Foot', desc: 'Apprenez comment fonctionnent les paris football — des formats de cotes aux Handicaps Asiatiques, Over/Under 2.5, BTTS et stratégies de valeur.', pageTitle: 'Guides de Paris Foot — Apprenez à Parier | XWhiz', pageDesc: 'Guides complets de Paris foot couvrant les cotes, handicaps, Over/Under, BTTS et plus. Apprenez les fondamentaux des Paris foot.' }
   },
 
   ar: {
@@ -472,7 +476,9 @@ const L = {
     },
     cta: { bet: 'اراهن بـ {pred} على Melbet', betHome: 'اراهن على Melbet الآن', bonus: 'رمز الترويج {code} · مكافأة ترحيب حتى 130$' },
     promo: { disclose: 'رابط إحالة: قد نحصل على عمولة إذا سجّلت عبر هذا الرابط دون أي تكلفة إضافية عليك. للمراهنين 18+ فقط — العب بمسؤولية.' },
-    odds: { at: 'عند', from: 'من', vs: 'ضد' }
+    odds: { at: 'عند', from: 'من', vs: 'ضد' },
+    bonusCodes: { title: 'أكواد الترويج', h1: 'أكواد مكافأة مراهنات كرة القدم', desc: 'عروض الترحيب وأكواد الترويج من أفضل موزعي المراهنات في كرة القدم. قارن العروض واطلب مكافأتك.', pageTitle: 'أكواد الترويج — عروض مراهنات كرة القدم | XWhiz', pageDesc: 'قارن أكواد مكافأة الترحيب من أفضل موزعي المراهنات في كرة القدم. Melbet، Bet365، Betway والمزيد — اطلب مكافأتك اليوم.', whyTitle: 'لماذا تستخدم كود ترويج؟', whyBody: 'أكواد الترويج تمنحك قيمة مضافة عند التسجيل لدى موزع مراهنات جديد. عروض الترحيب قد تتضمن مراهنات مجانية ومطابقة الإيداع وفرص محسّنة. اقرأ دائمًا الشروط والأحكام.', faq1q: 'هل أكواد الترويج آمنة للاستخدام؟', faq1a: 'نعم، جميع موزعي المراهنات المدرجين مرخصون ومخضعون للرقابة. أكواد الترويج جزء قياسي من تسويق موزعي المراهنات.', faq2q: 'هل يمكنني استخدام عدة أكواد ترويج؟', faq2a: 'يمكنك التسجيل لدى عدة موزعين وطلب كل عرض ترحيب. ومع ذلك، كل عرض محدود بواحد لكل عنوان IP.', faq3q: 'هل تنتهي صلاحية أكواد الترويج؟', faq3a: 'معظم أكواد الترويج لها تاريخ انتهاء. تحقق من شروط كل عرض لفترة الصلاحية الحالية.' },
+    bettingGuides: { title: 'أدلة المراهنات', h1: 'أدلة مراهنات كرة القدم', desc: 'تعرّف على كيفية عمل مراهنات كرة القدم — من صيغ الفرص إلى Handicap آسيوي، Over/Under 2.5، BTTS واستراتيجيات القيمة.', pageTitle: 'أدلة مراهنات كرة القدم — تعرّف على كيفية المراهنة | XWhiz', pageDesc: 'أدلة شاملة لمراHENات كرة القدم تغطي الفرص وال Handicap والOver/Under والBTTS والمزيد. تعرّف على أساسيات مراHENات كرة القدم.' }
   }
 };
 

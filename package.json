@@ -4,7 +4,7 @@
   "private": true,
   "description": "XWhiz static site build tooling (tailwindcss/postcss for scripts/build_css.js on CI)",
   "scripts": {
-    "build": "node scripts/fetch_news.js && node scripts/sitegen.js && node scripts/build_css.js && node scripts/verify.js"
+    "build": "node scripts/fetch_football.js && node scripts/generate-predictions.js && node scripts/fetch_news.js && node scripts/sitegen.js && node scripts/build_css.js && node scripts/verify.js"
   },
   "devDependencies": {
     "postcss": "^8.4.31",
