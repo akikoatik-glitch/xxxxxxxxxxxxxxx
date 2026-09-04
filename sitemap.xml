@@ -5761,66 +5761,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/wrexham-a/"/>
   </url>
   <url>
-    <loc>https://xwhiz.com/football/fixtures/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/fixtures/"/>
-  </url>
-  <url>
-    <loc>https://xwhiz.com/fr/football/fixtures/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/fixtures/"/>
-  </url>
-  <url>
-    <loc>https://xwhiz.com/ar/football/fixtures/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/fixtures/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/fixtures/"/>
-  </url>
-  <url>
-    <loc>https://xwhiz.com/football/results/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/results/"/>
-  </url>
-  <url>
-    <loc>https://xwhiz.com/fr/football/results/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/results/"/>
-  </url>
-  <url>
-    <loc>https://xwhiz.com/ar/football/results/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/results/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/results/"/>
-  </url>
-  <url>
     <loc>https://xwhiz.com/news/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>daily</changefreq>
