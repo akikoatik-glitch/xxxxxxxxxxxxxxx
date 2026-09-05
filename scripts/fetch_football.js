@@ -32,14 +32,62 @@ const API_FOOTBALL_KEY = process.env.API_FOOTBALL_KEY; // api-sports.io
 const { predict, rating } = require('./dixon_coles');
 
 // ── League priority & filtering ────────────────────────────────────────────
-// Top-5 European leagues get highest priority so they always surface first.
 // Curated "good leagues" list — youth/regional/women's noise is filtered out.
+// Order matters: top-5 European leagues surface first, then continental cups,
+// then national leagues grouped by region (Europe → Americas → Asia → Africa → Oceania).
 const LEAGUE_PRIORITY = [
+  // Tier 1 — Big-5 European leagues
   'Premier League', 'La Liga', 'Bundesliga', 'Serie A', 'Ligue 1',
+
+  // Tier 2 — Continental cups
   'UEFA Champions League', 'UEFA Europa League', 'UEFA Conference League',
+  'AFC Champions League', 'AFC Champions League Two',
+  'Copa Libertadores', 'Copa Sudamericana',
+  'CONCACAF Champions Cup', 'CONCACAF Champions League',
+  'CAF Champions League', 'CAF Confederation Cup',
+  'OFC Champions League',
+
+  // Tier 3 — European secondary + cups
   'Eredivisie', 'Primeira Liga', 'Championship', 'Brasileirão', 'Süper Lig',
   'FA Cup', 'Copa del Rey', 'DFB Pokal', 'Coppa Italia', 'Coupe de France',
-  'J1 League', 'K League 1', 'MLS', 'Saudi Pro League',
+  'Scottish Premiership', 'Belgian Pro League', 'Swiss Super League',
+  'Austrian Bundesliga', 'Greek Super League', 'Czech First League',
+  'Croatian First Football League', 'Serbian SuperLiga', 'Ukrainian Premier League',
+  'Russian Premier League', 'Polish Ekstraklasa', 'Danish Superliga',
+  'Norwegian Eliteserien', 'Swedish Allsvenskan', 'Romanian Liga I',
+  'Israeli Premier League', 'Cypriot First Division',
+
+  // Tier 4 — Americas
+  'MLS', 'Liga MX', 'Argentine Primera División', 'Argentine Liga Profesional',
+  'Brazilian Serie B', 'Chilean Primera División', 'Uruguayan Primera División',
+  'Paraguayan Primera División', 'Peruvian Primera División', 'Bolivian Primera División',
+  'Ecuadorian Serie A', 'Colombian Primera A', 'Venezuelan Primera División',
+  'LigaPro Serie A', 'Categoría Primera A', 'Canadian Premier League',
+  'Costa Rican Primera División', 'Honduran Liga Nacional', 'Guatemalan Liga Nacional',
+  'Panamanian Liga de Futbol', 'Salvadoran Primera División',
+  'Dominican Liga', 'Jamaican Premier League',
+
+  // Tier 5 — Asia
+  'J1 League', 'J2 League', 'K League 1', 'K League 2', 'Chinese Super League',
+  'Chinese League One', 'Saudi Pro League', 'UAE Pro League', 'Qatar Stars League',
+  'Kuwait Premier League', 'Bahrain Premier League', 'Oman Professional League',
+  'Iranian Persian Gulf Pro League', 'Iraq Premier League', 'Jordanian Pro League',
+  'A-League', 'Indian Super League', 'I-League', 'Thai League 1',
+  'Vietnamese V.League', 'Malaysian Super League', 'Singapore Premier League',
+  'Indonesian Liga 1', 'Filipino Premier League', 'Hong Kong Premier League',
+  'AFC Cup', 'AFF Championship',
+
+  // Tier 6 — Africa
+  'Egyptian Premier League', 'South African Premier Division', 'Moroccan Botola Pro',
+  'Tunisian Ligue Professionnelle 1', 'Algerian Ligue Professionnelle 1',
+  'Libyan Premier League', 'Sudanese Premier League',
+  'Nigerian Professional Football League', 'Ghanaian Premier League',
+  'Kenyan Premier League', 'Tanzanian Premier League', 'Ugandan Premier League',
+  'Ethiopian Premier League', 'Zambian Super League',
+  'Cameroon Elite One', 'DR Congo Linafoot',
+
+  // Tier 7 — Oceania
+  'New Zealand National League', 'Fiji Premier League', 'Papua New Guinea National Soccer League',
 ];
 const LEAGUE_PRIORITY_SET = new Set(LEAGUE_PRIORITY);
 const LEAGUE_PRIORITY_SET_LC = new Set(LEAGUE_PRIORITY.map(s => s.toLowerCase()));
@@ -62,6 +110,15 @@ const LW_WEIGHT = {
   'international club friendly': 2, 'leagues cup': 4, 'caribbean cup': 4,
   'canadian championship': 4, 'copa argentina': 4, 'polish cup': 4,
   'nicaragua liga primera': 4, 'chili liga de primera': 4,
+  'mexico liga mx femenil': 1, 'brazil w l': 1, 'united states women\'s national soccer league': 1,
+  'japanese nadeshiko league 2': 1, 'new zealand cup women': 1, 'australian brisbane capital league 1': 1,
+  'australia northern new south wales premier league': 1, 'australia tasmania national premier league': 1,
+  'national premier leagues victoria': 1, 'south australia reserve league': 1,
+  'western australia reserves league': 1, 'western australia u23': 1, 'mls next pro': 3,
+  'brazilian campeonato amazonense2': 1, 'chilean tercera': 1, 'mexican tdp league': 1,
+  'mex liga premier': 2, 'mexico ascenso mx': 3, 'solomon islands telekom s-league': 1,
+  'saint kitts nevis premier league': 1, 'china youth football league (men\'s u17 group)': 1,
+  'ofc u19 championship': 1, 'ecuadorian campeonato serie b': 2,
 };
 
 // Score a league's desirability: higher = show earlier.
@@ -80,11 +137,108 @@ function leaguePriority(name) {
   if (idx >= 0) return 100 - idx;
   const ci = LEAGUE_PRIORITY.findIndex(k => k.toLowerCase() === lc);
   if (ci >= 0) return 90;
-  // A few well-known standings aliases (SportScore naming)
-  const alias = { 'brazilian serie a': 'Brasileirão', 'italian serie a': 'Serie A',
+  // A few well-known standings aliases (SportScore / API-Football naming).
+  // Maps the upstream feed's exact name → our canonical name from LEAGUE_PRIORITY.
+  const alias = {
+    // Big-5 + European
+    'brazilian serie a': 'Brasileirão', 'italian serie a': 'Serie A',
     'english premier league': 'Premier League', 'spanish la liga': 'La Liga',
     'french ligue 1': 'Ligue 1', 'german bundesliga': 'Bundesliga',
-    'ecuador liga pro': 'LigaPro Serie A', 'brasileirao': 'Brasileirão' };
+    'ecuador liga pro': 'LigaPro Serie A', 'brasileirao': 'Brasileirão',
+    'brazilian serie b': 'Brazilian Serie B',
+    'dutch eredivisie': 'Eredivisie', 'dutch eeerste divisie': 'Eredivisie',
+    'portuguese primeira liga': 'Primeira Liga',
+    'english championship': 'Championship', 'english league championship': 'Championship',
+    'turkish süper lig': 'Süper Lig', 'scottish premiership': 'Scottish Premiership',
+    'belgian pro league': 'Belgian Pro League', 'belgian jupiler pro league': 'Belgian Pro League',
+    'swiss super league': 'Swiss Super League', 'austrian bundesliga': 'Austrian Bundesliga',
+    'greek super league': 'Greek Super League', 'greek superleague': 'Greek Super League',
+    'czech first league': 'Czech First League', 'czech liga': 'Czech First League',
+    'croatian first football league': 'Croatian First Football League',
+    'serbian superliga': 'Serbian SuperLiga', 'serbian super league': 'Serbian SuperLiga',
+    'ukrainian premier league': 'Ukrainian Premier League',
+    'russian premier league': 'Russian Premier League',
+    'polish ekstraklasa': 'Polish Ekstraklasa', 'ekstraklasa': 'Polish Ekstraklasa',
+    'danish superliga': 'Danish Superliga', 'danish 1st division': 'Danish Superliga',
+    'norwegian eliteserien': 'Norwegian Eliteserien',
+    'swedish allsvenskan': 'Swedish Allsvenskan',
+    'romanian liga i': 'Romanian Liga I', 'romanian liga 1': 'Romanian Liga I',
+    'israeli premier league': 'Israeli Premier League',
+    'cypriot first division': 'Cypriot First Division',
+    // Americas
+    'mexican liga mx': 'Liga MX', 'liga mx': 'Liga MX', 'mexican apertura': 'Liga MX',
+    'american major league soccer': 'MLS', 'usa mls': 'MLS', 'major league soccer': 'MLS',
+    'argentine primera división': 'Argentine Primera División',
+    'argentine liga profesional': 'Argentine Liga Profesional',
+    'argentine primera division': 'Argentine Primera División',
+    'chilean primera división': 'Chilean Primera División',
+    'chilean primera division': 'Chilean Primera División',
+    'uruguayan primera división': 'Uruguayan Primera División',
+    'paraguayan primera división': 'Paraguayan Primera División',
+    'peruvian primera división': 'Peruvian Primera División',
+    'bolivian primera división': 'Bolivian Primera División',
+    'ecuadorian serie a': 'LigaPro Serie A',
+    'colombian primera a': 'Categoría Primera A',
+    'colombian torneo betplay dimayor': 'Categoría Primera A',
+    'venezuelan primera división': 'Venezuelan Primera División',
+    'canadian premier league': 'Canadian Premier League',
+    'costa rican primera división': 'Costa Rican Primera División',
+    'costa rica primera division': 'Costa Rican Primera División',
+    'honduran liga nacional': 'Honduran Liga Nacional',
+    'honduras primera division': 'Honduran Liga Nacional',
+    'guatemalan liga nacional': 'Guatemalan Liga Nacional',
+    'guatemala liga nacional': 'Guatemalan Liga Nacional',
+    'panamanian liga de futbol': 'Panamanian Liga de Futbol',
+    'panama lpf': 'Panamanian Liga de Futbol',
+    // Asia
+    'j1 league': 'J1 League', 'japanese j1 league': 'J1 League',
+    'j2 league': 'J2 League', 'japanese j2 league': 'J2 League',
+    'k league 1': 'K League 1', 'korean k league 1': 'K League 1',
+    'k league 2': 'K League 2', 'korean k league 2': 'K League 2',
+    'chinese super league': 'Chinese Super League', 'china super league': 'Chinese Super League',
+    'chinese league one': 'Chinese League One',
+    'saudi pro league': 'Saudi Pro League',
+    'uae pro league': 'UAE Pro League', 'uae arabian gulf league': 'UAE Pro League',
+    'qatar stars league': 'Qatar Stars League',
+    'kuwait premier league': 'Kuwait Premier League',
+    'bahrain premier league': 'Bahrain Premier League',
+    'oman professional league': 'Oman Professional League',
+    'iranian persian gulf pro league': 'Iranian Persian Gulf Pro League',
+    'iraq premier league': 'Iraq Premier League',
+    'jordanian pro league': 'Jordanian Pro League',
+    'a-league': 'A-League', 'australian a-league': 'A-League',
+    'indian super league': 'Indian Super League', 'isl': 'Indian Super League',
+    'i-league': 'I-League',
+    'thai league 1': 'Thai League 1', 'thai premier league': 'Thai League 1',
+    'vietnamese v.league': 'Vietnamese V.League', 'v.league 1': 'Vietnamese V.League',
+    'malaysian super league': 'Malaysian Super League',
+    'singapore premier league': 'Singapore Premier League',
+    'indonesian liga 1': 'Indonesian Liga 1',
+    'filipino premier league': 'Filipino Premier League',
+    'hong kong premier league': 'Hong Kong Premier League',
+    // Africa
+    'egyptian premier league': 'Egyptian Premier League',
+    'south african premier division': 'South African Premier Division',
+    'south african premiership': 'South African Premier Division',
+    'moroccan botola pro': 'Moroccan Botola Pro', 'moroccan botola': 'Moroccan Botola Pro',
+    'tunisian ligue professionnelle 1': 'Tunisian Ligue Professionnelle 1',
+    'algerian ligue professionnelle 1': 'Algerian Ligue Professionnelle 1',
+    'libyan premier league': 'Libyan Premier League',
+    'sudanese premier league': 'Sudanese Premier League',
+    'nigerian professional football league': 'Nigerian Professional Football League',
+    'ghanaian premier league': 'Ghanaian Premier League',
+    'kenyan premier league': 'Kenyan Premier League',
+    'tanzanian premier league': 'Tanzanian Premier League',
+    'ugandan premier league': 'Ugandan Premier League',
+    'ethiopian premier league': 'Ethiopian Premier League',
+    'zambian super league': 'Zambian Super League',
+    'cameroon elite one': 'Cameroon Elite One',
+    'dr congo linafoot': 'DR Congo Linafoot',
+    // Oceania
+    'new zealand national league': 'New Zealand National League',
+    'fiji premier league': 'Fiji Premier League',
+    'papua new guinea national soccer league': 'Papua New Guinea National Soccer League',
+  };
   const a = alias[lc];
   if (a) return 95 - Math.max(0, LEAGUE_PRIORITY.findIndex(k => k.toLowerCase() === a.toLowerCase()));
   // Low-value but keepable leagues (shown after real competitions)
@@ -384,7 +538,23 @@ async function fetchScorers(competition = 'PL') {
   catch (e) { return null; }
 }
 
-const STANDINGS_CODES = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'BSA', 'NL1', 'SB'];
+// football-data.org competition codes for leagues with reliable standings data.
+// Used to fetch per-league standings for Elo + form calculation.
+const STANDINGS_CODES = [
+  // Europe — Big-5 + secondary
+  'PL', 'PD', 'BL1', 'SA', 'FL1',     // Big-5
+  'DED', 'PPL', 'ELC', 'SB',          // Eredivisie, Primeira Liga, Championship, Süper Lig
+  'BEL1', 'SUI1', 'AUT1', 'GRE1',     // Belgian, Swiss, Austrian, Greek
+  'DEN1', 'NOR1', 'SWE1', 'POL1',     // Scandinavian + Polish
+  'UKR1', 'ISR1', 'RUS1', 'CZE1',     // Eastern European
+  // Americas
+  'BSA',                              // Brasileirão
+  'ARG1', 'MEX1',                     // Argentine + Liga MX
+  // Asia (limited fd.org coverage)
+  'KRE1', 'JPN1', 'CHN1', 'AUS1',
+  // Africa (limited)
+  'EGY1', 'RSA1', 'MAR1', 'TUN1',
+];
 
 // ── SportScore standings (used for strengths) ──────────────────────────────
 

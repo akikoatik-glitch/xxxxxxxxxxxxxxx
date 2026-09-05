@@ -200,14 +200,36 @@ async function main() {
     else if (ageH > 12) { dataFreshness = `recent (${ageH}h ago)`; }
   }
 
-  // Only predict matches from major leagues (ones we have standings data for)
+  // Only predict matches from major leagues (ones we have standings data for).
+  // Predictions require reliable Elo + form history — so this list is curated
+  // to top-flight national leagues + continental cups. Page coverage of more
+  // leagues is handled separately by LEAGUE_PRIORITY in fetch_football.js.
   const PREDICTION_LEAGUES = new Set([
+    // Big-5 + European secondary
     'Premier League', 'La Liga', 'Bundesliga', 'Serie A', 'Ligue 1',
     'Championship', 'Eredivisie', 'Primeira Liga', 'Brasileirão', 'Süper Lig',
+    'Scottish Premiership', 'Belgian Pro League', 'Swiss Super League',
+    'Austrian Bundesliga', 'Greek Super League', 'Danish Superliga',
+    'Norwegian Eliteserien', 'Swedish Allsvenskan', 'Polish Ekstraklasa',
+    'Ukrainian Premier League', 'Israeli Premier League',
+    // Continental cups
     'UEFA Champions League', 'UEFA Europa League', 'UEFA Conference League',
+    'Copa Libertadores', 'Copa Sudamericana',
+    'AFC Champions League', 'AFC Champions League Two',
+    'CONCACAF Champions Cup',
+    'CAF Champions League',
+    // Domestic cups
     'FA Cup', 'Copa del Rey', 'DFB Pokal', 'Coppa Italia', 'Coupe de France',
-    'J1 League', 'K League 1', 'MLS', 'Saudi Pro League',
-    'LigaPro Serie A', 'Categoría Primera A', 'Brazilian Cup',
+    // Americas
+    'MLS', 'Liga MX', 'Argentine Liga Profesional', 'LigaPro Serie A',
+    'Categoría Primera A', 'Brazilian Serie B',
+    // Asia
+    'J1 League', 'K League 1', 'Chinese Super League', 'Saudi Pro League',
+    'UAE Pro League', 'Qatar Stars League', 'Iranian Persian Gulf Pro League',
+    'A-League', 'Indian Super League',
+    // Africa
+    'Egyptian Premier League', 'South African Premier Division',
+    'Moroccan Botola Pro', 'Tunisian Ligue Professionnelle 1',
   ]);
 
   // Helper: drop matches whose kickoff has passed by more than 3h.
