@@ -1,54 +1,76 @@
 {
-  "lastUpdate": "2026-09-05T18:24:10.355Z",
+  "lastUpdate": "2026-09-05T20:16:05.415Z",
   "news": [
     {
-      "title": "European soccer live updates: Man City win, Inter with comeback vs. Napoli",
-      "league": "Premier League",
+      "title": "Bayern Munich falter, Loris Karius secures goalless draw for newly promoted Schalke",
+      "league": "Bundesliga",
       "time": "0h ago",
-      "published": "2026-09-05T18:19:56.000Z",
-      "excerpt": "Erling Haaland scores yet again as Manchester City win, as a busy Saturday of soccer unfolds across Europe.",
+      "published": "2026-09-05T19:57:07.000Z",
+      "excerpt": "Bayern Munich suffered their first setback of the new season when they were held to a goalless draw by newly promoted Schalke.",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401884801",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711893_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Atlético Madrid 'need' Julián Álvarez's goals - Marcos Llorente",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-05T19:35:44.000Z",
+      "excerpt": "Marcos Llorente told ESPN that Atletico Madrid need Julián Álvarez to start scoring after the team suffered a shock 3-0 defeat at Athletic C",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49838222/julian-alvarez-atletico-madrid-marcos-llorente-spanish-la-liga",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711896_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Lautaro Martínez brace seals thrilling comeback win for Inter over Napoli",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-05T19:21:49.000Z",
+      "excerpt": "Lautaro Martínez scored a stoppage-time winner as Inter Milan came from behind to beat Napoli 3-2 and maintain their perfect start to the ne",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874937",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711904_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Robson: I cannot see Chelsea beating Arsenal this early in the season",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-05T19:14:42.000Z",
+      "excerpt": "Robson: I cannot see Chelsea beating Arsenal this early in the season",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49838440/cannot-see-chelsea-beating-arsenal-early-season",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0905/dm_260905_Robson_I_cannot_see_Chelsea_beating_Arsenal_this_early_in_the_season/dm_260905_Robson_I_cannot_see_Chelsea_beating_Arsenal_this_early_in_the_season.jpg",
+      "category": "football"
+    },
+    {
+      "title": "European soccer recap: Haaland wins it for Man City, Inter with comeback vs. Napoli",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-05T19:09:14.000Z",
+      "excerpt": "Erling Haaland scores again as Manchester City win and Inter staged an incredible comeback against Napoli, as a busy Saturday unfolded acros",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49817484/premier-league-live-updates-newcastle-host-bournemouth-man-city-coventry-city-inter-napoli",
       "image": "https://a.espncdn.com/photo/2026/0905/r1711764_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Fabian Hurzeler: Luka Vušković can be top player for Brighton after first goal",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-05T18:14:41.000Z",
-      "excerpt": "Brighton boss Fabian Hurzeler believes the Premier League will be an education for teenage record signing Luka Vuskovic after his first goal",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49837674/fabian-hurzeler-luka-vuskovic-top-player-brighton-first-goal",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711874_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Nico Williams helps Athletic Club to resounding win over Atlético Madrid",
+      "title": "Rayo Vallecano vs. Racing Santander - Game Highlights",
       "league": "La Liga",
       "time": "1h ago",
-      "published": "2026-09-05T17:22:23.000Z",
-      "excerpt": "Nico Williams scored his first goal of the season to help Athletic Bilbao consign Atlético Madrid to a 3-0 defeat in LaLiga.",
+      "published": "2026-09-05T18:39:51.000Z",
+      "excerpt": "Watch the Game Highlights from Rayo Vallecano vs. Racing Santander, 09/05/2026",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401882895",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711846_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Robson: 'Very average' Atletico have no game-changers",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-05T16:52:42.000Z",
-      "excerpt": "Robson: 'Very average' Atletico have no game-changers",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49836921/very-average-atletico-no-game-changers",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0905/dm_260905_Robson_Very_average_Atletico_have_no_game_changers/dm_260905_Robson_Very_average_Atletico_have_no_game_changers.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/49838123/rayo-vallecano-vs-racing-santander-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0905/0af2621f-bc14-452d-a480-a4da30a441e1/0af2621f-bc14-452d-a480-a4da30a441e1.jpg",
       "category": "football"
     },
     {
       "title": "Fenerbahce's Mattéo Guendouzi banned for two Champions League matches after Lyon clashes",
       "league": "Champions League",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-05T14:48:09.000Z",
       "excerpt": "Mattéo Guendouzi was banned by UEFA from Fenerbahce's first two Champions League games for provocations and insults in a heated playoff win ",
       "source": "ESPN",
@@ -59,7 +81,7 @@
     {
       "title": "Luis Enrique unfazed as historic PSG winless start deepens",
       "league": "Ligue 1",
-      "time": "19h ago",
+      "time": "21h ago",
       "published": "2026-09-04T23:02:48.000Z",
       "excerpt": "Paris Saint-Germain deepened their slow start to the season with a home defeat to Monaco on Friday, but Luis Enrique remained unconcerned an",
       "source": "ESPN",
@@ -70,7 +92,7 @@
     {
       "title": "PSG upset by Monaco to extend winless start",
       "league": "Ligue 1",
-      "time": "20h ago",
+      "time": "22h ago",
       "published": "2026-09-04T21:30:08.000Z",
       "excerpt": "Paris Saint-Germain 's difficult Ligue 1 start continued as early-season pace-setters AS Monaco won 2-1 at Parc des Princes.",
       "source": "ESPN",
@@ -81,23 +103,12 @@
     {
       "title": "PSG give coach Luis Enrique, 5 players new contracts",
       "league": "Champions League",
-      "time": "22h ago",
+      "time": "23h ago",
       "published": "2026-09-04T20:23:54.000Z",
       "excerpt": "Paris Saint-Germain have rewarded coach Luis Enrique and five members of their squad with new contracts after helping the French club to bac",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49827385/psg-coach-luis-enrique-new-contract-fabian-ruiz-joao-neves",
       "image": "https://a.espncdn.com/photo/2026/0904/r1711451_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Napoli boss Allegri returns to Milan vs. title 'favorites' Inter",
-      "league": "Serie A",
-      "time": "04/09/2026",
-      "published": "2026-09-04T17:39:51.000Z",
-      "excerpt": "Massimiliano Allegri said he regards Inter Milan as the Serie A title favorites as he prepares to return to San Siro with Napoli.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49826488/napoli-massimiliano-allegri-inter-milan-serie-title",
-      "image": "https://a.espncdn.com/photo/2026/0904/r1711401_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -109,17 +120,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49823718/bayern-munich-vincent-kompany-jamal-musiala",
       "image": "https://a.espncdn.com/photo/2026/0729/r1695065_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Weekend predictions: Arsenal take on Chelsea in a London derby, can PSG bounce back?",
-      "league": "Bundesliga",
-      "time": "04/09/2026",
-      "published": "2026-09-04T01:11:57.000Z",
-      "excerpt": "Arsenal host Chelsea in a heavyweight clash this early in the Premier League, while teams such as PSG and Napoli are on the ropes in their r",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49816199/weekend-predictions-arsenal-take-chelsea-london-derby-paris-saint-germain-bounce-back",
-      "image": "https://a.espncdn.com/photo/2026/0903/r1710963_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
