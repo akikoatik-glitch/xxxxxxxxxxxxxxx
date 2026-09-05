@@ -59,6 +59,13 @@ jobs:
       - name: Build CSS (tailwind compile)
         run: node scripts/build_css.js
 
+      - name: Drop stale matches from feed JSONs
+        # Cleans past-kickoff matches out of football/today.json,
+        # tomorrow.json, upcoming.json and live.json before the next
+        # generation step. Without this the site keeps showing
+        # yesterday's fixtures until the upstream status catches up.
+        run: node scripts/drop_stale_matches.js
+
       - name: Mark thin pages noindex
         run: node scripts/mark_thin_noindex.js
 

@@ -12,57 +12,5 @@ Disallow: /fr/football/fixtures/
 Disallow: /fr/football/results/
 Disallow: /ar/football/fixtures/
 Disallow: /ar/football/results/
-Disallow: /*?*
-Disallow: /*#
-
-# Explicitly allow major crawlers (User-agent: * above already does this; keep for clarity)
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: DuckDuckBot
-Allow: /
-
-User-agent: Baiduspider
-Allow: /
-
-User-agent: YandexBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: SemrushBot
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
-# Generative AI crawlers (allow for AI Search visibility)
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: CCBot
-Allow: /
 
 Sitemap: https://xwhiz.com/sitemap.xml

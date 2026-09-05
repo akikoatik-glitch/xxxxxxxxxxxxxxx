@@ -1,6 +1,6 @@
 # XWhiz
 
-> Independent, statistical football predictions — 1X2, Over/Under 2.5, BTTS and most likely correct score, on real fixtures only. 6 predictions online for today, regenerated daily at 06:00 UTC.
+> Independent, statistical football predictions — 1X2, Over/Under 2.5, BTTS and most likely correct score, on real fixtures only. Standby — predictions regenerate daily at 06:00 UTC from real fixtures.
 
 ## Entry points
 - Home (EN): https://xwhiz.com/

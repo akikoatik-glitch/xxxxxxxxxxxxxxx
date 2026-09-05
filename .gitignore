@@ -19,3 +19,4 @@ node_modules/
 # --- unrelated subprojects (kept locally, not part of the XWhiz site repo) ---
 /wassil/
 /forex-assistant/
+/telegram-bot/

@@ -210,6 +210,18 @@ async function main() {
     'LigaPro Serie A', 'Categoría Primera A', 'Brazilian Cup',
   ]);
 
+  // Helper: drop matches whose kickoff has passed by more than 3h.
+  // Status-based filtering alone isn't reliable because:
+  //   - upstream feeds may return stale TIMED/SCHEDULED status
+  //   - timezone differences may make a "today" UTC match appear as
+  //     upcoming at fetch time but kickoff has since passed
+  // Kickoff time is the ground truth.
+  const isPastKickoff = m => {
+    if (!m || !m.utcDate) return false;
+    const diff = Date.now() - new Date(m.utcDate).getTime();
+    return diff > 3 * 3600000; // > 3h past kickoff = treat as finished
+  };
+
   let matches;
   if (raw) {
     // Filter to major leagues only, then upcoming only
@@ -218,14 +230,20 @@ async function main() {
       return PREDICTION_LEAGUES.has(league) || PREDICTION_LEAGUES.has(m._ssCompetition || '');
     });
     if (majorOnly.length > 0) raw = majorOnly;
-    // Filter out finished/matches that already kicked off — only keep upcoming
+    // Filter out finished/matches that already kicked off — both status
+    // (TIMED/SCHEDULED/etc.) AND ground-truth kickoff time.
     const upcoming = raw.filter(m => {
       const st = (m.status || '').toUpperCase();
-      return st === 'TIMED' || st === 'SCHEDULED' || st === 'TIMED' || st === '' || st === 'NS';
+      const statusUpcoming = st === 'TIMED' || st === 'SCHEDULED' || st === 'NS' || st === '';
+      return statusUpcoming && !isPastKickoff(m);
     });
-    matches = (upcoming.length ? upcoming : raw).slice(0, 12).map(normalizeMatch);
+    // NEVER fall back to stale/past matches just because the upcoming filter
+    // produced zero. If nothing is upcoming, we have no valid predictions for
+    // this run — return empty so the homepage doesn't display yesterday's games.
+    matches = upcoming.slice(0, 12).map(normalizeMatch);
     console.log(`Major leagues: ${majorOnly.length} of ${raw.length} matches, upcoming: ${upcoming.length}`);
-    if (matches.length < raw.length) console.log(`Filtered ${raw.length - matches.length} finished matches, keeping ${matches.length} upcoming`);
+    if (matches.length < raw.length) console.log(`Filtered ${raw.length - matches.length} finished/past matches, keeping ${matches.length} upcoming`);
+    if (upcoming.length === 0 && raw.length > 0) console.log(`No upcoming matches today — predictions.json will be empty until next fixture window.`);
   } else {
     // No new source available (e.g. running offline without API keys):
     // keep the previous predictions instead of wiping them.
@@ -235,12 +253,7 @@ async function main() {
         // Even from cache, skip finished matches
         const st = (m.status || '').toUpperCase();
         if (st === 'FINISHED' || st === 'FT') return false;
-        // Skip matches whose kickoff has passed (more than 3h ago)
-        if (m.utcDate) {
-          const diff = Date.now() - new Date(m.utcDate).getTime();
-          if (diff > 3 * 3600000) return false;
-        }
-        return true;
+        return !isPastKickoff(m);
       })
       .map(normalizeMatch) : [];
     if (matches.length) {

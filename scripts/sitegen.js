@@ -125,18 +125,31 @@ const MELBET = preds.melbetLink || ('https://melbet-49771.bar/en?tag=d_5217846m_
 const CODE = preds.promoCode || 'KIKOS77';
 
 const slugUsed = new Set();
-const MATCHES = Array.isArray(preds.matches) ? preds.matches.map(normalizeMatch).filter(Boolean) : [];
+// Kickoff-based filter: drop matches whose kickoff has passed by more than 3h.
+// This is defense in depth — generate-predictions.js already does this, but if
+// predictions.json ever contains a stale match that escapes the upstream filter,
+// sitegen should still refuse to render it as a "today" prediction.
+const isPastKickoff = m => {
+  if (!m || !m.utcDate) return false;
+  const diff = Date.now() - new Date(m.utcDate).getTime();
+  return diff > 3 * 3600000;
+};
+const MATCHES = Array.isArray(preds.matches)
+  ? preds.matches.map(normalizeMatch).filter(Boolean).filter(m => !isPastKickoff(m))
+  : [];
 const NEWS = Array.isArray(newsData.news) ? newsData.news : [];
 // News categories actually present in the feed (football-only since fetch_news
 // was scoped to soccer). Avoids thin empty /news/tennis + /news/basketball hubs.
 const NEWS_CATS = [...new Set(NEWS.map(n => (n.category || '').toLowerCase()).filter(Boolean))];
 if (!NEWS_CATS.length) NEWS_CATS.push('football');
-const TOMORROW = Array.isArray(fTom && fTom.matches) ? fTom.matches : [];
+const TOMORROW = Array.isArray(fTom && fTom.matches) ? fTom.matches.filter(m => !isPastKickoff(m)) : [];
 const YESTERDAY = Array.isArray(fYest && fYest.matches) ? fYest.matches.filter(m => m.status === 'FINISHED') : [];
-const TODAY = Array.isArray(fDay && fDay.matches) ? fDay.matches : [];
-const UPCOMING = Array.isArray(fFix && fFix.matches) ? fFix.matches : [];
+const TODAY = Array.isArray(fDay && fDay.matches) ? fDay.matches.filter(m => !isPastKickoff(m)) : [];
+const UPCOMING = Array.isArray(fFix && fFix.matches) ? fFix.matches.filter(m => !isPastKickoff(m)) : [];
 const LIVE_JSON = {
-  matches: (fLive && fLive.matches) || [],
+  // Filter past-kickoff matches out of the live feed — the upstream API often
+  // returns stale TIMED/SCHEDULED entries that are actually finished.
+  matches: ((fLive && fLive.matches) || []).filter(m => !isPastKickoff(m)),
   standings: (fLive && fLive.standings) || null,
   scorers: (fLive && fLive.scorers) || []
 };
