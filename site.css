@@ -1227,7 +1227,7 @@ video {
 }
 
 /* ===== XWhiz page-specific custom styles ===== */
-/* ---- football\fixtures\index.html ---- */
+/* ---- football/fixtures/index.html ---- */
 /* ---- XWhiz 3D football effects (progressive enhancement, GPU-light) ---- */
 .xw-hero{position:absolute;right:clamp(4px,4vw,2rem);top:50%;width:230px;height:258px;transform:translateY(-50%);perspective:900px;pointer-events:none;z-index:0}
 .xw-ball{position:absolute;right:0;top:0;width:200px;height:200px;background:url('/football.svg') no-repeat center/contain;animation:xw-spin 10s linear infinite;will-change:transform}
