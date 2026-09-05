@@ -1,5 +1,19 @@
 # xwhiz.com - performance headers (Apache/nginx-compat via .htaccess)
 
+# ---- Canonical host: www.xwhiz.com -> xwhiz.com ----
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS + non-www (canonical host)
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://xwhiz.com/$1 [L,R=301]
+
+  # Strip query parameters from search/internal filter pages (search-only)
+  RewriteCond %{QUERY_STRING} ^q=
+  RewriteRule ^search\.html$ - [L]
+</IfModule>
+
 # ---- Compression ----
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
@@ -27,7 +41,20 @@
     Header set Cache-Control "public, max-age=1209600, immutable"
   </FilesMatch>
   Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+
+  # Explicitly serve 404.html with proper 404 status
+  <FilesMatch "404\.html$">
+    Header set X-Robots-Tag "noindex, follow"
+    SetEnvIf Request_URI "^/404\.html$" status_404=1
+  </FilesMatch>
 </IfModule>
+
+# ---- Custom 404 ----
+ErrorDocument 404 /404.html
 
 # ---- Keep-Alive / misc ----
 <IfModule mod_reqtimeout.c>
@@ -36,7 +63,6 @@
 
 # Serve compressed variants when pre-compressed files are present (optional)
 <IfModule mod_rewrite.c>
-  RewriteEngine On
   RewriteCond %{HTTP:Accept-encoding} gzip
   RewriteCond %{REQUEST_FILENAME}\.gz -s
   RewriteRule ^(.*)\.(html|css|js)$ $1.$2.gz [L,QSA]

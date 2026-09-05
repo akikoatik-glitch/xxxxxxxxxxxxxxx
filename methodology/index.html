@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prediction methodology | Dixon-Coles + Elo — XWhiz</title>
-<meta name="description" content="How XWhiz predictions work: Elo ratings, Dixon-Coles Poisson expected goals, score-matrix probabilities for 1X2, Over/Under 2.5, BTTS and correct score. Updated daily.">
+<title>Football Prediction Methodology: Dixon-Coles + Elo Model | XWhiz</title>
+<meta name="description" content="How XWhiz football predictions are produced: Elo ratings, Dixon-Coles adjusted Poisson expected goals, full score-matrix probabilities for 1X2, Over/Under 2.5, BTTS and correct score. Includes model limitations.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://xwhiz.com/methodology/">
 <link rel="alternate" hreflang="en" href="https://xwhiz.com/methodology/">
@@ -16,8 +16,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Prediction methodology | Dixon-Coles + Elo — XWhiz">
-<meta property="og:description" content="How XWhiz predictions work: Elo ratings, Dixon-Coles Poisson expected goals, score-matrix probabilities for 1X2, Over/Under 2.5, BTTS and correct score. Updated daily.">
+<meta property="og:title" content="Football Prediction Methodology: Dixon-Coles + Elo Model | XWhiz">
+<meta property="og:description" content="How XWhiz football predictions are produced: Elo ratings, Dixon-Coles adjusted Poisson expected goals, full score-matrix probabilities for 1X2, Over/Under 2.5, BTTS and correct score. Includes model limitations.">
 <meta property="og:url" content="https://xwhiz.com/methodology/">
 <meta property="og:site_name" content="XWhiz">
 <meta property="og:image" content="https://xwhiz.com/og-image.png">
@@ -26,8 +26,8 @@
 <meta property="og:image:alt" content="How XWhiz predictions work: Elo ratings, Dixon-Coles Poisson expected goals, score-matrix probabilit">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Prediction methodology | Dixon-Coles + Elo — XWhiz">
-<meta name="twitter:description" content="How XWhiz predictions work: Elo ratings, Dixon-Coles Poisson expected goals, score-matrix probabilities for 1X2, Over/Under 2.5, BTTS and correct score. Updated daily.">
+<meta name="twitter:title" content="Football Prediction Methodology: Dixon-Coles + Elo Model | XWhiz">
+<meta name="twitter:description" content="How XWhiz football predictions are produced: Elo ratings, Dixon-Coles adjusted Poisson expected goals, full score-matrix probabilities for 1X2, Over/Under 2.5, BTTS and correct score. Includes model limitations.">
 <meta name="twitter:image" content="https://xwhiz.com/og-image.png">
 <meta name="twitter:image:alt" content="How XWhiz predictions work: Elo ratings, Dixon-Coles Poisson expected goals, score-matrix probabilit">
 <meta property="article:published_time" content="2026-09-04">
@@ -109,9 +109,56 @@ body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#fff;col
 
 <main class="max-w-3xl mx-auto px-4 md:px-6 py-8">
 <nav class="text-xs text-zinc-500 flex flex-wrap items-center gap-1" aria-label="Breadcrumb"><a href="/" class="hover:underline">Home</a><span aria-hidden="true"> › </span><span aria-current="page">Methodology</span></nav>
-<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">Prediction methodology</h1>
+<h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">Football prediction methodology — Dixon-Coles + Elo</h1>
 <p class="mt-2 text-xs text-zinc-400">By XWhiz Data Team · Updated 2026-09-04 · Model Dixon-Coles v3</p>
-<div class="mt-4 leading-relaxed"><p class="mt-3 text-zinc-700">Each match is evaluated as an independent event. Team strength comes from Elo-style ratings blended with real league standings (attack and defence per game vs the league average). Expected goals feed a Dixon-Coles adjusted Poisson model, which produces a full 0–6 goal score matrix.</p><ul class="mt-3 list-disc pl-5 text-zinc-700 space-y-1"><li><strong>1X2:</strong> home/draw/away probabilities summed from the matrix.</li><li><strong>Over/Under 2.5 &amp; BTTS:</strong> derived from the same matrix, not separate formulas.</li><li><strong>Correct score:</strong> the matrix argmax — the single most probable scoreline — so scores vary naturally.</li><li><strong>Odds shown:</strong> fair odds (100 ÷ probability), not bookmaker prices.</li></ul><h2 class="mt-6 text-xl font-extrabold">What the model cannot see</h2><p class="mt-2 text-zinc-700">Late injuries, suspensions, rotation, weather and motivation are not in the numbers. Treat every pick as a probability estimate with stated confidence — never a guarantee of profit. Predictions refresh daily at 06:00 UTC.</p></div>
+<p class="mt-4 text-zinc-700">XWhiz publishes football predictions from a quantitative model, not from intuition. Below is a transparent description of how each prediction is generated — what data we use, what the maths does, and where the model is intentionally limited.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">1. Data sources</h2>
+<p class="mt-3 text-zinc-700">Every fixture comes from public sports-data feeds (football-data.org, openfootball/football.json, and additional public providers). We use:</p>
+<ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1">
+<li>Real fixtures for the next 7 days and recent results — never invented matches.</li>
+<li>League tables (attack and defence per game, points per game).</li>
+<li>Elo-style ratings updated after each completed match.</li>
+</ul>
+
+<h2 class="mt-8 text-xl font-extrabold">2. Team strength (Elo + league form)</h2>
+<p class="mt-3 text-zinc-700">Each team has an Elo rating representing its overall strength. For a new match we blend this with current-season league form: how many goals the team scores and concedes per game relative to the league average. The blend gives an attack and defence strength for both sides that is anchored in real data but adapts to recent form.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">3. Expected goals via Poisson</h2>
+<p class="mt-3 text-zinc-700">We assume goals follow a Poisson process. Given the home team's attack strength λ<sub>H</sub> and the away team's defence strength, expected home goals μ<sub>H</sub> = λ<sub>H</sub> × δ<sub>A</sub>. Expected away goals μ<sub>A</sub> = λ<sub>A</sub> × δ<sub>H</sub>. League-average goal rate is the anchor (around 1.3–1.5 per team per match).</p>
+
+<h2 class="mt-8 text-xl font-extrabold">4. Dixon-Coles low-score correction</h2>
+<p class="mt-3 text-zinc-700">The plain Poisson underestimates the rate of low-scoring draws (0-0, 1-0, 0-1, 1-1). We apply the Dixon-Coles correction τ(x, y, ρ) which depends on a single correlation parameter ρ < 0. This is the standard fix proposed by Dixon & Coles (1997). After correction the joint probability P(X = i, Y = j) is computed for the full 0–6 goal grid.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">5. The score matrix</h2>
+<p class="mt-3 text-zinc-700">The model produces a 7×7 probability matrix where cell (i, j) is the chance of a home i – away j final score. From this matrix every other market is derived — there are no separate formulas for Over/Under or BTTS.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">6. Market probabilities</h2>
+<ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1">
+<li><strong>1X2.</strong> Home = Σ over (i > j). Draw = Σ over (i = j). Away = Σ over (i < j).</li>
+<li><strong>Over/Under 2.5.</strong> Sum of cell probabilities where i + j ≥ 3 (Over) or i + j ≤ 2 (Under).</li>
+<li><strong>BTTS.</strong> Yes = Σ over (i ≥ 1 and j ≥ 1). No = 1 − P(BTTS Yes).</li>
+<li><strong>Correct score.</strong> The cell with the highest probability; we list the top three most probable scorelines.</li>
+</ul>
+
+<h2 class="mt-8 text-xl font-extrabold">7. Fair odds vs bookmaker odds</h2>
+<p class="mt-3 text-zinc-700">All odds shown on XWhiz are <strong>fair odds</strong> derived directly from the model: fair odds = 100 ÷ probability%. They are not bookmaker prices and do not include the bookmaker margin. If you compare our odds to a sportsbook you should expect our numbers to be lower (because real prices contain overround). We never present model output as a bookmaker quote.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">8. Confidence and value</h2>
+<p class="mt-3 text-zinc-700">Confidence is simply the model's top-probability pick (e.g. 82% on Away Win means P(Away) = 0.82). Value is the model's edge versus a typical bookmaker line and is provided for context only. Higher confidence is not the same as a guaranteed outcome.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">9. Refresh schedule</h2>
+<p class="mt-3 text-zinc-700">Predictions regenerate once per day at 06:00 UTC. The model is deterministic for a given input set, so refresh frequency is bounded by the upstream data feed.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">10. What the model does <em>not</em> account for</h2>
+<div class="mt-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-sm text-zinc-700"><strong>Limitations.</strong> The model is intentionally narrow. It does not include: late team-news (injuries, suspensions, rotation), tactical match-ups, manager changes, weather, derby motivation, competition stage pressure, travel fatigue, red-card response, or in-game momentum. A prediction is a probability estimate, not a forecast of a specific event.</div>
+
+<h2 class="mt-8 text-xl font-extrabold">11. Historical performance</h2>
+<p class="mt-3 text-zinc-700">Once a sufficient number of results are stored against the model's published probabilities, we will publish historical performance metrics (accuracy, Brier score, calibration, simulated ROI) on a dedicated transparency page. Until then we deliberately do not publish headline accuracy numbers — accuracy on small samples is noisy and can mislead.</p>
+
+<h2 class="mt-8 text-xl font-extrabold">12. Editorial policy</h2>
+<p class="mt-3 text-zinc-700">Editorial decisions (which picks to feature, which competitions to cover, how to label markets) are independent of the model's output. Affiliate relationships do not and cannot influence what the model produces or which matches are published.</p>
+
 <div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-2xl text-xs leading-relaxed">Responsible gambling: our predictions are statistical analysis for information and entertainment — they are not a guarantee of profit. 18+. Never bet more than you can afford to lose. · <a href="https://www.begambleaware.org" target="_blank" rel="nofollow noopener" class="underline font-semibold">Get responsible gambling help</a></div>
 </main>
 <div class="max-w-7xl mx-auto px-4 md:px-6 py-6 border-t border-zinc-100">

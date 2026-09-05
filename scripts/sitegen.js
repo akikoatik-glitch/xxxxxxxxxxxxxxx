@@ -306,12 +306,17 @@ const OG_LOC = { en: 'en_US', fr: 'fr_FR', ar: 'ar_AR' };
 function schemaOrg(loc) {
   return [{
     '@context': 'https://schema.org', '@type': 'Organization',
-    name: 'XWhiz', url: SITE, logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` },
-    contactPoint: [{ '@type': 'ContactPoint', contactType: 'customer support', url: SITE }]
+    name: 'XWhiz', alternateName: 'XWhiz Football Predictions', url: SITE,
+    description: 'Independent statistical football predictions using a Dixon-Coles + Elo model on real fixtures only.',
+    logo: { '@type': 'ImageObject', url: `${SITE}/logo.png`, width: 512, height: 512 },
+    foundingDate: '2024',
+    sameAs: [`${SITE}/sitemap.xml`, `${SITE}/llms.txt`],
+    contactPoint: [{ '@type': 'ContactPoint', contactType: 'customer support', url: `${SITE}/contact/`, availableLanguage: ['English', 'French', 'Arabic'] }]
   }, {
     '@context': 'https://schema.org', '@type': 'WebSite',
-    name: 'XWhiz', url: `${SITE}${prefix(loc)}/`,
+    name: 'XWhiz', alternateName: 'XWhiz Football Predictions', url: `${SITE}${prefix(loc)}/`,
     inLanguage: loc,
+    publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } },
     potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${SITE}${prefix(loc)}/search.html?q={search_term_string}` }, 'query-input': 'required name=search_term_string' }
   }];
 }
@@ -671,7 +676,6 @@ ${rgNote(loc)}
     title: t('site.home.title'), desc: t('site.home.desc'), page: { type: 'home' },
     canonical: `${SITE}${pageUrl(loc, { type: 'home' })}`, body,
     jsonld: [
-      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: 'XWhiz Football Predictions', sport: 'Soccer', description: t('site.home.desc') },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }] }
     ].concat(itemList)
   });
@@ -946,8 +950,8 @@ ${faqBlock(loc, faqs)}
     desc: t(loc, 'detail.desc', { home: m.home, away: m.away, pred: m.pred, odds: m.odds, conf: m.conf }),
     canonical: url, page: { type: 'pred', arg: m.slug }, body, ogType: 'article', publishedTime: dateISO,
     jsonld: [
-      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}.` },
-      { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz' }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.` },
+      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: m.league, url: m.code && LEAGUE_INTROS[m.league] && LEAGUE_INTROS[m.league].org ? LEAGUE_INTROS[m.league].org : undefined }, contributor: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}.` },
+      { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: `${SITE}/about/` }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.`, keywords: `${m.home} vs ${m.away} prediction, ${m.league} prediction, statistical football prediction` },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: `${m.home} vs ${m.away}`, item: url }] },
       { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
     ]
@@ -1104,6 +1108,8 @@ function leaguePage(loc, slug, lg) {
   const rows = fi.slice(0, 12).map(m => homeMatchRow(loc, m)).join('');
   const isPL = slug === 'premier-league';
   const st = isPL ? LIVE_JSON.standings : null;
+  // Thin = no predictions AND no upcoming AND no finished. Don't index empty pages.
+  const isThin = ps.length === 0 && !up && !rows;
   const tab = (p, label, active, content) => `<section class="mt-8">${content}</section>`;
   const body = `
 <main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
@@ -1130,7 +1136,8 @@ ${rgNote(loc)}
 </main>`;
   return shell(loc, {
     title: `${esc(name)} ${tR(loc, 'site.tagline')} | XWhiz`, desc: `${name}. ${tR(loc, 'football.hubDesc')}`, page: { type: 'league', arg: slug },
-    canonical: `${SITE}${pageUrl(loc, { type: 'league', arg: slug })}`, body
+    canonical: `${SITE}${pageUrl(loc, { type: 'league', arg: slug })}`, body,
+    noindex: isThin
   });
 }
 
@@ -1156,6 +1163,8 @@ function teamPage(loc, slug, name) {
   const inRes = YESTERDAY.filter(m => homeName(m) === name || awayName(m) === name).slice(0, 8);
   const rows = inFix.map(m => homeMatchRow(loc, m)).join('');
   const resRows = inRes.map(m => homeMatchRow(loc, m)).join('');
+  // Thin = no predictions AND no upcoming AND no finished. Don't index empty pages.
+  const isThin = inPred.length === 0 && !rows && !resRows;
   const body = `
 <main class="max-w-4xl mx-auto px-4 md:px-6 py-8">
 ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'football' }), label: tR(loc, 'nav.football') }, { href: pageUrl(loc, { type: 'teams' }), label: tR(loc, 'footer.teams') }, { label: name }])}
@@ -1180,7 +1189,8 @@ ${rgNote(loc)}
 </main>`;
   return shell(loc, {
     title: `${esc(name)} — ${tR(loc, 'site.tagline')} | XWhiz`, desc: `${name} — ${tR(loc, 'football.hubDesc')}`, page: { type: 'team', arg: slug },
-    canonical: `${SITE}${pageUrl(loc, { type: 'team', arg: slug })}`, body
+    canonical: `${SITE}${pageUrl(loc, { type: 'team', arg: slug })}`, body,
+    noindex: isThin
   });
 }
 
@@ -1376,8 +1386,27 @@ function notFoundPage(loc) {
 // ---- sitemap & robots & search index ----
 function buildSitemap() {
   const entries = [];
+  // Track which teams/leagues are thin (no predictions/upcoming/finished) so we
+  // can EXCLUDE them from the sitemap instead of pointing crawlers at empty pages.
+  const thinTeams = new Set();
+  const thinLeagues = new Set();
+  for (const [slug, name] of TEAMS) {
+    const inPred = MATCHES.some(m => m.home === name || m.away === name);
+    const inFix = [...UPCOMING, ...TODAY, ...TOMORROW].some(m => homeName(m) === name || awayName(m) === name);
+    const inRes = YESTERDAY.some(m => homeName(m) === name || awayName(m) === name);
+    if (!inPred && !inFix && !inRes) thinTeams.add(slug);
+  }
+  for (const [slug, lg] of LEAGUES) {
+    const inPred = MATCHES.some(m => m.league === lg.name);
+    const inFix = [...UPCOMING, ...TODAY, ...TOMORROW].some(m => compName(m) === lg.name);
+    const inRes = (YESTERDAY.concat(TODAY)).some(m => compName(m) === lg.name);
+    if (!inPred && !inFix && !inRes) thinLeagues.add(slug);
+  }
   const add = (page, freq, pri) => {
     for (const ll of LOCALES) {
+      // Drop thin team/league pages from the sitemap entirely.
+      if (page.type === 'team' && thinTeams.has(page.arg)) continue;
+      if (page.type === 'league' && thinLeagues.has(page.arg)) continue;
       entries.push({ ll, page, href: `${SITE}${pageUrl(ll, page)}`, freq, pri });
     }
   };

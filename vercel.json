@@ -11,7 +11,9 @@
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
         { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
         { "key": "Cross-Origin-Opener-Policy", "value": "same-origin-allow-popups" },
-        { "key": "X-DNS-Prefetch-Control", "value": "on" }
+        { "key": "X-DNS-Prefetch-Control", "value": "on" },
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https:; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https:;" }
       ]
     },
     {
@@ -37,6 +39,13 @@
     {
       "source": "/(.*)\\.html",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }]
+    },
+    {
+      "source": "/404.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300" },
+        { "key": "X-Robots-Tag", "value": "noindex, follow" }
+      ]
     }
   ],
   "redirects": [
