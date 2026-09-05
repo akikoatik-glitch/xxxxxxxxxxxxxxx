@@ -1,55 +1,55 @@
 {
   "date": "2026-09-05",
-  "lastUpdate": "2026-09-05T20:16:05.467Z",
-  "predictionGenerated": "2026-09-05T20:16:05.467Z",
-  "dataTimestamp": "2026-09-05T20:16:02.629Z",
+  "lastUpdate": "2026-09-05T21:16:31.499Z",
+  "predictionGenerated": "2026-09-05T21:16:31.499Z",
+  "dataTimestamp": "2026-09-05T21:16:28.691Z",
   "dataFreshness": "fresh",
   "source": "football-data.org (today)",
   "matches": [],
   "results": [],
   "news": [
     {
-      "title": "Bayern Munich falter, Loris Karius secures goalless draw for newly promoted Schalke",
+      "title": "Adama Traore scores ridiculous own goal in Deportivo's win over Villarreal",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-05T21:07:23.000Z",
+      "excerpt": "Adama Traore scores ridiculous own goal in Deportivo's win over Villarreal",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49839412/adama-traore-scores-ridiculous-own-goal-deportivo-win-villarreal",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0905/dm_260905_COM_SOC_Highlight_Adama_Traore_scores_ridiculous_own_goal_in_Deportivos_win_over_Villarreal_2026/dm_260905_COM_SOC_Highlight_Adama_Traore_scores_ridiculous_own_goal_in_Deportivos_win_over_Villarreal_2026.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Villarreal vs. Deportivo La Coruña - Game Highlights",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-05T21:06:24.000Z",
+      "excerpt": "Watch the Game Highlights from Villarreal vs. Deportivo La Coruña, 09/05/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49839400/villarreal-vs-deportivo-la-coruna-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0905/28cbcaa0-f1a2-45b7-85fd-b0e80ada14c4/28cbcaa0-f1a2-45b7-85fd-b0e80ada14c4.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bayern Munich fail to score Bundesliga goal for first time in 18 months",
       "league": "Bundesliga",
       "time": "0h ago",
+      "published": "2026-09-05T20:36:03.000Z",
+      "excerpt": "Bayern Munich failed to score in the Bundesliga for the first time in more than 18 months as they were held to a goalless draw by newly-prom",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49838809/bayern-munich-fail-score-bundesliga-goal-first-18-months",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711923_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bayern Munich falter, Loris Karius secures goalless draw for newly promoted Schalke",
+      "league": "Bundesliga",
+      "time": "1h ago",
       "published": "2026-09-05T19:57:07.000Z",
       "excerpt": "Bayern Munich suffered their first setback of the new season when they were held to a goalless draw by newly promoted Schalke.",
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401884801",
       "image": "https://a.espncdn.com/photo/2026/0905/r1711893_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Atlético Madrid 'need' Julián Álvarez's goals - Marcos Llorente",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-09-05T19:35:44.000Z",
-      "excerpt": "Marcos Llorente told ESPN that Atletico Madrid need Julián Álvarez to start scoring after the team suffered a shock 3-0 defeat at Athletic C",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49838222/julian-alvarez-atletico-madrid-marcos-llorente-spanish-la-liga",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711896_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Lautaro Martínez brace seals thrilling comeback win for Inter over Napoli",
-      "league": "Serie A",
-      "time": "0h ago",
-      "published": "2026-09-05T19:21:49.000Z",
-      "excerpt": "Lautaro Martínez scored a stoppage-time winner as Inter Milan came from behind to beat Napoli 3-2 and maintain their perfect start to the ne",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401874937",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711904_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Robson: I cannot see Chelsea beating Arsenal this early in the season",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-05T19:14:42.000Z",
-      "excerpt": "Robson: I cannot see Chelsea beating Arsenal this early in the season",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49838440/cannot-see-chelsea-beating-arsenal-early-season",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0905/dm_260905_Robson_I_cannot_see_Chelsea_beating_Arsenal_this_early_in_the_season/dm_260905_Robson_I_cannot_see_Chelsea_beating_Arsenal_this_early_in_the_season.jpg",
       "category": "football"
     }
   ],
