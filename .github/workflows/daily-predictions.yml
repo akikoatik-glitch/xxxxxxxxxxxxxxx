@@ -1,16 +1,23 @@
-name: Daily Predictions Update
+name: Auto predictions update (every 2 hours)
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 06:00 UTC every day
+    # Every 2 hours: 00:00, 02:00, 04:00, ... UTC
+    - cron: '0 */2 * * *'
   workflow_dispatch:  # allow manual trigger
 
 permissions:
   contents: write
 
+# Avoid running two scheduled workflows at the same minute (rate-limit safety).
+concurrency:
+  group: predictions-update
+  cancel-in-progress: false
+
 jobs:
   update-predictions:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -40,5 +47,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Daily predictions update $(date -u +%Y-%m-%d)"
+          if git diff --cached --quiet; then
+            echo "No changes to commit — predictions unchanged since last run."
+            exit 0
+          fi
+          git commit -m "Auto predictions update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push

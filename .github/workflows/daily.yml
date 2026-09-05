@@ -1,8 +1,9 @@
-name: Daily football predictions
+name: Auto football predictions + news (every 2 hours)
 on:
   schedule:
-    # Run every day at 03:00 UTC (06:00 CET / Algiers)
-    - cron: '0 3 * * *'
+    # Every 2 hours, on the hour (UTC). Offset by 1 minute from the other workflow
+    # so they don't collide if both are scheduled.
+    - cron: '1 */2 * * *'
   workflow_dispatch:  # Allow manual trigger
   push:
     branches: [main]
@@ -10,9 +11,15 @@ on:
       - 'scripts/**'
       - '.github/workflows/daily.yml'
 
+# Don't run both scheduled workflows at the exact same minute.
+concurrency:
+  group: predictions-update
+  cancel-in-progress: false
+
 jobs:
   predict:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -39,15 +46,21 @@ jobs:
           node scripts/sitegen.js
           node scripts/build_css.js
 
-      - name: Verify
-        run: node scripts/verify.js
+      - name: Re-thin sitemap and verify
+        run: |
+          node scripts/mark_thin_noindex.js
+          node scripts/fix_match_schema.js
+          node scripts/thin_sitemap.js
+          node scripts/verify.js
 
       - name: Commit updated data
         run: |
           git config user.name "xwhiz-bot"
           git config user.email "bot@xwhiz.com"
           git add -A
-          # Only commit if something changed
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Daily prediction update $(date -u +%Y-%m-%d)"
+          if git diff --cached --quiet; then
+            echo "No changes to commit — site unchanged since last run."
+            exit 0
+          fi
+          git commit -m "Auto prediction update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push origin main
