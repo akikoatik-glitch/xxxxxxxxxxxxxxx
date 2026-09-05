@@ -1,24 +1,30 @@
-name: Auto predictions update (every 2 hours)
+name: Auto predictions update (every 2 hours) — LEGACY, disabled
 
 on:
-  schedule:
-    # Every 2 hours: 00:00, 02:00, 04:00, ... UTC
-    - cron: '0 */2 * * *'
-  workflow_dispatch:  # allow manual trigger
+  # Disabled by removing the schedule trigger; left here for reference.
+  # The canonical every-2-hours workflow is daily.yml.
+  workflow_dispatch:  # allow manual trigger only
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-predictions.yml'
 
 permissions:
   contents: write
 
-# Avoid running two scheduled workflows at the same minute (rate-limit safety).
-concurrency:
-  group: predictions-update
-  cancel-in-progress: false
-
 jobs:
   update-predictions:
-    runs-on: ubuntu-latest
+    # Pin to Ubuntu 22.04 — ubuntu-latest now points to 24.04 which
+    # ships Node 22 by default and breaks our sitegen.js.
+    runs-on: ubuntu-22.04
     timeout-minutes: 15
     steps:
+      - name: Print environment
+        run: |
+          echo "Node: $(node --version 2>&1 || echo 'NOT FOUND')"
+          echo "npm:  $(npm --version 2>&1 || echo 'NOT FOUND')"
+          echo "Date: $(date -u)"
+
       - name: Checkout repo
         uses: actions/checkout@v4
 
@@ -26,6 +32,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Install build deps (tailwindcss/postcss for build_css.js)
+        run: npm install --no-audit --no-fund
 
       - name: Fetch football data
         run: node scripts/fetch_football.js
@@ -36,8 +45,10 @@ jobs:
       - name: Generate predictions
         run: node scripts/generate-predictions.js
 
-      - name: Build site
-        run: node scripts/sitegen.js
+      - name: Build site (HTML + CSS)
+        run: |
+          node scripts/sitegen.js
+          node scripts/build_css.js
 
       - name: Verify build
         run: node scripts/verify.js

@@ -18,16 +18,28 @@ concurrency:
 
 jobs:
   predict:
-    runs-on: ubuntu-latest
+    # Pin to Ubuntu 22.04 — ubuntu-latest now points to 24.04 which
+    # ships Node 22 by default and breaks our sitegen.js.
+    runs-on: ubuntu-22.04
     timeout-minutes: 15
     permissions:
       contents: write
     steps:
+      - name: Print environment
+        run: |
+          echo "Node: $(node --version 2>&1 || echo 'NOT FOUND')"
+          echo "npm:  $(npm --version 2>&1 || echo 'NOT FOUND')"
+          echo "OS:   $(uname -a)"
+          echo "Date: $(date -u)"
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
+
+      - name: Install build deps (tailwindcss/postcss for build_css.js)
+        run: npm install --no-audit --no-fund
 
       - name: Fetch football data
         env:
@@ -41,17 +53,23 @@ jobs:
       - name: Generate predictions
         run: node scripts/generate-predictions.js
 
-      - name: Build site
-        run: |
-          node scripts/sitegen.js
-          node scripts/build_css.js
+      - name: Build HTML (sitegen)
+        run: node scripts/sitegen.js
 
-      - name: Re-thin sitemap and verify
-        run: |
-          node scripts/mark_thin_noindex.js
-          node scripts/fix_match_schema.js
-          node scripts/thin_sitemap.js
-          node scripts/verify.js
+      - name: Build CSS (tailwind compile)
+        run: node scripts/build_css.js
+
+      - name: Mark thin pages noindex
+        run: node scripts/mark_thin_noindex.js
+
+      - name: Fix SportsEvent organizer on match pages
+        run: node scripts/fix_match_schema.js
+
+      - name: Rebuild thin sitemap
+        run: node scripts/thin_sitemap.js
+
+      - name: Verify build
+        run: node scripts/verify.js
 
       - name: Commit updated data
         run: |
