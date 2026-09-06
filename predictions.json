@@ -1,8 +1,8 @@
 {
   "date": "2026-09-07",
-  "lastUpdate": "2026-09-06T20:16:42.264Z",
-  "predictionGenerated": "2026-09-06T20:16:42.264Z",
-  "dataTimestamp": "2026-09-06T20:16:39.618Z",
+  "lastUpdate": "2026-09-06T22:16:12.040Z",
+  "predictionGenerated": "2026-09-06T22:16:12.040Z",
+  "dataTimestamp": "2026-09-06T22:16:09.138Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:67+tomorrow:5+upcoming:30+fixtures:60)",
   "matches": [
@@ -13,7 +13,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Getafe CF",
       "away": "RC Celta de Vigo",
       "league": "La Liga",
@@ -86,7 +86,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Elche CF",
       "away": "Real Sociedad de Fútbol",
       "league": "La Liga",
@@ -96,7 +96,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 53,
-      "odds": "1.81",
+      "odds": "1.80",
       "value": "+1%",
       "probs": {
         "home": 53,
@@ -104,9 +104,9 @@
         "away": 26
       },
       "xg": {
-        "home": "1.85",
-        "away": "1.23",
-        "total": "3.08"
+        "home": "1.88",
+        "away": "1.25",
+        "total": "3.13"
       },
       "doubleChance": {
         "12": 79,
@@ -114,14 +114,14 @@
         "X2": 47
       },
       "overUnder": {
-        "over2_5": 59,
-        "under2_5": 41,
-        "oddsOver": "1.61",
-        "oddsUnder": "2.32"
+        "over2_5": 60,
+        "under2_5": 40,
+        "oddsOver": "1.58",
+        "oddsUnder": "2.38"
       },
       "btts": {
-        "yes": 59,
-        "no": 41
+        "yes": 60,
+        "no": 40
       },
       "correctScore": {
         "score": "2-1",
@@ -134,20 +134,20 @@
         },
         {
           "score": "1-1",
-          "prob": 10
+          "prob": 9
         },
         {
           "score": "1-0",
           "prob": 9
         }
       ],
-      "asianHandicap": "Home -0.50",
+      "asianHandicap": "Home -0.75",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Elche CF vs Real Sociedad de Fútbol: Dixon-Coles P(H)53% D21% A26% • xG 1.85-1.23 • most likely score 2-1 (10%) • Home Win confidence 53% • strengths from real standings",
+      "whyWin": "Elche CF vs Real Sociedad de Fútbol: Dixon-Coles P(H)53% D21% A26% • xG 1.88-1.25 • most likely score 2-1 (10%) • Home Win confidence 53% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -159,7 +159,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Cagliari Calcio",
       "away": "US Lecce",
       "league": "Serie A",
@@ -232,7 +232,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Udinese Calcio",
       "away": "SS Lazio",
       "league": "Serie A",
@@ -305,7 +305,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "GD Estoril Praia",
       "away": "FC Arouca",
       "league": "Primeira Liga",
@@ -956,47 +956,47 @@
   ],
   "news": [
     {
-      "title": "Transfer rumors, news: Richarlison could be forced into Saudi move",
+      "title": "Iliman Ndiaye on Tottenham links: 'When Manchester City comes through you don't say no'",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-09-06T22:03:51.000Z",
+      "excerpt": "Iliman Ndiaye has insisted signing for Manchester City was the obvious choice for him this week after he made his debut for Enzo Maresca's s",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49852864/iliman-ndiaye-tottenham-links-manchester-city-comes-dont-say-no",
+      "image": "https://a.espncdn.com/photo/2026/0906/r1712497_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Federico Gatti's stoppage-time header rescues point for Juventus against Milan",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-06T21:42:05.000Z",
+      "excerpt": "Federico Gatti scored deep into stoppage time as Juventus snatched a late 1-1 draw with AC Milan at the Allianz Stadium.",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874954",
+      "image": "https://a.espncdn.com/photo/2026/0906/r1712461_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Espanyol vs. Sevilla - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-06T21:12:48.000Z",
+      "excerpt": "Watch the Game Highlights from Espanyol vs. Sevilla, 09/06/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49852515/espanyol-vs-sevilla-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0906/5401bf21-c8d8-4237-9def-18b0e8eac803/5401bf21-c8d8-4237-9def-18b0e8eac803.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Richarlison could be forced into Saudi move",
+      "league": "Premier League",
+      "time": "2h ago",
       "published": "2026-09-06T20:13:49.000Z",
       "excerpt": "The transfer window may be over, but that hasn't stopped clubs from doing business. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49846296/transfer-rumors-news-liverpool-eye-ismaila-sarr-move-january",
       "image": "https://a.espncdn.com/photo/2026/0906/r1712441_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Arteta 'enjoyed every minute' of Arsenal's win over Chelsea",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-06T19:29:03.000Z",
-      "excerpt": "Arteta 'enjoyed every minute' of Arsenal's win over Chelsea",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49851430/arteta-enjoyed-every-minute-arsenal-win-chelsea",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0906/dm_260906_Arteta_enjoyed_every_minute_of_Arsenals_win_over_Chelsea/dm_260906_Arteta_enjoyed_every_minute_of_Arsenals_win_over_Chelsea.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Málaga vs. Levante - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-06T18:42:54.000Z",
-      "excerpt": "Watch the Game Highlights from Málaga vs. Levante, 09/06/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49851058/malaga-vs-levante-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0906/93bec655-ad32-44e0-abb7-efd22556e4ee/93bec655-ad32-44e0-abb7-efd22556e4ee.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Alavés vs. Osasuna - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-06T18:38:11.000Z",
-      "excerpt": "Watch the Game Highlights from Alavés vs. Osasuna, 09/06/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49851035/alaves-vs-osasuna-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0906/ce9890a3-e8e8-4293-8998-5ec7b0acfab2/ce9890a3-e8e8-4293-8998-5ec7b0acfab2.jpg",
       "category": "football"
     }
   ],
