@@ -113,6 +113,11 @@ const fmtDate = (loc, iso) => {
   try { return new Date(iso).toLocaleDateString(loc === 'fr' ? 'fr-FR' : loc === 'ar' ? 'ar-EG' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return iso || ''; }
 };
 
+// League flag helper — must sit above the data section because normalizeMatch
+// (called while building MATCHES/ARCHIVED below) reads it.
+const FLAG = { PL: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', PD: '🇪🇸', BL1: '🇩🇪', SA: '🇮🇹', FL1: '🇫🇷', CL: '🇪🇺', ELC: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', UCL: '🇪🇺', DED: '🇳🇱', PPL: '🇵🇹', EL: '🇪🇺', UEL: '🇪🇺', UEC: '🇪🇺', EC: '🇪🇺', WC: '🏆' };
+const flag = l => FLAG[l] || (l ? '⚽' : '⚽');
+
 // ---- data ----
 const preds = readJSON('predictions.json') || { matches: [], results: [], news: [] };
 const newsData = readJSON('news.json') || { news: [] };
@@ -121,6 +126,7 @@ const fTom = readJSON('football/tomorrow.json');
 const fYest = readJSON('football/yesterday.json');
 const fLive = readJSON('football/live.json');
 const fFix = readJSON('football/fixtures.json');
+const fRes = readJSON('football/results.json');
 const MELBET = preds.melbetLink || ('https://melbet-49771.bar/en?tag=d_5217846m_2170c_&site=5217846&ad=2170&promo=KIKOS77');
 const CODE = preds.promoCode || 'KIKOS77';
 
@@ -137,6 +143,36 @@ const isPastKickoff = m => {
 const MATCHES = Array.isArray(preds.matches)
   ? preds.matches.map(normalizeMatch).filter(Boolean).filter(m => !isPastKickoff(m))
   : [];
+// Results archive (persistent): past predictions graded against real scores.
+// Entries come from generate-predictions.js `results` array:
+// {slug, home, away, league, utcDate, pred, conf, odds, scoreHome, scoreAway, hit}.
+// They keep their detail pages alive as Result pages instead of being deleted.
+// Score helper accepts every feed shape: score.fullTime.{h,a} (fd.org/SportScore),
+// score.{home,away} (openfootball), or flat scoreHome/scoreAway (archive).
+const getScore = m => {
+  if (!m) return null;
+  if (m.score && m.score.fullTime && m.score.fullTime.home !== null && m.score.fullTime.home !== undefined)
+    return { h: m.score.fullTime.home, a: m.score.fullTime.away };
+  if (m.score && m.score.home !== undefined && m.score.home !== null && m.score.away !== undefined)
+    return { h: m.score.home, a: m.score.away };
+  if (m.scoreHome !== undefined && m.scoreHome !== null && m.scoreAway !== undefined && m.scoreAway !== null)
+    return { h: m.scoreHome, a: m.scoreAway };
+  return null;
+};
+const RESULTS = Array.isArray(preds.results) ? preds.results.filter(r => r && r.home && r.away) : [];
+// Archived predictions with model output become full pages (Result view).
+// Upcoming MATCHES win on slug collision (a future rematch reuses the slug base
+// with -2 suffix from normalizeMatch, so collisions are rare anyway).
+const ARCHIVED = RESULTS.filter(r => r.pred && !MATCHES.some(mm => mm.slug === r.slug)).map(r => {
+  const n = normalizeMatch(Object.assign({}, r, { status: 'FINISHED' }));
+  if (!n) return null;
+  n.slug = r.slug; n.status = 'FINISHED';
+  n.scoreHome = r.scoreHome; n.scoreAway = r.scoreAway;
+  n.hit = (r.hit === true || r.hit === false) ? r.hit : null;
+  n.result1X2 = r.result1X2 || r.res || null;
+  return n;
+}).filter(Boolean);
+const ALLPREDS = [...MATCHES, ...ARCHIVED];
 const NEWS = Array.isArray(newsData.news) ? newsData.news : [];
 // News categories actually present in the feed (football-only since fetch_news
 // was scoped to soccer). Avoids thin empty /news/tennis + /news/basketball hubs.
@@ -153,9 +189,6 @@ const LIVE_JSON = {
   standings: (fLive && fLive.standings) || null,
   scorers: (fLive && fLive.scorers) || []
 };
-
-const FLAG = { PL: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', PD: '🇪🇸', BL1: '🇩🇪', SA: '🇮🇹', FL1: '🇫🇷', CL: '🇪🇺', ELC: '🏴󠁧󠁢󠁥󠁮󠁧󠁿', UCL: '🇪🇺', DED: '🇳🇱', PPL: '🇵🇹', EL: '🇪🇺', UEL: '🇪🇺', UEC: '🇪🇺', EC: '🇪🇺', WC: '🏆' };
-const flag = l => FLAG[l] || (l ? '⚽' : '⚽');
 
 // ---- translation helper ----
 function t(loc, key, params) {
@@ -286,13 +319,14 @@ const homeName = m => (m.homeTeam && m.homeTeam.name) || m.home || '';
 const awayName = m => (m.awayTeam && m.awayTeam.name) || m.away || '';
 const compName = m => (m.competition && m.competition.name) || m.league || 'Football';
 
-// Prediction slug -> whether page exists (all slugs in predictions.json get pages)
-const PRED_SLUGS = new Set(MATCHES.map(m => m.slug));
+// Prediction slug -> whether page exists (upcoming + archived result pages)
+const PRED_SLUGS = new Set(ALLPREDS.map(m => m.slug));
 // team slug -> set of teams appearing in any real data
 function allTeams() {
   const set = new Map();
   const add = tm => { if (tm && tm.name) set.set(slugify(tm.name), tm.name); };
   MATCHES.forEach(m => { add({ name: m.home }); add({ name: m.away }); });
+  ARCHIVED.forEach(m => { add({ name: m.home }); add({ name: m.away }); });
   [...TODAY, ...TOMORROW, ...UPCOMING, ...YESTERDAY, ...LIVE_JSON.matches].forEach(m => { add(m.homeTeam); add(m.awayTeam); });
   return set;
 }
@@ -301,14 +335,18 @@ function allLeagues() {
   const map = new Map();
   const add = (name, code) => { if (name) { const s = leagueSlug(name); if (!map.has(s)) map.set(s, { name, code: code || '', count: 0 }); map.get(s).count++; } };
   MATCHES.forEach(m => add(m.league, m.code));
+  ARCHIVED.forEach(m => add(m.league, m.code));
   [...TODAY, ...TOMORROW, ...UPCOMING, ...YESTERDAY, ...LIVE_JSON.matches].forEach(m => add(compName(m), m.competition && m.competition.code));
   return map;
 }
 const LEAGUES = allLeagues();
 
-// match key home||away -> prediction slug
+// match key home||away -> prediction slug (upcoming first, then archive)
 const MATCH_KEY_TO_SLUG = new Map();
-MATCHES.forEach(m => MATCH_KEY_TO_SLUG.set(`${String(m.home).toLowerCase()}||${String(m.away).toLowerCase()}`, m.slug));
+ALLPREDS.forEach(m => {
+  const k = `${String(m.home).toLowerCase()}||${String(m.away).toLowerCase()}`;
+  if (!MATCH_KEY_TO_SLUG.has(k)) MATCH_KEY_TO_SLUG.set(k, m.slug);
+});
 function predSlugFor(home, away) { return MATCH_KEY_TO_SLUG.get(`${String(home).toLowerCase()}||${String(away).toLowerCase()}`) || null; }
 
 // ---- shared shell ----
@@ -535,12 +573,16 @@ function predCard(loc, m) {
 function homeMatchRow(loc, m) {
   const home = cleanTeamName(homeName(m)), away = cleanTeamName(awayName(m));
   const slug = predSlugFor(homeName(m), awayName(m)) || predSlugFor(home, away);
-  const score = (m.score && m.score.fullTime && m.score.fullTime.home != null) ? `${m.score.fullTime.home} - ${m.score.fullTime.away}` : null;
+  const sc = getScore(m);
+  const score = sc ? `${sc.h} - ${sc.a}` : null;
   const status = statusLabel(loc, m.status);
   const linkTarget = slug ? pageUrl(loc, { type: 'pred', arg: slug }) : pageUrl(loc, { type: 'team', arg: slugify(home) });
   const timeLabel = score != null ? 'FT' : esc(utcTime(m));
+  // Archived results with a graded prediction get a correct/wrong pill.
+  const verdict = (m.hit === true || m.hit === false)
+    ? (m.hit ? `<span class="ml-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-100 text-green-800">✓</span>` : `<span class="ml-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-100 text-red-800">✗</span>`) : '';
   return `<a href="${linkTarget}" class="bg-white border border-zinc-200 rounded-2xl p-3 flex items-center justify-between gap-3 hover:bg-zinc-50 transition">
-<div class="min-w-0"><div class="text-xs text-zinc-400 font-medium">${esc(compName(m))} · ${esc(status)}</div><div class="font-bold text-sm truncate">${esc(home)} ${t(loc, 'detail.vs')} ${esc(away)}</div></div>
+<div class="min-w-0"><div class="text-xs text-zinc-400 font-medium">${esc(compName(m))} · ${esc(status)}</div><div class="font-bold text-sm truncate">${esc(home)} ${t(loc, 'detail.vs')} ${esc(away)}${verdict}</div></div>
 <div class="shrink-0"><span class="text-sm font-semibold text-zinc-500">${timeLabel}</span>${score != null ? ` · <span class="font-bold text-zinc-900">${score}</span>` : ''}</div></a>`;
 }
 
@@ -582,7 +624,7 @@ function homePage(loc) {
   const btts = MATCHES.filter(isBttsTip).slice(0, 3);
   const newsHead = NEWS.slice(0, 3);
   const liveRows = UI_matches(loc, LIVE_JSON.matches.slice(0, 6));
-  const byCompetition = groupBy(MATCHES, m => m.league);
+  const byCompetition = groupBy(ALLPREDS, m => m.league);
   const comps = [...byCompetition.keys()].slice(0, 8).map(name => {
     const ms = byCompetition.get(name)[0];
     const slug = leagueSlug(name);
@@ -631,6 +673,7 @@ ${scorersPanel(loc)}
 <a href="${pageUrl(loc, { type: 'live' })}" class="mt-5 inline-block text-sm font-bold text-brand-700 hover:underline">${t('sec.liveTitle')} →</a>
 </div>
 </div>
+${(() => { const res = ARCHIVED.slice().sort((a, b) => String(b.utcDate || '') < String(a.utcDate || '') ? -1 : 1).slice(0, 6); if (!res.length) return ''; const correct = ARCHIVED.filter(m => m.hit === true).length; const graded = ARCHIVED.filter(m => m.hit === true || m.hit === false).length; return `<div class="border-t border-zinc-100"><div class="max-w-7xl mx-auto px-4 md:px-6 py-10"><div class="flex items-center justify-between gap-3"><h2 class="text-2xl font-extrabold tracking-tight">${t('footer.results')}</h2><a href="${pageUrl(loc, { type: 'results' })}" class="text-sm font-bold text-brand-700 hover:underline">${t('footer.results')} →</a></div>${graded ? `<p class="mt-2 text-sm text-zinc-500">${correct}/${graded} ${t('market.correct')}</p>` : ''}<div class="mt-5 space-y-2">${res.map(m => homeMatchRow(loc, m)).join('')}</div></div></div>`; })()}
 <div class="border-t border-zinc-100">
 <div class="max-w-7xl mx-auto px-4 md:px-6 py-10">
 <div class="flex items-center justify-between gap-3">
@@ -717,7 +760,7 @@ function UI_matches(loc, list) {
 }
 
 function predIndexPage(loc) {
-  const grouped = groupBy(MATCHES, m => m.league);
+  const grouped = groupBy(ALLPREDS, m => m.league);
   const sections = [...grouped.entries()].map(([league, ms]) => {
     const slug = leagueSlug(league);
     const first = ms[0];
@@ -899,6 +942,7 @@ ${breadcrumb(loc, [
 ])}
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight leading-tight">${esc(m.home)} ${t(loc, 'detail.vs')} ${esc(m.away)} — ${t(loc, 'analysis.title')}</h1>
 <p class="mt-2 text-zinc-600">${esc(m.league)} • ${esc(dateStr)} • ${esc(m.precise)}</p>
+${(() => { const sc = getScore(m); const finished = (m.status || '').toUpperCase() === 'FINISHED' || sc != null; if (!finished) return ''; const badge = (m.hit === true) ? `<span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">✓ ${t(loc, 'market.correct')}</span>` : (m.hit === false) ? `<span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold">✗ ${t(loc, 'market.wrong')}</span>` : `<span class="bg-zinc-200 text-zinc-700 px-3 py-1 rounded-full text-xs font-bold">FT</span>`; return `<div class="mt-4 flex flex-wrap items-center gap-3 bg-zinc-50 border border-zinc-200 rounded-2xl px-5 py-4"><div class="text-2xl font-black tabular-nums">${sc ? `${sc.h} – ${sc.a}` : 'FT'}</div><div class="text-sm text-zinc-600">${t(loc, 'detail.finalScore')}</div>${badge}${m.pred ? `<div class="text-xs text-zinc-500">${t(loc, 'detail.ourPick')}: <strong>${esc(m.pred)}</strong>${m.odds ? ` @ ${esc(m.odds)}` : ''}</div>` : ''}</div>`; })()}
 <p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Updated ${esc(todayISO())} · Model Dixon-Coles v3 · <a class="underline" href="${pageUrl(loc, { type: 'methodology' })}">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).methodology}</a></p>
 <div class="mt-3 flex flex-wrap gap-2 text-xs">
 <a href="${pageUrl(loc, { type: 'league', arg: leagueSlug(m.league) })}" class="font-semibold text-brand-700 hover:underline">${t(loc, 'analysis.leagueLink')}</a>
@@ -958,12 +1002,20 @@ ${faqBlock(loc, faqs)}
 </section>
 </main>`;
 
+  // Keep <title> within the 20–62 char gate (verify.js): drop the brand
+  // suffix first, then truncate at a word boundary for very long team names.
+  // H1 keeps the full names — only the tab title is shortened.
+  const fullTitle = `${m.home} vs ${m.away} ${t(loc, 'detail.titleToken')} | XWhiz`;
+  const shortTitle = `${m.home} vs ${m.away} ${t(loc, 'detail.titleToken')}`;
+  const pageTitle = fullTitle.length <= 62 ? fullTitle
+    : shortTitle.length <= 62 ? shortTitle
+    : shortTitle.slice(0, 61).replace(/\s+\S*$/, '') + '…';
   return shell(loc, {
-    title: `${esc(m.home)} vs ${esc(m.away)} ${t(loc, 'detail.titleToken')} | XWhiz`,
+    title: pageTitle,
     desc: t(loc, 'detail.desc', { home: m.home, away: m.away, pred: m.pred, odds: m.odds, conf: m.conf }),
     canonical: url, page: { type: 'pred', arg: m.slug }, body, ogType: 'article', publishedTime: dateISO,
     jsonld: [
-      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: m.league, url: m.code && LEAGUE_INTROS[m.league] && LEAGUE_INTROS[m.league].org ? LEAGUE_INTROS[m.league].org : undefined }, contributor: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}.` },
+      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: ((m.status || '').toUpperCase() === 'FINISHED' || getScore(m)) ? 'https://schema.org/EventCompleted' : 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: m.league, url: m.code && LEAGUE_INTROS[m.league] && LEAGUE_INTROS[m.league].org ? LEAGUE_INTROS[m.league].org : undefined }, contributor: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}${(() => { const sc = getScore(m); return sc ? ` Final score ${sc.h}-${sc.a}.` : ''; })()}` },
       { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: `${SITE}/about/` }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.`, keywords: `${m.home} vs ${m.away} prediction, ${m.league} prediction, statistical football prediction` },
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: `${m.home} vs ${m.away}`, item: url }] },
       { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
@@ -1115,7 +1167,7 @@ ${rgNote(loc)}
 
 function leaguePage(loc, slug, lg) {
   const name = lg.name;
-  const ps = MATCHES.filter(m => m.league === name);
+  const ps = ALLPREDS.filter(m => m.league === name);
   const up = UPCOMING.filter(m => compName(m) === name).slice(0, 12).map(m => homeMatchRow(loc, m)).join('');
   const fi = (YESTERDAY.concat(TODAY)).filter(m => compName(m) === name);
   const rows = fi.slice(0, 12).map(m => homeMatchRow(loc, m)).join('');
@@ -1171,7 +1223,7 @@ ${rgNote(loc)}
 }
 
 function teamPage(loc, slug, name) {
-  const inPred = MATCHES.filter(m => m.home === name || m.away === name);
+  const inPred = ALLPREDS.filter(m => m.home === name || m.away === name);
   const inFix = [...UPCOMING, ...TODAY, ...TOMORROW].filter(m => homeName(m) === name || awayName(m) === name).slice(0, 12);
   const inRes = YESTERDAY.filter(m => homeName(m) === name || awayName(m) === name).slice(0, 8);
   const rows = inFix.map(m => homeMatchRow(loc, m)).join('');
@@ -1224,12 +1276,28 @@ ${rgNote(loc)}
 }
 
 function resultsPage(loc) {
-  const rows = YESTERDAY.slice(0, 24).map(m => homeMatchRow(loc, m)).join('');
+  // Rolling results: graded archive first (has our pick + correct/wrong),
+  // then finished feed matches. Dedupe by teams+date.
+  const seen = new Set();
+  const combined = [];
+  const push = m => {
+    const h = homeName(m), a = awayName(m);
+    const k = `${String(h).toLowerCase()}||${String(a).toLowerCase()}||${String(m.utcDate || '').slice(0, 10)}`;
+    if (seen.has(k)) return;
+    seen.add(k);
+    combined.push(m);
+  };
+  ARCHIVED.slice().sort((a, b) => String(b.utcDate || '') < String(a.utcDate || '') ? -1 : 1).forEach(push);
+  [...YESTERDAY, ...((fRes && fRes.matches) || [])].filter(m => (m.status || '').toUpperCase() === 'FINISHED' || getScore(m)).forEach(push);
+  const correct = ARCHIVED.filter(m => m.hit === true).length;
+  const graded = ARCHIVED.filter(m => m.hit === true || m.hit === false).length;
+  const rows = combined.slice(0, 30).map(m => homeMatchRow(loc, m)).join('');
   const body = `
 <main class="max-w-5xl mx-auto px-4 md:px-6 py-8">
 ${breadcrumb(loc, [{ href: pageUrl(loc, { type: 'home' }), label: HOME_LABEL[loc] }, { href: pageUrl(loc, { type: 'football' }), label: tR(loc, 'nav.football') }, { label: tR(loc, 'footer.results') }])}
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight">${tR(loc, 'footer.results')}</h1>
 <p class="mt-2 text-zinc-600">${tR(loc, 'football.finished')} — ${tR(loc, 'sec.update')}</p>
+${graded ? `<p class="mt-3 text-sm font-semibold text-zinc-700">${correct}/${graded} ${tR(loc, 'market.correct')} (${Math.round(100 * correct / graded)}%)</p>` : ''}
 <div class="mt-6 space-y-2">${rows || `<div class="text-sm text-zinc-500">${tR(loc, 'football.noMatches')}</div>`}</div>
 ${rgNote(loc)}
 </main>`;
@@ -1404,13 +1472,13 @@ function buildSitemap() {
   const thinTeams = new Set();
   const thinLeagues = new Set();
   for (const [slug, name] of TEAMS) {
-    const inPred = MATCHES.some(m => m.home === name || m.away === name);
+    const inPred = ALLPREDS.some(m => m.home === name || m.away === name);
     const inFix = [...UPCOMING, ...TODAY, ...TOMORROW].some(m => homeName(m) === name || awayName(m) === name);
     const inRes = YESTERDAY.some(m => homeName(m) === name || awayName(m) === name);
     if (!inPred && !inFix && !inRes) thinTeams.add(slug);
   }
   for (const [slug, lg] of LEAGUES) {
-    const inPred = MATCHES.some(m => m.league === lg.name);
+    const inPred = ALLPREDS.some(m => m.league === lg.name);
     const inFix = [...UPCOMING, ...TODAY, ...TOMORROW].some(m => compName(m) === lg.name);
     const inRes = (YESTERDAY.concat(TODAY)).some(m => compName(m) === lg.name);
     if (!inPred && !inFix && !inRes) thinLeagues.add(slug);
@@ -1444,7 +1512,9 @@ function buildSitemap() {
   add({ type: 'bettingGuides' }, 'monthly', '0.7');
   BETTING_GUIDES.forEach(g => add({ type: 'bettingGuide', arg: g.slug }, 'monthly', '0.6'));
   [...LEAGUES.keys()].forEach(s => { if (LEAGUE_INTROS[LEAGUES.get(s).name]) add({ type: 'leaguePreds', arg: s }, 'daily', '0.8'); });
-  MATCHES.forEach(m => add({ type: 'pred', arg: m.slug }, 'daily', '0.8'));
+  ALLPREDS.forEach(m => add({ type: 'pred', arg: m.slug }, 'daily', '0.8'));
+  add({ type: 'results' }, 'daily', '0.8');
+  add({ type: 'fixtures' }, 'daily', '0.8');
   const byLoc = loc => entries.filter(e => e.ll === loc);
   const linkFor = e => {
     const altFor = ll => {
@@ -1717,7 +1787,7 @@ function buildSearchIndex(loc) {
   BONUS_CODES.forEach(b => pages.push({ t: b.name + ' Bonus Code — XWhiz', u: pageUrl(loc, { type: 'bonusCode', arg: b.slug }), d: b.desc.slice(0, 160) }));
   pages.push({ t: t(loc, 'bettingGuides.title') + ' — XWhiz', u: pageUrl(loc, { type: 'bettingGuides' }), d: t(loc, 'bettingGuides.desc').slice(0, 160) });
   BETTING_GUIDES.forEach(g => pages.push({ t: g.title + ' — XWhiz', u: pageUrl(loc, { type: 'bettingGuide', arg: g.slug }), d: g.desc.slice(0, 160) }));
-  const matches = MATCHES.map(m => ({ t: `${m.home} ${t(loc, 'detail.vs')} ${m.away} — ${m.pred} @ ${m.odds}`, u: pageUrl(loc, { type: 'pred', arg: m.slug }), d: `${m.league} • ${m.conf}% ${t(loc, 'market.conf')} • ${fmtDate(loc, m.utcDate)}` }));
+  const matches = ALLPREDS.map(m => ({ t: `${m.home} ${t(loc, 'detail.vs')} ${m.away} — ${m.pred} @ ${m.odds}`, u: pageUrl(loc, { type: 'pred', arg: m.slug }), d: `${m.league} • ${m.conf}% ${t(loc, 'market.conf')} • ${fmtDate(loc, m.utcDate)}` }));
   const news = NEWS.map(n => ({ t: n.title, u: n.url || pfx + '/news/', d: `${n.league || n.category || ''} • ${n.source || ''}` }));
   return { pages, matches, news };
 }
@@ -1751,7 +1821,7 @@ function purge() {
 function main() {
   console.log('XWhiz sitegen — multilingual static build');
   purge();
-  console.log('Data: ' + MATCHES.length + ' predictions, ' + NEWS.length + ' news, ' + LEAGUES.size + ' leagues, ' + TEAMS.size + ' teams, ' + UPCOMING.length + ' upcoming, ' + YESTERDAY.length + ' results');
+  console.log('Data: ' + MATCHES.length + ' predictions (+' + ARCHIVED.length + ' archived results), ' + NEWS.length + ' news, ' + LEAGUES.size + ' leagues, ' + TEAMS.size + ' teams, ' + UPCOMING.length + ' upcoming, ' + YESTERDAY.length + ' results');
 
   for (const loc of LOCALES) {
     console.log(`— building ${loc.toUpperCase()}`);
@@ -1766,8 +1836,8 @@ function main() {
     writePath(rel + 'accumulator-tips/index.html', accaPage(loc));
     writePath(rel + 'predictions/btts-predictions-today.html', marketHubPage(loc, 'btts'));
     writePath(rel + 'predictions/over-2-5-goals-predictions-today.html', marketHubPage(loc, 'over'));
-    MATCHES.forEach((m, i) => {
-      const related = MATCHES.filter(x => x.slug !== m.slug).slice(0, 6);
+    ALLPREDS.forEach((m, i) => {
+      const related = ALLPREDS.filter(x => x.slug !== m.slug).slice(0, 6);
       writePath(rel + `predictions/${m.slug}.html`, predDetailPage(loc, m, related));
     });
     writePath(rel + 'football/index.html', footballHubPage(loc));

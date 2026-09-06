@@ -58,7 +58,8 @@ const L = {
       _1x2: '1X2', dc: 'Double Chance', ou: 'Over / Under 2.5', btts: 'Both Teams To Score', cs: 'Correct Score',
       home: 'Home', draw: 'Draw', away: 'Away', over: 'Over 2.5', under: 'Under 2.5', yes: 'Yes', no: 'No',
       conf: 'Confidence', value: 'Value', model: 'Statistical model', markets: 'All markets & predicted odds',
-      prob: 'Model probability', pick: 'Pick / odds', updated: 'Last updated'
+      prob: 'Model probability', pick: 'Pick / odds', updated: 'Last updated',
+      correct: 'Prediction correct', wrong: 'Prediction wrong'
     },
     status: { scheduled: 'Scheduled', finished: 'Finished', live: 'Live now', ht: 'Half-time', ft: 'Full-time', postponed: 'Postponed', cancelled: 'Cancelled', timed: 'Scheduled' },
     analysis: {
@@ -105,7 +106,8 @@ const L = {
       desc: '{home} vs {away}: {pred} @ {odds} ({conf}% confidence) plus expected goals, Over/Under 2.5, BTTS and most likely score.',
       seeBtts: 'All BTTS tips today',
       seeOver: 'All Over 2.5 tips today',
-      register: 'Register with Melbet'
+      register: 'Register with Melbet',
+      finalScore: 'Final score', ourPick: 'Our pick was'
     },
     marketHub: {
       today: 'today',
@@ -218,7 +220,8 @@ const L = {
       _1x2: '1N2', dc: 'Double chance', ou: 'Plus / Moins 2,5 buts', btts: 'Les deux équipes marquent', cs: 'Score exact',
       home: 'Domicile', draw: 'Nul', away: 'Extérieur', over: 'Plus de 2,5', under: 'Moins de 2,5', yes: 'Oui', no: 'Non',
       conf: 'Confiance', value: 'Valeur', model: 'Modèle statistique', markets: 'Tous les marchés et cotes prévues',
-      prob: 'Probabilité du modèle', pick: 'Prono / cote', updated: 'Dernière mise à jour'
+      prob: 'Probabilité du modèle', pick: 'Prono / cote', updated: 'Dernière mise à jour',
+      correct: 'Pronostic correct', wrong: 'Pronostic incorrect'
     },
     status: { scheduled: 'Programmé', finished: 'Terminé', live: 'En direct', ht: 'Mi-temps', ft: 'Temps plein', postponed: 'Reporté', cancelled: 'Annulé', timed: 'Programmé' },
     analysis: {
@@ -264,7 +267,8 @@ const L = {
       desc: '{home} contre {away} : {pred} @ {odds} ({conf}% de confiance) plus buts attendus, plus/moins 2,5, BTTS et score exact le plus probable.',
       seeBtts: 'Tous les pronostics BTTS du jour',
       seeOver: 'Tous les pronostics Plus de 2,5 du jour',
-      register: 'S\'inscrire chez Melbet'
+      register: 'S\'inscrire chez Melbet',
+      finalScore: 'Score final', ourPick: 'Notre pronostic était'
     },
     marketHub: {
       today: 'aujourd\'hui',
@@ -378,7 +382,8 @@ const L = {
       _1x2: '1X2', dc: 'فرصة مزدوجة', ou: 'أكثر / أقل من 2.5 هدف', btts: 'كلا الفريقين يسجلان', cs: 'النتيجة الصحيحة',
       home: 'فوز صاحب الأرض', draw: 'تعادل', away: 'فوز خارج الأرض', over: 'أكثر من 2.5', under: 'أقل من 2.5', yes: 'نعم', no: 'لا',
       conf: 'الثقة', value: 'القيمة', model: 'نموذج إحصائي', markets: 'جميع الأسواق والاحتمالات المتوقعة',
-      prob: 'احتمال النموذج', pick: 'التوقع / الاحتمالات', updated: 'آخر تحديث'
+      prob: 'احتمال النموذج', pick: 'التوقع / الاحتمالات', updated: 'آخر تحديث',
+      correct: 'التوقع صحيح', wrong: 'التوقع خاطئ'
     },
     status: { scheduled: 'مجدولة', finished: 'انتهت', live: 'مباشرة الآن', ht: 'استراحة', ft: 'انتهت', postponed: 'مؤجلة', cancelled: 'ملغاة', timed: 'مجدولة' },
     analysis: {
@@ -424,7 +429,8 @@ const L = {
       desc: '{home} ضد {away}: {pred} @ {odds} (ثقة {conf}%) + الأهداف المتوقعة وأكثر/أقل من 2.5 وكلا الفريقين يسجلان والنتيجة الأكثر احتمالًا.',
       seeBtts: 'جميع توقعات كلا الفريقين يسجلان اليوم',
       seeOver: 'جميع توقعات أكثر من 2.5 اليوم',
-      register: 'سجّل مع Melbet'
+      register: 'سجّل مع Melbet',
+      finalScore: 'النتيجة النهائية', ourPick: 'كان توقعنا'
     },
     marketHub: {
       today: 'اليوم',

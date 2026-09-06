@@ -173,13 +173,32 @@ async function main() {
   const fToday = readJSON('football/today.json');
   const fTomorrow = readJSON('football/tomorrow.json');
   const fUpcoming = readJSON('football/upcoming.json');
+  const fFixtures = readJSON('football/fixtures.json');
 
-  if (fToday && fToday.matches && fToday.matches.length) {
-    raw = fToday.matches; source = 'football-data.org (today)'; dataTimestamp = fToday.lastUpdate;
-  } else if (fTomorrow && fTomorrow.matches && fTomorrow.matches.length) {
-    raw = fTomorrow.matches; source = 'football-data.org (tomorrow)'; dataTimestamp = fTomorrow.lastUpdate;
-  } else if (fUpcoming && fUpcoming.matches && fUpcoming.matches.length) {
-    raw = fUpcoming.matches.slice(0, 12); source = 'football-data.org (upcoming)'; dataTimestamp = fUpcoming.lastUpdate;
+  // Rolling 7-day pool: merge today + tomorrow + upcoming + fixtures, dedupe.
+  // This keeps the site populated when "today" is empty (international break,
+  // Monday lull, stale feed) as long as ANY future fixture exists in range.
+  const pool = [];
+  const seenPool = new Set();
+  const poolSources = [];
+  if (fToday && fToday.matches && fToday.matches.length) poolSources.push({ arr: fToday.matches, tag: 'today', ts: fToday.lastUpdate });
+  if (fTomorrow && fTomorrow.matches && fTomorrow.matches.length) poolSources.push({ arr: fTomorrow.matches, tag: 'tomorrow', ts: fTomorrow.lastUpdate });
+  if (fUpcoming && fUpcoming.matches && fUpcoming.matches.length) poolSources.push({ arr: fUpcoming.matches, tag: 'upcoming', ts: fUpcoming.lastUpdate });
+  if (fFixtures && fFixtures.matches && fFixtures.matches.length) poolSources.push({ arr: fFixtures.matches, tag: 'fixtures', ts: fFixtures.lastUpdate });
+  for (const ps of poolSources) {
+    for (const m of ps.arr) {
+      const h = ((m.homeTeam && m.homeTeam.name) || m.home || '').toLowerCase();
+      const a = ((m.awayTeam && m.awayTeam.name) || m.away || '').toLowerCase();
+      const key = m.id || `${h}||${a}||${m.utcDate}`;
+      if (seenPool.has(key)) continue;
+      seenPool.add(key);
+      pool.push(m);
+    }
+  }
+  if (pool.length) {
+    raw = pool;
+    source = `rolling 7-day pool (${poolSources.map(p => `${p.tag}:${p.arr.length}`).join('+')})`;
+    dataTimestamp = (poolSources.map(p => p.ts).filter(Boolean).sort().pop()) || now;
   } else {
     try {
       const direct = await fetchFootballDataDirect();
@@ -262,10 +281,13 @@ async function main() {
     // NEVER fall back to stale/past matches just because the upcoming filter
     // produced zero. If nothing is upcoming, we have no valid predictions for
     // this run — return empty so the homepage doesn't display yesterday's games.
-    matches = upcoming.slice(0, 12).map(normalizeMatch);
+    // Chronological order (soonest kickoff first) so the "today" page shows
+    // the next fixtures across the rolling 7-day window.
+    upcoming.sort((a, b) => String(a.utcDate || '') < String(b.utcDate || '') ? -1 : 1);
+    matches = upcoming.slice(0, 24).map(normalizeMatch);
     console.log(`Major leagues: ${majorOnly.length} of ${raw.length} matches, upcoming: ${upcoming.length}`);
     if (matches.length < raw.length) console.log(`Filtered ${raw.length - matches.length} finished/past matches, keeping ${matches.length} upcoming`);
-    if (upcoming.length === 0 && raw.length > 0) console.log(`No upcoming matches today — predictions.json will be empty until next fixture window.`);
+    if (upcoming.length === 0 && raw.length > 0) console.log(`No upcoming matches in 7-day window — predictions.json matches will be empty until next fixture window.`);
   } else {
     // No new source available (e.g. running offline without API keys):
     // keep the previous predictions instead of wiping them.
@@ -285,15 +307,76 @@ async function main() {
   }
   console.log(`📦 ${matches.length} matches from ${source || 'no source (empty state)'}`);
 
-  // Yesterday's real results for the homepage results strip
+  // ---- Results archive (persistent across runs) ----
+  // Finished matches keep their pages alive as "Result: X-Y, prediction
+  // correct/wrong" instead of being deleted. Sources: football/results.json
+  // (rolling 7d) + football/yesterday.json. Score shapes differ by source:
+  // football-data.org/SportScore use score.fullTime.{home,away}, openfootball
+  // uses score.{home,away}. Accept both — never invent a score.
+  const prevData = readJSON('predictions.json');
+  const prevResults = prevData && Array.isArray(prevData.results) ? prevData.results : [];
+  const prevMatches = prevData && Array.isArray(prevData.matches) ? prevData.matches : [];
+  const normScore = m => {
+    if (!m || !m.score) return null;
+    if (m.score.fullTime && m.score.fullTime.home !== null && m.score.fullTime.home !== undefined)
+      return { h: m.score.fullTime.home, a: m.score.fullTime.away };
+    if (m.score.home !== null && m.score.home !== undefined && m.score.away !== undefined)
+      return { h: m.score.home, a: m.score.away };
+    return null;
+  };
+  const resKey = (h, a, d) => `${String(h || '').toLowerCase()}||${String(a || '').toLowerCase()}||${String(d || '').slice(0, 10)}`;
+  // Index previous predictions (current + archived) so finished matches can be
+  // graded against what we actually published.
+  const predIndex = new Map();
+  for (const pm of [...prevMatches, ...prevResults]) {
+    if (!pm || !pm.home || !pm.away) continue;
+    predIndex.set(resKey(pm.home, pm.away, pm.utcDate || pm.date), pm);
+  }
   const y = readJSON('football/yesterday.json');
-  const results = (y && y.matches ? y.matches : [])
-    .filter(m => m.status === 'FINISHED' && m.score && m.score.fullTime && m.score.fullTime.home !== null)
-    .slice(0, 6)
-    .map(m => ({
-      home: `${m.homeTeam.name} ${m.score.fullTime.home}-${m.score.fullTime.away} ${m.awayTeam.name}`,
-      pred: m.prediction.market1X2.pred, res: m.score.fullTime.home > m.score.fullTime.away ? '1' : m.score.fullTime.home === m.score.fullTime.away ? 'X' : '2'
-    }));
+  const fResults = readJSON('football/results.json');
+  const finishedRaw = [
+    ...((y && y.matches) || []),
+    ...((fResults && fResults.matches) || []),
+  ].filter(m => (m.status || '').toUpperCase() === 'FINISHED' && normScore(m));
+  const archiveMap = new Map();
+  // Carry forward previous archive first (keeps history across runs).
+  for (const r of prevResults) {
+    if (!r || !r.home || !r.away) continue;
+    archiveMap.set(r.slug || resKey(r.home, r.away, r.utcDate || r.date), r);
+  }
+  for (const m of finishedRaw) {
+    const home = (m.homeTeam && m.homeTeam.name) || m.home || '';
+    const away = (m.awayTeam && m.awayTeam.name) || m.away || '';
+    if (!home || !away) continue;
+    const sc = normScore(m);
+    const res1X2 = sc.h > sc.a ? '1' : sc.h === sc.a ? 'X' : '2';
+    const prior = predIndex.get(resKey(home, away, m.utcDate));
+    const pred = (prior && prior.pred) || (m.prediction && m.prediction.market1X2 && m.prediction.market1X2.pred) || null;
+    const to12 = p => p === 'Home Win' ? '1' : p === 'Draw' ? 'X' : p === 'Away Win' ? '2' : null;
+    const hit = pred ? (to12(pred) === res1X2) : null;
+    const slug = (prior && prior.slug) || `${slugify(home)}-vs-${slugify(away)}-prediction`;
+    archiveMap.set(slug, {
+      slug,
+      home, away,
+      league: (m.competition && m.competition.name) || (prior && prior.league) || 'Football',
+      code: (m.competition && m.competition.code) || (prior && prior.code) || '',
+      utcDate: m.utcDate, date: String(m.utcDate || '').slice(0, 10),
+      status: 'FINISHED',
+      scoreHome: sc.h, scoreAway: sc.a,
+      scoreText: `${home} ${sc.h}-${sc.a} ${away}`,
+      homeLine: `${home} ${sc.h}-${sc.a} ${away}`,
+      pred: pred || (prior && prior.pred) || null,
+      conf: (prior && prior.conf) || null,
+      odds: (prior && prior.odds) || null,
+      res: res1X2, result1X2: res1X2, hit,
+    });
+  }
+  const results = [...archiveMap.values()]
+    .sort((a, b) => String(b.utcDate || '') < String(a.utcDate || '') ? -1 : 1)
+    .slice(0, 30);
+  const hits = results.filter(r => r.hit === true).length;
+  const graded = results.filter(r => r.hit !== null).length;
+  console.log(`📊 Results archive: ${results.length} entries (${graded} graded, ${hits} correct)`);
 
   const existingNews = readJSON('news.json');
   const news = existingNews && existingNews.news ? existingNews.news.slice(0, 4) : [];

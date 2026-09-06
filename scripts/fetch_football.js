@@ -863,12 +863,35 @@ async function main() {
   let todayFinal = mergeSourceSets([pick(afToday, fjToday, wcToday, ssToday, fdToday, today), ssToday]);
   let tomorrowFinal = mergeSourceSets([pick(afTomorrow, fjTomorrow, wcTomorrow, ssTomorrow, fdTomorrow, tomorrow), ssTomorrow]);
   let yesterdayFinal = mergeSourceSets([pick(afYesterday, fjYesterday, wcYesterday, ssYesterday, fdYesterday, yesterday), ssYesterday]);
+  // Rolling 7-day window: openfootball/football.json holds the FULL season for
+  // the top leagues (free, no API cost), and fdUpcoming already covers
+  // today..weekLater when the football-data.org key is set. Merge those with
+  // today/tomorrow sources so upcoming.json never goes empty just because
+  // "today" has no fixtures (e.g. international break, Monday lull).
+  const fjWeek = fjAll.filter(m => m.utcDate && m.utcDate.slice(0, 10) >= today && m.utcDate.slice(0, 10) <= weekLater);
+  const byDate = (a, b) => {
+    const da = (a && a.utcDate) || '', db = (b && b.utcDate) || '';
+    if (da !== db) return da < db ? -1 : 1;
+    return leaguePriority((a && a._league) || '') < leaguePriority((b && b._league) || '') ? 1 : -1;
+  };
   const upcomingFinal = mergeSourceSets([
+    fdUpcoming,
+    fjWeek,
     afTomorrow.length ? afTomorrow : fjTomorrow.length ? fjTomorrow : wcTomorrow.length ? wcTomorrow : [],
     ssTomorrow,
     afToday.length ? afToday : fjToday.length ? fjToday : wcToday.length ? wcToday : [],
     ssToday,
-  ]).slice(0, 40);
+  ]).sort(byDate).slice(0, 60);
+  // Rolling results: finished matches from the last 7 days (not just yesterday),
+  // so /football/results/ and the results archive stay populated.
+  const day = 86400000;
+  const weekAgo = new Date(Date.now() - 7 * day).toISOString().slice(0, 10);
+  const fjFinishedWeek = fjAll.filter(m => m.status === 'FINISHED' && m.utcDate && m.utcDate.slice(0, 10) >= weekAgo && m.utcDate.slice(0, 10) <= today);
+  const resultsFinal = mergeSourceSets([
+    fdRecent.filter(m => (m.status || '').toUpperCase() === 'FINISHED' || m.status === 'FINISHED'),
+    fjFinishedWeek,
+    yesterdayFinal.filter(m => m.status === 'FINISHED'),
+  ]).sort(byDate).slice(-30);
 
   // Recent results for form from every source
   const allRecent = fdRecent.length > 0 ? fdRecent :
@@ -883,7 +906,7 @@ async function main() {
     : todayFinal && todayFinal[0] && todayFinal[0]._source === 'API-Football' ? 'API-Football'
     : fdToday.length > 0 ? 'football-data.org' : 'none';
 
-  console.log(`\nMerged data: today=${todayFinal.length}, tomorrow=${tomorrowFinal.length}, yesterday=${yesterdayFinal.length}, upcoming=${upcomingFinal.length} (source: ${dataSource})`);
+  console.log(`\nMerged data: today=${todayFinal.length}, tomorrow=${tomorrowFinal.length}, yesterday=${yesterdayFinal.length}, upcoming=${upcomingFinal.length} (7-day: fjWeek=${fjWeek.length}), results7d=${resultsFinal.length} (source: ${dataSource})`);
 
   // ── Strengths from standings (needs todayFinal/tomorrowFinal context) ──
   const strengths = new Map();
@@ -921,19 +944,21 @@ async function main() {
   // keeps the site populated during an API outage instead of showing "no matches".
   const hasAnyData =
     todayFinal.length > 0 || tomorrowFinal.length > 0 ||
-    yesterdayFinal.length > 0 || upcomingFinal.length > 0;
+    yesterdayFinal.length > 0 || upcomingFinal.length > 0 || resultsFinal.length > 0;
 
   if (!hasAnyData) {
     console.log('⚠️ No data from any source — keeping previous football data files.');
     return;
   }
 
+  const enrichedUpcoming = enrich(upcomingFinal);
+  const enrichedResults = enrich(resultsFinal);
   write('football/today.json', { date: today, count: todayFinal.length, matches: enrich(todayFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
   write('football/tomorrow.json', { date: tomorrow, count: tomorrowFinal.length, matches: enrich(tomorrowFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
   write('football/yesterday.json', { date: yesterday, count: yesterdayFinal.length, matches: enrich(yesterdayFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/upcoming.json', { dateFrom: today, dateTo: weekLater, count: upcomingFinal.length, matches: enrich(upcomingFinal).slice(0, 30), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/results.json', { date: yesterday, count: yesterdayFinal.length, matches: enrich(yesterdayFinal.filter(m => m.status === 'FINISHED')), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
-  write('football/fixtures.json', { dateFrom: today, dateTo: weekLater, count: upcomingFinal.length, matches: enrich(upcomingFinal), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/upcoming.json', { dateFrom: today, dateTo: weekLater, count: enrichedUpcoming.slice(0, 30).length, matches: enrichedUpcoming.slice(0, 30), source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/results.json', { dateFrom: weekAgo, dateTo: today, count: enrichedResults.length, matches: enrichedResults, source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
+  write('football/fixtures.json', { dateFrom: today, dateTo: weekLater, count: enrichedUpcoming.length, matches: enrichedUpcoming, source: `openfootball/football.json + WorldCup26 + SportScore${API_FOOTBALL_KEY ? ' + API-Football' : ''}`, strengthsFromStandings: strengths.size, lastUpdate: new Date().toISOString() });
 
   // ── live.json (drives /live.html) ──
   let plStandings = null;

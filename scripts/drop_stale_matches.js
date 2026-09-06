@@ -10,7 +10,7 @@ const isPastKickoff = m => {
   return diff > 3 * 3600000;
 };
 
-const files = ['football/today.json', 'football/tomorrow.json', 'football/upcoming.json', 'football/live.json'];
+const files = ['football/today.json', 'football/tomorrow.json', 'football/upcoming.json', 'football/fixtures.json', 'football/live.json'];
 let totalDropped = 0;
 
 for (const f of files) {
@@ -19,15 +19,18 @@ for (const f of files) {
   const data = JSON.parse(fs.readFileSync(p, 'utf8'));
   if (!Array.isArray(data.matches)) continue;
   const before = data.matches.length;
-  // Keep finished matches in yesterday.json only.
-  // For today/tomorrow/upcoming/live — drop past-kickoff matches entirely.
-  if (f.includes('today') || f.includes('tomorrow') || f.includes('upcoming') || f.includes('live')) {
+  // Keep finished matches in yesterday.json / results.json only.
+  // For today/tomorrow/upcoming/fixtures/live — drop past-kickoff matches.
+  // fixtures.json is the rolling 7-day window source, so it must stay clean too.
+  if (f.includes('today') || f.includes('tomorrow') || f.includes('upcoming') || f.includes('fixtures') || f.includes('live')) {
     data.matches = data.matches.filter(m => !isPastKickoff(m));
   }
   const after = data.matches.length;
-  if (before !== after) {
+  // Keep the count field truthful so logs/monitors don't report stale numbers.
+  if (typeof data.count === 'number') data.count = after;
+  if (before !== after || typeof data.count === 'number') {
     fs.writeFileSync(p, JSON.stringify(data, null, 2));
-    console.log(`${f}: dropped ${before - after} past-kickoff matches (was ${before}, now ${after})`);
+    if (before !== after) console.log(`${f}: dropped ${before - after} past-kickoff matches (was ${before}, now ${after})`);
     totalDropped += before - after;
   }
 }
