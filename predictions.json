@@ -1,84 +1,11 @@
 {
   "date": "2026-09-06",
-  "lastUpdate": "2026-09-06T02:56:47.884Z",
-  "predictionGenerated": "2026-09-06T02:56:47.884Z",
-  "dataTimestamp": "2026-09-06T02:56:44.678Z",
+  "lastUpdate": "2026-09-06T04:16:54.860Z",
+  "predictionGenerated": "2026-09-06T04:16:54.860Z",
+  "dataTimestamp": "2026-09-06T04:16:52.390Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:67+tomorrow:5+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "jaguares-de-cordoba-vs-atletico-junior-barranquilla",
-      "slug": "atletico-junior-barranquilla-vs-jaguares-de-cordoba-prediction",
-      "utcDate": "2026-09-06T01:30:00+00:00",
-      "date": "2026-09-06",
-      "time": "01:30",
-      "precise": "01:30 UTC • 03:30 CET",
-      "countdown": "0h to kickoff",
-      "home": "Atletico Junior Barranquilla",
-      "away": "Jaguares de Cordoba",
-      "league": "Categoría Primera A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Atletico Junior Barranquilla vs Jaguares de Cordoba: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "en.1:2026-09-06:Everton FC:Manchester United FC",
       "slug": "everton-vs-manchester-united-prediction",
@@ -86,7 +13,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Everton",
       "away": "Manchester United",
       "league": "Premier League",
@@ -159,7 +86,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Arsenal",
       "away": "Chelsea",
       "league": "Premier League",
@@ -232,7 +159,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Valencia CF",
       "away": "FC Barcelona",
       "league": "La Liga",
@@ -305,7 +232,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Deportivo Alavés",
       "away": "CA Osasuna",
       "league": "La Liga",
@@ -378,7 +305,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Málaga CF",
       "away": "Levante UD",
       "league": "La Liga",
@@ -451,7 +378,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "RCD Espanyol de Barcelona",
       "away": "Sevilla",
       "league": "La Liga",
@@ -524,7 +451,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Hamburger SV",
       "away": "1. FSV Mainz 05",
       "league": "Bundesliga",
@@ -597,7 +524,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "FC Augsburg",
       "league": "Bundesliga",
@@ -670,7 +597,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Parma Calcio 1913",
       "away": "AC Monza",
       "league": "Serie A",
@@ -743,7 +670,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Frosinone Calcio",
       "away": "Venezia",
       "league": "Serie A",
@@ -816,7 +743,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Bologna FC 1909",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -889,7 +816,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Juventus",
       "away": "AC Milan",
       "league": "Serie A",
@@ -962,7 +889,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "ES Troyes AC",
       "away": "RC Strasbourg Alsace",
       "league": "Ligue 1",
@@ -1035,7 +962,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Angers SCO",
       "away": "Stade Rennais FC 1901",
       "league": "Ligue 1",
@@ -1108,7 +1035,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Olympique de Marseille",
       "away": "Paris",
       "league": "Ligue 1",
@@ -1181,7 +1108,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "FC Groningen",
       "away": "FC Twente '65",
       "league": "Eredivisie",
@@ -1254,7 +1181,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "SC Heerenveen",
       "away": "AZ",
       "league": "Eredivisie",
@@ -1327,7 +1254,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Telstar 1963",
       "away": "SC Cambuur-Leeuwarden",
       "league": "Eredivisie",
@@ -1400,7 +1327,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "ADO Den Haag",
       "away": "Fortuna Sittard",
       "league": "Eredivisie",
@@ -1473,7 +1400,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "CD Santa Clara",
       "away": "Rio Ave",
       "league": "Primeira Liga",
@@ -1546,7 +1473,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Vitória Guimarães",
       "away": "Casa Pia AC",
       "league": "Primeira Liga",
@@ -1619,7 +1546,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Gil Vicente",
       "away": "Académico de Viseu",
       "league": "Primeira Liga",
@@ -1692,7 +1619,7 @@
       "date": "2026-09-06",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "12h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Birmingham City",
       "away": "Wolverhampton Wanderers",
       "league": "Championship",
@@ -1754,6 +1681,79 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Birmingham City vs Wolverhampton Wanderers: Dixon-Coles P(H)44% D24% A32% • xG 1.44-1.17 • most likely score 1-0 (12%) • Home Win confidence 44% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "es.1:2026-09-07:Getafe CF:RC Celta de Vigo",
+      "slug": "getafe-cf-vs-rc-celta-de-vigo-prediction",
+      "utcDate": "2026-09-07T15:00:00Z",
+      "date": "2026-09-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "34h to kickoff",
+      "home": "Getafe CF",
+      "away": "RC Celta de Vigo",
+      "league": "La Liga",
+      "code": "PD",
+      "flag": "🇪🇸",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 56,
+      "odds": "1.69",
+      "value": "+3%",
+      "probs": {
+        "home": 56,
+        "draw": 22,
+        "away": 22
+      },
+      "xg": {
+        "home": "1.74",
+        "away": "0.97",
+        "total": "2.71"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 78,
+        "X2": 44
+      },
+      "overUnder": {
+        "over2_5": 51,
+        "under2_5": 49,
+        "oddsOver": "1.86",
+        "oddsUnder": "1.94"
+      },
+      "btts": {
+        "yes": 50,
+        "no": 50
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        },
+        {
+          "score": "2-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -0.75",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Getafe CF vs RC Celta de Vigo: Dixon-Coles P(H)56% D22% A22% • xG 1.74-0.97 • most likely score 1-0 (13%) • Home Win confidence 56% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2343,9 +2343,20 @@
   ],
   "news": [
     {
+      "title": "City squeeze past Coventry behind Haaland's winner",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-06T02:57:16.000Z",
+      "excerpt": "Erling Haaland's first-half header sees Manchester City edge out Coventry 1-0 to make it three wins from three to start their Premier League",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49843727/city-squeeze-coventry-haaland-winner",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0905/dm_260905_EPL_Highlight_City_squeeze_past_Coventry_behind_Haalands_winner__20260906_AUS_ONLY/dm_260905_EPL_Highlight_City_squeeze_past_Coventry_behind_Haalands_winner__20260906_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
       "title": "Mikel Arteta confident that Bukayo Saka can take his game to 'different level' at Arsenal",
       "league": "Premier League",
-      "time": "4h ago",
+      "time": "5h ago",
       "published": "2026-09-05T22:42:28.000Z",
       "excerpt": "Mikel Arteta has praised Bukayo Saka's determination to take his game to a new level during Arsenal's Premier League title defence.",
       "source": "ESPN",
@@ -2356,7 +2367,7 @@
     {
       "title": "BACK-TO-BACK GOALS 🤩 Athletic Club vs. Atletico Madrid",
       "league": "La Liga",
-      "time": "4h ago",
+      "time": "5h ago",
       "published": "2026-09-05T22:31:11.000Z",
       "excerpt": "BACK-TO-BACK GOALS 🤩 Athletic Club vs. Atletico Madrid ",
       "source": "ESPN",
@@ -2365,20 +2376,9 @@
       "category": "football"
     },
     {
-      "title": "Haaland outpaces Ronaldo, Mbappé to 300 club goals",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-09-05T21:58:59.000Z",
-      "excerpt": "Erling Haaland scored the 300th goal of his club career as Man City extended their 100% start by beating Coventry 1-0 to stay at the top of ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49839417/erling-haaland-cristiano-ronaldo-kylian-mbappe-300-club-goals",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711982_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bayern Munich fail to score Bundesliga goal for first time in 18 months",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "6h ago",
       "published": "2026-09-05T21:21:23.000Z",
       "excerpt": "Bayern Munich failed to score in the Bundesliga for the first time in more than 18 months as they were held to a goalless draw by newly prom",
       "source": "ESPN",
