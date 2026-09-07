@@ -5,24 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 07 Sep 2026 01:09:14 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 02:17:02 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Sociedad Deportiva Aucas vs Barcelona SC(ECU) — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/sociedad-deportiva-aucas-vs-barcelona-sc-ecu-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sociedad-deportiva-aucas-vs-barcelona-sc-ecu-prediction.html</guid>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    <description>LigaPro Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Mon, 07 Sep 2026 00:00:00 GMT.</description>
-    <category>LigaPro Serie A</category>
-  </item>
-  <item>
-    <title>Deportivo Cuenca vs Libertad FC — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/deportivo-cuenca-vs-libertad-fc-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/deportivo-cuenca-vs-libertad-fc-prediction.html</guid>
-    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    <description>LigaPro Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Mon, 07 Sep 2026 00:00:00 GMT.</description>
-    <category>LigaPro Serie A</category>
-  </item>
   <item>
     <title>Getafe CF vs RC Celta de Vigo — Home Win @ 1.69</title>
     <link>https://xwhiz.com/predictions/getafe-cf-vs-rc-celta-de-vigo-prediction.html</link>
@@ -198,6 +182,22 @@
     <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 74% confidence. Away Win at 1.29. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
+  </item>
+  <item>
+    <title>Stade Rennais FC 1901 vs Olympique de Marseille — Away Win @ 1.49</title>
+    <link>https://xwhiz.com/predictions/stade-rennais-fc-1901-vs-olympique-de-marseille-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/stade-rennais-fc-1901-vs-olympique-de-marseille-prediction.html</guid>
+    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 64% confidence. Away Win at 1.49. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>AZ vs Willem II Tilburg — Home Win @ 1.06</title>
+    <link>https://xwhiz.com/predictions/az-vs-willem-ii-tilburg-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/az-vs-willem-ii-tilburg-prediction.html</guid>
+    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 90% confidence. Home Win at 1.06. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
   </item>
 </channel>
 </rss>

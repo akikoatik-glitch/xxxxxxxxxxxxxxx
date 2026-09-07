@@ -1,157 +1,11 @@
 {
   "date": "2026-09-07",
-  "lastUpdate": "2026-09-07T01:09:13.729Z",
-  "predictionGenerated": "2026-09-07T01:09:13.729Z",
-  "dataTimestamp": "2026-09-07T01:09:11.160Z",
+  "lastUpdate": "2026-09-07T02:17:02.129Z",
+  "predictionGenerated": "2026-09-07T02:17:02.129Z",
+  "dataTimestamp": "2026-09-07T02:16:59.143Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:29+tomorrow:7+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "sociedad-deportiva-aucas-vs-barcelona-scecu",
-      "slug": "sociedad-deportiva-aucas-vs-barcelona-sc-ecu-prediction",
-      "utcDate": "2026-09-07T00:00:00+00:00",
-      "date": "2026-09-07",
-      "time": "00:00",
-      "precise": "00:00 UTC • 02:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Sociedad Deportiva Aucas",
-      "away": "Barcelona SC(ECU)",
-      "league": "LigaPro Serie A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Sociedad Deportiva Aucas vs Barcelona SC(ECU): Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "libertad-fc-vs-deportivo-cuenca",
-      "slug": "deportivo-cuenca-vs-libertad-fc-prediction",
-      "utcDate": "2026-09-07T00:00:00+00:00",
-      "date": "2026-09-07",
-      "time": "00:00",
-      "precise": "00:00 UTC • 02:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Deportivo Cuenca",
-      "away": "Libertad FC",
-      "league": "LigaPro Serie A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Deportivo Cuenca vs Libertad FC: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "es.1:2026-09-07:Getafe CF:RC Celta de Vigo",
       "slug": "getafe-cf-vs-rc-celta-de-vigo-prediction",
@@ -159,7 +13,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "13h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Getafe CF",
       "away": "RC Celta de Vigo",
       "league": "La Liga",
@@ -232,7 +86,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "13h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Elche CF",
       "away": "Real Sociedad de Fútbol",
       "league": "La Liga",
@@ -305,7 +159,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "13h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Cagliari Calcio",
       "away": "US Lecce",
       "league": "Serie A",
@@ -378,7 +232,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "13h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Udinese Calcio",
       "away": "SS Lazio",
       "league": "Serie A",
@@ -451,7 +305,7 @@
       "date": "2026-09-07",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "13h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "GD Estoril Praia",
       "away": "FC Arouca",
       "league": "Primeira Liga",
@@ -524,7 +378,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "NEC",
       "away": "SBV Excelsior",
       "league": "Eredivisie",
@@ -597,7 +451,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Blackburn Rovers",
       "away": "Sheffield United",
       "league": "Championship",
@@ -670,7 +524,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Southampton",
       "away": "Swansea City A",
       "league": "Championship",
@@ -743,7 +597,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Watford",
       "away": "Preston North End",
       "league": "Championship",
@@ -816,7 +670,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Cardiff City",
       "away": "Stoke City",
       "league": "Championship",
@@ -889,7 +743,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Wrexham A",
       "away": "Burnley",
       "league": "Championship",
@@ -962,7 +816,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "37h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Bolton Wanderers",
       "away": "West Ham United",
       "league": "Championship",
@@ -1035,7 +889,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "61h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "FC Twente '65",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -1108,7 +962,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "61h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "Moreirense",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
@@ -1181,7 +1035,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "61h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "Charlton Athletic",
       "away": "Queens Park Rangers",
       "league": "Championship",
@@ -1254,7 +1108,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "61h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "Norwich City",
       "away": "Birmingham City",
       "league": "Championship",
@@ -1327,7 +1181,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "61h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "Derby County",
       "away": "West Bromwich Albion",
       "league": "Championship",
@@ -1400,7 +1254,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "61h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "Wolverhampton Wanderers",
       "away": "Portsmouth",
       "league": "Championship",
@@ -1473,7 +1327,7 @@
       "date": "2026-09-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "85h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "CF Estrela da Amadora",
       "away": "Sporting Clube de Braga",
       "league": "Primeira Liga",
@@ -1546,7 +1400,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "109h to kickoff",
+      "countdown": "108h to kickoff",
       "home": "Sevilla",
       "away": "Valencia CF",
       "league": "La Liga",
@@ -1619,7 +1473,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "109h to kickoff",
+      "countdown": "108h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1692,7 +1546,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "109h to kickoff",
+      "countdown": "108h to kickoff",
       "home": "Venezia",
       "away": "ACF Fiorentina",
       "league": "Serie A",
@@ -1755,6 +1609,152 @@
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Venezia vs ACF Fiorentina: Dixon-Coles P(H)10% D16% A74% • xG 0.63-2.19 • most likely score 0-2 (14%) • Away Win confidence 74% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-09-11:Stade Rennais FC 1901:Olympique de Marseille",
+      "slug": "stade-rennais-fc-1901-vs-olympique-de-marseille-prediction",
+      "utcDate": "2026-09-11T15:00:00Z",
+      "date": "2026-09-11",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "Stade Rennais FC 1901",
+      "away": "Olympique de Marseille",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 64,
+      "odds": "1.49",
+      "value": "+7%",
+      "probs": {
+        "home": 17,
+        "draw": 20,
+        "away": 64
+      },
+      "xg": {
+        "home": "0.86",
+        "away": "1.96",
+        "total": "2.82"
+      },
+      "doubleChance": {
+        "12": 80,
+        "1X": 36,
+        "X2": 83
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 13
+        },
+        {
+          "score": "0-2",
+          "prob": 12
+        },
+        {
+          "score": "1-2",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Stade Rennais FC 1901 vs Olympique de Marseille: Dixon-Coles P(H)17% D20% A64% • xG 0.86-1.96 • most likely score 0-1 (13%) • Away Win confidence 64% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "nl.1:2026-09-11:AZ:Willem II Tilburg",
+      "slug": "az-vs-willem-ii-tilburg-prediction",
+      "utcDate": "2026-09-11T15:00:00Z",
+      "date": "2026-09-11",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "AZ",
+      "away": "Willem II Tilburg",
+      "league": "Eredivisie",
+      "code": "DED",
+      "flag": "🇳🇱",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 90,
+      "odds": "1.06",
+      "value": "+20%",
+      "probs": {
+        "home": 90,
+        "draw": 7,
+        "away": 3
+      },
+      "xg": {
+        "home": "3.37",
+        "away": "0.50",
+        "total": "3.87"
+      },
+      "doubleChance": {
+        "12": 93,
+        "1X": 97,
+        "X2": 10
+      },
+      "overUnder": {
+        "over2_5": 73,
+        "under2_5": 27,
+        "oddsOver": "1.30",
+        "oddsUnder": "3.52"
+      },
+      "btts": {
+        "yes": 38,
+        "no": 62
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "4-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "AZ vs Willem II Tilburg: Dixon-Coles P(H)90% D7% A3% • xG 3.37-0.50 • most likely score 3-0 (14%) • Home Win confidence 90% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -2345,7 +2345,7 @@
     {
       "title": "Valencia fans slam owner Peter Lim, club 'mercenaries'",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "1h ago",
       "published": "2026-09-07T00:17:25.000Z",
       "excerpt": "Valencia fans protested Sunday against club officials and players after a demoralizing 5-0 home loss to Barcelona in LaLiga.",
       "source": "ESPN",
@@ -2356,7 +2356,7 @@
     {
       "title": "Giovanni Reyna scores first goal since move to Strasbourg",
       "league": "Ligue 1",
-      "time": "2h ago",
+      "time": "3h ago",
       "published": "2026-09-06T22:56:52.000Z",
       "excerpt": "Giovanni Reyna scored his first goal since signing for Strasbourg as his new club trounced Troyes 6-2 on Sunday in Ligue 1.",
       "source": "ESPN",
@@ -2367,7 +2367,7 @@
     {
       "title": "Iliman Ndiaye on Tottenham links: 'When Manchester City comes through you don't say no'",
       "league": "Premier League",
-      "time": "3h ago",
+      "time": "4h ago",
       "published": "2026-09-06T22:03:51.000Z",
       "excerpt": "Iliman Ndiaye has insisted signing for Manchester City was the obvious choice for him this week after he made his debut for Enzo Maresca's s",
       "source": "ESPN",
@@ -2378,7 +2378,7 @@
     {
       "title": "Federico Gatti's stoppage-time header rescues point for Juventus against Milan",
       "league": "Serie A",
-      "time": "3h ago",
+      "time": "4h ago",
       "published": "2026-09-06T21:42:05.000Z",
       "excerpt": "Federico Gatti scored deep into stoppage time as Juventus snatched a late 1-1 draw with AC Milan at the Allianz Stadium.",
       "source": "ESPN",
