@@ -79,7 +79,7 @@ const L = {
       faq: 'Frequently asked questions',
       faq1: { q: 'Who is the statistical favourite in {home} vs {away}?', a: 'The Dixon-Coles model gives {home} a {pH}% chance, the draw {pD}% and {away} {pA}%. With expected goals of {xgh}–{xga}, the recommended pick is {pred} at fair odds of {odds} ({conf}% confidence).' },
       faq2: { q: 'Is this prediction guaranteed?', a: 'No. {pred} is a probability estimate, not a guarantee. Statistical models reduce risk but betting always involves uncertainty. Only bet what you can afford to lose.' },
-      faq3: { q: 'When does {home} vs {away} kick off?', a: 'Kick-off: {precise}. {countdown}.' }
+      faq3: { q: 'When does {home} vs {away} kick off?', a: 'Kick-off: {precise} ({league}). Check official club channels for late team-news changes.' }
     },
     bet: {
       'Home Win': 'Bet on the home team to win in 90 minutes — market 1 on the 1X2.',
@@ -103,7 +103,7 @@ const L = {
       more: 'More predictions today',
       views: 'prediction pages',
       titleToken: 'Prediction',
-      desc: '{home} vs {away}: {pred} @ {odds} ({conf}% confidence) plus expected goals, Over/Under 2.5, BTTS and most likely score.',
+      desc: '{home} vs {away} ({league}, {date}): {pred} @ {odds} ({conf}%) — expected goals, Over/Under 2.5, BTTS.',
       seeBtts: 'All BTTS tips today',
       seeOver: 'All Over 2.5 tips today',
       register: 'Register with Melbet',
@@ -241,7 +241,7 @@ const L = {
       faq: 'Questions fréquentes',
       faq1: { q: 'Qui est favori statistiquement dans {home} – {away} ?', a: 'Le modèle Dixon-Coles donne {pH}% à {home}, {pD}% au nul et {pA}% à {away}. Avec {xgh}–{xga} buts attendus, le pronostic conseillé est {pred} à la cote {odds} ({conf}% de confiance).' },
       faq2: { q: 'Ce pronostic est-il garanti ?', a: 'Non. {pred} est une estimation de probabilité, pas une garantie. Les modèles statistiques réduisent le risque mais le pari comporte toujours une part d\'incertitude. Ne pariez que ce que vous pouvez perdre.' },
-      faq3: { q: 'Quand a lieu le coup d\'envoi de {home} – {away} ?', a: 'Coup d\'envoi : {precise}. {countdown}.' }
+      faq3: { q: 'Quand a lieu le coup d\'envoi de {home} – {away} ?', a: 'Coup d\'envoi : {precise} ({league}). Consultez les canaux officiels des clubs pour les changements de dernière minute.' }
     },
     bet: {
       'Home Win': 'Pariez sur la victoire de l\'équipe à domicile dans le temps réglementaire — sélection 1 au 1N2.',
@@ -264,7 +264,7 @@ const L = {
       vs: '–', tag: 'PRONO STATISTIQUE XWHIZ', kickoff: 'Coup d\'envoi', matchday: 'Journée',
       more: 'Plus de pronostics aujourd\'hui', views: 'pages de pronostics',
       titleToken: 'pronostic',
-      desc: '{home} contre {away} : {pred} @ {odds} ({conf}% de confiance) plus buts attendus, plus/moins 2,5, BTTS et score exact le plus probable.',
+      desc: '{home} contre {away} ({league}, {date}) : {pred} @ {odds} ({conf}%) — buts attendus, plus/moins 2,5 et BTTS.',
       seeBtts: 'Tous les pronostics BTTS du jour',
       seeOver: 'Tous les pronostics Plus de 2,5 du jour',
       register: 'S\'inscrire chez Melbet',
@@ -403,7 +403,7 @@ const L = {
       faq: 'الأسئلة الشائعة',
       faq1: { q: 'من هو المرشح إحصائيًا في مباراة {home} ضد {away}؟', a: 'يمنح نموذج Dixon-Coles {home} احتمال {pH}% والتعادل {pD}% و{away} {pA}%. مع أهداف متوقعة {xgh}–{xga}، التوقع الموصى به هو {pred} بسعر {odds} (ثقة {conf}%).' },
       faq2: { q: 'هل هذا التوقع مضمون؟', a: 'لا. {pred} تقدير احتمالي وليس ضمانًا. النماذج الإحصائية تقلل المخاطر لكن المراهنة تنطوي دائمًا على عدم يقين. راهن فقط بما يمكنك تحمّل خسارته.' },
-      faq3: { q: 'متى تنطلق مباراة {home} و{away}؟', a: 'الانطلاق: {precise}. {countdown}.' }
+      faq3: { q: 'متى تنطلق مباراة {home} و{away}؟', a: 'الانطلاق: {precise} ({league}). تابع القنوات الرسمية للأندية لمعرفة أي تغييرات متأخرة.' }
     },
     bet: {
       'Home Win': 'راهن على فوز الفريق المستضيف في الوقت الأصلي — الخيار 1 في سوق 1X2.',
@@ -426,7 +426,7 @@ const L = {
       vs: 'ضد', tag: 'توقع XWHIZ الإحصائي', kickoff: 'الانطلاق', matchday: 'الجولة',
       more: 'المزيد من توقعات اليوم', views: 'صفحات التوقعات',
       titleToken: 'توقع',
-      desc: '{home} ضد {away}: {pred} @ {odds} (ثقة {conf}%) + الأهداف المتوقعة وأكثر/أقل من 2.5 وكلا الفريقين يسجلان والنتيجة الأكثر احتمالًا.',
+      desc: '{home} ضد {away} ({date}): {pred} @ {odds} (ثقة {conf}%) — الأهداف المتوقعة وأكثر/أقل 2.5 وBTTS.',
       seeBtts: 'جميع توقعات كلا الفريقين يسجلان اليوم',
       seeOver: 'جميع توقعات أكثر من 2.5 اليوم',
       register: 'سجّل مع Melbet',

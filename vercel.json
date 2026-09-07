@@ -51,6 +51,7 @@
   "redirects": [
     { "source": "/live/", "destination": "/live.html", "permanent": true },
     { "source": "/predictor/", "destination": "/predictor.html", "permanent": true },
-    { "source": "/search/", "destination": "/search.html", "permanent": true }
+    { "source": "/search/", "destination": "/search.html", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.xwhiz.com" }], "destination": "https://xwhiz.com/:path*", "permanent": true }
   ]
 }

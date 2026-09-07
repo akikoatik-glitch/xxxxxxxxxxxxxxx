@@ -42,15 +42,27 @@ const writePath = (f, c) => { fs.mkdirSync(path.dirname(path.join(ROOT, f)), { r
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 // Format a match "form" value into readable text. m.form may be a plain string
 // or an object like { home: "WDLWW", away: "DLWWD" } (or nulls when unknown).
-function fmtForm(f) {
-  if (f == null) return 'No recent form data available.';
-  if (typeof f === 'string') return f.trim() ? f.trim() : 'No recent form data available.';
+// When no form feed is available, fall back to Elo-based context instead of a
+// thin "no data" placeholder (better for E-E-A-T + uniqueness).
+function fmtForm(f, home, away) {
+  const fallback = () => {
+    try {
+      if (home && away && dcModel.rating) {
+        const rh = dcModel.rating(home), ra = dcModel.rating(away);
+        const stronger = rh === ra ? 'evenly matched on Elo' : (rh > ra ? `${home} rated higher` : `${away} rated higher`);
+        return `No recent-form feed for this fixture — model uses Elo ratings (${rh} vs ${ra}, ${stronger}) plus league-average attack/defence.`;
+      }
+    } catch (e) {}
+    return 'No recent-form feed for this fixture — model uses Elo ratings plus league-average attack/defence.';
+  };
+  if (f == null) return fallback();
+  if (typeof f === 'string') return f.trim() ? f.trim() : fallback();
   if (typeof f === 'object') {
     const parts = [];
     if (f.home) parts.push(`Home: ${f.home}`);
     if (f.away) parts.push(`Away: ${f.away}`);
     if (parts.length) return parts.join(' · ');
-    return 'No recent form data available.';
+    return fallback();
   }
   return String(f);
 }
@@ -924,10 +936,13 @@ function predDetailPage(loc, m, related) {
   if (m.btts) marketRows.push([t(loc, 'market.btts'), `${t(loc, 'market.yes')} ${num(loc, m.btts.yes)}% • ${t(loc, 'market.no')} ${num(loc, m.btts.no)}%`, `BTTS ${t(loc, 'market.yes')} @ ${num(loc, (100 / m.btts.yes).toFixed(2))}`, m.btts.yes]);
   if (m.correctScore) marketRows.push([t(loc, 'market.cs'), `${esc(m.correctScore.score)} (${num(loc, m.correctScore.prob)}%)`, esc(m.correctScore.score), m.correctScore.prob]);
 
+  const preciseValid = m.precise && m.precise.trim() && m.precise.trim() !== '—';
+  const kickoffJoin = loc === 'fr' ? ' le ' : loc === 'ar' ? ' يوم ' : ' on ';
+  const kickoffFull = preciseValid ? `${m.precise}${kickoffJoin}${dateStr}` : dateStr;
   const faqs = [
     { q: t(loc, 'analysis.faq1.q', { home: m.home, away: m.away }), a: t(loc, 'analysis.faq1.a', { home: m.home, away: m.away, pH, pD, pA, xgh, xga, pred: m.pred, odds: m.odds, conf: m.conf }) },
     { q: t(loc, 'analysis.faq2.q', {}), a: t(loc, 'analysis.faq2.a', { pred: m.pred }) },
-    { q: t(loc, 'analysis.faq3.q', { home: m.home, away: m.away }), a: t(loc, 'analysis.faq3.a', { precise: m.precise, countdown: m.countdown }) }
+    { q: t(loc, 'analysis.faq3.q', { home: m.home, away: m.away }), a: t(loc, 'analysis.faq3.a', { precise: kickoffFull, date: dateStr, league: m.league }) }
   ];
 
   const relatedHTML = related.map(r => `<div class="block border border-zinc-200 rounded-2xl hover:bg-zinc-50"><a href="${pageUrl(loc, { type: 'pred', arg: r.slug })}" class="block p-4 pb-1"><div class="font-bold text-sm">${esc(r.home)} ${t(loc, 'detail.vs')} ${esc(r.away)}</div></a><div class="px-4 pb-4 text-xs text-zinc-500">${esc(r.league)} • ${esc(r.pred)} @ ${esc(r.odds)} • ${r.conf}%</div></div>`).join('');
@@ -943,7 +958,7 @@ ${breadcrumb(loc, [
 <h1 class="mt-4 text-3xl md:text-4xl font-black tracking-tight leading-tight">${esc(m.home)} ${t(loc, 'detail.vs')} ${esc(m.away)} — ${t(loc, 'analysis.title')}</h1>
 <p class="mt-2 text-zinc-600">${esc(m.league)} • ${esc(dateStr)} • ${esc(m.precise)}</p>
 ${(() => { const sc = getScore(m); const finished = (m.status || '').toUpperCase() === 'FINISHED' || sc != null; if (!finished) return ''; const badge = (m.hit === true) ? `<span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">✓ ${t(loc, 'market.correct')}</span>` : (m.hit === false) ? `<span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold">✗ ${t(loc, 'market.wrong')}</span>` : `<span class="bg-zinc-200 text-zinc-700 px-3 py-1 rounded-full text-xs font-bold">FT</span>`; return `<div class="mt-4 flex flex-wrap items-center gap-3 bg-zinc-50 border border-zinc-200 rounded-2xl px-5 py-4"><div class="text-2xl font-black tabular-nums">${sc ? `${sc.h} – ${sc.a}` : 'FT'}</div><div class="text-sm text-zinc-600">${t(loc, 'detail.finalScore')}</div>${badge}${m.pred ? `<div class="text-xs text-zinc-500">${t(loc, 'detail.ourPick')}: <strong>${esc(m.pred)}</strong>${m.odds ? ` @ ${esc(m.odds)}` : ''}</div>` : ''}</div>`; })()}
-<p class="mt-1 text-xs text-zinc-400">By XWhiz Data Team · Updated ${esc(todayISO())} · Model Dixon-Coles v3 · <a class="underline" href="${pageUrl(loc, { type: 'methodology' })}">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).methodology}</a></p>
+<p class="mt-1 text-xs text-zinc-400">By <a class="underline" href="${pageUrl(loc, { type: 'about' })}">XWhiz Data Team</a> · Updated ${esc(todayISO())} · Model Dixon-Coles v3 · Data: football-data.org · <a class="underline" href="${pageUrl(loc, { type: 'methodology' })}">${(LEGAL_LABEL[loc]||LEGAL_LABEL.en).methodology}</a></p>
 <div class="mt-3 flex flex-wrap gap-2 text-xs">
 <a href="${pageUrl(loc, { type: 'league', arg: leagueSlug(m.league) })}" class="font-semibold text-brand-700 hover:underline">${t(loc, 'analysis.leagueLink')}</a>
 <a href="${pageUrl(loc, { type: 'team', arg: slugify(m.home) })}" class="font-semibold text-brand-700 hover:underline">${esc(m.home)}</a>
@@ -985,7 +1000,7 @@ ${m.topScores && m.topScores.length ? `<h3 class="mt-6 text-lg font-extrabold">$
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.why', { pred: m.pred })}</h3>
 <ul class="mt-2 list-disc pl-5 text-zinc-700 space-y-1">
 <li>${t(loc, 'bet.' + m.pred)}</li>
-<li>${t(loc, 'analysis.formLabel')}: ${esc(fmtForm(m.form))}</li>
+<li>${t(loc, 'analysis.formLabel')}: ${esc(fmtForm(m.form, m.home, m.away))}</li>
 <li>${t(loc, 'analysis.injuriesLabel')}: ${esc(m.injuries)} · ${t(loc, 'analysis.formNote')}</li>
 </ul>
 <h3 class="mt-6 text-lg font-extrabold">${t(loc, 'analysis.howTo')}</h3>
@@ -1012,12 +1027,12 @@ ${faqBlock(loc, faqs)}
     : shortTitle.slice(0, 61).replace(/\s+\S*$/, '') + '…';
   return shell(loc, {
     title: pageTitle,
-    desc: t(loc, 'detail.desc', { home: m.home, away: m.away, pred: m.pred, odds: m.odds, conf: m.conf }),
+    desc: t(loc, 'detail.desc', { home: m.home, away: m.away, league: m.league, date: dateISO, pred: m.pred, odds: m.odds, conf: m.conf }),
     canonical: url, page: { type: 'pred', arg: m.slug }, body, ogType: 'article', publishedTime: dateISO,
     jsonld: [
-      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: ((m.status || '').toUpperCase() === 'FINISHED' || getScore(m)) ? 'https://schema.org/EventCompleted' : 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, location: { '@type': 'Place', name: m.league }, organizer: { '@type': 'Organization', name: m.league, url: m.code && LEAGUE_INTROS[m.league] && LEAGUE_INTROS[m.league].org ? LEAGUE_INTROS[m.league].org : undefined }, contributor: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}${(() => { const sc = getScore(m); return sc ? ` Final score ${sc.h}-${sc.a}.` : ''; })()}` },
+      { '@context': 'https://schema.org', '@type': 'SportsEvent', name: `${m.home} ${t(loc, 'detail.vs')} ${m.away}`, sport: 'Soccer', inLanguage: loc, startDate: m.utcDate, eventStatus: ((m.status || '').toUpperCase() === 'FINISHED' || getScore(m)) ? 'https://schema.org/EventCompleted' : 'https://schema.org/EventScheduled', homeTeam: { '@type': 'SportsTeam', name: m.home }, awayTeam: { '@type': 'SportsTeam', name: m.away }, organizer: { '@type': 'Organization', name: m.league, url: m.code && LEAGUE_INTROS[m.league] && LEAGUE_INTROS[m.league].org ? LEAGUE_INTROS[m.league].org : undefined }, contributor: { '@type': 'Organization', name: 'XWhiz', url: SITE }, description: `${m.pred} @ ${m.odds}, ${m.conf}% confidence — statistical model analysis${m.correctScore ? `, most likely score ${m.correctScore.score}` : ''}${(() => { const sc = getScore(m); return sc ? ` Final score ${sc.h}-${sc.a}.` : ''; })()}` },
       { '@context': 'https://schema.org', '@type': 'Article', headline: `${m.home} vs ${m.away} Prediction ${dateISO}`, datePublished: dateISO, dateModified: todayISO(), author: { '@type': 'Organization', name: 'XWhiz Data Team', url: `${SITE}/about/` }, publisher: { '@type': 'Organization', name: 'XWhiz', logo: { '@type': 'ImageObject', url: `${SITE}/logo.png` } }, image: OG_IMG, mainEntityOfPage: url, isAccessibleForFree: true, description: `${m.pred} @ ${m.odds} — Dixon-Coles statistical model.`, keywords: `${m.home} vs ${m.away} prediction, ${m.league} prediction, statistical football prediction` },
-      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: `${m.home} vs ${m.away}`, item: url }] },
+      { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: HOME_LABEL[loc], item: `${SITE}${pageUrl(loc, { type: 'home' })}` }, { '@type': 'ListItem', position: 2, name: t(loc, 'nav.predictions'), item: `${SITE}${pageUrl(loc, { type: 'predIndex' })}` }, { '@type': 'ListItem', position: 3, name: m.league, item: `${SITE}${pageUrl(loc, { type: 'league', arg: leagueSlug(m.league) })}` }, { '@type': 'ListItem', position: 4, name: `${m.home} vs ${m.away}`, item: url }] },
       { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
     ]
   });
