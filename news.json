@@ -1,32 +1,65 @@
 {
-  "lastUpdate": "2026-09-07T08:19:05.794Z",
+  "lastUpdate": "2026-09-07T10:17:14.352Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Chelsea eye Scott to replace Enzo Fernández",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-07T07:11:25.000Z",
-      "excerpt": "Chelsea are at the front of the queue to sign AFC Bournemouth midfielder Alex Scott. Transfer Talk has the latest.",
+      "title": "Can Mourinho lead Real Madrid to Champions League glory and prove how special he is?",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-09-07T09:42:37.000Z",
+      "excerpt": "Jose Mourinho's career nosedived after he left Real Madrid in 2013, but can he prove how special he is on his return?",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49857058/transfer-rumors-news-chelsea-eye-bournemouth-scott-replace-enzo-fernandez",
-      "image": "https://a.espncdn.com/photo/2026/0829/r1708517_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49857747/can-mourinho-lead-real-madrid-champions-league-glory-prove-how-special-is",
+      "image": "https://a.espncdn.com/photo/2026/0817/r1702870_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Chelsea defence slammed by Gary Neville after Arsenal defeat: 'All over the place'",
+      "title": "Wayne Rooney: Arsenal defender Gabriel 'extremely lucky' to avoid red in Chelsea win",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-07T09:34:50.000Z",
+      "excerpt": "Wayne Rooney has said Arsenal defender Gabriel was \"extremely lucky\" to avoid being sent off in his side's 2-1 win over Chelsea on Sunday.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49857536/wayne-rooney-arsenal-gabriel-magalhaes-extremely-lucky-avoid-red-chelsea-win",
+      "image": "https://a.espncdn.com/photo/2026/0907/r1712690_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "AC Milan boss Ruben Amorim calls for patience after Serie A winning streak ends",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-07T09:31:45.000Z",
+      "excerpt": "Ruben Amorim has called for patience after his winning run as AC Milan manager came to a halt on Sunday as his side were held to a 1-1 defea",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49857700/ac-milan-boss-ruben-amorim-calls-patience-serie-winning-streak-ends",
+      "image": "https://a.espncdn.com/photo/2026/0907/r1712688_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Champions League Power Rankings before MD1: Who's No. 1?",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-09-07T08:54:41.000Z",
+      "excerpt": "It's time for the UEFA Champions League! Before each matchday, our panel of experts and voters will rank the top 10 teams in the field to gi",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49826219/champions-league-power-rankings-md1-no-1-psg-arsenal-barcelona-bayern-munich",
+      "image": "https://a.espncdn.com/photo/2026/0530/r1665877_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Alonso: Defeat to Arsenal 'needs to hurt in a positive way' for Chelsea",
       "league": "Premier League",
       "time": "1h ago",
-      "published": "2026-09-07T07:06:50.000Z",
-      "excerpt": "Gary Neville has criticised Chelsea for being \"all over the place\" defensively in the 2-1 defeat to Arsenal, insisting Xabi Alonso should fo",
+      "published": "2026-09-07T08:34:37.000Z",
+      "excerpt": "Alonso: Defeat to Arsenal 'needs to hurt in a positive way' for Chelsea",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49856811/chelsea-defence-all-place-arsenal-gary-neville",
-      "image": "https://a.espncdn.com/photo/2026/0907/r1712679_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/49857446/defeat-arsenal-needs-hurt-positive-way-chelsea",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0907/dm_260907_Alonso_Defeat_to_Arsenal_needs_to_hurt_in_a_positive_way_for_Chelsea/dm_260907_Alonso_Defeat_to_Arsenal_needs_to_hurt_in_a_positive_way_for_Chelsea.jpg",
       "category": "football"
     },
     {
       "title": "Valencia fans slam owner Peter Lim, club 'mercenaries'",
       "league": "La Liga",
-      "time": "6h ago",
+      "time": "7h ago",
       "published": "2026-09-07T02:18:15.000Z",
       "excerpt": "Valencia fans protested Sunday against club officials and players after a demoralizing 5-0 home loss to Barcelona in LaLiga.",
       "source": "ESPN",
@@ -37,7 +70,7 @@
     {
       "title": "Giovanni Reyna scores first goal since move to Strasbourg",
       "league": "Ligue 1",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-06T22:56:52.000Z",
       "excerpt": "Giovanni Reyna scored his first goal since signing for Strasbourg as his new club trounced Troyes 6-2 on Sunday in Ligue 1.",
       "source": "ESPN",
@@ -48,7 +81,7 @@
     {
       "title": "Federico Gatti's stoppage-time header rescues point for Juventus against Milan",
       "league": "Serie A",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-06T21:42:05.000Z",
       "excerpt": "Federico Gatti scored deep into stoppage time as Juventus snatched a late 1-1 draw with AC Milan at the Allianz Stadium.",
       "source": "ESPN",
@@ -59,7 +92,7 @@
     {
       "title": "Espanyol vs. Sevilla - Game Highlights",
       "league": "La Liga",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-06T21:12:48.000Z",
       "excerpt": "Watch the Game Highlights from Espanyol vs. Sevilla, 09/06/2026",
       "source": "ESPN",
@@ -90,28 +123,6 @@
       "category": "football"
     },
     {
-      "title": "Lautaro Martínez brace seals thrilling comeback win for Inter over Napoli",
-      "league": "Serie A",
-      "time": "05/09/2026",
-      "published": "2026-09-05T19:21:49.000Z",
-      "excerpt": "Lautaro Martínez scored a stoppage-time winner as Inter Milan came from behind to beat Napoli 3-2 and maintain their perfect start to the ne",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401874937",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711904_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Fenerbahce's Mattéo Guendouzi banned for two Champions League matches after Lyon clashes",
-      "league": "Champions League",
-      "time": "05/09/2026",
-      "published": "2026-09-05T14:48:09.000Z",
-      "excerpt": "Mattéo Guendouzi was banned by UEFA from Fenerbahce's first two Champions League games for provocations and insults in a heated playoff win ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49835255/fenerbahce-matteo-guendouzi-two-champions-league-games-banned-lyon-clashes",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711756_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Luis Enrique unfazed as historic PSG winless start deepens",
       "league": "Ligue 1",
       "time": "04/09/2026",
@@ -120,17 +131,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49829043/luis-enrique-unfazed-historic-psg-winless-start-deepens-monaco-defeat",
       "image": "https://a.espncdn.com/photo/2026/0904/r1711544_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "PSG give coach Luis Enrique, 5 players new contracts",
-      "league": "Champions League",
-      "time": "04/09/2026",
-      "published": "2026-09-04T20:23:54.000Z",
-      "excerpt": "Paris Saint-Germain have rewarded coach Luis Enrique and five members of their squad with new contracts after helping the French club to bac",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49827385/psg-coach-luis-enrique-new-contract-fabian-ruiz-joao-neves",
-      "image": "https://a.espncdn.com/photo/2026/0904/r1711451_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
