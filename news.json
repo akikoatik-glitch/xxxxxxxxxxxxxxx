@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-09-07T22:16:25.945Z",
+  "lastUpdate": "2026-09-08T00:27:55.595Z",
   "news": [
+    {
+      "title": "Serie A Weekend Reaction: Can Roma challenge Inter for the title?",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-07T22:42:26.000Z",
+      "excerpt": "Serie A Weekend Reaction: Can Roma challenge Inter for the title?",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49862804/roma-challenge-inter-title",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0907/ss_20260907_175109503_36520361120/ss_20260907_175109503_36520361120.jpg",
+      "category": "football"
+    },
     {
       "title": "Can Havertz lead Arsenal to Champions League glory?",
       "league": "Champions League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-07T22:04:51.000Z",
       "excerpt": "Can Havertz lead Arsenal to Champions League glory?",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Marcotti: Real Madrid can win the UCL without firing on all cylinders",
       "league": "Champions League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-07T22:01:11.000Z",
       "excerpt": "Marcotti: Real Madrid can win the UCL without firing on all cylinders",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Are Arsenal building a Premier League dynasty?",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-07T22:00:58.000Z",
       "excerpt": "Are Arsenal building a Premier League dynasty?",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Elche vs. Real Sociedad - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-07T21:33:54.000Z",
       "excerpt": "Watch the Game Highlights from Elche vs. Real Sociedad, 09/07/2026",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Getafe vs. Celta Vigo - Game Highlights",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-09-07T19:16:36.000Z",
-      "excerpt": "Watch the Game Highlights from Getafe vs. Celta Vigo, 09/07/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49861576/getafe-vs-celta-vigo-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0907/f88e803d-3c9a-4023-beae-c08d141bc8ef/f88e803d-3c9a-4023-beae-c08d141bc8ef.jpg",
-      "category": "football"
-    },
-    {
       "title": "Arsenal's Ezri Konsa 'loved' battle with England teammate Morgan Rogers in Chelsea clash",
       "league": "Premier League",
-      "time": "6h ago",
+      "time": "8h ago",
       "published": "2026-09-07T15:29:29.000Z",
       "excerpt": "Ezri Konsa was delighted with his tackle on former teammate Morgan Rogers that brought a roar of approval from Arsenal fans during Sunday's ",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Bayern Munich CEO: 'No offers' for Michael Olise in summer, cannot make promises on future",
       "league": "Bundesliga",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-07T14:43:37.000Z",
       "excerpt": "Bayern Munich CEO Jan-Christian Dreesen has said the club did not receive any offers for Michael Olise over the summer transfer window, but ",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Mbappe backs himself as the best in the world",
       "league": "Serie A",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-07T14:29:01.000Z",
       "excerpt": "Mbappe backs himself as the best in the world",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "Arsenal show Chelsea, Premier League who's boss; Inter the team to beat in Serie A",
       "league": "Serie A",
-      "time": "8h ago",
+      "time": "11h ago",
       "published": "2026-09-07T13:22:37.000Z",
       "excerpt": "Arsenal looked rattled against Chelsea thanks to an early goal, but Mikel Arteta's side quickly showed why it's the team to beat in England.",
       "source": "ESPN",
@@ -103,7 +103,7 @@
     {
       "title": "Harry Kane 'proud' to be in Ballon d'Or contention after 'best season so far'",
       "league": "Bundesliga",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-07T13:12:40.000Z",
       "excerpt": "Harry Kane has said he is happy to be in contention for the Ballon d'Or and that he is \"extremely proud\" of his stunning goalscoring campaig",
       "source": "ESPN",
@@ -114,7 +114,7 @@
     {
       "title": "Giovanni Reyna scores first goal since move to Strasbourg",
       "league": "Ligue 1",
-      "time": "23h ago",
+      "time": "06/09/2026",
       "published": "2026-09-06T22:56:52.000Z",
       "excerpt": "Giovanni Reyna scored his first goal since signing for Strasbourg as his new club trounced Troyes 6-2 on Sunday in Ligue 1.",
       "source": "ESPN",
