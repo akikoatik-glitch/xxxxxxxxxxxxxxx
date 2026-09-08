@@ -1,230 +1,11 @@
 {
   "date": "2026-09-08",
-  "lastUpdate": "2026-09-08T00:27:55.641Z",
-  "predictionGenerated": "2026-09-08T00:27:55.641Z",
-  "dataTimestamp": "2026-09-08T00:27:52.740Z",
+  "lastUpdate": "2026-09-08T02:17:27.720Z",
+  "predictionGenerated": "2026-09-08T02:17:27.720Z",
+  "dataTimestamp": "2026-09-08T02:17:24.937Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:41+tomorrow:6+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "mushuc-runa-vs-club-leones-del-norte",
-      "slug": "mushuc-runa-vs-club-leones-del-norte-prediction",
-      "utcDate": "2026-09-08T00:00:00+00:00",
-      "date": "2026-09-08",
-      "time": "00:00",
-      "precise": "00:00 UTC • 02:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Mushuc Runa",
-      "away": "Club Leones del Norte",
-      "league": "LigaPro Serie A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Mushuc Runa vs Club Leones del Norte: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "guayaquil-city-vs-orense-sc",
-      "slug": "orense-sc-vs-guayaquil-city-prediction",
-      "utcDate": "2026-09-08T00:00:00+00:00",
-      "date": "2026-09-08",
-      "time": "00:00",
-      "precise": "00:00 UTC • 02:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Orense SC",
-      "away": "Guayaquil City",
-      "league": "LigaPro Serie A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Orense SC vs Guayaquil City: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "manta-fc-vs-club-sport-emelec",
-      "slug": "club-sport-emelec-vs-manta-fc-prediction",
-      "utcDate": "2026-09-08T00:00:00+00:00",
-      "date": "2026-09-08",
-      "time": "00:00",
-      "precise": "00:00 UTC • 02:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Club Sport Emelec",
-      "away": "Manta FC",
-      "league": "LigaPro Serie A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Club Sport Emelec vs Manta FC: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "nl.1:2026-09-08:NEC:SBV Excelsior",
       "slug": "nec-vs-sbv-excelsior-prediction",
@@ -232,7 +13,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "NEC",
       "away": "SBV Excelsior",
       "league": "Eredivisie",
@@ -305,7 +86,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Blackburn Rovers",
       "away": "Sheffield United",
       "league": "Championship",
@@ -378,7 +159,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Southampton",
       "away": "Swansea City A",
       "league": "Championship",
@@ -451,7 +232,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Watford",
       "away": "Preston North End",
       "league": "Championship",
@@ -524,7 +305,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Cardiff City",
       "away": "Stoke City",
       "league": "Championship",
@@ -597,7 +378,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Wrexham A",
       "away": "Burnley",
       "league": "Championship",
@@ -670,7 +451,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Bolton Wanderers",
       "away": "West Ham United",
       "league": "Championship",
@@ -743,7 +524,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "FC Twente '65",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -816,7 +597,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Moreirense",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
@@ -889,7 +670,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Wolverhampton Wanderers",
       "away": "Portsmouth",
       "league": "Championship",
@@ -962,7 +743,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Derby County",
       "away": "West Bromwich Albion",
       "league": "Championship",
@@ -1035,7 +816,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Norwich City",
       "away": "Birmingham City",
       "league": "Championship",
@@ -1108,7 +889,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "36h to kickoff",
       "home": "Charlton Athletic",
       "away": "Queens Park Rangers",
       "league": "Championship",
@@ -1181,7 +962,7 @@
       "date": "2026-09-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "60h to kickoff",
       "home": "CF Estrela da Amadora",
       "away": "Sporting Clube de Braga",
       "league": "Primeira Liga",
@@ -1254,7 +1035,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "Sevilla",
       "away": "Valencia CF",
       "league": "La Liga",
@@ -1327,7 +1108,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1400,7 +1181,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "Venezia",
       "away": "ACF Fiorentina",
       "league": "Serie A",
@@ -1473,7 +1254,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "Stade Rennais FC 1901",
       "away": "Olympique de Marseille",
       "league": "Ligue 1",
@@ -1546,7 +1327,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "AZ",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -1619,7 +1400,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "84h to kickoff",
       "home": "West Ham United",
       "away": "Wrexham A",
       "league": "Championship",
@@ -1692,7 +1473,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "110h to kickoff",
+      "countdown": "108h to kickoff",
       "home": "Sunderland A",
       "away": "Arsenal",
       "league": "Premier League",
@@ -1754,6 +1535,225 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Sunderland A vs Arsenal: Dixon-Coles P(H)1% D4% A95% • xG 0.35-4.00 • most likely score 0-3 (15%) • Away Win confidence 95% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-09-12:Tottenham Hotspur FC:Everton FC",
+      "slug": "tottenham-hotspur-vs-everton-prediction",
+      "utcDate": "2026-09-12T15:00:00Z",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "Tottenham Hotspur",
+      "away": "Everton",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 59,
+      "odds": "1.60",
+      "value": "+5%",
+      "probs": {
+        "home": 59,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.81",
+        "away": "0.91",
+        "total": "2.72"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 41
+      },
+      "overUnder": {
+        "over2_5": 51,
+        "under2_5": 49,
+        "oddsOver": "1.86",
+        "oddsUnder": "1.94"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Tottenham Hotspur vs Everton: Dixon-Coles P(H)59% D21% A19% • xG 1.81-0.91 • most likely score 1-0 (13%) • Home Win confidence 59% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-09-12:Chelsea FC:Hull City AFC",
+      "slug": "chelsea-vs-hull-city-a-prediction",
+      "utcDate": "2026-09-12T15:00:00Z",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "Chelsea",
+      "away": "Hull City A",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 93,
+      "odds": "1.02",
+      "value": "+22%",
+      "probs": {
+        "home": 93,
+        "draw": 5,
+        "away": 2
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.56",
+        "total": "4.76"
+      },
+      "doubleChance": {
+        "12": 95,
+        "1X": 97,
+        "X2": 7
+      },
+      "overUnder": {
+        "over2_5": 83,
+        "under2_5": 17,
+        "oddsOver": "1.14",
+        "oddsUnder": "5.59"
+      },
+      "btts": {
+        "yes": 42,
+        "no": 58
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "5-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Chelsea vs Hull City A: Dixon-Coles P(H)93% D5% A2% • xG 4.20-0.56 • most likely score 4-0 (13%) • Home Win confidence 93% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-09-12:AFC Bournemouth:Brentford FC",
+      "slug": "afc-bournemouth-vs-brentford-prediction",
+      "utcDate": "2026-09-12T15:00:00Z",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "AFC Bournemouth",
+      "away": "Brentford",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 42,
+      "odds": "2.28",
+      "value": "+0%",
+      "probs": {
+        "home": 29,
+        "draw": 29,
+        "away": 42
+      },
+      "xg": {
+        "home": "0.85",
+        "away": "1.09",
+        "total": "1.94"
+      },
+      "doubleChance": {
+        "12": 71,
+        "1X": 58,
+        "X2": 71
+      },
+      "overUnder": {
+        "over2_5": 31,
+        "under2_5": 69,
+        "oddsOver": "3.06",
+        "oddsUnder": "1.38"
+      },
+      "btts": {
+        "yes": 37,
+        "no": 63
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 17
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 17
+        },
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "0-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Away +0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "AFC Bournemouth vs Brentford: Dixon-Coles P(H)29% D29% A42% • xG 0.85-1.09 • most likely score 0-1 (17%) • Away Win confidence 42% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2345,7 +2345,7 @@
     {
       "title": "Serie A Weekend Reaction: Can Roma challenge Inter for the title?",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-07T22:42:26.000Z",
       "excerpt": "Serie A Weekend Reaction: Can Roma challenge Inter for the title?",
       "source": "ESPN",
@@ -2356,7 +2356,7 @@
     {
       "title": "Can Havertz lead Arsenal to Champions League glory?",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-07T22:04:51.000Z",
       "excerpt": "Can Havertz lead Arsenal to Champions League glory?",
       "source": "ESPN",
@@ -2367,7 +2367,7 @@
     {
       "title": "Marcotti: Real Madrid can win the UCL without firing on all cylinders",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-07T22:01:11.000Z",
       "excerpt": "Marcotti: Real Madrid can win the UCL without firing on all cylinders",
       "source": "ESPN",
@@ -2378,7 +2378,7 @@
     {
       "title": "Are Arsenal building a Premier League dynasty?",
       "league": "Premier League",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-07T22:00:58.000Z",
       "excerpt": "Are Arsenal building a Premier League dynasty?",
       "source": "ESPN",

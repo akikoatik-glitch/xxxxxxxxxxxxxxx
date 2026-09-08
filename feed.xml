@@ -5,32 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Tue, 08 Sep 2026 00:27:56 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 02:17:28 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Mushuc Runa vs Club Leones del Norte — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/mushuc-runa-vs-club-leones-del-norte-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/mushuc-runa-vs-club-leones-del-norte-prediction.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-    <description>LigaPro Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Tue, 08 Sep 2026 00:00:00 GMT.</description>
-    <category>LigaPro Serie A</category>
-  </item>
-  <item>
-    <title>Orense SC vs Guayaquil City — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/orense-sc-vs-guayaquil-city-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/orense-sc-vs-guayaquil-city-prediction.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-    <description>LigaPro Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Tue, 08 Sep 2026 00:00:00 GMT.</description>
-    <category>LigaPro Serie A</category>
-  </item>
-  <item>
-    <title>Club Sport Emelec vs Manta FC — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/club-sport-emelec-vs-manta-fc-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/club-sport-emelec-vs-manta-fc-prediction.html</guid>
-    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-    <description>LigaPro Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Tue, 08 Sep 2026 00:00:00 GMT.</description>
-    <category>LigaPro Serie A</category>
-  </item>
   <item>
     <title>NEC vs SBV Excelsior — Home Win @ 1.18</title>
     <link>https://xwhiz.com/predictions/nec-vs-sbv-excelsior-prediction.html</link>
@@ -197,6 +173,30 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/sunderland-a-vs-arsenal-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 95% confidence. Away Win at 1.01. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Tottenham Hotspur vs Everton — Home Win @ 1.60</title>
+    <link>https://xwhiz.com/predictions/tottenham-hotspur-vs-everton-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/tottenham-hotspur-vs-everton-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 59% confidence. Home Win at 1.60. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Chelsea vs Hull City A — Home Win @ 1.02</title>
+    <link>https://xwhiz.com/predictions/chelsea-vs-hull-city-a-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/chelsea-vs-hull-city-a-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 93% confidence. Home Win at 1.02. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>AFC Bournemouth vs Brentford — Away Win @ 2.28</title>
+    <link>https://xwhiz.com/predictions/afc-bournemouth-vs-brentford-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/afc-bournemouth-vs-brentford-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 42% confidence. Away Win at 2.28. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
 </channel>
