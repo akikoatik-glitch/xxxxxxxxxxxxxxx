@@ -1,10 +1,10 @@
 {
   "date": "2026-09-08",
-  "lastUpdate": "2026-09-08T10:18:10.082Z",
-  "predictionGenerated": "2026-09-08T10:18:10.082Z",
-  "dataTimestamp": "2026-09-08T10:18:07.225Z",
+  "lastUpdate": "2026-09-08T12:23:05.165Z",
+  "predictionGenerated": "2026-09-08T12:23:05.165Z",
+  "dataTimestamp": "2026-09-08T12:23:01.011Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:40+tomorrow:6+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:7+tomorrow:6+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "nl.1:2026-09-08:NEC:SBV Excelsior",
@@ -13,7 +13,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "NEC",
       "away": "SBV Excelsior",
       "league": "Eredivisie",
@@ -86,7 +86,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "Blackburn Rovers",
       "away": "Sheffield United",
       "league": "Championship",
@@ -159,7 +159,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "Southampton",
       "away": "Swansea City A",
       "league": "Championship",
@@ -232,7 +232,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "Watford",
       "away": "Preston North End",
       "league": "Championship",
@@ -305,7 +305,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "Cardiff City",
       "away": "Stoke City",
       "league": "Championship",
@@ -378,7 +378,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "Wrexham A",
       "away": "Burnley",
       "league": "Championship",
@@ -451,7 +451,7 @@
       "date": "2026-09-08",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "Bolton Wanderers",
       "away": "West Ham United",
       "league": "Championship",
@@ -524,7 +524,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "28h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "FC Twente '65",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -597,7 +597,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "28h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "Moreirense",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
@@ -670,7 +670,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "28h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "Wolverhampton Wanderers",
       "away": "Portsmouth",
       "league": "Championship",
@@ -743,7 +743,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "28h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "Derby County",
       "away": "West Bromwich Albion",
       "league": "Championship",
@@ -816,7 +816,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "28h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "Norwich City",
       "away": "Birmingham City",
       "league": "Championship",
@@ -889,7 +889,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "28h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "Charlton Athletic",
       "away": "Queens Park Rangers",
       "league": "Championship",
@@ -962,7 +962,7 @@
       "date": "2026-09-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "52h to kickoff",
+      "countdown": "50h to kickoff",
       "home": "CF Estrela da Amadora",
       "away": "Sporting Clube de Braga",
       "league": "Primeira Liga",
@@ -1035,7 +1035,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "76h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "Sevilla",
       "away": "Valencia CF",
       "league": "La Liga",
@@ -1108,7 +1108,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "76h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1181,69 +1181,69 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "76h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "Venezia",
       "away": "ACF Fiorentina",
       "league": "Serie A",
       "code": "SA",
       "flag": "🇮🇹",
       "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 74,
-      "odds": "1.29",
-      "value": "+12%",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 38,
+      "odds": "2.49",
+      "value": "+0%",
       "probs": {
-        "home": 10,
-        "draw": 16,
-        "away": 74
+        "home": 38,
+        "draw": 24,
+        "away": 37
       },
       "xg": {
-        "home": "0.64",
-        "away": "2.20",
-        "total": "2.84"
+        "home": "1.30",
+        "away": "1.29",
+        "total": "2.59"
       },
       "doubleChance": {
-        "12": 84,
-        "1X": 26,
-        "X2": 90
+        "12": 76,
+        "1X": 63,
+        "X2": 62
       },
       "overUnder": {
-        "over2_5": 54,
-        "under2_5": 46,
-        "oddsOver": "1.76",
-        "oddsUnder": "2.07"
+        "over2_5": 48,
+        "under2_5": 52,
+        "oddsOver": "1.98",
+        "oddsUnder": "1.83"
       },
       "btts": {
-        "yes": 41,
-        "no": 59
+        "yes": 52,
+        "no": 48
       },
       "correctScore": {
-        "score": "0-2",
-        "prob": 14
+        "score": "1-1",
+        "prob": 12
       },
       "topScores": [
         {
-          "score": "0-2",
-          "prob": 14
+          "score": "1-1",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 11
         },
         {
           "score": "0-1",
-          "prob": 14
-        },
-        {
-          "score": "0-3",
-          "prob": 10
+          "prob": 11
         }
       ],
-      "asianHandicap": "Away +1.5",
+      "asianHandicap": "Level (0)",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Venezia vs ACF Fiorentina: Dixon-Coles P(H)10% D16% A74% • xG 0.64-2.20 • most likely score 0-2 (14%) • Away Win confidence 74% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "whyWin": "Venezia vs ACF Fiorentina: Dixon-Coles P(H)38% D24% A37% • xG 1.30-1.29 • most likely score 1-1 (12%) • Home Win confidence 38% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
@@ -1254,7 +1254,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "76h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "Stade Rennais FC 1901",
       "away": "Olympique de Marseille",
       "league": "Ligue 1",
@@ -1327,7 +1327,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "76h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "AZ",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -1400,7 +1400,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "76h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "West Ham United",
       "away": "Wrexham A",
       "league": "Championship",
@@ -1473,7 +1473,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "100h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "Sunderland A",
       "away": "Arsenal",
       "league": "Premier League",
@@ -1482,50 +1482,50 @@
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 95,
-      "odds": "1.01",
-      "value": "+22%",
+      "conf": 89,
+      "odds": "1.07",
+      "value": "+19%",
       "probs": {
-        "home": 1,
-        "draw": 4,
-        "away": 95
+        "home": 3,
+        "draw": 8,
+        "away": 89
       },
       "xg": {
-        "home": "0.35",
-        "away": "4.00",
-        "total": "4.35"
+        "home": "0.51",
+        "away": "3.29",
+        "total": "3.80"
       },
       "doubleChance": {
-        "12": 96,
-        "1X": 5,
+        "12": 92,
+        "1X": 11,
         "X2": 97
       },
       "overUnder": {
-        "over2_5": 79,
-        "under2_5": 21,
-        "oddsOver": "1.20",
-        "oddsUnder": "4.52"
+        "over2_5": 72,
+        "under2_5": 28,
+        "oddsOver": "1.32",
+        "oddsUnder": "3.39"
       },
       "btts": {
-        "yes": 29,
-        "no": 71
+        "yes": 38,
+        "no": 62
       },
       "correctScore": {
         "score": "0-3",
-        "prob": 15
+        "prob": 14
       },
       "topScores": [
         {
           "score": "0-3",
-          "prob": 15
+          "prob": 14
+        },
+        {
+          "score": "0-2",
+          "prob": 13
         },
         {
           "score": "0-4",
-          "prob": 15
-        },
-        {
-          "score": "0-5",
-          "prob": 12
+          "prob": 11
         }
       ],
       "asianHandicap": "Away +2.0",
@@ -1534,7 +1534,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Sunderland A vs Arsenal: Dixon-Coles P(H)1% D4% A95% • xG 0.35-4.00 • most likely score 0-3 (15%) • Away Win confidence 95% • strengths from real standings",
+      "whyWin": "Sunderland A vs Arsenal: Dixon-Coles P(H)3% D8% A89% • xG 0.51-3.29 • most likely score 0-3 (14%) • Away Win confidence 89% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1546,7 +1546,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "100h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Everton",
       "league": "Premier League",
@@ -1555,22 +1555,168 @@
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
+      "conf": 79,
+      "odds": "1.21",
+      "value": "+14%",
+      "probs": {
+        "home": 79,
+        "draw": 13,
+        "away": 8
+      },
+      "xg": {
+        "home": "2.56",
+        "away": "0.66",
+        "total": "3.22"
+      },
+      "doubleChance": {
+        "12": 87,
+        "1X": 92,
+        "X2": 21
+      },
+      "overUnder": {
+        "over2_5": 62,
+        "under2_5": 38,
+        "oddsOver": "1.53",
+        "oddsUnder": "2.50"
+      },
+      "btts": {
+        "yes": 44,
+        "no": 56
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 11
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Tottenham Hotspur vs Everton: Dixon-Coles P(H)79% D13% A8% • xG 2.56-0.66 • most likely score 2-0 (13%) • Home Win confidence 79% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-09-12:Chelsea FC:Hull City AFC",
+      "slug": "chelsea-vs-hull-city-a-prediction",
+      "utcDate": "2026-09-12T15:00:00Z",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "98h to kickoff",
+      "home": "Chelsea",
+      "away": "Hull City A",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 96,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 96,
+        "draw": 3,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.34",
+        "total": "4.54"
+      },
+      "doubleChance": {
+        "12": 97,
+        "1X": 97,
+        "X2": 4
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 28,
+        "no": 72
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 16
+        },
+        {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Chelsea vs Hull City A: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.34 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-09-12:AFC Bournemouth:Brentford FC",
+      "slug": "afc-bournemouth-vs-brentford-prediction",
+      "utcDate": "2026-09-12T15:00:00Z",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "98h to kickoff",
+      "home": "AFC Bournemouth",
+      "away": "Brentford",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
       "conf": 59,
-      "odds": "1.60",
+      "odds": "1.61",
       "value": "+5%",
       "probs": {
         "home": 59,
         "draw": 21,
-        "away": 19
+        "away": 20
       },
       "xg": {
         "home": "1.81",
-        "away": "0.91",
-        "total": "2.72"
+        "away": "0.93",
+        "total": "2.74"
       },
       "doubleChance": {
         "12": 79,
-        "1X": 81,
+        "1X": 80,
         "X2": 41
       },
       "overUnder": {
@@ -1580,8 +1726,8 @@
         "oddsUnder": "1.94"
       },
       "btts": {
-        "yes": 49,
-        "no": 51
+        "yes": 50,
+        "no": 50
       },
       "correctScore": {
         "score": "1-0",
@@ -1607,154 +1753,8 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Tottenham Hotspur vs Everton: Dixon-Coles P(H)59% D21% A19% • xG 1.81-0.91 • most likely score 1-0 (13%) • Home Win confidence 59% • strengths from real standings",
+      "whyWin": "AFC Bournemouth vs Brentford: Dixon-Coles P(H)59% D21% A20% • xG 1.81-0.93 • most likely score 1-0 (13%) • Home Win confidence 59% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-09-12:Chelsea FC:Hull City AFC",
-      "slug": "chelsea-vs-hull-city-a-prediction",
-      "utcDate": "2026-09-12T15:00:00Z",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "100h to kickoff",
-      "home": "Chelsea",
-      "away": "Hull City A",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 93,
-      "odds": "1.02",
-      "value": "+22%",
-      "probs": {
-        "home": 93,
-        "draw": 5,
-        "away": 2
-      },
-      "xg": {
-        "home": "4.20",
-        "away": "0.56",
-        "total": "4.76"
-      },
-      "doubleChance": {
-        "12": 95,
-        "1X": 97,
-        "X2": 7
-      },
-      "overUnder": {
-        "over2_5": 83,
-        "under2_5": 17,
-        "oddsOver": "1.14",
-        "oddsUnder": "5.59"
-      },
-      "btts": {
-        "yes": 42,
-        "no": 58
-      },
-      "correctScore": {
-        "score": "4-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "4-0",
-          "prob": 13
-        },
-        {
-          "score": "3-0",
-          "prob": 12
-        },
-        {
-          "score": "5-0",
-          "prob": 11
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Chelsea vs Hull City A: Dixon-Coles P(H)93% D5% A2% • xG 4.20-0.56 • most likely score 4-0 (13%) • Home Win confidence 93% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-09-12:AFC Bournemouth:Brentford FC",
-      "slug": "afc-bournemouth-vs-brentford-prediction",
-      "utcDate": "2026-09-12T15:00:00Z",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "100h to kickoff",
-      "home": "AFC Bournemouth",
-      "away": "Brentford",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 42,
-      "odds": "2.28",
-      "value": "+0%",
-      "probs": {
-        "home": 29,
-        "draw": 29,
-        "away": 42
-      },
-      "xg": {
-        "home": "0.85",
-        "away": "1.09",
-        "total": "1.94"
-      },
-      "doubleChance": {
-        "12": 71,
-        "1X": 58,
-        "X2": 71
-      },
-      "overUnder": {
-        "over2_5": 31,
-        "under2_5": 69,
-        "oddsOver": "3.06",
-        "oddsUnder": "1.38"
-      },
-      "btts": {
-        "yes": 37,
-        "no": 63
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 17
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 17
-        },
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "0-0",
-          "prob": 13
-        }
-      ],
-      "asianHandicap": "Away +0.25",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "AFC Bournemouth vs Brentford: Dixon-Coles P(H)29% D29% A42% • xG 0.85-1.09 • most likely score 0-1 (17%) • Away Win confidence 42% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -2343,47 +2343,47 @@
   ],
   "news": [
     {
-      "title": "Premier League 2026-27 kits: Ranking every jersey released",
+      "title": "Man United fan group call for unified pre-derby protest amid season ticket 'fiasco'",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-08T10:15:40.000Z",
-      "excerpt": "The 2026-27 Premier League season is finally here, and that means new home and away jerseys for all 20 clubs. Here they all are -- ranked!",
+      "published": "2026-09-08T11:23:33.000Z",
+      "excerpt": "A Manchester United fan group has called for a unified protest against the \"season ticket ban fiasco\" ahead of Sunday's derby against Manche",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49163915/premier-league-202627-kits-ranking-every-jersey-released-arsenal-chelsea-liverpool-man-city-man-united-tottenham",
-      "image": "https://a.espncdn.com/photo/2026/0808/r1699058_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49867513/manchester-united-fan-group-call-pre-derby-protest-amid-season-ticket-fiasco",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713146_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Dominik Szoboszlai: Liverpool will be unstoppable if intensity is rediscovered",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-08T10:15:36.000Z",
-      "excerpt": "Liverpool midfielder Dominik Szoboszlai has said \"no one can stop us\" should his side rediscover their intensity of old.",
+      "title": "Lautaro Martínez reveals support for Julián Álvarez amid failed transfer from Atlético Madrid",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-08T10:52:08.000Z",
+      "excerpt": "Lautaro Martínez hopes Argentina teammate Julián Álvarez can soon get over his failed attempt to leave Atlético Madrid this summer.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49867238/liverpool-dominik-szoboslai-bring-intensity-back-stop-us",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713140_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49867456/lautaro-martinez-reveals-support-julian-alvarez-amid-failed-transfer-atletico-madrid",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713143_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Liverpool announce Turkish Airlines as main shirt sponsor from 2027",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-08T10:41:10.000Z",
+      "excerpt": "Liverpool have confirmed that Turkish Airlines will become the club's front-of-shirt sponsor from the 2027/28 season.\n\nLiverpool have confir",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49867443/liverpool-announce-turkish-airlines-main-shirt-sponsor-2027",
+      "image": "https://a.espncdn.com/photo/2026/0721/r1692111_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Galatasaray's Victor Osimhen ruled out of UEFA Champions League opener with injury",
       "league": "Champions League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-08T10:03:55.000Z",
       "excerpt": "Galatasaray have ruled Victor Osimhen out with a groin injury, with the Nigeria striker expected to spend between two and three weeks on the",
       "source": "ESPN",
       "url": "https://www.espn.com/espn/story/_/id/49866316/galatasaray-victor-osimhen-ruled-uefa-champions-league-opener-injury",
       "image": "https://a.espncdn.com/photo/2026/0814/r1701616_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Ousmane Dembélé says Harry Kane a Ballon d'Or candidate - but predicts award will go to PSG player",
-      "league": "Bundesliga",
-      "time": "0h ago",
-      "published": "2026-09-08T09:50:14.000Z",
-      "excerpt": "Paris Saint-Germain forward Ousmane Dembélé has cited Harry Kane as a Ballon d'Or candidate after a \"very, very good season\" -- but says the",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49866686/ousmane-dembele-harry-kane-ballon-dor-candidate-award-go-paris-saint-germain-player",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713123_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
