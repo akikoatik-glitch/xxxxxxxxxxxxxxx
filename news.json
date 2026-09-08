@@ -1,32 +1,43 @@
 {
-  "lastUpdate": "2026-09-08T20:16:38.609Z",
+  "lastUpdate": "2026-09-08T22:16:24.231Z",
   "news": [
     {
-      "title": "UEFA Champions League live updates: Madrid double their lead vs. Inter",
+      "title": "Haaland's historic goals for Man City in Champions League win at Porto prove his necessity",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-09-08T20:11:45.000Z",
-      "excerpt": "The UEFA Champions League is back this week! Enjoy all of Tuesday's league phase matches across Europe.",
+      "published": "2026-09-08T22:13:47.000Z",
+      "excerpt": "Erling Haaland scored twice for Man City in the opening win of the Champions League, and it's clear his club would be in trouble without him",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49829825/uefa-champions-league-live-updates-aston-villa-club-brugge-porto-man-city-real-madrid-internazionale",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713362_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49872237/haaland-historic-goals-man-city-champions-league-win-porto-prove-necessity",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713426_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "McGinn makes Villa history in opening UCL win over Club Brugge",
+      "title": "Despite victory, Real Madrid have a long way to go under Mourinho",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-09-08T19:47:58.000Z",
-      "excerpt": "After a summer of change for Aston Villa, captain John McGinn continues to deliver.",
+      "published": "2026-09-08T22:05:01.000Z",
+      "excerpt": "Real Madrid were fortunate to defeat Inter Milan, showing how much work remains for Jose Mourinho if they are to win the Champions League.",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401915426",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713344_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49872329/despite-victory-real-madrid-long-way-go-mourinho-uefa-champions-league",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713412_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Man City eye move for Atleti's Baena",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-08T21:53:15.000Z",
+      "excerpt": "Manchester City are looking to sign World Cup-winning midfielder Álex Baena from Atlético Madrid. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49866443/transfer-rumors-news-arsenal-set-declan-rice-talks-real-madrid-interest",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713445_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Spanish refs stand by call not to retake Mbappé pen miss",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-08T19:28:43.000Z",
       "excerpt": "The decision not to allow Kylian Mbappé's missed penalty in Real Madrid's 1-0 defeat at Real Betis to be retaken was correct, the body in ch",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-08T19:22:51.000Z",
       "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Liverpool's Alexis Mac Allister 'very, very sad' after not being offered new contract",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-08T18:19:06.000Z",
-      "excerpt": "Liverpool midfielder Alexis Mac Allister has said he was left \"very, very, sad\" after he was not offered a new contract at the club.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49868479/liverpool-alexis-mac-allister-very-very-sad-not-being-offered-new-contract",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713205_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Napoli's Scott McTominay undergoes successful heart surgery",
       "league": "Serie A",
-      "time": "6h ago",
+      "time": "8h ago",
       "published": "2026-09-08T14:10:21.000Z",
       "excerpt": "Napoli midfielder Scott McTominay has undergone successful corrective surgery for a minor heart issue.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Ousmane Dembélé says Harry Kane a Ballon d'Or candidate - but predicts award will go to PSG player",
       "league": "Bundesliga",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-08T09:50:14.000Z",
       "excerpt": "Paris Saint-Germain forward Ousmane Dembélé has cited Harry Kane as a Ballon d'Or candidate after a \"very, very good season\" -- but says the",
       "source": "ESPN",
