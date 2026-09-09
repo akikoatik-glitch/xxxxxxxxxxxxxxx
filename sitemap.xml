@@ -301,36 +301,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/football/leagues/eredivisie/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/eredivisie/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/eredivisie/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/eredivisie/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/eredivisie/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/eredivisie/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/eredivisie/"/>
-  </url>
-<url>
     <loc>https://xwhiz.com/football/leagues/primeira-liga/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -359,36 +329,6 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/primeira-liga/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/primeira-liga/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/primeira-liga/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/leagues/championship/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/championship/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/championship/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/championship/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/championship/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/championship/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/championship/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/leagues/la-liga/</loc>
@@ -511,6 +451,66 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
   </url>
 <url>
+    <loc>https://xwhiz.com/football/leagues/eredivisie/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/eredivisie/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/leagues/eredivisie/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/eredivisie/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/leagues/eredivisie/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/eredivisie/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/eredivisie/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/leagues/championship/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/championship/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/leagues/championship/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/championship/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/leagues/championship/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/championship/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/championship/"/>
+  </url>
+<url>
     <loc>https://xwhiz.com/football/leagues/premier-league/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -569,306 +569,6 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/fc-twente-65/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/fc-twente-65/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/fc-twente-65/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-twente-65/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/telstar-1963/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/telstar-1963/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/telstar-1963/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/telstar-1963/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/telstar-1963/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/telstar-1963/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/telstar-1963/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/moreirense/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/moreirense/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/moreirense/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/moreirense/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/moreirense/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/moreirense/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/moreirense/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/sport-lisboa-e-benfica/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sport-lisboa-e-benfica/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/sport-lisboa-e-benfica/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sport-lisboa-e-benfica/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/sport-lisboa-e-benfica/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sport-lisboa-e-benfica/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sport-lisboa-e-benfica/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/derby-county/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/derby-county/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/derby-county/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/derby-county/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/derby-county/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/derby-county/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/derby-county/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/west-bromwich-albion/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/west-bromwich-albion/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/west-bromwich-albion/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/west-bromwich-albion/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/west-bromwich-albion/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/west-bromwich-albion/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/west-bromwich-albion/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/norwich-city/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/norwich-city/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/norwich-city/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/norwich-city/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/norwich-city/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/norwich-city/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/norwich-city/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/birmingham-city/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/birmingham-city/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/birmingham-city/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/birmingham-city/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/birmingham-city/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/birmingham-city/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/birmingham-city/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/charlton-athletic/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/charlton-athletic/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/charlton-athletic/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/charlton-athletic/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/queens-park-rangers/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/queens-park-rangers/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/queens-park-rangers/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/queens-park-rangers/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/cf-estrela-da-amadora/</loc>
@@ -2011,6 +1711,306 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sv-werder-bremen/"/>
   </url>
 <url>
+    <loc>https://xwhiz.com/football/teams/sc-freiburg/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sc-freiburg/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/sc-freiburg/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sc-freiburg/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/sc-freiburg/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sc-freiburg/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sc-freiburg/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/borussia-moenchengladbach/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/borussia-moenchengladbach/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/borussia-moenchengladbach/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/borussia-moenchengladbach/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/borussia-moenchengladbach/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/borussia-moenchengladbach/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/borussia-moenchengladbach/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/1-fsv-mainz-05/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/eintracht-frankfurt/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/eintracht-frankfurt/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/eintracht-frankfurt/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/eintracht-frankfurt/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/fc-augsburg/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/fc-augsburg/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/fc-augsburg/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-augsburg/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/bayer-04-leverkusen/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/bayer-04-leverkusen/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/bayer-04-leverkusen/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/bayer-04-leverkusen/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/bayer-04-leverkusen/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/bayer-04-leverkusen/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/bayer-04-leverkusen/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/borussia-dortmund/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/borussia-dortmund/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/borussia-dortmund/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/borussia-dortmund/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/borussia-dortmund/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/borussia-dortmund/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/borussia-dortmund/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/sc-paderborn-07/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sc-paderborn-07/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/sc-paderborn-07/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sc-paderborn-07/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/sc-paderborn-07/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sc-paderborn-07/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sc-paderborn-07/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/tsg-1899-hoffenheim/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/tsg-1899-hoffenheim/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/tsg-1899-hoffenheim/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/tsg-1899-hoffenheim/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/tsg-1899-hoffenheim/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/tsg-1899-hoffenheim/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/tsg-1899-hoffenheim/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/vfb-stuttgart/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/vfb-stuttgart/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/vfb-stuttgart/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/vfb-stuttgart/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/vfb-stuttgart/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/vfb-stuttgart/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/vfb-stuttgart/"/>
+  </url>
+<url>
     <loc>https://xwhiz.com/football/teams/real-sociedad-de-futbol/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -2281,66 +2281,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-barcelona/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/football/teams/eintracht-frankfurt/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/eintracht-frankfurt/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/eintracht-frankfurt/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/eintracht-frankfurt/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/eintracht-frankfurt/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/fc-augsburg/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/fc-augsburg/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/fc-augsburg/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-augsburg/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-augsburg/"/>
-  </url>
-<url>
     <loc>https://xwhiz.com/football/teams/hamburger-sv/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -2369,36 +2309,6 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/hamburger-sv/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/hamburger-sv/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/hamburger-sv/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/1-fsv-mainz-05/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fsv-mainz-05/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fsv-mainz-05/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/juventus/</loc>
@@ -2791,6 +2701,36 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fortuna-sittard/"/>
   </url>
 <url>
+    <loc>https://xwhiz.com/football/teams/telstar-1963/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/telstar-1963/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/telstar-1963/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/telstar-1963/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/telstar-1963/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/telstar-1963/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/telstar-1963/"/>
+  </url>
+<url>
     <loc>https://xwhiz.com/football/teams/sc-cambuur-leeuwarden/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -2879,6 +2819,36 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-groningen/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-groningen/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-groningen/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/fc-twente-65/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/fc-twente-65/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/fc-twente-65/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-twente-65/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-twente-65/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/gil-vicente/</loc>
@@ -3001,6 +2971,36 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/rio-ave/"/>
   </url>
 <url>
+    <loc>https://xwhiz.com/football/teams/birmingham-city/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/birmingham-city/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/birmingham-city/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/birmingham-city/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/birmingham-city/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/birmingham-city/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/birmingham-city/"/>
+  </url>
+<url>
     <loc>https://xwhiz.com/football/teams/wolverhampton-wanderers/</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -3059,6 +3059,66 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/sheffield-united/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/sheffield-united/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/sheffield-united/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/norwich-city/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/norwich-city/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/norwich-city/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/norwich-city/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/norwich-city/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/norwich-city/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/norwich-city/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/queens-park-rangers/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/queens-park-rangers/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/queens-park-rangers/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/queens-park-rangers/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/queens-park-rangers/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/middlesbrough/</loc>
@@ -3179,6 +3239,36 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/stoke-city/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/stoke-city/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/stoke-city/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/charlton-athletic/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/charlton-athletic/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/charlton-athletic/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/charlton-athletic/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/charlton-athletic/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/preston-north-end/</loc>
@@ -3961,156 +4051,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/premier-league/predictions/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/predictions/fc-twente-65-vs-telstar-1963-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/predictions/fc-twente-65-vs-telstar-1963-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/moreirense-vs-sport-lisboa-e-benfica-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/predictions/derby-county-vs-west-bromwich-albion-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/predictions/derby-county-vs-west-bromwich-albion-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/derby-county-vs-west-bromwich-albion-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/predictions/norwich-city-vs-birmingham-city-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/predictions/norwich-city-vs-birmingham-city-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/norwich-city-vs-birmingham-city-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html</loc>
-    <lastmod>2026-09-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/charlton-athletic-vs-queens-park-rangers-prediction.html"/>
-  </url>
-<url>
     <loc>https://xwhiz.com/predictions/cf-estrela-da-amadora-vs-sporting-clube-de-braga-prediction.html</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>daily</changefreq>
@@ -4679,6 +4619,156 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/borussia-dortmund-vs-sc-paderborn-07-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html"/>
   </url>
 <url>
     <loc>https://xwhiz.com/predictions/elche-cf-vs-real-sociedad-de-futbol-prediction.html</loc>
