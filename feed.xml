@@ -5,16 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 09 Sep 2026 00:28:22 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 09 Sep 2026 02:17:18 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Criciuma vs Esporte Clube Juventude — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/criciuma-vs-esporte-clube-juventude-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/criciuma-vs-esporte-clube-juventude-prediction.html</guid>
-    <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-    <description>Brazilian Serie B — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 09 Sep 2026 00:00:00 GMT.</description>
-    <category>Brazilian Serie B</category>
-  </item>
   <item>
     <title>FC Twente &#39;65 vs Telstar 1963 — Home Win @ 1.56</title>
     <link>https://xwhiz.com/predictions/fc-twente-65-vs-telstar-1963-prediction.html</link>
@@ -197,6 +189,14 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/ca-osasuna-vs-rcd-espanyol-de-barcelona-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>La Liga — 60% confidence. Away Win at 1.58. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>La Liga</category>
+  </item>
+  <item>
+    <title>Real Racing Club de Santander vs Deportivo Alavés — Away Win @ 1.54</title>
+    <link>https://xwhiz.com/predictions/real-racing-club-de-santander-vs-deportivo-alaves-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/real-racing-club-de-santander-vs-deportivo-alaves-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>La Liga — 62% confidence. Away Win at 1.54. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>La Liga</category>
   </item>
 </channel>
