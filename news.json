@@ -1,21 +1,54 @@
 {
-  "lastUpdate": "2026-09-09T18:21:00.672Z",
+  "lastUpdate": "2026-09-09T20:17:46.565Z",
   "news": [
     {
-      "title": "Champions League live updates: Barcelona with convincing lead vs. Feyenoord",
+      "title": "Champions League live updates: Napoli-Arsenal, Atleti-Liverpool still level",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-09-09T18:04:03.000Z",
+      "published": "2026-09-09T20:04:43.000Z",
       "excerpt": "The UEFA Champions League is back this week! Enjoy all of Wednesday's league phase matches across Europe.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49829954/uefa-champions-league-live-updates-barcelona-feyenoord-liverpool-atletico-madrid-napoli-arsenal",
-      "image": "https://a.espncdn.com/photo/2026/0909/r1713818_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1713915_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Leading the line and leading by example, Raphinha is central to Barca's hot start",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-09-09T20:04:31.000Z",
+      "excerpt": "Raphinha scored twice and set the tone in Wednesday's 5-1 destruction of Feyenoord, the latest dominant win of Barcelona's young season.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49883678/leading-line-leading-example-raphinha-central-barcelona-hot-start",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1713948_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool prepare bid for Crystal Palace's Wharton",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-09T19:57:41.000Z",
+      "excerpt": "Liverpool could make a bid to sign Crystal Palace's Adam Wharton as soon as January. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49876963/transfer-rumors-news-liverpool-prepare-bid-crystal-palace-wharton",
+      "image": "https://a.espncdn.com/photo/2026/0820/r1704531_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Tottenham's Mykhailo Mudryk out until at least October with ankle injury - sources\"",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-09T19:36:55.000Z",
+      "excerpt": "Mykhailo Mudryk is set to be sidelined until October at the earliest after suffering an ankle injury in training, sources have told ESPN.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49883172/mykhailo-mudryk-tottenham-premier-league-spurs-injuries",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1713908_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Gabriel Jesus: I was made to train alone at Arsenal before Barcelona move",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-09T17:07:38.000Z",
       "excerpt": "Gabriel Jesus has said he was made to train alone at Arsenal this summer as the club sought to move him on during the transfer window.",
       "source": "ESPN",
@@ -26,7 +59,7 @@
     {
       "title": "Real Madrid's Thibaut Courtois to sit out Belgium's Nations League campaign",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-09T16:24:59.000Z",
       "excerpt": "Real Madrid goalkeeper Thibaut Courtois will not play for Belgium in the Nations League campaign but has not retired from international foot",
       "source": "ESPN",
@@ -35,20 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Man United blow as Hall agrees new Newcastle deal",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-09-09T14:58:22.000Z",
-      "excerpt": "Manchester United target Lewis Hall has reportedly agreed a new contract with Newcastle United. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49876963/transfer-rumors-news-man-united-blow-hall-agrees-new-newcastle-deal",
-      "image": "https://a.espncdn.com/photo/2026/0904/r1711244_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Vincent Kompany sets out Bayern Champions League title aim as new campaign begins",
       "league": "Bundesliga",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-09T14:39:57.000Z",
       "excerpt": "Bayern Munich head coach Vincent Kompany knows his side will again be expected to mount another serious Champions League challenge as they p",
       "source": "ESPN",
@@ -57,31 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Kompany: Bayern Munich must be patient with Musiala",
-      "league": "Champions League",
-      "time": "3h ago",
-      "published": "2026-09-09T14:28:04.000Z",
-      "excerpt": "Kompany: Bayern Munich must be patient with Musiala",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49880311/bayern-munich-patient-musiala",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0909/dm_260909_Kompany_Bayern_Munich_must_be_patient_with_Musiala/dm_260909_Kompany_Bayern_Munich_must_be_patient_with_Musiala.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Man United's Champions League return: What does success look like?",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-09-09T13:48:20.000Z",
-      "excerpt": "A club of Manchester United's size should start most competitions among the favourites, though that doesn't tally with the situation they fi",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49862659/man-uniteds-champions-league-return-does-success-look-like",
-      "image": "https://a.espncdn.com/photo/2026/0909/r1713598_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Burley: Kane should win the 2026 men's Ballon d'Or",
       "league": "Bundesliga",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-09T08:32:01.000Z",
       "excerpt": "Burley: Kane should win the 2026 men's Ballon d'Or",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "Socceroos, Sassuolo star Volpato fined for positive cocaine test",
       "league": "Serie A",
-      "time": "16h ago",
+      "time": "18h ago",
       "published": "2026-09-09T01:31:54.000Z",
       "excerpt": "Cristian Volpato's immediate availability for the Socceroos rests in the hands of Football Australia after NSW Police confirmed the World Cu",
       "source": "ESPN",
@@ -103,7 +103,7 @@
     {
       "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
       "league": "Serie A",
-      "time": "22h ago",
+      "time": "08/09/2026",
       "published": "2026-09-08T19:22:51.000Z",
       "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
       "source": "ESPN",
