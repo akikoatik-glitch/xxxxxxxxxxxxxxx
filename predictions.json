@@ -1,11 +1,84 @@
 {
   "date": "2026-09-09",
-  "lastUpdate": "2026-09-08T22:16:24.287Z",
-  "predictionGenerated": "2026-09-08T22:16:24.287Z",
-  "dataTimestamp": "2026-09-08T22:16:21.900Z",
+  "lastUpdate": "2026-09-09T00:28:21.287Z",
+  "predictionGenerated": "2026-09-09T00:28:21.287Z",
+  "dataTimestamp": "2026-09-09T00:28:18.698Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:35+tomorrow:6+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:26+tomorrow:1+upcoming:30+fixtures:60)",
   "matches": [
+    {
+      "id": "juventude-vs-criciuma",
+      "slug": "criciuma-vs-esporte-clube-juventude-prediction",
+      "utcDate": "2026-09-09T00:00:00+00:00",
+      "date": "2026-09-09",
+      "time": "00:00",
+      "precise": "00:00 UTC • 02:00 CET",
+      "countdown": "0h to kickoff",
+      "home": "Criciuma",
+      "away": "Esporte Clube Juventude",
+      "league": "Brazilian Serie B",
+      "code": "",
+      "flag": "⚽",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Criciuma vs Esporte Clube Juventude: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
     {
       "id": "nl.1:2026-09-09:FC Twente '65:Telstar 1963",
       "slug": "fc-twente-65-vs-telstar-1963-prediction",
@@ -13,7 +86,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "FC Twente '65",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -86,7 +159,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Moreirense",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
@@ -159,7 +232,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Wolverhampton Wanderers",
       "away": "Portsmouth",
       "league": "Championship",
@@ -232,7 +305,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Derby County",
       "away": "West Bromwich Albion",
       "league": "Championship",
@@ -305,7 +378,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Norwich City",
       "away": "Birmingham City",
       "league": "Championship",
@@ -378,7 +451,7 @@
       "date": "2026-09-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Charlton Athletic",
       "away": "Queens Park Rangers",
       "league": "Championship",
@@ -451,7 +524,7 @@
       "date": "2026-09-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "38h to kickoff",
       "home": "CF Estrela da Amadora",
       "away": "Sporting Clube de Braga",
       "league": "Primeira Liga",
@@ -524,7 +597,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "Sevilla",
       "away": "Valencia CF",
       "league": "La Liga",
@@ -597,7 +670,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -670,7 +743,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "Venezia",
       "away": "ACF Fiorentina",
       "league": "Serie A",
@@ -743,7 +816,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "Stade Rennais FC 1901",
       "away": "Olympique de Marseille",
       "league": "Ligue 1",
@@ -816,7 +889,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "AZ",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -889,7 +962,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "West Ham United",
       "away": "Wrexham A",
       "league": "Championship",
@@ -962,7 +1035,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Sunderland A",
       "away": "Arsenal",
       "league": "Premier League",
@@ -1035,7 +1108,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Everton",
       "league": "Premier League",
@@ -1108,7 +1181,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Chelsea",
       "away": "Hull City A",
       "league": "Premier League",
@@ -1181,7 +1254,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "AFC Bournemouth",
       "away": "Brentford",
       "league": "Premier League",
@@ -1254,7 +1327,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Aston Villa",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -1327,7 +1400,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Liverpool",
       "away": "Fulham",
       "league": "Premier League",
@@ -1400,7 +1473,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Crystal Palace",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -1473,7 +1546,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Real Madrid CF",
       "away": "Rayo Vallecano de Madrid",
       "league": "La Liga",
@@ -1546,7 +1619,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Athletic Club",
       "away": "Elche CF",
       "league": "La Liga",
@@ -1619,7 +1692,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "CA Osasuna",
       "away": "RCD Espanyol de Barcelona",
       "league": "La Liga",
@@ -1681,79 +1754,6 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "CA Osasuna vs RCD Espanyol de Barcelona: Dixon-Coles P(H)17% D23% A60% • xG 0.69-1.61 • most likely score 0-1 (17%) • Away Win confidence 60% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "es.1:2026-09-12:Real Racing Club de Santander:Deportivo Alavés",
-      "slug": "real-racing-club-de-santander-vs-deportivo-alaves-prediction",
-      "utcDate": "2026-09-12T15:00:00Z",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
-      "home": "Real Racing Club de Santander",
-      "away": "Deportivo Alavés",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 62,
-      "odds": "1.54",
-      "value": "+6%",
-      "probs": {
-        "home": 17,
-        "draw": 21,
-        "away": 62
-      },
-      "xg": {
-        "home": "0.78",
-        "away": "1.76",
-        "total": "2.54"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 38,
-        "X2": 83
-      },
-      "overUnder": {
-        "over2_5": 46,
-        "under2_5": 54,
-        "oddsOver": "2.07",
-        "oddsUnder": "1.76"
-      },
-      "btts": {
-        "yes": 44,
-        "no": 56
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 15
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 15
-        },
-        {
-          "score": "0-2",
-          "prob": 12
-        },
-        {
-          "score": "1-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Real Racing Club de Santander vs Deportivo Alavés: Dixon-Coles P(H)17% D21% A62% • xG 0.78-1.76 • most likely score 0-1 (15%) • Away Win confidence 62% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2343,31 +2343,31 @@
   ],
   "news": [
     {
-      "title": "Haaland's historic goals for Man City in Champions League win at Porto prove his necessity",
+      "title": "Troy Parrott scores another winner for Real Betis on Champions League debut",
       "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-09-08T22:13:47.000Z",
-      "excerpt": "Erling Haaland scored twice for Man City in the opening win of the Champions League, and it's clear his club would be in trouble without him",
+      "time": "1h ago",
+      "published": "2026-09-08T23:11:35.000Z",
+      "excerpt": "Yet again, Ireland forward Troy Parrott scored a decisive goal in green and white on the big stage.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49872237/haaland-historic-goals-man-city-champions-league-win-porto-prove-necessity",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713426_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49873252/troy-parrott-scores-another-winner-real-betis-champions-league-debut",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713473_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Despite victory, Real Madrid have a long way to go under Mourinho",
+      "title": "Champions League recap: Real Madrid defeat Inter, Man City's Haaland with brace",
       "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-09-08T22:05:01.000Z",
-      "excerpt": "Real Madrid were fortunate to defeat Inter Milan, showing how much work remains for Jose Mourinho if they are to win the Champions League.",
+      "time": "1h ago",
+      "published": "2026-09-08T22:49:02.000Z",
+      "excerpt": "The UEFA Champions League is back this week! Enjoy all that happened in Tuesday's league phase matches across Europe.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49872329/despite-victory-real-madrid-long-way-go-mourinho-uefa-champions-league",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713412_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49829825/uefa-champions-league-live-updates-aston-villa-club-brugge-porto-man-city-real-madrid-internazionale",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713362_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Man City eye move for Atleti's Baena",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-08T21:53:15.000Z",
       "excerpt": "Manchester City are looking to sign World Cup-winning midfielder Álex Baena from Atlético Madrid. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -2378,7 +2378,7 @@
     {
       "title": "Spanish refs stand by call not to retake Mbappé pen miss",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-08T19:28:43.000Z",
       "excerpt": "The decision not to allow Kylian Mbappé's missed penalty in Real Madrid's 1-0 defeat at Real Betis to be retaken was correct, the body in ch",
       "source": "ESPN",
