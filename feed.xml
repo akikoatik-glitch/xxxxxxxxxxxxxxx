@@ -5,16 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 10 Sep 2026 16:17:07 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 10 Sep 2026 18:19:16 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>CF Estrela da Amadora vs Sporting Clube de Braga — Away Win @ 1.97</title>
-    <link>https://xwhiz.com/predictions/cf-estrela-da-amadora-vs-sporting-clube-de-braga-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/cf-estrela-da-amadora-vs-sporting-clube-de-braga-prediction.html</guid>
-    <pubDate>Thu, 10 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 48% confidence. Away Win at 1.97. Match kickoff: Thu, 10 Sep 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
   <item>
     <title>Sevilla vs Valencia CF — Home Win @ 1.46</title>
     <link>https://xwhiz.com/predictions/sevilla-vs-valencia-cf-prediction.html</link>
@@ -198,6 +190,14 @@
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>Bundesliga — 46% confidence. Home Win at 2.06. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>Atalanta BC vs Cagliari Calcio — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/atalanta-bc-vs-cagliari-calcio-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/atalanta-bc-vs-cagliari-calcio-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
   </item>
 </channel>
 </rss>

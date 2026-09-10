@@ -1,84 +1,11 @@
 {
-  "date": "2026-09-10",
-  "lastUpdate": "2026-09-10T16:17:06.780Z",
-  "predictionGenerated": "2026-09-10T16:17:06.780Z",
-  "dataTimestamp": "2026-09-10T16:17:03.960Z",
+  "date": "2026-09-11",
+  "lastUpdate": "2026-09-10T18:19:15.456Z",
+  "predictionGenerated": "2026-09-10T18:19:15.456Z",
+  "dataTimestamp": "2026-09-10T18:19:12.533Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:1+tomorrow:6+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "pt.1:2026-09-10:CF Estrela da Amadora:Sporting Clube de Braga",
-      "slug": "cf-estrela-da-amadora-vs-sporting-clube-de-braga-prediction",
-      "utcDate": "2026-09-10T15:00:00Z",
-      "date": "2026-09-10",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "CF Estrela da Amadora",
-      "away": "Sporting Clube de Braga",
-      "league": "Primeira Liga",
-      "code": "PPL",
-      "flag": "🇵🇹",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 48,
-      "odds": "1.97",
-      "value": "+0%",
-      "probs": {
-        "home": 28,
-        "draw": 24,
-        "away": 48
-      },
-      "xg": {
-        "home": "1.10",
-        "away": "1.53",
-        "total": "2.63"
-      },
-      "doubleChance": {
-        "12": 76,
-        "1X": 52,
-        "X2": 72
-      },
-      "overUnder": {
-        "over2_5": 49,
-        "under2_5": 51,
-        "oddsOver": "1.94",
-        "oddsUnder": "1.86"
-      },
-      "btts": {
-        "yes": 51,
-        "no": 49
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 12
-        },
-        {
-          "score": "1-1",
-          "prob": 11
-        },
-        {
-          "score": "1-2",
-          "prob": 9
-        }
-      ],
-      "asianHandicap": "Away +0.50",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "CF Estrela da Amadora vs Sporting Clube de Braga: Dixon-Coles P(H)28% D24% A48% • xG 1.10-1.53 • most likely score 0-1 (12%) • Away Win confidence 48%",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "es.1:2026-09-11:Sevilla FC:Valencia CF",
       "slug": "sevilla-vs-valencia-cf-prediction",
@@ -86,7 +13,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "Sevilla",
       "away": "Valencia CF",
       "league": "La Liga",
@@ -159,7 +86,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -232,7 +159,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "Venezia",
       "away": "ACF Fiorentina",
       "league": "Serie A",
@@ -305,7 +232,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "Stade Rennais FC 1901",
       "away": "Olympique de Marseille",
       "league": "Ligue 1",
@@ -378,7 +305,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "AZ",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -451,7 +378,7 @@
       "date": "2026-09-11",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "West Ham United",
       "away": "Wrexham A",
       "league": "Championship",
@@ -524,7 +451,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Sunderland A",
       "away": "Arsenal",
       "league": "Premier League",
@@ -597,7 +524,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Everton",
       "league": "Premier League",
@@ -670,7 +597,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Chelsea",
       "away": "Hull City A",
       "league": "Premier League",
@@ -743,7 +670,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "AFC Bournemouth",
       "away": "Brentford",
       "league": "Premier League",
@@ -816,7 +743,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Aston Villa",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -889,7 +816,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Liverpool",
       "away": "Fulham",
       "league": "Premier League",
@@ -962,7 +889,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Crystal Palace",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -1035,7 +962,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Real Madrid CF",
       "away": "Rayo Vallecano de Madrid",
       "league": "La Liga",
@@ -1108,7 +1035,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Athletic Club",
       "away": "Elche CF",
       "league": "La Liga",
@@ -1181,7 +1108,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "CA Osasuna",
       "away": "RCD Espanyol de Barcelona",
       "league": "La Liga",
@@ -1254,7 +1181,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Real Racing Club de Santander",
       "away": "Deportivo Alavés",
       "league": "La Liga",
@@ -1327,7 +1254,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "1. FC Köln",
       "away": "SV Werder Bremen",
       "league": "Bundesliga",
@@ -1400,7 +1327,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "SC Freiburg",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -1473,7 +1400,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1546,7 +1473,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "FC Augsburg",
       "away": "Bayer 04 Leverkusen",
       "league": "Bundesliga",
@@ -1619,7 +1546,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Borussia Dortmund",
       "away": "SC Paderborn 07",
       "league": "Bundesliga",
@@ -1692,7 +1619,7 @@
       "date": "2026-09-12",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "TSG 1899 Hoffenheim",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -1754,6 +1681,79 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "TSG 1899 Hoffenheim vs VfB Stuttgart: Dixon-Coles P(H)46% D24% A30% • xG 1.48-1.13 • most likely score 1-0 (12%) • Home Win confidence 46%",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-09-12:Atalanta BC:Cagliari Calcio",
+      "slug": "atalanta-bc-vs-cagliari-calcio-prediction",
+      "utcDate": "2026-09-12T15:00:00Z",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "44h to kickoff",
+      "home": "Atalanta BC",
+      "away": "Cagliari Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Atalanta BC vs Cagliari Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61%",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
+      "title": "Barcelona's spending limit up €150m, still well below Real Madrid's",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-10T17:31:40.000Z",
+      "excerpt": "Barcelona's squad spending limit has risen by almost €150 million ($174m) to €582m ($676m), LaLiga announced on Thursday.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49893748/barcelona-spending-limit-laliga-real-madrid-transfers",
+      "image": "https://a.espncdn.com/photo/2026/0910/r1714419_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-10T17:20:20.000Z",
+      "excerpt": "Arsenal host Chelsea in a heavyweight clash this early in the Premier League, while teams such as PSG and Napoli are on the ropes in their r",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49891922/weekend-predictions-wins-manchester-derby-elversberg-stun-bayern",
+      "image": "https://a.espncdn.com/photo/2026/0910/r1714342_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Premier League confirms return of traditional Boxing Day fixtures",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-10T16:22:28.000Z",
+      "excerpt": "The Premier League has confirmed the return of its traditional set of Boxing Day fixtures, with seven matches set to take place on Dec. 26.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49892988/premier-league-confirms-return-traditional-boxing-day-fixtures",
+      "image": "https://a.espncdn.com/photo/2026/0910/r1714363_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Bayern Munich Ballon d'Or nominees Michael Olise, Luis Díaz back Harry Kane",
       "league": "Bundesliga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-10T16:11:22.000Z",
       "excerpt": "Bayern Munich's Ballon d'Or nominees Michael Olise and Luis Diaz have leant their backing to fellow shortlisted player Harry Kane to win the",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49891906/bayern-munich-ballon-dor-nominees-michael-olise-luis-diaz-get-harry-kane-award-bid",
       "image": "https://a.espncdn.com/photo/2026/0713/r1688823_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Hull's Sergej Jakirovic: Best way to stop Chelsea is 'to kick them'",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-10T15:32:00.000Z",
-      "excerpt": "Hull boss Sergej Jakirovic joked that the best way to stop Chelsea's free-flowing attack is \"to kick them.\"",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49892616/hull-sergej-jakirovic-best-way-stop-chelsea-kick-them",
-      "image": "https://a.espncdn.com/photo/2026/0910/r1714351_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Man United, Tottenham eye Club Brugge striker",
-      "league": "Premier League",
-      "time": "5h ago",
-      "published": "2026-09-10T10:49:10.000Z",
-      "excerpt": "Club Brugge striker Nicolo Tresoldi has emerged as a potential target for both Manchester United and Tottenham. Transfer Talk has the latest",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49889462/transfer-rumors-news-man-united-tottenham-eye-club-brugge-striker",
-      "image": "https://a.espncdn.com/photo/2026/0910/r1714230_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
-      "league": "La Liga",
-      "time": "5h ago",
-      "published": "2026-09-10T10:47:16.000Z",
-      "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49867974/2026-ballon-dor-full-mens-women-shortlists-host-city-change-vozinha-more",
-      "image": "https://a.espncdn.com/photo/2026/0908/r1713144_2_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
