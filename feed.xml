@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 10 Sep 2026 22:15:15 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 00:24:44 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Sevilla vs Valencia CF — Home Win @ 1.46</title>
@@ -56,43 +56,11 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Sunderland A vs Arsenal — Away Win @ 1.07</title>
-    <link>https://xwhiz.com/predictions/sunderland-a-vs-arsenal-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sunderland-a-vs-arsenal-prediction.html</guid>
-    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 89% confidence. Away Win at 1.07. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Premier League</category>
-  </item>
-  <item>
-    <title>Tottenham Hotspur vs Everton — Home Win @ 1.21</title>
-    <link>https://xwhiz.com/predictions/tottenham-hotspur-vs-everton-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/tottenham-hotspur-vs-everton-prediction.html</guid>
+    <title>Crystal Palace vs Ipswich Town — Home Win @ 1.21</title>
+    <link>https://xwhiz.com/predictions/crystal-palace-vs-ipswich-town-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/crystal-palace-vs-ipswich-town-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 79% confidence. Home Win at 1.21. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Premier League</category>
-  </item>
-  <item>
-    <title>Chelsea vs Hull City A — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/chelsea-vs-hull-city-a-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/chelsea-vs-hull-city-a-prediction.html</guid>
-    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Premier League</category>
-  </item>
-  <item>
-    <title>AFC Bournemouth vs Brentford — Home Win @ 1.61</title>
-    <link>https://xwhiz.com/predictions/afc-bournemouth-vs-brentford-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/afc-bournemouth-vs-brentford-prediction.html</guid>
-    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 59% confidence. Home Win at 1.61. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Premier League</category>
-  </item>
-  <item>
-    <title>Aston Villa vs Nottingham Forest — Home Win @ 1.31</title>
-    <link>https://xwhiz.com/predictions/aston-villa-vs-nottingham-forest-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/aston-villa-vs-nottingham-forest-prediction.html</guid>
-    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 73% confidence. Home Win at 1.31. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
   <item>
@@ -104,27 +72,51 @@
     <category>Premier League</category>
   </item>
   <item>
-    <title>Crystal Palace vs Ipswich Town — Home Win @ 1.21</title>
-    <link>https://xwhiz.com/predictions/crystal-palace-vs-ipswich-town-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/crystal-palace-vs-ipswich-town-prediction.html</guid>
+    <title>Aston Villa vs Nottingham Forest — Home Win @ 1.31</title>
+    <link>https://xwhiz.com/predictions/aston-villa-vs-nottingham-forest-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/aston-villa-vs-nottingham-forest-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 73% confidence. Home Win at 1.31. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>AFC Bournemouth vs Brentford — Home Win @ 1.61</title>
+    <link>https://xwhiz.com/predictions/afc-bournemouth-vs-brentford-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/afc-bournemouth-vs-brentford-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 59% confidence. Home Win at 1.61. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Chelsea vs Hull City A — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/chelsea-vs-hull-city-a-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/chelsea-vs-hull-city-a-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Tottenham Hotspur vs Everton — Home Win @ 1.21</title>
+    <link>https://xwhiz.com/predictions/tottenham-hotspur-vs-everton-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/tottenham-hotspur-vs-everton-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 79% confidence. Home Win at 1.21. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
   <item>
-    <title>Real Madrid CF vs Rayo Vallecano de Madrid — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/real-madrid-cf-vs-rayo-vallecano-de-madrid-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/real-madrid-cf-vs-rayo-vallecano-de-madrid-prediction.html</guid>
+    <title>Sunderland A vs Arsenal — Away Win @ 1.07</title>
+    <link>https://xwhiz.com/predictions/sunderland-a-vs-arsenal-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sunderland-a-vs-arsenal-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>La Liga</category>
+    <description>Premier League — 89% confidence. Away Win at 1.07. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
   </item>
   <item>
-    <title>Athletic Club vs Elche CF — Home Win @ 1.15</title>
-    <link>https://xwhiz.com/predictions/athletic-club-vs-elche-cf-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/athletic-club-vs-elche-cf-prediction.html</guid>
+    <title>Real Racing Club de Santander vs Deportivo Alavés — Home Win @ 1.91</title>
+    <link>https://xwhiz.com/predictions/real-racing-club-de-santander-vs-deportivo-alaves-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/real-racing-club-de-santander-vs-deportivo-alaves-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 83% confidence. Home Win at 1.15. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <description>La Liga — 50% confidence. Home Win at 1.91. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>La Liga</category>
   </item>
   <item>
@@ -136,43 +128,27 @@
     <category>La Liga</category>
   </item>
   <item>
-    <title>Real Racing Club de Santander vs Deportivo Alavés — Home Win @ 1.91</title>
-    <link>https://xwhiz.com/predictions/real-racing-club-de-santander-vs-deportivo-alaves-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/real-racing-club-de-santander-vs-deportivo-alaves-prediction.html</guid>
+    <title>Athletic Club vs Elche CF — Home Win @ 1.15</title>
+    <link>https://xwhiz.com/predictions/athletic-club-vs-elche-cf-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/athletic-club-vs-elche-cf-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 50% confidence. Home Win at 1.91. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <description>La Liga — 83% confidence. Home Win at 1.15. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>La Liga</category>
   </item>
   <item>
-    <title>1. FC Köln vs SV Werder Bremen — Away Win @ 1.90</title>
-    <link>https://xwhiz.com/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html</guid>
+    <title>Real Madrid CF vs Rayo Vallecano de Madrid — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/real-madrid-cf-vs-rayo-vallecano-de-madrid-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/real-madrid-cf-vs-rayo-vallecano-de-madrid-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 50% confidence. Away Win at 1.90. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
+    <description>La Liga — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>La Liga</category>
   </item>
   <item>
-    <title>SC Freiburg vs Borussia Mönchengladbach — Home Win @ 1.02</title>
-    <link>https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</guid>
+    <title>TSG 1899 Hoffenheim vs VfB Stuttgart — Home Win @ 2.06</title>
+    <link>https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 93% confidence. Home Win at 1.02. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>1. FSV Mainz 05 vs Eintracht Frankfurt — Home Win @ 2.02</title>
-    <link>https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</guid>
-    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 47% confidence. Home Win at 2.02. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>FC Augsburg vs Bayer 04 Leverkusen — Away Win @ 1.86</title>
-    <link>https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</guid>
-    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 51% confidence. Away Win at 1.86. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <description>Bundesliga — 46% confidence. Home Win at 2.06. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
   </item>
   <item>
@@ -184,17 +160,41 @@
     <category>Bundesliga</category>
   </item>
   <item>
-    <title>TSG 1899 Hoffenheim vs VfB Stuttgart — Home Win @ 2.06</title>
-    <link>https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/tsg-1899-hoffenheim-vs-vfb-stuttgart-prediction.html</guid>
+    <title>FC Augsburg vs Bayer 04 Leverkusen — Away Win @ 1.86</title>
+    <link>https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-augsburg-vs-bayer-04-leverkusen-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 46% confidence. Home Win at 2.06. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <description>Bundesliga — 51% confidence. Away Win at 1.86. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
   </item>
   <item>
-    <title>Atalanta BC vs Cagliari Calcio — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/atalanta-bc-vs-cagliari-calcio-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/atalanta-bc-vs-cagliari-calcio-prediction.html</guid>
+    <title>1. FSV Mainz 05 vs Eintracht Frankfurt — Home Win @ 2.02</title>
+    <link>https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fsv-mainz-05-vs-eintracht-frankfurt-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 47% confidence. Home Win at 2.02. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>SC Freiburg vs Borussia Mönchengladbach — Home Win @ 1.02</title>
+    <link>https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sc-freiburg-vs-borussia-moenchengladbach-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 93% confidence. Home Win at 1.02. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>1. FC Köln vs SV Werder Bremen — Away Win @ 1.90</title>
+    <link>https://xwhiz.com/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fc-koeln-vs-sv-werder-bremen-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 50% confidence. Away Win at 1.90. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>Genoa C vs Frosinone Calcio — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/genoa-c-vs-frosinone-calcio-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/genoa-c-vs-frosinone-calcio-prediction.html</guid>
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
