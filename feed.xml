@@ -5,56 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 11 Sep 2026 16:18:02 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 18:19:44 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Sevilla vs Valencia CF — Home Win @ 1.46</title>
-    <link>https://xwhiz.com/predictions/sevilla-vs-valencia-cf-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sevilla-vs-valencia-cf-prediction.html</guid>
-    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 65% confidence. Home Win at 1.46. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
-    <category>La Liga</category>
-  </item>
-  <item>
-    <title>1. FC Union Berlin vs FC Schalke 04 — Home Win @ 1.08</title>
-    <link>https://xwhiz.com/predictions/1-fc-union-berlin-vs-fc-schalke-04-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fc-union-berlin-vs-fc-schalke-04-prediction.html</guid>
-    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 88% confidence. Home Win at 1.08. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>Venezia vs ACF Fiorentina — Home Win @ 2.49</title>
-    <link>https://xwhiz.com/predictions/venezia-vs-acf-fiorentina-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/venezia-vs-acf-fiorentina-prediction.html</guid>
-    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 38% confidence. Home Win at 2.49. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Stade Rennais FC 1901 vs Olympique de Marseille — Away Win @ 1.49</title>
-    <link>https://xwhiz.com/predictions/stade-rennais-fc-1901-vs-olympique-de-marseille-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/stade-rennais-fc-1901-vs-olympique-de-marseille-prediction.html</guid>
-    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Ligue 1 — 64% confidence. Away Win at 1.49. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
-    <category>Ligue 1</category>
-  </item>
-  <item>
-    <title>AZ vs Willem II Tilburg — Home Win @ 1.06</title>
-    <link>https://xwhiz.com/predictions/az-vs-willem-ii-tilburg-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/az-vs-willem-ii-tilburg-prediction.html</guid>
-    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Eredivisie — 90% confidence. Home Win at 1.06. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
-    <category>Eredivisie</category>
-  </item>
-  <item>
-    <title>West Ham United vs Wrexham A — Home Win @ 1.02</title>
-    <link>https://xwhiz.com/predictions/west-ham-united-vs-wrexham-a-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/west-ham-united-vs-wrexham-a-prediction.html</guid>
-    <pubDate>Fri, 11 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 93% confidence. Home Win at 1.02. Match kickoff: Fri, 11 Sep 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
   <item>
     <title>Crystal Palace vs Ipswich Town — Home Win @ 1.21</title>
     <link>https://xwhiz.com/predictions/crystal-palace-vs-ipswich-town-prediction.html</link>
@@ -198,6 +150,54 @@
     <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
+  </item>
+  <item>
+    <title>SS Lazio vs AC Milan — Home Win @ 1.87</title>
+    <link>https://xwhiz.com/predictions/ss-lazio-vs-ac-milan-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ss-lazio-vs-ac-milan-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 51% confidence. Home Win at 1.87. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Atalanta BC vs Cagliari Calcio — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/atalanta-bc-vs-cagliari-calcio-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/atalanta-bc-vs-cagliari-calcio-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>RC Strasbourg Alsace vs AS Monaco — Home Win @ 1.94</title>
+    <link>https://xwhiz.com/predictions/rc-strasbourg-alsace-vs-as-monaco-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/rc-strasbourg-alsace-vs-as-monaco-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 49% confidence. Home Win at 1.94. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>FC Lorient vs Toulouse — Home Win @ 1.91</title>
+    <link>https://xwhiz.com/predictions/fc-lorient-vs-toulouse-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-lorient-vs-toulouse-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 50% confidence. Home Win at 1.91. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>AJ Auxerre vs OGC Nice — Home Win @ 2.23</title>
+    <link>https://xwhiz.com/predictions/aj-auxerre-vs-ogc-nice-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/aj-auxerre-vs-ogc-nice-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 43% confidence. Home Win at 2.23. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Le Havre AC vs Angers SCO — Home Win @ 1.14</title>
+    <link>https://xwhiz.com/predictions/le-havre-ac-vs-angers-sco-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/le-havre-ac-vs-angers-sco-prediction.html</guid>
+    <pubDate>Sat, 12 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 83% confidence. Home Win at 1.14. Match kickoff: Sat, 12 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
   </item>
 </channel>
 </rss>
