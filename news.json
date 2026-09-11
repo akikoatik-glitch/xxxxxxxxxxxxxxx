@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-09-11T04:18:01.497Z",
+  "lastUpdate": "2026-09-11T06:21:47.886Z",
   "news": [
+    {
+      "title": "Red Devils' red-hot UCL start",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-09-11T05:12:59.000Z",
+      "excerpt": "Manchester United kick off their Champions League campaign in style, putting four past Sabah on Matchday 1.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49900444/red-devils-red-hot-ucl-start",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_Soccer_HIGHLIGHT_Red_Devils_red_hot_UCL_start_20260911_AUS/dm_260911_Soccer_HIGHLIGHT_Red_Devils_red_hot_UCL_start_20260911_AUS.jpg",
+      "category": "football"
+    },
     {
       "title": "Fenerbahce president rejects coach Kartal's resignation after UCL draw",
       "league": "Champions League",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-11T00:03:52.000Z",
       "excerpt": "Fenerbahce coach Ismail Kartal announced his shock resignation after the 1-1 draw against Roma, but club president Aziz Yildirim said the co",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Šeško makes his case for Man United ahead of Manchester derby",
       "league": "Premier League",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-10T23:45:33.000Z",
       "excerpt": "Benjamin Šeško's form for Manchester United has given Michael Carrick a selection decision to make ahead of Sunday's Manchester derby.",
       "source": "ESPN",
@@ -24,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Who has the most Champions League goals, assists all time?",
-      "league": "Champions League",
-      "time": "4h ago",
-      "published": "2026-09-10T23:42:29.000Z",
-      "excerpt": "Cristiano Ronaldo leads the Champions League in all-time goals and assists. Check out which other soccer stars are behind him.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/43810752/who-most-champions-league-goals-assists-all",
-      "image": "https://a.espncdn.com/photo/2018/0411/r355065_608x342_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Musiala returns with a goal in Bayern's Champions League win",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-10T23:06:42.000Z",
       "excerpt": "Musiala returns with a goal in Bayern's Champions League win",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "Does Harry Kane deserve to win the Ballon d'Or?",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-10T23:06:22.000Z",
       "excerpt": "Does Harry Kane deserve to win the Ballon d'Or?",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Transfer rumors, news: Zubimendi to leave Arsenal in January?",
       "league": "Premier League",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-10T19:59:32.000Z",
       "excerpt": "Arsenal midfielder Martín Zubimendi could reportedly leave the club during the winter transfer window. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
       "league": "La Liga",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-10T18:43:23.000Z",
       "excerpt": "Arsenal host Chelsea in a heavyweight clash this early in the Premier League, while teams such as PSG and Napoli are on the ropes in their r",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Barcelona's spending limit up €150m, still well below Real Madrid's",
       "league": "La Liga",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-10T17:31:40.000Z",
       "excerpt": "Barcelona's squad spending limit has risen by almost €150 million ($174m) to €582m ($676m), LaLiga announced on Thursday.",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
       "league": "Serie A",
-      "time": "17h ago",
+      "time": "19h ago",
       "published": "2026-09-10T10:47:16.000Z",
       "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
       "source": "ESPN",
