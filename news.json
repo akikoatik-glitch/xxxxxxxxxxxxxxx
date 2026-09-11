@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-09-11T10:17:47.809Z",
+  "lastUpdate": "2026-09-11T12:22:44.893Z",
   "news": [
     {
-      "title": "Mikel Arteta reveals how he sabotaged Arsenal preseason to prepare for chaos",
+      "title": "Andoni Iraola calls for Liverpool to start quicker in games: 'Everything looks easier'",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-11T10:09:40.000Z",
-      "excerpt": "Mikel Arteta has revealed he deliberately sabotaged elements of Arsenal's preseason in order to better prepare his players for the campaign ",
+      "published": "2026-09-11T12:20:25.000Z",
+      "excerpt": "Andoni Iraola wants to see his Liverpool side make a fast start in Saturday's Premier League clash with Fulham to avoid another match where ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49901752/mikel-arteta-reveals-how-sabotaged-arsenal-preseason",
-      "image": "https://a.espncdn.com/photo/2026/0831/r1709723_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49902944/andoni-iraola-calls-liverpool-start-quicker-games-everything-looks-easier",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1714067_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Have Man United made a mistake waiting until next summer to rebuild the defense?",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-11T11:56:59.000Z",
+      "excerpt": "Man United's slow approach to their squad rebuild -- prioritizing one position every summer -- has left them light in defense, where they ar",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49892093/manchester-united-defense-transfers-ineos-glazers-jason-wilcox-harry-maguire",
+      "image": "https://a.espncdn.com/photo/2026/0910/r1714436_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Fenerbahçe coach stuns press conference by resigning after Roma draw",
       "league": "Champions League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-11T09:34:07.000Z",
       "excerpt": "Fenerbahçe coach stuns press conference by resigning after Roma draw",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Mayor of Madrid weighs in on Julián Álvarez saga: 'We need him back on track'",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-11T09:03:17.000Z",
       "excerpt": "José Luis Martínez-Almeida, the mayor of Madrid, has weighed in on Julián Álvarez's status at Atlético Madrid.",
       "source": "ESPN",
@@ -36,8 +47,8 @@
     },
     {
       "title": "The staggering numbers behind Premier League's spending power over Europe",
-      "league": "Premier League",
-      "time": "1h ago",
+      "league": "Serie A",
+      "time": "3h ago",
       "published": "2026-09-11T08:58:35.000Z",
       "excerpt": "Barcola's big move from PSG to Liverpool was a highlight of another summer transfer window in which the Premier League effectively subsidize",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Kylian Mbappé responds to defensive criticism: 'It's not something I take personally'",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-11T08:42:00.000Z",
       "excerpt": "Kylian Mbappé has responded to criticism regarding his defensive commitment at Real Madrid.",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Harry Kane joins Cristiano Ronaldo in elite Champions League scoring club",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-11T07:36:59.000Z",
       "excerpt": "Harry Kane joined an elite goalscoring club on Thursday after extending his remarkable Champions League streak.",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Musiala returns with a goal in Bayern's Champions League win",
       "league": "Bundesliga",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-10T23:06:42.000Z",
       "excerpt": "Musiala returns with a goal in Bayern's Champions League win",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Does Harry Kane deserve to win the Ballon d'Or?",
       "league": "Bundesliga",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-10T23:06:22.000Z",
       "excerpt": "Does Harry Kane deserve to win the Ballon d'Or?",
       "source": "ESPN",
@@ -92,7 +103,7 @@
     {
       "title": "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
       "league": "Serie A",
-      "time": "15h ago",
+      "time": "17h ago",
       "published": "2026-09-10T18:43:23.000Z",
       "excerpt": "Arsenal host Chelsea in a heavyweight clash this early in the Premier League, while teams such as PSG and Napoli are on the ropes in their r",
       "source": "ESPN",
@@ -103,7 +114,7 @@
     {
       "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
       "league": "Ligue 1",
-      "time": "23h ago",
+      "time": "10/09/2026",
       "published": "2026-09-10T10:47:16.000Z",
       "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
       "source": "ESPN",
