@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-09-12T16:16:26.913Z",
+  "lastUpdate": "2026-09-12T18:18:01.914Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Liverpool look at Inter's Stankovic",
+      "title": "Premier League live updates: Can Spurs get a first win? Also: Chelsea held by Hull",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-09-12T18:13:41.000Z",
+      "excerpt": "It's Tottenham's turn to take the field in search of their first win of the season. Can they beat Everton? Earlier unbeaten Hull City shocke",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49894589/premier-league-live-updates-chelsea-hull-city-tottenham-everton-sunderland-arsenal-real-madrid-ac-milan",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715440_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Andoni Iraola cites 'lack of freshness' after Liverpool's draw with Fulham",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-12T18:07:04.000Z",
+      "excerpt": "Liverpool manager Andoni Iraola said his players were tired but refused to use it as an excuse after being held to a 0-0 draw by Fulham at A",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49916096/andoni-iraola-lack-freshness-liverpool-draw-fulham",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715431_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Osasuna vs. Espanyol - Game Highlights",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-09-12T16:15:56.000Z",
+      "excerpt": "Watch the Game Highlights from Osasuna vs. Espanyol, 09/12/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49914983/osasuna-vs-espanyol-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0912/7b8f5bdc-523c-40c7-89cb-47ade248f8c1/7b8f5bdc-523c-40c7-89cb-47ade248f8c1.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool look at Inter's Stankovic",
+      "league": "Serie A",
+      "time": "2h ago",
       "published": "2026-09-12T16:07:57.000Z",
       "excerpt": "Liverpool remain keen on Internazionale midfielder Aleksandar Stankovic after enquiring about him while negotiating Curtis Jones' €35 millio",
       "source": "ESPN",
@@ -13,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Kevin Schade brace denies Bournemouth a first Premier League win of season",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-12T16:06:02.000Z",
-      "excerpt": "Kevin Schade brace denies Bournemouth a first Premier League win of season",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401879285",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715372_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Racing Santander vs. Alavés - Game Highlights",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-12T14:06:22.000Z",
       "excerpt": "Watch the Game Highlights from Racing Santander vs. Alavés, 09/12/2026",
       "source": "ESPN",
@@ -37,7 +59,7 @@
     {
       "title": "Arsenal's Gabriel 'eager' to take another Champions League final penalty: 'If it happens again, I'll be there'",
       "league": "Champions League",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-12T12:25:16.000Z",
       "excerpt": "Arsenal defender Gabriel Magalhães has said that he is \"eager\" for another chance to take a penalty in a Champions League final.",
       "source": "ESPN",
@@ -46,20 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Barcelona coach Hansi Flick hails 'unbelievable' Raphinha in new No. 9 role",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-09-12T11:27:06.000Z",
-      "excerpt": "Barcelona coach Hansi Flick has said \"unbelievable\" Raphinha is one of the best in the world after converting the Brazilian into a striker t",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49912525/barcelona-coach-hansi-flick-hails-unbelievable-raphinha-new-no-9-role",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715267_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Mastantuono beats Messi record with Fiorentina hat trick",
       "league": "Serie A",
-      "time": "17h ago",
+      "time": "19h ago",
       "published": "2026-09-11T23:07:43.000Z",
       "excerpt": "On-loan Real Madrid winger Franco Mastantuono eclipsed Lionel Messi as the youngest Argentine player to score a hat trick in Europe's top fi",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Elversberg coach cleared to face Bayern after ref admits error",
       "league": "Bundesliga",
-      "time": "20h ago",
+      "time": "22h ago",
       "published": "2026-09-11T19:23:25.000Z",
       "excerpt": "The coach of Elversberg, the small-town team shaking up German soccer, has been cleared to be in the dugout against champion Bayern Munich a",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Monaco's Lamine Camara says he has 'turned the page' after failed Chelsea move",
       "league": "Ligue 1",
-      "time": "23h ago",
+      "time": "11/09/2026",
       "published": "2026-09-11T16:46:26.000Z",
       "excerpt": "Monaco midfielder Lamine Camara said he has moved on from his collapsed move to Chelsea and is fully focused on playing well for the Ligue 1",
       "source": "ESPN",
@@ -92,7 +103,7 @@
     {
       "title": "Dalot: I want to put Manchester United back on top",
       "league": "Champions League",
-      "time": "23h ago",
+      "time": "11/09/2026",
       "published": "2026-09-11T16:30:15.000Z",
       "excerpt": "Dalot: I want to put Manchester United back on top",
       "source": "ESPN",
