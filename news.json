@@ -1,32 +1,65 @@
 {
-  "lastUpdate": "2026-09-12T18:18:01.914Z",
+  "lastUpdate": "2026-09-12T20:15:59.895Z",
   "news": [
     {
-      "title": "Premier League live updates: Can Spurs get a first win? Also: Chelsea held by Hull",
+      "title": "Winless Tottenham lack confidence and physical conditioning - Roberto De Zerbi",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-12T18:13:41.000Z",
-      "excerpt": "It's Tottenham's turn to take the field in search of their first win of the season. Can they beat Everton? Earlier unbeaten Hull City shocke",
+      "published": "2026-09-12T20:11:08.000Z",
+      "excerpt": "Roberto de Zerbi has admitted Tottenham lack \"physical condition\" and \"confidence\" but insisted they can overcome their slow start to the se",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49894589/premier-league-live-updates-chelsea-hull-city-tottenham-everton-sunderland-arsenal-real-madrid-ac-milan",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715440_2_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49917628/winless-tottenham-lack-confidence-physical-conditioning-roberto-de-zerbi",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715500_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Andoni Iraola cites 'lack of freshness' after Liverpool's draw with Fulham",
+      "title": "Premier League live updates: Arsenal take on Sunderland; Spurs' winless run continues",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-12T18:07:04.000Z",
-      "excerpt": "Liverpool manager Andoni Iraola said his players were tired but refused to use it as an excuse after being held to a 0-0 draw by Fulham at A",
+      "published": "2026-09-12T19:46:45.000Z",
+      "excerpt": "Our final game of the day: defending champs Arsenal are looking for another win, this time at Sunderland. Elsewhere, Tottenham's winless str",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49916096/andoni-iraola-lack-freshness-liverpool-draw-fulham",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715431_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49894589/premier-league-live-updates-chelsea-hull-city-tottenham-everton-sunderland-arsenal-real-madrid-ac-milan",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715506_2_1024x576_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Fenerbahce coach returns to work after resignation confusion",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-09-12T19:35:35.000Z",
+      "excerpt": "Fenerbahce coach Ismail Kartal returned to his duties on Saturday, contradicting media reports from the day before suggesting his resignatio",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49916991/fenerbahce-coach-ismail-kartal-resignation-return",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715493_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Christian Pulisic gets assist as AC Milan come back to earn 2-2 draw",
+      "league": "Serie A",
+      "time": "1h ago",
+      "published": "2026-09-12T19:09:05.000Z",
+      "excerpt": "Christian Pulisic helped Diego Moreira score twice in three minutes as AC Milan came from 2-0 down to draw 2-2 at Lazio, who dropped points ",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874941",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715451_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Athletic Club vs. Elche - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-12T18:34:09.000Z",
+      "excerpt": "Watch the Game Highlights from Athletic Club vs. Elche, 09/12/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49916498/athletic-club-vs-elche-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0912/eb9c23cc-e5d1-439e-97c7-88f05695ef48/eb9c23cc-e5d1-439e-97c7-88f05695ef48.jpg",
       "category": "football"
     },
     {
       "title": "Osasuna vs. Espanyol - Game Highlights",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-12T16:15:56.000Z",
       "excerpt": "Watch the Game Highlights from Osasuna vs. Espanyol, 09/12/2026",
       "source": "ESPN",
@@ -37,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Liverpool look at Inter's Stankovic",
       "league": "Serie A",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-12T16:07:57.000Z",
       "excerpt": "Liverpool remain keen on Internazionale midfielder Aleksandar Stankovic after enquiring about him while negotiating Curtis Jones' €35 millio",
       "source": "ESPN",
@@ -46,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Racing Santander vs. Alavés - Game Highlights",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-09-12T14:06:22.000Z",
-      "excerpt": "Watch the Game Highlights from Racing Santander vs. Alavés, 09/12/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49913770/racing-santander-vs-alaves-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0912/e81257bb-8e3d-4094-8a13-3072f2628f7b/e81257bb-8e3d-4094-8a13-3072f2628f7b.jpg",
-      "category": "football"
-    },
-    {
       "title": "Arsenal's Gabriel 'eager' to take another Champions League final penalty: 'If it happens again, I'll be there'",
       "league": "Champions League",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-12T12:25:16.000Z",
       "excerpt": "Arsenal defender Gabriel Magalhães has said that he is \"eager\" for another chance to take a penalty in a Champions League final.",
       "source": "ESPN",
@@ -68,20 +90,9 @@
       "category": "football"
     },
     {
-      "title": "Mastantuono beats Messi record with Fiorentina hat trick",
-      "league": "Serie A",
-      "time": "19h ago",
-      "published": "2026-09-11T23:07:43.000Z",
-      "excerpt": "On-loan Real Madrid winger Franco Mastantuono eclipsed Lionel Messi as the youngest Argentine player to score a hat trick in Europe's top fi",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49907395/franco-mastantuono-lionel-messi-hat-trick-fiorentina-real-madrid",
-      "image": "https://a.espncdn.com/photo/2026/0911/r1715095_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Elversberg coach cleared to face Bayern after ref admits error",
       "league": "Bundesliga",
-      "time": "22h ago",
+      "time": "11/09/2026",
       "published": "2026-09-11T19:23:25.000Z",
       "excerpt": "The coach of Elversberg, the small-town team shaking up German soccer, has been cleared to be in the dugout against champion Bayern Munich a",
       "source": "ESPN",
@@ -98,17 +109,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49905021/monaco-lamine-camara-turned-page-failed-chelsea-move",
       "image": "https://a.espncdn.com/photo/2026/0911/r1714932_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Dalot: I want to put Manchester United back on top",
-      "league": "Champions League",
-      "time": "11/09/2026",
-      "published": "2026-09-11T16:30:15.000Z",
-      "excerpt": "Dalot: I want to put Manchester United back on top",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49904946/want-put-manchester-united-back-top",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0911/dm_260911_Dalot_I_want_to_put_Manchester_United_back_on_top/dm_260911_Dalot_I_want_to_put_Manchester_United_back_on_top.jpg",
       "category": "football"
     },
     {
