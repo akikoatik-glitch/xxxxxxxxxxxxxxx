@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-09-12T14:15:28.225Z",
+  "lastUpdate": "2026-09-12T16:16:26.913Z",
   "news": [
     {
-      "title": "Premier League live updates: Chelsea take on Hull, Liverpool face Fulham",
+      "title": "Transfer rumors, news: Liverpool look at Inter's Stankovic",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-12T14:13:50.000Z",
-      "excerpt": "Chelsea will look to bounce back from the loss to Arsenal as they take on unbeaten Hull City, while Liverpool face Fulham on a Saturday full",
+      "published": "2026-09-12T16:07:57.000Z",
+      "excerpt": "Liverpool remain keen on Internazionale midfielder Aleksandar Stankovic after enquiring about him while negotiating Curtis Jones' €35 millio",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49894589/premier-league-live-updates-chelsea-hull-city-tottenham-everton-sunderland-arsenal-real-madrid-ac-milan",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715311_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49911577/transfer-rumors-news-man-united-eye-bournemouth-defender-replace-shaw",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715245_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Kevin Schade brace denies Bournemouth a first Premier League win of season",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-12T16:06:02.000Z",
+      "excerpt": "Kevin Schade brace denies Bournemouth a first Premier League win of season",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401879285",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715372_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Racing Santander vs. Alavés - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-12T14:06:22.000Z",
       "excerpt": "Watch the Game Highlights from Racing Santander vs. Alavés, 09/12/2026",
       "source": "ESPN",
@@ -24,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Man United eye Bournemouth defender to replace Shaw",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-12T12:57:18.000Z",
-      "excerpt": "Manchester United see AFC Bournemouth defender Adrien Truffert as a future replacement for Luke Shaw. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49911577/transfer-rumors-news-man-united-eye-bournemouth-defender-replace-shaw",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715244_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Arsenal's Gabriel 'eager' to take another Champions League final penalty: 'If it happens again, I'll be there'",
       "league": "Champions League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-12T12:25:16.000Z",
       "excerpt": "Arsenal defender Gabriel Magalhães has said that he is \"eager\" for another chance to take a penalty in a Champions League final.",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "Barcelona coach Hansi Flick hails 'unbelievable' Raphinha in new No. 9 role",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-12T11:27:06.000Z",
       "excerpt": "Barcelona coach Hansi Flick has said \"unbelievable\" Raphinha is one of the best in the world after converting the Brazilian into a striker t",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Mastantuono beats Messi record with Fiorentina hat trick",
       "league": "Serie A",
-      "time": "15h ago",
+      "time": "17h ago",
       "published": "2026-09-11T23:07:43.000Z",
       "excerpt": "On-loan Real Madrid winger Franco Mastantuono eclipsed Lionel Messi as the youngest Argentine player to score a hat trick in Europe's top fi",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Elversberg coach cleared to face Bayern after ref admits error",
       "league": "Bundesliga",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-11T19:23:25.000Z",
       "excerpt": "The coach of Elversberg, the small-town team shaking up German soccer, has been cleared to be in the dugout against champion Bayern Munich a",
       "source": "ESPN",
@@ -79,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Christian Pulisic 'upset' about Milan bench role, Ruben Amorim says",
-      "league": "Serie A",
-      "time": "20h ago",
-      "published": "2026-09-11T17:43:46.000Z",
-      "excerpt": "Christian Pulisic is \"upset\" about not yet featuring for Milan this season, coach Ruben Amorim said Friday before hinting that the United St",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49905122/christian-pulisic-upset-ac-milan-role-ruben-amorim",
-      "image": "https://a.espncdn.com/photo/2026/0911/r1714944_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Monaco's Lamine Camara says he has 'turned the page' after failed Chelsea move",
       "league": "Ligue 1",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-11T16:46:26.000Z",
       "excerpt": "Monaco midfielder Lamine Camara said he has moved on from his collapsed move to Chelsea and is fully focused on playing well for the Ligue 1",
       "source": "ESPN",
@@ -103,7 +92,7 @@
     {
       "title": "Dalot: I want to put Manchester United back on top",
       "league": "Champions League",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-11T16:30:15.000Z",
       "excerpt": "Dalot: I want to put Manchester United back on top",
       "source": "ESPN",
