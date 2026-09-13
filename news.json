@@ -1,32 +1,76 @@
 {
-  "lastUpdate": "2026-09-13T20:16:25.455Z",
+  "lastUpdate": "2026-09-13T22:16:03.249Z",
   "news": [
     {
-      "title": "Micah Richards: Manchester derby a 'bad day for referees' after Phil Foden red, Erling Haaland winner",
-      "league": "Premier League",
+      "title": "Juventus concede deep in added time to fall 3-2 at Sassuolo",
+      "league": "Serie A",
       "time": "0h ago",
-      "published": "2026-09-13T19:51:32.000Z",
-      "excerpt": "Micah Richards said the Manchester derby was a \"bad day for referees\" after City claimed a 1-0 win with a controversial goal.",
+      "published": "2026-09-13T22:11:53.000Z",
+      "excerpt": "Juventus conceded in the fourth minute of stoppage time to lose 3-2 in dramatic fashion at Sassuolo in Serie A.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49931033/micah-richard-manchester-city-united-bad-day-referees-phil-foden-red-erling-haaland-winner",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1716101_1296x729_16-9.jpg",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874750",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1716229_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Premier League VAR review: Wrongly awarded goal costs Man United",
+      "title": "Burley: Barcelona were 'chaotic' and 'sloppy' against Levante",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-13T22:09:31.000Z",
+      "excerpt": "Burley: Barcelona were 'chaotic' and 'sloppy' against Levante",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49933527/barcelona-were-chaotic-sloppy-levante",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Burley_Barcelona_were_chaotic_and_sloppy_against_Levante/dm_260913_Burley_Barcelona_were_chaotic_and_sloppy_against_Levante.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-13T19:41:18.000Z",
-      "excerpt": "VAR often causes controversy, but how are decisions made? Our resident ref, Andy Davies, explains all.",
+      "published": "2026-09-13T22:07:57.000Z",
+      "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49703019/premier-league-var-review-red-card-penalty-handball-goal-line-technology",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1716082_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705865_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Leboeuf on Foden's red card in Manchester derby: 'It's a joke!'",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-13T21:47:24.000Z",
+      "excerpt": "Leboeuf on Foden's red card in Manchester derby: 'It's a joke!'",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49933209/joke",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Leboeuf_on_Fodens_red_card_in_Manchester_derby_Its_a_joke/dm_260913_Leboeuf_on_Fodens_red_card_in_Manchester_derby_Its_a_joke.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Atlético Madrid strike late to pull away from Real Sociedad",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-13T21:31:32.000Z",
+      "excerpt": "Three goals in the final six minutes helped Atlético Madrid get back to winning ways at Real Sociedad on Sunday in LaLiga.",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401882879",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/966c2fa0-82ab-417f-a2d4-a4b40d4cf14b/966c2fa0-82ab-417f-a2d4-a4b40d4cf14b.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ferran Torres strikes again to earn PSG first Ligue 1 win",
+      "league": "Ligue 1",
+      "time": "0h ago",
+      "published": "2026-09-13T21:16:29.000Z",
+      "excerpt": "Ferran Torres scored the only goal of the game as Paris Saint-Germain earned their first Ligue 1 win of the season with a 1-0 victory at Bre",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401876465",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1716180_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Harry Kane goal seals Bayern Munich win over Elversberg",
       "league": "Bundesliga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-13T18:59:53.000Z",
       "excerpt": "Harry Kane scored the winner for Bayern Munich to claim a 2-1 win over SV Elversberg in the Bundesliga on Sunday.",
       "source": "ESPN",
@@ -35,58 +79,14 @@
       "category": "football"
     },
     {
-      "title": "Getafe vs. Deportivo La Coruña - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-13T18:47:14.000Z",
-      "excerpt": "Watch the Game Highlights from Getafe vs. Deportivo La Coruña, 09/13/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49930531/getafe-vs-deportivo-la-coruna-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/d7a1d8a7-fe34-4bdd-aeeb-e7f87a1e326f/d7a1d8a7-fe34-4bdd-aeeb-e7f87a1e326f.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Did Levante expose Barcelona's weaknesses?",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-09-13T17:19:16.000Z",
-      "excerpt": "Did Levante expose Barcelona's weaknesses?",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49929359/did-levante-expose-barcelona-weaknesses",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Did_Levante_expose_Barcelonas_weaknesses/dm_260913_Did_Levante_expose_Barcelonas_weaknesses.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
-      "league": "Bundesliga",
-      "time": "4h ago",
-      "published": "2026-09-13T15:18:15.000Z",
-      "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705865_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Pulisic gets assist for Milan in 1st game since World Cup",
       "league": "Serie A",
-      "time": "23h ago",
+      "time": "12/09/2026",
       "published": "2026-09-12T21:04:07.000Z",
       "excerpt": "Christian Pulisic marked his first appearance since the 2026 World Cup with an assist to help AC Milan rally to claim a 2-2 draw at Lazio on",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49917361/christian-pulisic-assist-ac-milan-usa-world-cup-serie-lazio",
       "image": "https://a.espncdn.com/photo/2026/0912/r1715544_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Christian Pulisic gets assist as AC Milan come back to earn 2-2 draw",
-      "league": "Serie A",
-      "time": "23h ago",
-      "published": "2026-09-12T20:45:16.000Z",
-      "excerpt": "Christian Pulisic helped Diego Moreira score twice in three minutes as AC Milan came from 2-0 down to draw 2-2 at Lazio, who dropped points ",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401874941",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715451_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -120,17 +120,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49905021/monaco-lamine-camara-turned-page-failed-chelsea-move",
       "image": "https://a.espncdn.com/photo/2026/0911/r1714932_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Weekend predictions: Can Wrexham get a win? Who wins Manchester derby? Elversberg over Bayern?",
-      "league": "Ligue 1",
-      "time": "10/09/2026",
-      "published": "2026-09-10T18:43:23.000Z",
-      "excerpt": "Arsenal host Chelsea in a heavyweight clash this early in the Premier League, while teams such as PSG and Napoli are on the ropes in their r",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49891922/weekend-predictions-wins-manchester-derby-elversberg-stun-bayern",
-      "image": "https://a.espncdn.com/photo/2026/0910/r1714342_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
