@@ -1,8 +1,8 @@
 {
   "date": "2026-09-13",
-  "lastUpdate": "2026-09-13T14:15:56.063Z",
-  "predictionGenerated": "2026-09-13T14:15:56.063Z",
-  "dataTimestamp": "2026-09-13T14:15:53.640Z",
+  "lastUpdate": "2026-09-13T16:17:09.373Z",
+  "predictionGenerated": "2026-09-13T16:17:09.373Z",
+  "dataTimestamp": "2026-09-13T16:17:06.698Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:22+tomorrow:8+upcoming:30+fixtures:60)",
   "matches": [
@@ -1619,7 +1619,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "24h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "Leeds United",
       "away": "Newcastle United",
       "league": "Premier League",
@@ -1692,7 +1692,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "24h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "Villarreal CF",
       "away": "Real Betis Balompié",
       "league": "La Liga",
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
+      "title": "Man City's Phil Foden sent off in derby after kick on Man United's Bruno Fernandes",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-13T16:12:47.000Z",
+      "excerpt": "Manchester City's Phil Foden was sent off after a kick on Manchester United captain Bruno Fernandes in the first half of the derby on Sunday",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49928532/manchester-city-phil-foden-sent-manchester-united-derby-kick-bruno-fernandes",
+      "image": "https://a.espncdn.com/photo/2026/0119/r1602819_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arteta 'cannot find an explanation' for penalty decision vs. Sunderland",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-13T15:52:23.000Z",
+      "excerpt": "Arteta 'cannot find an explanation' for penalty decision vs. Sunderland",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49928452/arteta-cannot-find-explanation-penalty-decision-vs-sunderland",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Arteta_cannot_find_an_explanation_for_penalty_decision_vs_Sunderland/dm_260913_Arteta_cannot_find_an_explanation_for_penalty_decision_vs_Sunderland.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-09-13T15:18:15.000Z",
+      "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705865_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Celta Vigo vs. Málaga - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-13T14:07:46.000Z",
       "excerpt": "Watch the Game Highlights from Celta Vigo vs. Málaga, 09/13/2026",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/49927268/celta-vigo-vs-malaga-game-highlights",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/25eb5e77-b186-4cb4-b072-fe3f8faeb232/25eb5e77-b186-4cb4-b072-fe3f8faeb232.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Iraola: Liverpool haven't been as good offensively as other days",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T14:05:48.000Z",
-      "excerpt": "Iraola: Liverpool haven't been as good offensively as other days",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49927223/liverpool-good-offensively-other-days",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Iraola_Liverpool_havent_been_as_good_offensively_as_other_days/dm_260913_Iraola_Liverpool_havent_been_as_good_offensively_as_other_days.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League live updates: Coventry host Brighton ahead of Manchester derby",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T13:37:22.000Z",
-      "excerpt": "Coventry City will look for their first win of the season as they take on Brighton & Hove Albion on a Sunday full of matches across Europe.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49894830/premier-league-europe-soccer-live-updates-coventry-city-brighton-manchester-united-manchester-city-barcelona-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1715866_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Chelsea to return for Roma star Koné",
-      "league": "Serie A",
-      "time": "4h ago",
-      "published": "2026-09-13T10:03:13.000Z",
-      "excerpt": "Chelsea are ready to reignite their interest in AS Roma midfielder Manu Koné. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
-      "image": "https://a.espncdn.com/photo/2026/0828/r1708284_1296x729_16-9.jpg",
       "category": "football"
     }
   ],

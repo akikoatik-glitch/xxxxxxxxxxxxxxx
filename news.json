@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-09-13T14:15:56.005Z",
+  "lastUpdate": "2026-09-13T16:17:09.319Z",
   "news": [
+    {
+      "title": "Man City's Phil Foden sent off in derby after kick on Man United's Bruno Fernandes",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-13T16:12:47.000Z",
+      "excerpt": "Manchester City's Phil Foden was sent off after a kick on Manchester United captain Bruno Fernandes in the first half of the derby on Sunday",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49928532/manchester-city-phil-foden-sent-manchester-united-derby-kick-bruno-fernandes",
+      "image": "https://a.espncdn.com/photo/2026/0119/r1602819_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arteta 'cannot find an explanation' for penalty decision vs. Sunderland",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-13T15:52:23.000Z",
+      "excerpt": "Arteta 'cannot find an explanation' for penalty decision vs. Sunderland",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49928452/arteta-cannot-find-explanation-penalty-decision-vs-sunderland",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Arteta_cannot_find_an_explanation_for_penalty_decision_vs_Sunderland/dm_260913_Arteta_cannot_find_an_explanation_for_penalty_decision_vs_Sunderland.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-09-13T15:18:15.000Z",
+      "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705865_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Celta Vigo vs. Málaga - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-13T14:07:46.000Z",
       "excerpt": "Watch the Game Highlights from Celta Vigo vs. Málaga, 09/13/2026",
       "source": "ESPN",
@@ -13,42 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Iraola: Liverpool haven't been as good offensively as other days",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T14:05:48.000Z",
-      "excerpt": "Iraola: Liverpool haven't been as good offensively as other days",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49927223/liverpool-good-offensively-other-days",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Iraola_Liverpool_havent_been_as_good_offensively_as_other_days/dm_260913_Iraola_Liverpool_havent_been_as_good_offensively_as_other_days.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League live updates: Coventry host Brighton ahead of Manchester derby",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T13:37:22.000Z",
-      "excerpt": "Coventry City will look for their first win of the season as they take on Brighton & Hove Albion on a Sunday full of matches across Europe.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49894830/premier-league-europe-soccer-live-updates-coventry-city-brighton-manchester-united-manchester-city-barcelona-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1715866_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Chelsea to return for Roma star Koné",
-      "league": "Serie A",
-      "time": "4h ago",
-      "published": "2026-09-13T10:03:13.000Z",
-      "excerpt": "Chelsea are ready to reignite their interest in AS Roma midfielder Manu Koné. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
-      "image": "https://a.espncdn.com/photo/2026/0828/r1708284_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Mourinho on Madrid's Diomande: Huge potential but a lot to learn",
       "league": "La Liga",
-      "time": "14h ago",
+      "time": "16h ago",
       "published": "2026-09-12T23:24:47.000Z",
       "excerpt": "José Mourinho praised Yan Diomande's \"incredible potential\" but said the winger still has \"a lot to learn\" after making his first start for ",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Pulisic gets assist for Milan in 1st game since World Cup",
       "league": "Serie A",
-      "time": "17h ago",
+      "time": "19h ago",
       "published": "2026-09-12T21:04:07.000Z",
       "excerpt": "Christian Pulisic marked his first appearance since the 2026 World Cup with an assist to help AC Milan rally to claim a 2-2 draw at Lazio on",
       "source": "ESPN",
@@ -68,9 +68,20 @@
       "category": "football"
     },
     {
+      "title": "Christian Pulisic gets assist as AC Milan come back to earn 2-2 draw",
+      "league": "Serie A",
+      "time": "19h ago",
+      "published": "2026-09-12T20:45:16.000Z",
+      "excerpt": "Christian Pulisic helped Diego Moreira score twice in three minutes as AC Milan came from 2-0 down to draw 2-2 at Lazio, who dropped points ",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874941",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715451_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Fenerbahce coach returns to work after resignation confusion",
       "league": "Champions League",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-12T19:35:35.000Z",
       "excerpt": "Fenerbahce coach Ismail Kartal returned to his duties on Saturday, contradicting media reports from the day before suggesting his resignatio",
       "source": "ESPN",
@@ -109,17 +120,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49905021/monaco-lamine-camara-turned-page-failed-chelsea-move",
       "image": "https://a.espncdn.com/photo/2026/0911/r1714932_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Musiala returns with a goal in Bayern's Champions League win",
-      "league": "Bundesliga",
-      "time": "10/09/2026",
-      "published": "2026-09-10T23:06:42.000Z",
-      "excerpt": "Musiala returns with a goal in Bayern's Champions League win",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49897129/musiala-returns-goal-bayern-champions-league-win",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0910/dm_260910_Musiala_returns_with_a_goal_in_BayernE28099s_Champions_League_win/dm_260910_Musiala_returns_with_a_goal_in_BayernE28099s_Champions_League_win.jpg",
       "category": "football"
     },
     {
