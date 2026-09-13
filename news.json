@@ -1,33 +1,33 @@
 {
-  "lastUpdate": "2026-09-13T18:18:44.313Z",
+  "lastUpdate": "2026-09-13T20:16:25.455Z",
   "news": [
     {
-      "title": "Contentious Erling Haaland goal decides Manchester derby in Man City's favor ",
+      "title": "Micah Richards: Manchester derby a 'bad day for referees' after Phil Foden red, Erling Haaland winner",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-13T18:04:03.000Z",
-      "excerpt": "Erling Haaland secured Manchester City a memorable derby-day triumph as Manchester United failed to capitalise on Phil Foden's sending-off o",
+      "published": "2026-09-13T19:51:32.000Z",
+      "excerpt": "Micah Richards said the Manchester derby was a \"bad day for referees\" after City claimed a 1-0 win with a controversial goal.",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401879278",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1716007_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49931033/micah-richard-manchester-city-united-bad-day-referees-phil-foden-red-erling-haaland-winner",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1716101_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Premier League live updates: Haaland, Man City defeat United in derby",
+      "title": "Premier League VAR review: Wrongly awarded goal costs Man United",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-13T17:52:49.000Z",
-      "excerpt": "Premier League live updates: Haaland, Man City defeat United in derby",
+      "published": "2026-09-13T19:41:18.000Z",
+      "excerpt": "VAR often causes controversy, but how are decisions made? Our resident ref, Andy Davies, explains all.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49894830/premier-league-europe-soccer-live-updates-coventry-city-brighton-manchester-united-manchester-city-barcelona-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1715984_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49703019/premier-league-var-review-red-card-penalty-handball-goal-line-technology",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1716082_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Harry Kane goal seals Bayern Munich win over Elversberg",
       "league": "Bundesliga",
-      "time": "0h ago",
-      "published": "2026-09-13T17:52:04.000Z",
+      "time": "1h ago",
+      "published": "2026-09-13T18:59:53.000Z",
       "excerpt": "Harry Kane scored the winner for Bayern Munich to claim a 2-1 win over SV Elversberg in the Bundesliga on Sunday.",
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401884791",
@@ -35,9 +35,20 @@
       "category": "football"
     },
     {
+      "title": "Getafe vs. Deportivo La Coruña - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-13T18:47:14.000Z",
+      "excerpt": "Watch the Game Highlights from Getafe vs. Deportivo La Coruña, 09/13/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49930531/getafe-vs-deportivo-la-coruna-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0913/d7a1d8a7-fe34-4bdd-aeeb-e7f87a1e326f/d7a1d8a7-fe34-4bdd-aeeb-e7f87a1e326f.jpg",
+      "category": "football"
+    },
+    {
       "title": "Did Levante expose Barcelona's weaknesses?",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-13T17:19:16.000Z",
       "excerpt": "Did Levante expose Barcelona's weaknesses?",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Lamine Yamal brace helps free-scoring Barcelona overcome Levante",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-13T16:45:58.000Z",
-      "excerpt": "Lamine Yamal fired a double as Barcelona won 4-2 at Levante to extend their 100% start in LaLiga this season to five matches and move three ",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401882883",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1715965_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
       "league": "Bundesliga",
-      "time": "3h ago",
+      "time": "4h ago",
       "published": "2026-09-13T15:18:15.000Z",
       "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Pulisic gets assist for Milan in 1st game since World Cup",
       "league": "Serie A",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-12T21:04:07.000Z",
       "excerpt": "Christian Pulisic marked his first appearance since the 2026 World Cup with an assist to help AC Milan rally to claim a 2-2 draw at Lazio on",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Christian Pulisic gets assist as AC Milan come back to earn 2-2 draw",
       "league": "Serie A",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-12T20:45:16.000Z",
       "excerpt": "Christian Pulisic helped Diego Moreira score twice in three minutes as AC Milan came from 2-0 down to draw 2-2 at Lazio, who dropped points ",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "Fenerbahce coach returns to work after resignation confusion",
       "league": "Champions League",
-      "time": "22h ago",
+      "time": "12/09/2026",
       "published": "2026-09-12T19:35:35.000Z",
       "excerpt": "Fenerbahce coach Ismail Kartal returned to his duties on Saturday, contradicting media reports from the day before suggesting his resignatio",
       "source": "ESPN",
