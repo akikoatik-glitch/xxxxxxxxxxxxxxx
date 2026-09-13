@@ -1,10 +1,10 @@
 {
   "date": "2026-09-13",
-  "lastUpdate": "2026-09-12T22:15:30.945Z",
-  "predictionGenerated": "2026-09-12T22:15:30.945Z",
-  "dataTimestamp": "2026-09-12T22:15:28.204Z",
+  "lastUpdate": "2026-09-13T00:24:32.244Z",
+  "predictionGenerated": "2026-09-13T00:24:32.244Z",
+  "dataTimestamp": "2026-09-13T00:24:29.420Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:42+tomorrow:22+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:22+tomorrow:8+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "en.1:2026-09-13:Coventry City FC:Brighton & Hove Albion FC",
@@ -13,7 +13,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Coventry City",
       "away": "Brighton & Hove Albion",
       "league": "Premier League",
@@ -86,7 +86,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Manchester United",
       "away": "Manchester City",
       "league": "Premier League",
@@ -159,7 +159,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "RC Celta de Vigo",
       "away": "Málaga CF",
       "league": "La Liga",
@@ -232,7 +232,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Levante UD",
       "away": "FC Barcelona",
       "league": "La Liga",
@@ -305,7 +305,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Getafe CF",
       "away": "RC Deportivo La Coruña",
       "league": "La Liga",
@@ -378,7 +378,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Real Sociedad de Fútbol",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -451,7 +451,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "RB Leipzig",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -524,7 +524,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "SV 07 Elversberg",
       "away": "FC Bayern München",
       "league": "Bundesliga",
@@ -597,7 +597,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "US Lecce",
       "away": "AC Monza",
       "league": "Serie A",
@@ -670,7 +670,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "SSC Napoli",
       "away": "Bologna FC 1909",
       "league": "Serie A",
@@ -743,7 +743,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "US Sassuolo Calcio",
       "away": "Juventus",
       "league": "Serie A",
@@ -816,7 +816,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Lille OSC",
       "away": "ES Troyes AC",
       "league": "Ligue 1",
@@ -889,7 +889,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Le Mans",
       "away": "Racing Club de Lens",
       "league": "Ligue 1",
@@ -962,7 +962,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Stade Brestois 29",
       "away": "Paris Saint-Germain",
       "league": "Ligue 1",
@@ -1035,7 +1035,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "SBV Excelsior",
       "away": "FC Utrecht",
       "league": "Eredivisie",
@@ -1108,7 +1108,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "SC Heerenveen",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -1181,7 +1181,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "PEC Zwolle",
       "away": "Feyenoord Rotterdam",
       "league": "Eredivisie",
@@ -1254,7 +1254,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "PSV",
       "away": "Sparta Rotterdam",
       "league": "Eredivisie",
@@ -1327,7 +1327,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Sport Lisboa e Benfica",
       "away": "Gil Vicente",
       "league": "Primeira Liga",
@@ -1400,7 +1400,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "FC Arouca",
       "away": "CD Santa Clara",
       "league": "Primeira Liga",
@@ -1473,7 +1473,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "FC Famalicão",
       "away": "Sporting Clube de Portugal",
       "league": "Primeira Liga",
@@ -1546,7 +1546,7 @@
       "date": "2026-09-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Sheffield United",
       "away": "Wolverhampton Wanderers",
       "league": "Championship",
@@ -1608,6 +1608,152 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Sheffield United vs Wolverhampton Wanderers: Dixon-Coles P(H)55% D22% A22% • xG 1.71-0.98 • most likely score 1-0 (13%) • Home Win confidence 55%",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-09-14:Leeds United FC:Newcastle United FC",
+      "slug": "leeds-united-vs-newcastle-united-prediction",
+      "utcDate": "2026-09-14T15:00:00Z",
+      "date": "2026-09-14",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Leeds United",
+      "away": "Newcastle United",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 41,
+      "odds": "2.32",
+      "value": "+0%",
+      "probs": {
+        "home": 35,
+        "draw": 24,
+        "away": 41
+      },
+      "xg": {
+        "home": "1.23",
+        "away": "1.37",
+        "total": "2.60"
+      },
+      "doubleChance": {
+        "12": 76,
+        "1X": 59,
+        "X2": 65
+      },
+      "overUnder": {
+        "over2_5": 48,
+        "under2_5": 52,
+        "oddsOver": "1.98",
+        "oddsUnder": "1.83"
+      },
+      "btts": {
+        "yes": 52,
+        "no": 48
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 11
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Leeds United vs Newcastle United: Dixon-Coles P(H)35% D24% A41% • xG 1.23-1.37 • most likely score 1-1 (12%) • Away Win confidence 41%",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "es.1:2026-09-14:Villarreal CF:Real Betis Balompié",
+      "slug": "villarreal-cf-vs-real-betis-balompie-prediction",
+      "utcDate": "2026-09-14T15:00:00Z",
+      "date": "2026-09-14",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Villarreal CF",
+      "away": "Real Betis Balompié",
+      "league": "La Liga",
+      "code": "PD",
+      "flag": "🇪🇸",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 94,
+      "odds": "1.01",
+      "value": "+22%",
+      "probs": {
+        "home": 94,
+        "draw": 4,
+        "away": 2
+      },
+      "xg": {
+        "home": "4.00",
+        "away": "0.42",
+        "total": "4.42"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 6
+      },
+      "overUnder": {
+        "over2_5": 79,
+        "under2_5": 21,
+        "oddsOver": "1.20",
+        "oddsUnder": "4.52"
+      },
+      "btts": {
+        "yes": 33,
+        "no": 67
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 14
+        },
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "5-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Villarreal CF vs Real Betis Balompié: Dixon-Coles P(H)94% D4% A2% • xG 4.00-0.42 • most likely score 4-0 (14%) • Home Win confidence 94%",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2217,20 +2363,31 @@
   ],
   "news": [
     {
-      "title": "Arsenal's Mikel Arteta fumes at Sunderland penalty decision: 'Unacceptable'",
+      "title": "Guimarães' stunner headlines Arsenal's 2-0 win",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-12T22:10:57.000Z",
-      "excerpt": "Mikel Arteta railed against the officials' decision to award Sunderland a penalty against Arsenal despite his side going on to win the match",
+      "published": "2026-09-13T00:21:23.000Z",
+      "excerpt": "Bruno Guimarães scores a marvellous long-range goal for the Gunners as Arsenal maintain their perfect start to the season with a win over Su",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49919381/arsenal-mikel-arteta-fumes-sunderland-penalty-decision-unacceptable",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715527_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/49921087/guimaraes-stunner-headlines-arsenal-2-0-win",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0912/dm_260912_EPL_Highlight_Guimaraes_stunner_headlines_Arsenals_20_win_20260913_AUS_ONLY/dm_260912_EPL_Highlight_Guimaraes_stunner_headlines_Arsenals_20_win_20260913_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mourinho on Madrid's Diomande: Huge potential but a lot to learn",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-12T23:24:47.000Z",
+      "excerpt": "José Mourinho praised Yan Diomande's \"incredible potential\" but said the winger still has \"a lot to learn\" after making his first start for ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49919484/real-madrid-jose-mourinho-yan-diomande-record-signing",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715595_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Nicol convinced Arsenal will be champions after Sunderland win",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-12T22:04:45.000Z",
       "excerpt": "Nicol convinced Arsenal will be champions after Sunderland win",
       "source": "ESPN",
@@ -2241,23 +2398,12 @@
     {
       "title": "Garcia: Bernardo is exactly the player Real Madrid needed",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-12T21:51:51.000Z",
       "excerpt": "Garcia: Bernardo is exactly the player Real Madrid needed",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/49919210/bernardo-exactly-player-real-madrid-needed",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0912/dm_260912_Garcia_Bernardo_is_exactly_the_player_Real_Madrid_needed/dm_260912_Garcia_Bernardo_is_exactly_the_player_Real_Madrid_needed.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Mbappe and Bellingham score in big Real Madrid win",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-09-12T21:43:11.000Z",
-      "excerpt": "Mbappe and Bellingham score in big Real Madrid win",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49919093/mbappe-bellingham-score-big-real-madrid-win",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0912/dm_260912_Mbappe_and_Bellingham_score_in_big_Real_Madrid_win/dm_260912_Mbappe_and_Bellingham_score_in_big_Real_Madrid_win.jpg",
       "category": "football"
     }
   ],

@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Sat, 12 Sep 2026 22:15:31 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 00:24:32 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Coventry City vs Brighton &amp; Hove Albion — Home Win @ 1.17</title>
@@ -182,6 +182,22 @@
     <pubDate>Sun, 13 Sep 2026 15:00:00 GMT</pubDate>
     <description>Championship — 55% confidence. Home Win at 1.72. Match kickoff: Sun, 13 Sep 2026 15:00:00 GMT.</description>
     <category>Championship</category>
+  </item>
+  <item>
+    <title>Leeds United vs Newcastle United — Away Win @ 2.32</title>
+    <link>https://xwhiz.com/predictions/leeds-united-vs-newcastle-united-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/leeds-united-vs-newcastle-united-prediction.html</guid>
+    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 41% confidence. Away Win at 2.32. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Villarreal CF vs Real Betis Balompié — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/villarreal-cf-vs-real-betis-balompie-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/villarreal-cf-vs-real-betis-balompie-prediction.html</guid>
+    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
+    <description>La Liga — 94% confidence. Home Win at 1.01. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
+    <category>La Liga</category>
   </item>
 </channel>
 </rss>

@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-09-12T22:15:30.890Z",
+  "lastUpdate": "2026-09-13T00:24:32.193Z",
   "news": [
     {
-      "title": "Arsenal's Mikel Arteta fumes at Sunderland penalty decision: 'Unacceptable'",
+      "title": "Guimarães' stunner headlines Arsenal's 2-0 win",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-12T22:10:57.000Z",
-      "excerpt": "Mikel Arteta railed against the officials' decision to award Sunderland a penalty against Arsenal despite his side going on to win the match",
+      "published": "2026-09-13T00:21:23.000Z",
+      "excerpt": "Bruno Guimarães scores a marvellous long-range goal for the Gunners as Arsenal maintain their perfect start to the season with a win over Su",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49919381/arsenal-mikel-arteta-fumes-sunderland-penalty-decision-unacceptable",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715527_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/49921087/guimaraes-stunner-headlines-arsenal-2-0-win",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0912/dm_260912_EPL_Highlight_Guimaraes_stunner_headlines_Arsenals_20_win_20260913_AUS_ONLY/dm_260912_EPL_Highlight_Guimaraes_stunner_headlines_Arsenals_20_win_20260913_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mourinho on Madrid's Diomande: Huge potential but a lot to learn",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-12T23:24:47.000Z",
+      "excerpt": "José Mourinho praised Yan Diomande's \"incredible potential\" but said the winger still has \"a lot to learn\" after making his first start for ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49919484/real-madrid-jose-mourinho-yan-diomande-record-signing",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715595_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Nicol convinced Arsenal will be champions after Sunderland win",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-12T22:04:45.000Z",
       "excerpt": "Nicol convinced Arsenal will be champions after Sunderland win",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Garcia: Bernardo is exactly the player Real Madrid needed",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-12T21:51:51.000Z",
       "excerpt": "Garcia: Bernardo is exactly the player Real Madrid needed",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Mbappe and Bellingham score in big Real Madrid win",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-09-12T21:43:11.000Z",
-      "excerpt": "Mbappe and Bellingham score in big Real Madrid win",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49919093/mbappe-bellingham-score-big-real-madrid-win",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0912/dm_260912_Mbappe_and_Bellingham_score_in_big_Real_Madrid_win/dm_260912_Mbappe_and_Bellingham_score_in_big_Real_Madrid_win.jpg",
-      "category": "football"
-    },
-    {
       "title": "Pulisic gets assist for Milan in 1st game since World Cup",
       "league": "Serie A",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-12T21:04:07.000Z",
       "excerpt": "Christian Pulisic marked his first appearance since the 2026 World Cup with an assist to help AC Milan rally to claim a 2-2 draw at Lazio on",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Christian Pulisic gets assist as AC Milan come back to earn 2-2 draw",
       "league": "Serie A",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-12T20:45:16.000Z",
       "excerpt": "Christian Pulisic helped Diego Moreira score twice in three minutes as AC Milan came from 2-0 down to draw 2-2 at Lazio, who dropped points ",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Fenerbahce coach returns to work after resignation confusion",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-12T19:35:35.000Z",
       "excerpt": "Fenerbahce coach Ismail Kartal returned to his duties on Saturday, contradicting media reports from the day before suggesting his resignatio",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Arsenal's Gabriel 'eager' to take another Champions League final penalty: 'If it happens again, I'll be there'",
       "league": "Champions League",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-12T12:25:16.000Z",
       "excerpt": "Arsenal defender Gabriel Magalhães has said that he is \"eager\" for another chance to take a penalty in a Champions League final.",
       "source": "ESPN",
