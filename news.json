@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-13T10:21:26.574Z",
+  "lastUpdate": "2026-09-13T12:20:31.395Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Chelsea to return for Roma star Koné",
+      "title": "Man United's Benjamin Sesko 'in perfect place' after injury recovery",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-09-13T12:13:56.000Z",
+      "excerpt": "Benjamin Sesko now feels in the \"perfect\" place having recovered from the injury which brought his first season with Manchester United to a ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49926499/man-united-benjamin-sesko-perfect-place-injury-recovery",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1715825_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Premier League live updates: Coventry host Brighton ahead of Manchester derby",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-13T12:11:33.000Z",
+      "excerpt": "Coventry City will look for their first win of the season as they take on Brighton & Hove Albion on a Sunday full of matches across Europe.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49894830/premier-league-europe-soccer-live-updates-coventry-city-brighton-manchester-united-manchester-city-barcelona-bayern-munich",
+      "image": "https://a.espncdn.com/photo/2026/0910/r1714468_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Chelsea to return for Roma star Koné",
+      "league": "Serie A",
+      "time": "2h ago",
       "published": "2026-09-13T10:03:13.000Z",
       "excerpt": "Chelsea are ready to reignite their interest in AS Roma midfielder Manu Koné. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -13,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Premier League live updates: Coventry host Brighton ahead of Manchester derby",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T09:39:43.000Z",
-      "excerpt": "Coventry City will look for their first win of the season as they take on Brighton & Hove Albion on a Sunday full of matches across Europe.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49894830/premier-league-europe-soccer-live-updates-coventry-city-brighton-manchester-united-manchester-city-barcelona-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/0910/r1714468_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Mourinho on Madrid's Diomande: Huge potential but a lot to learn",
       "league": "La Liga",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-12T23:24:47.000Z",
       "excerpt": "José Mourinho praised Yan Diomande's \"incredible potential\" but said the winger still has \"a lot to learn\" after making his first start for ",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Garcia: Bernardo is exactly the player Real Madrid needed",
       "league": "La Liga",
-      "time": "12h ago",
+      "time": "14h ago",
       "published": "2026-09-12T21:51:51.000Z",
       "excerpt": "Garcia: Bernardo is exactly the player Real Madrid needed",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Pulisic gets assist for Milan in 1st game since World Cup",
       "league": "Serie A",
-      "time": "13h ago",
+      "time": "15h ago",
       "published": "2026-09-12T21:04:07.000Z",
       "excerpt": "Christian Pulisic marked his first appearance since the 2026 World Cup with an assist to help AC Milan rally to claim a 2-2 draw at Lazio on",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Fenerbahce coach returns to work after resignation confusion",
       "league": "Champions League",
-      "time": "14h ago",
+      "time": "16h ago",
       "published": "2026-09-12T19:35:35.000Z",
       "excerpt": "Fenerbahce coach Ismail Kartal returned to his duties on Saturday, contradicting media reports from the day before suggesting his resignatio",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Arsenal's Gabriel 'eager' to take another Champions League final penalty: 'If it happens again, I'll be there'",
       "league": "Champions League",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-12T12:25:16.000Z",
       "excerpt": "Arsenal defender Gabriel Magalhães has said that he is \"eager\" for another chance to take a penalty in a Champions League final.",
       "source": "ESPN",
