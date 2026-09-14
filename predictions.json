@@ -1,10 +1,10 @@
 {
   "date": "2026-09-14",
-  "lastUpdate": "2026-09-13T22:16:03.301Z",
-  "predictionGenerated": "2026-09-13T22:16:03.301Z",
-  "dataTimestamp": "2026-09-13T22:16:00.655Z",
+  "lastUpdate": "2026-09-14T00:25:00.719Z",
+  "predictionGenerated": "2026-09-14T00:25:00.719Z",
+  "dataTimestamp": "2026-09-14T00:24:58.019Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:22+tomorrow:8+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:8+tomorrow:6+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "en.1:2026-09-14:Leeds United FC:Newcastle United FC",
@@ -13,7 +13,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Leeds United",
       "away": "Newcastle United",
       "league": "Premier League",
@@ -86,7 +86,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Villarreal CF",
       "away": "Real Betis Balompié",
       "league": "La Liga",
@@ -159,7 +159,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Como 1907",
       "away": "Parma Calcio 1913",
       "league": "Serie A",
@@ -232,7 +232,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Torino",
       "away": "AS Roma",
       "league": "Serie A",
@@ -305,7 +305,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "FC Internazionale Milano",
       "away": "Udinese Calcio",
       "league": "Serie A",
@@ -378,7 +378,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Rio Ave",
       "away": "CF Estrela da Amadora",
       "league": "Primeira Liga",
@@ -451,7 +451,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Moreirense",
       "away": "CS Marítimo",
       "league": "Primeira Liga",
@@ -524,7 +524,7 @@
       "date": "2026-09-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Sporting Clube de Braga",
       "away": "GD Estoril Praia",
       "league": "Primeira Liga",
@@ -591,159 +591,13 @@
       "locked": false
     },
     {
-      "id": "es.1:2026-09-15:Elche CF:Real Madrid CF",
-      "slug": "elche-cf-vs-real-madrid-cf-prediction",
-      "utcDate": "2026-09-15T15:00:00Z",
-      "date": "2026-09-15",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Elche CF",
-      "away": "Real Madrid CF",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 73,
-      "odds": "1.30",
-      "value": "+11%",
-      "probs": {
-        "home": 11,
-        "draw": 16,
-        "away": 73
-      },
-      "xg": {
-        "home": "0.73",
-        "away": "2.29",
-        "total": "3.02"
-      },
-      "doubleChance": {
-        "12": 84,
-        "1X": 27,
-        "X2": 89
-      },
-      "overUnder": {
-        "over2_5": 58,
-        "under2_5": 42,
-        "oddsOver": "1.64",
-        "oddsUnder": "2.26"
-      },
-      "btts": {
-        "yes": 46,
-        "no": 54
-      },
-      "correctScore": {
-        "score": "0-2",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "0-2",
-          "prob": 13
-        },
-        {
-          "score": "0-1",
-          "prob": 12
-        },
-        {
-          "score": "0-3",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.5",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Elche CF vs Real Madrid CF: Dixon-Coles P(H)11% D16% A73% • xG 0.73-2.29 • most likely score 0-2 (13%) • Away Win confidence 73%",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "es.1:2026-09-15:Deportivo Alavés:Valencia CF",
-      "slug": "deportivo-alaves-vs-valencia-cf-prediction",
-      "utcDate": "2026-09-15T15:00:00Z",
-      "date": "2026-09-15",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Deportivo Alavés",
-      "away": "Valencia CF",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 54,
-      "odds": "1.77",
-      "value": "+2%",
-      "probs": {
-        "home": 54,
-        "draw": 23,
-        "away": 24
-      },
-      "xg": {
-        "home": "1.66",
-        "away": "1.01",
-        "total": "2.67"
-      },
-      "doubleChance": {
-        "12": 77,
-        "1X": 76,
-        "X2": 46
-      },
-      "overUnder": {
-        "over2_5": 50,
-        "under2_5": 50,
-        "oddsOver": "1.90",
-        "oddsUnder": "1.90"
-      },
-      "btts": {
-        "yes": 51,
-        "no": 49
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 12
-        },
-        {
-          "score": "1-1",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -0.75",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Deportivo Alavés vs Valencia CF: Dixon-Coles P(H)54% D23% A24% • xG 1.66-1.01 • most likely score 1-0 (12%) • Home Win confidence 54%",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
       "id": "es.1:2026-09-15:Rayo Vallecano de Madrid:RCD Espanyol de Barcelona",
       "slug": "rayo-vallecano-de-madrid-vs-rcd-espanyol-de-barcelona-prediction",
       "utcDate": "2026-09-15T15:00:00Z",
       "date": "2026-09-15",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "38h to kickoff",
       "home": "Rayo Vallecano de Madrid",
       "away": "RCD Espanyol de Barcelona",
       "league": "La Liga",
@@ -810,13 +664,159 @@
       "locked": false
     },
     {
+      "id": "es.1:2026-09-15:Deportivo Alavés:Valencia CF",
+      "slug": "deportivo-alaves-vs-valencia-cf-prediction",
+      "utcDate": "2026-09-15T15:00:00Z",
+      "date": "2026-09-15",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Deportivo Alavés",
+      "away": "Valencia CF",
+      "league": "La Liga",
+      "code": "PD",
+      "flag": "🇪🇸",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 54,
+      "odds": "1.77",
+      "value": "+2%",
+      "probs": {
+        "home": 54,
+        "draw": 23,
+        "away": 24
+      },
+      "xg": {
+        "home": "1.66",
+        "away": "1.01",
+        "total": "2.67"
+      },
+      "doubleChance": {
+        "12": 77,
+        "1X": 76,
+        "X2": 46
+      },
+      "overUnder": {
+        "over2_5": 50,
+        "under2_5": 50,
+        "oddsOver": "1.90",
+        "oddsUnder": "1.90"
+      },
+      "btts": {
+        "yes": 51,
+        "no": 49
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "1-1",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -0.75",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Deportivo Alavés vs Valencia CF: Dixon-Coles P(H)54% D23% A24% • xG 1.66-1.01 • most likely score 1-0 (12%) • Home Win confidence 54%",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "es.1:2026-09-15:Elche CF:Real Madrid CF",
+      "slug": "elche-cf-vs-real-madrid-cf-prediction",
+      "utcDate": "2026-09-15T15:00:00Z",
+      "date": "2026-09-15",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Elche CF",
+      "away": "Real Madrid CF",
+      "league": "La Liga",
+      "code": "PD",
+      "flag": "🇪🇸",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 73,
+      "odds": "1.30",
+      "value": "+11%",
+      "probs": {
+        "home": 11,
+        "draw": 16,
+        "away": 73
+      },
+      "xg": {
+        "home": "0.73",
+        "away": "2.29",
+        "total": "3.02"
+      },
+      "doubleChance": {
+        "12": 84,
+        "1X": 27,
+        "X2": 89
+      },
+      "overUnder": {
+        "over2_5": 58,
+        "under2_5": 42,
+        "oddsOver": "1.64",
+        "oddsUnder": "2.26"
+      },
+      "btts": {
+        "yes": 46,
+        "no": 54
+      },
+      "correctScore": {
+        "score": "0-2",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-2",
+          "prob": 13
+        },
+        {
+          "score": "0-1",
+          "prob": 12
+        },
+        {
+          "score": "0-3",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.5",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Elche CF vs Real Madrid CF: Dixon-Coles P(H)11% D16% A73% • xG 0.73-2.29 • most likely score 0-2 (13%) • Away Win confidence 73%",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
       "id": "nl.1:2026-09-15:AFC Ajax:Willem II Tilburg",
       "slug": "afc-ajax-vs-willem-ii-tilburg-prediction",
       "utcDate": "2026-09-15T15:00:00Z",
       "date": "2026-09-15",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "38h to kickoff",
       "home": "AFC Ajax",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -883,86 +883,13 @@
       "locked": false
     },
     {
-      "id": "en.2:2026-09-15:Bristol City FC:Lincoln City FC",
-      "slug": "bristol-city-vs-lincoln-city-prediction",
-      "utcDate": "2026-09-15T15:00:00Z",
-      "date": "2026-09-15",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Bristol City",
-      "away": "Lincoln City",
-      "league": "Championship",
-      "code": "ELC",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 64,
-      "odds": "1.48",
-      "value": "+7%",
-      "probs": {
-        "home": 64,
-        "draw": 19,
-        "away": 16
-      },
-      "xg": {
-        "home": "1.98",
-        "away": "0.85",
-        "total": "2.83"
-      },
-      "doubleChance": {
-        "12": 81,
-        "1X": 84,
-        "X2": 36
-      },
-      "overUnder": {
-        "over2_5": 53,
-        "under2_5": 47,
-        "oddsOver": "1.79",
-        "oddsUnder": "2.02"
-      },
-      "btts": {
-        "yes": 48,
-        "no": 52
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 12
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.3",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Bristol City vs Lincoln City: Dixon-Coles P(H)64% D19% A16% • xG 1.98-0.85 • most likely score 1-0 (13%) • Home Win confidence 64%",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
       "id": "en.2:2026-09-15:Middlesbrough FC:Millwall FC",
       "slug": "middlesbrough-vs-millwall-prediction",
       "utcDate": "2026-09-15T15:00:00Z",
       "date": "2026-09-15",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "38h to kickoff",
       "home": "Middlesbrough",
       "away": "Millwall",
       "league": "Championship",
@@ -1029,13 +956,86 @@
       "locked": false
     },
     {
+      "id": "en.2:2026-09-15:Bristol City FC:Lincoln City FC",
+      "slug": "bristol-city-vs-lincoln-city-prediction",
+      "utcDate": "2026-09-15T15:00:00Z",
+      "date": "2026-09-15",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Bristol City",
+      "away": "Lincoln City",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 64,
+      "odds": "1.48",
+      "value": "+7%",
+      "probs": {
+        "home": 64,
+        "draw": 19,
+        "away": 16
+      },
+      "xg": {
+        "home": "1.98",
+        "away": "0.85",
+        "total": "2.83"
+      },
+      "doubleChance": {
+        "12": 81,
+        "1X": 84,
+        "X2": 36
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Bristol City vs Lincoln City: Dixon-Coles P(H)64% D19% A16% • xG 1.98-0.85 • most likely score 1-0 (13%) • Home Win confidence 64%",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
       "id": "es.1:2026-09-16:FC Barcelona:Real Racing Club de Santander",
       "slug": "fc-barcelona-vs-real-racing-club-de-santander-prediction",
       "utcDate": "2026-09-16T15:00:00Z",
       "date": "2026-09-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "FC Barcelona",
       "away": "Real Racing Club de Santander",
       "league": "La Liga",
@@ -1108,7 +1108,7 @@
       "date": "2026-09-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "Levante UD",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -1181,7 +1181,7 @@
       "date": "2026-09-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "Club Atlético de Madrid",
       "away": "CA Osasuna",
       "league": "La Liga",
@@ -1254,7 +1254,7 @@
       "date": "2026-09-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "62h to kickoff",
       "home": "RC Deportivo La Coruña",
       "away": "Sevilla",
       "league": "La Liga",
@@ -1327,7 +1327,7 @@
       "date": "2026-09-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Málaga CF",
       "away": "Villarreal CF",
       "league": "La Liga",
@@ -1400,7 +1400,7 @@
       "date": "2026-09-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "86h to kickoff",
       "home": "Real Betis Balompié",
       "away": "Getafe CF",
       "league": "La Liga",
@@ -1473,7 +1473,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "112h to kickoff",
+      "countdown": "110h to kickoff",
       "home": "Brentford",
       "away": "Chelsea",
       "league": "Premier League",
@@ -1546,7 +1546,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "112h to kickoff",
+      "countdown": "110h to kickoff",
       "home": "RCD Espanyol de Barcelona",
       "away": "Elche CF",
       "league": "La Liga",
@@ -1619,7 +1619,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "112h to kickoff",
+      "countdown": "110h to kickoff",
       "home": "FC Bayern München",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -1692,7 +1692,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "112h to kickoff",
+      "countdown": "110h to kickoff",
       "home": "AC Monza",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -2363,9 +2363,31 @@
   ],
   "news": [
     {
+      "title": "Jonathan David scores first Atlético goal, gives team 'something different'",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-13T23:24:58.000Z",
+      "excerpt": "Diego Simeone praised Jonathan David's \"calm finishing\" and said he brings \"something different\" to the team after the Canada forward scored",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49933881/david-scores-first-atletico-goal",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1716255_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "City win Manchester derby in controversial fashion",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-13T22:47:08.000Z",
+      "excerpt": "Despite going down to 10-men, Manchester City scored the match winner through Erling Haaland as the Citizens hold off Manchester United to t",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49934017/city-win-manchester-derby-controversial-fashion",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Soccer_HIGHLIGHT_City_win_Manchester_derby_in_controversial_fashion_20260914_AUS/dm_260913_Soccer_HIGHLIGHT_City_win_Manchester_derby_in_controversial_fashion_20260914_AUS.jpg",
+      "category": "football"
+    },
+    {
       "title": "Juventus concede deep in added time to fall 3-2 at Sassuolo",
       "league": "Serie A",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-13T22:11:53.000Z",
       "excerpt": "Juventus conceded in the fourth minute of stoppage time to lose 3-2 in dramatic fashion at Sassuolo in Serie A.",
       "source": "ESPN",
@@ -2376,34 +2398,12 @@
     {
       "title": "Burley: Barcelona were 'chaotic' and 'sloppy' against Levante",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-13T22:09:31.000Z",
       "excerpt": "Burley: Barcelona were 'chaotic' and 'sloppy' against Levante",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/49933527/barcelona-were-chaotic-sloppy-levante",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Burley_Barcelona_were_chaotic_and_sloppy_against_Levante/dm_260913_Burley_Barcelona_were_chaotic_and_sloppy_against_Levante.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T22:07:57.000Z",
-      "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49925331/transfer-rumors-news-chelsea-return-roma-star-manu-kone",
-      "image": "https://a.espncdn.com/photo/2026/0823/r1705865_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Leboeuf on Foden's red card in Manchester derby: 'It's a joke!'",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-13T21:47:24.000Z",
-      "excerpt": "Leboeuf on Foden's red card in Manchester derby: 'It's a joke!'",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49933209/joke",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Leboeuf_on_Fodens_red_card_in_Manchester_derby_Its_a_joke/dm_260913_Leboeuf_on_Fodens_red_card_in_Manchester_derby_Its_a_joke.jpg",
       "category": "football"
     }
   ],
