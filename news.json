@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-14T06:24:32.386Z",
+  "lastUpdate": "2026-09-14T08:19:16.547Z",
   "news": [
+    {
+      "title": "Maresca: Fernandes should have been sent off with Foden",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-14T07:47:21.000Z",
+      "excerpt": "Maresca: Fernandes should have been sent off with Foden",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49938044/fernandes-sent-foden",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0914/dm_260914_Maresca_Fernandes_should_have_been_sent_off_with_Foden/dm_260914_Maresca_Fernandes_should_have_been_sent_off_with_Foden.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Carrick fumes over 'worrying' officiating standards after VAR mistake",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-14T07:33:57.000Z",
+      "excerpt": "Carrick fumes over 'worrying' officiating standards after VAR mistake",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49938008/carrick-fumes-worrying-officiating-standards-var-mistake",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0914/dm_260914_COM_SOC_Presser_Carrick_fumes_over_worrying_officiating_standards_after_VAR_mistake_20260914_G/dm_260914_COM_SOC_Presser_Carrick_fumes_over_worrying_officiating_standards_after_VAR_mistake_20260914_G.jpg",
+      "category": "football"
+    },
     {
       "title": "Jonathan David scores first Atlético goal, gives team 'something different'",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-14T01:10:54.000Z",
       "excerpt": "Diego Simeone praised Jonathan David's \"calm finishing\" and said he brings \"something different\" to the team after the Canada forward scored",
       "source": "ESPN",
@@ -13,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "City win Manchester derby in controversial fashion",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-09-13T22:47:08.000Z",
-      "excerpt": "Despite going down to 10-men, Manchester City scored the match winner through Erling Haaland as the Citizens hold off Manchester United to t",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49934017/city-win-manchester-derby-controversial-fashion",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0913/dm_260913_Soccer_HIGHLIGHT_City_win_Manchester_derby_in_controversial_fashion_20260914_AUS/dm_260913_Soccer_HIGHLIGHT_City_win_Manchester_derby_in_controversial_fashion_20260914_AUS.jpg",
-      "category": "football"
-    },
-    {
       "title": "Juventus concede deep in added time to fall 3-2 at Sassuolo",
       "league": "Serie A",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-13T22:11:53.000Z",
       "excerpt": "Juventus conceded in the fourth minute of stoppage time to lose 3-2 in dramatic fashion at Sassuolo in Serie A.",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Burley: Barcelona were 'chaotic' and 'sloppy' against Levante",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-13T22:09:31.000Z",
       "excerpt": "Burley: Barcelona were 'chaotic' and 'sloppy' against Levante",
       "source": "ESPN",
@@ -47,8 +58,8 @@
     },
     {
       "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
-      "league": "Premier League",
-      "time": "8h ago",
+      "league": "Bundesliga",
+      "time": "10h ago",
       "published": "2026-09-13T22:07:57.000Z",
       "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Ferran Torres strikes again to earn PSG first Ligue 1 win",
       "league": "Ligue 1",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-13T21:16:29.000Z",
       "excerpt": "Ferran Torres scored the only goal of the game as Paris Saint-Germain earned their first Ligue 1 win of the season with a 1-0 victory at Bre",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Harry Kane goal seals Bayern Munich win over Elversberg",
       "league": "Bundesliga",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-13T18:59:53.000Z",
       "excerpt": "Harry Kane scored the winner for Bayern Munich to claim a 2-1 win over SV Elversberg in the Bundesliga on Sunday.",
       "source": "ESPN",
