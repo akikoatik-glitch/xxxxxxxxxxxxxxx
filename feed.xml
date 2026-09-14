@@ -5,72 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 14 Sep 2026 16:17:48 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 18:19:43 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Leeds United vs Newcastle United — Away Win @ 2.32</title>
-    <link>https://xwhiz.com/predictions/leeds-united-vs-newcastle-united-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/leeds-united-vs-newcastle-united-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 41% confidence. Away Win at 2.32. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Premier League</category>
-  </item>
-  <item>
-    <title>Villarreal CF vs Real Betis Balompié — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/villarreal-cf-vs-real-betis-balompie-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/villarreal-cf-vs-real-betis-balompie-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 94% confidence. Home Win at 1.01. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>La Liga</category>
-  </item>
-  <item>
-    <title>Como 1907 vs Parma Calcio 1913 — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/como-1907-vs-parma-calcio-1913-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/como-1907-vs-parma-calcio-1913-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Torino vs AS Roma — Home Win @ 1.98</title>
-    <link>https://xwhiz.com/predictions/torino-vs-as-roma-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/torino-vs-as-roma-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 48% confidence. Home Win at 1.98. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>FC Internazionale Milano vs Udinese Calcio — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/fc-internazionale-milano-vs-udinese-calcio-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-internazionale-milano-vs-udinese-calcio-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Rio Ave vs CF Estrela da Amadora — Home Win @ 1.20</title>
-    <link>https://xwhiz.com/predictions/rio-ave-vs-cf-estrela-da-amadora-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/rio-ave-vs-cf-estrela-da-amadora-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 79% confidence. Home Win at 1.20. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
-  <item>
-    <title>Moreirense vs CS Marítimo — Home Win @ 1.21</title>
-    <link>https://xwhiz.com/predictions/moreirense-vs-cs-maritimo-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/moreirense-vs-cs-maritimo-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 79% confidence. Home Win at 1.21. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
-  <item>
-    <title>Sporting Clube de Braga vs GD Estoril Praia — Home Win @ 1.08</title>
-    <link>https://xwhiz.com/predictions/sporting-clube-de-braga-vs-gd-estoril-praia-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sporting-clube-de-braga-vs-gd-estoril-praia-prediction.html</guid>
-    <pubDate>Mon, 14 Sep 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 88% confidence. Home Win at 1.08. Match kickoff: Mon, 14 Sep 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
   <item>
     <title>Rayo Vallecano de Madrid vs RCD Espanyol de Barcelona — Away Win @ 1.15</title>
     <link>https://xwhiz.com/predictions/rayo-vallecano-de-madrid-vs-rcd-espanyol-de-barcelona-prediction.html</link>
@@ -198,6 +134,70 @@
     <pubDate>Fri, 18 Sep 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 84% confidence. Home Win at 1.13. Match kickoff: Fri, 18 Sep 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
+  </item>
+  <item>
+    <title>AS Monaco vs Racing Club de Lens — Home Win @ 1.37</title>
+    <link>https://xwhiz.com/predictions/as-monaco-vs-racing-club-de-lens-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/as-monaco-vs-racing-club-de-lens-prediction.html</guid>
+    <pubDate>Fri, 18 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 70% confidence. Home Win at 1.37. Match kickoff: Fri, 18 Sep 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>FC Groningen vs PEC Zwolle — Home Win @ 1.44</title>
+    <link>https://xwhiz.com/predictions/fc-groningen-vs-pec-zwolle-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-groningen-vs-pec-zwolle-prediction.html</guid>
+    <pubDate>Fri, 18 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 66% confidence. Home Win at 1.44. Match kickoff: Fri, 18 Sep 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>Bristol City vs Watford — Home Win @ 1.94</title>
+    <link>https://xwhiz.com/predictions/bristol-city-vs-watford-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/bristol-city-vs-watford-prediction.html</guid>
+    <pubDate>Fri, 18 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Championship — 49% confidence. Home Win at 1.94. Match kickoff: Fri, 18 Sep 2026 15:00:00 GMT.</description>
+    <category>Championship</category>
+  </item>
+  <item>
+    <title>Nottingham Forest vs Coventry City — Home Win @ 1.21</title>
+    <link>https://xwhiz.com/predictions/nottingham-forest-vs-coventry-city-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/nottingham-forest-vs-coventry-city-prediction.html</guid>
+    <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 79% confidence. Home Win at 1.21. Match kickoff: Sat, 19 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Newcastle United vs Hull City A — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/newcastle-united-vs-hull-city-a-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/newcastle-united-vs-hull-city-a-prediction.html</guid>
+    <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 19 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Brighton &amp; Hove Albion vs Arsenal — Away Win @ 1.07</title>
+    <link>https://xwhiz.com/predictions/brighton-hove-albion-vs-arsenal-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/brighton-hove-albion-vs-arsenal-prediction.html</guid>
+    <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 89% confidence. Away Win at 1.07. Match kickoff: Sat, 19 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Everton vs Ipswich Town — Home Win @ 1.25</title>
+    <link>https://xwhiz.com/predictions/everton-vs-ipswich-town-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/everton-vs-ipswich-town-prediction.html</guid>
+    <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 76% confidence. Home Win at 1.25. Match kickoff: Sat, 19 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Tottenham Hotspur vs Aston Villa — Home Win @ 1.50</title>
+    <link>https://xwhiz.com/predictions/tottenham-hotspur-vs-aston-villa-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/tottenham-hotspur-vs-aston-villa-prediction.html</guid>
+    <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 64% confidence. Home Win at 1.50. Match kickoff: Sat, 19 Sep 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
   </item>
 </channel>
 </rss>
