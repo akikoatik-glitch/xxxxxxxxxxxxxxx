@@ -1,21 +1,54 @@
 {
-  "lastUpdate": "2026-09-14T20:17:16.616Z",
+  "lastUpdate": "2026-09-14T22:17:10.506Z",
   "news": [
     {
-      "title": "VAR from Manchester derby not given a Premier League game for upcoming weekend",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-09-14T15:48:51.000Z",
-      "excerpt": "The VAR who made an \"error of judgement\" in awarding a goal to Manchester City in Sunday's derby at Old Trafford has not been appointed to a",
+      "title": "Inter Milan, Roma both win to stay perfect atop Serie A",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-14T22:04:55.000Z",
+      "excerpt": "Defending champions Inter Milan produced another rousing comeback to beat Udinese 5-3 at San Siro and continue their perfect start to the ne",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49940750/var-manchester-derby-not-given-premier-league-games-upcoming-weekend",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1716022_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49943172/inter-milan-roma-win-stay-perfect-atop-serie-a",
+      "image": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool eye move for Bournemouth's Rayan",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-14T21:43:19.000Z",
+      "excerpt": "Liverpool are reportedly looking to sign Bournemouth's Rayan next summer. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49937841/transfer-rumors-news-arsenal-keeping-tabs-liverpool-teen-ngumoha",
+      "image": "https://a.espncdn.com/photo/2026/0914/r1716721_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Burley: Newcastle 'a shell of themselves' after 4-1 defeat to Leeds",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-14T21:29:38.000Z",
+      "excerpt": "Burley: Newcastle 'a shell of themselves' after 4-1 defeat to Leeds",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49943268/newcastle-shell-4-1-defeat-leeds",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0914/dm_260914_COM_SOC_Analysis_Burley_Newcastle_a_shell_of_themselves_after_4_1_defeat_to_Leeds_20260914_GL/dm_260914_COM_SOC_Analysis_Burley_Newcastle_a_shell_of_themselves_after_4_1_defeat_to_Leeds_20260914_GL.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Villarreal vs. Real Betis - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-14T21:16:49.000Z",
+      "excerpt": "Watch the Game Highlights from Villarreal vs. Real Betis, 09/14/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49943195/villarreal-vs-real-betis-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0914/18dee643-9283-4ca2-8eaf-145d2ed1b48f/18dee643-9283-4ca2-8eaf-145d2ed1b48f.jpg",
       "category": "football"
     },
     {
       "title": "Ousmane Dembélé: 'Never the chosen one,' but hard work at 'back of the class' earned Ballon d'Or",
       "league": "Ligue 1",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-14T15:47:32.000Z",
       "excerpt": "Ousmane Dembélé said he has \"never been the chosen one\" after Kylian Mbappé used the phrase to describe himself and his expectations in foot",
       "source": "ESPN",
@@ -24,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Roberto De Zerbi leaves Richarlison out of Spurs' Carabao Cup squad for Liverpool clash",
-      "league": "Premier League",
-      "time": "5h ago",
-      "published": "2026-09-14T14:40:02.000Z",
-      "excerpt": "Roberto De Zerbi has turned down the chance to include Richarlison in Tottenham's squad for Tuesday's Carabao Cup tie at Liverpool.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49940193/roberto-de-zerbi-leaves-richarlison-spurs-carabao-cup-squad-liverpool-clash",
-      "image": "https://a.espncdn.com/photo/2026/0906/r1712441_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bayern Munich's 2026-27 Oktoberfest kit is their wildest yet!",
       "league": "Bundesliga",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-14T11:42:59.000Z",
       "excerpt": "The Bundesliga giants have really gone all out with this year's special jersey to mark Oktoberfest -- or \"Wiesn\", to give the festival its p",
       "source": "ESPN",
@@ -48,7 +70,7 @@
     {
       "title": "Pierre-Emerick Aubameyang scores in first five LaLiga games, joins exclusive club",
       "league": "La Liga",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-14T10:44:29.000Z",
       "excerpt": "Deportivo's Pierre-Emerick Aubameyang netted the equaliser in Sunday's 1-1 draw at Getafe to become the first player since Zlatan Ibrahimovi",
       "source": "ESPN",
@@ -57,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Mourinho: Real Madrid are missing Vinícius Jr. at his best",
-      "league": "La Liga",
-      "time": "9h ago",
-      "published": "2026-09-14T10:29:45.000Z",
-      "excerpt": "Mourinho: Real Madrid are missing Vinícius Jr. at his best",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49938691/real-madrid-missing-vinicius-jr-best",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0914/dm_260914_Mourinho_Real_Madrid_are_missing_Vinicius_Jr_at_his_best/dm_260914_Mourinho_Real_Madrid_are_missing_Vinicius_Jr_at_his_best.jpg",
-      "category": "football"
-    },
-    {
       "title": "Juventus concede deep in added time to fall 3-2 at Sassuolo",
       "league": "Serie A",
-      "time": "22h ago",
+      "time": "13/09/2026",
       "published": "2026-09-13T22:11:53.000Z",
       "excerpt": "Juventus conceded in the fourth minute of stoppage time to lose 3-2 in dramatic fashion at Sassuolo in Serie A.",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Transfer rumors, news: Bayern eye move for Liverpool's Wirtz",
       "league": "Bundesliga",
-      "time": "22h ago",
+      "time": "13/09/2026",
       "published": "2026-09-13T22:07:57.000Z",
       "excerpt": "Bayern Munich are ready to pounce to sign Liverpool midfielder Florian Wirtz if there is a chance. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -92,23 +103,12 @@
     {
       "title": "Ferran Torres strikes again to earn PSG first Ligue 1 win",
       "league": "Ligue 1",
-      "time": "23h ago",
+      "time": "13/09/2026",
       "published": "2026-09-13T21:16:29.000Z",
       "excerpt": "Ferran Torres scored the only goal of the game as Paris Saint-Germain earned their first Ligue 1 win of the season with a 1-0 victory at Bre",
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401876465",
       "image": "https://a.espncdn.com/photo/2026/0913/r1716180_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Pulisic gets assist for Milan in 1st game since World Cup",
-      "league": "Serie A",
-      "time": "12/09/2026",
-      "published": "2026-09-12T21:04:07.000Z",
-      "excerpt": "Christian Pulisic marked his first appearance since the 2026 World Cup with an assist to help AC Milan rally to claim a 2-2 draw at Lazio on",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49917361/christian-pulisic-assist-ac-milan-usa-world-cup-serie-lazio",
-      "image": "https://a.espncdn.com/photo/2026/0912/r1715544_1296x729_16-9.jpg",
       "category": "football"
     },
     {
