@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-15T16:17:30.620Z",
+  "lastUpdate": "2026-09-15T18:18:15.543Z",
   "news": [
+    {
+      "title": "Man United need wins after bad week of JJ Gabriel unrest, protests and derby drama",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-15T18:11:49.000Z",
+      "excerpt": "Things have gone from bad to worse this week for Man United, with defeats on and off the field. Victory against Brighton in midweek would go",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49950304/manchester-united-jj-gabriel-fan-protests-manchester-derby-var-defeat-analysis-michael-carrick",
+      "image": "https://a.espncdn.com/photo/2026/0915/r1717115_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ogden: Manchester derby mistake has broken trust in VAR",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-15T17:27:10.000Z",
+      "excerpt": "Ogden: Manchester derby mistake has broken trust in VAR",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49950514/manchester-derby-mistake-broken-trust-var",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0915/dm_260915_COM_SOC_Analysis_Ogden_Manchester_derby_mistake_has_broken_trust_in_VAR__20260915_GLOBAL/dm_260915_COM_SOC_Analysis_Ogden_Manchester_derby_mistake_has_broken_trust_in_VAR__20260915_GLOBAL.jpg",
+      "category": "football"
+    },
     {
       "title": "Meet Noah Atubolu, the Bundesliga's 'Penalty Killer' who's saved six in a row",
       "league": "Bundesliga",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-15T14:03:43.000Z",
       "excerpt": "Noah Atubolu's consistency in saving penalties makes a mockery of suggestions that spotkicks are 'lotteries', with the Frankfurt man clearly",
       "source": "ESPN",
@@ -15,7 +37,7 @@
     {
       "title": "Keller: Pulisic needs to 'reprove himself' at AC Milan",
       "league": "Serie A",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-15T13:38:00.000Z",
       "excerpt": "Keller: Pulisic needs to 'reprove himself' at AC Milan",
       "source": "ESPN",
@@ -26,7 +48,7 @@
     {
       "title": "Flick: Yamal wants to win the Ballon d'Or",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-15T13:30:58.000Z",
       "excerpt": "Flick: Yamal wants to win the Ballon d'Or",
       "source": "ESPN",
@@ -37,7 +59,7 @@
     {
       "title": "Barcelona boss Hansi Flick backs Lamine Yamal's Ballon d'Or claim",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-15T12:44:19.000Z",
       "excerpt": "Barcelona coach Hansi Flick backed Lamine Yamal's claim that he deserves to win the Ballon d'Or and dismissed concerns about the teenager's ",
       "source": "ESPN",
@@ -46,31 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Man United, Bruno Fernandes contract talks stall",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-09-15T12:37:41.000Z",
-      "excerpt": "Manchester United want to retain Bruno Fernandes and have begun talks over a new contract. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49947329/transfer-rumors-news-man-united-bruno-fernandes-contract-talks-stall",
-      "image": "https://a.espncdn.com/photo/2026/0830/r1709025_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Carlos Baleba returns to training, nears Man United debut",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-09-15T12:30:22.000Z",
-      "excerpt": "Carlos Baleba is nearing his Manchester United debut after returning to training.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49948615/carlos-baleba-returns-man-united-training-nears-debut",
-      "image": "https://a.espncdn.com/photo/2026/0915/r1716983_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bayern Munich's 2026-27 Oktoberfest kit is their wildest yet!",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-15T10:54:48.000Z",
       "excerpt": "The Bundesliga giants have really gone all out with this year's special jersey to mark Oktoberfest -- or \"Wiesn\", to give the festival its p",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Allianz Arena to host 2028 Champions League final, Camp Nou to host in 2029",
       "league": "Champions League",
-      "time": "6h ago",
+      "time": "8h ago",
       "published": "2026-09-15T09:50:23.000Z",
       "excerpt": "The Munich Football Arena and Barcelona's Spotify Camp Nou will host the 2028 and 2029 UEFA Champions League finals, European football's gov",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "John Stones limps off on first Inter Milan start in injury concern for England and Thomas Tuchel",
       "league": "Serie A",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-15T06:41:28.000Z",
       "excerpt": "John Stones limped off with a thigh injury as Inter Milan hit back from two goals down for the second time this season to beat Udinese 5-3 a",
       "source": "ESPN",
