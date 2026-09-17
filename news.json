@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-17T06:23:01.466Z",
+  "lastUpdate": "2026-09-17T08:19:06.330Z",
   "news": [
+    {
+      "title": "Man United will be 'careful' with Gabriel future, Carrick says",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-17T07:35:28.000Z",
+      "excerpt": "Michael Carrick confirmed he is involved in conversations about JJ Gabriel's future after the 15-year-old's request to leave Manchester Unit",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49960828/man-united-careful-gabriel-future",
+      "image": "https://a.espncdn.com/photo/2026/0915/r1717007_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal still keen on Real Madrid winger Rodrygo",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-17T06:56:14.000Z",
+      "excerpt": "Arsenal remain in contact with the camp of Real Madrid winger Rodrygo as a potential long-term target Transfer talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49962718/transfer-rumors-news-arsenal-keen-real-madrid-winger-rodrygo",
+      "image": "https://a.espncdn.com/photo/2026/0427/r1649941_3_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Raphinha bags hat trick as Barcelona score 7 to set record start",
       "league": "La Liga",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-17T01:27:00.000Z",
       "excerpt": "Barcelona sent records tumbling with a 7-2 thumping of Racing Santander to make it seven straight wins to start the season for the first tim",
       "source": "ESPN",
@@ -13,42 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Man United will be 'careful' with Gabriel future, Carrick says",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-09-16T23:43:16.000Z",
-      "excerpt": "Michael Carrick confirmed he is involved in conversations about JJ Gabriel's future after the 15-year-old's request to leave Manchester Unit",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49960828/man-united-careful-gabriel-future",
-      "image": "sportscenter://x-callback-url/showStory?uid=49950304",
-      "category": "football"
-    },
-    {
-      "title": "Man United's collapse puts Carrick under pressure for first time",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-09-16T23:34:02.000Z",
-      "excerpt": "After being eliminated to Brighton & Hove Albion in the Carabao Cup, Manchester United boss Michael Carrick is now facing the first real pre",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49960829/manchester-united-collapse-puts-michael-carrick-pressure-first",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717818_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Barcelona vs. Racing Santander - Game Highlights",
-      "league": "La Liga",
-      "time": "8h ago",
-      "published": "2026-09-16T21:47:35.000Z",
-      "excerpt": "Watch the Game Highlights from Barcelona vs. Racing Santander, 09/16/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49960425/barcelona-vs-racing-santander-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0916/51ff16c4-752f-4305-aa56-bef2f3843d49/51ff16c4-752f-4305-aa56-bef2f3843d49.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Barcelona keeping tabs on possible move for Kane",
       "league": "Bundesliga",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-16T21:04:55.000Z",
       "excerpt": "Could LaLiga giants Barcelona make a move for Harry Kane next summer? Transfer talk has the latest.",
       "source": "ESPN",
@@ -59,7 +48,7 @@
     {
       "title": "Bundesliga breakout star Cole Campbell committed to U.S.",
       "league": "Bundesliga",
-      "time": "13h ago",
+      "time": "15h ago",
       "published": "2026-09-16T17:15:58.000Z",
       "excerpt": "The breakout American star of the soccer season so far in Germany, Cole Campbell, has affirmed his commitment to the U.S. as he pushes for a",
       "source": "ESPN",
@@ -70,7 +59,7 @@
     {
       "title": "Borussia Dortmund teenager Konstantinos Karetsas returns to training after Champions League health scare",
       "league": "Champions League",
-      "time": "16h ago",
+      "time": "18h ago",
       "published": "2026-09-16T14:12:00.000Z",
       "excerpt": "Borussia Dortmund says 18-year-old midfielder Konstantinos Karetsas is back in training just over a week after he slumped to the ground in a",
       "source": "ESPN",
@@ -81,7 +70,7 @@
     {
       "title": "Abdelkarim praises Norwegian striker, accepts 'Haaland of the Nile' comparison",
       "league": "Champions League",
-      "time": "17h ago",
+      "time": "19h ago",
       "published": "2026-09-16T13:03:36.000Z",
       "excerpt": "Abdelkarim praises Norwegian striker, accepts 'Haaland of the Nile' comparison",
       "source": "ESPN",
