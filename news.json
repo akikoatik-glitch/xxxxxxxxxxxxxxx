@@ -1,22 +1,33 @@
 {
-  "lastUpdate": "2026-09-17T08:19:06.330Z",
+  "lastUpdate": "2026-09-17T10:17:26.012Z",
   "news": [
     {
-      "title": "Man United will be 'careful' with Gabriel future, Carrick says",
+      "title": "Andy Burnham watches Everton with Canadian PM Mark Carney",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-17T07:35:28.000Z",
-      "excerpt": "Michael Carrick confirmed he is involved in conversations about JJ Gabriel's future after the 15-year-old's request to leave Manchester Unit",
+      "published": "2026-09-17T09:32:45.000Z",
+      "excerpt": "British Prime Minister Andy Burnham enjoyed Everton's Carabao Cup victory over Wolves on Wednesday with Canadian counterpart and fellow Toff",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49960828/man-united-careful-gabriel-future",
-      "image": "https://a.espncdn.com/photo/2026/0915/r1717007_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49962983/andy-burnham-watches-everton-canadian-pm-mark-carney",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1717967_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Flick: Barcelona played really good football vs. Racing Santander",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-17T09:14:16.000Z",
+      "excerpt": "Flick: Barcelona played really good football vs. Racing Santander",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49962987/barcelona-played-really-good-football-vs-racing-santander",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0917/dm_260917_COM_SOC_Analysis_Flick3A_Barcelona_played_really_good_football_vs_Racing_Santander_GLOBAL_2026-09-/dm_260917_COM_SOC_Analysis_Flick3A_Barcelona_played_really_good_football_vs_Racing_Santander_GLOBAL_2026-09-.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Arsenal still keen on Real Madrid winger Rodrygo",
       "league": "Premier League",
       "time": "1h ago",
-      "published": "2026-09-17T06:56:14.000Z",
+      "published": "2026-09-17T09:08:01.000Z",
       "excerpt": "Arsenal remain in contact with the camp of Real Madrid winger Rodrygo as a potential long-term target Transfer talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49962718/transfer-rumors-news-arsenal-keen-real-madrid-winger-rodrygo",
@@ -24,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Raphinha bags hat trick as Barcelona score 7 to set record start",
-      "league": "La Liga",
-      "time": "6h ago",
-      "published": "2026-09-17T01:27:00.000Z",
-      "excerpt": "Barcelona sent records tumbling with a 7-2 thumping of Racing Santander to make it seven straight wins to start the season for the first tim",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49960419/barcelona-raphinha-racing-santander-laliga-record",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717763_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Barcelona keeping tabs on possible move for Kane",
       "league": "Bundesliga",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-16T21:04:55.000Z",
       "excerpt": "Could LaLiga giants Barcelona make a move for Harry Kane next summer? Transfer talk has the latest.",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "Bundesliga breakout star Cole Campbell committed to U.S.",
       "league": "Bundesliga",
-      "time": "15h ago",
+      "time": "17h ago",
       "published": "2026-09-16T17:15:58.000Z",
       "excerpt": "The breakout American star of the soccer season so far in Germany, Cole Campbell, has affirmed his commitment to the U.S. as he pushes for a",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Borussia Dortmund teenager Konstantinos Karetsas returns to training after Champions League health scare",
       "league": "Champions League",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-16T14:12:00.000Z",
       "excerpt": "Borussia Dortmund says 18-year-old midfielder Konstantinos Karetsas is back in training just over a week after he slumped to the ground in a",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Abdelkarim praises Norwegian striker, accepts 'Haaland of the Nile' comparison",
       "league": "Champions League",
-      "time": "19h ago",
+      "time": "21h ago",
       "published": "2026-09-16T13:03:36.000Z",
       "excerpt": "Abdelkarim praises Norwegian striker, accepts 'Haaland of the Nile' comparison",
       "source": "ESPN",
