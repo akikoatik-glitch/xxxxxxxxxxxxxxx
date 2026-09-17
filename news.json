@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-09-17T20:17:37.198Z",
+  "lastUpdate": "2026-09-17T22:16:10.745Z",
   "news": [
     {
-      "title": "Weekend predictions: Madrid derby heats up LaLiga, Brighton to stun Arsenal?",
+      "title": "Hislop: I do not see Chelsea beating Brentford",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-09-17T21:57:17.000Z",
+      "excerpt": "Hislop: I do not see Chelsea beating Brentford",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49967974/do-not-see-chelsea-beating-brentford",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0917/dm_260917_COM_SOC_analysis_Hislop_I_do_not_see_Chelsea_beating_Brentford_20260917_GLOBAL/dm_260917_COM_SOC_analysis_Hislop_I_do_not_see_Chelsea_beating_Brentford_20260917_GLOBAL.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Phil Jones: Old Trafford has a 'massive effect' on the players",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-17T21:46:30.000Z",
+      "excerpt": "Phil Jones: Old Trafford has a 'massive effect' on the players",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49967931/old-trafford-massive-effect-players",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0917/dm_260917_COM_SOC_analysis_Phil_Jones_Old_Trafford_has_a_massive_effect_on_the_players_20260917_GLOBAL/dm_260917_COM_SOC_analysis_Phil_Jones_Old_Trafford_has_a_massive_effect_on_the_players_20260917_GLOBAL.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Málaga vs. Villarreal - Game Highlights",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-17T21:37:21.000Z",
+      "excerpt": "Watch the Game Highlights from Málaga vs. Villarreal, 09/17/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49967855/malaga-vs-villarreal-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0917/157396fd-14ca-4db1-947c-081ea6753579/157396fd-14ca-4db1-947c-081ea6753579.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Weekend predictions: Madrid derby heats up LaLiga, Brighton to stun Arsenal?",
+      "league": "La Liga",
+      "time": "2h ago",
       "published": "2026-09-17T19:37:26.000Z",
       "excerpt": "It's another big weekend of matches in Europe which will include heated derbies, top-of-the-table matchups and other rivalries.",
       "source": "ESPN",
@@ -14,8 +47,8 @@
     },
     {
       "title": "Transfer rumors, news: Liverpool targeting former Bayern Munich midfielder",
-      "league": "Premier League",
-      "time": "0h ago",
+      "league": "Bundesliga",
+      "time": "2h ago",
       "published": "2026-09-17T19:31:31.000Z",
       "excerpt": "PSV Eindhoven's Paul Wanner has emerged as a Liverpool target. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -24,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Real Betis vs. Getafe - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-17T19:09:10.000Z",
-      "excerpt": "Watch the Game Highlights from Real Betis vs. Getafe, 09/17/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49966841/real-betis-vs-getafe-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0917/1740db3f-1059-4025-a1f4-a4fdcee4ea20/1740db3f-1059-4025-a1f4-a4fdcee4ea20.jpg",
-      "category": "football"
-    },
-    {
       "title": "PSG ultras take legal action over Marseille travel ban",
       "league": "Ligue 1",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-17T16:45:56.000Z",
       "excerpt": "Paris Saint-Germain fans have been banned from traveling to Marseille due to the risk of violent clashes between supporters in connection wi",
       "source": "ESPN",
@@ -48,7 +70,7 @@
     {
       "title": "Still at zero: Viral Man United fan's haircut challenge nears two years",
       "league": "Champions League",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-17T15:10:06.000Z",
       "excerpt": "Viral Manchester United fan Frank Ilett's haircut challenge is nearing the two-year mark and he's back to square 1.",
       "source": "ESPN",
@@ -59,7 +81,7 @@
     {
       "title": "World soccer's hottest men's teams right now: Can anyone stop Barcelona?",
       "league": "Serie A",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-17T12:29:29.000Z",
       "excerpt": "Is there any team hotter in world soccer right now than Barcelona? Bill Connelly crunches the numbers to tell us the most in-form European t",
       "source": "ESPN",
