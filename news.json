@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-17T16:18:08.103Z",
+  "lastUpdate": "2026-09-17T18:19:53.675Z",
   "news": [
+    {
+      "title": "Michail Antonio found guilty of failing to identify driver of his Lamborgini to police",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-17T17:12:43.000Z",
+      "excerpt": "Michail Antonio has been found guilty of failing to identify the driver of his Lamborghini supercar when it was suspected of involvement in ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49965902/michail-antonio-found-guilty-failing-identify-driver-lamborgini-police",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1718151_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "PSG ultras take legal action over Marseille travel ban",
+      "league": "Ligue 1",
+      "time": "1h ago",
+      "published": "2026-09-17T16:45:56.000Z",
+      "excerpt": "Paris Saint-Germain fans have been banned from traveling to Marseille due to the risk of violent clashes between supporters in connection wi",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49965677/psg-marseille-fans-travel-ban-ultras-ligue-1-france",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1718146_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Newcastle boss Matthias Jaissle hoping for 'positive' update on Anthony Elanga injury",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-17T15:40:02.000Z",
       "excerpt": "Matthias Jaissle hopes Anthony Elanga's injury is \"not that serious\" as Newcastle prepare to face Hull City on Saturday.",
       "source": "ESPN",
@@ -14,8 +36,8 @@
     },
     {
       "title": "Still at zero: Viral Man United fan's haircut challenge nears two years",
-      "league": "Premier League",
-      "time": "1h ago",
+      "league": "Champions League",
+      "time": "3h ago",
       "published": "2026-09-17T15:10:06.000Z",
       "excerpt": "Viral Manchester United fan Frank Ilett's haircut challenge is nearing the two-year mark and he's back to square 1.",
       "source": "ESPN",
@@ -26,7 +48,7 @@
     {
       "title": "World soccer's hottest men's teams right now: Can anyone stop Barcelona?",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-17T12:29:29.000Z",
       "excerpt": "Is there any team hotter in world soccer right now than Barcelona? Bill Connelly crunches the numbers to tell us the most in-form European t",
       "source": "ESPN",
@@ -37,7 +59,7 @@
     {
       "title": "Flick: Barcelona played really good football vs. Racing Santander",
       "league": "La Liga",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-17T09:14:16.000Z",
       "excerpt": "Flick: Barcelona played really good football vs. Racing Santander",
       "source": "ESPN",
@@ -48,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Barcelona keeping tabs on possible move for Kane",
       "league": "Bundesliga",
-      "time": "19h ago",
+      "time": "21h ago",
       "published": "2026-09-16T21:04:55.000Z",
       "excerpt": "Could LaLiga giants Barcelona make a move for Harry Kane next summer? Transfer talk has the latest.",
       "source": "ESPN",
@@ -76,17 +98,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/49948972/pulisic-needs-reprove-ac-milan",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0915/dm_260915_Keller_Pulisic_needs_to_reprove_himself_at_AC_Milan/dm_260915_Keller_Pulisic_needs_to_reprove_himself_at_AC_Milan.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Ousmane Dembélé: 'Never the chosen one,' but hard work at 'back of the class' earned Ballon d'Or",
-      "league": "Ligue 1",
-      "time": "14/09/2026",
-      "published": "2026-09-14T15:47:32.000Z",
-      "excerpt": "Ousmane Dembélé said he has \"never been the chosen one\" after Kylian Mbappé used the phrase to describe himself and his expectations in foot",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49940582/ousmane-dembele-never-chosen-one-hard-work-earned-ballon-dor",
-      "image": "https://a.espncdn.com/photo/2026/0615/r1673641_1296x729_16-9.jpg",
       "category": "football"
     }
   ]

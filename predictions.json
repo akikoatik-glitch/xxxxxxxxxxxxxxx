@@ -1,157 +1,11 @@
 {
-  "date": "2026-09-17",
-  "lastUpdate": "2026-09-17T16:18:08.158Z",
-  "predictionGenerated": "2026-09-17T16:18:08.158Z",
-  "dataTimestamp": "2026-09-17T16:18:04.489Z",
+  "date": "2026-09-18",
+  "lastUpdate": "2026-09-17T18:19:53.731Z",
+  "predictionGenerated": "2026-09-17T18:19:53.731Z",
+  "dataTimestamp": "2026-09-17T18:19:51.202Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:2+tomorrow:7+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "es.1:2026-09-17:Real Betis Balompié:Getafe CF",
-      "slug": "real-betis-balompie-vs-getafe-cf-prediction",
-      "utcDate": "2026-09-17T15:00:00Z",
-      "date": "2026-09-17",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Real Betis Balompié",
-      "away": "Getafe CF",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 46,
-      "odds": "2.05",
-      "value": "+0%",
-      "probs": {
-        "home": 30,
-        "draw": 24,
-        "away": 46
-      },
-      "xg": {
-        "home": "1.13",
-        "away": "1.49",
-        "total": "2.62"
-      },
-      "doubleChance": {
-        "12": 76,
-        "1X": 54,
-        "X2": 70
-      },
-      "overUnder": {
-        "over2_5": 49,
-        "under2_5": 51,
-        "oddsOver": "1.94",
-        "oddsUnder": "1.86"
-      },
-      "btts": {
-        "yes": 51,
-        "no": 49
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 12
-        },
-        {
-          "score": "1-1",
-          "prob": 11
-        },
-        {
-          "score": "1-0",
-          "prob": 9
-        }
-      ],
-      "asianHandicap": "Away +0.25",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Real Betis Balompié vs Getafe CF: Dixon-Coles P(H)30% D24% A46% • xG 1.13-1.49 • most likely score 0-1 (12%) • Away Win confidence 46%",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "es.1:2026-09-17:Málaga CF:Villarreal CF",
-      "slug": "malaga-cf-vs-villarreal-cf-prediction",
-      "utcDate": "2026-09-17T15:00:00Z",
-      "date": "2026-09-17",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Málaga CF",
-      "away": "Villarreal CF",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 63,
-      "odds": "1.51",
-      "value": "+6%",
-      "probs": {
-        "home": 17,
-        "draw": 20,
-        "away": 63
-      },
-      "xg": {
-        "home": "0.87",
-        "away": "1.93",
-        "total": "2.80"
-      },
-      "doubleChance": {
-        "12": 80,
-        "1X": 37,
-        "X2": 83
-      },
-      "overUnder": {
-        "over2_5": 53,
-        "under2_5": 47,
-        "oddsOver": "1.79",
-        "oddsUnder": "2.02"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 13
-        },
-        {
-          "score": "0-2",
-          "prob": 11
-        },
-        {
-          "score": "1-2",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Málaga CF vs Villarreal CF: Dixon-Coles P(H)17% D20% A63% • xG 0.87-1.93 • most likely score 0-1 (13%) • Away Win confidence 63%",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "en.1:2026-09-18:Brentford FC:Chelsea FC",
       "slug": "brentford-vs-chelsea-prediction",
@@ -159,7 +13,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "Brentford",
       "away": "Chelsea",
       "league": "Premier League",
@@ -232,7 +86,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "RCD Espanyol de Barcelona",
       "away": "Elche CF",
       "league": "La Liga",
@@ -305,7 +159,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "FC Bayern München",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -378,7 +232,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "AC Monza",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -451,7 +305,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "AS Monaco",
       "away": "Racing Club de Lens",
       "league": "Ligue 1",
@@ -524,7 +378,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "FC Groningen",
       "away": "PEC Zwolle",
       "league": "Eredivisie",
@@ -597,7 +451,7 @@
       "date": "2026-09-18",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "20h to kickoff",
       "home": "Bristol City",
       "away": "Watford",
       "league": "Championship",
@@ -670,7 +524,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Nottingham Forest",
       "away": "Coventry City",
       "league": "Premier League",
@@ -743,7 +597,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Newcastle United",
       "away": "Hull City A",
       "league": "Premier League",
@@ -816,7 +670,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Brighton & Hove Albion",
       "away": "Arsenal",
       "league": "Premier League",
@@ -889,7 +743,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Everton",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -962,7 +816,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Aston Villa",
       "league": "Premier League",
@@ -1035,7 +889,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Sevilla",
       "away": "FC Barcelona",
       "league": "La Liga",
@@ -1108,7 +962,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "RC Celta de Vigo",
       "away": "Real Racing Club de Santander",
       "league": "La Liga",
@@ -1181,7 +1035,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Athletic Club",
       "away": "Deportivo Alavés",
       "league": "La Liga",
@@ -1254,7 +1108,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "CA Osasuna",
       "away": "Rayo Vallecano de Madrid",
       "league": "La Liga",
@@ -1327,7 +1181,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Borussia Dortmund",
       "league": "Bundesliga",
@@ -1400,7 +1254,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "SC Freiburg",
       "league": "Bundesliga",
@@ -1473,7 +1327,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "SV Werder Bremen",
       "away": "FC Augsburg",
       "league": "Bundesliga",
@@ -1546,7 +1400,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Borussia Mönchengladbach",
       "away": "1. FSV Mainz 05",
       "league": "Bundesliga",
@@ -1619,7 +1473,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Hamburger SV",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -1692,7 +1546,7 @@
       "date": "2026-09-19",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "46h to kickoff",
+      "countdown": "44h to kickoff",
       "home": "Venezia",
       "away": "SS Lazio",
       "league": "Serie A",
@@ -1755,6 +1609,152 @@
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Venezia vs SS Lazio: Dixon-Coles P(H)34% D24% A42% • xG 1.21-1.39 • most likely score 1-1 (12%) • Away Win confidence 42%",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-09-19:AS Roma:FC Internazionale Milano",
+      "slug": "as-roma-vs-fc-internazionale-milano-prediction",
+      "utcDate": "2026-09-19T15:00:00Z",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "44h to kickoff",
+      "home": "AS Roma",
+      "away": "FC Internazionale Milano",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 95,
+      "odds": "1.01",
+      "value": "+22%",
+      "probs": {
+        "home": 95,
+        "draw": 4,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.40",
+        "total": "4.60"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 5
+      },
+      "overUnder": {
+        "over2_5": 81,
+        "under2_5": 19,
+        "oddsOver": "1.17",
+        "oddsUnder": "5.00"
+      },
+      "btts": {
+        "yes": 32,
+        "no": 68
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 15
+        },
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "AS Roma vs FC Internazionale Milano: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.40 • most likely score 4-0 (15%) • Home Win confidence 95%",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-09-19:Udinese Calcio:Cagliari Calcio",
+      "slug": "udinese-calcio-vs-cagliari-calcio-prediction",
+      "utcDate": "2026-09-19T15:00:00Z",
+      "date": "2026-09-19",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "44h to kickoff",
+      "home": "Udinese Calcio",
+      "away": "Cagliari Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Udinese Calcio vs Cagliari Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61%",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -2363,9 +2363,31 @@
   ],
   "news": [
     {
+      "title": "Michail Antonio found guilty of failing to identify driver of his Lamborgini to police",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-17T17:12:43.000Z",
+      "excerpt": "Michail Antonio has been found guilty of failing to identify the driver of his Lamborghini supercar when it was suspected of involvement in ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49965902/michail-antonio-found-guilty-failing-identify-driver-lamborgini-police",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1718151_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "PSG ultras take legal action over Marseille travel ban",
+      "league": "Ligue 1",
+      "time": "1h ago",
+      "published": "2026-09-17T16:45:56.000Z",
+      "excerpt": "Paris Saint-Germain fans have been banned from traveling to Marseille due to the risk of violent clashes between supporters in connection wi",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49965677/psg-marseille-fans-travel-ban-ultras-ligue-1-france",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1718146_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Newcastle boss Matthias Jaissle hoping for 'positive' update on Anthony Elanga injury",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-17T15:40:02.000Z",
       "excerpt": "Matthias Jaissle hopes Anthony Elanga's injury is \"not that serious\" as Newcastle prepare to face Hull City on Saturday.",
       "source": "ESPN",
@@ -2375,35 +2397,13 @@
     },
     {
       "title": "Still at zero: Viral Man United fan's haircut challenge nears two years",
-      "league": "Premier League",
-      "time": "1h ago",
+      "league": "Champions League",
+      "time": "3h ago",
       "published": "2026-09-17T15:10:06.000Z",
       "excerpt": "Viral Manchester United fan Frank Ilett's haircut challenge is nearing the two-year mark and he's back to square 1.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49964446/still-zero-viral-man-united-fan-haircut-challenge-nears-two-years",
       "image": "https://a.espncdn.com/photo/2026/0210/r1613205_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "World soccer's hottest men's teams right now: Can anyone stop Barcelona?",
-      "league": "La Liga",
-      "time": "3h ago",
-      "published": "2026-09-17T12:29:29.000Z",
-      "excerpt": "Is there any team hotter in world soccer right now than Barcelona? Bill Connelly crunches the numbers to tell us the most in-form European t",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49957535/soccer-hottest-teams-form-analysis-barcelona-arsenal-psg",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717661_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Flick: Barcelona played really good football vs. Racing Santander",
-      "league": "La Liga",
-      "time": "7h ago",
-      "published": "2026-09-17T09:14:16.000Z",
-      "excerpt": "Flick: Barcelona played really good football vs. Racing Santander",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49962987/barcelona-played-really-good-football-vs-racing-santander",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0917/dm_260917_COM_SOC_Analysis_Flick3A_Barcelona_played_really_good_football_vs_Racing_Santander_GLOBAL_2026-09-/dm_260917_COM_SOC_Analysis_Flick3A_Barcelona_played_really_good_football_vs_Racing_Santander_GLOBAL_2026-09-.jpg",
       "category": "football"
     }
   ],
