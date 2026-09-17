@@ -1,32 +1,54 @@
 {
-  "lastUpdate": "2026-09-16T22:16:16.571Z",
+  "lastUpdate": "2026-09-17T00:23:00.962Z",
   "news": [
+    {
+      "title": "A FIREABLE OFFENSE?!  Ale Moreno sounds off on Erling Haaland goal standing",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-17T00:02:47.000Z",
+      "excerpt": "A FIREABLE OFFENSE?! Ale Moreno sounds off on Erling Haaland goal standing",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49960666/a-fireable-offense-ale-moreno-sounds-erling-haaland-goal-standing",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0916/ss_20260916_184052007_36628891200/ss_20260916_184052007_36628891200.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Man United will be 'careful' with Gabriel future, Carrick says",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-16T23:43:16.000Z",
+      "excerpt": "Michael Carrick confirmed he is involved in conversations about JJ Gabriel's future after the 15-year-old's request to leave Manchester Unit",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49960828/man-united-careful-gabriel-future",
+      "image": "sportscenter://x-callback-url/showStory?uid=49950304",
+      "category": "football"
+    },
+    {
+      "title": "Man United's collapse puts Carrick under pressure for first time",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-16T23:34:02.000Z",
+      "excerpt": "After being eliminated to Brighton & Hove Albion in the Carabao Cup, Manchester United boss Michael Carrick is now facing the first real pre",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49960829/manchester-united-collapse-puts-michael-carrick-pressure-first",
+      "image": "https://a.espncdn.com/photo/2026/0916/r1717818_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Raphinha bags hat trick as Barcelona score 7 to set record start",
       "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-09-16T22:02:57.000Z",
-      "excerpt": "Barcelona set records tumbling with a 7-2 thumping of Racing Santander to make it seven straight wins to start the season for the first time",
+      "time": "1h ago",
+      "published": "2026-09-16T23:22:25.000Z",
+      "excerpt": "Barcelona sent records tumbling with a 7-2 thumping of Racing Santander to make it seven straight wins to start the season for the first tim",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49960419/barcelona-raphinha-racing-santander-laliga-record",
       "image": "https://a.espncdn.com/photo/2026/0916/r1717763_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Barcelona vs. Racing Santander - Game Highlights",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-09-16T21:47:35.000Z",
-      "excerpt": "Watch the Game Highlights from Barcelona vs. Racing Santander, 09/16/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49960425/barcelona-vs-racing-santander-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0916/51ff16c4-752f-4305-aa56-bef2f3843d49/51ff16c4-752f-4305-aa56-bef2f3843d49.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Barcelona keeping tabs on possible move for Kane",
       "league": "Bundesliga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-16T21:04:55.000Z",
       "excerpt": "Could LaLiga giants Barcelona make a move for Harry Kane next summer? Transfer talk has the latest.",
       "source": "ESPN",
@@ -35,31 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Chelsea's João Pedro withdraws from Brazil squad with injury",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-09-16T18:53:02.000Z",
-      "excerpt": "Chelsea striker João Pedro has withdrawn from the Brazil squad because of injury.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49958777/chelsea-joao-pedro-brazil-squad-injury-friendlies",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717671_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Arsenal's Mikel Merino: 'Special talent' Max Dowman has similarities with Lamine Yamal",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-09-16T18:04:37.000Z",
-      "excerpt": "Arsenal midfielder Mikel Merino has hailed Max Dowman as a \"special talent\" and believes there are similarities to his Spanish compatriot La",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49958149/arsenal-merino-special-talent-max-dowman-similarities-lamine-yamal",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717633_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bundesliga breakout star Cole Campbell committed to U.S.",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-16T17:15:58.000Z",
       "excerpt": "The breakout American star of the soccer season so far in Germany, Cole Campbell, has affirmed his commitment to the U.S. as he pushes for a",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Borussia Dortmund teenager Konstantinos Karetsas returns to training after Champions League health scare",
       "league": "Champions League",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-16T14:12:00.000Z",
       "excerpt": "Borussia Dortmund says 18-year-old midfielder Konstantinos Karetsas is back in training just over a week after he slumped to the ground in a",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Abdelkarim praises Norwegian striker, accepts 'Haaland of the Nile' comparison",
       "league": "Champions League",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-16T13:03:36.000Z",
       "excerpt": "Abdelkarim praises Norwegian striker, accepts 'Haaland of the Nile' comparison",
       "source": "ESPN",
