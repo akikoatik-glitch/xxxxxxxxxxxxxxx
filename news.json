@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-09-18T06:21:42.177Z",
+  "lastUpdate": "2026-09-18T08:17:48.692Z",
   "news": [
+    {
+      "title": "First-month grades for all 20 Premier League teams: A+ to F",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-18T07:44:49.000Z",
+      "excerpt": "Which Premier League teams are acing -- or flunking -- the season so far? Let's grade every team!",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49961881/first-month-grades-all-20-premier-league-teams-a+-f-2026-27",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718350_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "As San Siro turns 100, AC Milan and Inter prepare to build a new home",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-18T07:34:25.000Z",
+      "excerpt": "After 100 magical years, San Siro is running out of time as longtime Serie A rivals AC Milan and Inter Milan are building a state-of-the-art",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49965401/ac-milan-inter-milan-italian-serie-san-siro-albertini-costacurta-demolition",
+      "image": "https://a.espncdn.com/photo/2026/0917/r1718227_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid, Barcelona track Man City-bound USMNT star Sullivan",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-18T07:31:34.000Z",
+      "excerpt": "Real Madrid and Barcelona could make a future move for USMNT youngster Cavan Sullivan. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49970584/transfer-rumors-news-real-madrid-barcelona-track-man-city-bound-usmnt-star-sullivan",
+      "image": "https://a.espncdn.com/photo/2026/0903/r1711097_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Socceroos stalwart Ryan axed for Brazil series",
       "league": "La Liga",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-18T01:31:41.000Z",
       "excerpt": "Maty Ryan has been axed from the Socceroos squad to take on Brazil in Queensland. ESPN's Joey Lynch reacts to the squad announcement.",
       "source": "ESPN",
@@ -13,31 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Maresca has been pushing all the right buttons in perfect Man City start",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-09-17T23:05:17.000Z",
-      "excerpt": "Despite using an alternative team, Manchester City made it six wins from six under Enzo Maresca, highlighting just how smoothly the post-Pep",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49968118/enzo-maresca-pushing-all-right-buttons-perfect-man-city-start",
-      "image": "https://a.espncdn.com/photo/2026/0917/r1718300_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Marco Rose proud of 'Bournemouth football' in European debut win over Real Sociedad",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-09-17T22:50:45.000Z",
-      "excerpt": "Marco Rose was delighted to watch \"Bournemouth football\" during a 2-1 win at Real Sociedad and a memorable first match in Europe for the Pre",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49968164/marco-rose-proud-bournemouth-football-european-debut-win-real-sociedad",
-      "image": "https://a.espncdn.com/photo/2026/0917/r1718306_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Burley not sure Vinicius Jr. is ready to step up if Mbappe falters",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "9h ago",
       "published": "2026-09-17T22:19:08.000Z",
       "excerpt": "Burley not sure Vinicius Jr. is ready to step up if Mbappe falters",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Weekend predictions: Madrid derby heats up LaLiga, Brighton to stun Arsenal?",
       "league": "Serie A",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-17T19:37:26.000Z",
       "excerpt": "It's another big weekend of matches in Europe which will include heated derbies, top-of-the-table matchups and other rivalries.",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Liverpool targeting former Bayern Munich midfielder",
       "league": "Bundesliga",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-17T19:31:31.000Z",
       "excerpt": "PSV Eindhoven's Paul Wanner has emerged as a Liverpool target. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "PSG ultras take legal action over Marseille travel ban",
       "league": "Ligue 1",
-      "time": "13h ago",
+      "time": "15h ago",
       "published": "2026-09-17T16:45:56.000Z",
       "excerpt": "Paris Saint-Germain fans have been banned from traveling to Marseille due to the risk of violent clashes between supporters in connection wi",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Still at zero: Viral Man United fan's haircut challenge nears two years",
       "league": "Champions League",
-      "time": "15h ago",
+      "time": "17h ago",
       "published": "2026-09-17T15:10:06.000Z",
       "excerpt": "Viral Manchester United fan Frank Ilett's haircut challenge is nearing the two-year mark and he's back to square 1.",
       "source": "ESPN",
@@ -91,8 +102,8 @@
     },
     {
       "title": "World soccer's hottest men's teams right now: Can anyone stop Barcelona?",
-      "league": "Serie A",
-      "time": "17h ago",
+      "league": "Bundesliga",
+      "time": "19h ago",
       "published": "2026-09-17T12:29:29.000Z",
       "excerpt": "Is there any team hotter in world soccer right now than Barcelona? Bill Connelly crunches the numbers to tell us the most in-form European t",
       "source": "ESPN",
