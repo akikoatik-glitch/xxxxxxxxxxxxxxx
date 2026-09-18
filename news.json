@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-09-18T00:23:17.394Z",
+  "lastUpdate": "2026-09-18T02:16:36.901Z",
   "news": [
+    {
+      "title": "Socceroos stalwart Ryan axed for Brazil series",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-18T01:31:41.000Z",
+      "excerpt": "Maty Ryan has been axed from the Socceroos squad to take on Brazil in Queensland. ESPN's Joey Lynch reacts to the squad announcement.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49969083/socceroos-stalwart-ryan-axed-brazil-series",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0917/dm_260917_Soccer_Analysis_Socceroos_stalwart_Ryan_axed_for_Brazil_series_20260918/dm_260917_Soccer_Analysis_Socceroos_stalwart_Ryan_axed_for_Brazil_series_20260918.jpg",
+      "category": "football"
+    },
     {
       "title": "Maresca has been pushing all the right buttons in perfect Man City start",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-17T23:05:17.000Z",
       "excerpt": "Despite using an alternative team, Manchester City made it six wins from six under Enzo Maresca, highlighting just how smoothly the post-Pep",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Marco Rose proud of 'Bournemouth football' in European debut win over Real Sociedad",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-17T22:50:45.000Z",
       "excerpt": "Marco Rose was delighted to watch \"Bournemouth football\" during a 2-1 win at Real Sociedad and a memorable first match in Europe for the Pre",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Burley not sure Vinicius Jr. is ready to step up if Mbappe falters",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "3h ago",
       "published": "2026-09-17T22:19:08.000Z",
       "excerpt": "Burley not sure Vinicius Jr. is ready to step up if Mbappe falters",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Málaga vs. Villarreal - Game Highlights",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-09-17T21:37:21.000Z",
-      "excerpt": "Watch the Game Highlights from Málaga vs. Villarreal, 09/17/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49967855/malaga-vs-villarreal-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0917/157396fd-14ca-4db1-947c-081ea6753579/157396fd-14ca-4db1-947c-081ea6753579.jpg",
-      "category": "football"
-    },
-    {
       "title": "Weekend predictions: Madrid derby heats up LaLiga, Brighton to stun Arsenal?",
       "league": "Serie A",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-17T19:37:26.000Z",
       "excerpt": "It's another big weekend of matches in Europe which will include heated derbies, top-of-the-table matchups and other rivalries.",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Transfer rumors, news: Liverpool targeting former Bayern Munich midfielder",
       "league": "Bundesliga",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-17T19:31:31.000Z",
       "excerpt": "PSV Eindhoven's Paul Wanner has emerged as a Liverpool target. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "PSG ultras take legal action over Marseille travel ban",
       "league": "Ligue 1",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-17T16:45:56.000Z",
       "excerpt": "Paris Saint-Germain fans have been banned from traveling to Marseille due to the risk of violent clashes between supporters in connection wi",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Still at zero: Viral Man United fan's haircut challenge nears two years",
       "league": "Champions League",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-17T15:10:06.000Z",
       "excerpt": "Viral Manchester United fan Frank Ilett's haircut challenge is nearing the two-year mark and he's back to square 1.",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "World soccer's hottest men's teams right now: Can anyone stop Barcelona?",
       "league": "Serie A",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-17T12:29:29.000Z",
       "excerpt": "Is there any team hotter in world soccer right now than Barcelona? Bill Connelly crunches the numbers to tell us the most in-form European t",
       "source": "ESPN",
