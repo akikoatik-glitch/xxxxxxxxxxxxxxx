@@ -1,22 +1,77 @@
 {
-  "lastUpdate": "2026-09-18T20:16:19.073Z",
+  "lastUpdate": "2026-09-18T22:16:06.004Z",
   "news": [
     {
-      "title": "Brentford vs. Chelsea LIVE: Premier League updates as both sides search for breakthrough",
+      "title": "USMNT's Balogun makes season debut for Monaco after failed transfer",
+      "league": "Ligue 1",
+      "time": "0h ago",
+      "published": "2026-09-18T22:01:19.000Z",
+      "excerpt": "United States striker Folarin Balogun made his first appearance of the season for AS Monaco in its 2-1 win over Lens on Friday.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49975052/usa-folarin-balogun-monaco-transfer-everton",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718778_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Garcia: Diomandé would make the difference in Madrid derby",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-18T21:57:54.000Z",
+      "excerpt": "Garcia: Diomandé would make the difference in Madrid derby",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49975225/diomande-make-difference-madrid-derby",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0918/dm_260918_Garcia_Diomande_would_make_the_difference_in_Madrid_derby/dm_260918_Garcia_Diomande_would_make_the_difference_in_Madrid_derby.jpg",
+      "category": "football"
+    },
+    {
+      "title": "How can erratic Chelsea find stability? For starters: Look to Brentford",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-18T20:10:46.000Z",
-      "excerpt": "Brentford host London rivals Chelsea in the Premier League's Friday evening action, and you can follow live with ESPN.",
+      "published": "2026-09-18T21:45:49.000Z",
+      "excerpt": "Brentford's 3-0 thrashing of Chelsea served as a humbling reminder of what a well-run club can accomplish.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49974564/how-chelsea-find-stability-look-brentford-premier-league",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718755_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Brentford 3-0 Chelsea: Premier League action as Bees sink Xabi Alonso's Blues - as it happened",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-18T21:32:09.000Z",
+      "excerpt": "Goals from Jaidon Anthony, Igor Thiago and Fábio Carvalho see Brentford beat Chelsea. Follow reaction with ESPN.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49973574/brentford-chelsea-live-premier-league-updates-commentary-score-news-west-london-clash",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718725_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718740_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Olise nets hat trick, Kane makes history in Bayern rout",
+      "league": "Bundesliga",
+      "time": "1h ago",
+      "published": "2026-09-18T21:10:46.000Z",
+      "excerpt": "Michael Olise scored his first Bayern Munich hat trick as the German champions romped to a 7-0 demolition of visiting Union Berlin in the Bu",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401884790",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718739_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Espanyol vs. Elche - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-18T21:10:01.000Z",
+      "excerpt": "Watch the Game Highlights from Espanyol vs. Elche, 09/18/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49975036/espanyol-vs-elche-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0918/8db12e66-afb4-4840-b691-3756c6c01c32/8db12e66-afb4-4840-b691-3756c6c01c32.jpg",
       "category": "football"
     },
     {
       "title": "Harry Kane becomes quickest in history to 100 Bundesliga goals",
       "league": "Bundesliga",
-      "time": "0h ago",
-      "published": "2026-09-18T19:52:47.000Z",
+      "time": "1h ago",
+      "published": "2026-09-18T20:37:50.000Z",
       "excerpt": "Bayern Munich striker Harry Kane became the fastest player in history to reach 100 Bundesliga goals, reaching the milestone in just his 98th",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49965151/harry-kane-fastest-record-100-bundesliga-goals-bayern-munich",
@@ -26,7 +81,7 @@
     {
       "title": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "league": "Ligue 1",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-18T19:42:25.000Z",
       "excerpt": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "source": "ESPN",
@@ -35,53 +90,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Real Madrid, Barcelona track Man City-bound USMNT star Sullivan",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-18T19:11:31.000Z",
-      "excerpt": "Real Madrid and Barcelona could make a future move for USMNT youngster Cavan Sullivan. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49970584/transfer-rumors-news-real-madrid-barcelona-track-man-city-bound-usmnt-star-sullivan",
-      "image": "https://a.espncdn.com/photo/2026/0903/r1711097_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Lamine Yamal says he has experienced racism 'a thousand times'",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-18T19:01:35.000Z",
-      "excerpt": "Barcelona star Lamine Yamal has revealed that he has experienced racism \"a thousand times.\"",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49972742/lamine-yamal-reveals-experienced-racism-thousand-s",
-      "image": "https://a.espncdn.com/photo/2026/0905/r1711587_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Ex-U.S. youth defender Noahkai Banks picks Germany over USMNT",
-      "league": "Bundesliga",
-      "time": "2h ago",
-      "published": "2026-09-18T17:51:49.000Z",
-      "excerpt": "The German Football Federation announced on Friday that coveted dual national defender Noahkai Banks has pledged his international future to",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49974049/noahkai-banks-germany-usa-augsburg",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718669_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Lookman: Alvarez didn't break relationship with Atlético squad",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-09-18T17:41:03.000Z",
-      "excerpt": "Lookman: Alvarez didn't break relationship with Atlético squad",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49974179/alvarez-break-relationship-atletico-squad",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0918/dm_260918_COM_SOC_Interview_Lookman_Alvarez_didnt_break_relationship_with_Atletico_squad_20260918_GLOBAL/dm_260918_COM_SOC_Interview_Lookman_Alvarez_didnt_break_relationship_with_Atletico_squad_20260918_GLOBAL.jpg",
-      "category": "football"
-    },
-    {
       "title": "As San Siro turns 100, AC Milan and Inter prepare to build a new home",
       "league": "Serie A",
-      "time": "11h ago",
+      "time": "13h ago",
       "published": "2026-09-18T08:44:40.000Z",
       "excerpt": "After 100 magical years, San Siro is running out of time as longtime Serie A rivals AC Milan and Inter Milan are building a state-of-the-art",
       "source": "ESPN",
