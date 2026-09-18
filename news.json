@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-09-18T14:16:55.397Z",
+  "lastUpdate": "2026-09-18T16:15:48.613Z",
   "news": [
+    {
+      "title": "Dominic Calvert-Lewin is 'like a good wine,' says Leeds boss Daniel Farke",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-18T14:33:55.000Z",
+      "excerpt": "Daniel Farke said Dominic Calvert-Lewin is \"like a good wine\" following the in-form striker's call-up into Thomas Tuchel's England squad.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49973247/dominic-calvert-lewin-good-wine-leeds-boss-daniel-farke",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718586_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Iraola: It will be 'strange' returning to Bournemouth as Liverpool manager",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-18T14:02:48.000Z",
       "excerpt": "Iraola: It will be 'strange' returning to Bournemouth as Liverpool manager",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Lamine Yamal reveals he has experienced racism 'a thousand times'",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-18T13:51:01.000Z",
       "excerpt": "Barcelona star Lamine Yamal has revealed that he has experienced racism \"a thousand times.\"",
       "source": "ESPN",
@@ -24,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "De Zerbi: Tottenham players need to understand the intensity of the Premier League",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-18T13:43:50.000Z",
-      "excerpt": "De Zerbi: Tottenham players need to understand the intensity of the Premier League",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49972823/tottenham-players-need-understand-intensity-premier-league",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0918/dm_260918_COM_SOC_Analysis_De_Zerbi3A_Tottenham_players_need_to_understand_the_intensity_of_the_Premier_League/dm_260918_COM_SOC_Analysis_De_Zerbi3A_Tottenham_players_need_to_understand_the_intensity_of_the_Premier_League.jpg",
-      "category": "football"
-    },
-    {
       "title": "Kylian Mbappé: I want to bring Ballon d'Or to Bernabéu despite boos",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-18T13:00:12.000Z",
       "excerpt": "Kylian Mbappé has reiterated his desire to win the Ballon d'Or but has called for more support from Real Madrid fans after a trophyless two ",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "As San Siro turns 100, AC Milan and Inter prepare to build a new home",
       "league": "Serie A",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-18T08:44:40.000Z",
       "excerpt": "After 100 magical years, San Siro is running out of time as longtime Serie A rivals AC Milan and Inter Milan are building a state-of-the-art",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Weekend predictions: Madrid derby heats up LaLiga, Brighton to stun Arsenal?",
       "league": "Serie A",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-17T19:37:26.000Z",
       "excerpt": "It's another big weekend of matches in Europe which will include heated derbies, top-of-the-table matchups and other rivalries.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Liverpool targeting former Bayern Munich midfielder",
       "league": "Bundesliga",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-17T19:31:31.000Z",
       "excerpt": "PSV Eindhoven's Paul Wanner has emerged as a Liverpool target. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "PSG ultras take legal action over Marseille travel ban",
       "league": "Ligue 1",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-17T16:45:56.000Z",
       "excerpt": "Paris Saint-Germain fans have been banned from traveling to Marseille due to the risk of violent clashes between supporters in connection wi",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "Still at zero: Viral Man United fan's haircut challenge nears two years",
       "league": "Champions League",
-      "time": "23h ago",
+      "time": "17/09/2026",
       "published": "2026-09-17T15:10:06.000Z",
       "excerpt": "Viral Manchester United fan Frank Ilett's haircut challenge is nearing the two-year mark and he's back to square 1.",
       "source": "ESPN",
