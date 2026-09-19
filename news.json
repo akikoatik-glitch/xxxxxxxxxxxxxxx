@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-19T16:16:27.464Z",
+  "lastUpdate": "2026-09-19T18:18:30.828Z",
   "news": [
+    {
+      "title": "European soccer live updates: Brighton humble Premier League champs Arsenal",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-19T18:01:42.000Z",
+      "excerpt": "Another weekend of European soccer action continues with Brighton & Hove Albion hosting Premier League leaders and defending champions Arsen",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49944459/european-soccer-live-updates-tottenham-aston-villa-brighton-arsenal-inter-roma-sevilla-barcelona",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718991_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arsenal's aura of champions evaporates after Brighton thrash them 3-0",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-19T17:13:08.000Z",
+      "excerpt": "The strengths that won Arsenal the title deserted them at Brighton, which celebrated their 125th anniversary with a thumping victory over th",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49978067/arsenal-aura-premier-league-champions-evaporates-brighton-thrash-3-0",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718995_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Athletic Club vs. Alavés - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-19T16:15:04.000Z",
       "excerpt": "Watch the Game Highlights from Athletic Club vs. Alavés, 09/20/2026",
       "source": "ESPN",
@@ -13,31 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Thierno Barry strikes for Everton to sink 10-man Ipswich",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-19T16:11:16.000Z",
-      "excerpt": "Abdul Fatawu's dismissal after being shown a second yellow card for diving capped a frustrating afternoon for Ipswich in their 1-0 defeat at",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401878778",
-      "image": "https://a.espncdn.com/photo/2026/0919/r1718997_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Arsenal battered by brilliant Brighton to end perfect start",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-19T16:06:40.000Z",
-      "excerpt": "Arsenal's 100% start to their Premier League title defence ended in emphatic fashion as Brighton secured a stunning 3-0 win against Mikel Ar",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401879274",
-      "image": "https://a.espncdn.com/photo/2026/0919/r1718979_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Deco confirms Barcelona contract extensions for Raphinha, Marc Bernal and Xavi Espart",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-19T15:53:25.000Z",
       "excerpt": "Barcelona sporting director Deco has confirmed agreements to extend Raphinha, Marc Bernal and Xavi Espart's contracts.",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "league": "Bundesliga",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-19T11:42:16.000Z",
       "excerpt": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Inter Milan, Italy great Sandro Mazzola dies at 83: 'An eternal symbol'",
       "league": "Serie A",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-19T08:24:04.000Z",
       "excerpt": "Inter Milan have paid tribute to one-club man and Italy great Sandro Mazzola after his death at the age of 83.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "USMNT's Balogun makes season debut for Monaco after failed transfer",
       "league": "Ligue 1",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-18T22:01:19.000Z",
       "excerpt": "United States striker Folarin Balogun made his first appearance of the season for AS Monaco in its 2-1 win over Lens on Friday.",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Olise nets hat trick, Kane makes history in Bayern rout",
       "league": "Bundesliga",
-      "time": "19h ago",
+      "time": "21h ago",
       "published": "2026-09-18T21:10:46.000Z",
       "excerpt": "Michael Olise scored his first Bayern Munich hat trick as the German champions romped to a 7-0 demolition of visiting Union Berlin in the Bu",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "league": "Ligue 1",
-      "time": "20h ago",
+      "time": "22h ago",
       "published": "2026-09-18T19:42:25.000Z",
       "excerpt": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "source": "ESPN",
