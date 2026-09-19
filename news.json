@@ -1,32 +1,43 @@
 {
-  "lastUpdate": "2026-09-19T10:16:06.300Z",
+  "lastUpdate": "2026-09-19T12:20:35.377Z",
   "news": [
     {
       "title": "European soccer live updates: Tottenham, Aston Villa both chasing first win",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-19T10:01:06.000Z",
+      "published": "2026-09-19T12:03:24.000Z",
       "excerpt": "Tottenham Hotspur and Aston Villa are looking for their first Premier League win of the season, as another weekend of European soccer begins",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49944459/european-soccer-live-updates-tottenham-aston-villa-brighton-arsenal-inter-roma-sevilla-barcelona",
-      "image": "https://a.espncdn.com/photo/2026/0914/r1716785_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718913_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Liverpool's Andoni Iraola admits Bournemouth will be aware of his tactics ahead of 'tricky' return",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-19T08:43:04.000Z",
-      "excerpt": "Andoni Iraola is looking forward to returning to Bournemouth with Liverpool -- even if the opponents may understand his methods better than ",
+      "title": "Kane: 'So proud' to break Bundesliga 100-goal record",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-09-19T11:42:16.000Z",
+      "excerpt": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49977893/liverpool-andoni-iraola-admits-bournemouth-aware-tactics-ahead-tricky-return",
-      "image": "https://a.espncdn.com/photo/2026/0531/r1666241_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/49978446/proud-break-bundesliga-100-goal-record",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_COM_SOC_INTERVIEW_Kane_So_proud_to_break_Bundesliga_100-goal_record_2026_9_19/dm_260919_COM_SOC_INTERVIEW_Kane_So_proud_to_break_Bundesliga_100-goal_record_2026_9_19.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arteta: Dowman is balancing school and football",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-19T11:25:28.000Z",
+      "excerpt": "Arteta: Dowman is balancing school and football",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49978381/dowman-balancing-school-football",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_COM_SOC_PRESSER_Arteta_Dowman_is_balancing_school_and_football_2026_9_19/dm_260919_COM_SOC_PRESSER_Arteta_Dowman_is_balancing_school_and_football_2026_9_19.jpg",
       "category": "football"
     },
     {
       "title": "Inter Milan, Italy great Sandro Mazzola dies at 83: 'An eternal symbol'",
       "league": "Serie A",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-19T08:24:04.000Z",
       "excerpt": "Inter Milan have paid tribute to one-club man and Italy great Sandro Mazzola after his death at the age of 83.",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Source: Former Mexico boss Aguirre close to taking over struggling Valencia",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-19T01:46:11.000Z",
       "excerpt": "Former Mexico boss Javier Aguirre has emerged as the leading candidate to fill Valencia's coaching vacancy, a source told ESPN.",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Harry Kane becomes quickest in history to 100 Bundesliga goals",
-      "league": "Bundesliga",
-      "time": "11h ago",
-      "published": "2026-09-18T22:28:27.000Z",
-      "excerpt": "Bayern Munich striker Harry Kane became the fastest player in history to reach 100 Bundesliga goals, reaching the milestone in just his 98th",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49965151/harry-kane-fastest-record-100-bundesliga-goals-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718710_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "USMNT's Balogun makes season debut for Monaco after failed transfer",
       "league": "Ligue 1",
-      "time": "12h ago",
+      "time": "14h ago",
       "published": "2026-09-18T22:01:19.000Z",
       "excerpt": "United States striker Folarin Balogun made his first appearance of the season for AS Monaco in its 2-1 win over Lens on Friday.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Garcia: Diomandé would make the difference in Madrid derby",
       "league": "La Liga",
-      "time": "12h ago",
+      "time": "14h ago",
       "published": "2026-09-18T21:57:54.000Z",
       "excerpt": "Garcia: Diomandé would make the difference in Madrid derby",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Olise nets hat trick, Kane makes history in Bayern rout",
       "league": "Bundesliga",
-      "time": "13h ago",
+      "time": "15h ago",
       "published": "2026-09-18T21:10:46.000Z",
       "excerpt": "Michael Olise scored his first Bayern Munich hat trick as the German champions romped to a 7-0 demolition of visiting Union Berlin in the Bu",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "league": "Ligue 1",
-      "time": "14h ago",
+      "time": "16h ago",
       "published": "2026-09-18T19:42:25.000Z",
       "excerpt": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "source": "ESPN",
