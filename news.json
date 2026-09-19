@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-19T06:20:41.388Z",
+  "lastUpdate": "2026-09-19T08:17:29.669Z",
   "news": [
+    {
+      "title": "Xabi Alonso joins unwanted managerial group after heavy Brentford defeat",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-19T07:30:44.000Z",
+      "excerpt": "Chelsea's Xabi Alonso joined an unenvied group of managers on Friday night as his side continued their poor defensive start to the Premier L",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49977319/xabi-alonso-joins-unwanted-managerial-group-heavy-brentford-defeat",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718876_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Brentford upset Chelsea in historic win at home",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-19T07:12:33.000Z",
+      "excerpt": "Brentford record a home win against Chelsea for the first time since 1938, as they cruise to a 3-0 win over the Blues at Gtech Community Sta",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49977684/brentford-upset-chelsea-historic-win-home",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_Soccer_HIGHLIGHT_Brentford_upset_Chelsea_in_historic_win_at_home_20260919_AUS/dm_260919_Soccer_HIGHLIGHT_Brentford_upset_Chelsea_in_historic_win_at_home_20260919_AUS.jpg",
+      "category": "football"
+    },
     {
       "title": "Source: Former Mexico boss Aguirre close to taking over struggling Valencia",
       "league": "La Liga",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-19T01:46:11.000Z",
       "excerpt": "Former Mexico boss Javier Aguirre has emerged as the leading candidate to fill Valencia's coaching vacancy, a source told ESPN.",
       "source": "ESPN",
@@ -13,31 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Xabi Alonso says Chelsea were 'out of control' in Brentford loss",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-09-18T23:02:58.000Z",
-      "excerpt": "Xabi Alonso said his Chelsea team lost control against Brentford in their 3-0 defeat on Friday evening and agreed with Levi Colwill that his",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49975410/alonso-says-chelsea-were-control-brentford-defeat",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718798_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Arsenal, Mikel Arteta open to Max Dowman loan move",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-09-18T23:00:24.000Z",
-      "excerpt": "Arsenal are \"open\" to allowing teen sensation Max Dowman to leave the club on loan if he does not play enough matches.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49975446/arsenal-mikel-arteta-open-max-dowman-loan-move",
-      "image": "https://a.espncdn.com/photo/2026/0915/r1717224_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Harry Kane becomes quickest in history to 100 Bundesliga goals",
       "league": "Bundesliga",
-      "time": "7h ago",
+      "time": "9h ago",
       "published": "2026-09-18T22:28:27.000Z",
       "excerpt": "Bayern Munich striker Harry Kane became the fastest player in history to reach 100 Bundesliga goals, reaching the milestone in just his 98th",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "USMNT's Balogun makes season debut for Monaco after failed transfer",
       "league": "Ligue 1",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-18T22:01:19.000Z",
       "excerpt": "United States striker Folarin Balogun made his first appearance of the season for AS Monaco in its 2-1 win over Lens on Friday.",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Garcia: Diomandé would make the difference in Madrid derby",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-18T21:57:54.000Z",
       "excerpt": "Garcia: Diomandé would make the difference in Madrid derby",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Olise nets hat trick, Kane makes history in Bayern rout",
       "league": "Bundesliga",
-      "time": "9h ago",
+      "time": "11h ago",
       "published": "2026-09-18T21:10:46.000Z",
       "excerpt": "Michael Olise scored his first Bayern Munich hat trick as the German champions romped to a 7-0 demolition of visiting Union Berlin in the Bu",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "league": "Ligue 1",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-18T19:42:25.000Z",
       "excerpt": "Enrique questions why Doué isn't a Ballon d'Or contender",
       "source": "ESPN",
@@ -92,7 +92,7 @@
     {
       "title": "As San Siro turns 100, AC Milan and Inter prepare to build a new home",
       "league": "Serie A",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-09-18T08:44:40.000Z",
       "excerpt": "After 100 magical years, San Siro is running out of time as longtime Serie A rivals AC Milan and Inter Milan are building a state-of-the-art",
       "source": "ESPN",
