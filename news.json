@@ -1,10 +1,54 @@
 {
-  "lastUpdate": "2026-09-20T20:15:40.137Z",
+  "lastUpdate": "2026-09-20T22:15:20.753Z",
   "news": [
+    {
+      "title": "Christian Pulisic starts, gets first Milan goal of 2026 in win",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-20T21:33:35.000Z",
+      "excerpt": "AC Milan continued their unbeaten run in Serie A with a 3-0 win over Lecce at San Siro on Sunday.",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874944",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719672_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Marseille fans bash U.S. owner McCourt's 'Ligue 2 project'",
+      "league": "Ligue 1",
+      "time": "1h ago",
+      "published": "2026-09-20T21:12:31.000Z",
+      "excerpt": "Angry Marseille fans displayed banners hostile to the club's American owner, Frank McCourt, ahead of and during their Ligue 1 loss to Paris ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49992210/marseille-fans-bash-us-owner-mccourt",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719690_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Valencia vs. Real Sociedad - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-20T21:07:00.000Z",
+      "excerpt": "Watch the Game Highlights from Valencia vs. Real Sociedad, 09/20/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49992539/valencia-vs-real-sociedad-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/7befc590-1093-466c-b29b-1f3c83904125/7befc590-1093-466c-b29b-1f3c83904125.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Simeone: Mourinho crossed a line with referee rant after Madrid derby",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-20T20:40:40.000Z",
+      "excerpt": "Simeone: Mourinho crossed a line with referee rant after Madrid derby",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49992204/mourinho-crossed-line-withreferee-rant-madrid-derby",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/dm_260920_COM_SOC_Presser_Simeone_Mourinho_crossed_a_line_withreferee_rant_after_Madrid_derby__20260920/dm_260920_COM_SOC_Presser_Simeone_Mourinho_crossed_a_line_withreferee_rant_after_Madrid_derby__20260920.jpg",
+      "category": "football"
+    },
     {
       "title": "Carrick encouraged by Man United's late draw vs. Fulham",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-20T19:32:44.000Z",
       "excerpt": "Carrick encouraged by Man United's late draw vs. Fulham",
       "source": "ESPN",
@@ -15,34 +59,12 @@
     {
       "title": "Carrick squashes notion Manchester United are out of shape",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-20T19:26:19.000Z",
       "excerpt": "Michael Carrick played down concerns that Manchester United's poor start to the season has been caused by a lack of fitness within the squad",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49991106/carrick-squashes-notion-manchester-united-shape",
       "image": "https://a.espncdn.com/photo/2026/0920/r1719613_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Villarreal vs. Levante - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-20T18:55:31.000Z",
-      "excerpt": "Watch the Game Highlights from Villarreal vs. Levante, 09/20/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49991104/villarreal-vs-levante-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/120da35a-93b7-409b-94d2-36db0656abba/120da35a-93b7-409b-94d2-36db0656abba.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Deportivo La Coruña vs. Real Betis - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-20T18:55:00.000Z",
-      "excerpt": "Watch the Game Highlights from Deportivo La Coruña vs. Real Betis, 09/20/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49991080/deportivo-la-coruna-vs-real-betis-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/f0152f4d-c859-4edd-8597-445e7bebdbb7/f0152f4d-c859-4edd-8597-445e7bebdbb7.jpg",
       "category": "football"
     },
     {
@@ -79,17 +101,6 @@
       "category": "football"
     },
     {
-      "title": "USMNT's Balogun makes season debut for Monaco after failed transfer",
-      "league": "Ligue 1",
-      "time": "18/09/2026",
-      "published": "2026-09-18T22:01:19.000Z",
-      "excerpt": "United States striker Folarin Balogun made his first appearance of the season for AS Monaco in its 2-1 win over Lens on Friday.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49975052/usa-folarin-balogun-monaco-transfer-everton",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718778_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Olise nets hat trick, Kane makes history in Bayern rout",
       "league": "Bundesliga",
       "time": "18/09/2026",
@@ -98,17 +109,6 @@
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401884790",
       "image": "https://a.espncdn.com/photo/2026/0918/r1718739_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "As San Siro turns 100, AC Milan and Inter prepare to build a new home",
-      "league": "Serie A",
-      "time": "18/09/2026",
-      "published": "2026-09-18T08:44:40.000Z",
-      "excerpt": "After 100 magical years, San Siro is running out of time as longtime Serie A rivals AC Milan and Inter Milan are building a state-of-the-art",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49965401/ac-milan-inter-milan-italian-serie-san-siro-albertini-costacurta-demolition",
-      "image": "https://a.espncdn.com/photo/2026/0917/r1718227_1296x729_16-9.jpg",
       "category": "football"
     },
     {
