@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-09-20T00:24:27.001Z",
+  "lastUpdate": "2026-09-20T02:16:26.973Z",
   "news": [
+    {
+      "title": "Tottenham's horror start continues with home loss to Villa",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-20T00:37:33.000Z",
+      "excerpt": "Aston Villa heap pressure on Roberto De Zerbi's big-spending and still winless Spurs with a 3-2 victory at Tottenham Hotspur stadium.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49984178/tottenham-horror-start-continues-home-loss-villa",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_EPL_Highlight_Tottenhams_horror_start_continues_with_home_loss_to_Villa_20260920_AUS_ONLY/dm_260919_EPL_Highlight_Tottenhams_horror_start_continues_with_home_loss_to_Villa_20260920_AUS_ONLY.jpg",
+      "category": "football"
+    },
     {
       "title": "Brighton shatter Arsenal's perfect start",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-19T23:52:59.000Z",
       "excerpt": "Brighton shock Mikel Arteta's dumbstruck side 3-0 to end Arsenal's 100% start to their EPL title defense in stunning fashion.",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Sevilla's Luis García: 'It's a joke' Raphinha not Ballon d'Or nominee after another Barcelona hat trick",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-19T22:55:15.000Z",
       "excerpt": "Sevilla coach Luis García said it is a joke Raphinha is not among the Ballon d'Or nominees after watching the Barcelona forward score a hat-",
       "source": "ESPN",
@@ -24,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Keller: Tottenham don't have the ownership they need",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-19T22:25:34.000Z",
-      "excerpt": "Keller: Tottenham don't have the ownership they need",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49982914/tottenham-ownership-need",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0919/dm_260919_Keller_Tottenham_dont_have_the_ownership_they_need/dm_260919_Keller_Tottenham_dont_have_the_ownership_they_need.jpg",
-      "category": "football"
-    },
-    {
       "title": "McManaman: Madrid derby puts huge pressure on Mourinho",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-19T22:25:26.000Z",
       "excerpt": "McManaman: Madrid derby puts huge pressure on Mourinho",
       "source": "ESPN",
@@ -48,7 +48,7 @@
     {
       "title": "Liam Rosenior taunts Strasbourg fans, causes melee: 'They disrespected my family'",
       "league": "Ligue 1",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-19T19:00:32.000Z",
       "excerpt": "Liam Rosenior has caused controversy after he went over to celebrate Paris FC's 2-1 home win over his former club Strasbourg in front of the",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "league": "Bundesliga",
-      "time": "12h ago",
+      "time": "14h ago",
       "published": "2026-09-19T11:42:16.000Z",
       "excerpt": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Inter Milan, Italy great Sandro Mazzola dies at 83: 'An eternal symbol'",
       "league": "Serie A",
-      "time": "16h ago",
+      "time": "17h ago",
       "published": "2026-09-19T08:24:04.000Z",
       "excerpt": "Inter Milan have paid tribute to one-club man and Italy great Sandro Mazzola after his death at the age of 83.",
       "source": "ESPN",
