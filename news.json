@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-09-20T12:20:11.922Z",
+  "lastUpdate": "2026-09-20T14:15:33.473Z",
   "news": [
     {
-      "title": "European soccer live updates: Man City, Liverpool in action",
+      "title": "Getafe vs. Málaga - Game Highlights",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-20T14:11:51.000Z",
+      "excerpt": "Watch the Game Highlights from Getafe vs. Málaga, 09/20/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49988980/getafe-vs-malaga-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/e08c25a8-6efc-43e0-bc5d-7e5bc76207a9/e08c25a8-6efc-43e0-bc5d-7e5bc76207a9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bruno Guimarães: Arsenal performance in Brighton defeat not fit for champions",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-20T12:02:51.000Z",
-      "excerpt": "The European soccer weekend continues with Man City looking to go clear at the top of the Premier League vs. Sunderland, and Liverpool facin",
+      "published": "2026-09-20T13:19:07.000Z",
+      "excerpt": "Bruno Guimarães said Arsenal's \"unacceptable\" performance in their defeat at Brighton was not fit for a Premier League champions' shirt.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49945948/european-soccer-live-updates-liverpool-manchester-city-atletico-madrid-real-madrid-manchester-united",
-      "image": "https://a.espncdn.com/photo/2026/0915/r1716875_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/49988672/bruno-guimaraes-arsenal-performance-brighton-defeat-not-fit-champions",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719400_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Flick: Raphinha is very happy to play as a nine for Barcelona",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-20T11:56:52.000Z",
       "excerpt": "Flick: Raphinha is very happy to play as a nine for Barcelona",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Tottenham boss Roberto De Zerbi wants more from Dominic Solanke: 'Not good enough'",
       "league": "Premier League",
-      "time": "2h ago",
+      "time": "4h ago",
       "published": "2026-09-20T09:20:53.000Z",
       "excerpt": "Roberto De Zerbi has acknowledged Tottenham Hotspur need more from Dominic Solanke after he criticised the physical condition of the forward",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Arsenal target Real Madrid's Endrick in January",
-      "league": "La Liga",
-      "time": "3h ago",
-      "published": "2026-09-20T08:47:04.000Z",
-      "excerpt": "Real Madrid striker Endrick could be the subject of a January bid from Premier League champions Arsenal. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49987466/transfer-rumors-news-arsenal-offer-endrick-way-real-madrid",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719358_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Liam Rosenior taunts Strasbourg fans, causes melee: 'They disrespected my family'",
       "league": "Ligue 1",
-      "time": "17h ago",
+      "time": "19h ago",
       "published": "2026-09-19T19:00:32.000Z",
       "excerpt": "Liam Rosenior has caused controversy after he went over to celebrate Paris FC's 2-1 home win over his former club Strasbourg in front of the",
       "source": "ESPN",
