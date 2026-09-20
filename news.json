@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-20T10:15:47.124Z",
+  "lastUpdate": "2026-09-20T12:20:11.922Z",
   "news": [
+    {
+      "title": "European soccer live updates: Man City, Liverpool in action",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-20T12:02:51.000Z",
+      "excerpt": "The European soccer weekend continues with Man City looking to go clear at the top of the Premier League vs. Sunderland, and Liverpool facin",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49945948/european-soccer-live-updates-liverpool-manchester-city-atletico-madrid-real-madrid-manchester-united",
+      "image": "https://a.espncdn.com/photo/2026/0915/r1716875_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Flick: Raphinha is very happy to play as a nine for Barcelona",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-20T11:56:52.000Z",
+      "excerpt": "Flick: Raphinha is very happy to play as a nine for Barcelona",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49988133/raphinha-very-happy-play-nine-barcelona",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/dm_260920_COM_SOC_Analysis_Flick3A_Raphinha_is_very_happy_to_play_as_a_nine_for_Barcelona_GLOBAL_2026-09-20/dm_260920_COM_SOC_Analysis_Flick3A_Raphinha_is_very_happy_to_play_as_a_nine_for_Barcelona_GLOBAL_2026-09-20.jpg",
+      "category": "football"
+    },
     {
       "title": "Tottenham boss Roberto De Zerbi wants more from Dominic Solanke: 'Not good enough'",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-20T09:20:53.000Z",
       "excerpt": "Roberto De Zerbi has acknowledged Tottenham Hotspur need more from Dominic Solanke after he criticised the physical condition of the forward",
       "source": "ESPN",
@@ -14,8 +36,8 @@
     },
     {
       "title": "Transfer rumors, news: Arsenal target Real Madrid's Endrick in January",
-      "league": "Premier League",
-      "time": "1h ago",
+      "league": "La Liga",
+      "time": "3h ago",
       "published": "2026-09-20T08:47:04.000Z",
       "excerpt": "Real Madrid striker Endrick could be the subject of a January bid from Premier League champions Arsenal. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -24,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Sevilla's Luis García: 'It's a joke' Raphinha not Ballon d'Or nominee after another Barcelona hat trick",
-      "league": "La Liga",
-      "time": "11h ago",
-      "published": "2026-09-19T22:55:15.000Z",
-      "excerpt": "Sevilla coach Luis García said it is a joke Raphinha is not among the Ballon d'Or nominees after watching the Barcelona forward score a hat-",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49983111/raphinha-ballon-dor-sevilla-luis-garcia-joke-barcelona-hat-trick",
-      "image": "https://a.espncdn.com/photo/2026/0919/r1719156_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Liam Rosenior taunts Strasbourg fans, causes melee: 'They disrespected my family'",
       "league": "Ligue 1",
-      "time": "15h ago",
+      "time": "17h ago",
       "published": "2026-09-19T19:00:32.000Z",
       "excerpt": "Liam Rosenior has caused controversy after he went over to celebrate Paris FC's 2-1 home win over his former club Strasbourg in front of the",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "league": "Bundesliga",
-      "time": "22h ago",
+      "time": "19/09/2026",
       "published": "2026-09-19T11:42:16.000Z",
       "excerpt": "Kane: 'So proud' to break Bundesliga 100-goal record",
       "source": "ESPN",
