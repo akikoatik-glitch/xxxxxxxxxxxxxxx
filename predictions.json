@@ -1,8 +1,8 @@
 {
   "date": "2026-09-21",
-  "lastUpdate": "2026-09-21T10:17:15.123Z",
-  "predictionGenerated": "2026-09-21T10:17:15.123Z",
-  "dataTimestamp": "2026-09-21T10:17:15.123Z",
+  "lastUpdate": "2026-09-21T12:20:33.268Z",
+  "predictionGenerated": "2026-09-21T12:20:33.268Z",
+  "dataTimestamp": "2026-09-21T12:20:33.268Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,47 +610,47 @@
   ],
   "news": [
     {
-      "title": "Transfer rumors, news: Arsenal eye versatile Dortmund forward Beier",
+      "title": "Antoine Semenyo happy to lead Man City's attack if needed",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-09-21T11:37:56.000Z",
+      "excerpt": "Antoine Semenyo is ready to take on the challenge of leading Manchester City's attack if needed.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49997658/antoine-semenyo-man-city-erling-haaland-premier-league-enzo-maresca",
+      "image": "https://a.espncdn.com/photo/2026/0921/r1719951_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Lamine Camara better off in Monaco, ex-Chelsea midfielder says",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-21T11:28:23.000Z",
+      "excerpt": "Chelsea transfer target Lamine Camara has been told he is better off where he is by Monaco teammate and former Blues cast-off Denis Zakaria.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49997685/lamine-camara-better-monaco-ex-chelsea-midfielder-says",
+      "image": "https://a.espncdn.com/photo/2026/0921/r1719953_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ruben Amorim: 'I can't repeat my mistakes' after Man United",
+      "league": "Serie A",
+      "time": "1h ago",
+      "published": "2026-09-21T11:09:04.000Z",
+      "excerpt": "Ruben Amorim has vowed not to repeat the mistakes of his Manchester United tenure at AC Milan.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49997462/ruben-amorim-cant-repeat-my-mistakes-man-united",
+      "image": "https://a.espncdn.com/photo/2026/0828/r1708048_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal eye versatile Dortmund forward Beier",
+      "league": "Bundesliga",
+      "time": "2h ago",
       "published": "2026-09-21T09:43:45.000Z",
       "excerpt": "Arsenal are monitoring Borussia Dortmund forward Maximilian Beier as a potential attacking reinforcement. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/49996901/transfer-rumors-news-arsenal-eye-versatile-dortmund-forward-beier",
       "image": "https://a.espncdn.com/photo/2026/0921/r1719920_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Man United's Michael Carrick concerned about Benjamin Sesko's latest injury",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-21T08:59:38.000Z",
-      "excerpt": "Michael Carrick has raised concerns about Benjamin Sesko's latest injury by revealing the problem is connected to the same shin issue which ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49997130/man-united-michael-carrick-concerned-benjamin-sesko-latest-injury",
-      "image": "https://a.espncdn.com/photo/2026/0921/r1719927_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Why this 3-week international break is longest ever (and why that's a good thing)",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-09-21T07:52:39.000Z",
-      "excerpt": "Fans have grown used to international games interrupting the club season, but this break will be a week longer than before. It's not as bad ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49940653/why-3-week-international-break-longest-ever-why-thats-good-thing",
-      "image": "https://a.espncdn.com/photo/2026/0915/r1716998_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Christian Pulisic starts, gets first Milan goal of 2026 in win",
-      "league": "Serie A",
-      "time": "11h ago",
-      "published": "2026-09-20T23:14:37.000Z",
-      "excerpt": "AC Milan continued their unbeaten run in Serie A with a 3-0 win over Lecce at San Siro on Sunday.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401874944",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719672_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
