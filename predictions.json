@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-20",
-  "lastUpdate": "2026-09-20T22:15:20.805Z",
-  "predictionGenerated": "2026-09-20T22:15:20.805Z",
-  "dataTimestamp": "2026-09-20T22:15:18.114Z",
+  "date": "2026-09-21",
+  "lastUpdate": "2026-09-21T00:23:57.276Z",
+  "predictionGenerated": "2026-09-21T00:23:57.276Z",
+  "dataTimestamp": "2026-09-21T00:23:57.276Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:31+upcoming:30+fixtures:31)",
+  "source": "",
   "matches": [],
   "results": [
     {
@@ -612,8 +612,8 @@
     {
       "title": "Christian Pulisic starts, gets first Milan goal of 2026 in win",
       "league": "Serie A",
-      "time": "0h ago",
-      "published": "2026-09-20T21:33:35.000Z",
+      "time": "1h ago",
+      "published": "2026-09-20T23:14:37.000Z",
       "excerpt": "AC Milan continued their unbeaten run in Serie A with a 3-0 win over Lecce at San Siro on Sunday.",
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401874944",
@@ -621,9 +621,20 @@
       "category": "football"
     },
     {
+      "title": "Real Madrid loses 2-1 to Atlético",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-09-20T22:20:29.000Z",
+      "excerpt": "Alex Kirkland recaps José Mourinho's response to Real Madrid's loss.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49993383/real-madrid-loses-2-1-atletico",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/dm_260920_16x9_Real_Madrid_IA/dm_260920_16x9_Real_Madrid_IA.jpg",
+      "category": "football"
+    },
+    {
       "title": "Marseille fans bash U.S. owner McCourt's 'Ligue 2 project'",
       "league": "Ligue 1",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-20T21:12:31.000Z",
       "excerpt": "Angry Marseille fans displayed banners hostile to the club's American owner, Frank McCourt, ahead of and during their Ligue 1 loss to Paris ",
       "source": "ESPN",
@@ -634,23 +645,12 @@
     {
       "title": "Valencia vs. Real Sociedad - Game Highlights",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-20T21:07:00.000Z",
       "excerpt": "Watch the Game Highlights from Valencia vs. Real Sociedad, 09/20/2026",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/49992539/valencia-vs-real-sociedad-game-highlights",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/7befc590-1093-466c-b29b-1f3c83904125/7befc590-1093-466c-b29b-1f3c83904125.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Simeone: Mourinho crossed a line with referee rant after Madrid derby",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-20T20:40:40.000Z",
-      "excerpt": "Simeone: Mourinho crossed a line with referee rant after Madrid derby",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49992204/mourinho-crossed-line-withreferee-rant-madrid-derby",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/dm_260920_COM_SOC_Presser_Simeone_Mourinho_crossed_a_line_withreferee_rant_after_Madrid_derby__20260920/dm_260920_COM_SOC_Presser_Simeone_Mourinho_crossed_a_line_withreferee_rant_after_Madrid_derby__20260920.jpg",
       "category": "football"
     }
   ],
