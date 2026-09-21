@@ -1,8 +1,8 @@
 {
   "date": "2026-09-21",
-  "lastUpdate": "2026-09-21T04:17:24.021Z",
-  "predictionGenerated": "2026-09-21T04:17:24.021Z",
-  "dataTimestamp": "2026-09-21T04:17:24.021Z",
+  "lastUpdate": "2026-09-21T06:24:18.132Z",
+  "predictionGenerated": "2026-09-21T06:24:18.132Z",
+  "dataTimestamp": "2026-09-21T06:24:18.132Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,9 +610,20 @@
   ],
   "news": [
     {
+      "title": "Isak's winner lifts Liverpool to victory",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-21T05:55:49.000Z",
+      "excerpt": "Alexander Isak's second-half strike secures Liverpool boss Andoni Iraola a 1-0 victory over his former club Bournemouth.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49996523/isak-winner-lifts-liverpool-victory",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0921/dm_260921_EPL_Highlight_Isaks_winner_lifts_Liverpool_to_victory_20260921_AUS_ONLY/dm_260921_EPL_Highlight_Isaks_winner_lifts_Liverpool_to_victory_20260921_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
       "title": "Manchester City score five in thrilling win over Sunderland",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-21T02:40:47.000Z",
       "excerpt": "The Sky Blues remain top of the Premier League table after a goal-filled 5-3 victory over the Black Cats.",
       "source": "ESPN",
@@ -621,20 +632,9 @@
       "category": "football"
     },
     {
-      "title": "United stumble again at Fulham",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-09-21T01:09:42.000Z",
-      "excerpt": "A comical own goal by Lisandro Martínez saw Manchester United fail to win for a third Premier League game in a row as they drew 1-1 with Ful",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49995197/united-stumble-again-fulham",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/dm_260920_Soccer_HIGHLIGHT_United_stumble_again_at_Fulham_20260921_AUS/dm_260920_Soccer_HIGHLIGHT_United_stumble_again_at_Fulham_20260921_AUS.jpg",
-      "category": "football"
-    },
-    {
       "title": "Christian Pulisic starts, gets first Milan goal of 2026 in win",
       "league": "Serie A",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-20T23:14:37.000Z",
       "excerpt": "AC Milan continued their unbeaten run in Serie A with a 3-0 win over Lecce at San Siro on Sunday.",
       "source": "ESPN",
@@ -645,7 +645,7 @@
     {
       "title": "Real Madrid loses 2-1 to Atlético",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "8h ago",
       "published": "2026-09-20T22:20:29.000Z",
       "excerpt": "Alex Kirkland recaps José Mourinho's response to Real Madrid's loss.",
       "source": "ESPN",
