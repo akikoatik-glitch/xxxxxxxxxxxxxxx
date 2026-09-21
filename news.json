@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-09-21T02:16:47.360Z",
+  "lastUpdate": "2026-09-21T04:17:23.991Z",
   "news": [
+    {
+      "title": "Manchester City score five in thrilling win over Sunderland",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-21T02:40:47.000Z",
+      "excerpt": "The Sky Blues remain top of the Premier League table after a goal-filled 5-3 victory over the Black Cats.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/49995690/manchester-city-score-five-thrilling-win-sunderland",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/Int_260920_Soccer_HIGHLIGHT_Manchester_City_score_five_in_thrilling_win_over_Sunderland_2026921_AUS/Int_260920_Soccer_HIGHLIGHT_Manchester_City_score_five_in_thrilling_win_over_Sunderland_2026921_AUS.jpg",
+      "category": "football"
+    },
     {
       "title": "United stumble again at Fulham",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-21T01:09:42.000Z",
       "excerpt": "A comical own goal by Lisandro Martínez saw Manchester United fail to win for a third Premier League game in a row as they drew 1-1 with Ful",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Christian Pulisic starts, gets first Milan goal of 2026 in win",
       "league": "Serie A",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-20T23:14:37.000Z",
       "excerpt": "AC Milan continued their unbeaten run in Serie A with a 3-0 win over Lecce at San Siro on Sunday.",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Real Madrid loses 2-1 to Atlético",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-20T22:20:29.000Z",
       "excerpt": "Alex Kirkland recaps José Mourinho's response to Real Madrid's loss.",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Marseille fans bash U.S. owner McCourt's 'Ligue 2 project'",
       "league": "Ligue 1",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-20T21:12:31.000Z",
       "excerpt": "Angry Marseille fans displayed banners hostile to the club's American owner, Frank McCourt, ahead of and during their Ligue 1 loss to Paris ",
       "source": "ESPN",
@@ -48,23 +59,12 @@
     {
       "title": "Valencia vs. Real Sociedad - Game Highlights",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-20T21:07:00.000Z",
       "excerpt": "Watch the Game Highlights from Valencia vs. Real Sociedad, 09/20/2026",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/49992539/valencia-vs-real-sociedad-game-highlights",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/0920/7befc590-1093-466c-b29b-1f3c83904125/7befc590-1093-466c-b29b-1f3c83904125.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Carrick encouraged by Man United's late draw vs. Fulham",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-09-20T19:32:44.000Z",
-      "excerpt": "Carrick encouraged by Man United's late draw vs. Fulham",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/49991430/carrick-encouraged-man-united-late-draw-vs-fulham",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0920/dm_260920_COM_SOC_Presser_Carrick_encouraged_by_Man_Uniteds_late_draw_vs_Fulham__20260920_GLOBAL/dm_260920_COM_SOC_Presser_Carrick_encouraged_by_Man_Uniteds_late_draw_vs_Fulham__20260920_GLOBAL.jpg",
       "category": "football"
     },
     {
