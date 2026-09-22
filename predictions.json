@@ -1,8 +1,8 @@
 {
   "date": "2026-09-22",
-  "lastUpdate": "2026-09-22T14:17:04.536Z",
-  "predictionGenerated": "2026-09-22T14:17:04.536Z",
-  "dataTimestamp": "2026-09-22T14:17:04.536Z",
+  "lastUpdate": "2026-09-22T16:17:19.067Z",
+  "predictionGenerated": "2026-09-22T16:17:19.067Z",
+  "dataTimestamp": "2026-09-22T16:17:19.067Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,9 +610,20 @@
   ],
   "news": [
     {
-      "title": "Benjamin Šeško vows to 'fully dedicate' himself to recovery after Man United injury setback",
+      "title": "Transfer rumors, news: Liverpool, Arsenal, Man City in race for Feyenoord defender",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-09-22T15:58:13.000Z",
+      "excerpt": "Liverpool are monitoring Feyenoord right back Givairo Read, but face competition from Arsenal and Manchester City. Transfer Talk has the lat",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50003301/transfer-rumors-news-liverpool-arsenal-man-city-race-feyenoord-defender",
+      "image": "https://a.espncdn.com/photo/2026/0922/r1720304_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Benjamin Šeško vows to 'fully dedicate' himself to recovery after Man United injury setback",
+      "league": "Premier League",
+      "time": "2h ago",
       "published": "2026-09-22T13:19:00.000Z",
       "excerpt": "Manchester United striker Benjamin Sesko has vowed to \"fully dedicate\" himself to his recovery from an ongoing shin issue.",
       "source": "ESPN",
@@ -622,8 +633,8 @@
     },
     {
       "title": "Kylian Mbappé on past Liverpool transfer talks: 'Mum went to Anfield and fell in love'",
-      "league": "Premier League",
-      "time": "2h ago",
+      "league": "La Liga",
+      "time": "4h ago",
       "published": "2026-09-22T12:02:31.000Z",
       "excerpt": "Kylian Mbappé has described how his mother \"fell in love\" with Anfield and was keen for him to sign for Liverpool before he decided to join ",
       "source": "ESPN",
@@ -634,23 +645,12 @@
     {
       "title": "Gomez: Jonathan David and Julian Alvarez should play side-by-side",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "5h ago",
       "published": "2026-09-22T10:22:04.000Z",
       "excerpt": "Gomez: Jonathan David and Julian Alvarez should play side-by-side",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50004142/jonathan-david-julian-alvarez-play-side-side",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0922/dm_260922_Gomez_Jonathan_David_and_Julian_Alvarez_should_play_sidebyside/dm_260922_Gomez_Jonathan_David_and_Julian_Alvarez_should_play_sidebyside.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Soccer's wildest warmup kits of 2026-27: The good, the bad and the ugly",
-      "league": "Serie A",
-      "time": "6h ago",
-      "published": "2026-09-22T08:01:17.000Z",
-      "excerpt": "Forget home, away and third alternate jerseys -- the prematch warmup kit is where the real fun is to be had. Get a load of this season's bes",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49953407/soccer-wildest-warmup-kits-2026-27-good-bad-ugly",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717453_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
