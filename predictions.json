@@ -1,8 +1,8 @@
 {
   "date": "2026-09-23",
-  "lastUpdate": "2026-09-23T10:16:57.978Z",
-  "predictionGenerated": "2026-09-23T10:16:57.978Z",
-  "dataTimestamp": "2026-09-23T10:16:57.978Z",
+  "lastUpdate": "2026-09-23T12:21:41.681Z",
+  "predictionGenerated": "2026-09-23T12:21:41.681Z",
+  "dataTimestamp": "2026-09-23T12:21:41.681Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,32 +610,10 @@
   ],
   "news": [
     {
-      "title": "Sunderland penalty against Arsenal incorrect - Premier League panel",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-23T10:13:27.000Z",
-      "excerpt": "A penalty award strongly contested by Arsenal manager Mikel Arteta at Sunderland was incorrect, according to a unanimous decision from a Pre",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50012076/sunderland-penalty-arsenal-incorrect-premier-league-panel",
-      "image": "https://a.espncdn.com/photo/2026/0913/r1715793_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Joseph Yobo backs Alex Iwobi to break Ahmed Musa's Nigeria appearance record",
+      "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
       "league": "Premier League",
       "time": "1h ago",
-      "published": "2026-09-23T08:35:27.000Z",
-      "excerpt": "Former Nigeria captain Joseph Yobo believes Alex Iwobi can push his international career beyond 130 appearances, after becoming only the fou",
-      "source": "ESPN",
-      "url": "https://www.espn.com/espn/story/_/id/50011845/joseph-yobo-backs-alex-iwobi-break-ahmed-musa-nigeria-appearance-record",
-      "image": "https://a.espncdn.com/photo/2026/0609/r1670140_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
-      "league": "Bundesliga",
-      "time": "3h ago",
-      "published": "2026-09-23T06:55:33.000Z",
+      "published": "2026-09-23T11:10:06.000Z",
       "excerpt": "Erling Haaland is contracted to Manchester City for another eight years, but could Bayern Munich sign him? Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50011570/transfer-rumors-news-bayern-munich-sign-erling-haaland-replace-harry-kane",
@@ -643,9 +621,31 @@
       "category": "football"
     },
     {
+      "title": "Liverpool close to appointing Julian Ward as sporting director - sources",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-23T10:33:38.000Z",
+      "excerpt": "Liverpool are closing in on the appointment of Julian Ward as the club's new sporting director, sources told ESPN.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50012203/liverpool-close-appointing-julian-ward-sporting-director-sources",
+      "image": "https://a.espncdn.com/photo/2026/0923/r1720766_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Former Mexico coach Aguirre takes over at struggling Valencia",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-23T10:29:48.000Z",
+      "excerpt": "LaLiga side Valencia have appointed former Mexico coach Javier Aguirre on an initial deal until the end of the season.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50012135/former-mexico-coach-aguirre-takes-struggling-valencia",
+      "image": "https://a.espncdn.com/photo/2026/0918/r1718805_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Transfer rumors, news: Man United want Guirassy as potential Zirkzee replacement",
       "league": "Bundesliga",
-      "time": "11h ago",
+      "time": "14h ago",
       "published": "2026-09-22T22:18:45.000Z",
       "excerpt": "Manchester United are keeping tabs on Borussia Dortmund's Serhou Guirassy. Transfer Talk has the latest.",
       "source": "ESPN",
