@@ -1,8 +1,8 @@
 {
   "date": "2026-09-23",
-  "lastUpdate": "2026-09-23T08:17:52.510Z",
-  "predictionGenerated": "2026-09-23T08:17:52.510Z",
-  "dataTimestamp": "2026-09-23T08:17:52.510Z",
+  "lastUpdate": "2026-09-23T10:16:57.978Z",
+  "predictionGenerated": "2026-09-23T10:16:57.978Z",
+  "dataTimestamp": "2026-09-23T10:16:57.978Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,9 +610,31 @@
   ],
   "news": [
     {
-      "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
+      "title": "Sunderland penalty against Arsenal incorrect - Premier League panel",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-23T10:13:27.000Z",
+      "excerpt": "A penalty award strongly contested by Arsenal manager Mikel Arteta at Sunderland was incorrect, according to a unanimous decision from a Pre",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50012076/sunderland-penalty-arsenal-incorrect-premier-league-panel",
+      "image": "https://a.espncdn.com/photo/2026/0913/r1715793_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Joseph Yobo backs Alex Iwobi to break Ahmed Musa's Nigeria appearance record",
       "league": "Premier League",
       "time": "1h ago",
+      "published": "2026-09-23T08:35:27.000Z",
+      "excerpt": "Former Nigeria captain Joseph Yobo believes Alex Iwobi can push his international career beyond 130 appearances, after becoming only the fou",
+      "source": "ESPN",
+      "url": "https://www.espn.com/espn/story/_/id/50011845/joseph-yobo-backs-alex-iwobi-break-ahmed-musa-nigeria-appearance-record",
+      "image": "https://a.espncdn.com/photo/2026/0609/r1670140_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Could Bayern sign Haaland to replace Kane?",
+      "league": "Bundesliga",
+      "time": "3h ago",
       "published": "2026-09-23T06:55:33.000Z",
       "excerpt": "Erling Haaland is contracted to Manchester City for another eight years, but could Bayern Munich sign him? Transfer Talk has the latest.",
       "source": "ESPN",
@@ -622,35 +644,13 @@
     },
     {
       "title": "Transfer rumors, news: Man United want Guirassy as potential Zirkzee replacement",
-      "league": "Premier League",
-      "time": "9h ago",
+      "league": "Bundesliga",
+      "time": "11h ago",
       "published": "2026-09-22T22:18:45.000Z",
       "excerpt": "Manchester United are keeping tabs on Borussia Dortmund's Serhou Guirassy. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50003301/transfer-rumors-news-liverpool-arsenal-man-city-race-feyenoord-defender",
       "image": "https://a.espncdn.com/photo/2026/0922/r1720600_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Spain refs back Real, say Lee deserved red for Valverde tackle",
-      "league": "La Liga",
-      "time": "12h ago",
-      "published": "2026-09-22T19:30:51.000Z",
-      "excerpt": "Spain's Technical Committee of Referees said Lee Kang-In should have been sent off in Sunday's Madrid derby, while backing the decision not ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50007365/spain-refs-back-real-lee-red-valverde-tackle",
-      "image": "https://a.espncdn.com/photo/2026/0922/r1720531_1024x576_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Kylian Mbappé on past Liverpool transfer talks: 'Mum went to Anfield and fell in love'",
-      "league": "La Liga",
-      "time": "20h ago",
-      "published": "2026-09-22T12:02:31.000Z",
-      "excerpt": "Kylian Mbappé has described how his mother \"fell in love\" with Anfield and was keen for him to sign for Liverpool before he decided to join ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50004516/kylian-mbappe-liverpool-transfer-talks-mum-went-anfield-fell-love",
-      "image": "https://a.espncdn.com/photo/2026/0922/r1720348_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
