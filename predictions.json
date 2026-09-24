@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-23",
-  "lastUpdate": "2026-09-23T22:16:35.536Z",
-  "predictionGenerated": "2026-09-23T22:16:35.536Z",
-  "dataTimestamp": "2026-09-23T22:16:35.536Z",
+  "date": "2026-09-24",
+  "lastUpdate": "2026-09-24T00:23:23.314Z",
+  "predictionGenerated": "2026-09-24T00:23:23.314Z",
+  "dataTimestamp": "2026-09-24T00:23:23.314Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,9 +610,31 @@
   ],
   "news": [
     {
+      "title": "UK PM Burnham wants 'outdated' football drinking ban scrapped",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-23T23:00:18.000Z",
+      "excerpt": "A ban on football fans drinking in the stands during matches is outdated, discriminatory and should be scrapped, Andy Burnham said.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50015792/uk-pm-burnham-wants-football-drinking-ban-scrapped",
+      "image": "https://a.espncdn.com/photo/2026/0923/r1721065_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Nicol and Burley clash over Palmer's injury",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-09-23T22:18:22.000Z",
+      "excerpt": "Nicol and Burley clash over Palmer's injury",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50016000/nicol-burley-clash-palmer-injury",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/dm_260923_COM_SOC_Analysis_Nicol_and_Burley_clash_over_PalmerE28099s_injury__GLOBAL_2026-09-23/dm_260923_COM_SOC_Analysis_Nicol_and_Burley_clash_over_PalmerE28099s_injury__GLOBAL_2026-09-23.jpg",
+      "category": "football"
+    },
+    {
       "title": "Nicol: I have sympathy for Mourinho after Madrid derby",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-23T22:15:24.000Z",
       "excerpt": "Nicol: I have sympathy for Mourinho after Madrid derby",
       "source": "ESPN",
@@ -621,31 +643,9 @@
       "category": "football"
     },
     {
-      "title": "UK PM Burnham wants 'outdated' football drinking ban scrapped",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-09-23T21:41:13.000Z",
-      "excerpt": "A ban on football fans drinking in the stands during matches is outdated, discriminatory and should be scrapped, Andy Burnham said.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50015792/uk-pm-burnham-wants-football-drinking-ban-scrapped",
-      "image": "https://a.espncdn.com/photo/2026/0923/r1721048_1024x576_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Could Man United replace Shaw with Mitchell?",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-09-23T21:08:48.000Z",
-      "excerpt": "Tyrick Mitchell is linked with a move away from Crystal Palace, will Manchester United or Liverpool sign him? Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50011570/transfer-rumors-news-bayern-munich-sign-erling-haaland-replace-harry-kane",
-      "image": "https://a.espncdn.com/photo/2026/0923/r1721031_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Napoli president wants ultras out of any new stadium, warns Allegri",
       "league": "Serie A",
-      "time": "5h ago",
+      "time": "8h ago",
       "published": "2026-09-23T16:22:24.000Z",
       "excerpt": "With two Serie A trophies in the last four years and five other domestic cups, Napoli president Aurelio De Laurentiis is proud of what he ha",
       "source": "ESPN",
