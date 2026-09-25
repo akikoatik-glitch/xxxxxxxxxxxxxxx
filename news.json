@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-25T08:17:45.152Z",
+  "lastUpdate": "2026-09-25T10:17:09.770Z",
   "news": [
+    {
+      "title": "Premier League, LaLiga, Serie A, Bundesliga demand FIFA reform amid Gianni Infantino re-election bid",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-25T10:12:42.000Z",
+      "excerpt": "The top leagues in England, Italy, Germany and Spain have issued a joint-statement demanding governance reform at FIFA, amid Gianni Infantin",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50025809/premier-league-bundesliga-la-liga-serie-gianni-infantino-fifa-reform-statement",
+      "image": "https://a.espncdn.com/photo/2026/0925/r1721593_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "United Strand fan: Ruben Amorim told me 'sorry about that'",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-25T09:18:16.000Z",
+      "excerpt": "The Manchester United fan who has vowed to cut his hair only when the club win five Premier League games in a row has received an apology fr",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50025973/united-stran-fan-ruben-amorim-told-sorry-that",
+      "image": "https://a.espncdn.com/photo/2026/0925/r1721603_861x484_16-9.png",
+      "category": "football"
+    },
     {
       "title": "European Golden Shoe: Who's leading Raphinha, Mbappé, Haaland in race for top goal award?",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-25T07:46:17.000Z",
       "excerpt": "Raphinha may have started the season on fire, but there's a little-known striker who is ahead of the Barça star in the race for the European",
       "source": "ESPN",
@@ -14,8 +36,8 @@
     },
     {
       "title": "Transfer rumors, news: Bayern eye Barcelona World Cup winner Olmo",
-      "league": "La Liga",
-      "time": "0h ago",
+      "league": "Bundesliga",
+      "time": "2h ago",
       "published": "2026-09-25T07:41:00.000Z",
       "excerpt": "Barcelona attacking midfielder Dani Olmo is on the radar of Bayern Munich. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -24,58 +46,14 @@
       "category": "football"
     },
     {
-      "title": "Anthony Gordon: Premier League players most fatigued at summer tournaments",
-      "league": "Premier League",
-      "time": "10h ago",
-      "published": "2026-09-24T22:07:10.000Z",
-      "excerpt": "Anthony Gordon has said Premier League players are destined to come into summer tournaments more fatigued than any other league.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50023298/anthony-gordon-premier-league-players-likely-more-fatigued-others-summer-tournaments",
-      "image": "https://a.espncdn.com/photo/2026/0715/r1689667_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Pulisic set to get contract extension at Milan",
       "league": "Serie A",
-      "time": "10h ago",
+      "time": "12h ago",
       "published": "2026-09-24T21:23:16.000Z",
       "excerpt": "USMNT star Christian Pulisic is reportedly planning to continue his stint at AC Milan. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50018095/transfer-rumors-news-bayern-munich-karl-get-dream-real-madrid-move",
       "image": "https://a.espncdn.com/photo/2026/0924/r1721449_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Udinese sign former Real Madrid defender David Alaba",
-      "league": "Serie A",
-      "time": "15h ago",
-      "published": "2026-09-24T17:01:47.000Z",
-      "excerpt": "Former Real Madrid defender David Alaba officially signed for Serie A side Udinese on Thursday.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50019606/udinese-sign-former-real-madrid-defender-david-alaba",
-      "image": "https://a.espncdn.com/photo/2026/0608/r1669675_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Former England forward Andy Carroll says he was sexually assaulted by a man in 2021",
-      "league": "Premier League",
-      "time": "15h ago",
-      "published": "2026-09-24T16:44:39.000Z",
-      "excerpt": "Former England forward Andy Carroll has revealed in his autobiography he was sexually assaulted by a man during 2021.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50021083/former-england-forward-andy-carroll-says-was-sexually-assaulted-man-2021",
-      "image": "https://a.espncdn.com/photo/2026/0924/r1721325_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Is Sullivan the next Olise? Comparisons for USMNT's top young stars",
-      "league": "Bundesliga",
-      "time": "24/09/2026",
-      "published": "2026-09-24T07:32:36.000Z",
-      "excerpt": "With the USMNT welcoming a new class of debutantes during this international break, ESPN dives into the numbers of the United States' next p",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50015083/is-cavan-sullivan-next-michael-olise-comparisons-united-states-top-young-stars",
-      "image": "https://a.espncdn.com/photo/2026/0923/r1720961_1296x729_16-9.jpg",
       "category": "football"
     },
     {
