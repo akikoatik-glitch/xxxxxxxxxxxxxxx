@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-25T06:22:16.747Z",
+  "lastUpdate": "2026-09-25T08:17:45.152Z",
   "news": [
+    {
+      "title": "European Golden Shoe: Who's leading Raphinha, Mbappé, Haaland in race for top goal award?",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-25T07:46:17.000Z",
+      "excerpt": "Raphinha may have started the season on fire, but there's a little-known striker who is ahead of the Barça star in the race for the European",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50010819/european-golden-shoe-whos-leading-raphinha-mbappe-haaland",
+      "image": "https://a.espncdn.com/photo/2026/0923/r1720737_1295x729_16-9.png",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Bayern eye Barcelona World Cup winner Olmo",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-25T07:41:00.000Z",
+      "excerpt": "Barcelona attacking midfielder Dani Olmo is on the radar of Bayern Munich. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50025646/bayern-eye-barcelona-world-cup-winner-olmo",
+      "image": "https://a.espncdn.com/photo/2026/0726/r1693970_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Anthony Gordon: Premier League players most fatigued at summer tournaments",
       "league": "Premier League",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-24T22:07:10.000Z",
       "excerpt": "Anthony Gordon has said Premier League players are destined to come into summer tournaments more fatigued than any other league.",
       "source": "ESPN",
@@ -15,7 +37,7 @@
     {
       "title": "Transfer rumors, news: Pulisic set to get contract extension at Milan",
       "league": "Serie A",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-24T21:23:16.000Z",
       "excerpt": "USMNT star Christian Pulisic is reportedly planning to continue his stint at AC Milan. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -26,7 +48,7 @@
     {
       "title": "Udinese sign former Real Madrid defender David Alaba",
       "league": "Serie A",
-      "time": "13h ago",
+      "time": "15h ago",
       "published": "2026-09-24T17:01:47.000Z",
       "excerpt": "Former Real Madrid defender David Alaba officially signed for Serie A side Udinese on Thursday.",
       "source": "ESPN",
@@ -37,7 +59,7 @@
     {
       "title": "Former England forward Andy Carroll says he was sexually assaulted by a man in 2021",
       "league": "Premier League",
-      "time": "13h ago",
+      "time": "15h ago",
       "published": "2026-09-24T16:44:39.000Z",
       "excerpt": "Former England forward Andy Carroll has revealed in his autobiography he was sexually assaulted by a man during 2021.",
       "source": "ESPN",
@@ -46,47 +68,14 @@
       "category": "football"
     },
     {
-      "title": "Marc Cucurella 'sent a subtle message' to try to tempt Rodri into Real Madrid move",
-      "league": "La Liga",
-      "time": "18h ago",
-      "published": "2026-09-24T12:20:13.000Z",
-      "excerpt": "Real Madrid's Marc Cucurella has said he \"sent a subtle message\" asking Rodri to join him at Real Madrid this summer, before the midfielder ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50018795/real-madrid-marc-cucurella-rodri-barcelona-spain-el-clasico",
-      "image": "https://a.espncdn.com/photo/2026/0924/r1721200_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Is Sullivan the next Olise? Comparisons for USMNT's top young stars",
       "league": "Bundesliga",
-      "time": "22h ago",
+      "time": "24/09/2026",
       "published": "2026-09-24T07:32:36.000Z",
       "excerpt": "With the USMNT welcoming a new class of debutantes during this international break, ESPN dives into the numbers of the United States' next p",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50015083/is-cavan-sullivan-next-michael-olise-comparisons-united-states-top-young-stars",
       "image": "https://a.espncdn.com/photo/2026/0923/r1720961_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Nicol: I have sympathy for Mourinho after Madrid derby",
-      "league": "La Liga",
-      "time": "23/09/2026",
-      "published": "2026-09-23T22:15:24.000Z",
-      "excerpt": "Nicol: I have sympathy for Mourinho after Madrid derby",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50015995/sympathy-mourinho-madrid-derby",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0923/dm_260923_COM_SOC_Analysis_Nicol3A_I_have_sympathy_for_Mourinho_after_Madrid_derby__GLOBAL_2026-09-23/dm_260923_COM_SOC_Analysis_Nicol3A_I_have_sympathy_for_Mourinho_after_Madrid_derby__GLOBAL_2026-09-23.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Man United want Guirassy as potential Zirkzee replacement",
-      "league": "Bundesliga",
-      "time": "22/09/2026",
-      "published": "2026-09-22T22:18:45.000Z",
-      "excerpt": "Manchester United are keeping tabs on Borussia Dortmund's Serhou Guirassy. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50003301/transfer-rumors-news-liverpool-arsenal-man-city-race-feyenoord-defender",
-      "image": "https://a.espncdn.com/photo/2026/0922/r1720600_1296x729_16-9.jpg",
       "category": "football"
     },
     {
