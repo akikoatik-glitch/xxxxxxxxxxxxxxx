@@ -1,8 +1,8 @@
 {
   "date": "2026-09-25",
-  "lastUpdate": "2026-09-25T20:15:35.992Z",
-  "predictionGenerated": "2026-09-25T20:15:35.992Z",
-  "dataTimestamp": "2026-09-25T20:15:35.992Z",
+  "lastUpdate": "2026-09-25T22:16:15.831Z",
+  "predictionGenerated": "2026-09-25T22:16:15.831Z",
+  "dataTimestamp": "2026-09-25T22:16:15.831Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,47 +610,47 @@
   ],
   "news": [
     {
-      "title": "Man City vs. Premier League: 115 financial charges explained",
+      "title": "Source: Man City set to be found guilty on majority of Premier League charges",
       "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-09-25T18:11:57.000Z",
-      "excerpt": "The sporting world is waiting for a resolution to the hearings on Man City's charges for allegedly breaching the Premier League's financial ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50027680/manchester-city-premier-league-115-financial-charges-explained",
-      "image": "https://a.espncdn.com/photo/2025/0129/r1444800_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Man City refuse to deny guilty verdicts in Premier League 115 breaches case",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-09-25T16:48:14.000Z",
-      "excerpt": "Manchester City on Friday did not deny there has been a guilty verdict in the majority of charges of financial breaches in their legal case ",
+      "time": "0h ago",
+      "published": "2026-09-25T22:10:48.000Z",
+      "excerpt": "Manchester City are expected to be found guilty on the vast majority of charges of financial breaches in their legal case with the Premier L",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/44382463/man-city-115-charges-premier-league-verdict",
       "image": "https://a.espncdn.com/photo/2025/0324/r1468472_1296x729_16-9.jpg",
       "category": "football"
     },
     {
+      "title": "Rodri 'believes in innocence' of Man City, says success 'deserved'",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-25T21:50:32.000Z",
+      "excerpt": "Former Manchester City midfielder Rodri has said he \"believes in the innocence of the club\" after reports that City were set to be found gui",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50029194/rodri-man-city-premier-league-charges-financial-breaches",
+      "image": "https://a.espncdn.com/photo/2026/0925/r1721817_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Kane: I'd be extremely proud to win the Ballon d'Or",
+      "league": "Bundesliga",
+      "time": "2h ago",
+      "published": "2026-09-25T20:15:37.000Z",
+      "excerpt": "Kane: I'd be extremely proud to win the Ballon d'Or",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50028953/extremely-proud-win-ballon-dor",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0925/dm_260925_Kane_Id_be_extremely_proud_to_win_the_Ballon_dOr/dm_260925_Kane_Id_be_extremely_proud_to_win_the_Ballon_dOr.jpg",
+      "category": "football"
+    },
+    {
       "title": "Transfer rumors, news: Bayern eye Barcelona World Cup winner Olmo",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "7h ago",
       "published": "2026-09-25T14:22:27.000Z",
       "excerpt": "Barcelona attacking midfielder Dani Olmo is on the radar of Bayern Munich. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50025646/bayern-eye-barcelona-world-cup-winner-olmo",
       "image": "https://a.espncdn.com/photo/2026/0726/r1693970_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "José Mourinho on 'non-negotiable' rules for Real Madrid to follow: 'Don't betray me'",
-      "league": "La Liga",
-      "time": "9h ago",
-      "published": "2026-09-25T11:13:03.000Z",
-      "excerpt": "José Mourinho has spoken about his managerial philosophy, warning of the importance of trust between players and coach -- and \"non-negotiabl",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50026378/jose-mourinho-nonnegotiable-rules-real-madrid-follow-dont-betray-me",
-      "image": "https://a.espncdn.com/photo/2026/0925/r1721617_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
