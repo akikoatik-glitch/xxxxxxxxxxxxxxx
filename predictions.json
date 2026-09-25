@@ -1,8 +1,8 @@
 {
   "date": "2026-09-25",
-  "lastUpdate": "2026-09-25T12:22:05.011Z",
-  "predictionGenerated": "2026-09-25T12:22:05.011Z",
-  "dataTimestamp": "2026-09-25T12:22:05.011Z",
+  "lastUpdate": "2026-09-25T14:17:57.787Z",
+  "predictionGenerated": "2026-09-25T14:17:57.787Z",
+  "dataTimestamp": "2026-09-25T14:17:57.787Z",
   "dataFreshness": "fresh",
   "source": "",
   "matches": [],
@@ -610,9 +610,31 @@
   ],
   "news": [
     {
+      "title": "Transfer rumors, news: Bayern eye Barcelona World Cup winner Olmo",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-09-25T13:31:13.000Z",
+      "excerpt": "Barcelona attacking midfielder Dani Olmo is on the radar of Bayern Munich. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50025646/bayern-eye-barcelona-world-cup-winner-olmo",
+      "image": "https://a.espncdn.com/photo/2026/0726/r1693970_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Chelsea charged by FA over alleged discriminatory chanting",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-25T12:30:47.000Z",
+      "excerpt": "Chelsea have been charged by the Football Association after discriminatory chanting was reported during their Premier League game away at Fu",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50026797/chelsea-charged-fa-alleged-discriminatory-chanting",
+      "image": "https://a.espncdn.com/photo/2022/0317/r987531_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "José Mourinho on 'non-negotiable' rules for Real Madrid to follow: 'Don't betray me'",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-25T11:13:03.000Z",
       "excerpt": "José Mourinho has spoken about his managerial philosophy, warning of the importance of trust between players and coach -- and \"non-negotiabl",
       "source": "ESPN",
@@ -621,36 +643,14 @@
       "category": "football"
     },
     {
-      "title": "Barcelona's pursuit of Julián Álvarez is 'in the past' - Deco",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-09-25T10:32:08.000Z",
-      "excerpt": "Barcelona sporting director Deco says the club's pursuit of Julián Álvarez is \"in the past\" after it emerged the Spanish champions would hav",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50026251/barcelona-julian-alvarez-atletico-madrid-argentina",
-      "image": "https://a.espncdn.com/photo/2026/0925/r1721614_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Which Premier League players got injured in the international break?",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-25T10:26:45.000Z",
       "excerpt": "All the latest news and updates on Premier League stars injuries during the first international break of the 2026-2027 club season",
       "source": "ESPN",
       "url": "https://www.espn.com/football/story/_/id/50026166/premier-league-international-break-arsenal-chelsea-manchester-united",
       "image": "https://a.espncdn.com/photo/2026/0924/r1721392_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League, LaLiga, Serie A, Bundesliga demand FIFA reform amid Gianni Infantino re-election bid",
-      "league": "Serie A",
-      "time": "2h ago",
-      "published": "2026-09-25T10:12:42.000Z",
-      "excerpt": "The top leagues in England, Italy, Germany and Spain have issued a joint-statement demanding governance reform at FIFA, amid Gianni Infantin",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50025809/premier-league-bundesliga-la-liga-serie-gianni-infantino-fifa-reform-statement",
-      "image": "https://a.espncdn.com/photo/2026/0925/r1721593_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
