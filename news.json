@@ -1,37 +1,48 @@
 {
-  "lastUpdate": "2026-09-27T16:16:33.193Z",
+  "lastUpdate": "2026-09-27T18:18:54.808Z",
   "news": [
     {
-      "title": "Gomez: Man City must face a historic punishment",
+      "title": "Parma part ways with ex-Arsenal assistant Carlos Cuesta",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-09-27T18:01:25.000Z",
+      "excerpt": "Parma parted ways with coach Carlos Cuesta on Sunday after winning only one of their opening five Serie A matches.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50043464/parma-carlos-cuesta-coach-arsenal-assistant-serie-a",
+      "image": "https://a.espncdn.com/photo/2026/0927/r1722502_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-09-27T15:19:36.000Z",
-      "excerpt": "Gomez: Man City must face a historic punishment",
+      "published": "2026-09-27T17:54:25.000Z",
+      "excerpt": "LaLiga president Javier Tebas has said Manchester City legal battle against the Premier League shows why \"equal rules for all\" are essential",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50042792/man-city-face-historic-punishment",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/dm_260927_COM_SOC_ANALYSIS_Gomez_Man_City_must_face_a_historic_punishment_2026_9_27/dm_260927_COM_SOC_ANALYSIS_Gomez_Man_City_must_face_a_historic_punishment_2026_9_27.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50043662/laliga-chief-javier-tebas-criticises-man-city-alleged-rule-breaches-equal-rules-all",
+      "image": "https://a.espncdn.com/photo/2026/0927/r1722495_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Tuchel: England players are not distracted by Man City's Premier League charges",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-27T17:39:19.000Z",
+      "excerpt": "Tuchel: England players are not distracted by Man City's Premier League charges",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50043548/england-players-not-distracted-man-city-premier-league-charges",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/dm_260927_COM_SOC_Analysis_Tuchel3A_England_players_are_not_distracted_by_Man_CityE28099s_Premier_League_charges_G/dm_260927_COM_SOC_Analysis_Tuchel3A_England_players_are_not_distracted_by_Man_CityE28099s_Premier_League_charges_G.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Liverpool among clubs interested in Alexander-Arnold",
-      "league": "Premier League",
-      "time": "2h ago",
+      "league": "La Liga",
+      "time": "4h ago",
       "published": "2026-09-27T14:02:23.000Z",
       "excerpt": "A group of Premier League clubs are keeping an eye on Trent Alexander-Arnold. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50040914/transfer-rumors-news-liverpool-clubs-interested-alexander-arnold",
       "image": "https://a.espncdn.com/photo/2026/0927/r1722359_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Zidane: Mbappe's injury is not good news",
-      "league": "La Liga",
-      "time": "26/09/2026",
-      "published": "2026-09-26T15:36:00.000Z",
-      "excerpt": "Zidane: Mbappe's injury is not good news",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50033670/mbappe-injury-not-good-news",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0926/dm_260926_COM_SOC_Presser_Zidane_Mbappes_injury_is_not_good_news_20260926_GLOBAL/dm_260926_COM_SOC_Presser_Zidane_Mbappes_injury_is_not_good_news_20260926_GLOBAL.jpg",
       "category": "football"
     },
     {
@@ -76,17 +87,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50028953/extremely-proud-win-ballon-dor",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0925/dm_260925_Kane_Id_be_extremely_proud_to_win_the_Ballon_dOr/dm_260925_Kane_Id_be_extremely_proud_to_win_the_Ballon_dOr.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League, LaLiga, Serie A, Bundesliga demand FIFA reform amid Gianni Infantino re-election bid",
-      "league": "Serie A",
-      "time": "25/09/2026",
-      "published": "2026-09-25T10:12:42.000Z",
-      "excerpt": "The top leagues in England, Italy, Germany and Spain have issued a joint-statement demanding governance reform at FIFA, amid Gianni Infantin",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50025809/premier-league-bundesliga-la-liga-serie-gianni-infantino-fifa-reform-statement",
-      "image": "https://a.espncdn.com/photo/2026/0925/r1721593_1296x729_16-9.jpg",
       "category": "football"
     },
     {
