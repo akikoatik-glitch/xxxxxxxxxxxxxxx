@@ -1,8 +1,8 @@
 {
   "date": "2026-09-27",
-  "lastUpdate": "2026-09-27T10:16:09.987Z",
-  "predictionGenerated": "2026-09-27T10:16:09.987Z",
-  "dataTimestamp": "2026-09-27T10:16:07.442Z",
+  "lastUpdate": "2026-09-27T12:20:53.254Z",
+  "predictionGenerated": "2026-09-27T12:20:53.254Z",
+  "dataTimestamp": "2026-09-27T12:20:50.661Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:40+upcoming:30+fixtures:40)",
   "matches": [],
@@ -610,21 +610,10 @@
   ],
   "news": [
     {
-      "title": "Rio Ferdinand leads reaction to Man City's 115 breaches case: 'Another Premier League medal'",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-09-27T07:43:05.000Z",
-      "excerpt": "The football world has been reacting to reports that Manchester City are expected to be found guilty of most charges in their legal battle w",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50029047/rio-ferdinand-david-de-gea-football-world-reaction-man-city-115-premier-league-breaches-case",
-      "image": "https://a.espncdn.com/photo/2026/0926/r1721975_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Which Premier League players got injured in the international break?",
       "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-09-27T06:03:32.000Z",
+      "time": "0h ago",
+      "published": "2026-09-27T11:44:38.000Z",
       "excerpt": "All the latest news and updates on Premier League stars injuries during the first international break of the 2026-2027 club season",
       "source": "ESPN",
       "url": "https://www.espn.com/football/story/_/id/50026166/premier-league-international-break-arsenal-chelsea-manchester-united",
@@ -632,25 +621,36 @@
       "category": "football"
     },
     {
+      "title": "JJ Gabriel and the 'nightmare' battle for Premier League academy talent",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-27T11:33:54.000Z",
+      "excerpt": "In the fiercely competitive race for the best Premier League academy players, JJ Gabriel won't be the last young talent at the center of a t",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50006976/jj-gabriel-nightmare-battle-premier-league-academy-talent",
+      "image": "https://a.espncdn.com/photo/2026/0923/r1720886_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool among clubs interested in Alexander-Arnold",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-09-27T10:22:25.000Z",
+      "excerpt": "A group of Premier League clubs are keeping an eye on Trent Alexander-Arnold. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50040914/transfer-rumors-news-liverpool-clubs-interested-alexander-arnold",
+      "image": "https://a.espncdn.com/photo/2026/0927/r1722359_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Zidane: Mbappe's injury is not good news",
       "league": "La Liga",
-      "time": "18h ago",
+      "time": "20h ago",
       "published": "2026-09-26T15:36:00.000Z",
       "excerpt": "Zidane: Mbappe's injury is not good news",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50033670/mbappe-injury-not-good-news",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0926/dm_260926_COM_SOC_Presser_Zidane_Mbappes_injury_is_not_good_news_20260926_GLOBAL/dm_260926_COM_SOC_Presser_Zidane_Mbappes_injury_is_not_good_news_20260926_GLOBAL.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Rodri: You cannot take away Manchester City's achievements",
-      "league": "Champions League",
-      "time": "19h ago",
-      "published": "2026-09-26T14:20:17.000Z",
-      "excerpt": "Rodri: You cannot take away Manchester City's achievements",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50033278/cannot-take-away-manchester-city-achievements",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0926/dm_260926_COM_SOC_Presser_Rodri_You_cannot_take_away_Manchester_Citys_achievements_20260926_GLOBAL/dm_260926_COM_SOC_Presser_Rodri_You_cannot_take_away_Manchester_Citys_achievements_20260926_GLOBAL.jpg",
       "category": "football"
     }
   ],
