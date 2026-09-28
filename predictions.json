@@ -1,11 +1,85 @@
 {
   "date": "2026-09-28",
-  "lastUpdate": "2026-09-28T00:26:05.708Z",
-  "predictionGenerated": "2026-09-28T00:26:05.708Z",
-  "dataTimestamp": "2026-09-28T00:26:05.708Z",
+  "lastUpdate": "2026-09-28T02:17:20.024Z",
+  "predictionGenerated": "2026-09-28T02:17:20.024Z",
+  "dataTimestamp": "2026-09-28T02:17:17.478Z",
   "dataFreshness": "fresh",
-  "source": "",
-  "matches": [],
+  "source": "rolling 7-day pool (today:42+upcoming:30+fixtures:42)",
+  "matches": [
+    {
+      "id": "deportivo-cali-vs-aguilas-doradas",
+      "slug": "deportivo-cali-vs-aguilas-doradas-prediction",
+      "utcDate": "2026-09-28T01:10:00+00:00",
+      "date": "2026-09-28",
+      "time": "01:10",
+      "precise": "01:10 UTC • 03:10 CET",
+      "countdown": "0h to kickoff",
+      "home": "Deportivo Cali",
+      "away": "Aguilas Doradas",
+      "league": "Categoría Primera A",
+      "code": "",
+      "flag": "⚽",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Deportivo Cali vs Aguilas Doradas: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    }
+  ],
   "results": [
     {
       "slug": "los-angeles-galaxy-vs-colorado-rapids-prediction",
@@ -612,7 +686,7 @@
     {
       "title": "'Not my concern': Ex-Man City boss Mancini brushes off guilty reports",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "2h ago",
       "published": "2026-09-27T23:41:27.000Z",
       "excerpt": "Roberto Mancini brushed off reports that his former club Manchester City have been found guilty by the Premier League of financial breaches ",
       "source": "ESPN",
@@ -623,7 +697,7 @@
     {
       "title": "Burley: The Premier League's image has been damaged after Man City's charges",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "3h ago",
       "published": "2026-09-27T22:38:14.000Z",
       "excerpt": "Burley: The Premier League's image has been damaged after Man City's charges",
       "source": "ESPN",
@@ -634,7 +708,7 @@
     {
       "title": "Parma part ways with ex-Arsenal assistant Carlos Cuesta",
       "league": "Serie A",
-      "time": "6h ago",
+      "time": "8h ago",
       "published": "2026-09-27T18:01:25.000Z",
       "excerpt": "Parma parted ways with coach Carlos Cuesta on Sunday after winning only one of their opening five Serie A matches.",
       "source": "ESPN",
@@ -645,7 +719,7 @@
     {
       "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
       "league": "La Liga",
-      "time": "6h ago",
+      "time": "8h ago",
       "published": "2026-09-27T17:54:25.000Z",
       "excerpt": "LaLiga president Javier Tebas has said Manchester City legal battle against the Premier League shows why \"equal rules for all\" are essential",
       "source": "ESPN",
