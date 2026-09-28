@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-09-27T22:15:53.187Z",
+  "lastUpdate": "2026-09-28T00:26:05.653Z",
   "news": [
+    {
+      "title": "'Not my concern': Ex-Man City boss Mancini brushes off guilty reports",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-27T23:41:27.000Z",
+      "excerpt": "Roberto Mancini brushed off reports that his former club Manchester City have been found guilty by the Premier League of financial breaches ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50047455/manchester-city-charges-guilty-premier-league-roberto-mancini",
+      "image": "https://a.espncdn.com/photo/2026/0927/r1722731_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Burley: The Premier League's image has been damaged after Man City's charges",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-27T22:38:14.000Z",
+      "excerpt": "Burley: The Premier League's image has been damaged after Man City's charges",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50046931/premier-league-image-damaged-man-city-charges",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/dm_260927_COM_SOC_Analysis_Burley3A_The_Premier_Le1117/dm_260927_COM_SOC_Analysis_Burley3A_The_Premier_Le1117.jpg",
+      "category": "football"
+    },
     {
       "title": "Parma part ways with ex-Arsenal assistant Carlos Cuesta",
       "league": "Serie A",
-      "time": "4h ago",
+      "time": "6h ago",
       "published": "2026-09-27T18:01:25.000Z",
       "excerpt": "Parma parted ways with coach Carlos Cuesta on Sunday after winning only one of their opening five Serie A matches.",
       "source": "ESPN",
@@ -14,8 +36,8 @@
     },
     {
       "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
-      "league": "Premier League",
-      "time": "4h ago",
+      "league": "La Liga",
+      "time": "6h ago",
       "published": "2026-09-27T17:54:25.000Z",
       "excerpt": "LaLiga president Javier Tebas has said Manchester City legal battle against the Premier League shows why \"equal rules for all\" are essential",
       "source": "ESPN",
@@ -24,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Tuchel: England players are not distracted by Man City's Premier League charges",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-09-27T17:39:19.000Z",
-      "excerpt": "Tuchel: England players are not distracted by Man City's Premier League charges",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50043548/england-players-not-distracted-man-city-premier-league-charges",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0927/dm_260927_COM_SOC_Analysis_Tuchel3A_England_players_are_not_distracted_by_Man_CityE28099s_Premier_League_charges_G/dm_260927_COM_SOC_Analysis_Tuchel3A_England_players_are_not_distracted_by_Man_CityE28099s_Premier_League_charges_G.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Liverpool among clubs interested in Alexander-Arnold",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "10h ago",
       "published": "2026-09-27T14:02:23.000Z",
       "excerpt": "A group of Premier League clubs are keeping an eye on Trent Alexander-Arnold. Transfer Talk has the latest.",
       "source": "ESPN",
