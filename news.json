@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-09-28T14:20:17.526Z",
+  "lastUpdate": "2026-09-28T21:47:55.149Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Madrid, Barcelona look to Haaland, Sullivan amid Man City uncertainty",
-      "league": "Premier League",
+      "title": "Javier Aguirre turned down four coaching offers until 'Valencia called'",
+      "league": "La Liga",
       "time": "0h ago",
-      "published": "2026-09-28T13:59:46.000Z",
-      "excerpt": "Real Madrid and Barcelona are looking at a host of players due to uncertainty created by the case surrounding Man City's financial rule brea",
+      "published": "2026-09-28T21:25:23.000Z",
+      "excerpt": "Former Mexico coach Javier Aguirre said he turned down four other jobs before accepting the challenge to return to LaLiga with Valencia.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50054584/former-mexico-coach-javier-aguirre-turned-four-offers-valencia-called",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723176_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal, Tottenham eye move for Maza",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-28T20:26:54.000Z",
+      "excerpt": "Both Arsenal and Tottenham Hotspur are competing to sign Bayer Leverkusen's Ibrahim Maza. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50050442/transfer-rumors-news-real-madrid-barcelona-look-haaland-sullivan-amid-man-city-uncertainty",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719394_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723140_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Man City vs. Premier League: 115 financial charges explained",
       "league": "Premier League",
-      "time": "7h ago",
+      "time": "14h ago",
       "published": "2026-09-28T07:20:15.000Z",
       "excerpt": "The sporting world is waiting for a resolution to the hearings on Man City's charges for allegedly breaching the Premier League's financial ",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Parma part ways with ex-Arsenal assistant Carlos Cuesta",
       "league": "Serie A",
-      "time": "20h ago",
+      "time": "27/09/2026",
       "published": "2026-09-27T18:01:25.000Z",
       "excerpt": "Parma parted ways with coach Carlos Cuesta on Sunday after winning only one of their opening five Serie A matches.",
       "source": "ESPN",
@@ -37,23 +48,12 @@
     {
       "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
       "league": "La Liga",
-      "time": "20h ago",
+      "time": "27/09/2026",
       "published": "2026-09-27T17:54:25.000Z",
       "excerpt": "LaLiga president Javier Tebas has said Manchester City legal battle against the Premier League shows why \"equal rules for all\" are essential",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50043662/laliga-chief-javier-tebas-criticises-man-city-alleged-rule-breaches-equal-rules-all",
       "image": "https://a.espncdn.com/photo/2026/0927/r1722495_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Liverpool among clubs interested in Alexander-Arnold",
-      "league": "La Liga",
-      "time": "27/09/2026",
-      "published": "2026-09-27T14:02:23.000Z",
-      "excerpt": "A group of Premier League clubs are keeping an eye on Trent Alexander-Arnold. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50040914/transfer-rumors-news-liverpool-clubs-interested-alexander-arnold",
-      "image": "https://a.espncdn.com/photo/2026/0927/r1722359_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -87,17 +87,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50004145/why-barcelona-start-season-laliga-champions-league-best-europe-top-5-leagues-almost-100-years",
       "image": "https://a.espncdn.com/photo/2026/0926/r1721963_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Kane: I'd be extremely proud to win the Ballon d'Or",
-      "league": "Bundesliga",
-      "time": "25/09/2026",
-      "published": "2026-09-25T20:15:37.000Z",
-      "excerpt": "Kane: I'd be extremely proud to win the Ballon d'Or",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50028953/extremely-proud-win-ballon-dor",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0925/dm_260925_Kane_Id_be_extremely_proud_to_win_the_Ballon_dOr/dm_260925_Kane_Id_be_extremely_proud_to_win_the_Ballon_dOr.jpg",
       "category": "football"
     },
     {

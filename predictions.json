@@ -1,8 +1,8 @@
 {
   "date": "2026-09-28",
-  "lastUpdate": "2026-09-28T14:20:17.579Z",
-  "predictionGenerated": "2026-09-28T14:20:17.579Z",
-  "dataTimestamp": "2026-09-28T14:20:14.768Z",
+  "lastUpdate": "2026-09-28T21:47:55.203Z",
+  "predictionGenerated": "2026-09-28T21:47:55.203Z",
+  "dataTimestamp": "2026-09-28T21:47:52.527Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:41+upcoming:30+fixtures:41)",
   "matches": [],
@@ -610,20 +610,31 @@
   ],
   "news": [
     {
-      "title": "Transfer rumors, news: Madrid, Barcelona look to Haaland, Sullivan amid Man City uncertainty",
-      "league": "Premier League",
+      "title": "Javier Aguirre turned down four coaching offers until 'Valencia called'",
+      "league": "La Liga",
       "time": "0h ago",
-      "published": "2026-09-28T13:59:46.000Z",
-      "excerpt": "Real Madrid and Barcelona are looking at a host of players due to uncertainty created by the case surrounding Man City's financial rule brea",
+      "published": "2026-09-28T21:25:23.000Z",
+      "excerpt": "Former Mexico coach Javier Aguirre said he turned down four other jobs before accepting the challenge to return to LaLiga with Valencia.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50054584/former-mexico-coach-javier-aguirre-turned-four-offers-valencia-called",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723176_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal, Tottenham eye move for Maza",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-28T20:26:54.000Z",
+      "excerpt": "Both Arsenal and Tottenham Hotspur are competing to sign Bayer Leverkusen's Ibrahim Maza. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50050442/transfer-rumors-news-real-madrid-barcelona-look-haaland-sullivan-amid-man-city-uncertainty",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719394_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723140_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Man City vs. Premier League: 115 financial charges explained",
       "league": "Premier League",
-      "time": "7h ago",
+      "time": "14h ago",
       "published": "2026-09-28T07:20:15.000Z",
       "excerpt": "The sporting world is waiting for a resolution to the hearings on Man City's charges for allegedly breaching the Premier League's financial ",
       "source": "ESPN",
@@ -634,23 +645,12 @@
     {
       "title": "Parma part ways with ex-Arsenal assistant Carlos Cuesta",
       "league": "Serie A",
-      "time": "20h ago",
+      "time": "27/09/2026",
       "published": "2026-09-27T18:01:25.000Z",
       "excerpt": "Parma parted ways with coach Carlos Cuesta on Sunday after winning only one of their opening five Serie A matches.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50043464/parma-carlos-cuesta-coach-arsenal-assistant-serie-a",
       "image": "https://a.espncdn.com/photo/2026/0927/r1722502_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
-      "league": "La Liga",
-      "time": "20h ago",
-      "published": "2026-09-27T17:54:25.000Z",
-      "excerpt": "LaLiga president Javier Tebas has said Manchester City legal battle against the Premier League shows why \"equal rules for all\" are essential",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50043662/laliga-chief-javier-tebas-criticises-man-city-alleged-rule-breaches-equal-rules-all",
-      "image": "https://a.espncdn.com/photo/2026/0927/r1722495_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
