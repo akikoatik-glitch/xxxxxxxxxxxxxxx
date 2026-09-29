@@ -1,37 +1,81 @@
 {
-  "lastUpdate": "2026-09-29T01:44:16.269Z",
+  "lastUpdate": "2026-09-29T16:27:18.028Z",
   "news": [
     {
-      "title": "Javier Aguirre turned down four coaching offers until 'Valencia called'",
+      "title": "Man City guilty of all charges of Premier League financial breaches",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-09-29T16:25:59.000Z",
+      "excerpt": "Manchester City have been found guilty of all 115 charges of serious breaches of Premier League regulations, the Premier League confirmed in",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50059403/man-city-guilty-all-charges-premier-league-breach-case-independent-commission",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723465_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Cole Palmer's England withdrawal a product of 'sick' system - PFA chief",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-09-29T15:25:36.000Z",
+      "excerpt": "Cole Palmer's recent England withdrawal is the product of a \"sick\" system that is demanding too much of the game's stars, according to Profe",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50059064/cole-palmer-england-withdrawal-product-sick-system-pfa-chief",
+      "image": "https://www.espn.com/video/clip/_/id/50054240/england-clash-vs-czechia-win",
+      "category": "football"
+    },
+    {
+      "title": "Pochettino labels Man City's charges as a 'period of deception'",
+      "league": "Champions League",
+      "time": "3h ago",
+      "published": "2026-09-29T13:24:04.000Z",
+      "excerpt": "Pochettino labels Man City's charges as a 'period of deception'",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50058472/pochettino-labels-man-city-charges-period-deception",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0929/dm_260929_COM_SOC_Presser_Pochettino_labels_Man_Citys_charges_as_a_period_of_deception_20260929_GLOBAL/dm_260929_COM_SOC_Presser_Pochettino_labels_Man_Citys_charges_as_a_period_of_deception_20260929_GLOBAL.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool keen on Real Madrid midfielder Tchouaméni",
       "league": "La Liga",
       "time": "3h ago",
-      "published": "2026-09-28T21:50:35.000Z",
-      "excerpt": "Former Mexico coach Javier Aguirre said he turned down four other jobs before accepting the challenge to return to LaLiga with Valencia.",
+      "published": "2026-09-29T13:07:18.000Z",
+      "excerpt": "Liverpool have maintained contact with the representatives of Real Madrid midfielder Aurélien Tchouaméni. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50054584/former-mexico-coach-javier-aguirre-turned-four-offers-valencia-called",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723176_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50056942/transfer-rumors-news-liverpool-keen-real-madrid-midfielder-tchouameni",
+      "image": "https://a.espncdn.com/photo/2026/0603/r1667626_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Kylian Mbappé, Ibrahima Konaté, Fede Valverde expected to be available for El Clásico - source",
+      "league": "La Liga",
+      "time": "4h ago",
+      "published": "2026-09-29T12:00:00.000Z",
+      "excerpt": "Injured stars Kylian Mbappé, Ibrahima Konaté and Federico Valverde are all expected to be available when Real Madrid face LaLiga title rival",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50057471/real-madrid-mbappe-konate-valverde-el-clasico-barcelona-la-liga",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723326_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Soccer's best 2025-26 kits: The most stylish jerseys you probably missed",
+      "league": "Champions League",
+      "time": "8h ago",
+      "published": "2026-09-29T07:38:13.000Z",
+      "excerpt": "While the world's top clubs release their new kits on a wave of hype, there are many more who release absolutely banging jerseys that deserv",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/49812807/soccer-best-kits-2025-26-stylish-jerseys-probably-missed",
+      "image": "https://a.espncdn.com/photo/2026/0904/r1711227_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Arsenal, Tottenham eye move for Maza",
-      "league": "Premier League",
-      "time": "5h ago",
+      "league": "Bundesliga",
+      "time": "20h ago",
       "published": "2026-09-28T20:26:54.000Z",
       "excerpt": "Both Arsenal and Tottenham Hotspur are competing to sign Bayer Leverkusen's Ibrahim Maza. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50050442/transfer-rumors-news-real-madrid-barcelona-look-haaland-sullivan-amid-man-city-uncertainty",
       "image": "https://a.espncdn.com/photo/2026/0928/r1723140_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Man City vs. Premier League: 115 financial charges explained",
-      "league": "Premier League",
-      "time": "18h ago",
-      "published": "2026-09-28T07:20:15.000Z",
-      "excerpt": "The sporting world is waiting for a resolution to the hearings on Man City's charges for allegedly breaching the Premier League's financial ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50027680/manchester-city-premier-league-115-financial-charges-explained",
-      "image": "https://a.espncdn.com/photo/2025/0129/r1444800_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -46,58 +90,14 @@
       "category": "football"
     },
     {
-      "title": "LaLiga chief Javier Tebas criticises Man City's alleged rule breaches: 'Equal rules for all'",
-      "league": "La Liga",
-      "time": "27/09/2026",
-      "published": "2026-09-27T17:54:25.000Z",
-      "excerpt": "LaLiga president Javier Tebas has said Manchester City legal battle against the Premier League shows why \"equal rules for all\" are essential",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50043662/laliga-chief-javier-tebas-criticises-man-city-alleged-rule-breaches-equal-rules-all",
-      "image": "https://a.espncdn.com/photo/2026/0927/r1722495_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Rodri: You cannot take away Manchester City's achievements",
-      "league": "Champions League",
-      "time": "26/09/2026",
-      "published": "2026-09-26T14:20:17.000Z",
-      "excerpt": "Rodri: You cannot take away Manchester City's achievements",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50033278/cannot-take-away-manchester-city-achievements",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0926/dm_260926_COM_SOC_Presser_Rodri_You_cannot_take_away_Manchester_Citys_achievements_20260926_GLOBAL/dm_260926_COM_SOC_Presser_Rodri_You_cannot_take_away_Manchester_Citys_achievements_20260926_GLOBAL.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Man City verdict will leave a stain and stench on a Premier League era",
-      "league": "Champions League",
-      "time": "26/09/2026",
-      "published": "2026-09-26T14:07:25.000Z",
-      "excerpt": "Manchester City are expected to be found guilty of almost all 115 financial charges against them. It means an era of English soccer is now t",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50032611/man-city-verdict-leave-stain-stench-premier-league-era",
-      "image": "https://a.espncdn.com/photo/2026/0926/r1721984_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Barcelona's start to season is best in Europe's top 5 leagues for almost 100 years",
-      "league": "Serie A",
+      "league": "Ligue 1",
       "time": "26/09/2026",
       "published": "2026-09-26T10:36:01.000Z",
       "excerpt": "Barcelona have begun the season on fire, scoring 36 goals in their first eight matches. How does that compare to the best starts for all tim",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50004145/why-barcelona-start-season-laliga-champions-league-best-europe-top-5-leagues-almost-100-years",
       "image": "https://a.espncdn.com/photo/2026/0926/r1721963_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Kylian Mbappé on past Liverpool transfer talks: 'Mum went to Anfield and fell in love'",
-      "league": "Ligue 1",
-      "time": "22/09/2026",
-      "published": "2026-09-22T12:02:31.000Z",
-      "excerpt": "Kylian Mbappé has described how his mother \"fell in love\" with Anfield and was keen for him to sign for Liverpool before he decided to join ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50004516/kylian-mbappe-liverpool-transfer-talks-mum-went-anfield-fell-love",
-      "image": "https://a.espncdn.com/photo/2026/0922/r1720348_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
