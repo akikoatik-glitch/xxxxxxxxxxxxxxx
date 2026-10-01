@@ -1,10 +1,54 @@
 {
-  "lastUpdate": "2026-10-01T12:58:02.673Z",
+  "lastUpdate": "2026-10-01T19:24:26.375Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Real Madrid eye former Liverpool defender Quansah",
+      "title": "Manchester City guilty charges explained: Premier League's options, how appeal works, more",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-10-01T18:52:14.000Z",
+      "excerpt": "Tuesday's news that the Premier League found Man City guilty of 100-plus charges of breaking financial rules is a landmark moment. But what ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50077292/manchester-city-guilty-charges-explained-premier-league-punishments-appeals-legal-process",
+      "image": "https://a.espncdn.com/photo/2020/0214/r666347_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "UEFA receives Real Madrid dossier on Barcelona-Negreira case",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-01T17:09:17.000Z",
+      "excerpt": "UEFA has received \"a substantial amount of documents\" from Real Madrid related to its ongoing inquiry into the Negreira case, European footb",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50077749/uefa-real-madrid-dossier-barcelona-referee-negreira-case",
+      "image": "https://a.espncdn.com/photo/2026/0617/r1674789_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Downing Street clarifies Andy Burnham's remarks on Man City case",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-01T17:07:44.000Z",
+      "excerpt": "A spokesperson for Andy Burnham has insisted the guilty verdict against Manchester City is \"serious\" after remarks the Prime Minister made a",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50077746/downing-street-clarifies-andy-burnham-remarks-man-city-case",
+      "image": "https://a.espncdn.com/photo/2026/0728/r1694805_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Spain's Víctor Muñoz on Liverpool switch: Premier League more physical than LaLiga",
+      "league": "La Liga",
+      "time": "6h ago",
+      "published": "2026-10-01T13:14:04.000Z",
+      "excerpt": "Liverpool winger Víctor Muñoz has praised the \"intensity\" at the Premier League club since making the switch from LaLiga this summer, saying",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50076437/spain-victor-munoz-liverpool-switch-premier-league-more-physical-laliga",
+      "image": "https://a.espncdn.com/photo/2026/0829/r1708487_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid eye former Liverpool defender Quansah",
+      "league": "Bundesliga",
+      "time": "7h ago",
       "published": "2026-10-01T12:19:15.000Z",
       "excerpt": "Real Madrid are tracking Bayer Leverkusen defender Jarell Quansah ahead of next summer. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -13,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Second Hull player flips car outside training ground - reports",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-01T12:11:02.000Z",
-      "excerpt": "A second Hull player has been reported to have flipped his car in an accident close to the club's training ground in Cottingham.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50076311/second-hull-player-flips-car-training-ground-sorba-thomas",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724396_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Portugal, Man United, Real Madrid: Cristiano Ronaldo's long history of rows with coaches",
-      "league": "La Liga",
-      "time": "1h ago",
+      "league": "Serie A",
+      "time": "8h ago",
       "published": "2026-10-01T11:14:02.000Z",
       "excerpt": "Cristiano Ronaldo walked out of the Portugal national team's camp after being benched. It is far from the first high-profile row of his two ",
       "source": "ESPN",
@@ -35,36 +68,14 @@
       "category": "football"
     },
     {
-      "title": "Clásico match ball for Barcelona vs. Real Madrid LaLiga clashes unveiled",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-10-01T09:59:43.000Z",
-      "excerpt": "Whenever LaLiga rivals Barcelona and Real Madrid clash, the world watches. So it's only fitting that El Clásico gets its own bespoke match b",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50075555/clasico-match-ball-barcelona-real-madrid-laliga-clashes-unveiled",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724348_819x461_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Late penalty drama as Arsenal draw with Paris FC in UWCL",
       "league": "Champions League",
-      "time": "15h ago",
+      "time": "22h ago",
       "published": "2026-09-30T21:22:13.000Z",
       "excerpt": "Late penalty drama as Arsenal draw with Paris FC in UWCL",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50070201/late-penalty-drama-arsenal-draw-paris-fc-uwcl",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0930/dm_260930_Late_penalty_drama_as_Arsenal_draw_with_Paris_FC_in_UWCL/dm_260930_Late_penalty_drama_as_Arsenal_draw_with_Paris_FC_in_UWCL.jpg",
-      "category": "football"
-    },
-    {
-      "title": "PSG chief Al-Khelaifi has 'zero interest' in FIFA presidency",
-      "league": "Champions League",
-      "time": "29/09/2026",
-      "published": "2026-09-29T21:29:34.000Z",
-      "excerpt": "European soccer's search for a candidate to challenge Gianni Infantino in the FIFA presidential election will not land on clubs' leader Nass",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50061434/fifa-president-nasser-al-khelaifi-psg-gianni-infantino-election",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723629_1296x729_16-9.jpg",
       "category": "football"
     },
     {

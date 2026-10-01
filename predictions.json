@@ -1,10 +1,10 @@
 {
   "date": "2026-10-01",
-  "lastUpdate": "2026-10-01T12:58:02.713Z",
-  "predictionGenerated": "2026-10-01T12:58:02.713Z",
-  "dataTimestamp": "2026-10-01T12:58:00.386Z",
+  "lastUpdate": "2026-10-01T19:24:26.430Z",
+  "predictionGenerated": "2026-10-01T19:24:26.430Z",
+  "dataTimestamp": "2026-10-01T19:24:24.031Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:40+upcoming:30+fixtures:40)",
+  "source": "rolling 7-day pool (today:39+upcoming:30+fixtures:39)",
   "matches": [],
   "results": [
     {
@@ -610,47 +610,47 @@
   ],
   "news": [
     {
-      "title": "Transfer rumors, news: Real Madrid eye former Liverpool defender Quansah",
+      "title": "Manchester City guilty charges explained: Premier League's options, how appeal works, more",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-01T12:19:15.000Z",
-      "excerpt": "Real Madrid are tracking Bayer Leverkusen defender Jarell Quansah ahead of next summer. Transfer Talk has the latest.",
+      "published": "2026-10-01T18:52:14.000Z",
+      "excerpt": "Tuesday's news that the Premier League found Man City guilty of 100-plus charges of breaking financial rules is a landmark moment. But what ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50075140/transfer-rumors-news-real-madrid-eye-former-liverpool-defender-quansah",
-      "image": "https://a.espncdn.com/photo/2025/1011/r1558673_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50077292/manchester-city-guilty-charges-explained-premier-league-punishments-appeals-legal-process",
+      "image": "https://a.espncdn.com/photo/2020/0214/r666347_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Second Hull player flips car outside training ground - reports",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-01T12:11:02.000Z",
-      "excerpt": "A second Hull player has been reported to have flipped his car in an accident close to the club's training ground in Cottingham.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50076311/second-hull-player-flips-car-training-ground-sorba-thomas",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724396_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Portugal, Man United, Real Madrid: Cristiano Ronaldo's long history of rows with coaches",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-10-01T11:14:02.000Z",
-      "excerpt": "Cristiano Ronaldo walked out of the Portugal national team's camp after being benched. It is far from the first high-profile row of his two ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50075485/cristiano-ronaldo-long-history-rows-portugal-manchester-united-real-madrid-juventus-coaches",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724373_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Clásico match ball for Barcelona vs. Real Madrid LaLiga clashes unveiled",
+      "title": "UEFA receives Real Madrid dossier on Barcelona-Negreira case",
       "league": "La Liga",
       "time": "2h ago",
-      "published": "2026-10-01T09:59:43.000Z",
-      "excerpt": "Whenever LaLiga rivals Barcelona and Real Madrid clash, the world watches. So it's only fitting that El Clásico gets its own bespoke match b",
+      "published": "2026-10-01T17:09:17.000Z",
+      "excerpt": "UEFA has received \"a substantial amount of documents\" from Real Madrid related to its ongoing inquiry into the Negreira case, European footb",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50075555/clasico-match-ball-barcelona-real-madrid-laliga-clashes-unveiled",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724348_819x461_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50077749/uefa-real-madrid-dossier-barcelona-referee-negreira-case",
+      "image": "https://a.espncdn.com/photo/2026/0617/r1674789_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Downing Street clarifies Andy Burnham's remarks on Man City case",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-01T17:07:44.000Z",
+      "excerpt": "A spokesperson for Andy Burnham has insisted the guilty verdict against Manchester City is \"serious\" after remarks the Prime Minister made a",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50077746/downing-street-clarifies-andy-burnham-remarks-man-city-case",
+      "image": "https://a.espncdn.com/photo/2026/0728/r1694805_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Spain's Víctor Muñoz on Liverpool switch: Premier League more physical than LaLiga",
+      "league": "La Liga",
+      "time": "6h ago",
+      "published": "2026-10-01T13:14:04.000Z",
+      "excerpt": "Liverpool winger Víctor Muñoz has praised the \"intensity\" at the Premier League club since making the switch from LaLiga this summer, saying",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50076437/spain-victor-munoz-liverpool-switch-premier-league-more-physical-laliga",
+      "image": "https://a.espncdn.com/photo/2026/0829/r1708487_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
