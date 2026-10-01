@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-30",
-  "lastUpdate": "2026-09-30T23:38:38.608Z",
-  "predictionGenerated": "2026-09-30T23:38:38.608Z",
-  "dataTimestamp": "2026-09-30T23:38:35.756Z",
+  "date": "2026-10-01",
+  "lastUpdate": "2026-10-01T05:31:28.396Z",
+  "predictionGenerated": "2026-10-01T05:31:28.396Z",
+  "dataTimestamp": "2026-10-01T05:31:25.557Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:42+upcoming:30+fixtures:42)",
+  "source": "rolling 7-day pool (today:40+upcoming:30+fixtures:40)",
   "matches": [],
   "results": [
     {
@@ -612,7 +612,7 @@
     {
       "title": "What does the future hold for Manchester City's players?",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "7h ago",
       "published": "2026-09-30T22:11:27.000Z",
       "excerpt": "What does the future hold for Manchester City's players?",
       "source": "ESPN",
@@ -623,7 +623,7 @@
     {
       "title": "Late penalty drama as Arsenal draw with Paris FC in UWCL",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "8h ago",
       "published": "2026-09-30T21:22:13.000Z",
       "excerpt": "Late penalty drama as Arsenal draw with Paris FC in UWCL",
       "source": "ESPN",
@@ -634,7 +634,7 @@
     {
       "title": "Klopp not preparing for more titles after verdict against Man City",
       "league": "Premier League",
-      "time": "2h ago",
+      "time": "8h ago",
       "published": "2026-09-30T21:04:34.000Z",
       "excerpt": "Jürgen Klopp said Wednesday he would \"wait and see\" before commenting on the Premier League's announcement yesterday that Manchester City ha",
       "source": "ESPN",
@@ -645,7 +645,7 @@
     {
       "title": "Raphinha returns to Barcelona after injury on Brazil duty",
       "league": "La Liga",
-      "time": "12h ago",
+      "time": "18h ago",
       "published": "2026-09-30T10:42:43.000Z",
       "excerpt": "Raphinha will return to Barcelona after suffering a thigh injury in Brazil's 4-2 friendly win over Australia on Tuesday.",
       "source": "ESPN",
