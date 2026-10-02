@@ -1,32 +1,43 @@
 {
-  "lastUpdate": "2026-10-02T12:20:10.392Z",
+  "lastUpdate": "2026-10-02T19:08:18.171Z",
   "news": [
     {
-      "title": "Man City appeal guilty verdict in Premier League breaches case",
+      "title": "New signing Carlos Baleba gets 1st Man United outing in friendly",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-02T12:19:11.000Z",
-      "excerpt": "Manchester City officially lodged an appeal against their guilty verdict in the Premier League financial breaches case.",
+      "published": "2026-10-02T18:31:55.000Z",
+      "excerpt": "Carlos Baleba played his first minutes in a Manchester United shirt during a behind-closed-doors friendly on Friday.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50083711/man-city-financial-breaches-appeal-guilty-verdict-premier-league",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1724873_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50085754/carlos-baleba-man-united-friendly-lausanne",
+      "image": "https://a.espncdn.com/photo/2026/1002/r1725030_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Sir Alex Ferguson was 'terrified' about Old Trafford return after brain surgery",
+      "title": "Tuchel: Man City charges are a big topic in England camp",
       "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-10-02T08:55:39.000Z",
-      "excerpt": "Sir Alex Ferguson has revealed he was \"terrified\" when returning to Old Trafford for the first time following brain surgery in 2018.",
+      "time": "2h ago",
+      "published": "2026-10-02T16:18:52.000Z",
+      "excerpt": "Tuchel: Man City charges are a big topic in England camp",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50083305/sir-alex-ferguson-man-united-old-trafford-return",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1724845_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50085283/man-city-charges-big-topic-england-camp",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1002/dm_261002_Tuchel_Man_City_charges_are_a_big_topic_in_England_camp/dm_261002_Tuchel_Man_City_charges_are_a_big_topic_in_England_camp.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Raphinha set to be fit for Barcelona clashes with PSG and Real Madrid - source",
+      "league": "La Liga",
+      "time": "5h ago",
+      "published": "2026-10-02T13:47:51.000Z",
+      "excerpt": "Raphinha will be fit for Barcelona's double header against Paris Saint-Germain and Real Madrid later this month after tests revealed no majo",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50084533/raphinha-barcelona-psg-real-madrid-champions-league-el-clasico",
+      "image": "https://a.espncdn.com/photo/2026/1002/r1724919_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "10h ago",
       "published": "2026-10-02T08:49:47.000Z",
       "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Pulisic admits he wants to stay at AC Milan despite lack of minutes",
       "league": "Serie A",
-      "time": "14h ago",
+      "time": "20h ago",
       "published": "2026-10-01T22:17:58.000Z",
       "excerpt": "Pulisic admits he wants to stay at AC Milan despite lack of minutes",
       "source": "ESPN",
@@ -46,36 +57,14 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Several Premier League clubs eye Koundé move",
-      "league": "La Liga",
-      "time": "15h ago",
-      "published": "2026-10-01T20:46:16.000Z",
-      "excerpt": "Could Jules Koundé's next move be in the Premier League? Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50075140/transfer-rumors-news-real-madrid-eye-former-liverpool-defender-quansah",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724622_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "UEFA receives Real Madrid dossier on Barcelona-Negreira case",
       "league": "Champions League",
-      "time": "19h ago",
+      "time": "01/10/2026",
       "published": "2026-10-01T17:09:17.000Z",
       "excerpt": "UEFA has received \"a substantial amount of documents\" from Real Madrid related to its ongoing inquiry into the Negreira case, European footb",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50077749/uefa-real-madrid-dossier-barcelona-referee-negreira-case",
       "image": "https://a.espncdn.com/photo/2026/0617/r1674789_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Late penalty drama as Arsenal draw with Paris FC in UWCL",
-      "league": "Champions League",
-      "time": "30/09/2026",
-      "published": "2026-09-30T21:22:13.000Z",
-      "excerpt": "Late penalty drama as Arsenal draw with Paris FC in UWCL",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50070201/late-penalty-drama-arsenal-draw-paris-fc-uwcl",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0930/dm_260930_Late_penalty_drama_as_Arsenal_draw_with_Paris_FC_in_UWCL/dm_260930_Late_penalty_drama_as_Arsenal_draw_with_Paris_FC_in_UWCL.jpg",
       "category": "football"
     },
     {
