@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-10-03T05:01:44.702Z",
+  "lastUpdate": "2026-10-03T11:30:13.884Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Jadon Sancho willing to wait for January move",
+      "title": "Transfer rumors, news: Haaland wants LaLiga move over Arsenal",
       "league": "Premier League",
-      "time": "8h ago",
-      "published": "2026-10-02T20:41:17.000Z",
-      "excerpt": "Jadon Sancho is happy to wait to sign for a club. Transfer Talk has the latest.",
+      "time": "2h ago",
+      "published": "2026-10-03T08:31:00.000Z",
+      "excerpt": "Manchester City striker Erling Haaland favors a move to Spain over Arsenal. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50082951/transfer-rumors-news-man-united-chelsea-monitoring-benfica-defender",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1725081_2_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50089210/transfer-rumors-news-man-city-erling-haaland-wants-laliga-move-arsenal",
+      "image": "https://a.espncdn.com/photo/2026/0920/r1719479_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Which Premier League players got injured in the international break?",
+      "league": "Premier League",
+      "time": "5h ago",
+      "published": "2026-10-03T06:21:45.000Z",
+      "excerpt": "All the latest news and updates on Premier League stars injuries during the first international break of the 2026-2027 club season",
+      "source": "ESPN",
+      "url": "https://www.espn.com/football/story/_/id/50026166/premier-league-international-break-arsenal-chelsea-manchester-united",
+      "image": "https://a.espncdn.com/photo/2026/1002/r1724832_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Cucurella: Too soon to judge Mourinho's Madrid amid poor start",
       "league": "La Liga",
-      "time": "9h ago",
+      "time": "15h ago",
       "published": "2026-10-02T19:46:20.000Z",
       "excerpt": "Marc Cucurella has acknowledged Real Madrid have not started the season as they would have liked under new coach José Mourinho, but he says ",
       "source": "ESPN",
@@ -24,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "New signing Carlos Baleba gets 1st Man United outing in friendly",
-      "league": "Premier League",
-      "time": "10h ago",
-      "published": "2026-10-02T18:31:55.000Z",
-      "excerpt": "Carlos Baleba played his first minutes in a Manchester United shirt during a behind-closed-doors friendly on Friday.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50085754/carlos-baleba-man-united-friendly-lausanne",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1725030_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Tuchel: Man City charges are a big topic in England camp",
       "league": "Champions League",
-      "time": "12h ago",
+      "time": "19h ago",
       "published": "2026-10-02T16:18:52.000Z",
       "excerpt": "Tuchel: Man City charges are a big topic in England camp",
       "source": "ESPN",
@@ -46,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Raphinha set to be fit for Barcelona clashes with PSG and Real Madrid - source",
-      "league": "La Liga",
-      "time": "15h ago",
-      "published": "2026-10-02T13:47:51.000Z",
-      "excerpt": "Raphinha will be fit for Barcelona's double header against Paris Saint-Germain and Real Madrid later this month after tests revealed no majo",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50084533/raphinha-barcelona-psg-real-madrid-champions-league-el-clasico",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1724919_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "2026 Ballon d'Or: Full men's, women's short lists, host city change, more",
       "league": "Serie A",
-      "time": "20h ago",
+      "time": "02/10/2026",
       "published": "2026-10-02T08:49:47.000Z",
       "excerpt": "The 2026 Ballon d'Or short lists are out. Here's who could win the biggest individual prizes in men's and women's soccer.",
       "source": "ESPN",
