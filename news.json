@@ -1,37 +1,26 @@
 {
-  "lastUpdate": "2026-10-04T08:17:38.223Z",
+  "lastUpdate": "2026-10-04T15:15:28.213Z",
   "news": [
     {
-      "title": "Which Premier League players got injured in the international break?",
+      "title": "Who most deserves the Ballon d'Or? Whittling down the 30-man short list",
       "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-04T06:22:36.000Z",
-      "excerpt": "All the latest news and updates on Premier League stars injuries during the first international break of the 2026-2027 club season",
+      "time": "4h ago",
+      "published": "2026-10-04T10:38:08.000Z",
+      "excerpt": "Kylian Mbappé, Lamine Yamal and Harry Kane are the three favorites to win the 2026 Ballon d'Or, but who actually deserves to win it?",
       "source": "ESPN",
-      "url": "https://www.espn.com/football/story/_/id/50026166/premier-league-international-break-arsenal-chelsea-manchester-united",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1724832_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50074316/who-most-deserves-ballon-dor-whittling-30-man-short-list",
+      "image": "https://a.espncdn.com/photo/2025/0922/r1549234_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Haaland wants LaLiga move over Arsenal",
+      "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz",
       "league": "Premier League",
-      "time": "16h ago",
-      "published": "2026-10-03T15:30:54.000Z",
-      "excerpt": "Manchester City striker Erling Haaland favors a move to Spain over Arsenal. Transfer Talk has the latest.",
+      "time": "4h ago",
+      "published": "2026-10-04T10:27:26.000Z",
+      "excerpt": "Arsenal, Real Madrid and Bayern Munich are all chasing Juventus winger Kenan Yildiz. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50089210/transfer-rumors-news-man-city-erling-haaland-wants-laliga-move-arsenal",
-      "image": "https://a.espncdn.com/photo/2026/0920/r1719479_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Cucurella: Too soon to judge Mourinho's Madrid amid poor start",
-      "league": "La Liga",
-      "time": "02/10/2026",
-      "published": "2026-10-02T19:46:20.000Z",
-      "excerpt": "Marc Cucurella has acknowledged Real Madrid have not started the season as they would have liked under new coach José Mourinho, but he says ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50086086/marc-cucurella-real-madrid-jose-mourinho-spain",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1725052_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50098759/transfer-rumors-news-arsenal-clubs-chasing-kenan-yildiz",
+      "image": "https://a.espncdn.com/photo/2026/0823/r1705543_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -57,17 +46,6 @@
       "category": "football"
     },
     {
-      "title": "Pulisic admits he wants to stay at AC Milan despite lack of minutes",
-      "league": "Serie A",
-      "time": "01/10/2026",
-      "published": "2026-10-01T22:17:58.000Z",
-      "excerpt": "Pulisic admits he wants to stay at AC Milan despite lack of minutes",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50079765/pulisic-admits-wants-stay-ac-milan-lack-minutes",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/dm_261001_COM_SOC_Presser_Pulisic_admits_he_wants_to_stay_at_AC_Milan_despite_lack_of_minutes_20260901_GLO/dm_261001_COM_SOC_Presser_Pulisic_admits_he_wants_to_stay_at_AC_Milan_despite_lack_of_minutes_20260901_GLO.jpg",
-      "category": "football"
-    },
-    {
       "title": "UEFA receives Real Madrid dossier on Barcelona-Negreira case",
       "league": "Champions League",
       "time": "01/10/2026",
@@ -80,7 +58,7 @@
     },
     {
       "title": "Soccer's best 2025-26 kits: The most stylish jerseys you probably missed",
-      "league": "Bundesliga",
+      "league": "Ligue 1",
       "time": "29/09/2026",
       "published": "2026-09-29T07:38:13.000Z",
       "excerpt": "While the world's top clubs release their new kits on a wave of hype, there are many more who release absolutely banging jerseys that deserv",
