@@ -1,26 +1,81 @@
 {
-  "lastUpdate": "2026-10-04T22:58:41.172Z",
+  "lastUpdate": "2026-10-05T14:21:19.123Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz",
+      "title": "Tuchel: There are no words left to describe Kane",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-10-05T13:50:37.000Z",
+      "excerpt": "Tuchel: There are no words left to describe Kane",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50109199/there-no-words-left-describe-kane",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/dm_261005_Tuchel_There_are_no_words_left_to_describe_Kane/dm_261005_Tuchel_There_are_no_words_left_to_describe_Kane.jpg",
+      "category": "football"
+    },
+    {
+      "title": "How a mass Man City player exodus would warp the transfer market",
       "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-05T12:46:40.000Z",
+      "excerpt": "If Manchester City are punished by being relegated from the Premier League, group of players worth more than £1 billion in transfer fees wou",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50108326/how-mass-manchester-city-player-exodus-warp-transfer-market",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726237_4_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ledley King backs Tottenham form to 'turn around very quickly'",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-05T12:36:38.000Z",
+      "excerpt": "Ledley King has urged Roberto De Zerbi's team to draw on the experiences of last season to end the club's winless start to the new Premier L",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50108907/ledley-king-backs-tottenham-form-turn-very-quickly",
+      "image": "https://a.espncdn.com/photo/2026/0525/r1663333_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Folarin Balogun reopens door to Premier League despite failed Everton move",
+      "league": "Ligue 1",
+      "time": "1h ago",
+      "published": "2026-10-05T12:27:57.000Z",
+      "excerpt": "United States striker Folarin Balogun has said that he would still be keen to play in the Premier League, even though his transfer deadline ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50108717/folarin-balogun-premier-league-everton-monaco-usmnt",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0902/dm_260902_COM_SOC_ANALYSIS_Why_Folarin_Baloguns_Everton_movebroke_down_2026_9_2/dm_260902_COM_SOC_ANALYSIS_Why_Folarin_Baloguns_Everton_movebroke_down_2026_9_2.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Kylian Mbappé goes cycling despite José Mourinho warning",
+      "league": "La Liga",
       "time": "4h ago",
+      "published": "2026-10-05T10:05:02.000Z",
+      "excerpt": "Kylian Mbappé has shared a video of himself riding a bicycle on social media, just days after his Real Madrid manager, José Mourinho, said p",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50108439/mbappe-cycling-bike-jose-mourinho-real-madrid-france",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726250_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Bayern brace for tough contract talks with Olise",
+      "league": "La Liga",
+      "time": "5h ago",
+      "published": "2026-10-05T08:39:19.000Z",
+      "excerpt": "Bayern Munich could be facing an uphill battle to sign winger Michael Olise to a new contract. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50107972/transfer-rumors-news-bayern-munich-tough-contract-talks-michael-olise",
+      "image": "https://a.espncdn.com/photo/2026/0907/r1712702_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal among clubs chasing winger Yildiz",
+      "league": "Serie A",
+      "time": "20h ago",
       "published": "2026-10-04T18:14:16.000Z",
       "excerpt": "Arsenal, Real Madrid and Bayern Munich are all chasing Juventus winger Kenan Yildiz. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50098759/transfer-rumors-news-arsenal-clubs-chasing-kenan-yildiz",
       "image": "https://a.espncdn.com/photo/2026/0823/r1705543_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Who most deserves the Ballon d'Or? Whittling down the 30-man short list",
-      "league": "Premier League",
-      "time": "12h ago",
-      "published": "2026-10-04T10:38:08.000Z",
-      "excerpt": "Kylian Mbappé, Lamine Yamal and Harry Kane are the three favorites to win the 2026 Ballon d'Or, but who actually deserves to win it?",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50074316/who-most-deserves-ballon-dor-whittling-30-man-short-list",
-      "image": "https://a.espncdn.com/photo/2025/0922/r1549234_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -54,17 +109,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50077749/uefa-real-madrid-dossier-barcelona-referee-negreira-case",
       "image": "https://a.espncdn.com/photo/2026/0617/r1674789_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Soccer's best 2025-26 kits: The most stylish jerseys you probably missed",
-      "league": "Ligue 1",
-      "time": "29/09/2026",
-      "published": "2026-09-29T07:38:13.000Z",
-      "excerpt": "While the world's top clubs release their new kits on a wave of hype, there are many more who release absolutely banging jerseys that deserv",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49812807/soccer-best-kits-2025-26-stylish-jerseys-probably-missed",
-      "image": "https://a.espncdn.com/photo/2026/0904/r1711227_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
