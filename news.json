@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-10-08T13:15:26.417Z",
+  "lastUpdate": "2026-10-08T19:47:16.623Z",
   "news": [
     {
-      "title": "Sources: Pep Guardiola set to attend first Man City home game since guilty verdict",
+      "title": "Tottenham's Xavi Simons enrolls at Harvard Business School",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-08T12:21:37.000Z",
-      "excerpt": "Pep Guardiola is expected to attend Manchester City's Champions League fixture against Paris Saint-Germain, sources have told ESPN.",
+      "published": "2026-10-08T19:19:43.000Z",
+      "excerpt": "Tottenham Hotspur's Xavi Simons has revealed he has enrolled for an online course at Harvard Business School.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50131879/pep-guardiola-attend-first-man-city-home-game-guilty-verdict-sources",
-      "image": "https://a.espncdn.com/photo/2026/0723/r1692734_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50134572/tottenham-hotspur-xavi-simons-enrolls-student-harvard-business-school",
+      "image": "https://a.espncdn.com/photo/2026/1008/r1727956_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Man City manager Enzo Maresca says he 'trusts the club completely'",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-08T17:37:54.000Z",
+      "excerpt": "Enzo Maresca has said he \"trusts the club completely\" in his first interview since Manchester City were found guilty of breaking financial r",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50134137/manchester-city-manager-enzo-maresca-says-trusts-club-completely",
+      "image": "https://a.espncdn.com/photo/2026/0905/r1711852_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Mikel Arteta: 'I still have the scar' from Arsenal's Champions League final defeat",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "8h ago",
       "published": "2026-10-08T11:15:23.000Z",
       "excerpt": "Mikel Arteta has said he still has a \"scar\" from Arsenal's Champions League final defeat to Paris Saint-Germain in May.",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Raúl Asencio on drink driving conviction: 'I'm at Real Madrid, that can't happen again'",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-10-08T10:36:19.000Z",
       "excerpt": "Raúl Asencio has said he is only focused on winning at Real Madrid and \"turning the situation around\" following his recent conviction for dr",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Max Dowman presented with three Guinness World Records after breakout Arsenal season",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-10-08T09:57:48.000Z",
-      "excerpt": "Max Dowman has added three Guinness World Records to his growing list of achievements despite not turning 17 until this coming December.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50131668/max-dowman-three-guinness-world-records-breakout-arsenal-season",
-      "image": "https://a.espncdn.com/photo/2026/1008/r1727751_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Mbappé future at Real Madrid in doubt?",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "10h ago",
       "published": "2026-10-08T09:15:34.000Z",
       "excerpt": "Mbappé has reportedly angered manager Jose Mourinho, but Madrid would not consider offers less than €200 million. Transfer Talk has the late",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Scott McTominay back in Napoli training after heart procedure",
       "league": "Serie A",
-      "time": "17h ago",
+      "time": "23h ago",
       "published": "2026-10-07T20:07:18.000Z",
       "excerpt": "Scott McTominay has returned to training with Napoli for the first time since undergoing a heart procedure last month.",
       "source": "ESPN",
