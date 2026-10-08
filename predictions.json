@@ -1,10 +1,10 @@
 {
   "date": "2026-10-09",
-  "lastUpdate": "2026-10-07T22:59:08.614Z",
-  "predictionGenerated": "2026-10-07T22:59:08.614Z",
-  "dataTimestamp": "2026-10-07T22:59:05.924Z",
+  "lastUpdate": "2026-10-08T05:45:16.765Z",
+  "predictionGenerated": "2026-10-08T05:45:16.765Z",
+  "dataTimestamp": "2026-10-08T05:45:14.323Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:35+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:27+tomorrow:7+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "es.1:2026-10-09:Málaga CF:RCD Espanyol de Barcelona",
@@ -13,7 +13,7 @@
       "date": "2026-10-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "33h to kickoff",
       "home": "Málaga CF",
       "away": "RCD Espanyol de Barcelona",
       "league": "La Liga",
@@ -86,7 +86,7 @@
       "date": "2026-10-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "33h to kickoff",
       "home": "Borussia Dortmund",
       "away": "SV Werder Bremen",
       "league": "Bundesliga",
@@ -159,7 +159,7 @@
       "date": "2026-10-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "33h to kickoff",
       "home": "Racing Club de Lens",
       "away": "Olympique Lyonnais",
       "league": "Ligue 1",
@@ -232,7 +232,7 @@
       "date": "2026-10-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "33h to kickoff",
       "home": "PSV",
       "away": "SC Heerenveen",
       "league": "Eredivisie",
@@ -299,86 +299,13 @@
       "locked": false
     },
     {
-      "id": "pt.1:2026-10-09:Sporting Clube de Braga:Sporting Clube de Portugal",
-      "slug": "sporting-clube-de-braga-vs-sporting-clube-de-portugal-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Sporting Clube de Braga",
-      "away": "Sporting Clube de Portugal",
-      "league": "Primeira Liga",
-      "code": "PPL",
-      "flag": "🇵🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 88,
-      "odds": "1.08",
-      "value": "+19%",
-      "probs": {
-        "home": 88,
-        "draw": 8,
-        "away": 4
-      },
-      "xg": {
-        "home": "3.18",
-        "away": "0.53",
-        "total": "3.71"
-      },
-      "doubleChance": {
-        "12": 92,
-        "1X": 96,
-        "X2": 12
-      },
-      "overUnder": {
-        "over2_5": 70,
-        "under2_5": 30,
-        "oddsOver": "1.36",
-        "oddsUnder": "3.17"
-      },
-      "btts": {
-        "yes": 39,
-        "no": 61
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 14
-        },
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "4-0",
-          "prob": 11
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Sporting Clube de Braga vs Sporting Clube de Portugal: Dixon-Coles P(H)88% D8% A4% • xG 3.18-0.53 • most likely score 3-0 (14%) • Home Win confidence 88% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
       "id": "pt.1:2026-10-09:Moreirense FC:Gil Vicente FC",
       "slug": "moreirense-vs-gil-vicente-prediction",
       "utcDate": "2026-10-09T15:00:00Z",
       "date": "2026-10-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "33h to kickoff",
       "home": "Moreirense",
       "away": "Gil Vicente",
       "league": "Primeira Liga",
@@ -445,13 +372,86 @@
       "locked": false
     },
     {
+      "id": "pt.1:2026-10-09:Sporting Clube de Braga:Sporting Clube de Portugal",
+      "slug": "sporting-clube-de-braga-vs-sporting-clube-de-portugal-prediction",
+      "utcDate": "2026-10-09T15:00:00Z",
+      "date": "2026-10-09",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "33h to kickoff",
+      "home": "Sporting Clube de Braga",
+      "away": "Sporting Clube de Portugal",
+      "league": "Primeira Liga",
+      "code": "PPL",
+      "flag": "🇵🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 88,
+      "odds": "1.08",
+      "value": "+19%",
+      "probs": {
+        "home": 88,
+        "draw": 8,
+        "away": 4
+      },
+      "xg": {
+        "home": "3.18",
+        "away": "0.53",
+        "total": "3.71"
+      },
+      "doubleChance": {
+        "12": 92,
+        "1X": 96,
+        "X2": 12
+      },
+      "overUnder": {
+        "over2_5": 70,
+        "under2_5": 30,
+        "oddsOver": "1.36",
+        "oddsUnder": "3.17"
+      },
+      "btts": {
+        "yes": 39,
+        "no": 61
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "4-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Sporting Clube de Braga vs Sporting Clube de Portugal: Dixon-Coles P(H)88% D8% A4% • xG 3.18-0.53 • most likely score 3-0 (14%) • Home Win confidence 88% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
       "id": "en.2:2026-10-09:West Ham United FC:Queens Park Rangers FC",
       "slug": "west-ham-united-vs-queens-park-rangers-prediction",
       "utcDate": "2026-10-09T15:00:00Z",
       "date": "2026-10-09",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "33h to kickoff",
       "home": "West Ham United",
       "away": "Queens Park Rangers",
       "league": "Championship",
@@ -524,7 +524,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Manchester United",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -597,7 +597,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Aston Villa",
       "away": "Brentford",
       "league": "Premier League",
@@ -670,7 +670,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Ipswich Town",
       "away": "Fulham",
       "league": "Premier League",
@@ -743,7 +743,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Chelsea",
       "away": "AFC Bournemouth",
       "league": "Premier League",
@@ -816,7 +816,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Sunderland A",
       "away": "Brighton & Hove Albion",
       "league": "Premier League",
@@ -889,7 +889,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Arsenal",
       "away": "Leeds United",
       "league": "Premier League",
@@ -962,7 +962,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Real Madrid CF",
       "away": "Villarreal CF",
       "league": "La Liga",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "FC Barcelona",
       "away": "Getafe CF",
       "league": "La Liga",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Deportivo Alavés",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "Rayo Vallecano de Madrid",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "RB Leipzig",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "FC Augsburg",
       "away": "FC Bayern München",
       "league": "Bundesliga",
@@ -1400,7 +1400,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "TSG 1899 Hoffenheim",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1473,7 +1473,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -1546,7 +1546,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "SC Paderborn 07",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -1619,7 +1619,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "Bayer 04 Leverkusen",
       "league": "Bundesliga",
@@ -1692,7 +1692,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "64h to kickoff",
+      "countdown": "57h to kickoff",
       "home": "SSC Napoli",
       "away": "Frosinone Calcio",
       "league": "Serie A",
@@ -2365,7 +2365,7 @@
     {
       "title": "How hostile will Man City's reception be at Anfield?",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "7h ago",
       "published": "2026-10-07T22:26:04.000Z",
       "excerpt": "How hostile will Man City's reception be at Anfield?",
       "source": "ESPN",
@@ -2376,7 +2376,7 @@
     {
       "title": "Transfer rumors, news: Arsenal to sign Mexico's Gilberto Mora?",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "7h ago",
       "published": "2026-10-07T21:54:14.000Z",
       "excerpt": "Defending Premier League champions Arsenal are reportedly looking to sign Tijuana and Mexico's Gilberto Mora. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -2387,7 +2387,7 @@
     {
       "title": "Scott McTominay back in Napoli training after heart procedure",
       "league": "Serie A",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-10-07T20:07:18.000Z",
       "excerpt": "Scott McTominay has returned to training with Napoli for the first time since undergoing a heart procedure last month.",
       "source": "ESPN",
@@ -2398,7 +2398,7 @@
     {
       "title": "England teammates praise Kane, 'it's definitely possible' he could win the Ballon d'Or",
       "league": "La Liga",
-      "time": "14h ago",
+      "time": "20h ago",
       "published": "2026-10-07T08:48:11.000Z",
       "excerpt": "England teammates praise Kane, 'it's definitely possible' he could win the Ballon d'Or",
       "source": "ESPN",
