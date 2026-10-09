@@ -1,522 +1,11 @@
 {
-  "date": "2026-10-09",
-  "lastUpdate": "2026-10-09T16:56:00.800Z",
-  "predictionGenerated": "2026-10-09T16:56:00.800Z",
-  "dataTimestamp": "2026-10-09T16:55:58.356Z",
+  "date": "2026-10-10",
+  "lastUpdate": "2026-10-09T22:31:52.638Z",
+  "predictionGenerated": "2026-10-09T22:31:52.638Z",
+  "dataTimestamp": "2026-10-09T22:31:50.092Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:46+tomorrow:41+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "es.1:2026-10-09:Málaga CF:RCD Espanyol de Barcelona",
-      "slug": "malaga-cf-vs-rcd-espanyol-de-barcelona-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Málaga CF",
-      "away": "RCD Espanyol de Barcelona",
-      "league": "La Liga",
-      "code": "PD",
-      "flag": "🇪🇸",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 82,
-      "odds": "1.16",
-      "value": "+16%",
-      "probs": {
-        "home": 6,
-        "draw": 12,
-        "away": 82
-      },
-      "xg": {
-        "home": "0.56",
-        "away": "2.64",
-        "total": "3.20"
-      },
-      "doubleChance": {
-        "12": 88,
-        "1X": 18,
-        "X2": 94
-      },
-      "overUnder": {
-        "over2_5": 61,
-        "under2_5": 39,
-        "oddsOver": "1.56",
-        "oddsUnder": "2.44"
-      },
-      "btts": {
-        "yes": 39,
-        "no": 61
-      },
-      "correctScore": {
-        "score": "0-2",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "0-2",
-          "prob": 14
-        },
-        {
-          "score": "0-3",
-          "prob": 13
-        },
-        {
-          "score": "0-1",
-          "prob": 11
-        }
-      ],
-      "asianHandicap": "Away +2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Málaga CF vs RCD Espanyol de Barcelona: Dixon-Coles P(H)6% D12% A82% • xG 0.56-2.64 • most likely score 0-2 (14%) • Away Win confidence 82% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "de.1:2026-10-09:Borussia Dortmund:SV Werder Bremen",
-      "slug": "borussia-dortmund-vs-sv-werder-bremen-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Borussia Dortmund",
-      "away": "SV Werder Bremen",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 83,
-      "odds": "1.15",
-      "value": "+16%",
-      "probs": {
-        "home": 83,
-        "draw": 11,
-        "away": 6
-      },
-      "xg": {
-        "home": "2.79",
-        "away": "0.60",
-        "total": "3.39"
-      },
-      "doubleChance": {
-        "12": 89,
-        "1X": 94,
-        "X2": 17
-      },
-      "overUnder": {
-        "over2_5": 65,
-        "under2_5": 35,
-        "oddsOver": "1.46",
-        "oddsUnder": "2.71"
-      },
-      "btts": {
-        "yes": 42,
-        "no": 58
-      },
-      "correctScore": {
-        "score": "2-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "3-0",
-          "prob": 12
-        },
-        {
-          "score": "1-0",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Borussia Dortmund vs SV Werder Bremen: Dixon-Coles P(H)83% D11% A6% • xG 2.79-0.60 • most likely score 2-0 (13%) • Home Win confidence 83% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-10-09:Racing Club de Lens:Olympique Lyonnais",
-      "slug": "racing-club-de-lens-vs-olympique-lyonnais-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Racing Club de Lens",
-      "away": "Olympique Lyonnais",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 56,
-      "odds": "1.69",
-      "value": "+3%",
-      "probs": {
-        "home": 56,
-        "draw": 22,
-        "away": 22
-      },
-      "xg": {
-        "home": "1.74",
-        "away": "0.97",
-        "total": "2.71"
-      },
-      "doubleChance": {
-        "12": 78,
-        "1X": 78,
-        "X2": 44
-      },
-      "overUnder": {
-        "over2_5": 51,
-        "under2_5": 49,
-        "oddsOver": "1.86",
-        "oddsUnder": "1.94"
-      },
-      "btts": {
-        "yes": 50,
-        "no": 50
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "1-1",
-          "prob": 10
-        },
-        {
-          "score": "2-0",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -0.75",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Racing Club de Lens vs Olympique Lyonnais: Dixon-Coles P(H)56% D22% A22% • xG 1.74-0.97 • most likely score 1-0 (13%) • Home Win confidence 56% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "nl.1:2026-10-09:PSV:SC Heerenveen",
-      "slug": "psv-vs-sc-heerenveen-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "PSV",
-      "away": "SC Heerenveen",
-      "league": "Eredivisie",
-      "code": "DED",
-      "flag": "🇳🇱",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 81,
-      "odds": "1.17",
-      "value": "+16%",
-      "probs": {
-        "home": 81,
-        "draw": 12,
-        "away": 7
-      },
-      "xg": {
-        "home": "2.71",
-        "away": "0.62",
-        "total": "3.33"
-      },
-      "doubleChance": {
-        "12": 88,
-        "1X": 93,
-        "X2": 19
-      },
-      "overUnder": {
-        "over2_5": 64,
-        "under2_5": 36,
-        "oddsOver": "1.48",
-        "oddsUnder": "2.64"
-      },
-      "btts": {
-        "yes": 43,
-        "no": 57
-      },
-      "correctScore": {
-        "score": "2-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "3-0",
-          "prob": 12
-        },
-        {
-          "score": "1-0",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "PSV vs SC Heerenveen: Dixon-Coles P(H)81% D12% A7% • xG 2.71-0.62 • most likely score 2-0 (13%) • Home Win confidence 81% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "pt.1:2026-10-09:Moreirense FC:Gil Vicente FC",
-      "slug": "moreirense-vs-gil-vicente-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Moreirense",
-      "away": "Gil Vicente",
-      "league": "Primeira Liga",
-      "code": "PPL",
-      "flag": "🇵🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Moreirense vs Gil Vicente: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "pt.1:2026-10-09:Sporting Clube de Braga:Sporting Clube de Portugal",
-      "slug": "sporting-clube-de-braga-vs-sporting-clube-de-portugal-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Sporting Clube de Braga",
-      "away": "Sporting Clube de Portugal",
-      "league": "Primeira Liga",
-      "code": "PPL",
-      "flag": "🇵🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 88,
-      "odds": "1.08",
-      "value": "+19%",
-      "probs": {
-        "home": 88,
-        "draw": 8,
-        "away": 4
-      },
-      "xg": {
-        "home": "3.18",
-        "away": "0.53",
-        "total": "3.71"
-      },
-      "doubleChance": {
-        "12": 92,
-        "1X": 96,
-        "X2": 12
-      },
-      "overUnder": {
-        "over2_5": 70,
-        "under2_5": 30,
-        "oddsOver": "1.36",
-        "oddsUnder": "3.17"
-      },
-      "btts": {
-        "yes": 39,
-        "no": 61
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 14
-        },
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "4-0",
-          "prob": 11
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Sporting Clube de Braga vs Sporting Clube de Portugal: Dixon-Coles P(H)88% D8% A4% • xG 3.18-0.53 • most likely score 3-0 (14%) • Home Win confidence 88% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.2:2026-10-09:West Ham United FC:Queens Park Rangers FC",
-      "slug": "west-ham-united-vs-queens-park-rangers-prediction",
-      "utcDate": "2026-10-09T15:00:00Z",
-      "date": "2026-10-09",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "West Ham United",
-      "away": "Queens Park Rangers",
-      "league": "Championship",
-      "code": "ELC",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 83,
-      "odds": "1.14",
-      "value": "+17%",
-      "probs": {
-        "home": 83,
-        "draw": 11,
-        "away": 6
-      },
-      "xg": {
-        "home": "2.83",
-        "away": "0.59",
-        "total": "3.42"
-      },
-      "doubleChance": {
-        "12": 89,
-        "1X": 94,
-        "X2": 17
-      },
-      "overUnder": {
-        "over2_5": 66,
-        "under2_5": 34,
-        "oddsOver": "1.44",
-        "oddsUnder": "2.79"
-      },
-      "btts": {
-        "yes": 42,
-        "no": 58
-      },
-      "correctScore": {
-        "score": "2-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "2-0",
-          "prob": 13
-        },
-        {
-          "score": "3-0",
-          "prob": 13
-        },
-        {
-          "score": "1-0",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "West Ham United vs Queens Park Rangers: Dixon-Coles P(H)83% D11% A6% • xG 2.83-0.59 • most likely score 2-0 (13%) • Home Win confidence 83% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "en.1:2026-10-10:Arsenal FC:Leeds United FC",
       "slug": "arsenal-vs-leeds-united-prediction",
@@ -524,7 +13,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Arsenal",
       "away": "Leeds United",
       "league": "Premier League",
@@ -597,7 +86,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Sunderland A",
       "away": "Brighton & Hove Albion",
       "league": "Premier League",
@@ -670,7 +159,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Chelsea",
       "away": "AFC Bournemouth",
       "league": "Premier League",
@@ -743,7 +232,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Ipswich Town",
       "away": "Fulham",
       "league": "Premier League",
@@ -816,7 +305,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Aston Villa",
       "away": "Brentford",
       "league": "Premier League",
@@ -889,7 +378,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Manchester United",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -962,7 +451,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Rayo Vallecano de Madrid",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -990,10 +479,10 @@
         "X2": 86
       },
       "overUnder": {
-        "over2_5": 35,
-        "under2_5": 65,
-        "oddsOver": "2.71",
-        "oddsUnder": "1.46"
+        "over2_5": 34,
+        "under2_5": 66,
+        "oddsOver": "2.79",
+        "oddsUnder": "1.44"
       },
       "btts": {
         "yes": 33,
@@ -1035,7 +524,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Deportivo Alavés",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -1108,7 +597,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "FC Barcelona",
       "away": "Getafe CF",
       "league": "La Liga",
@@ -1181,7 +670,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Real Madrid CF",
       "away": "Villarreal CF",
       "league": "La Liga",
@@ -1254,7 +743,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "Bayer 04 Leverkusen",
       "league": "Bundesliga",
@@ -1327,7 +816,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "SC Paderborn 07",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -1400,7 +889,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -1473,7 +962,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "TSG 1899 Hoffenheim",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1546,7 +1035,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "FC Augsburg",
       "away": "FC Bayern München",
       "league": "Bundesliga",
@@ -1619,7 +1108,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "RB Leipzig",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1692,7 +1181,7 @@
       "date": "2026-10-10",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "22h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "Genoa C",
       "away": "ACF Fiorentina",
       "league": "Serie A",
@@ -1755,6 +1244,517 @@
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Genoa C vs ACF Fiorentina: Dixon-Coles P(H)18% D20% A62% • xG 0.88-1.90 • most likely score 0-1 (13%) • Away Win confidence 62% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-10:FC Internazionale Milano:Parma Calcio 1913",
+      "slug": "fc-internazionale-milano-vs-parma-calcio-1913-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "FC Internazionale Milano",
+      "away": "Parma Calcio 1913",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Internazionale Milano vs Parma Calcio 1913: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-10:SSC Napoli:Frosinone Calcio",
+      "slug": "ssc-napoli-vs-frosinone-calcio-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "SSC Napoli",
+      "away": "Frosinone Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 96,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 96,
+        "draw": 3,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.33",
+        "total": "4.53"
+      },
+      "doubleChance": {
+        "12": 97,
+        "1X": 97,
+        "X2": 4
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 28,
+        "no": 72
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 16
+        },
+        {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SSC Napoli vs Frosinone Calcio: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.33 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-10:Lille OSC:Le Havre AC",
+      "slug": "lille-osc-vs-le-havre-ac-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "Lille OSC",
+      "away": "Le Havre AC",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 81,
+      "odds": "1.18",
+      "value": "+15%",
+      "probs": {
+        "home": 81,
+        "draw": 12,
+        "away": 7
+      },
+      "xg": {
+        "home": "2.68",
+        "away": "0.63",
+        "total": "3.31"
+      },
+      "doubleChance": {
+        "12": 88,
+        "1X": 93,
+        "X2": 19
+      },
+      "overUnder": {
+        "over2_5": 63,
+        "under2_5": 37,
+        "oddsOver": "1.51",
+        "oddsUnder": "2.57"
+      },
+      "btts": {
+        "yes": 43,
+        "no": 57
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Lille OSC vs Le Havre AC: Dixon-Coles P(H)81% D12% A7% • xG 2.68-0.63 • most likely score 2-0 (13%) • Home Win confidence 81% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-10:Stade Brestois 29:Angers SCO",
+      "slug": "stade-brestois-29-vs-angers-sco-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "Stade Brestois 29",
+      "away": "Angers SCO",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 82,
+      "odds": "1.16",
+      "value": "+16%",
+      "probs": {
+        "home": 82,
+        "draw": 13,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.46",
+        "away": "0.46",
+        "total": "2.92"
+      },
+      "doubleChance": {
+        "12": 87,
+        "1X": 94,
+        "X2": 18
+      },
+      "overUnder": {
+        "over2_5": 55,
+        "under2_5": 45,
+        "oddsOver": "1.73",
+        "oddsUnder": "2.11"
+      },
+      "btts": {
+        "yes": 33,
+        "no": 67
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 17
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 17
+        },
+        {
+          "score": "1-0",
+          "prob": 14
+        },
+        {
+          "score": "3-0",
+          "prob": 14
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Stade Brestois 29 vs Angers SCO: Dixon-Coles P(H)82% D13% A6% • xG 2.46-0.46 • most likely score 2-0 (17%) • Home Win confidence 82% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-10:FC Lorient:Paris FC",
+      "slug": "fc-lorient-vs-paris-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "FC Lorient",
+      "away": "Paris",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 82,
+      "odds": "1.16",
+      "value": "+16%",
+      "probs": {
+        "home": 82,
+        "draw": 12,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.75",
+        "away": "0.61",
+        "total": "3.36"
+      },
+      "doubleChance": {
+        "12": 88,
+        "1X": 94,
+        "X2": 18
+      },
+      "overUnder": {
+        "over2_5": 65,
+        "under2_5": 35,
+        "oddsOver": "1.46",
+        "oddsUnder": "2.71"
+      },
+      "btts": {
+        "yes": 42,
+        "no": 58
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Lorient vs Paris: Dixon-Coles P(H)82% D12% A6% • xG 2.75-0.61 • most likely score 2-0 (13%) • Home Win confidence 82% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-10:Paris Saint-Germain FC:Le Mans FC",
+      "slug": "paris-saint-germain-vs-le-mans-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "Paris Saint-Germain",
+      "away": "Le Mans",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 95,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 95,
+        "draw": 4,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.38",
+        "total": "4.58"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 5
+      },
+      "overUnder": {
+        "over2_5": 81,
+        "under2_5": 19,
+        "oddsOver": "1.17",
+        "oddsUnder": "5.00"
+      },
+      "btts": {
+        "yes": 31,
+        "no": 69
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 15
+        },
+        {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Paris Saint-Germain vs Le Mans: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.38 • most likely score 4-0 (15%) • Home Win confidence 95% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-10:AS Monaco FC:Toulouse FC",
+      "slug": "as-monaco-vs-toulouse-prediction",
+      "utcDate": "2026-10-10T15:00:00Z",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "16h to kickoff",
+      "home": "AS Monaco",
+      "away": "Toulouse",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 88,
+      "odds": "1.08",
+      "value": "+19%",
+      "probs": {
+        "home": 88,
+        "draw": 9,
+        "away": 3
+      },
+      "xg": {
+        "home": "2.70",
+        "away": "0.30",
+        "total": "3.00"
+      },
+      "doubleChance": {
+        "12": 91,
+        "1X": 97,
+        "X2": 12
+      },
+      "overUnder": {
+        "over2_5": 57,
+        "under2_5": 43,
+        "oddsOver": "1.67",
+        "oddsUnder": "2.21"
+      },
+      "btts": {
+        "yes": 24,
+        "no": 76
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 19
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 19
+        },
+        {
+          "score": "3-0",
+          "prob": 17
+        },
+        {
+          "score": "1-0",
+          "prob": 14
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "AS Monaco vs Toulouse: Dixon-Coles P(H)88% D9% A3% • xG 2.70-0.30 • most likely score 2-0 (19%) • Home Win confidence 88% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Kompany: I still have great memories of my time at Man City despite PL charges",
+      "title": "Arsenal 'very lucky' Mikel Arteta signed new deal, he is the 'best' - Declan Rice",
       "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-09T15:35:26.000Z",
-      "excerpt": "Kompany: I still have great memories of my time at Man City despite PL charges",
+      "time": "0h ago",
+      "published": "2026-10-09T22:26:00.000Z",
+      "excerpt": "Declan Rice has said that Arsenal are \"very lucky\" to have the \"best\" coach in Mikel Arteta after the Spaniard signed a four-year contract, ",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50140918/great-memories-my-man-city-pl-charges",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/dm_261009_COM_SOC_Presser_Kompany3A_I_still_have_great_memories_of_my_time_at_Man_City_despite_PL_charges_GLO/dm_261009_COM_SOC_Presser_Kompany3A_I_still_have_great_memories_of_my_time_at_Man_City_despite_PL_charges_GLO.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50143021/arsenal-lucky-best-arteta-signed-deal-rice",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728425_3_594x334_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Xabi Alonso insists Cole Palmer committed to representing England after Thomas Tuchel dig",
+      "title": "Burley: Carrick faces added pressure against Spurs",
       "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-09T15:31:25.000Z",
-      "excerpt": "Chelsea manager Xabi Alonso insists Cole Palmer is committed to representing England following question marks raised by national team boss T",
+      "time": "0h ago",
+      "published": "2026-10-09T22:13:25.000Z",
+      "excerpt": "Burley: Carrick faces added pressure against Spurs",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50138825/xabi-alonso-insists-cole-palmer-committed-representing-england-thomas-tuchel-dig",
-      "image": "https://a.espncdn.com/photo/2026/0728/r1694613_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50143029/carrick-faces-added-pressure-spurs",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/dm_261009_Burley_Carrick_faces_added_pressure_against_Spurs/dm_261009_Burley_Carrick_faces_added_pressure_against_Spurs.jpg",
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Real Madrid eye McTominay as Napoli talks stall",
+      "title": "Lowe: Mourinho wants to play Vinícius Jr. back into form",
       "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-10-09T15:06:13.000Z",
-      "excerpt": "Scott McTominay's contract talks at Napoli have hit a hurdle, with Real Madrid reportedly interested in making a move. Transfer Talk has the",
+      "time": "0h ago",
+      "published": "2026-10-09T22:13:16.000Z",
+      "excerpt": "Lowe: Mourinho wants to play Vinícius Jr. back into form",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50142917/mourinho-wants-play-vinicius-jr-back-form",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/dm_261009_Lowe_Mourinho_wants_to_play_Vinicius_Jr_back_into_form/dm_261009_Lowe_Mourinho_wants_to_play_Vinicius_Jr_back_into_form.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Chelsea eye move for Barcelona's De Jong",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-10-09T21:34:28.000Z",
+      "excerpt": "Chelsea are reporting looking at signing Frenkie de Jong from Barcelona. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50138310/transfer-rumors-news-real-madrid-eye-mctominay-napoli-talks-stall",
-      "image": "https://a.espncdn.com/photo/2026/0901/r1709929_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Flick confirms Raphinha injury and hails 'unbelievable' Yamal",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-10-09T14:35:24.000Z",
-      "excerpt": "Flick confirms Raphinha injury and hails 'unbelievable' Yamal",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50140523/flick-confirms-raphinha-injury-hails-unbelievable-yamal",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/dm_261009_Flick_confirms_Raphinha_injury_and_hails_unbelievable_Yamal/dm_261009_Flick_confirms_Raphinha_injury_and_hails_unbelievable_Yamal.jpg",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728422_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
