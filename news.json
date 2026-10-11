@@ -1,32 +1,43 @@
 {
-  "lastUpdate": "2026-10-11T05:28:05.505Z",
+  "lastUpdate": "2026-10-11T12:35:45.808Z",
   "news": [
     {
-      "title": "Solanke rescues point for 10-man Spurs against United",
+      "title": "Senne Lammens: Man United must get 'sour' taste of late Tottenham woe out of mouth",
       "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-10-11T01:11:58.000Z",
-      "excerpt": "Dominic Solanke pounces in injury time as a 10-man Tottenham outfit snatch a late 1-1 draw against Manchester United.",
+      "time": "0h ago",
+      "published": "2026-10-11T12:31:51.000Z",
+      "excerpt": "Senne Lammens says Manchester United head to Atlético Madrid determined to get rid of the \"sour\" taste left in their mouth by Saturday's dis",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50152700/solanke-rescues-point-10-man-spurs-united",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_EPL_Highlight_Solanke_rescues_point_for_10man_Spurs_against_United_20261011_AUS_ONLY/dm_261010_EPL_Highlight_Solanke_rescues_point_for_10man_Spurs_against_United_20261011_AUS_ONLY.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50155787/man-united-tottenham-premier-league-senne-lammens",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729104_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Gunners come from behind to beat Leeds",
+      "title": "Premier League live updates: All eyes on Anfield for Liverpool vs. Man City",
       "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-10-11T01:11:34.000Z",
-      "excerpt": "Arsenal strike twice in eight second-half minutes through Riccardo Calafiori and Bruno Guimarães to claim a 2-1 comeback win over Leeds.",
+      "time": "0h ago",
+      "published": "2026-10-11T12:20:16.000Z",
+      "excerpt": "Manchester City's first match since being found guilty of 114 charges of breaching the Premier League's financial rules comes against Liverp",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50152693/gunners-come-beat-leeds",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_EPL_Highlight_Gunners_come_from_behind_to_beat_Leeds__20261011_AUS_ONLY/dm_261010_EPL_Highlight_Gunners_come_from_behind_to_beat_Leeds__20261011_AUS_ONLY.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50134705/premier-league-live-updates-liverpool-manchester-city-ac-milan",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729106_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Man City, Man Utd, Spurs eye Atlético's Simeone",
+      "league": "La Liga",
+      "time": "3h ago",
+      "published": "2026-10-11T09:05:45.000Z",
+      "excerpt": "Man City, Man United and Tottenham are all looking at bringing Atlético Madrid's Giuliano Simeone to the Premier League. Transfer Talk has t",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50155123/transfer-rumors-news-manchester-city-tottenham-hotspur-eye-atletico-madrid-giuliano-simeone",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729094_2_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Vinicius Junior's dramatic night headlines win vs. Villarreal",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "12h ago",
       "published": "2026-10-10T23:53:14.000Z",
       "excerpt": "Alex Kirkland breaks down the turn of events from Vinicius Junior's night in Real Madrid's 1-nil win against Villarreal.",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Garcia: Flick deserves credit for Barcelona's strong form",
-      "league": "La Liga",
-      "time": "6h ago",
-      "published": "2026-10-10T22:43:05.000Z",
-      "excerpt": "Garcia: Flick deserves credit for Barcelona's strong form",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50151219/flick-deserves-credit-barcelona-strong-form",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_Garcia_Flick_deserves_credit_for_Barcelonas_strong_form/dm_261010_Garcia_Flick_deserves_credit_for_Barcelonas_strong_form.jpg",
-      "category": "football"
-    },
-    {
       "title": "PSG stroll to third straight league win against Le Mans",
       "league": "Ligue 1",
-      "time": "8h ago",
+      "time": "15h ago",
       "published": "2026-10-10T21:15:59.000Z",
       "excerpt": "Paris Saint-Germain continued to put their early-season struggles behind them by beating Le Mans 3-1 to register a third successive Ligue 1 ",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Manuel Neuer error sees Robin Fellhauer score fastest-ever Bundesliga goal",
       "league": "Bundesliga",
-      "time": "9h ago",
+      "time": "16h ago",
       "published": "2026-10-10T19:54:25.000Z",
       "excerpt": "Augsburg's Robin Fellhauer wrote his name into German soccer history Saturday, scoring the fastest goal in Bundesliga history against Bayern",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Bayern Munich salvage point at Augbsurg after conceding fastest ever Bundesliga goal",
       "league": "Bundesliga",
-      "time": "13h ago",
+      "time": "20h ago",
       "published": "2026-10-10T15:52:46.000Z",
       "excerpt": "Bayern Munich salvaged a 2-2 draw against Augsburg after a blunder from Manuel Neuer led to them conceding the fastest goal in Bundesliga hi",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Ruben Amorim says Man United struggles prepared him for AC Milan challenge",
       "league": "Serie A",
-      "time": "16h ago",
+      "time": "23h ago",
       "published": "2026-10-10T12:37:02.000Z",
       "excerpt": "Ruben Amorim believes the ups and downs of his management career have prepared him well for the task of leading AC Milan.",
       "source": "ESPN",
