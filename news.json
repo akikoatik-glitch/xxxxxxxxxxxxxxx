@@ -1,21 +1,43 @@
 {
-  "lastUpdate": "2026-10-10T23:23:54.230Z",
+  "lastUpdate": "2026-10-11T05:28:05.505Z",
   "news": [
     {
-      "title": "Dawson: Manchester United board may act if results don't improve",
+      "title": "Solanke rescues point for 10-man Spurs against United",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-10T22:43:10.000Z",
-      "excerpt": "Dawson: Manchester United board may act if results don't improve",
+      "time": "4h ago",
+      "published": "2026-10-11T01:11:58.000Z",
+      "excerpt": "Dominic Solanke pounces in injury time as a 10-man Tottenham outfit snatch a late 1-1 draw against Manchester United.",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50151323/manchester-united-board-act-results-improve",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_Dawson_Manchester_United_board_may_act_if_results_dont_improve/dm_261010_Dawson_Manchester_United_board_may_act_if_results_dont_improve.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50152700/solanke-rescues-point-10-man-spurs-united",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_EPL_Highlight_Solanke_rescues_point_for_10man_Spurs_against_United_20261011_AUS_ONLY/dm_261010_EPL_Highlight_Solanke_rescues_point_for_10man_Spurs_against_United_20261011_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Gunners come from behind to beat Leeds",
+      "league": "Premier League",
+      "time": "4h ago",
+      "published": "2026-10-11T01:11:34.000Z",
+      "excerpt": "Arsenal strike twice in eight second-half minutes through Riccardo Calafiori and Bruno Guimarães to claim a 2-1 comeback win over Leeds.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50152693/gunners-come-beat-leeds",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_EPL_Highlight_Gunners_come_from_behind_to_beat_Leeds__20261011_AUS_ONLY/dm_261010_EPL_Highlight_Gunners_come_from_behind_to_beat_Leeds__20261011_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Vinicius Junior's dramatic night headlines win vs. Villarreal",
+      "league": "La Liga",
+      "time": "5h ago",
+      "published": "2026-10-10T23:53:14.000Z",
+      "excerpt": "Alex Kirkland breaks down the turn of events from Vinicius Junior's night in Real Madrid's 1-nil win against Villarreal.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50152014/vinicius-junior-dramatic-night-headlines-win-vs-villarreal",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_Vinicius_Juniors_dramatic_night_headlines_win_vs_Villarreal/dm_261010_Vinicius_Juniors_dramatic_night_headlines_win_vs_Villarreal.jpg",
       "category": "football"
     },
     {
       "title": "Garcia: Flick deserves credit for Barcelona's strong form",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "6h ago",
       "published": "2026-10-10T22:43:05.000Z",
       "excerpt": "Garcia: Flick deserves credit for Barcelona's strong form",
       "source": "ESPN",
@@ -24,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Vinícius Júnior 'sorry' after red card for hair pull; Mourinho skips Madrid presser",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-10-10T22:41:28.000Z",
-      "excerpt": "Vinícius Júnior has apologized to his Real Madrid teammates and fans after being red-carded for pulling an opponent's hair in a dramatic, of",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50150534/vinicius-junior-red-card-real-madrid-villarreal",
-      "image": "https://a.espncdn.com/photo/2026/1010/r1728861_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "PSG stroll to third straight league win against Le Mans",
       "league": "Ligue 1",
-      "time": "2h ago",
+      "time": "8h ago",
       "published": "2026-10-10T21:15:59.000Z",
       "excerpt": "Paris Saint-Germain continued to put their early-season struggles behind them by beating Le Mans 3-1 to register a third successive Ligue 1 ",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Roberto De Zerbi: I 'kissed' Rodrigo Bentancur after red card, the 'character' that Spurs need",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-10T20:50:23.000Z",
-      "excerpt": "Tottenham Hotspur boss Roberto De Zerbi has revealed that he \"kissed\" Rodrigo Bentancur after his red card against Manchester United on Satu",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50150532/roberto-de-zerbi-kissed-rodrigo-bentancur-red-card-character-spurs-need",
-      "image": "https://a.espncdn.com/photo/2026/1010/r1728855_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Manuel Neuer error sees Robin Fellhauer score fastest-ever Bundesliga goal",
       "league": "Bundesliga",
-      "time": "3h ago",
+      "time": "9h ago",
       "published": "2026-10-10T19:54:25.000Z",
       "excerpt": "Augsburg's Robin Fellhauer wrote his name into German soccer history Saturday, scoring the fastest goal in Bundesliga history against Bayern",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Bayern Munich salvage point at Augbsurg after conceding fastest ever Bundesliga goal",
       "league": "Bundesliga",
-      "time": "7h ago",
+      "time": "13h ago",
       "published": "2026-10-10T15:52:46.000Z",
       "excerpt": "Bayern Munich salvaged a 2-2 draw against Augsburg after a blunder from Manuel Neuer led to them conceding the fastest goal in Bundesliga hi",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Ruben Amorim says Man United struggles prepared him for AC Milan challenge",
       "league": "Serie A",
-      "time": "10h ago",
+      "time": "16h ago",
       "published": "2026-10-10T12:37:02.000Z",
       "excerpt": "Ruben Amorim believes the ups and downs of his management career have prepared him well for the task of leading AC Milan.",
       "source": "ESPN",
