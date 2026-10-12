@@ -1,21 +1,54 @@
 {
-  "lastUpdate": "2026-10-12T05:39:04.171Z",
+  "lastUpdate": "2026-10-12T15:08:48.323Z",
   "news": [
     {
-      "title": "City trounce Liverpool in first game since guilty verdict",
+      "title": "'Never happened in seven years!' - Arteta confirms double injury blow",
       "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-10-11T22:12:06.000Z",
-      "excerpt": "Manchester City explode for three goals in 13 minutes to put away a 10-man Liverpool in their first match since being found guilty of financ",
+      "time": "0h ago",
+      "published": "2026-10-12T15:07:27.000Z",
+      "excerpt": "'Never happened in seven years!' - Arteta confirms double injury blow",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50161470/city-trounce-liverpool-first-game-guilty-verdict",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_EPL_Highlight_City_trounce_Liverpool_in_first_game_since_guilty_verdict_20261012_AUS_ONLY/dm_261011_EPL_Highlight_City_trounce_Liverpool_in_first_game_since_guilty_verdict_20261012_AUS_ONLY.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50166509/never-happened-seven-years-arteta-confirms-double-injury-blow",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_COM_SOC_Presser_Never_happened_in_seven_years_Arteta_confirms_double_injury_blow_202610/dm_261012_COM_SOC_Presser_Never_happened_in_seven_years_Arteta_confirms_double_injury_blow_202610.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool eye Hull GK as Alisson successor",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-12T15:04:21.000Z",
+      "excerpt": "Liverpool are looking at Hull City GK Konstantinos Tzolakis, while Man United are interested in Fulham teenager Josh King. Transfer Talk has",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50164459/transfer-rumors-news-liverpool-eye-hull-gk-alisson-successor",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729596_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arsenal's Gabriel ready to take another penalty despite Champions League final miss",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-10-12T14:23:41.000Z",
+      "excerpt": "Gabriel Magalhães has said he is ready to take another penalty for Arsenal despite his crucial miss in last season's Champions League Final.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50166292/arsenal-gabriel-ready-take-another-penalty-champions-league-final-miss",
+      "image": "https://a.espncdn.com/photo/2026/0912/r1715273_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Man City win at angry Anfield; Mourinho overshadows ugly Madrid win",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-12T13:03:10.000Z",
+      "excerpt": "Despite the pregame vitriol and ongoing scandal, it was no surprise that Man City won at Liverpool on Sunday. PLUS: Real Madrid won ugly and",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50163474/manchester-city-liverpool-premier-league-charges-jose-mourinho-real-madrid-vinicius-junior-analysis",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729618_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Arsenal, Chelsea, Liverpool want Roma youngster",
-      "league": "Premier League",
-      "time": "7h ago",
+      "league": "Serie A",
+      "time": "17h ago",
       "published": "2026-10-11T22:08:12.000Z",
       "excerpt": "AS Roma's Emanuele Lulli has caught the eye of Arsenal, Chelsea and Liverpool. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -26,7 +59,7 @@
     {
       "title": "Racing Santander vs. Valencia - Game Highlights",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "18h ago",
       "published": "2026-10-11T21:05:42.000Z",
       "excerpt": "Watch the Game Highlights from Racing Santander vs. Valencia, 10/11/2026",
       "source": "ESPN",
@@ -35,47 +68,14 @@
       "category": "football"
     },
     {
-      "title": "Real Betis vs. Osasuna - Game Highlights",
-      "league": "La Liga",
-      "time": "10h ago",
-      "published": "2026-10-11T18:40:07.000Z",
-      "excerpt": "Watch the Game Highlights from Real Betis vs. Osasuna, 10/11/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50159471/real-betis-vs-osasuna-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/548be288-827a-49d8-86bd-0af298117be4/548be288-827a-49d8-86bd-0af298117be4.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Dawson: Anfield win could mean nothing if Man City are punished",
-      "league": "Champions League",
-      "time": "11h ago",
-      "published": "2026-10-11T18:38:15.000Z",
-      "excerpt": "Dawson: Anfield win could mean nothing if Man City are punished",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50159355/anfield-win-mean-man-city-punished",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_Dawson_Three_points_vs_Liverpool_could_be_taken_off_Manchester_City/dm_261011_Dawson_Three_points_vs_Liverpool_could_be_taken_off_Manchester_City.jpg",
-      "category": "football"
-    },
-    {
       "title": "AC Milan settle for draw with Sassuolo to maintain unbeaten run",
       "league": "Serie A",
-      "time": "11h ago",
+      "time": "20h ago",
       "published": "2026-10-11T18:37:30.000Z",
       "excerpt": "AC Milan continued their unbeaten run in Serie A with a 1-1 draw against Sassuolo.",
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401874789",
       "image": "https://a.espncdn.com/photo/2026/1011/r1729307_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Nicol: We might as well get AI to referee Liverpool vs. Manchester City",
-      "league": "Champions League",
-      "time": "11h ago",
-      "published": "2026-10-11T18:12:10.000Z",
-      "excerpt": "Nicol: We might as well get AI to referee Liverpool vs. Manchester City",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50159327/well-get-ai-referee-liverpool-vs-manchester-city",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_Nicol_We_might_as_well_get_AI_to_referee_Liverpool_vs_Manchester_City/dm_261011_Nicol_We_might_as_well_get_AI_to_referee_Liverpool_vs_Manchester_City.jpg",
       "category": "football"
     },
     {
