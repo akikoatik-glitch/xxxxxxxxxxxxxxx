@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 12 Oct 2026 22:51:16 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 06:34:52 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Wolverhampton Wanderers vs Bolton Wanderers — Home Win @ 1.06</title>
@@ -72,19 +72,11 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Lincoln City vs West Ham United — Away Win @ 2.01</title>
-    <link>https://xwhiz.com/predictions/lincoln-city-vs-west-ham-united-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/lincoln-city-vs-west-ham-united-prediction.html</guid>
+    <title>Portsmouth vs Sheffield United — Home Win @ 1.91</title>
+    <link>https://xwhiz.com/predictions/portsmouth-vs-sheffield-united-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/portsmouth-vs-sheffield-united-prediction.html</guid>
     <pubDate>Wed, 14 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 47% confidence. Away Win at 2.01. Match kickoff: Wed, 14 Oct 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
-  <item>
-    <title>Queens Park Rangers vs Derby County — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/queens-park-rangers-vs-derby-county-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/queens-park-rangers-vs-derby-county-prediction.html</guid>
-    <pubDate>Wed, 14 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 14 Oct 2026 15:00:00 GMT.</description>
+    <description>Championship — 50% confidence. Home Win at 1.91. Match kickoff: Wed, 14 Oct 2026 15:00:00 GMT.</description>
     <category>Championship</category>
   </item>
   <item>
@@ -96,11 +88,19 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Portsmouth vs Sheffield United — Home Win @ 1.91</title>
-    <link>https://xwhiz.com/predictions/portsmouth-vs-sheffield-united-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/portsmouth-vs-sheffield-united-prediction.html</guid>
+    <title>Queens Park Rangers vs Derby County — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/queens-park-rangers-vs-derby-county-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/queens-park-rangers-vs-derby-county-prediction.html</guid>
     <pubDate>Wed, 14 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 50% confidence. Home Win at 1.91. Match kickoff: Wed, 14 Oct 2026 15:00:00 GMT.</description>
+    <description>Championship — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 14 Oct 2026 15:00:00 GMT.</description>
+    <category>Championship</category>
+  </item>
+  <item>
+    <title>Lincoln City vs West Ham United — Away Win @ 2.01</title>
+    <link>https://xwhiz.com/predictions/lincoln-city-vs-west-ham-united-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/lincoln-city-vs-west-ham-united-prediction.html</guid>
+    <pubDate>Wed, 14 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Championship — 47% confidence. Away Win at 2.01. Match kickoff: Wed, 14 Oct 2026 15:00:00 GMT.</description>
     <category>Championship</category>
   </item>
   <item>
@@ -158,6 +158,46 @@
     <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 80% confidence. Home Win at 1.19. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
+  </item>
+  <item>
+    <title>Brentford vs Liverpool — Home Win @ 2.26</title>
+    <link>https://xwhiz.com/predictions/brentford-vs-liverpool-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/brentford-vs-liverpool-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 42% confidence. Home Win at 2.26. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Manchester City vs Ipswich Town — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/manchester-city-vs-ipswich-town-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/manchester-city-vs-ipswich-town-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Fulham vs Hull City A — Home Win @ 1.19</title>
+    <link>https://xwhiz.com/predictions/fulham-vs-hull-city-a-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fulham-vs-hull-city-a-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 80% confidence. Home Win at 1.19. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Everton vs Chelsea — Home Win @ 1.91</title>
+    <link>https://xwhiz.com/predictions/everton-vs-chelsea-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/everton-vs-chelsea-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 50% confidence. Home Win at 1.91. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Valencia CF vs Athletic Club — Away Win @ 1.94</title>
+    <link>https://xwhiz.com/predictions/valencia-cf-vs-athletic-club-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/valencia-cf-vs-athletic-club-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>La Liga — 49% confidence. Away Win at 1.94. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>La Liga</category>
   </item>
 </channel>
 </rss>

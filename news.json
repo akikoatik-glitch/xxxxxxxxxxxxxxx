@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-10-12T22:51:15.369Z",
+  "lastUpdate": "2026-10-13T06:34:51.961Z",
   "news": [
+    {
+      "title": "Why are Shakhtar playing Champions League games at Chelsea's Stamford Bridge?",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-10-13T06:14:02.000Z",
+      "excerpt": "Explaining why Ukrainian side Shakhtar Donetsk will play home Champions League games at Chelsea's stadium.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50164913/why-shakhtar-playing-champions-league-games-chelsea-stamford-bridge",
+      "image": "https://a.espncdn.com/photo/2026/0711/r1687762_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Lampard: Coventry 'feet on the ground' after Newcastle win",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-13T06:11:22.000Z",
+      "excerpt": "Coventry City boss Frank Lampard is not allowing his side to get carried away after they earned a thumping 4-1 home victory over Newcastle U",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50169452/lampard-coventry-feet-ground-newcastle-win",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729921_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Ogden: Every team's fans will be against Man City after this win",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "8h ago",
       "published": "2026-10-12T22:20:24.000Z",
       "excerpt": "Ogden: Every team's fans will be against Man City after this win",
       "source": "ESPN",
@@ -13,20 +35,9 @@
       "category": "football"
     },
     {
-      "title": "Ogden: Man United have set Carrick up to fail",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-12T22:16:44.000Z",
-      "excerpt": "Ogden: Man United have set Carrick up to fail",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50169196/man-united-set-carrick-fail",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_COM_SOC_ANALYSIS_Ogden_Man_United_have_set_Carrick_up_to_fail_2026_10_12/dm_261012_COM_SOC_ANALYSIS_Ogden_Man_United_have_set_Carrick_up_to_fail_2026_10_12.jpg",
-      "category": "football"
-    },
-    {
       "title": "Levante vs. Sevilla - Game Highlights",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "9h ago",
       "published": "2026-10-12T21:16:49.000Z",
       "excerpt": "Watch the Game Highlights from Levante vs. Sevilla, 10/12/2026",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Carrick: Man Utd players hungry to 'put things right' vs. Atletico",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-10-12T20:45:57.000Z",
       "excerpt": "Carrick: Man Utd players hungry to 'put things right' vs. Atletico",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Neuer out for Bayern as Urbig to get start in Champions League",
-      "league": "Champions League",
-      "time": "3h ago",
-      "published": "2026-10-12T19:20:40.000Z",
-      "excerpt": "Bayern Munich head coach Vincent Kompany has revealed veteran goalkeeper Manuel Neuer will be sidelined for Tuesday night's Champions League",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50168076/neuer-bayern-urbig-start-champions-league",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729805_1024x576_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Lille consider legal action after Tiago Santos ruptures ACL in tackle",
       "league": "Ligue 1",
-      "time": "6h ago",
+      "time": "13h ago",
       "published": "2026-10-12T16:41:09.000Z",
       "excerpt": "Champions League club Lille said Monday they are considering legal action over an injury to defender Tiago Santos who is set to miss the res",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Man City win at angry Anfield; Mourinho overshadows ugly Madrid win",
       "league": "La Liga",
-      "time": "9h ago",
+      "time": "17h ago",
       "published": "2026-10-12T13:03:10.000Z",
       "excerpt": "Despite the pregame vitriol and ongoing scandal, it was no surprise that Man City won at Liverpool on Sunday. PLUS: Real Madrid won ugly and",
       "source": "ESPN",

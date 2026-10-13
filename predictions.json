@@ -1,10 +1,10 @@
 {
   "date": "2026-10-13",
-  "lastUpdate": "2026-10-12T22:51:15.422Z",
-  "predictionGenerated": "2026-10-12T22:51:15.422Z",
-  "dataTimestamp": "2026-10-12T22:51:12.952Z",
+  "lastUpdate": "2026-10-13T06:34:51.991Z",
+  "predictionGenerated": "2026-10-13T06:34:51.991Z",
+  "dataTimestamp": "2026-10-13T06:34:49.293Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:41+tomorrow:8+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:40+tomorrow:4+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "en.2:2026-10-13:Wolverhampton Wanderers FC:Bolton Wanderers FC",
@@ -13,7 +13,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Wolverhampton Wanderers",
       "away": "Bolton Wanderers",
       "league": "Championship",
@@ -86,7 +86,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Wrexham A",
       "away": "West Bromwich Albion",
       "league": "Championship",
@@ -159,7 +159,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Millwall",
       "away": "Swansea City A",
       "league": "Championship",
@@ -232,7 +232,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Cardiff City",
       "away": "Watford",
       "league": "Championship",
@@ -305,7 +305,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Burnley",
       "away": "Charlton Athletic",
       "league": "Championship",
@@ -378,7 +378,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Bristol City",
       "away": "Blackburn Rovers",
       "league": "Championship",
@@ -451,7 +451,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Birmingham City",
       "away": "Preston North End",
       "league": "Championship",
@@ -524,7 +524,7 @@
       "date": "2026-10-13",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "16h to kickoff",
+      "countdown": "8h to kickoff",
       "home": "Stoke City",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -591,232 +591,13 @@
       "locked": false
     },
     {
-      "id": "en.2:2026-10-14:Lincoln City FC:West Ham United FC",
-      "slug": "lincoln-city-vs-west-ham-united-prediction",
-      "utcDate": "2026-10-14T15:00:00Z",
-      "date": "2026-10-14",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Lincoln City",
-      "away": "West Ham United",
-      "league": "Championship",
-      "code": "ELC",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 47,
-      "odds": "2.01",
-      "value": "+0%",
-      "probs": {
-        "home": 29,
-        "draw": 24,
-        "away": 47
-      },
-      "xg": {
-        "home": "1.11",
-        "away": "1.51",
-        "total": "2.62"
-      },
-      "doubleChance": {
-        "12": 76,
-        "1X": 53,
-        "X2": 71
-      },
-      "overUnder": {
-        "over2_5": 49,
-        "under2_5": 51,
-        "oddsOver": "1.94",
-        "oddsUnder": "1.86"
-      },
-      "btts": {
-        "yes": 51,
-        "no": 49
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 12
-        },
-        {
-          "score": "1-1",
-          "prob": 11
-        },
-        {
-          "score": "1-2",
-          "prob": 9
-        }
-      ],
-      "asianHandicap": "Away +0.50",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Lincoln City vs West Ham United: Dixon-Coles P(H)29% D24% A47% • xG 1.11-1.51 • most likely score 0-1 (12%) • Away Win confidence 47% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.2:2026-10-14:Queens Park Rangers FC:Derby County FC",
-      "slug": "queens-park-rangers-vs-derby-county-prediction",
-      "utcDate": "2026-10-14T15:00:00Z",
-      "date": "2026-10-14",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Queens Park Rangers",
-      "away": "Derby County",
-      "league": "Championship",
-      "code": "ELC",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Queens Park Rangers vs Derby County: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.2:2026-10-14:Norwich City FC:Southampton FC",
-      "slug": "norwich-city-vs-southampton-prediction",
-      "utcDate": "2026-10-14T15:00:00Z",
-      "date": "2026-10-14",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
-      "home": "Norwich City",
-      "away": "Southampton",
-      "league": "Championship",
-      "code": "ELC",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 60,
-      "odds": "1.58",
-      "value": "+5%",
-      "probs": {
-        "home": 60,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.84",
-        "away": "0.91",
-        "total": "2.75"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 40
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Norwich City vs Southampton: Dixon-Coles P(H)60% D21% A19% • xG 1.84-0.91 • most likely score 1-0 (13%) • Home Win confidence 60% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
       "id": "en.2:2026-10-14:Portsmouth FC:Sheffield United FC",
       "slug": "portsmouth-vs-sheffield-united-prediction",
       "utcDate": "2026-10-14T15:00:00Z",
       "date": "2026-10-14",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "40h to kickoff",
+      "countdown": "32h to kickoff",
       "home": "Portsmouth",
       "away": "Sheffield United",
       "league": "Championship",
@@ -883,13 +664,232 @@
       "locked": false
     },
     {
+      "id": "en.2:2026-10-14:Norwich City FC:Southampton FC",
+      "slug": "norwich-city-vs-southampton-prediction",
+      "utcDate": "2026-10-14T15:00:00Z",
+      "date": "2026-10-14",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "32h to kickoff",
+      "home": "Norwich City",
+      "away": "Southampton",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 60,
+      "odds": "1.58",
+      "value": "+5%",
+      "probs": {
+        "home": 60,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.84",
+        "away": "0.91",
+        "total": "2.75"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 40
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Norwich City vs Southampton: Dixon-Coles P(H)60% D21% A19% • xG 1.84-0.91 • most likely score 1-0 (13%) • Home Win confidence 60% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-10-14:Queens Park Rangers FC:Derby County FC",
+      "slug": "queens-park-rangers-vs-derby-county-prediction",
+      "utcDate": "2026-10-14T15:00:00Z",
+      "date": "2026-10-14",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "32h to kickoff",
+      "home": "Queens Park Rangers",
+      "away": "Derby County",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Queens Park Rangers vs Derby County: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-10-14:Lincoln City FC:West Ham United FC",
+      "slug": "lincoln-city-vs-west-ham-united-prediction",
+      "utcDate": "2026-10-14T15:00:00Z",
+      "date": "2026-10-14",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "32h to kickoff",
+      "home": "Lincoln City",
+      "away": "West Ham United",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 47,
+      "odds": "2.01",
+      "value": "+0%",
+      "probs": {
+        "home": 29,
+        "draw": 24,
+        "away": 47
+      },
+      "xg": {
+        "home": "1.11",
+        "away": "1.51",
+        "total": "2.62"
+      },
+      "doubleChance": {
+        "12": 76,
+        "1X": 53,
+        "X2": 71
+      },
+      "overUnder": {
+        "over2_5": 49,
+        "under2_5": 51,
+        "oddsOver": "1.94",
+        "oddsUnder": "1.86"
+      },
+      "btts": {
+        "yes": 51,
+        "no": 49
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 12
+        },
+        {
+          "score": "1-1",
+          "prob": 11
+        },
+        {
+          "score": "1-2",
+          "prob": 9
+        }
+      ],
+      "asianHandicap": "Away +0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Lincoln City vs West Ham United: Dixon-Coles P(H)29% D24% A47% • xG 1.11-1.51 • most likely score 0-1 (12%) • Away Win confidence 47% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
       "id": "es.1:2026-10-16:RC Deportivo La Coruña:Levante UD",
       "slug": "rc-deportivo-la-coruna-vs-levante-ud-prediction",
       "utcDate": "2026-10-16T15:00:00Z",
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "80h to kickoff",
       "home": "RC Deportivo La Coruña",
       "away": "Levante UD",
       "league": "La Liga",
@@ -962,7 +962,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "80h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "80h to kickoff",
       "home": "Frosinone Calcio",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "80h to kickoff",
       "home": "Le Mans",
       "away": "Toulouse",
       "league": "Ligue 1",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "80h to kickoff",
       "home": "SC Heerenveen",
       "away": "SBV Excelsior",
       "league": "Eredivisie",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "88h to kickoff",
+      "countdown": "80h to kickoff",
       "home": "Burnley",
       "away": "Wolverhampton Wanderers",
       "league": "Championship",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "112h to kickoff",
+      "countdown": "104h to kickoff",
       "home": "Newcastle United",
       "away": "Aston Villa",
       "league": "Premier League",
@@ -1390,6 +1390,371 @@
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Newcastle United vs Aston Villa: Dixon-Coles P(H)80% D12% A8% • xG 2.90-0.81 • most likely score 2-0 (11%) • Home Win confidence 80% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-10-17:Brentford FC:Liverpool FC",
+      "slug": "brentford-vs-liverpool-prediction",
+      "utcDate": "2026-10-17T15:00:00Z",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "104h to kickoff",
+      "home": "Brentford",
+      "away": "Liverpool",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 42,
+      "odds": "2.26",
+      "value": "+0%",
+      "probs": {
+        "home": 42,
+        "draw": 29,
+        "away": 29
+      },
+      "xg": {
+        "home": "1.11",
+        "away": "0.87",
+        "total": "1.98"
+      },
+      "doubleChance": {
+        "12": 71,
+        "1X": 71,
+        "X2": 58
+      },
+      "overUnder": {
+        "over2_5": 32,
+        "under2_5": 68,
+        "oddsOver": "2.97",
+        "oddsUnder": "1.40"
+      },
+      "btts": {
+        "yes": 38,
+        "no": 62
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 16
+        },
+        {
+          "score": "0-1",
+          "prob": 13
+        },
+        {
+          "score": "0-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Brentford vs Liverpool: Dixon-Coles P(H)42% D29% A29% • xG 1.11-0.87 • most likely score 1-0 (16%) • Home Win confidence 42% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-10-17:Manchester City FC:Ipswich Town FC",
+      "slug": "manchester-city-vs-ipswich-town-prediction",
+      "utcDate": "2026-10-17T15:00:00Z",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "104h to kickoff",
+      "home": "Manchester City",
+      "away": "Ipswich Town",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 96,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 96,
+        "draw": 3,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.30",
+        "total": "4.50"
+      },
+      "doubleChance": {
+        "12": 97,
+        "1X": 97,
+        "X2": 4
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 25,
+        "no": 75
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 17
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 17
+        },
+        {
+          "score": "3-0",
+          "prob": 16
+        },
+        {
+          "score": "5-0",
+          "prob": 14
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Manchester City vs Ipswich Town: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.30 • most likely score 4-0 (17%) • Home Win confidence 96% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-10-17:Fulham FC:Hull City AFC",
+      "slug": "fulham-vs-hull-city-a-prediction",
+      "utcDate": "2026-10-17T15:00:00Z",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "104h to kickoff",
+      "home": "Fulham",
+      "away": "Hull City A",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 80,
+      "odds": "1.19",
+      "value": "+15%",
+      "probs": {
+        "home": 80,
+        "draw": 14,
+        "away": 7
+      },
+      "xg": {
+        "home": "2.42",
+        "away": "0.53",
+        "total": "2.95"
+      },
+      "doubleChance": {
+        "12": 86,
+        "1X": 93,
+        "X2": 20
+      },
+      "overUnder": {
+        "over2_5": 56,
+        "under2_5": 44,
+        "oddsOver": "1.70",
+        "oddsUnder": "2.16"
+      },
+      "btts": {
+        "yes": 37,
+        "no": 63
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 15
+        },
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Fulham vs Hull City A: Dixon-Coles P(H)80% D14% A7% • xG 2.42-0.53 • most likely score 2-0 (15%) • Home Win confidence 80% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-10-17:Everton FC:Chelsea FC",
+      "slug": "everton-vs-chelsea-prediction",
+      "utcDate": "2026-10-17T15:00:00Z",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "104h to kickoff",
+      "home": "Everton",
+      "away": "Chelsea",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 50,
+      "odds": "1.91",
+      "value": "+0%",
+      "probs": {
+        "home": 50,
+        "draw": 22,
+        "away": 28
+      },
+      "xg": {
+        "home": "1.73",
+        "away": "1.23",
+        "total": "2.96"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 72,
+        "X2": 50
+      },
+      "overUnder": {
+        "over2_5": 57,
+        "under2_5": 43,
+        "oddsOver": "1.67",
+        "oddsUnder": "2.21"
+      },
+      "btts": {
+        "yes": 57,
+        "no": 43
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 10
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 10
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Everton vs Chelsea: Dixon-Coles P(H)50% D22% A28% • xG 1.73-1.23 • most likely score 1-1 (10%) • Home Win confidence 50% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "es.1:2026-10-17:Valencia CF:Athletic Club",
+      "slug": "valencia-cf-vs-athletic-club-prediction",
+      "utcDate": "2026-10-17T15:00:00Z",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "104h to kickoff",
+      "home": "Valencia CF",
+      "away": "Athletic Club",
+      "league": "La Liga",
+      "code": "PD",
+      "flag": "🇪🇸",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 49,
+      "odds": "1.94",
+      "value": "+0%",
+      "probs": {
+        "home": 18,
+        "draw": 33,
+        "away": 49
+      },
+      "xg": {
+        "home": "0.48",
+        "away": "1.01",
+        "total": "1.49"
+      },
+      "doubleChance": {
+        "12": 67,
+        "1X": 51,
+        "X2": 82
+      },
+      "overUnder": {
+        "over2_5": 19,
+        "under2_5": 81,
+        "oddsOver": "5.00",
+        "oddsUnder": "1.17"
+      },
+      "btts": {
+        "yes": 24,
+        "no": 76
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 24
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 24
+        },
+        {
+          "score": "0-0",
+          "prob": 22
+        },
+        {
+          "score": "1-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Away +0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Valencia CF vs Athletic Club: Dixon-Coles P(H)18% D33% A49% • xG 0.48-1.01 • most likely score 0-1 (24%) • Away Win confidence 49% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -1998,9 +2363,31 @@
   ],
   "news": [
     {
-      "title": "Ogden: Every team's fans will be against Man City after this win",
+      "title": "Why are Shakhtar playing Champions League games at Chelsea's Stamford Bridge?",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-10-13T06:14:02.000Z",
+      "excerpt": "Explaining why Ukrainian side Shakhtar Donetsk will play home Champions League games at Chelsea's stadium.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50164913/why-shakhtar-playing-champions-league-games-chelsea-stamford-bridge",
+      "image": "https://a.espncdn.com/photo/2026/0711/r1687762_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Lampard: Coventry 'feet on the ground' after Newcastle win",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-10-13T06:11:22.000Z",
+      "excerpt": "Coventry City boss Frank Lampard is not allowing his side to get carried away after they earned a thumping 4-1 home victory over Newcastle U",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50169452/lampard-coventry-feet-ground-newcastle-win",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729921_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ogden: Every team's fans will be against Man City after this win",
+      "league": "Premier League",
+      "time": "8h ago",
       "published": "2026-10-12T22:20:24.000Z",
       "excerpt": "Ogden: Every team's fans will be against Man City after this win",
       "source": "ESPN",
@@ -2009,36 +2396,14 @@
       "category": "football"
     },
     {
-      "title": "Ogden: Man United have set Carrick up to fail",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-12T22:16:44.000Z",
-      "excerpt": "Ogden: Man United have set Carrick up to fail",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50169196/man-united-set-carrick-fail",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_COM_SOC_ANALYSIS_Ogden_Man_United_have_set_Carrick_up_to_fail_2026_10_12/dm_261012_COM_SOC_ANALYSIS_Ogden_Man_United_have_set_Carrick_up_to_fail_2026_10_12.jpg",
-      "category": "football"
-    },
-    {
       "title": "Levante vs. Sevilla - Game Highlights",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "9h ago",
       "published": "2026-10-12T21:16:49.000Z",
       "excerpt": "Watch the Game Highlights from Levante vs. Sevilla, 10/12/2026",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50168756/levante-vs-sevilla-game-highlights",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/ae4e816d-8212-45c5-a290-7fbc9df3b503/ae4e816d-8212-45c5-a290-7fbc9df3b503.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Carrick: Man Utd players hungry to 'put things right' vs. Atletico",
-      "league": "Champions League",
-      "time": "2h ago",
-      "published": "2026-10-12T20:45:57.000Z",
-      "excerpt": "Carrick: Man Utd players hungry to 'put things right' vs. Atletico",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50168630/man-utd-players-hungry-put-things-right-vs-atletico",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_Carrick_Man_Utd_players_hungry_to_put_things_right_vs_Atletico/dm_261012_Carrick_Man_Utd_players_hungry_to_put_things_right_vs_Atletico.jpg",
       "category": "football"
     }
   ],
