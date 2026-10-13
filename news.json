@@ -1,21 +1,65 @@
 {
-  "lastUpdate": "2026-10-13T15:50:15.075Z",
+  "lastUpdate": "2026-10-13T21:08:22.351Z",
   "news": [
     {
-      "title": "Champions League live updates: Countdown to Man United-Atleti as early games kick off",
+      "title": "Arsenal score three goals in seven minutes in classy finish against Lille",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-10-13T15:23:08.000Z",
-      "excerpt": "Follow live updates, scores and highlights from Tuesday's UEFA Champions League action, featuring Atlético Madrid vs. Manchester United, Gal",
+      "published": "2026-10-13T21:03:19.000Z",
+      "excerpt": "Jurrien Timber, Eberechi Eze and Bukayo Saka all scored in seven scintillating second-half minutes to fire Arsenal to a comfortable 3-0 Cham",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401915417",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730302_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Champions League recap: Atleti beat Man United, Viking snatch point vs. Bayern",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-10-13T21:00:59.000Z",
+      "excerpt": "Manchester United's woes continue as they lost 2-0 to Atlético Madrid on a UEFA Champions League matchday full of goals and stunning results",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50168897/uefa-champions-league-live-updates-manchester-united-atletico-madrid-barcelona-galatasaray",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729866_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730251_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Real Madrid's Mourinho on media snub post-Villarreal: 'Watch first minute of game'",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-13T18:47:44.000Z",
+      "excerpt": "José Mourinho has refused to explain why he skipped his post-match news conference after Real Madrid's 1-0 win over Villarreal,",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50175667/real-madrid-jose-mourinho-media-snub-villarreal-say",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726712_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Man City 'deserved' trophies - PSG boss Luis Enrique on charges",
+      "league": "Premier League",
+      "time": "3h ago",
+      "published": "2026-10-13T17:39:16.000Z",
+      "excerpt": "Paris Saint-Germain boss Luis Enrique has said Manchester City deserve to keep the trophies won during the period in which they have been fo",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50174986/manchester-city-deserved-trophies-psg-boss-luis-enrique",
+      "image": "https://a.espncdn.com/photo/2026/0829/r1708346_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Football Regulator chair will quit if politics interferes with any Man City investigation",
+      "league": "Premier League",
+      "time": "4h ago",
+      "published": "2026-10-13T16:45:58.000Z",
+      "excerpt": "The chair of the Independent Football Regulator (IFR) has said he will quit if there is political interference in any future investigation l",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50174675/football-regulator-chair-quit-politics-interferes-man-city-investigation",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730170_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Barcelona, Real Madrid scout Erling Haaland at Anfield",
-      "league": "Premier League",
-      "time": "0h ago",
+      "league": "La Liga",
+      "time": "5h ago",
       "published": "2026-10-13T15:13:13.000Z",
       "excerpt": "Barcelona and Real Madrid continue to keep tabs on Erling Haaland, while Chelsea growing confident of signing Bournemouth's Alex Scott. Tran",
       "source": "ESPN",
@@ -24,31 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Unai Emery keen for Aston Villa to use home advantage in Fenerbahce clash",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-13T14:30:42.000Z",
-      "excerpt": "Aston Villa boss Unai Emery wants his side to enjoy their home comforts once again when they host Fenerbahce in the Champions League.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50173773/unai-emery-keen-aston-villa-use-home-advantage-fenerbahce-clash",
-      "image": "https://a.espncdn.com/photo/2026/1010/r1728828_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Clarence Seedorf: I understand why Kobbie Mainoo is compared to me",
-      "league": "Champions League",
-      "time": "2h ago",
-      "published": "2026-10-13T13:40:15.000Z",
-      "excerpt": "AC Milan and Ajax legend Clarence Seedorf told Manchester United midfielder Kobbie Mainoo that he sees similarities between himself and the ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50173516/clarence-seedorf-kobbie-mainoo-man-united-champions-league",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730094_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Borussia Dortmund extend head coach Niko Kovač's contract through to 2029",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "10h ago",
       "published": "2026-10-13T10:49:28.000Z",
       "excerpt": "Borussia Dortmund have handed head coach Niko Kovač a contact extension through June 2029 as a reward for stabilizing the team.",
       "source": "ESPN",
@@ -57,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "'I hope you'll learn!' - Flick responds to question about Real Madrid",
-      "league": "La Liga",
-      "time": "6h ago",
-      "published": "2026-10-13T09:07:59.000Z",
-      "excerpt": "'I hope you'll learn!' - Flick responds to question about Real Madrid",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50172116/i-hope-learn-flick-responds-question-real-madrid",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_COM_SOC_Presser_I_hope_youll_learn_Flick_responds_to_question_about_Real_Madrid_20261013/dm_261013_COM_SOC_Presser_I_hope_youll_learn_Flick_responds_to_question_about_Real_Madrid_20261013.jpg",
-      "category": "football"
-    },
-    {
       "title": "Lille consider legal action after Tiago Santos ruptures ACL in tackle",
       "league": "Ligue 1",
-      "time": "23h ago",
+      "time": "12/10/2026",
       "published": "2026-10-12T16:41:09.000Z",
       "excerpt": "Champions League club Lille said Monday they are considering legal action over an injury to defender Tiago Santos who is set to miss the res",
       "source": "ESPN",
