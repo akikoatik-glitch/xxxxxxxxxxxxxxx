@@ -1,21 +1,43 @@
 {
-  "lastUpdate": "2026-10-14T01:03:49.759Z",
+  "lastUpdate": "2026-10-14T07:25:53.042Z",
   "news": [
     {
-      "title": "Man United falter in UCL loss to Atlético",
+      "title": "Transfer rumors, news: Real Madrid, Barcelona chase Spurs defender Porro",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-14T07:11:53.000Z",
+      "excerpt": "Tottenham defender Pedro Porro is being tracked by Real Madrid and Barcelona. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50179920/transfer-rumors-news-real-madrid-barcelona-chase-spurs-defender-porro",
+      "image": "https://a.espncdn.com/photo/2026/0919/r1718914_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Wayne Rooney: Lisandro Martinez 'disrespectful' for Man United rant",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-10-14T00:42:09.000Z",
-      "excerpt": "Manchester United's winless run extends to a fifth match as pressure builds on Michael Carrick after a 2-0 loss to Atlético Madrid in the Ch",
+      "published": "2026-10-14T06:43:21.000Z",
+      "excerpt": "Wayne Rooney has criticised Lisandro Martínez for his claims that Manchester United's hierarchy didn't help the players enough in the transf",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50178006/man-united-falter-ucl-loss-atletico",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_UCL_Highlight_Man_United_falter_in_UCL_loss_to_Atletico_20261014_AUS_ONLY/dm_261013_UCL_Highlight_Man_United_falter_in_UCL_loss_to_Atletico_20261014_AUS_ONLY.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50179874/wayne-rooney-lisandro-martinez-disrespectful-man-united-rant",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730522_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Irankunda records an assist in his UCL debut",
+      "league": "Champions League",
+      "time": "5h ago",
+      "published": "2026-10-14T01:55:38.000Z",
+      "excerpt": "Nestory Irankunda whips in a perfect ball for Luis Suarez to finish off in Sporting CP's 2-0 win over Lens in the Champions League.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50178566/irankunda-records-assist-ucl-debut",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_UCL_Highlight_Irankunda_records_an_assist_in_his_UCL_debut_20261014_AUS_ONLY/dm_261013_UCL_Highlight_Irankunda_records_an_assist_in_his_UCL_debut_20261014_AUS_ONLY.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Chelsea confident in January move for Scott",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "7h ago",
       "published": "2026-10-13T23:32:19.000Z",
       "excerpt": "Chelsea are growing confident of signing Bournemouth's Alex Scott. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -24,31 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Péter Gulácsi misses Champions League game due to armed home invasion",
-      "league": "Champions League",
-      "time": "1h ago",
-      "published": "2026-10-13T23:19:55.000Z",
-      "excerpt": "Villarreal goalkeeper Péter Gulácsi missed his team's Champions League game against Napoli on Tuesday because of an armed home invasion at h",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50177588/peter-gulacsi-misses-champions-league-game-armed-home-invasion",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730392_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Lisandro Martínez slams Man United hierarchy: Squad not Champions League quality",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-13T23:03:43.000Z",
-      "excerpt": "Lisandro Martínez launched a stinging verbal attack on Manchester United's hierarchy, after a 2-0 Champions League defeat against Atlético M",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50177021/lisandro-martinez-slams-man-united-hierarchys-decisions-not-champions-league-quality-squad",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730374_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Real Madrid's Mourinho on media snub post-Villarreal: 'Watch first minute of game'",
       "league": "La Liga",
-      "time": "6h ago",
+      "time": "12h ago",
       "published": "2026-10-13T18:47:44.000Z",
       "excerpt": "José Mourinho has refused to explain why he skipped his post-match news conference after Real Madrid's 1-0 win over Villarreal,",
       "source": "ESPN",
@@ -59,23 +59,12 @@
     {
       "title": "Borussia Dortmund extend head coach Niko Kovač's contract through to 2029",
       "league": "Bundesliga",
-      "time": "14h ago",
+      "time": "20h ago",
       "published": "2026-10-13T10:49:28.000Z",
       "excerpt": "Borussia Dortmund have handed head coach Niko Kovač a contact extension through June 2029 as a reward for stabilizing the team.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50172307/borussia-dortmund-niko-kovac-contract-extension-2029",
       "image": "https://a.espncdn.com/photo/2026/1013/r1730054_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "'I hope you'll learn!' - Flick responds to question about Real Madrid",
-      "league": "La Liga",
-      "time": "15h ago",
-      "published": "2026-10-13T09:07:59.000Z",
-      "excerpt": "'I hope you'll learn!' - Flick responds to question about Real Madrid",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50172116/i-hope-learn-flick-responds-question-real-madrid",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_COM_SOC_Presser_I_hope_youll_learn_Flick_responds_to_question_about_Real_Madrid_20261013/dm_261013_COM_SOC_Presser_I_hope_youll_learn_Flick_responds_to_question_about_Real_Madrid_20261013.jpg",
       "category": "football"
     },
     {
