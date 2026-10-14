@@ -1,11 +1,55 @@
 {
-  "lastUpdate": "2026-10-14T07:25:53.042Z",
+  "lastUpdate": "2026-10-14T13:35:11.444Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Real Madrid, Barcelona chase Spurs defender Porro",
+      "title": "Fulham's Arbeloa fined for ref comments after Man United draw",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-14T07:11:53.000Z",
+      "time": "1h ago",
+      "published": "2026-10-14T12:30:50.000Z",
+      "excerpt": "Fulham's Álvaro Arbeloa was fined $33,200 and given a warning for his comments after a match against Man United that questioned the integrit",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50180971/fulham-arbeloa-fined-ref-comments-manchester-united-draw",
+      "image": "https://a.espncdn.com/photo/2026/0824/r1706486_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Andy Burnham: Man City owners didn't mention Premier League charges in meeting",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-14T12:06:21.000Z",
+      "excerpt": "Andy Burnham has said Manchester City's owners and directors did not raise the Premier League's charges against the club when he met with th",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50180974/andy-burnham-man-city-owners-mention-premier-league-charges-meeting",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729327_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Lamine Yamal: Assist for Anthony Gordon in Barcelona win 'almost-rabona'",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-10-14T11:46:46.000Z",
+      "excerpt": "Lamine Yamal christened his dribble leading to Anthony Gordon's goal against Galatasaray an \"almost-rabona\" as Barcelona ran out 4-1 winners",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50180579/lamine-yamal-assist-anthony-gordon-barcelona-win-almost-rabona",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730551_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Eberechi Eze on Arsenal competition: 'If you don't want to play you're not in the right place'",
+      "league": "Champions League",
+      "time": "2h ago",
+      "published": "2026-10-14T11:10:51.000Z",
+      "excerpt": "Eberechi Eze has spoken about dealing with the level of competitiveness in Arsenal's squad, saying \"if you don't want to play you're not in ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50180335/eberechi-eze-arsenal-competition-dont-want-play-youre-not-right-place",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730540_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid, Barcelona chase Spurs defender Porro",
+      "league": "La Liga",
+      "time": "3h ago",
+      "published": "2026-10-14T10:12:41.000Z",
       "excerpt": "Tottenham defender Pedro Porro is being tracked by Real Madrid and Barcelona. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50179920/transfer-rumors-news-real-madrid-barcelona-chase-spurs-defender-porro",
@@ -13,42 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Wayne Rooney: Lisandro Martinez 'disrespectful' for Man United rant",
-      "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-10-14T06:43:21.000Z",
-      "excerpt": "Wayne Rooney has criticised Lisandro Martínez for his claims that Manchester United's hierarchy didn't help the players enough in the transf",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50179874/wayne-rooney-lisandro-martinez-disrespectful-man-united-rant",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730522_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Irankunda records an assist in his UCL debut",
-      "league": "Champions League",
-      "time": "5h ago",
-      "published": "2026-10-14T01:55:38.000Z",
-      "excerpt": "Nestory Irankunda whips in a perfect ball for Luis Suarez to finish off in Sporting CP's 2-0 win over Lens in the Champions League.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50178566/irankunda-records-assist-ucl-debut",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_UCL_Highlight_Irankunda_records_an_assist_in_his_UCL_debut_20261014_AUS_ONLY/dm_261013_UCL_Highlight_Irankunda_records_an_assist_in_his_UCL_debut_20261014_AUS_ONLY.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Chelsea confident in January move for Scott",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-10-13T23:32:19.000Z",
-      "excerpt": "Chelsea are growing confident of signing Bournemouth's Alex Scott. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50171789/transfer-rumors-news-barcelona-real-madrid-scout-erling-haaland-anfield",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730398_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Real Madrid's Mourinho on media snub post-Villarreal: 'Watch first minute of game'",
       "league": "La Liga",
-      "time": "12h ago",
+      "time": "18h ago",
       "published": "2026-10-13T18:47:44.000Z",
       "excerpt": "José Mourinho has refused to explain why he skipped his post-match news conference after Real Madrid's 1-0 win over Villarreal,",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Borussia Dortmund extend head coach Niko Kovač's contract through to 2029",
       "league": "Bundesliga",
-      "time": "20h ago",
+      "time": "13/10/2026",
       "published": "2026-10-13T10:49:28.000Z",
       "excerpt": "Borussia Dortmund have handed head coach Niko Kovač a contact extension through June 2029 as a reward for stabilizing the team.",
       "source": "ESPN",

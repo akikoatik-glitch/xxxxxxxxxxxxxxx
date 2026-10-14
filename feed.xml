@@ -5,16 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 14 Oct 2026 07:25:53 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 13:35:12 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Melbourne Victory vs FC Seoul — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/melbourne-victory-vs-fc-seoul-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/melbourne-victory-vs-fc-seoul-prediction.html</guid>
-    <pubDate>Wed, 14 Oct 2026 07:45:00 GMT</pubDate>
-    <description>AFC Champions League Two — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 14 Oct 2026 07:45:00 GMT.</description>
-    <category>AFC Champions League Two</category>
-  </item>
   <item>
     <title>Portsmouth vs Sheffield United — Home Win @ 1.91</title>
     <link>https://xwhiz.com/predictions/portsmouth-vs-sheffield-united-prediction.html</link>
@@ -197,6 +189,14 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/sv-werder-bremen-vs-sc-paderborn-07-prediction.html</guid>
     <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
     <description>Bundesliga — 89% confidence. Home Win at 1.07. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>Hamburger SV vs VfB Stuttgart — Home Win @ 2.19</title>
+    <link>https://xwhiz.com/predictions/hamburger-sv-vs-vfb-stuttgart-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/hamburger-sv-vs-vfb-stuttgart-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 43% confidence. Home Win at 2.19. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
   </item>
 </channel>
