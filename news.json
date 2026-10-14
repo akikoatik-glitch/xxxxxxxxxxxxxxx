@@ -1,32 +1,54 @@
 {
-  "lastUpdate": "2026-10-13T21:08:22.351Z",
+  "lastUpdate": "2026-10-14T01:03:49.759Z",
   "news": [
     {
-      "title": "Arsenal score three goals in seven minutes in classy finish against Lille",
+      "title": "Man United falter in UCL loss to Atlético",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-10-13T21:03:19.000Z",
-      "excerpt": "Jurrien Timber, Eberechi Eze and Bukayo Saka all scored in seven scintillating second-half minutes to fire Arsenal to a comfortable 3-0 Cham",
+      "published": "2026-10-14T00:42:09.000Z",
+      "excerpt": "Manchester United's winless run extends to a fifth match as pressure builds on Michael Carrick after a 2-0 loss to Atlético Madrid in the Ch",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401915417",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730302_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50178006/man-united-falter-ucl-loss-atletico",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_UCL_Highlight_Man_United_falter_in_UCL_loss_to_Atletico_20261014_AUS_ONLY/dm_261013_UCL_Highlight_Man_United_falter_in_UCL_loss_to_Atletico_20261014_AUS_ONLY.jpg",
       "category": "football"
     },
     {
-      "title": "Champions League recap: Atleti beat Man United, Viking snatch point vs. Bayern",
-      "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-10-13T21:00:59.000Z",
-      "excerpt": "Manchester United's woes continue as they lost 2-0 to Atlético Madrid on a UEFA Champions League matchday full of goals and stunning results",
+      "title": "Transfer rumors, news: Chelsea confident in January move for Scott",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-13T23:32:19.000Z",
+      "excerpt": "Chelsea are growing confident of signing Bournemouth's Alex Scott. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50168897/uefa-champions-league-live-updates-manchester-united-atletico-madrid-barcelona-galatasaray",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730251_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50171789/transfer-rumors-news-barcelona-real-madrid-scout-erling-haaland-anfield",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730398_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Péter Gulácsi misses Champions League game due to armed home invasion",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-10-13T23:19:55.000Z",
+      "excerpt": "Villarreal goalkeeper Péter Gulácsi missed his team's Champions League game against Napoli on Tuesday because of an armed home invasion at h",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50177588/peter-gulacsi-misses-champions-league-game-armed-home-invasion",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730392_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Lisandro Martínez slams Man United hierarchy: Squad not Champions League quality",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-13T23:03:43.000Z",
+      "excerpt": "Lisandro Martínez launched a stinging verbal attack on Manchester United's hierarchy, after a 2-0 Champions League defeat against Atlético M",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50177021/lisandro-martinez-slams-man-united-hierarchys-decisions-not-champions-league-quality-squad",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1730374_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Real Madrid's Mourinho on media snub post-Villarreal: 'Watch first minute of game'",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "6h ago",
       "published": "2026-10-13T18:47:44.000Z",
       "excerpt": "José Mourinho has refused to explain why he skipped his post-match news conference after Real Madrid's 1-0 win over Villarreal,",
       "source": "ESPN",
@@ -35,47 +57,25 @@
       "category": "football"
     },
     {
-      "title": "Man City 'deserved' trophies - PSG boss Luis Enrique on charges",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-10-13T17:39:16.000Z",
-      "excerpt": "Paris Saint-Germain boss Luis Enrique has said Manchester City deserve to keep the trophies won during the period in which they have been fo",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50174986/manchester-city-deserved-trophies-psg-boss-luis-enrique",
-      "image": "https://a.espncdn.com/photo/2026/0829/r1708346_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Football Regulator chair will quit if politics interferes with any Man City investigation",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-10-13T16:45:58.000Z",
-      "excerpt": "The chair of the Independent Football Regulator (IFR) has said he will quit if there is political interference in any future investigation l",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50174675/football-regulator-chair-quit-politics-interferes-man-city-investigation",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730170_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Barcelona, Real Madrid scout Erling Haaland at Anfield",
-      "league": "La Liga",
-      "time": "5h ago",
-      "published": "2026-10-13T15:13:13.000Z",
-      "excerpt": "Barcelona and Real Madrid continue to keep tabs on Erling Haaland, while Chelsea growing confident of signing Bournemouth's Alex Scott. Tran",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50171789/transfer-rumors-news-barcelona-real-madrid-scout-erling-haaland-anfield",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730042_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Borussia Dortmund extend head coach Niko Kovač's contract through to 2029",
       "league": "Bundesliga",
-      "time": "10h ago",
+      "time": "14h ago",
       "published": "2026-10-13T10:49:28.000Z",
       "excerpt": "Borussia Dortmund have handed head coach Niko Kovač a contact extension through June 2029 as a reward for stabilizing the team.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50172307/borussia-dortmund-niko-kovac-contract-extension-2029",
       "image": "https://a.espncdn.com/photo/2026/1013/r1730054_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "'I hope you'll learn!' - Flick responds to question about Real Madrid",
+      "league": "La Liga",
+      "time": "15h ago",
+      "published": "2026-10-13T09:07:59.000Z",
+      "excerpt": "'I hope you'll learn!' - Flick responds to question about Real Madrid",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50172116/i-hope-learn-flick-responds-question-real-madrid",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1013/dm_261013_COM_SOC_Presser_I_hope_youll_learn_Flick_responds_to_question_about_Real_Madrid_20261013/dm_261013_COM_SOC_Presser_I_hope_youll_learn_Flick_responds_to_question_about_Real_Madrid_20261013.jpg",
       "category": "football"
     },
     {

@@ -5,8 +5,24 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Tue, 13 Oct 2026 21:08:23 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 01:03:50 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Millonarios vs Deportiva Once Caldas — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/millonarios-vs-deportiva-once-caldas-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/millonarios-vs-deportiva-once-caldas-prediction.html</guid>
+    <pubDate>Wed, 14 Oct 2026 01:30:00 GMT</pubDate>
+    <description>Categoría Primera A — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 14 Oct 2026 01:30:00 GMT.</description>
+    <category>Categoría Primera A</category>
+  </item>
+  <item>
+    <title>Melbourne Victory vs FC Seoul — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/melbourne-victory-vs-fc-seoul-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/melbourne-victory-vs-fc-seoul-prediction.html</guid>
+    <pubDate>Wed, 14 Oct 2026 07:45:00 GMT</pubDate>
+    <description>AFC Champions League Two — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 14 Oct 2026 07:45:00 GMT.</description>
+    <category>AFC Champions League Two</category>
+  </item>
   <item>
     <title>Portsmouth vs Sheffield United — Home Win @ 1.91</title>
     <link>https://xwhiz.com/predictions/portsmouth-vs-sheffield-united-prediction.html</link>
@@ -165,22 +181,6 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/fc-bayern-muenchen-vs-rb-leipzig-prediction.html</guid>
     <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
     <description>Bundesliga — 81% confidence. Home Win at 1.18. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>FC Schalke 04 vs 1. FSV Mainz 05 — Away Win @ 1.83</title>
-    <link>https://xwhiz.com/predictions/fc-schalke-04-vs-1-fsv-mainz-05-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-schalke-04-vs-1-fsv-mainz-05-prediction.html</guid>
-    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 52% confidence. Away Win at 1.83. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>SV 07 Elversberg vs FC Augsburg — Away Win @ 2.17</title>
-    <link>https://xwhiz.com/predictions/sv-07-elversberg-vs-fc-augsburg-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sv-07-elversberg-vs-fc-augsburg-prediction.html</guid>
-    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 44% confidence. Away Win at 2.17. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
   </item>
 </channel>
