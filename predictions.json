@@ -1,11 +1,157 @@
 {
-  "date": "2026-10-16",
-  "lastUpdate": "2026-10-14T23:06:29.035Z",
-  "predictionGenerated": "2026-10-14T23:06:29.035Z",
-  "dataTimestamp": "2026-10-14T23:06:26.361Z",
+  "date": "2026-10-15",
+  "lastUpdate": "2026-10-15T04:18:39.693Z",
+  "predictionGenerated": "2026-10-15T04:18:39.693Z",
+  "dataTimestamp": "2026-10-15T04:18:37.240Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:38+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:38+tomorrow:6+upcoming:30+fixtures:60)",
   "matches": [
+    {
+      "id": "4wyrn4h6j7v4q86",
+      "slug": "tai-po-vs-lion-city-sailors-prediction",
+      "utcDate": "2026-10-15T10:00:00+00:00",
+      "date": "2026-10-15",
+      "time": "10:00",
+      "precise": "10:00 UTC • 12:00 CET",
+      "countdown": "5h to kickoff",
+      "home": "Tai Po",
+      "away": "Lion City Sailors",
+      "league": "AFC Champions League Two",
+      "code": "",
+      "flag": "⚽",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Tai Po vs Lion City Sailors: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "zp5rzghgn2xvq82",
+      "slug": "gangwon-fc-vs-phnom-penh-crown-fc-prediction",
+      "utcDate": "2026-10-15T10:00:00+00:00",
+      "date": "2026-10-15",
+      "time": "10:00",
+      "precise": "10:00 UTC • 12:00 CET",
+      "countdown": "5h to kickoff",
+      "home": "Gangwon FC",
+      "away": "Phnom Penh Crown FC",
+      "league": "AFC Champions League Two",
+      "code": "",
+      "flag": "⚽",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Gangwon FC vs Phnom Penh Crown FC: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
     {
       "id": "es.1:2026-10-16:RC Deportivo La Coruña:Levante UD",
       "slug": "rc-deportivo-la-coruna-vs-levante-ud-prediction",
@@ -13,7 +159,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "RC Deportivo La Coruña",
       "away": "Levante UD",
       "league": "La Liga",
@@ -86,7 +232,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -159,7 +305,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "Frosinone Calcio",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -232,7 +378,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "Le Mans",
       "away": "Toulouse",
       "league": "Ligue 1",
@@ -305,7 +451,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "SC Heerenveen",
       "away": "SBV Excelsior",
       "league": "Eredivisie",
@@ -378,7 +524,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "Burnley",
       "away": "Wolverhampton Wanderers",
       "league": "Championship",
@@ -451,7 +597,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Newcastle United",
       "away": "Aston Villa",
       "league": "Premier League",
@@ -524,7 +670,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Brentford",
       "away": "Liverpool",
       "league": "Premier League",
@@ -597,7 +743,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Manchester City",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -670,7 +816,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Fulham",
       "away": "Hull City A",
       "league": "Premier League",
@@ -743,7 +889,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Everton",
       "away": "Chelsea",
       "league": "Premier League",
@@ -816,7 +962,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Valencia CF",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -889,7 +1035,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Real Betis Balompié",
       "away": "FC Barcelona",
       "league": "La Liga",
@@ -962,7 +1108,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Villarreal CF",
       "away": "Elche CF",
       "league": "La Liga",
@@ -1035,7 +1181,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "RCD Espanyol de Barcelona",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -1108,7 +1254,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "FC Bayern München",
       "away": "RB Leipzig",
       "league": "Bundesliga",
@@ -1181,7 +1327,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "FC Schalke 04",
       "away": "1. FSV Mainz 05",
       "league": "Bundesliga",
@@ -1254,7 +1400,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "SV 07 Elversberg",
       "away": "FC Augsburg",
       "league": "Bundesliga",
@@ -1327,7 +1473,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "SV Werder Bremen",
       "away": "SC Paderborn 07",
       "league": "Bundesliga",
@@ -1400,7 +1546,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "Hamburger SV",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -1473,7 +1619,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "Borussia Dortmund",
       "league": "Bundesliga",
@@ -1546,7 +1692,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "63h to kickoff",
+      "countdown": "58h to kickoff",
       "home": "AS Roma",
       "away": "Genoa C",
       "league": "Serie A",
@@ -2217,31 +2363,31 @@
   ],
   "news": [
     {
-      "title": "Andoni Iraola: Bradley Barcola hat trick will help him settle in at Liverpool",
+      "title": "Who has the most Champions League goals, assists all time?",
       "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-10-14T23:02:41.000Z",
-      "excerpt": "Liverpool head coach Andoni Iraola said he hopes Bradley Barcola's first Champions League hat trick will provide the confidence boost the wi",
+      "time": "2h ago",
+      "published": "2026-10-15T01:28:18.000Z",
+      "excerpt": "Cristiano Ronaldo leads the Champions League in all-time goals and assists. Check out which other soccer stars are behind him.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50185074/andoni-iraola-bradley-barcola-hat-trick-settle-liverpool",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730903_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/43810752/who-most-champions-league-goals-assists-all",
+      "image": "https://a.espncdn.com/photo/2018/0411/r355065_608x342_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Halftime lead worried Luis Enrique in game PSG 'could have lost' to City",
+      "title": "UCL talking points, MD2: Who's to blame for Man United mess? Chaos bad for Madrid?",
       "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-10-14T22:54:56.000Z",
-      "excerpt": "Luis Enrique said PSG only want to be best team \"at the end of the season\" after the back-to-back Champions League winners sealed a 4-2 win ",
+      "time": "3h ago",
+      "published": "2026-10-15T00:34:59.000Z",
+      "excerpt": "Which players and clubs shined in the Champions League? Gab Marcotti, Tom Hamilton and Sam Marsden weigh in on all the moments that mattered",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50184899/luis-enrique-psg-lost-city",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730890_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50182353/ucl-talking-points-md2-man-united-barcelona-man-city-psg-real-madrid",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1730946_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Was Martinez's Man United statement 'premeditated'?",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "5h ago",
       "published": "2026-10-14T22:46:55.000Z",
       "excerpt": "Was Martinez's Man United statement 'premeditated'?",
       "source": "ESPN",
@@ -2252,7 +2398,7 @@
     {
       "title": "Real Madrid's Vinícius Junior gets 4-game ban after red card; will miss Clásico",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "5h ago",
       "published": "2026-10-14T22:42:16.000Z",
       "excerpt": "Vinícius Junior has been handed a four-game ban for his sending-off in Real Madrid's LaLiga win over Villarreal and will miss this month's C",
       "source": "ESPN",
