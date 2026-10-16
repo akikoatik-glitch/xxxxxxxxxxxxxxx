@@ -1,84 +1,11 @@
 {
   "date": "2026-10-16",
-  "lastUpdate": "2026-10-16T06:59:55.920Z",
-  "predictionGenerated": "2026-10-16T06:59:55.920Z",
-  "dataTimestamp": "2026-10-16T06:59:53.375Z",
+  "lastUpdate": "2026-10-16T13:09:56.607Z",
+  "predictionGenerated": "2026-10-16T13:09:56.607Z",
+  "dataTimestamp": "2026-10-16T13:09:53.690Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:43+tomorrow:35+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "vjxm8ghe6e5nr6o",
-      "slug": "obolon-kyiv-vs-veres-prediction",
-      "utcDate": "2026-10-16T10:00:00+00:00",
-      "date": "2026-10-16",
-      "time": "10:00",
-      "precise": "10:00 UTC • 12:00 CET",
-      "countdown": "3h to kickoff",
-      "home": "Obolon Kyiv",
-      "away": "Veres",
-      "league": "Ukrainian Premier League",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Obolon Kyiv vs Veres: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "es.1:2026-10-16:RC Deportivo La Coruña:Levante UD",
       "slug": "rc-deportivo-la-coruna-vs-levante-ud-prediction",
@@ -86,7 +13,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "8h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "RC Deportivo La Coruña",
       "away": "Levante UD",
       "league": "La Liga",
@@ -159,7 +86,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "8h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -232,7 +159,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "8h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "Frosinone Calcio",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -305,7 +232,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "8h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "Le Mans",
       "away": "Toulouse",
       "league": "Ligue 1",
@@ -378,7 +305,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "8h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "SC Heerenveen",
       "away": "SBV Excelsior",
       "league": "Eredivisie",
@@ -451,7 +378,7 @@
       "date": "2026-10-16",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "8h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "Burnley",
       "away": "Wolverhampton Wanderers",
       "league": "Championship",
@@ -524,7 +451,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Everton",
       "away": "Chelsea",
       "league": "Premier League",
@@ -597,7 +524,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Fulham",
       "away": "Hull City A",
       "league": "Premier League",
@@ -670,7 +597,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Manchester City",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -743,7 +670,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Brentford",
       "away": "Liverpool",
       "league": "Premier League",
@@ -816,7 +743,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Newcastle United",
       "away": "Aston Villa",
       "league": "Premier League",
@@ -889,7 +816,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "RCD Espanyol de Barcelona",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -962,7 +889,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Villarreal CF",
       "away": "Elche CF",
       "league": "La Liga",
@@ -1035,7 +962,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Real Betis Balompié",
       "away": "FC Barcelona",
       "league": "La Liga",
@@ -1108,7 +1035,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Valencia CF",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -1181,7 +1108,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "Borussia Dortmund",
       "league": "Bundesliga",
@@ -1254,7 +1181,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Hamburger SV",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -1327,7 +1254,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "SV Werder Bremen",
       "away": "SC Paderborn 07",
       "league": "Bundesliga",
@@ -1400,7 +1327,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "SV 07 Elversberg",
       "away": "FC Augsburg",
       "league": "Bundesliga",
@@ -1473,7 +1400,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "FC Schalke 04",
       "away": "1. FSV Mainz 05",
       "league": "Bundesliga",
@@ -1546,7 +1473,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "FC Bayern München",
       "away": "RB Leipzig",
       "league": "Bundesliga",
@@ -1619,7 +1546,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Venezia",
       "away": "SSC Napoli",
       "league": "Serie A",
@@ -1692,7 +1619,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "32h to kickoff",
+      "countdown": "25h to kickoff",
       "home": "Bologna FC 1909",
       "away": "FC Internazionale Milano",
       "league": "Serie A",
@@ -1754,6 +1681,79 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Bologna FC 1909 vs FC Internazionale Milano: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-17:AS Roma:Genoa CFC",
+      "slug": "as-roma-vs-genoa-c-prediction",
+      "utcDate": "2026-10-17T15:00:00Z",
+      "date": "2026-10-17",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "25h to kickoff",
+      "home": "AS Roma",
+      "away": "Genoa C",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 96,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 96,
+        "draw": 3,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.30",
+        "total": "4.50"
+      },
+      "doubleChance": {
+        "12": 97,
+        "1X": 97,
+        "X2": 4
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 25,
+        "no": 75
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 17
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 17
+        },
+        {
+          "score": "3-0",
+          "prob": 16
+        },
+        {
+          "score": "5-0",
+          "prob": 14
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "AS Roma vs Genoa C: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.30 • most likely score 4-0 (17%) • Home Win confidence 96% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Arsenal's Eberechi Eze to perform Cristiano Ronaldo-inspired celebration after loss to IShowSpeed",
+      "title": "Florian Wirtz form can improve if Liverpool drop him - Steven Gerrard",
       "league": "Premier League",
-      "time": "8h ago",
-      "published": "2026-10-15T22:18:28.000Z",
-      "excerpt": "Eberechi Eze's next goal celebration has been determined by YouTuber IShowSpeed after the Arsenal forward was beaten by the influencer in an",
+      "time": "0h ago",
+      "published": "2026-10-16T12:15:27.000Z",
+      "excerpt": "Liverpool legend Steven Gerrard has said that Florian Wirtz \"coming out of the team\" could be the solution to his confidence and form improv",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50192054/arsenal-eberechi-eze-cristiano-ronaldo-ishowspeed-inspired-goal-celebration",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731342_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50195431/florian-wirtz-improve-comes-liverpool-team-says-steven-gerrard",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731538_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "How Vinícius Júnior's ban could be helpful for Real Madrid",
-      "league": "La Liga",
-      "time": "9h ago",
-      "published": "2026-10-15T21:54:42.000Z",
-      "excerpt": "How Vinícius Júnior's ban could be helpful for Real Madrid",
+      "title": "Shakhtar's Champions League win vs. AEK was more than just a game",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-10-16T11:55:16.000Z",
+      "excerpt": "Shakhtar Donetsk haven't played at home since 2014 due to the war, and this season, their Champions League home games are at Chelsea's Stamf",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50192030/how-vinicius-junior-ban-helpful-real-madrid",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/dm_261015_How_Vinicius_Juniors_ban_could_be_helpful_for_Real_Madrid/dm_261015_How_Vinicius_Juniors_ban_could_be_helpful_for_Real_Madrid.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50189050/shakhtar-donetsk-aek-athens-ukraine-russia-uefa-champions-league-gab-marcotti",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1731171_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Frank Leboeuf calls for Lisandro Martínez to leave Man Utd",
-      "league": "Premier League",
-      "time": "9h ago",
-      "published": "2026-10-15T21:38:10.000Z",
-      "excerpt": "Frank Leboeuf calls for Lisandro Martínez to leave Man Utd",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50191983/frank-leboeuf-calls-lisandro-martinez-leave-man-utd",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/dm_261015_Frank_Leboeuf_calls_for_Lisandro_Martinez_to_leave_Man_Utd/dm_261015_Frank_Leboeuf_calls_for_Lisandro_Martinez_to_leave_Man_Utd.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Liverpool's Wirtz to Bayern Munich?",
+      "title": "Transfer rumors, news: Arsenal eye January move for Bayern Munich defender",
       "league": "Bundesliga",
-      "time": "10h ago",
-      "published": "2026-10-15T20:54:08.000Z",
-      "excerpt": "Florian Wirtz could end up returning to the Bundesliga, as Bayern Munich are keeping a close eye on his situation at Liverpool. Transfer Tal",
+      "time": "1h ago",
+      "published": "2026-10-16T11:36:20.000Z",
+      "excerpt": "Arsenal are interested in signing Bayern Munich defender Kim Min-Jae during the January transfer window. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50187435/transfer-rumors-news-lisandro-martinez-future-man-united-doubt-bust-up",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731333_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50194612/transfer-rumors-news-arsenal-eye-january-move-bayern-munich-defender",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731505_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Premier League Top 50: Ranking the best players so far this season",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-16T11:13:11.000Z",
+      "excerpt": "The Premier League Top 50 returns for the 2026-27 season to rank the best players across the league so far.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50191745/premier-league-top-50-ranked-best-players-2026-27-man-city-united-liverpool-arsenal-chelsea",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731434_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
