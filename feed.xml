@@ -5,56 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 16 Oct 2026 17:56:02 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 20:52:40 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>RC Deportivo La Coruña vs Levante UD — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/rc-deportivo-la-coruna-vs-levante-ud-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/rc-deportivo-la-coruna-vs-levante-ud-prediction.html</guid>
-    <pubDate>Fri, 16 Oct 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 61% confidence. Home Win at 1.56. Match kickoff: Fri, 16 Oct 2026 15:00:00 GMT.</description>
-    <category>La Liga</category>
-  </item>
-  <item>
-    <title>Eintracht Frankfurt vs 1. FC Köln — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/eintracht-frankfurt-vs-1-fc-koeln-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/eintracht-frankfurt-vs-1-fc-koeln-prediction.html</guid>
-    <pubDate>Fri, 16 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 95% confidence. Home Win at 1.01. Match kickoff: Fri, 16 Oct 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>Frosinone Calcio vs US Sassuolo Calcio — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/frosinone-calcio-vs-us-sassuolo-calcio-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/frosinone-calcio-vs-us-sassuolo-calcio-prediction.html</guid>
-    <pubDate>Fri, 16 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Fri, 16 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Le Mans vs Toulouse — Away Win @ 1.60</title>
-    <link>https://xwhiz.com/predictions/le-mans-vs-toulouse-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/le-mans-vs-toulouse-prediction.html</guid>
-    <pubDate>Fri, 16 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Ligue 1 — 59% confidence. Away Win at 1.60. Match kickoff: Fri, 16 Oct 2026 15:00:00 GMT.</description>
-    <category>Ligue 1</category>
-  </item>
-  <item>
-    <title>SC Heerenveen vs SBV Excelsior — Home Win @ 1.18</title>
-    <link>https://xwhiz.com/predictions/sc-heerenveen-vs-sbv-excelsior-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sc-heerenveen-vs-sbv-excelsior-prediction.html</guid>
-    <pubDate>Fri, 16 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Eredivisie — 81% confidence. Home Win at 1.18. Match kickoff: Fri, 16 Oct 2026 15:00:00 GMT.</description>
-    <category>Eredivisie</category>
-  </item>
-  <item>
-    <title>Burnley vs Wolverhampton Wanderers — Home Win @ 1.81</title>
-    <link>https://xwhiz.com/predictions/burnley-vs-wolverhampton-wanderers-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/burnley-vs-wolverhampton-wanderers-prediction.html</guid>
-    <pubDate>Fri, 16 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 53% confidence. Home Win at 1.81. Match kickoff: Fri, 16 Oct 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
   <item>
     <title>Everton vs Chelsea — Home Win @ 1.91</title>
     <link>https://xwhiz.com/predictions/everton-vs-chelsea-prediction.html</link>
@@ -180,7 +132,7 @@
     <link>https://xwhiz.com/predictions/venezia-vs-ssc-napoli-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/venezia-vs-ssc-napoli-prediction.html</guid>
     <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 86% confidence. Away Win at 1.11. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <description>Serie A — 85% confidence. Away Win at 1.11. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
   </item>
   <item>
@@ -198,6 +150,54 @@
     <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
+  </item>
+  <item>
+    <title>RC Strasbourg Alsace vs Paris Saint-Germain — Away Win @ 1.88</title>
+    <link>https://xwhiz.com/predictions/rc-strasbourg-alsace-vs-paris-saint-germain-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/rc-strasbourg-alsace-vs-paris-saint-germain-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 50% confidence. Away Win at 1.88. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>ES Troyes AC vs Racing Club de Lens — Away Win @ 1.68</title>
+    <link>https://xwhiz.com/predictions/es-troyes-ac-vs-racing-club-de-lens-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/es-troyes-ac-vs-racing-club-de-lens-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 57% confidence. Away Win at 1.68. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Lille OSC vs Stade Brestois 29 — Home Win @ 1.49</title>
+    <link>https://xwhiz.com/predictions/lille-osc-vs-stade-brestois-29-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/lille-osc-vs-stade-brestois-29-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 64% confidence. Home Win at 1.49. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>ADO Den Haag vs PSV — Away Win @ 1.55</title>
+    <link>https://xwhiz.com/predictions/ado-den-haag-vs-psv-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ado-den-haag-vs-psv-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 61% confidence. Away Win at 1.55. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>Telstar 1963 vs Feyenoord Rotterdam — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/telstar-1963-vs-feyenoord-rotterdam-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/telstar-1963-vs-feyenoord-rotterdam-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>Sparta Rotterdam vs Willem II Tilburg — Home Win @ 1.16</title>
+    <link>https://xwhiz.com/predictions/sparta-rotterdam-vs-willem-ii-tilburg-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sparta-rotterdam-vs-willem-ii-tilburg-prediction.html</guid>
+    <pubDate>Sat, 17 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 82% confidence. Home Win at 1.16. Match kickoff: Sat, 17 Oct 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
   </item>
 </channel>
 </rss>

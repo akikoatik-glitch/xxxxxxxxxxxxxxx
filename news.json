@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-10-16T17:56:01.624Z",
+  "lastUpdate": "2026-10-16T20:52:39.691Z",
   "news": [
+    {
+      "title": "Carrick: Manchester United have moved on from Lisandro Martinez outburst",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-16T19:36:10.000Z",
+      "excerpt": "Carrick: Manchester United have moved on from Lisandro Martinez outburst",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50197717/manchester-united-moved-lisandro-martinez-outburst",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1016/dm_261016_Carrick_Manchester_United_have_moved_on_from_Lisandro_Martinez_outburst/dm_261016_Carrick_Manchester_United_have_moved_on_from_Lisandro_Martinez_outburst.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mikel Arteta told Arsenal job cuts will help club 'achieve success'",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-16T18:31:47.000Z",
+      "excerpt": "Mikel Arteta has been told Arsenal's redundancies will help the club \"achieve the success we want to create\" after it emerged the Premier Le",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50197443/mikel-arteta-arsenal-job-losses-success-premier-league",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731732_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Flick confirms Raphinha and de Jong return for Barcelona",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "3h ago",
       "published": "2026-10-16T17:17:45.000Z",
       "excerpt": "Flick confirms Raphinha and de Jong return for Barcelona",
       "source": "ESPN",
@@ -14,8 +36,8 @@
     },
     {
       "title": "Lisandro Martínez's Man United comments 'not that far off' but should not have been made - Peter Schmeichel",
-      "league": "Premier League",
-      "time": "0h ago",
+      "league": "Champions League",
+      "time": "3h ago",
       "published": "2026-10-16T16:59:55.000Z",
       "excerpt": "Former Manchester United goalkeeper Peter Schmeichel has said he believes Lisandro Martínez's criticism of the club's hierarchy is \"not that",
       "source": "ESPN",
@@ -26,7 +48,7 @@
     {
       "title": "Inter Milan rocked as captain Lautaro Martínez set to miss 7 games",
       "league": "Serie A",
-      "time": "1h ago",
+      "time": "4h ago",
       "published": "2026-10-16T16:48:09.000Z",
       "excerpt": "Inter Milan captain Lautaro Martínez will likely miss his team's next seven matches, including the derby against city rival AC Milan, with a",
       "source": "ESPN",
@@ -35,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Nottingham Forest vs. Arsenal: Morgan Gibbs-White faces late fitness test for hosts",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-16T16:13:49.000Z",
-      "excerpt": "Nottingham Forest are sweating on the fitness of Morgan Gibbs-White ahead of Sunday's clash with Arsenal.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50196950/nottingham-forest-vs-arsenal-morgan-gibbs-white-faces-late-fitness-test-hosts",
-      "image": "https://a.espncdn.com/photo/2026/1016/r1731685_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Real Madrid want LaLiga chief out after he compared attacks on refs to Nazi propaganda",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "5h ago",
       "published": "2026-10-16T15:11:09.000Z",
       "excerpt": "Real Madrid want the LaLiga chief to resign after he compared the club's efforts to discredit referees with the propaganda techniques of the",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Shakhtar's Champions League win vs. AEK was more than just a game",
       "league": "Champions League",
-      "time": "6h ago",
+      "time": "8h ago",
       "published": "2026-10-16T11:55:16.000Z",
       "excerpt": "Shakhtar Donetsk haven't played at home since 2014 due to the war, and this season, their Champions League home games are at Chelsea's Stamf",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Transfer rumors, news: Arsenal eye January move for Bayern Munich defender",
       "league": "Bundesliga",
-      "time": "6h ago",
+      "time": "9h ago",
       "published": "2026-10-16T11:36:20.000Z",
       "excerpt": "Arsenal are interested in signing Bayern Munich defender Kim Min-Jae during the January transfer window. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Transfer rumors, news: Liverpool's Wirtz to Bayern Munich?",
       "league": "Bundesliga",
-      "time": "21h ago",
+      "time": "23h ago",
       "published": "2026-10-15T20:54:08.000Z",
       "excerpt": "Florian Wirtz could end up returning to the Bundesliga, as Bayern Munich are keeping a close eye on his situation at Liverpool. Transfer Tal",
       "source": "ESPN",
