@@ -1,54 +1,87 @@
 {
-  "lastUpdate": "2026-10-17T16:58:01.056Z",
+  "lastUpdate": "2026-10-17T20:26:58.576Z",
   "news": [
     {
-      "title": "Premier League live updates: Newcastle-Villa in action, Man City's Haaland gets brace",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-17T16:49:18.000Z",
-      "excerpt": "More goals for Erling Haaland as Manchester City defeat Ipswich Town, as Newcastle United host Aston Villa. Follow live with ESPN.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50190266/premier-league-live-updates-everton-chelsea-liverpool-manchester-city",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1732033_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Erling Haaland brace helps Man City hold off Ipswich at defiant Etihad Stadium",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-17T16:27:49.000Z",
-      "excerpt": "Erling Haaland struck twice as defiant Manchester City marched on at the top of the Premier League by holding on for a 3-2 win over Ipswich.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401879259",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1732010_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Villarreal vs. Elche - Game Highlights",
+      "title": "Manuel Pellegrini bemoans 'inexplicable decisions' as Real Betis lose to Barcelona",
       "league": "La Liga",
       "time": "0h ago",
-      "published": "2026-10-17T16:25:20.000Z",
-      "excerpt": "Watch the Game Highlights from Villarreal vs. Elche, 10/17/2026",
+      "published": "2026-10-17T20:10:51.000Z",
+      "excerpt": "Real Betis coach Manuel Pellegrini blamed \"incomprehensible and inexplicable decisions\" for his side's 5-2 loss at home to Barcelona on Satu",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50201775/villarreal-vs-elche-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/e99640a9-396d-43a6-a6a4-341a9b54e67b/e99640a9-396d-43a6-a6a4-341a9b54e67b.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50203152/manuel-pellegrini-inexplicable-decisions-real-betis-barcelona",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732109_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: JJ Gabriel move revealed soon amid Barcelona, Real Madrid talks",
+      "title": "'Best in the world' Yamal propels Barcelona to record-equaling LaLiga start",
       "league": "La Liga",
       "time": "0h ago",
-      "published": "2026-10-17T16:08:36.000Z",
-      "excerpt": "JJ Gabriel's next move could be announced soon, while Arsenal and Liverpool will battle to sign Brentford's Kevin Schade. Transfer Talk has ",
+      "published": "2026-10-17T19:57:23.000Z",
+      "excerpt": "Barcelona coach Hansi Flick hailed Lamine Yamal as the best player in the world after his side thrashed Real Betis 5-2 to equal the best eve",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50200287/transfer-rumors-news-jj-gabriel-move-revealed-soon-amid-barcelona-real-madrid-talks",
-      "image": "https://a.espncdn.com/photo/2026/0918/r1718455_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50203285/lamine-yamal-barcelona-laliga-start-record-real-betis",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732115_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Nicol: Isak needs to contribute more for Liverpool despite winner vs. Brentford",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-17T19:49:53.000Z",
+      "excerpt": "Nicol: Isak needs to contribute more for Liverpool despite winner vs. Brentford",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50203331/isak-needs-contribute-more-liverpool-winner-vs-brentford",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_COM_SOC_Analysis_Nicol3A_Isak_needs_to_contribute_more_for_Liverpool_despite_winner_vs_Brentford_/dm_261017_COM_SOC_Analysis_Nicol3A_Isak_needs_to_contribute_more_for_Liverpool_despite_winner_vs_Brentford_.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Did Man City's changes help them gain victory vs. Ipswich?",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-17T19:48:48.000Z",
+      "excerpt": "Did Man City's changes help them gain victory vs. Ipswich?",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50203316/did-man-city-changes-help-gain-victory-vs-ipswich",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1017/dm_261017_COM_SOC_Analysis_Did_Man_CityE28099s_changes_help_them_gain_victory_vs_Ipswich3F__GLOBAL_2026-10-17/dm_261017_COM_SOC_Analysis_Did_Man_CityE28099s_changes_help_them_gain_victory_vs_Ipswich3F__GLOBAL_2026-10-17.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Harry Kane breaks another record in 100th Bundesliga appearance for Bayern Munich",
+      "league": "Bundesliga",
+      "time": "1h ago",
+      "published": "2026-10-17T19:02:51.000Z",
+      "excerpt": "Harry Kane scored his 102nd goal in his 100th Bundesliga game on Saturday, the most by any player in the league's history after a century of",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50202815/harry-kane-breaks-record-100th-bundesliga-appearance-bayern-munich",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732102_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bayern Munich go top of Bundesliga after 6-1 thrashing of RB Leipzig",
+      "league": "Bundesliga",
+      "time": "1h ago",
+      "published": "2026-10-17T18:40:59.000Z",
+      "excerpt": "Bayern Munich warmed up for their Champions League showdown against Arsenal with a thumping 6-1 home victory over RB Leipzig to reclaim top ",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401884772",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732077_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "USMNT's Gio Reyna scores in Strasbourg's defeat to PSG",
+      "league": "Ligue 1",
+      "time": "2h ago",
+      "published": "2026-10-17T17:43:16.000Z",
+      "excerpt": "Ousmane Dembele inspired a Paris St Germain comeback after coming off the bench to score and contribute an assist in their 3-1 victory at St",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401876432",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732063_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Lisandro Martínez's Man United comments 'not that far off' but should not have been made - Peter Schmeichel",
       "league": "Champions League",
-      "time": "23h ago",
+      "time": "16/10/2026",
       "published": "2026-10-16T16:59:55.000Z",
       "excerpt": "Former Manchester United goalkeeper Peter Schmeichel has said he believes Lisandro Martínez's criticism of the club's hierarchy is \"not that",
       "source": "ESPN",
@@ -79,17 +112,6 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Liverpool's Wirtz to Bayern Munich?",
-      "league": "Bundesliga",
-      "time": "15/10/2026",
-      "published": "2026-10-15T20:54:08.000Z",
-      "excerpt": "Florian Wirtz could end up returning to the Bundesliga, as Bayern Munich are keeping a close eye on his situation at Liverpool. Transfer Tal",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50187435/transfer-rumors-news-lisandro-martinez-future-man-united-doubt-bust-up",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731333_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Dembélé jokes he might ask for more holidays after PSG's win at Man City",
       "league": "Ligue 1",
       "time": "15/10/2026",
@@ -109,28 +131,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50179920/transfer-rumors-news-real-madrid-barcelona-chase-spurs-defender-porro",
       "image": "https://a.espncdn.com/photo/2026/1014/r1730855_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Borussia Dortmund extend head coach Niko Kovač's contract through to 2029",
-      "league": "Bundesliga",
-      "time": "13/10/2026",
-      "published": "2026-10-13T10:49:28.000Z",
-      "excerpt": "Borussia Dortmund have handed head coach Niko Kovač a contact extension through June 2029 as a reward for stabilizing the team.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50172307/borussia-dortmund-niko-kovac-contract-extension-2029",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730054_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Lille consider legal action after Tiago Santos ruptures ACL in tackle",
-      "league": "Ligue 1",
-      "time": "12/10/2026",
-      "published": "2026-10-12T16:41:09.000Z",
-      "excerpt": "Champions League club Lille said Monday they are considering legal action over an injury to defender Tiago Santos who is set to miss the res",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50167074/lille-consider-legal-action-tiago-santos-ruptures-acl-tackle",
-      "image": "https://a.espncdn.com/photo/2024/0424/r1324101_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
