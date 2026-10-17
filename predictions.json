@@ -1,8 +1,8 @@
 {
   "date": "2026-10-17",
-  "lastUpdate": "2026-10-17T12:05:46.136Z",
-  "predictionGenerated": "2026-10-17T12:05:46.136Z",
-  "dataTimestamp": "2026-10-17T12:05:43.497Z",
+  "lastUpdate": "2026-10-17T16:58:01.105Z",
+  "predictionGenerated": "2026-10-17T16:58:01.105Z",
+  "dataTimestamp": "2026-10-17T16:57:58.439Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:77+tomorrow:24+upcoming:30+fixtures:60)",
   "matches": [
@@ -13,69 +13,69 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Everton",
       "away": "Chelsea",
       "league": "Premier League",
       "code": "PL",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 50,
-      "odds": "1.91",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 42,
+      "odds": "2.25",
       "value": "+0%",
       "probs": {
-        "home": 50,
-        "draw": 22,
-        "away": 28
+        "home": 34,
+        "draw": 23,
+        "away": 42
       },
       "xg": {
-        "home": "1.73",
-        "away": "1.23",
-        "total": "2.96"
+        "home": "1.30",
+        "away": "1.47",
+        "total": "2.77"
       },
       "doubleChance": {
-        "12": 78,
-        "1X": 72,
-        "X2": 50
+        "12": 77,
+        "1X": 58,
+        "X2": 66
       },
       "overUnder": {
-        "over2_5": 57,
-        "under2_5": 43,
-        "oddsOver": "1.67",
-        "oddsUnder": "2.21"
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
       },
       "btts": {
-        "yes": 57,
-        "no": 43
+        "yes": 55,
+        "no": 45
       },
       "correctScore": {
         "score": "1-1",
-        "prob": 10
+        "prob": 11
       },
       "topScores": [
         {
           "score": "1-1",
+          "prob": 11
+        },
+        {
+          "score": "0-1",
           "prob": 10
         },
         {
           "score": "1-0",
-          "prob": 10
-        },
-        {
-          "score": "2-1",
-          "prob": 10
+          "prob": 9
         }
       ],
-      "asianHandicap": "Home -0.50",
+      "asianHandicap": "Away +0.25",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Everton vs Chelsea: Dixon-Coles P(H)50% D22% A28% • xG 1.73-1.23 • most likely score 1-1 (10%) • Home Win confidence 50% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "whyWin": "Everton vs Chelsea: Dixon-Coles P(H)34% D23% A42% • xG 1.30-1.47 • most likely score 1-1 (11%) • Away Win confidence 42% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
@@ -86,7 +86,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Fulham",
       "away": "Hull City A",
       "league": "Premier League",
@@ -95,50 +95,50 @@
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 80,
-      "odds": "1.19",
-      "value": "+15%",
+      "conf": 81,
+      "odds": "1.17",
+      "value": "+16%",
       "probs": {
-        "home": 80,
-        "draw": 14,
-        "away": 7
+        "home": 81,
+        "draw": 13,
+        "away": 6
       },
       "xg": {
-        "home": "2.42",
-        "away": "0.53",
-        "total": "2.95"
+        "home": "2.45",
+        "away": "0.46",
+        "total": "2.91"
       },
       "doubleChance": {
-        "12": 86,
-        "1X": 93,
-        "X2": 20
+        "12": 87,
+        "1X": 94,
+        "X2": 19
       },
       "overUnder": {
-        "over2_5": 56,
-        "under2_5": 44,
-        "oddsOver": "1.70",
-        "oddsUnder": "2.16"
+        "over2_5": 55,
+        "under2_5": 45,
+        "oddsOver": "1.73",
+        "oddsUnder": "2.11"
       },
       "btts": {
-        "yes": 37,
-        "no": 63
+        "yes": 33,
+        "no": 67
       },
       "correctScore": {
         "score": "2-0",
-        "prob": 15
+        "prob": 17
       },
       "topScores": [
         {
           "score": "2-0",
-          "prob": 15
+          "prob": 17
         },
         {
           "score": "1-0",
-          "prob": 13
+          "prob": 14
         },
         {
           "score": "3-0",
-          "prob": 12
+          "prob": 13
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -147,7 +147,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Fulham vs Hull City A: Dixon-Coles P(H)80% D14% A7% • xG 2.42-0.53 • most likely score 2-0 (15%) • Home Win confidence 80% • strengths from real standings",
+      "whyWin": "Fulham vs Hull City A: Dixon-Coles P(H)81% D13% A6% • xG 2.45-0.46 • most likely score 2-0 (17%) • Home Win confidence 81% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -159,7 +159,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Manchester City",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -232,69 +232,69 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Brentford",
       "away": "Liverpool",
       "league": "Premier League",
       "code": "PL",
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 42,
-      "odds": "2.26",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 39,
+      "odds": "2.46",
       "value": "+0%",
       "probs": {
-        "home": 42,
-        "draw": 29,
-        "away": 29
+        "home": 34,
+        "draw": 27,
+        "away": 39
       },
       "xg": {
-        "home": "1.11",
-        "away": "0.87",
-        "total": "1.98"
+        "home": "1.03",
+        "away": "1.12",
+        "total": "2.15"
       },
       "doubleChance": {
-        "12": 71,
-        "1X": 71,
-        "X2": 58
+        "12": 73,
+        "1X": 61,
+        "X2": 66
       },
       "overUnder": {
-        "over2_5": 32,
-        "under2_5": 68,
-        "oddsOver": "2.97",
-        "oddsUnder": "1.40"
+        "over2_5": 37,
+        "under2_5": 63,
+        "oddsOver": "2.57",
+        "oddsUnder": "1.51"
       },
       "btts": {
-        "yes": 38,
-        "no": 62
+        "yes": 42,
+        "no": 58
       },
       "correctScore": {
-        "score": "1-0",
-        "prob": 16
+        "score": "0-1",
+        "prob": 14
       },
       "topScores": [
         {
-          "score": "1-0",
-          "prob": 16
-        },
-        {
           "score": "0-1",
+          "prob": 14
+        },
+        {
+          "score": "1-0",
           "prob": 13
         },
         {
-          "score": "0-0",
-          "prob": 13
+          "score": "1-1",
+          "prob": 12
         }
       ],
-      "asianHandicap": "Home -0.25",
+      "asianHandicap": "Level (0)",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Brentford vs Liverpool: Dixon-Coles P(H)42% D29% A29% • xG 1.11-0.87 • most likely score 1-0 (16%) • Home Win confidence 42% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "whyWin": "Brentford vs Liverpool: Dixon-Coles P(H)34% D27% A39% • xG 1.03-1.12 • most likely score 0-1 (14%) • Away Win confidence 39% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
@@ -305,7 +305,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Newcastle United",
       "away": "Aston Villa",
       "league": "Premier League",
@@ -315,7 +315,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 80,
-      "odds": "1.19",
+      "odds": "1.18",
       "value": "+15%",
       "probs": {
         "home": 80,
@@ -323,9 +323,9 @@
         "away": 8
       },
       "xg": {
-        "home": "2.90",
-        "away": "0.81",
-        "total": "3.71"
+        "home": "2.97",
+        "away": "0.83",
+        "total": "3.80"
       },
       "doubleChance": {
         "12": 88,
@@ -333,23 +333,23 @@
         "X2": 20
       },
       "overUnder": {
-        "over2_5": 71,
-        "under2_5": 29,
-        "oddsOver": "1.34",
-        "oddsUnder": "3.28"
+        "over2_5": 72,
+        "under2_5": 28,
+        "oddsOver": "1.32",
+        "oddsUnder": "3.39"
       },
       "btts": {
-        "yes": 52,
-        "no": 48
+        "yes": 53,
+        "no": 47
       },
       "correctScore": {
         "score": "2-0",
-        "prob": 11
+        "prob": 10
       },
       "topScores": [
         {
           "score": "2-0",
-          "prob": 11
+          "prob": 10
         },
         {
           "score": "3-0",
@@ -357,7 +357,7 @@
         },
         {
           "score": "2-1",
-          "prob": 9
+          "prob": 8
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -366,7 +366,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Newcastle United vs Aston Villa: Dixon-Coles P(H)80% D12% A8% • xG 2.90-0.81 • most likely score 2-0 (11%) • Home Win confidence 80% • strengths from real standings",
+      "whyWin": "Newcastle United vs Aston Villa: Dixon-Coles P(H)80% D12% A8% • xG 2.97-0.83 • most likely score 2-0 (10%) • Home Win confidence 80% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -378,7 +378,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "RCD Espanyol de Barcelona",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -451,7 +451,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Villarreal CF",
       "away": "Elche CF",
       "league": "La Liga",
@@ -460,50 +460,50 @@
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 92,
-      "odds": "1.03",
-      "value": "+21%",
+      "conf": 89,
+      "odds": "1.06",
+      "value": "+20%",
       "probs": {
-        "home": 92,
-        "draw": 6,
+        "home": 89,
+        "draw": 8,
         "away": 3
       },
       "xg": {
-        "home": "3.98",
-        "away": "0.59",
-        "total": "4.57"
+        "home": "3.28",
+        "away": "0.48",
+        "total": "3.76"
       },
       "doubleChance": {
-        "12": 94,
+        "12": 92,
         "1X": 97,
-        "X2": 8
+        "X2": 11
       },
       "overUnder": {
-        "over2_5": 81,
-        "under2_5": 19,
-        "oddsOver": "1.17",
-        "oddsUnder": "5.00"
+        "over2_5": 71,
+        "under2_5": 29,
+        "oddsOver": "1.34",
+        "oddsUnder": "3.28"
       },
       "btts": {
-        "yes": 43,
-        "no": 57
+        "yes": 37,
+        "no": 63
       },
       "correctScore": {
         "score": "3-0",
-        "prob": 12
+        "prob": 14
       },
       "topScores": [
         {
           "score": "3-0",
-          "prob": 12
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
         },
         {
           "score": "4-0",
           "prob": 12
-        },
-        {
-          "score": "5-0",
-          "prob": 10
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -512,7 +512,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Villarreal CF vs Elche CF: Dixon-Coles P(H)92% D6% A3% • xG 3.98-0.59 • most likely score 3-0 (12%) • Home Win confidence 92% • strengths from real standings",
+      "whyWin": "Villarreal CF vs Elche CF: Dixon-Coles P(H)89% D8% A3% • xG 3.28-0.48 • most likely score 3-0 (14%) • Home Win confidence 89% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -524,7 +524,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Real Betis Balompié",
       "away": "FC Barcelona",
       "league": "La Liga",
@@ -597,7 +597,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Valencia CF",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -606,33 +606,33 @@
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 49,
-      "odds": "1.94",
+      "conf": 50,
+      "odds": "1.90",
       "value": "+0%",
       "probs": {
         "home": 18,
-        "draw": 33,
-        "away": 49
+        "draw": 32,
+        "away": 50
       },
       "xg": {
-        "home": "0.49",
-        "away": "1.02",
-        "total": "1.51"
+        "home": "0.51",
+        "away": "1.07",
+        "total": "1.58"
       },
       "doubleChance": {
-        "12": 67,
-        "1X": 51,
+        "12": 68,
+        "1X": 50,
         "X2": 82
       },
       "overUnder": {
-        "over2_5": 19,
-        "under2_5": 81,
-        "oddsOver": "5.00",
-        "oddsUnder": "1.17"
+        "over2_5": 21,
+        "under2_5": 79,
+        "oddsOver": "4.52",
+        "oddsUnder": "1.20"
       },
       "btts": {
-        "yes": 24,
-        "no": 76
+        "yes": 25,
+        "no": 75
       },
       "correctScore": {
         "score": "0-1",
@@ -645,10 +645,10 @@
         },
         {
           "score": "0-0",
-          "prob": 21
+          "prob": 20
         },
         {
-          "score": "1-0",
+          "score": "0-2",
           "prob": 12
         }
       ],
@@ -658,7 +658,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Valencia CF vs Athletic Club: Dixon-Coles P(H)18% D33% A49% • xG 0.49-1.02 • most likely score 0-1 (23%) • Away Win confidence 49% • strengths from real standings",
+      "whyWin": "Valencia CF vs Athletic Club: Dixon-Coles P(H)18% D32% A50% • xG 0.51-1.07 • most likely score 0-1 (23%) • Away Win confidence 50% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -670,7 +670,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "Borussia Dortmund",
       "league": "Bundesliga",
@@ -743,7 +743,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Hamburger SV",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -816,7 +816,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "SV Werder Bremen",
       "away": "SC Paderborn 07",
       "league": "Bundesliga",
@@ -889,7 +889,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "SV 07 Elversberg",
       "away": "FC Augsburg",
       "league": "Bundesliga",
@@ -962,7 +962,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "FC Schalke 04",
       "away": "1. FSV Mainz 05",
       "league": "Bundesliga",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "FC Bayern München",
       "away": "RB Leipzig",
       "league": "Bundesliga",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Venezia",
       "away": "SSC Napoli",
       "league": "Serie A",
@@ -1117,50 +1117,50 @@
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 85,
-      "odds": "1.11",
-      "value": "+18%",
+      "conf": 80,
+      "odds": "1.18",
+      "value": "+15%",
       "probs": {
-        "home": 5,
-        "draw": 10,
-        "away": 85
+        "home": 7,
+        "draw": 13,
+        "away": 80
       },
       "xg": {
-        "home": "0.58",
-        "away": "3.02",
-        "total": "3.60"
+        "home": "0.61",
+        "away": "2.61",
+        "total": "3.22"
       },
       "doubleChance": {
-        "12": 90,
-        "1X": 15,
-        "X2": 95
+        "12": 87,
+        "1X": 20,
+        "X2": 93
       },
       "overUnder": {
-        "over2_5": 69,
-        "under2_5": 31,
-        "oddsOver": "1.38",
-        "oddsUnder": "3.06"
+        "over2_5": 62,
+        "under2_5": 38,
+        "oddsOver": "1.53",
+        "oddsUnder": "2.50"
       },
       "btts": {
         "yes": 42,
         "no": 58
       },
       "correctScore": {
-        "score": "0-3",
-        "prob": 13
+        "score": "0-2",
+        "prob": 14
       },
       "topScores": [
         {
-          "score": "0-3",
-          "prob": 13
-        },
-        {
           "score": "0-2",
-          "prob": 13
+          "prob": 14
         },
         {
-          "score": "0-4",
-          "prob": 10
+          "score": "0-3",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 11
         }
       ],
       "asianHandicap": "Away +2.0",
@@ -1169,7 +1169,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Venezia vs SSC Napoli: Dixon-Coles P(H)5% D10% A85% • xG 0.58-3.02 • most likely score 0-3 (13%) • Away Win confidence 85% • strengths from real standings",
+      "whyWin": "Venezia vs SSC Napoli: Dixon-Coles P(H)7% D13% A80% • xG 0.61-2.61 • most likely score 0-2 (14%) • Away Win confidence 80% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1181,7 +1181,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Bologna FC 1909",
       "away": "FC Internazionale Milano",
       "league": "Serie A",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "AS Roma",
       "away": "Genoa C",
       "league": "Serie A",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "RC Strasbourg Alsace",
       "away": "Paris Saint-Germain",
       "league": "Ligue 1",
@@ -1400,7 +1400,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "ES Troyes AC",
       "away": "Racing Club de Lens",
       "league": "Ligue 1",
@@ -1473,7 +1473,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Lille OSC",
       "away": "Stade Brestois 29",
       "league": "Ligue 1",
@@ -1546,7 +1546,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "ADO Den Haag",
       "away": "PSV",
       "league": "Eredivisie",
@@ -1619,7 +1619,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Telstar 1963",
       "away": "Feyenoord Rotterdam",
       "league": "Eredivisie",
@@ -1692,7 +1692,7 @@
       "date": "2026-10-17",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "2h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Sparta Rotterdam",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -2363,43 +2363,43 @@
   ],
   "news": [
     {
-      "title": "Premier League live updates: Everton host Chelsea in early match",
+      "title": "Premier League live updates: Newcastle-Villa in action, Man City's Haaland gets brace",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-17T11:41:17.000Z",
-      "excerpt": "Chelsea are in Merseyside as they take on Everton in the Premier League's early match as another weekend of European soccer is underway.",
+      "published": "2026-10-17T16:49:18.000Z",
+      "excerpt": "More goals for Erling Haaland as Manchester City defeat Ipswich Town, as Newcastle United host Aston Villa. Follow live with ESPN.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50190266/premier-league-live-updates-everton-chelsea-liverpool-manchester-city",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731920_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732033_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "José Mourinho praises Vinícius Júnior's Real Madrid grit: If I were him, I'd have left",
+      "title": "Erling Haaland brace helps Man City hold off Ipswich at defiant Etihad Stadium",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-17T16:27:49.000Z",
+      "excerpt": "Erling Haaland struck twice as defiant Manchester City marched on at the top of the Premier League by holding on for a 3-2 win over Ipswich.",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401879259",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732010_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Villarreal vs. Elche - Game Highlights",
       "league": "La Liga",
       "time": "0h ago",
-      "published": "2026-10-17T11:24:21.000Z",
-      "excerpt": "José Mourinho has claimed that if he were Vinícius Júnior, he'd have left Real Madrid last summer, praising the forward's mentality in tryin",
+      "published": "2026-10-17T16:25:20.000Z",
+      "excerpt": "Watch the Game Highlights from Villarreal vs. Elche, 10/17/2026",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50200546/jose-mourinho-praises-vinicius-junior-real-madrid-grit-were-left",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731916_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Is Martínez's outburst a sign of chaos to come for Man United and Carrick?",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-17T09:34:40.000Z",
-      "excerpt": "Michael Carrick insists his team is ready to move past Lisandro Martínez's fiery midweek comments. Only a win Sunday vs. Leeds will prove hi",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50196763/manchester-united-lisandro-martinez-chaos-sign-whats-come-michael-carrick",
-      "image": "https://a.espncdn.com/photo/2026/1016/r1731730_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50201775/villarreal-vs-elche-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/e99640a9-396d-43a6-a6a4-341a9b54e67b/e99640a9-396d-43a6-a6a4-341a9b54e67b.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: JJ Gabriel move revealed soon amid Barcelona, Real Madrid talks",
       "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-10-17T09:28:05.000Z",
+      "time": "0h ago",
+      "published": "2026-10-17T16:08:36.000Z",
       "excerpt": "JJ Gabriel's next move could be announced soon, while Arsenal and Liverpool will battle to sign Brentford's Kevin Schade. Transfer Talk has ",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50200287/transfer-rumors-news-jj-gabriel-move-revealed-soon-amid-barcelona-real-madrid-talks",
