@@ -1,21 +1,32 @@
 {
-  "lastUpdate": "2026-10-17T23:55:26.338Z",
+  "lastUpdate": "2026-10-18T04:11:58.558Z",
   "news": [
     {
-      "title": "Mikel Arteta: 'Big believer' Arsenal's Kai Havertz can score 30 goals a season",
+      "title": "Chelsea's Emi Martínez has surgery, will be 'back in a few weeks'",
       "league": "Premier League",
       "time": "1h ago",
-      "published": "2026-10-17T22:53:29.000Z",
-      "excerpt": "Mikel Arteta has said he is a \"big believer\" that Kai Havertz can be Arsenal's 30-goal-a-season man.",
+      "published": "2026-10-18T02:19:44.000Z",
+      "excerpt": "Emi Martínez said he would be \"back in a few weeks\" after undergoing surgery following a head injury suffered during Chelsea's Premier Leagu",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50204893/arsenal-kai-havertz-mikel-arteta-30-goals-big-believer-goals-season",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1732190_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50200995/emi-martinez-hospital-head-injury-chelsea-everton-premier-league",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1731940_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "USMNT's Reyna continues resurgence with goal in Strasbourg loss to PSG",
+      "league": "Ligue 1",
+      "time": "4h ago",
+      "published": "2026-10-18T00:10:47.000Z",
+      "excerpt": "United States midfielder Gio Reyna continued his recent impressive form, scoring for Strasbourg against Paris Saint-Germain in the French le",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50203117/usmnt-reyna-continues-fine-form-goal-strasbourg-loss-psg",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732134_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Liverpool come from behind to beat shorthanded Brentford",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "5h ago",
       "published": "2026-10-17T22:53:13.000Z",
       "excerpt": "Victor Muñoz and Alexander Isak take advantage of a weakened Brentford defence to score a pair of electric goals and lift Liverpool to a 2-1",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Harry Kane breaks another record in 100th Bundesliga appearance for Bayern Munich",
       "league": "Bundesliga",
-      "time": "1h ago",
+      "time": "5h ago",
       "published": "2026-10-17T22:47:41.000Z",
       "excerpt": "Harry Kane scored his 102nd goal in his 100th Bundesliga game on Saturday, the most by any player in the league's history after a century of",
       "source": "ESPN",
@@ -37,7 +48,7 @@
     {
       "title": "Valencia vs. Athletic Club - Game Highlights",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "7h ago",
       "published": "2026-10-17T21:02:54.000Z",
       "excerpt": "Watch the Game Highlights from Valencia vs. Athletic Club, 10/17/2026",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Manuel Pellegrini bemoans 'inexplicable decisions' as Real Betis lose to Barcelona",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "7h ago",
       "published": "2026-10-17T20:44:51.000Z",
       "excerpt": "Real Betis coach Manuel Pellegrini blamed \"incomprehensible and inexplicable decisions\" for his side's 5-2 loss at home to Barcelona on Satu",
       "source": "ESPN",
@@ -57,20 +68,9 @@
       "category": "football"
     },
     {
-      "title": "USMNT's Reyna continues fine form with goal in Strasbourg loss to PSG",
-      "league": "Ligue 1",
-      "time": "3h ago",
-      "published": "2026-10-17T20:32:33.000Z",
-      "excerpt": "United States midfielder Gio Reyna continued his recent impressive form, scoring for Strasbourg against Paris Saint-Germain in the French le",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50203117/usmnt-reyna-continues-fine-form-goal-strasbourg-loss-psg",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1732134_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bayern Munich go top of Bundesliga after 6-1 thrashing of RB Leipzig",
       "league": "Bundesliga",
-      "time": "5h ago",
+      "time": "9h ago",
       "published": "2026-10-17T18:40:59.000Z",
       "excerpt": "Bayern Munich warmed up for their Champions League showdown against Arsenal with a thumping 6-1 home victory over RB Leipzig to reclaim top ",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "USMNT's Gio Reyna scores in Strasbourg's defeat to PSG",
       "league": "Ligue 1",
-      "time": "6h ago",
+      "time": "10h ago",
       "published": "2026-10-17T17:43:16.000Z",
       "excerpt": "Ousmane Dembele inspired a Paris St Germain comeback after coming off the bench to score and contribute an assist in their 3-1 victory at St",
       "source": "ESPN",
