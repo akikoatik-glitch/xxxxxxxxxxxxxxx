@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 18 Oct 2026 22:21:49 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 04:21:07 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Tottenham Hotspur vs Coventry City — Home Win @ 1.41</title>
@@ -37,6 +37,166 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/parma-calcio-1913-vs-torino-prediction.html</guid>
     <pubDate>Mon, 19 Oct 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 45% confidence. Away Win at 2.13. Match kickoff: Mon, 19 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Wolverhampton Wanderers vs Portsmouth — Home Win @ 1.25</title>
+    <link>https://xwhiz.com/predictions/wolverhampton-wanderers-vs-portsmouth-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/wolverhampton-wanderers-vs-portsmouth-prediction.html</guid>
+    <pubDate>Tue, 20 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Championship — 76% confidence. Home Win at 1.25. Match kickoff: Tue, 20 Oct 2026 15:00:00 GMT.</description>
+    <category>Championship</category>
+  </item>
+  <item>
+    <title>Levante UD vs Athletic Club — Away Win @ 1.63</title>
+    <link>https://xwhiz.com/predictions/levante-ud-vs-athletic-club-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/levante-ud-vs-athletic-club-prediction.html</guid>
+    <pubDate>Wed, 21 Oct 2026 15:00:00 GMT</pubDate>
+    <description>La Liga — 58% confidence. Away Win at 1.63. Match kickoff: Wed, 21 Oct 2026 15:00:00 GMT.</description>
+    <category>La Liga</category>
+  </item>
+  <item>
+    <title>Ipswich Town vs Nottingham Forest — Home Win @ 2.04</title>
+    <link>https://xwhiz.com/predictions/ipswich-town-vs-nottingham-forest-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ipswich-town-vs-nottingham-forest-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 47% confidence. Home Win at 2.04. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>VfB Stuttgart vs Borussia Mönchengladbach — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/vfb-stuttgart-vs-borussia-moenchengladbach-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/vfb-stuttgart-vs-borussia-moenchengladbach-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 95% confidence. Home Win at 1.01. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>Torino vs AC Monza — Home Win @ 1.52</title>
+    <link>https://xwhiz.com/predictions/torino-vs-ac-monza-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/torino-vs-ac-monza-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 63% confidence. Home Win at 1.52. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Stade Brestois 29 vs OGC Nice — Home Win @ 1.40</title>
+    <link>https://xwhiz.com/predictions/stade-brestois-29-vs-ogc-nice-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/stade-brestois-29-vs-ogc-nice-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 68% confidence. Home Win at 1.40. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Go Ahead Eagles vs Telstar 1963 — Home Win @ 1.20</title>
+    <link>https://xwhiz.com/predictions/go-ahead-eagles-vs-telstar-1963-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/go-ahead-eagles-vs-telstar-1963-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 79% confidence. Home Win at 1.20. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>Vitória Guimarães vs CS Marítimo — Home Win @ 1.12</title>
+    <link>https://xwhiz.com/predictions/vitoria-guimaraes-vs-cs-maritimo-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/vitoria-guimaraes-vs-cs-maritimo-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Primeira Liga — 84% confidence. Home Win at 1.12. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Primeira Liga</category>
+  </item>
+  <item>
+    <title>Bolton Wanderers vs Middlesbrough — Away Win @ 2.37</title>
+    <link>https://xwhiz.com/predictions/bolton-wanderers-vs-middlesbrough-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/bolton-wanderers-vs-middlesbrough-prediction.html</guid>
+    <pubDate>Fri, 23 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Championship — 40% confidence. Away Win at 2.37. Match kickoff: Fri, 23 Oct 2026 15:00:00 GMT.</description>
+    <category>Championship</category>
+  </item>
+  <item>
+    <title>Chelsea vs Tottenham Hotspur — Home Win @ 1.03</title>
+    <link>https://xwhiz.com/predictions/chelsea-vs-tottenham-hotspur-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/chelsea-vs-tottenham-hotspur-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 92% confidence. Home Win at 1.03. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Coventry City vs Fulham — Away Win @ 2.29</title>
+    <link>https://xwhiz.com/predictions/coventry-city-vs-fulham-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/coventry-city-vs-fulham-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 41% confidence. Away Win at 2.29. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Arsenal vs Everton — Home Win @ 1.07</title>
+    <link>https://xwhiz.com/predictions/arsenal-vs-everton-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/arsenal-vs-everton-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 89% confidence. Home Win at 1.07. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Aston Villa vs Manchester City — Away Win @ 1.12</title>
+    <link>https://xwhiz.com/predictions/aston-villa-vs-manchester-city-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/aston-villa-vs-manchester-city-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 85% confidence. Away Win at 1.12. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Borussia Dortmund vs Eintracht Frankfurt — Home Win @ 1.35</title>
+    <link>https://xwhiz.com/predictions/borussia-dortmund-vs-eintracht-frankfurt-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/borussia-dortmund-vs-eintracht-frankfurt-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 70% confidence. Home Win at 1.35. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>FC Augsburg vs 1. FC Union Berlin — Home Win @ 1.72</title>
+    <link>https://xwhiz.com/predictions/fc-augsburg-vs-1-fc-union-berlin-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-augsburg-vs-1-fc-union-berlin-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 55% confidence. Home Win at 1.72. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>SC Paderborn 07 vs Hamburger SV — Away Win @ 1.97</title>
+    <link>https://xwhiz.com/predictions/sc-paderborn-07-vs-hamburger-sv-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sc-paderborn-07-vs-hamburger-sv-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 48% confidence. Away Win at 1.97. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>RB Leipzig vs SV 07 Elversberg — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/rb-leipzig-vs-sv-07-elversberg-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/rb-leipzig-vs-sv-07-elversberg-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 95% confidence. Home Win at 1.01. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>1. FC Köln vs FC Schalke 04 — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/1-fc-koeln-vs-fc-schalke-04-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fc-koeln-vs-fc-schalke-04-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>1. FSV Mainz 05 vs SV Werder Bremen — Home Win @ 1.52</title>
+    <link>https://xwhiz.com/predictions/1-fsv-mainz-05-vs-sv-werder-bremen-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fsv-mainz-05-vs-sv-werder-bremen-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 63% confidence. Home Win at 1.52. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>SS Lazio vs Parma Calcio 1913 — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/ss-lazio-vs-parma-calcio-1913-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ss-lazio-vs-parma-calcio-1913-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 95% confidence. Home Win at 1.01. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
   </item>
 </channel>
