@@ -1,10 +1,54 @@
 {
-  "lastUpdate": "2026-10-20T11:20:58.760Z",
+  "lastUpdate": "2026-10-20T16:45:49.122Z",
   "news": [
     {
-      "title": "Transfer rumors, news: Premier League clubs eye Alexander-Arnold amid Real Madrid uncertainty",
+      "title": "Cesc Fàbregas calls suggestions he could replace Michael Carrick at Man United disrespectful",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-10-20T16:36:35.000Z",
+      "excerpt": "Cesc Fabregas has dismissed suggestions he could be in line to replace Michael Carrick as disrespectful.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50228936/cesc-fabregas-calls-suggestions-replace-michael-carrick-man-united-disrespectful",
+      "image": "https://a.espncdn.com/photo/2026/0424/r1648504_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Animal rights group PETA call for Crystal Palace to retire bald eagle mascot",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-20T16:31:52.000Z",
+      "excerpt": "Animal rights group PETA has urged Crystal Palace to retire the club's bald eagle mascot, Phoenix, with immediate effect.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50229182/animal-rights-group-peta-call-crystal-palace-retire-bald-eagle-mascot",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733441_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Champions League live updates: Dortmund in action as early matches kick off",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-10-20T16:25:24.000Z",
+      "excerpt": "Follow live updates, scores and highlights from Tuesday's UEFA Champions League action, featuring PSG vs. Barcelona, Liverpool vs. Villarrea",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50191262/champions-league-live-updates-liverpool-manchester-city-paris-saint-germain-barcelona",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1731308_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "PSG unveil jersey for Steelers vs. Saints NFL game in Paris",
+      "league": "Ligue 1",
+      "time": "3h ago",
+      "published": "2026-10-20T13:23:32.000Z",
+      "excerpt": "If you've ever wondered what reigning Champions League holders PSG might look like should they suddenly relaunch as an NFL franchise, this i",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50225836/the-best-soccer-nfl-crossover-jerseys-psg-kit-pittsburgh-steelers-new-orleans-saints-paris-game",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733308_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Premier League clubs eye Alexander-Arnold amid Real Madrid uncertainty",
+      "league": "La Liga",
+      "time": "5h ago",
       "published": "2026-10-20T11:01:13.000Z",
       "excerpt": "Real Madrid defender Trent Alexander-Arnold is considering his future at the Bernabéu, with Liverpool, Chelsea, Arsenal and Man City monitor",
       "source": "ESPN",
@@ -13,47 +57,14 @@
       "category": "football"
     },
     {
-      "title": "Enzo Maresca: Marc Guéhi is a future Manchester City captain",
-      "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-10-20T10:50:57.000Z",
-      "excerpt": "Enzo Maresca has lauded centre-back Marc Guéhi's leadership qualities and said he sees them as a future captain of Manchester City.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50226678/marc-guehi-future-manchester-city-captain",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731101_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "A global experiment: Can ESPN predict the Ballon d'Or awards?",
-      "league": "Premier League",
-      "time": "0h ago",
+      "league": "La Liga",
+      "time": "6h ago",
       "published": "2026-10-20T10:21:15.000Z",
       "excerpt": "The Ballon d'Or awards are typically tough to predict, but can ESPN and our global resources do just that?",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50166049/a-global-experiment-espn-predict-ballon-dor",
       "image": "https://a.espncdn.com/photo/2026/1009/261020_soc_ballon-dor_mixed_16x9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "PSG unveil jersey for Steelers vs. Saints NFL game in Paris",
-      "league": "Serie A",
-      "time": "1h ago",
-      "published": "2026-10-20T09:55:34.000Z",
-      "excerpt": "If you've ever wondered what reigning Champions League holders PSG might look like should they suddenly relaunched as an NFL franchise, this",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50225836/the-best-soccer-nfl-crossover-jerseys-psg-kit-pittsburgh-steelers-new-orleans-saints-paris-game",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733308_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Champions League Power Rankings before MD3: Who's No. 1?",
-      "league": "Champions League",
-      "time": "17h ago",
-      "published": "2026-10-19T18:17:43.000Z",
-      "excerpt": "It's time for the UEFA Champions League! It has been about six weeks since our last check-in, but our panel of experts and voters will rank ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50211589/champions-league-power-rankings-md3-no-1-psg-arsenal-barcelona-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/1019/r1732924_1296x729_16-9.jpg",
       "category": "football"
     },
     {
