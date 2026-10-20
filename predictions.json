@@ -1,10 +1,10 @@
 {
   "date": "2026-10-20",
-  "lastUpdate": "2026-10-19T23:31:01.394Z",
-  "predictionGenerated": "2026-10-19T23:31:01.394Z",
-  "dataTimestamp": "2026-10-19T23:30:58.865Z",
+  "lastUpdate": "2026-10-20T04:31:58.545Z",
+  "predictionGenerated": "2026-10-20T04:31:58.545Z",
+  "dataTimestamp": "2026-10-20T04:31:55.900Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:33+tomorrow:1+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:40+tomorrow:1+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "en.2:2026-10-20:Wolverhampton Wanderers FC:Portsmouth FC",
@@ -13,7 +13,7 @@
       "date": "2026-10-20",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "15h to kickoff",
+      "countdown": "10h to kickoff",
       "home": "Wolverhampton Wanderers",
       "away": "Portsmouth",
       "league": "Championship",
@@ -86,7 +86,7 @@
       "date": "2026-10-21",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "39h to kickoff",
+      "countdown": "34h to kickoff",
       "home": "Levante UD",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -159,7 +159,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -232,7 +232,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -305,7 +305,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "Torino",
       "away": "AC Monza",
       "league": "Serie A",
@@ -378,7 +378,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "Stade Brestois 29",
       "away": "OGC Nice",
       "league": "Ligue 1",
@@ -451,7 +451,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "Go Ahead Eagles",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -524,7 +524,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "Vitória Guimarães",
       "away": "CS Marítimo",
       "league": "Primeira Liga",
@@ -597,7 +597,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "87h to kickoff",
+      "countdown": "82h to kickoff",
       "home": "Bolton Wanderers",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -670,7 +670,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -743,7 +743,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "Coventry City",
       "away": "Fulham",
       "league": "Premier League",
@@ -816,7 +816,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "Arsenal",
       "away": "Everton",
       "league": "Premier League",
@@ -889,7 +889,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "Aston Villa",
       "away": "Manchester City",
       "league": "Premier League",
@@ -962,7 +962,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "RB Leipzig",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "1. FC Köln",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "SV Werder Bremen",
       "league": "Bundesliga",
@@ -1400,7 +1400,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "SS Lazio",
       "away": "Parma Calcio 1913",
       "league": "Serie A",
@@ -1473,7 +1473,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
+      "countdown": "106h to kickoff",
       "home": "SSC Napoli",
       "away": "AS Roma",
       "league": "Serie A",
@@ -1536,225 +1536,6 @@
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "SSC Napoli vs AS Roma: Dixon-Coles P(H)21% D29% A50% • xG 0.64-1.17 • most likely score 0-1 (20%) • Away Win confidence 50% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "it.1:2026-10-24:Como 1907:US Sassuolo Calcio",
-      "slug": "como-1907-vs-us-sassuolo-calcio-prediction",
-      "utcDate": "2026-10-24T15:00:00Z",
-      "date": "2026-10-24",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
-      "home": "Como 1907",
-      "away": "US Sassuolo Calcio",
-      "league": "Serie A",
-      "code": "SA",
-      "flag": "🇮🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Como 1907 vs US Sassuolo Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "it.1:2026-10-24:Cagliari Calcio:Bologna FC 1909",
-      "slug": "cagliari-calcio-vs-bologna-fc-1909-prediction",
-      "utcDate": "2026-10-24T15:00:00Z",
-      "date": "2026-10-24",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
-      "home": "Cagliari Calcio",
-      "away": "Bologna FC 1909",
-      "league": "Serie A",
-      "code": "SA",
-      "flag": "🇮🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Cagliari Calcio vs Bologna FC 1909: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-10-24:Racing Club de Lens:Paris FC",
-      "slug": "racing-club-de-lens-vs-paris-prediction",
-      "utcDate": "2026-10-24T15:00:00Z",
-      "date": "2026-10-24",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "111h to kickoff",
-      "home": "Racing Club de Lens",
-      "away": "Paris",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 92,
-      "odds": "1.04",
-      "value": "+21%",
-      "probs": {
-        "home": 92,
-        "draw": 6,
-        "away": 2
-      },
-      "xg": {
-        "home": "3.62",
-        "away": "0.46",
-        "total": "4.08"
-      },
-      "doubleChance": {
-        "12": 94,
-        "1X": 97,
-        "X2": 8
-      },
-      "overUnder": {
-        "over2_5": 76,
-        "under2_5": 24,
-        "oddsOver": "1.25",
-        "oddsUnder": "3.96"
-      },
-      "btts": {
-        "yes": 36,
-        "no": 64
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 14
-        },
-        {
-          "score": "4-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 12
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Racing Club de Lens vs Paris: Dixon-Coles P(H)92% D6% A2% • xG 3.62-0.46 • most likely score 3-0 (14%) • Home Win confidence 92% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -2363,20 +2144,20 @@
   ],
   "news": [
     {
-      "title": "Nicol: James Maddison will be key for Tottenham this season",
+      "title": "Maddison scores in 'dream' return as Spurs get 1st EPL win of season",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-19T22:53:02.000Z",
-      "excerpt": "Nicol: James Maddison will be key for Tottenham this season",
+      "time": "4h ago",
+      "published": "2026-10-19T23:32:14.000Z",
+      "excerpt": "An emotional James Maddison said it was like a \"dream\" to produce a goal and help Tottenham climb off the bottom of the Premier League with ",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50221598/james-maddison-key-tottenham-season",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1019/dm_261019_Nicol_James_Maddison_will_be_key_for_Tottenham_this_season/dm_261019_Nicol_James_Maddison_will_be_key_for_Tottenham_this_season.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50222119/maddison-scores-return-spurs-1st-epl-win",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1733159_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Nicol: Manchester United's recruitment has to change",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "5h ago",
       "published": "2026-10-19T22:52:50.000Z",
       "excerpt": "Nicol: Manchester United's recruitment has to change",
       "source": "ESPN",
@@ -2387,7 +2168,7 @@
     {
       "title": "Rae: Lamine Yamal is bringing joy back to football",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "5h ago",
       "published": "2026-10-19T22:52:46.000Z",
       "excerpt": "Rae: Lamine Yamal is bringing joy back to football",
       "source": "ESPN",
@@ -2398,7 +2179,7 @@
     {
       "title": "Getafe vs. Rayo Vallecano - Game Highlights",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "7h ago",
       "published": "2026-10-19T21:05:07.000Z",
       "excerpt": "Watch the Game Highlights from Getafe vs. Rayo Vallecano, 10/19/2026",
       "source": "ESPN",
