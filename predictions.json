@@ -1,84 +1,11 @@
 {
   "date": "2026-10-21",
-  "lastUpdate": "2026-10-21T00:30:01.997Z",
-  "predictionGenerated": "2026-10-21T00:30:01.997Z",
-  "dataTimestamp": "2026-10-21T00:29:59.581Z",
+  "lastUpdate": "2026-10-21T07:25:14.378Z",
+  "predictionGenerated": "2026-10-21T07:25:14.378Z",
+  "dataTimestamp": "2026-10-21T07:25:11.972Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:44+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:42+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "y39mp1h6nzlzmoj",
-      "slug": "millonarios-vs-deportiva-once-caldas-prediction",
-      "utcDate": "2026-10-21T01:30:00+00:00",
-      "date": "2026-10-21",
-      "time": "01:30",
-      "precise": "01:30 UTC • 03:30 CET",
-      "countdown": "0h to kickoff",
-      "home": "Millonarios",
-      "away": "Deportiva Once Caldas",
-      "league": "Categoría Primera A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Millonarios vs Deportiva Once Caldas: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "es.1:2026-10-21:Levante UD:Athletic Club",
       "slug": "levante-ud-vs-athletic-club-prediction",
@@ -86,7 +13,7 @@
       "date": "2026-10-21",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Levante UD",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -159,7 +86,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -232,7 +159,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -305,7 +232,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "Torino",
       "away": "AC Monza",
       "league": "Serie A",
@@ -378,7 +305,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "Stade Brestois 29",
       "away": "OGC Nice",
       "league": "Ligue 1",
@@ -451,7 +378,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "Go Ahead Eagles",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -524,7 +451,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "Vitória Guimarães",
       "away": "CS Marítimo",
       "league": "Primeira Liga",
@@ -597,7 +524,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "62h to kickoff",
+      "countdown": "55h to kickoff",
       "home": "Bolton Wanderers",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -670,7 +597,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -743,7 +670,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "Coventry City",
       "away": "Fulham",
       "league": "Premier League",
@@ -816,7 +743,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "Arsenal",
       "away": "Everton",
       "league": "Premier League",
@@ -889,7 +816,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "Aston Villa",
       "away": "Manchester City",
       "league": "Premier League",
@@ -962,7 +889,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1035,7 +962,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -1108,7 +1035,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1181,7 +1108,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "RB Leipzig",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -1254,7 +1181,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "86h to kickoff",
+      "countdown": "79h to kickoff",
       "home": "1. FC Köln",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1316,6 +1243,152 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "1. FC Köln vs FC Schalke 04: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-10-24:1. FSV Mainz 05:SV Werder Bremen",
+      "slug": "1-fsv-mainz-05-vs-sv-werder-bremen-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "79h to kickoff",
+      "home": "1. FSV Mainz 05",
+      "away": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 63,
+      "odds": "1.52",
+      "value": "+6%",
+      "probs": {
+        "home": 63,
+        "draw": 20,
+        "away": 17
+      },
+      "xg": {
+        "home": "1.92",
+        "away": "0.87",
+        "total": "2.79"
+      },
+      "doubleChance": {
+        "12": 80,
+        "1X": 83,
+        "X2": 37
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "1. FSV Mainz 05 vs SV Werder Bremen: Dixon-Coles P(H)63% D20% A17% • xG 1.92-0.87 • most likely score 1-0 (13%) • Home Win confidence 63% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:SS Lazio:Parma Calcio 1913",
+      "slug": "ss-lazio-vs-parma-calcio-1913-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "79h to kickoff",
+      "home": "SS Lazio",
+      "away": "Parma Calcio 1913",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 95,
+      "odds": "1.01",
+      "value": "+22%",
+      "probs": {
+        "home": 95,
+        "draw": 4,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.40",
+        "total": "4.60"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 5
+      },
+      "overUnder": {
+        "over2_5": 81,
+        "under2_5": 19,
+        "oddsOver": "1.17",
+        "oddsUnder": "5.00"
+      },
+      "btts": {
+        "yes": 32,
+        "no": 68
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 15
+        },
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SS Lazio vs Parma Calcio 1913: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.40 • most likely score 4-0 (15%) • Home Win confidence 95% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1925,9 +1998,20 @@
   ],
   "news": [
     {
-      "title": "Football watchdog chair asserts 'absolute' power to force City sale",
+      "title": "Alexis Mac Allister: 'Something wasn't right' under Arne Slot at Liverpool",
       "league": "Premier League",
       "time": "0h ago",
+      "published": "2026-10-21T06:55:45.000Z",
+      "excerpt": "Alexis Mac Allister has said that Andoni Iraola fixed the issues within the Liverpool group left behind by his predecessor Arne Slot.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50235298/alexis-mac-allister-wasnt-right-arne-slot-liverpool",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733822_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Football watchdog chair asserts 'absolute' power to force City sale",
+      "league": "Premier League",
+      "time": "7h ago",
       "published": "2026-10-20T23:53:19.000Z",
       "excerpt": "The Independent Football Regulator will have \"absolute power\" to force Manchester City's owners to sell if they are ultimately found to have",
       "source": "ESPN",
@@ -1938,7 +2022,7 @@
     {
       "title": "Sources: Barcelona report PSG to UEFA for 'aggressive' tifo",
       "league": "Champions League",
-      "time": "1h ago",
+      "time": "7h ago",
       "published": "2026-10-20T23:28:48.000Z",
       "excerpt": "Barcelona have reported Paris Saint-Germain to UEFA for the tifo unfurled by the French club's supporters before Tuesday's Champions League ",
       "source": "ESPN",
@@ -1949,23 +2033,12 @@
     {
       "title": "Tired Barcelona undone by 'too many mistakes' as perfect start ends at PSG",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "8h ago",
       "published": "2026-10-20T23:05:01.000Z",
       "excerpt": "Barcelona coach Hansi Flick says his tired Barcelona side made too many mistakes as their perfect start to the season ended with a 4-2 defea",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50232684/barcelona-psg-champions-league-hansi-flick-perfect-start",
       "image": "https://a.espncdn.com/photo/2026/1020/r1733682_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Klinsmann: Ten Hag should have kept Ronaldo comments to himself",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-20T22:53:44.000Z",
-      "excerpt": "Klinsmann: Ten Hag should have kept Ronaldo comments to himself",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50232810/ten-hag-kept-ronaldo-comments-himself",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1020/dm_261020_COM_SOC_Analysis_Klinsmann_Ten_Hag_should_have_kept_Ronaldo_comments_to_himself_20261020_GLOBAL/dm_261020_COM_SOC_Analysis_Klinsmann_Ten_Hag_should_have_kept_Ronaldo_comments_to_himself_20261020_GLOBAL.jpg",
       "category": "football"
     }
   ],
