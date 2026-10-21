@@ -5,16 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 21 Oct 2026 13:40:13 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 18:32:03 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Levante UD vs Athletic Club — Away Win @ 1.63</title>
-    <link>https://xwhiz.com/predictions/levante-ud-vs-athletic-club-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/levante-ud-vs-athletic-club-prediction.html</guid>
-    <pubDate>Wed, 21 Oct 2026 15:00:00 GMT</pubDate>
-    <description>La Liga — 58% confidence. Away Win at 1.63. Match kickoff: Wed, 21 Oct 2026 15:00:00 GMT.</description>
-    <category>La Liga</category>
-  </item>
   <item>
     <title>Ipswich Town vs Nottingham Forest — Home Win @ 2.06</title>
     <link>https://xwhiz.com/predictions/ipswich-town-vs-nottingham-forest-prediction.html</link>
@@ -198,6 +190,14 @@
     <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
     <description>Ligue 1 — 89% confidence. Home Win at 1.07. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
     <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>ADO Den Haag vs SC Heerenveen — Home Win @ 2.49</title>
+    <link>https://xwhiz.com/predictions/ado-den-haag-vs-sc-heerenveen-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ado-den-haag-vs-sc-heerenveen-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 38% confidence. Home Win at 2.49. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
   </item>
 </channel>
 </rss>
