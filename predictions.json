@@ -1,10 +1,10 @@
 {
   "date": "2026-10-21",
-  "lastUpdate": "2026-10-21T07:25:14.378Z",
-  "predictionGenerated": "2026-10-21T07:25:14.378Z",
-  "dataTimestamp": "2026-10-21T07:25:11.972Z",
+  "lastUpdate": "2026-10-21T13:40:13.298Z",
+  "predictionGenerated": "2026-10-21T13:40:13.298Z",
+  "dataTimestamp": "2026-10-21T13:40:10.740Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:42+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:36+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "es.1:2026-10-21:Levante UD:Athletic Club",
@@ -13,7 +13,7 @@
       "date": "2026-10-21",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "7h to kickoff",
+      "countdown": "1h to kickoff",
       "home": "Levante UD",
       "away": "Athletic Club",
       "league": "La Liga",
@@ -86,7 +86,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -159,7 +159,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -232,7 +232,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "Torino",
       "away": "AC Monza",
       "league": "Serie A",
@@ -305,7 +305,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "Stade Brestois 29",
       "away": "OGC Nice",
       "league": "Ligue 1",
@@ -378,7 +378,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "Go Ahead Eagles",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -451,7 +451,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "Vitória Guimarães",
       "away": "CS Marítimo",
       "league": "Primeira Liga",
@@ -524,7 +524,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "55h to kickoff",
+      "countdown": "49h to kickoff",
       "home": "Bolton Wanderers",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -597,7 +597,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -670,7 +670,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "Coventry City",
       "away": "Fulham",
       "league": "Premier League",
@@ -743,7 +743,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "Arsenal",
       "away": "Everton",
       "league": "Premier League",
@@ -816,7 +816,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "Aston Villa",
       "away": "Manchester City",
       "league": "Premier League",
@@ -889,7 +889,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -962,7 +962,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "RB Leipzig",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "1. FC Köln",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "SV Werder Bremen",
       "league": "Bundesliga",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "79h to kickoff",
+      "countdown": "73h to kickoff",
       "home": "SS Lazio",
       "away": "Parma Calcio 1913",
       "league": "Serie A",
@@ -1389,6 +1389,371 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "SS Lazio vs Parma Calcio 1913: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.40 • most likely score 4-0 (15%) • Home Win confidence 95% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:SSC Napoli:AS Roma",
+      "slug": "ssc-napoli-vs-as-roma-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "73h to kickoff",
+      "home": "SSC Napoli",
+      "away": "AS Roma",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 50,
+      "odds": "1.92",
+      "value": "+0%",
+      "probs": {
+        "home": 21,
+        "draw": 29,
+        "away": 50
+      },
+      "xg": {
+        "home": "0.64",
+        "away": "1.17",
+        "total": "1.81"
+      },
+      "doubleChance": {
+        "12": 71,
+        "1X": 50,
+        "X2": 79
+      },
+      "overUnder": {
+        "over2_5": 27,
+        "under2_5": 73,
+        "oddsOver": "3.52",
+        "oddsUnder": "1.30"
+      },
+      "btts": {
+        "yes": 32,
+        "no": 68
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 20
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 20
+        },
+        {
+          "score": "0-0",
+          "prob": 15
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Away +0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SSC Napoli vs AS Roma: Dixon-Coles P(H)21% D29% A50% • xG 0.64-1.17 • most likely score 0-1 (20%) • Away Win confidence 50% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:Como 1907:US Sassuolo Calcio",
+      "slug": "como-1907-vs-us-sassuolo-calcio-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "73h to kickoff",
+      "home": "Como 1907",
+      "away": "US Sassuolo Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Como 1907 vs US Sassuolo Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:Cagliari Calcio:Bologna FC 1909",
+      "slug": "cagliari-calcio-vs-bologna-fc-1909-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "73h to kickoff",
+      "home": "Cagliari Calcio",
+      "away": "Bologna FC 1909",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Cagliari Calcio vs Bologna FC 1909: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-24:Racing Club de Lens:Paris FC",
+      "slug": "racing-club-de-lens-vs-paris-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "73h to kickoff",
+      "home": "Racing Club de Lens",
+      "away": "Paris",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 92,
+      "odds": "1.04",
+      "value": "+21%",
+      "probs": {
+        "home": 92,
+        "draw": 6,
+        "away": 2
+      },
+      "xg": {
+        "home": "3.62",
+        "away": "0.46",
+        "total": "4.08"
+      },
+      "doubleChance": {
+        "12": 94,
+        "1X": 97,
+        "X2": 8
+      },
+      "overUnder": {
+        "over2_5": 76,
+        "under2_5": 24,
+        "oddsOver": "1.25",
+        "oddsUnder": "3.96"
+      },
+      "btts": {
+        "yes": 36,
+        "no": 64
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "4-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Racing Club de Lens vs Paris: Dixon-Coles P(H)92% D6% A2% • xG 3.62-0.46 • most likely score 3-0 (14%) • Home Win confidence 92% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-24:Toulouse FC:ES Troyes AC",
+      "slug": "toulouse-vs-es-troyes-ac-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "73h to kickoff",
+      "home": "Toulouse",
+      "away": "ES Troyes AC",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 89,
+      "odds": "1.07",
+      "value": "+19%",
+      "probs": {
+        "home": 89,
+        "draw": 8,
+        "away": 4
+      },
+      "xg": {
+        "home": "3.27",
+        "away": "0.51",
+        "total": "3.78"
+      },
+      "doubleChance": {
+        "12": 92,
+        "1X": 96,
+        "X2": 11
+      },
+      "overUnder": {
+        "over2_5": 71,
+        "under2_5": 29,
+        "oddsOver": "1.34",
+        "oddsUnder": "3.28"
+      },
+      "btts": {
+        "yes": 38,
+        "no": 62
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "4-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Toulouse vs ES Troyes AC: Dixon-Coles P(H)89% D8% A4% • xG 3.27-0.51 • most likely score 3-0 (14%) • Home Win confidence 89% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1998,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Alexis Mac Allister: 'Something wasn't right' under Arne Slot at Liverpool",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-21T06:55:45.000Z",
-      "excerpt": "Alexis Mac Allister has said that Andoni Iraola fixed the issues within the Liverpool group left behind by his predecessor Arne Slot.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50235298/alexis-mac-allister-wasnt-right-arne-slot-liverpool",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733822_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Football watchdog chair asserts 'absolute' power to force City sale",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-10-20T23:53:19.000Z",
-      "excerpt": "The Independent Football Regulator will have \"absolute power\" to force Manchester City's owners to sell if they are ultimately found to have",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50232973/football-watchdog-chair-power-force-city-sale",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726836_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Sources: Barcelona report PSG to UEFA for 'aggressive' tifo",
+      "title": "Raphinha: Barcelona defeat to PSG won't impact Clásico",
       "league": "Champions League",
-      "time": "7h ago",
-      "published": "2026-10-20T23:28:48.000Z",
-      "excerpt": "Barcelona have reported Paris Saint-Germain to UEFA for the tifo unfurled by the French club's supporters before Tuesday's Champions League ",
+      "time": "1h ago",
+      "published": "2026-10-21T12:26:53.000Z",
+      "excerpt": "Barcelona captain Raphinha doesn't expect the 4-2 defeat at Paris Saint-Germain that ended an 11-game winning run to affect their preparatio",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50232689/source-barcelona-report-psg-halloween-tifo",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733680_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50236725/raphinha-barcelona-psg-champions-league-winning-streak-ended",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733867_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Tired Barcelona undone by 'too many mistakes' as perfect start ends at PSG",
-      "league": "La Liga",
-      "time": "8h ago",
-      "published": "2026-10-20T23:05:01.000Z",
-      "excerpt": "Barcelona coach Hansi Flick says his tired Barcelona side made too many mistakes as their perfect start to the season ended with a 4-2 defea",
+      "title": "VAR who incorrectly awarded Erling Haaland goal reinstated to Premier League",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-21T12:19:09.000Z",
+      "excerpt": "The VAR who incorrectly awarded Erling Haaland's Manchester derby goal last month has been reinstated to Premier League duty.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50232684/barcelona-psg-champions-league-hansi-flick-perfect-start",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733682_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50236831/var-incorrectly-awarded-erling-haaland-goal-reinstated-premier-league",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730638_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Flick: Rodri is rested for El Clasico",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-10-21T12:02:32.000Z",
+      "excerpt": "Flick: Rodri is rested for El Clasico",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50236704/rodri-rested-el-clasico",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/dm_261021_Flick_Rodri_is_rested_for_El_Clasico/dm_261021_Flick_Rodri_is_rested_for_El_Clasico.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Fabregas: There is no crisis at Manchester United",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-10-21T12:01:41.000Z",
+      "excerpt": "Fabregas: There is no crisis at Manchester United",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50236703/there-no-crisis-manchester-united",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/dm_261021_Fabregas_There_is_no_crisis_at_Manchester_United/dm_261021_Fabregas_There_is_no_crisis_at_Manchester_United.jpg",
       "category": "football"
     }
   ],

@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 21 Oct 2026 07:25:15 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 13:40:13 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Levante UD vs Athletic Club — Away Win @ 1.63</title>
@@ -158,6 +158,46 @@
     <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
     <description>Serie A — 95% confidence. Home Win at 1.01. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
+  </item>
+  <item>
+    <title>SSC Napoli vs AS Roma — Away Win @ 1.92</title>
+    <link>https://xwhiz.com/predictions/ssc-napoli-vs-as-roma-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ssc-napoli-vs-as-roma-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 50% confidence. Away Win at 1.92. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Como 1907 vs US Sassuolo Calcio — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/como-1907-vs-us-sassuolo-calcio-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/como-1907-vs-us-sassuolo-calcio-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Cagliari Calcio vs Bologna FC 1909 — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/cagliari-calcio-vs-bologna-fc-1909-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/cagliari-calcio-vs-bologna-fc-1909-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Racing Club de Lens vs Paris — Home Win @ 1.04</title>
+    <link>https://xwhiz.com/predictions/racing-club-de-lens-vs-paris-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/racing-club-de-lens-vs-paris-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 92% confidence. Home Win at 1.04. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Toulouse vs ES Troyes AC — Home Win @ 1.07</title>
+    <link>https://xwhiz.com/predictions/toulouse-vs-es-troyes-ac-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/toulouse-vs-es-troyes-ac-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 89% confidence. Home Win at 1.07. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
   </item>
 </channel>
 </rss>
