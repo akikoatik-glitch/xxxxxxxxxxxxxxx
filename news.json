@@ -1,21 +1,65 @@
 {
-  "lastUpdate": "2026-10-22T11:36:10.422Z",
+  "lastUpdate": "2026-10-22T17:01:20.789Z",
   "news": [
     {
-      "title": "Cesc Fàbregas: I told Como players to 'slow down' in closing stages of Man United win",
-      "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-10-22T11:25:59.000Z",
-      "excerpt": "Como head coach Cesc Fàbregas said he regrets telling his players to ease off towards the end of their famous 4-1 win against misfiring Manc",
+      "title": "Michael Carrick set to lead Man United vs. Bournemouth amid pressure - sources",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-22T15:57:29.000Z",
+      "excerpt": "Michael Carrick is set to be in charge of Manchester United against Bournemouth this weekend, sources have told ESPN, as he battles to keep ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50247630/cesc-fabregas-como-slow-man-united",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734457_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50246991/michael-carrick-man-united-future-bournemouth",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734430_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Soccer's main characters after UCL Matchday 3: Kane, Van Dijk, El Clasico",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-10-22T15:20:52.000Z",
+      "excerpt": "Champions League Matchday 3 has come and gone, and we have some Main Character energy coming from Harry Kane, Barcelona and Real Madrid ahea",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50247677/champions-league-main-characters-harry-kane-virgil-van-dijk-barcelona-real-madrid",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734501_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Man United consider defensive clearout in summer",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-22T15:05:24.000Z",
+      "excerpt": "Manchester United are considering refreshing their back four, with three senior defender's contracts up at the end of the season. Transfer T",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50245989/transfer-rumors-news-man-united-consider-defensive-clearout-summer",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734411_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mourinho made Real Madrid-Barcelona Clásico rivalry unmissable. Now, he's back for more",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-22T14:12:50.000Z",
+      "excerpt": "Thirteen years after helping turn soccer's biggest rivalry into must-see chaos, Real Madrid coach José Mourinho returns to face Barcelona in",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50245408/jose-mourinho-el-clasico-unmissable-real-madrid-barcelona-guardiola-messi-ronaldo",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734418_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Fabregas told Como 'not to run' against Manchester United",
+      "league": "Champions League",
+      "time": "3h ago",
+      "published": "2026-10-22T13:55:57.000Z",
+      "excerpt": "Fabregas told Como 'not to run' against Manchester United",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50248787/fabregas-told-como-not-run-manchester-united",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Fabregas_told_Como_not_to_run_against_Manchester_United/dm_261022_Fabregas_told_Como_not_to_run_against_Manchester_United.jpg",
       "category": "football"
     },
     {
       "title": "José Mourinho complains Real Madrid have 24 hours less rest than Barcelona ahead of El Clásico",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "6h ago",
       "published": "2026-10-22T10:31:36.000Z",
       "excerpt": "Real Madrid coach José Mourinho was keen to point out after his side's win over Leipzig that his team will have 24 hours less rest than Sund",
       "source": "ESPN",
@@ -24,42 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Who is to blame at Manchester United?",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-22T10:28:31.000Z",
-      "excerpt": "Who is to blame at Manchester United?",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50247189/who-blame-manchester-united",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Who_is_to_blame_at_Manchester_United/dm_261022_Who_is_to_blame_at_Manchester_United.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Man United players get Thursday day off despite Como thrashing - sources",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-22T10:20:36.000Z",
-      "excerpt": "Manchester United's first-team squad will report back for training on Friday after being given a day off today following the humiliating 4-1",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50247083/man-united-players-day-como-thrashing",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734431_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Mourinho made Real Madrid-Barcelona Clásico rivalry unmissable. Now, he's back for more",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-10-22T09:29:50.000Z",
-      "excerpt": "Thirteen years after helping turn soccer's biggest rivalry into must-see chaos, Real Madrid coach José Mourinho returns to face Barcelona in",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50245408/jose-mourinho-el-clasico-unmissable-real-madrid-barcelona-guardiola-messi-ronaldo",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734418_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Who are Como? The vacation-destination club that just rocked Man United",
       "league": "Serie A",
-      "time": "3h ago",
+      "time": "9h ago",
       "published": "2026-10-22T07:47:14.000Z",
       "excerpt": "Seven years ago, Como were a team of amateurs. Now they're a Champions League club with a brand born from the city's reputation as a holiday",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "PSG star Khvicha Kvaratskhelia ruptures ACL; Dembélé, Marquinhos out 'weeks'",
       "league": "Ligue 1",
-      "time": "19h ago",
+      "time": "21/10/2026",
       "published": "2026-10-21T16:31:48.000Z",
       "excerpt": "Khvicha Kvaratskhelia ruptured his anterior cruciate ligament injury during Paris Saint-Germain's Champions League victory against Barcelona",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "What it takes to win a Ballon d'Or: Trophies, goals and playing the PR game",
       "league": "Bundesliga",
-      "time": "21h ago",
+      "time": "21/10/2026",
       "published": "2026-10-21T14:07:53.000Z",
       "excerpt": "It's no longer enough to be the best on-field player in order to have a shot at the Ballon d'Or, soccer's top individual prize. You have to ",
       "source": "ESPN",
@@ -92,7 +103,7 @@
     {
       "title": "AC Milan back fan boycott over 'excessive' away ticket prices",
       "league": "Serie A",
-      "time": "21h ago",
+      "time": "21/10/2026",
       "published": "2026-10-21T13:44:11.000Z",
       "excerpt": "- AC Milan came out firmly in support of its fans protesting against excessive away ticket prices, threatening to retaliate against clubs it",
       "source": "ESPN",
