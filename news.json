@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-10-22T21:26:30.446Z",
+  "lastUpdate": "2026-10-23T00:30:47.413Z",
   "news": [
+    {
+      "title": "Before 'the special one', José Mourinho was 'the Barca one'",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-22T22:17:50.000Z",
+      "excerpt": "Before 'the special one', José Mourinho was 'the Barca one'",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50252737/before-special-one-jose-mourinho-was-barca-one",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_When_the_special_one_was_the_Barca_one/dm_261022_When_the_special_one_was_the_Barca_one.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Should Real Madrid frustrate Barcelona with fouls in El Clásico?",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-22T21:48:39.000Z",
+      "excerpt": "Should Real Madrid frustrate Barcelona with fouls in El Clásico?",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50252567/should-real-madrid-frustrate-barcelona-fouls-el-clasico",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Should_Real_Madrid_frustrate_Barcelona_with_fouls_in_El_Clasico/dm_261022_Should_Real_Madrid_frustrate_Barcelona_with_fouls_in_El_Clasico.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Burley: Carrick should take a stand and drop Fernandes",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-22T21:32:25.000Z",
+      "excerpt": "Burley: Carrick should take a stand and drop Fernandes",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50252435/carrick-take-stand-drop-fernandes",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Burley_Carrick_should_take_a_stand_and_drop_Fernandes/dm_261022_Burley_Carrick_should_take_a_stand_and_drop_Fernandes.jpg",
+      "category": "football"
+    },
     {
       "title": "Transfer rumors, news: Arsenal want £55M in any Gyökeres deal",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "4h ago",
       "published": "2026-10-22T20:14:17.000Z",
       "excerpt": "Arsenal has set their valuation for Viktor Gyökeres' transfer fee if the striker does depart in the next year. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -14,8 +47,8 @@
     },
     {
       "title": "Wayne Rooney: Bruno Fernandes, Man United players acting like 'babies'",
-      "league": "Premier League",
-      "time": "1h ago",
+      "league": "Champions League",
+      "time": "4h ago",
       "published": "2026-10-22T19:32:16.000Z",
       "excerpt": "Wayne Rooney has lambasted Manchester United's squad for acting like \"babies\" and urged Bruno Fernandes and Lisandro Martínez to look in the",
       "source": "ESPN",
@@ -26,7 +59,7 @@
     {
       "title": "In-the-dark Kane trying not to 'stress' over Monday's Ballon d'Or reveal",
       "league": "Champions League",
-      "time": "4h ago",
+      "time": "7h ago",
       "published": "2026-10-22T17:24:53.000Z",
       "excerpt": "Bayern striker Harry Kane said he would prefer to know ahead of time whether he has won the Ballon D'Or, adding he is still in the dark over",
       "source": "ESPN",
@@ -35,31 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Mourinho made Real Madrid-Barcelona Clásico rivalry unmissable. Now, he's back for more",
-      "league": "La Liga",
-      "time": "7h ago",
-      "published": "2026-10-22T14:12:50.000Z",
-      "excerpt": "Thirteen years after helping turn soccer's biggest rivalry into must-see chaos, Real Madrid coach José Mourinho returns to face Barcelona in",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50245408/jose-mourinho-el-clasico-unmissable-real-madrid-barcelona-guardiola-messi-ronaldo",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734418_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "José Mourinho complains Real Madrid have 24 hours less rest than Barcelona ahead of El Clásico",
-      "league": "La Liga",
-      "time": "10h ago",
-      "published": "2026-10-22T10:31:36.000Z",
-      "excerpt": "Real Madrid coach José Mourinho was keen to point out after his side's win over Leipzig that his team will have 24 hours less rest than Sund",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50247061/jose-mourinho-real-madrid-barcelona-el-clasico-less-rest",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734427_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Who are Como? The vacation-destination club that just rocked Man United",
       "league": "Serie A",
-      "time": "13h ago",
+      "time": "16h ago",
       "published": "2026-10-22T07:47:14.000Z",
       "excerpt": "Seven years ago, Como were a team of amateurs. Now they're a Champions League club with a brand born from the city's reputation as a holiday",
       "source": "ESPN",

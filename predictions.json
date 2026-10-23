@@ -1,11 +1,157 @@
 {
   "date": "2026-10-23",
-  "lastUpdate": "2026-10-22T21:26:30.477Z",
-  "predictionGenerated": "2026-10-22T21:26:30.477Z",
-  "dataTimestamp": "2026-10-22T21:26:27.807Z",
+  "lastUpdate": "2026-10-23T00:30:47.525Z",
+  "predictionGenerated": "2026-10-23T00:30:47.525Z",
+  "dataTimestamp": "2026-10-23T00:30:45.024Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:45+tomorrow:7+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:38+tomorrow:33+upcoming:30+fixtures:60)",
   "matches": [
+    {
+      "id": "dn1m1ghlz2jxmoe",
+      "slug": "atletico-nacional-medellin-vs-deportivo-pasto-prediction",
+      "utcDate": "2026-10-23T01:00:00+00:00",
+      "date": "2026-10-23",
+      "time": "01:00",
+      "precise": "01:00 UTC • 03:00 CET",
+      "countdown": "0h to kickoff",
+      "home": "Atletico Nacional Medellin",
+      "away": "Deportivo Pasto",
+      "league": "Categoría Primera A",
+      "code": "",
+      "flag": "⚽",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Atletico Nacional Medellin vs Deportivo Pasto: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "zp5rzghg9g5zq82",
+      "slug": "dynamo-kyiv-vs-kudrivka-prediction",
+      "utcDate": "2026-10-23T10:00:00+00:00",
+      "date": "2026-10-23",
+      "time": "10:00",
+      "precise": "10:00 UTC • 12:00 CET",
+      "countdown": "9h to kickoff",
+      "home": "Dynamo Kyiv",
+      "away": "Kudrivka",
+      "league": "Ukrainian Premier League",
+      "code": "",
+      "flag": "⚽",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Dynamo Kyiv vs Kudrivka: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
     {
       "id": "en.1:2026-10-23:Ipswich Town FC:Nottingham Forest FC",
       "slug": "ipswich-town-vs-nottingham-forest-prediction",
@@ -13,7 +159,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -86,7 +232,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -159,7 +305,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Torino",
       "away": "AC Monza",
       "league": "Serie A",
@@ -232,7 +378,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Stade Brestois 29",
       "away": "OGC Nice",
       "league": "Ligue 1",
@@ -305,7 +451,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Go Ahead Eagles",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -378,7 +524,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Vitória Guimarães",
       "away": "CS Marítimo",
       "league": "Primeira Liga",
@@ -451,7 +597,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "17h to kickoff",
+      "countdown": "14h to kickoff",
       "home": "Bolton Wanderers",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -518,232 +664,13 @@
       "locked": false
     },
     {
-      "id": "en.1:2026-10-24:Chelsea FC:Tottenham Hotspur FC",
-      "slug": "chelsea-vs-tottenham-hotspur-prediction",
-      "utcDate": "2026-10-24T15:00:00Z",
-      "date": "2026-10-24",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
-      "home": "Chelsea",
-      "away": "Tottenham Hotspur",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 86,
-      "odds": "1.11",
-      "value": "+18%",
-      "probs": {
-        "home": 86,
-        "draw": 9,
-        "away": 5
-      },
-      "xg": {
-        "home": "3.22",
-        "away": "0.65",
-        "total": "3.87"
-      },
-      "doubleChance": {
-        "12": 91,
-        "1X": 95,
-        "X2": 14
-      },
-      "overUnder": {
-        "over2_5": 73,
-        "under2_5": 27,
-        "oddsOver": "1.30",
-        "oddsUnder": "3.52"
-      },
-      "btts": {
-        "yes": 46,
-        "no": 54
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 12
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "4-0",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Chelsea vs Tottenham Hotspur: Dixon-Coles P(H)86% D9% A5% • xG 3.22-0.65 • most likely score 3-0 (12%) • Home Win confidence 86% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-10-24:Coventry City FC:Fulham FC",
-      "slug": "coventry-city-vs-fulham-prediction",
-      "utcDate": "2026-10-24T15:00:00Z",
-      "date": "2026-10-24",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
-      "home": "Coventry City",
-      "away": "Fulham",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 44,
-      "odds": "2.18",
-      "value": "+0%",
-      "probs": {
-        "home": 28,
-        "draw": 29,
-        "away": 44
-      },
-      "xg": {
-        "home": "0.83",
-        "away": "1.13",
-        "total": "1.96"
-      },
-      "doubleChance": {
-        "12": 71,
-        "1X": 56,
-        "X2": 72
-      },
-      "overUnder": {
-        "over2_5": 31,
-        "under2_5": 69,
-        "oddsOver": "3.06",
-        "oddsUnder": "1.38"
-      },
-      "btts": {
-        "yes": 37,
-        "no": 63
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 17
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 17
-        },
-        {
-          "score": "0-0",
-          "prob": 13
-        },
-        {
-          "score": "1-0",
-          "prob": 13
-        }
-      ],
-      "asianHandicap": "Away +0.25",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Coventry City vs Fulham: Dixon-Coles P(H)28% D29% A44% • xG 0.83-1.13 • most likely score 0-1 (17%) • Away Win confidence 44% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-10-24:Arsenal FC:Everton FC",
-      "slug": "arsenal-vs-everton-prediction",
-      "utcDate": "2026-10-24T15:00:00Z",
-      "date": "2026-10-24",
-      "time": "15:00",
-      "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
-      "home": "Arsenal",
-      "away": "Everton",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 88,
-      "odds": "1.08",
-      "value": "+19%",
-      "probs": {
-        "home": 88,
-        "draw": 9,
-        "away": 3
-      },
-      "xg": {
-        "home": "2.75",
-        "away": "0.30",
-        "total": "3.05"
-      },
-      "doubleChance": {
-        "12": 91,
-        "1X": 97,
-        "X2": 12
-      },
-      "overUnder": {
-        "over2_5": 58,
-        "under2_5": 42,
-        "oddsOver": "1.64",
-        "oddsUnder": "2.26"
-      },
-      "btts": {
-        "yes": 24,
-        "no": 76
-      },
-      "correctScore": {
-        "score": "2-0",
-        "prob": 18
-      },
-      "topScores": [
-        {
-          "score": "2-0",
-          "prob": 18
-        },
-        {
-          "score": "3-0",
-          "prob": 17
-        },
-        {
-          "score": "1-0",
-          "prob": 14
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Arsenal vs Everton: Dixon-Coles P(H)88% D9% A3% • xG 2.75-0.30 • most likely score 2-0 (18%) • Home Win confidence 88% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
       "id": "en.1:2026-10-24:Aston Villa FC:Manchester City FC",
       "slug": "aston-villa-vs-manchester-city-prediction",
       "utcDate": "2026-10-24T15:00:00Z",
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
+      "countdown": "38h to kickoff",
       "home": "Aston Villa",
       "away": "Manchester City",
       "league": "Premier League",
@@ -810,121 +737,267 @@
       "locked": false
     },
     {
-      "id": "de.1:2026-10-24:Borussia Dortmund:Eintracht Frankfurt",
-      "slug": "borussia-dortmund-vs-eintracht-frankfurt-prediction",
+      "id": "en.1:2026-10-24:Arsenal FC:Everton FC",
+      "slug": "arsenal-vs-everton-prediction",
       "utcDate": "2026-10-24T15:00:00Z",
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
-      "home": "Borussia Dortmund",
-      "away": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
+      "countdown": "38h to kickoff",
+      "home": "Arsenal",
+      "away": "Everton",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 70,
-      "odds": "1.35",
-      "value": "+10%",
+      "conf": 88,
+      "odds": "1.08",
+      "value": "+19%",
       "probs": {
-        "home": 70,
-        "draw": 17,
-        "away": 13
+        "home": 88,
+        "draw": 9,
+        "away": 3
       },
       "xg": {
-        "home": "2.19",
-        "away": "0.77",
-        "total": "2.96"
+        "home": "2.75",
+        "away": "0.30",
+        "total": "3.05"
       },
       "doubleChance": {
-        "12": 83,
-        "1X": 87,
-        "X2": 30
+        "12": 91,
+        "1X": 97,
+        "X2": 12
       },
       "overUnder": {
-        "over2_5": 56,
-        "under2_5": 44,
-        "oddsOver": "1.70",
-        "oddsUnder": "2.16"
+        "over2_5": 58,
+        "under2_5": 42,
+        "oddsOver": "1.64",
+        "oddsUnder": "2.26"
       },
       "btts": {
-        "yes": 47,
-        "no": 53
+        "yes": 24,
+        "no": 76
       },
       "correctScore": {
         "score": "2-0",
-        "prob": 13
+        "prob": 18
       },
       "topScores": [
         {
           "score": "2-0",
-          "prob": 13
+          "prob": 18
+        },
+        {
+          "score": "3-0",
+          "prob": 17
         },
         {
           "score": "1-0",
-          "prob": 12
-        },
-        {
-          "score": "2-1",
-          "prob": 10
+          "prob": 14
         }
       ],
-      "asianHandicap": "Home -1.5",
+      "asianHandicap": "Home -2.0",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Borussia Dortmund vs Eintracht Frankfurt: Dixon-Coles P(H)70% D17% A13% • xG 2.19-0.77 • most likely score 2-0 (13%) • Home Win confidence 70% • strengths from real standings",
+      "whyWin": "Arsenal vs Everton: Dixon-Coles P(H)88% D9% A3% • xG 2.75-0.30 • most likely score 2-0 (18%) • Home Win confidence 88% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
     {
-      "id": "de.1:2026-10-24:FC Augsburg:1. FC Union Berlin",
-      "slug": "fc-augsburg-vs-1-fc-union-berlin-prediction",
+      "id": "en.1:2026-10-24:Coventry City FC:Fulham FC",
+      "slug": "coventry-city-vs-fulham-prediction",
       "utcDate": "2026-10-24T15:00:00Z",
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
-      "home": "FC Augsburg",
-      "away": "1. FC Union Berlin",
+      "countdown": "38h to kickoff",
+      "home": "Coventry City",
+      "away": "Fulham",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 44,
+      "odds": "2.18",
+      "value": "+0%",
+      "probs": {
+        "home": 28,
+        "draw": 29,
+        "away": 44
+      },
+      "xg": {
+        "home": "0.83",
+        "away": "1.13",
+        "total": "1.96"
+      },
+      "doubleChance": {
+        "12": 71,
+        "1X": 56,
+        "X2": 72
+      },
+      "overUnder": {
+        "over2_5": 31,
+        "under2_5": 69,
+        "oddsOver": "3.06",
+        "oddsUnder": "1.38"
+      },
+      "btts": {
+        "yes": 37,
+        "no": 63
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 17
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 17
+        },
+        {
+          "score": "0-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Away +0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Coventry City vs Fulham: Dixon-Coles P(H)28% D29% A44% • xG 0.83-1.13 • most likely score 0-1 (17%) • Away Win confidence 44% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-10-24:Chelsea FC:Tottenham Hotspur FC",
+      "slug": "chelsea-vs-tottenham-hotspur-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Chelsea",
+      "away": "Tottenham Hotspur",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 86,
+      "odds": "1.11",
+      "value": "+18%",
+      "probs": {
+        "home": 86,
+        "draw": 9,
+        "away": 5
+      },
+      "xg": {
+        "home": "3.22",
+        "away": "0.65",
+        "total": "3.87"
+      },
+      "doubleChance": {
+        "12": 91,
+        "1X": 95,
+        "X2": 14
+      },
+      "overUnder": {
+        "over2_5": 73,
+        "under2_5": 27,
+        "oddsOver": "1.30",
+        "oddsUnder": "3.52"
+      },
+      "btts": {
+        "yes": 46,
+        "no": 54
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "4-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Chelsea vs Tottenham Hotspur: Dixon-Coles P(H)86% D9% A5% • xG 3.22-0.65 • most likely score 3-0 (12%) • Home Win confidence 86% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-10-24:1. FSV Mainz 05:SV Werder Bremen",
+      "slug": "1-fsv-mainz-05-vs-sv-werder-bremen-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "1. FSV Mainz 05",
+      "away": "SV Werder Bremen",
       "league": "Bundesliga",
       "code": "BL1",
       "flag": "🇩🇪",
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 55,
-      "odds": "1.72",
-      "value": "+3%",
+      "conf": 63,
+      "odds": "1.52",
+      "value": "+6%",
       "probs": {
-        "home": 55,
-        "draw": 22,
-        "away": 22
+        "home": 63,
+        "draw": 20,
+        "away": 17
       },
       "xg": {
-        "home": "1.71",
-        "away": "0.98",
-        "total": "2.69"
+        "home": "1.92",
+        "away": "0.87",
+        "total": "2.79"
       },
       "doubleChance": {
-        "12": 78,
-        "1X": 78,
-        "X2": 45
+        "12": 80,
+        "1X": 83,
+        "X2": 37
       },
       "overUnder": {
-        "over2_5": 50,
-        "under2_5": 50,
-        "oddsOver": "1.90",
-        "oddsUnder": "1.90"
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
       },
       "btts": {
-        "yes": 50,
-        "no": 50
+        "yes": 49,
+        "no": 51
       },
       "correctScore": {
         "score": "1-0",
@@ -936,21 +1009,167 @@
           "prob": 13
         },
         {
-          "score": "1-1",
-          "prob": 10
+          "score": "2-0",
+          "prob": 11
         },
         {
-          "score": "2-0",
+          "score": "2-1",
           "prob": 10
         }
       ],
-      "asianHandicap": "Home -0.75",
+      "asianHandicap": "Home -1.0",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "FC Augsburg vs 1. FC Union Berlin: Dixon-Coles P(H)55% D22% A22% • xG 1.71-0.98 • most likely score 1-0 (13%) • Home Win confidence 55% • strengths from real standings",
+      "whyWin": "1. FSV Mainz 05 vs SV Werder Bremen: Dixon-Coles P(H)63% D20% A17% • xG 1.92-0.87 • most likely score 1-0 (13%) • Home Win confidence 63% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-10-24:1. FC Köln:FC Schalke 04",
+      "slug": "1-fc-koeln-vs-fc-schalke-04-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "1. FC Köln",
+      "away": "FC Schalke 04",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "1. FC Köln vs FC Schalke 04: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-10-24:RB Leipzig:SV 07 Elversberg",
+      "slug": "rb-leipzig-vs-sv-07-elversberg-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "RB Leipzig",
+      "away": "SV 07 Elversberg",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 95,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 95,
+        "draw": 4,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.35",
+        "total": "4.55"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 5
+      },
+      "overUnder": {
+        "over2_5": 81,
+        "under2_5": 19,
+        "oddsOver": "1.17",
+        "oddsUnder": "5.00"
+      },
+      "btts": {
+        "yes": 29,
+        "no": 71
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 16
+        },
+        {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "RB Leipzig vs SV 07 Elversberg: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.35 • most likely score 4-0 (16%) • Home Win confidence 95% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -962,7 +1181,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
+      "countdown": "38h to kickoff",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1029,24 +1248,389 @@
       "locked": false
     },
     {
-      "id": "de.1:2026-10-24:RB Leipzig:SV 07 Elversberg",
-      "slug": "rb-leipzig-vs-sv-07-elversberg-prediction",
+      "id": "de.1:2026-10-24:FC Augsburg:1. FC Union Berlin",
+      "slug": "fc-augsburg-vs-1-fc-union-berlin-prediction",
       "utcDate": "2026-10-24T15:00:00Z",
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "41h to kickoff",
-      "home": "RB Leipzig",
-      "away": "SV 07 Elversberg",
+      "countdown": "38h to kickoff",
+      "home": "FC Augsburg",
+      "away": "1. FC Union Berlin",
       "league": "Bundesliga",
       "code": "BL1",
       "flag": "🇩🇪",
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
+      "conf": 55,
+      "odds": "1.72",
+      "value": "+3%",
+      "probs": {
+        "home": 55,
+        "draw": 22,
+        "away": 22
+      },
+      "xg": {
+        "home": "1.71",
+        "away": "0.98",
+        "total": "2.69"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 78,
+        "X2": 45
+      },
+      "overUnder": {
+        "over2_5": 50,
+        "under2_5": 50,
+        "oddsOver": "1.90",
+        "oddsUnder": "1.90"
+      },
+      "btts": {
+        "yes": 50,
+        "no": 50
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        },
+        {
+          "score": "2-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -0.75",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Augsburg vs 1. FC Union Berlin: Dixon-Coles P(H)55% D22% A22% • xG 1.71-0.98 • most likely score 1-0 (13%) • Home Win confidence 55% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-10-24:Borussia Dortmund:Eintracht Frankfurt",
+      "slug": "borussia-dortmund-vs-eintracht-frankfurt-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 70,
+      "odds": "1.35",
+      "value": "+10%",
+      "probs": {
+        "home": 70,
+        "draw": 17,
+        "away": 13
+      },
+      "xg": {
+        "home": "2.19",
+        "away": "0.77",
+        "total": "2.96"
+      },
+      "doubleChance": {
+        "12": 83,
+        "1X": 87,
+        "X2": 30
+      },
+      "overUnder": {
+        "over2_5": 56,
+        "under2_5": 44,
+        "oddsOver": "1.70",
+        "oddsUnder": "2.16"
+      },
+      "btts": {
+        "yes": 47,
+        "no": 53
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.5",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Borussia Dortmund vs Eintracht Frankfurt: Dixon-Coles P(H)70% D17% A13% • xG 2.19-0.77 • most likely score 2-0 (13%) • Home Win confidence 70% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:Cagliari Calcio:Bologna FC 1909",
+      "slug": "cagliari-calcio-vs-bologna-fc-1909-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Cagliari Calcio",
+      "away": "Bologna FC 1909",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Cagliari Calcio vs Bologna FC 1909: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:Como 1907:US Sassuolo Calcio",
+      "slug": "como-1907-vs-us-sassuolo-calcio-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Como 1907",
+      "away": "US Sassuolo Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Como 1907 vs US Sassuolo Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:SSC Napoli:AS Roma",
+      "slug": "ssc-napoli-vs-as-roma-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "SSC Napoli",
+      "away": "AS Roma",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 50,
+      "odds": "1.92",
+      "value": "+0%",
+      "probs": {
+        "home": 21,
+        "draw": 29,
+        "away": 50
+      },
+      "xg": {
+        "home": "0.64",
+        "away": "1.17",
+        "total": "1.81"
+      },
+      "doubleChance": {
+        "12": 71,
+        "1X": 50,
+        "X2": 79
+      },
+      "overUnder": {
+        "over2_5": 27,
+        "under2_5": 73,
+        "oddsOver": "3.52",
+        "oddsUnder": "1.30"
+      },
+      "btts": {
+        "yes": 32,
+        "no": 68
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 20
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 20
+        },
+        {
+          "score": "0-0",
+          "prob": 15
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Away +0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SSC Napoli vs AS Roma: Dixon-Coles P(H)21% D29% A50% • xG 0.64-1.17 • most likely score 0-1 (20%) • Away Win confidence 50% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-10-24:SS Lazio:Parma Calcio 1913",
+      "slug": "ss-lazio-vs-parma-calcio-1913-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "SS Lazio",
+      "away": "Parma Calcio 1913",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
       "conf": 95,
       "odds": "1.01",
-      "value": "+23%",
+      "value": "+22%",
       "probs": {
         "home": 95,
         "draw": 4,
@@ -1054,8 +1638,8 @@
       },
       "xg": {
         "home": "4.20",
-        "away": "0.35",
-        "total": "4.55"
+        "away": "0.40",
+        "total": "4.60"
       },
       "doubleChance": {
         "12": 96,
@@ -1069,21 +1653,21 @@
         "oddsUnder": "5.00"
       },
       "btts": {
-        "yes": 29,
-        "no": 71
+        "yes": 32,
+        "no": 68
       },
       "correctScore": {
         "score": "4-0",
-        "prob": 16
+        "prob": 15
       },
       "topScores": [
         {
           "score": "4-0",
-          "prob": 16
+          "prob": 15
         },
         {
           "score": "3-0",
-          "prob": 15
+          "prob": 14
         },
         {
           "score": "5-0",
@@ -1096,7 +1680,80 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "RB Leipzig vs SV 07 Elversberg: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.35 • most likely score 4-0 (16%) • Home Win confidence 95% • strengths from real standings",
+      "whyWin": "SS Lazio vs Parma Calcio 1913: Dixon-Coles P(H)95% D4% A1% • xG 4.20-0.40 • most likely score 4-0 (15%) • Home Win confidence 95% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-24:Toulouse FC:ES Troyes AC",
+      "slug": "toulouse-vs-es-troyes-ac-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "38h to kickoff",
+      "home": "Toulouse",
+      "away": "ES Troyes AC",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 89,
+      "odds": "1.07",
+      "value": "+19%",
+      "probs": {
+        "home": 89,
+        "draw": 8,
+        "away": 4
+      },
+      "xg": {
+        "home": "3.27",
+        "away": "0.51",
+        "total": "3.78"
+      },
+      "doubleChance": {
+        "12": 92,
+        "1X": 96,
+        "X2": 11
+      },
+      "overUnder": {
+        "over2_5": 71,
+        "under2_5": 29,
+        "oddsOver": "1.34",
+        "oddsUnder": "3.28"
+      },
+      "btts": {
+        "yes": 38,
+        "no": 62
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "4-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Toulouse vs ES Troyes AC: Dixon-Coles P(H)89% D8% A4% • xG 3.27-0.51 • most likely score 3-0 (14%) • Home Win confidence 89% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1706,47 +2363,47 @@
   ],
   "news": [
     {
+      "title": "Before 'the special one', José Mourinho was 'the Barca one'",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-22T22:17:50.000Z",
+      "excerpt": "Before 'the special one', José Mourinho was 'the Barca one'",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50252737/before-special-one-jose-mourinho-was-barca-one",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_When_the_special_one_was_the_Barca_one/dm_261022_When_the_special_one_was_the_Barca_one.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Should Real Madrid frustrate Barcelona with fouls in El Clásico?",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-22T21:48:39.000Z",
+      "excerpt": "Should Real Madrid frustrate Barcelona with fouls in El Clásico?",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50252567/should-real-madrid-frustrate-barcelona-fouls-el-clasico",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Should_Real_Madrid_frustrate_Barcelona_with_fouls_in_El_Clasico/dm_261022_Should_Real_Madrid_frustrate_Barcelona_with_fouls_in_El_Clasico.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Burley: Carrick should take a stand and drop Fernandes",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-22T21:32:25.000Z",
+      "excerpt": "Burley: Carrick should take a stand and drop Fernandes",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50252435/carrick-take-stand-drop-fernandes",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Burley_Carrick_should_take_a_stand_and_drop_Fernandes/dm_261022_Burley_Carrick_should_take_a_stand_and_drop_Fernandes.jpg",
+      "category": "football"
+    },
+    {
       "title": "Transfer rumors, news: Arsenal want £55M in any Gyökeres deal",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "4h ago",
       "published": "2026-10-22T20:14:17.000Z",
       "excerpt": "Arsenal has set their valuation for Viktor Gyökeres' transfer fee if the striker does depart in the next year. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50245989/transfer-rumors-news-man-united-consider-defensive-clearout-summer",
       "image": "https://a.espncdn.com/photo/2026/1022/r1734700_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Wayne Rooney: Bruno Fernandes, Man United players acting like 'babies'",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-10-22T19:32:16.000Z",
-      "excerpt": "Wayne Rooney has lambasted Manchester United's squad for acting like \"babies\" and urged Bruno Fernandes and Lisandro Martínez to look in the",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50251373/wayne-rooney-man-united-players-acting-babies",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1734078_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "In-the-dark Kane trying not to 'stress' over Monday's Ballon d'Or reveal",
-      "league": "Champions League",
-      "time": "4h ago",
-      "published": "2026-10-22T17:24:53.000Z",
-      "excerpt": "Bayern striker Harry Kane said he would prefer to know ahead of time whether he has won the Ballon D'Or, adding he is still in the dark over",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50242239/kane-trying-stress-monday-ballon-dor",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1734228_1024x576_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Mourinho made Real Madrid-Barcelona Clásico rivalry unmissable. Now, he's back for more",
-      "league": "La Liga",
-      "time": "7h ago",
-      "published": "2026-10-22T14:12:50.000Z",
-      "excerpt": "Thirteen years after helping turn soccer's biggest rivalry into must-see chaos, Real Madrid coach José Mourinho returns to face Barcelona in",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50245408/jose-mourinho-el-clasico-unmissable-real-madrid-barcelona-guardiola-messi-ronaldo",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734418_2_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
