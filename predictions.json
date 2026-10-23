@@ -1,157 +1,11 @@
 {
   "date": "2026-10-23",
-  "lastUpdate": "2026-10-23T00:30:47.525Z",
-  "predictionGenerated": "2026-10-23T00:30:47.525Z",
-  "dataTimestamp": "2026-10-23T00:30:45.024Z",
+  "lastUpdate": "2026-10-23T07:19:53.664Z",
+  "predictionGenerated": "2026-10-23T07:19:53.664Z",
+  "dataTimestamp": "2026-10-23T07:19:51.304Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:38+tomorrow:33+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:34+tomorrow:33+upcoming:30+fixtures:60)",
   "matches": [
-    {
-      "id": "dn1m1ghlz2jxmoe",
-      "slug": "atletico-nacional-medellin-vs-deportivo-pasto-prediction",
-      "utcDate": "2026-10-23T01:00:00+00:00",
-      "date": "2026-10-23",
-      "time": "01:00",
-      "precise": "01:00 UTC • 03:00 CET",
-      "countdown": "0h to kickoff",
-      "home": "Atletico Nacional Medellin",
-      "away": "Deportivo Pasto",
-      "league": "Categoría Primera A",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Atletico Nacional Medellin vs Deportivo Pasto: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "zp5rzghg9g5zq82",
-      "slug": "dynamo-kyiv-vs-kudrivka-prediction",
-      "utcDate": "2026-10-23T10:00:00+00:00",
-      "date": "2026-10-23",
-      "time": "10:00",
-      "precise": "10:00 UTC • 12:00 CET",
-      "countdown": "9h to kickoff",
-      "home": "Dynamo Kyiv",
-      "away": "Kudrivka",
-      "league": "Ukrainian Premier League",
-      "code": "",
-      "flag": "⚽",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Dynamo Kyiv vs Kudrivka: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
     {
       "id": "en.1:2026-10-23:Ipswich Town FC:Nottingham Forest FC",
       "slug": "ipswich-town-vs-nottingham-forest-prediction",
@@ -159,7 +13,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Ipswich Town",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -232,7 +86,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -305,7 +159,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Torino",
       "away": "AC Monza",
       "league": "Serie A",
@@ -378,7 +232,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Stade Brestois 29",
       "away": "OGC Nice",
       "league": "Ligue 1",
@@ -451,7 +305,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Go Ahead Eagles",
       "away": "Telstar 1963",
       "league": "Eredivisie",
@@ -524,7 +378,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Vitória Guimarães",
       "away": "CS Marítimo",
       "league": "Primeira Liga",
@@ -597,7 +451,7 @@
       "date": "2026-10-23",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "14h to kickoff",
+      "countdown": "7h to kickoff",
       "home": "Bolton Wanderers",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -670,7 +524,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Aston Villa",
       "away": "Manchester City",
       "league": "Premier League",
@@ -743,7 +597,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Arsenal",
       "away": "Everton",
       "league": "Premier League",
@@ -816,7 +670,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Coventry City",
       "away": "Fulham",
       "league": "Premier League",
@@ -889,7 +743,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -962,7 +816,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "SV Werder Bremen",
       "league": "Bundesliga",
@@ -1035,7 +889,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "1. FC Köln",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1108,7 +962,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "RB Leipzig",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -1181,7 +1035,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -1254,7 +1108,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -1327,7 +1181,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1400,7 +1254,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Cagliari Calcio",
       "away": "Bologna FC 1909",
       "league": "Serie A",
@@ -1473,7 +1327,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Como 1907",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -1546,7 +1400,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "SSC Napoli",
       "away": "AS Roma",
       "league": "Serie A",
@@ -1619,7 +1473,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "SS Lazio",
       "away": "Parma Calcio 1913",
       "league": "Serie A",
@@ -1692,7 +1546,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "38h to kickoff",
+      "countdown": "31h to kickoff",
       "home": "Toulouse",
       "away": "ES Troyes AC",
       "league": "Ligue 1",
@@ -1754,6 +1608,152 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Toulouse vs ES Troyes AC: Dixon-Coles P(H)89% D8% A4% • xG 3.27-0.51 • most likely score 3-0 (14%) • Home Win confidence 89% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-10-24:Racing Club de Lens:Paris FC",
+      "slug": "racing-club-de-lens-vs-paris-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "31h to kickoff",
+      "home": "Racing Club de Lens",
+      "away": "Paris",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 92,
+      "odds": "1.04",
+      "value": "+21%",
+      "probs": {
+        "home": 92,
+        "draw": 6,
+        "away": 2
+      },
+      "xg": {
+        "home": "3.62",
+        "away": "0.46",
+        "total": "4.08"
+      },
+      "doubleChance": {
+        "12": 94,
+        "1X": 97,
+        "X2": 8
+      },
+      "overUnder": {
+        "over2_5": 76,
+        "under2_5": 24,
+        "oddsOver": "1.25",
+        "oddsUnder": "3.96"
+      },
+      "btts": {
+        "yes": 36,
+        "no": 64
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "4-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Racing Club de Lens vs Paris: Dixon-Coles P(H)92% D6% A2% • xG 3.62-0.46 • most likely score 3-0 (14%) • Home Win confidence 92% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "nl.1:2026-10-24:FC Utrecht:PEC Zwolle",
+      "slug": "fc-utrecht-vs-pec-zwolle-prediction",
+      "utcDate": "2026-10-24T15:00:00Z",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 17:00 CET",
+      "countdown": "31h to kickoff",
+      "home": "FC Utrecht",
+      "away": "PEC Zwolle",
+      "league": "Eredivisie",
+      "code": "DED",
+      "flag": "🇳🇱",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 73,
+      "odds": "1.31",
+      "value": "+11%",
+      "probs": {
+        "home": 73,
+        "draw": 16,
+        "away": 11
+      },
+      "xg": {
+        "home": "2.28",
+        "away": "0.74",
+        "total": "3.02"
+      },
+      "doubleChance": {
+        "12": 84,
+        "1X": 89,
+        "X2": 27
+      },
+      "overUnder": {
+        "over2_5": 58,
+        "under2_5": 42,
+        "oddsOver": "1.64",
+        "oddsUnder": "2.26"
+      },
+      "btts": {
+        "yes": 46,
+        "no": 54
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "3-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.5",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Utrecht vs PEC Zwolle: Dixon-Coles P(H)73% D16% A11% • xG 2.28-0.74 • most likely score 2-0 (13%) • Home Win confidence 73% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2363,9 +2363,31 @@
   ],
   "news": [
     {
+      "title": "Who will win the Ballon d'Or? Messi, Yamal, Kane -- or someone else?",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-23T07:09:46.000Z",
+      "excerpt": "There's no consensus pick for this year's Ballon d'Or -- but maybe there should be. Here's who actually deserves to win it.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50251663/who-win-ballon-dor-messi-yamal-kane-else",
+      "image": "https://a.espncdn.com/photo/2026/1023/r1734824_1296x729_16-9.png",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Como's Paz destroyed Man United, now they want to sign him",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-23T07:08:44.000Z",
+      "excerpt": "Manchester United are monitoring Como attacking midfielder Nico Paz ahead of next season, while Chelsea are also keen. Transfer Talk has the",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50255747/transfer-rumors-news-comos-paz-destroyed-man-united-now-want-sign-him",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733999_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Before 'the special one', José Mourinho was 'the Barca one'",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-10-22T22:17:50.000Z",
       "excerpt": "Before 'the special one', José Mourinho was 'the Barca one'",
       "source": "ESPN",
@@ -2374,36 +2396,14 @@
       "category": "football"
     },
     {
-      "title": "Should Real Madrid frustrate Barcelona with fouls in El Clásico?",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-10-22T21:48:39.000Z",
-      "excerpt": "Should Real Madrid frustrate Barcelona with fouls in El Clásico?",
+      "title": "Wayne Rooney: Bruno Fernandes, Man United players acting like 'babies'",
+      "league": "Champions League",
+      "time": "11h ago",
+      "published": "2026-10-22T19:32:16.000Z",
+      "excerpt": "Wayne Rooney has lambasted Manchester United's squad for acting like \"babies\" and urged Bruno Fernandes and Lisandro Martínez to look in the",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50252567/should-real-madrid-frustrate-barcelona-fouls-el-clasico",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Should_Real_Madrid_frustrate_Barcelona_with_fouls_in_El_Clasico/dm_261022_Should_Real_Madrid_frustrate_Barcelona_with_fouls_in_El_Clasico.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Burley: Carrick should take a stand and drop Fernandes",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-22T21:32:25.000Z",
-      "excerpt": "Burley: Carrick should take a stand and drop Fernandes",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50252435/carrick-take-stand-drop-fernandes",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/dm_261022_Burley_Carrick_should_take_a_stand_and_drop_Fernandes/dm_261022_Burley_Carrick_should_take_a_stand_and_drop_Fernandes.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Arsenal want £55M in any Gyökeres deal",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-10-22T20:14:17.000Z",
-      "excerpt": "Arsenal has set their valuation for Viktor Gyökeres' transfer fee if the striker does depart in the next year. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50245989/transfer-rumors-news-man-united-consider-defensive-clearout-summer",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734700_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50251373/wayne-rooney-man-united-players-acting-babies",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1734078_1296x729_16-9.jpg",
       "category": "football"
     }
   ],

@@ -5,24 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 23 Oct 2026 00:30:48 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 07:19:54 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Atletico Nacional Medellin vs Deportivo Pasto — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/atletico-nacional-medellin-vs-deportivo-pasto-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/atletico-nacional-medellin-vs-deportivo-pasto-prediction.html</guid>
-    <pubDate>Fri, 23 Oct 2026 01:00:00 GMT</pubDate>
-    <description>Categoría Primera A — 61% confidence. Home Win at 1.56. Match kickoff: Fri, 23 Oct 2026 01:00:00 GMT.</description>
-    <category>Categoría Primera A</category>
-  </item>
-  <item>
-    <title>Dynamo Kyiv vs Kudrivka — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/dynamo-kyiv-vs-kudrivka-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/dynamo-kyiv-vs-kudrivka-prediction.html</guid>
-    <pubDate>Fri, 23 Oct 2026 10:00:00 GMT</pubDate>
-    <description>Ukrainian Premier League — 61% confidence. Home Win at 1.56. Match kickoff: Fri, 23 Oct 2026 10:00:00 GMT.</description>
-    <category>Ukrainian Premier League</category>
-  </item>
   <item>
     <title>Ipswich Town vs Nottingham Forest — Home Win @ 2.06</title>
     <link>https://xwhiz.com/predictions/ipswich-town-vs-nottingham-forest-prediction.html</link>
@@ -198,6 +182,22 @@
     <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
     <description>Ligue 1 — 89% confidence. Home Win at 1.07. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
     <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Racing Club de Lens vs Paris — Home Win @ 1.04</title>
+    <link>https://xwhiz.com/predictions/racing-club-de-lens-vs-paris-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/racing-club-de-lens-vs-paris-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 92% confidence. Home Win at 1.04. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>FC Utrecht vs PEC Zwolle — Home Win @ 1.31</title>
+    <link>https://xwhiz.com/predictions/fc-utrecht-vs-pec-zwolle-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-utrecht-vs-pec-zwolle-prediction.html</guid>
+    <pubDate>Sat, 24 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 73% confidence. Home Win at 1.31. Match kickoff: Sat, 24 Oct 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
   </item>
 </channel>
 </rss>
