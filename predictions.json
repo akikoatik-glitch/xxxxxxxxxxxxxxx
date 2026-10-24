@@ -1,10 +1,10 @@
 {
   "date": "2026-10-24",
-  "lastUpdate": "2026-10-24T10:44:39.837Z",
-  "predictionGenerated": "2026-10-24T10:44:39.837Z",
-  "dataTimestamp": "2026-10-24T10:44:37.340Z",
+  "lastUpdate": "2026-10-24T15:46:55.023Z",
+  "predictionGenerated": "2026-10-24T15:46:55.023Z",
+  "dataTimestamp": "2026-10-24T15:46:52.546Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:72+tomorrow:37+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:74+tomorrow:37+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "en.1:2026-10-24:Aston Villa FC:Manchester City FC",
@@ -13,7 +13,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Aston Villa",
       "away": "Manchester City",
       "league": "Premier League",
@@ -22,59 +22,59 @@
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 85,
-      "odds": "1.12",
-      "value": "+17%",
+      "conf": 77,
+      "odds": "1.23",
+      "value": "+14%",
       "probs": {
-        "home": 5,
-        "draw": 10,
-        "away": 85
+        "home": 9,
+        "draw": 14,
+        "away": 77
       },
       "xg": {
-        "home": "0.56",
-        "away": "2.90",
-        "total": "3.46"
+        "home": "0.71",
+        "away": "2.57",
+        "total": "3.28"
       },
       "doubleChance": {
-        "12": 90,
-        "1X": 15,
-        "X2": 95
+        "12": 86,
+        "1X": 23,
+        "X2": 91
       },
       "overUnder": {
-        "over2_5": 66,
-        "under2_5": 34,
-        "oddsOver": "1.44",
-        "oddsUnder": "2.79"
+        "over2_5": 63,
+        "under2_5": 37,
+        "oddsOver": "1.51",
+        "oddsUnder": "2.57"
       },
       "btts": {
-        "yes": 40,
-        "no": 60
+        "yes": 47,
+        "no": 53
       },
       "correctScore": {
         "score": "0-2",
-        "prob": 14
+        "prob": 13
       },
       "topScores": [
         {
           "score": "0-2",
-          "prob": 14
+          "prob": 13
         },
         {
           "score": "0-3",
-          "prob": 13
+          "prob": 11
         },
         {
           "score": "0-1",
           "prob": 10
         }
       ],
-      "asianHandicap": "Away +2.0",
+      "asianHandicap": "Away +1.8",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Aston Villa vs Manchester City: Dixon-Coles P(H)5% D10% A85% • xG 0.56-2.90 • most likely score 0-2 (14%) • Away Win confidence 85% • strengths from real standings",
+      "whyWin": "Aston Villa vs Manchester City: Dixon-Coles P(H)9% D14% A77% • xG 0.71-2.57 • most likely score 0-2 (13%) • Away Win confidence 77% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -86,7 +86,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Arsenal",
       "away": "Everton",
       "league": "Premier League",
@@ -104,9 +104,9 @@
         "away": 3
       },
       "xg": {
-        "home": "2.75",
+        "home": "2.77",
         "away": "0.30",
-        "total": "3.05"
+        "total": "3.07"
       },
       "doubleChance": {
         "12": 91,
@@ -138,7 +138,7 @@
         },
         {
           "score": "1-0",
-          "prob": 14
+          "prob": 13
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -147,7 +147,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Arsenal vs Everton: Dixon-Coles P(H)88% D9% A3% • xG 2.75-0.30 • most likely score 2-0 (18%) • Home Win confidence 88% • strengths from real standings",
+      "whyWin": "Arsenal vs Everton: Dixon-Coles P(H)88% D9% A3% • xG 2.77-0.30 • most likely score 2-0 (18%) • Home Win confidence 88% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -159,7 +159,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Coventry City",
       "away": "Fulham",
       "league": "Premier League",
@@ -178,8 +178,8 @@
       },
       "xg": {
         "home": "0.83",
-        "away": "1.13",
-        "total": "1.96"
+        "away": "1.14",
+        "total": "1.97"
       },
       "doubleChance": {
         "12": 71,
@@ -220,7 +220,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Coventry City vs Fulham: Dixon-Coles P(H)28% D29% A44% • xG 0.83-1.13 • most likely score 0-1 (17%) • Away Win confidence 44% • strengths from real standings",
+      "whyWin": "Coventry City vs Fulham: Dixon-Coles P(H)28% D29% A44% • xG 0.83-1.14 • most likely score 0-1 (17%) • Away Win confidence 44% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -232,7 +232,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Chelsea",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -242,7 +242,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 86,
-      "odds": "1.11",
+      "odds": "1.10",
       "value": "+18%",
       "probs": {
         "home": 86,
@@ -250,9 +250,9 @@
         "away": 5
       },
       "xg": {
-        "home": "3.22",
-        "away": "0.65",
-        "total": "3.87"
+        "home": "3.24",
+        "away": "0.66",
+        "total": "3.90"
       },
       "doubleChance": {
         "12": 91,
@@ -293,7 +293,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Chelsea vs Tottenham Hotspur: Dixon-Coles P(H)86% D9% A5% • xG 3.22-0.65 • most likely score 3-0 (12%) • Home Win confidence 86% • strengths from real standings",
+      "whyWin": "Chelsea vs Tottenham Hotspur: Dixon-Coles P(H)86% D9% A5% • xG 3.24-0.66 • most likely score 3-0 (12%) • Home Win confidence 86% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -305,7 +305,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "SV Werder Bremen",
       "league": "Bundesliga",
@@ -378,7 +378,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "1. FC Köln",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -451,7 +451,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "RB Leipzig",
       "away": "SV 07 Elversberg",
       "league": "Bundesliga",
@@ -524,7 +524,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -597,7 +597,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -670,7 +670,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -743,7 +743,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Cagliari Calcio",
       "away": "Bologna FC 1909",
       "league": "Serie A",
@@ -816,7 +816,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Como 1907",
       "away": "US Sassuolo Calcio",
       "league": "Serie A",
@@ -889,7 +889,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "SSC Napoli",
       "away": "AS Roma",
       "league": "Serie A",
@@ -898,22 +898,22 @@
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 49,
+      "conf": 50,
       "odds": "1.92",
       "value": "+0%",
       "probs": {
         "home": 21,
         "draw": 29,
-        "away": 49
+        "away": 50
       },
       "xg": {
         "home": "0.64",
-        "away": "1.16",
-        "total": "1.80"
+        "away": "1.17",
+        "total": "1.81"
       },
       "doubleChance": {
         "12": 71,
-        "1X": 51,
+        "1X": 50,
         "X2": 79
       },
       "overUnder": {
@@ -923,8 +923,8 @@
         "oddsUnder": "1.30"
       },
       "btts": {
-        "yes": 31,
-        "no": 69
+        "yes": 32,
+        "no": 68
       },
       "correctScore": {
         "score": "0-1",
@@ -937,11 +937,11 @@
         },
         {
           "score": "0-0",
-          "prob": 16
+          "prob": 15
         },
         {
           "score": "1-0",
-          "prob": 12
+          "prob": 11
         }
       ],
       "asianHandicap": "Away +0.50",
@@ -950,7 +950,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "SSC Napoli vs AS Roma: Dixon-Coles P(H)21% D29% A49% • xG 0.64-1.16 • most likely score 0-1 (20%) • Away Win confidence 49% • strengths from real standings",
+      "whyWin": "SSC Napoli vs AS Roma: Dixon-Coles P(H)21% D29% A50% • xG 0.64-1.17 • most likely score 0-1 (20%) • Away Win confidence 50% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -962,7 +962,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "SS Lazio",
       "away": "Parma Calcio 1913",
       "league": "Serie A",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Toulouse",
       "away": "ES Troyes AC",
       "league": "Ligue 1",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Racing Club de Lens",
       "away": "Paris",
       "league": "Ligue 1",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "FC Utrecht",
       "away": "PEC Zwolle",
       "league": "Eredivisie",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Willem II Tilburg",
       "away": "SC Cambuur-Leeuwarden",
       "league": "Eredivisie",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "ADO Den Haag",
       "away": "SC Heerenveen",
       "league": "Eredivisie",
@@ -1400,7 +1400,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "CF Estrela da Amadora",
       "away": "Casa Pia AC",
       "league": "Primeira Liga",
@@ -1473,7 +1473,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "FC Alverca",
       "away": "FC Arouca",
       "league": "Primeira Liga",
@@ -1546,7 +1546,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Gil Vicente",
       "away": "FC Porto",
       "league": "Primeira Liga",
@@ -1619,7 +1619,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Sheffield United",
       "away": "Derby County",
       "league": "Championship",
@@ -1692,7 +1692,7 @@
       "date": "2026-10-24",
       "time": "15:00",
       "precise": "15:00 UTC • 17:00 CET",
-      "countdown": "4h to kickoff",
+      "countdown": "0h to kickoff",
       "home": "Charlton Athletic",
       "away": "Norwich City",
       "league": "Championship",
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "José Mourinho backs himself ahead of El Clasico vs. Barcelona: 'Madrid with Mourinho wins trophies'",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-10-24T10:38:19.000Z",
-      "excerpt": "José Mourinho backed himself to deliver at Real Madrid ahead of Sunday's high-stakes El Clásico with LaLiga leaders Barcelona, insisting tha",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50264660/madrid-mourinho-wins-trophies",
-      "image": "https://a.espncdn.com/photo/2026/0521/r1661518_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League live updates: Aston Villa host league leaders Man City",
+      "title": "Premier League live updates: Arsenal face Everton after City lose to Villa",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-24T10:28:44.000Z",
-      "excerpt": "Aston Villa host Premier League leaders Manchester City as another weekend of European soccer gets underway.",
+      "published": "2026-10-24T15:29:32.000Z",
+      "excerpt": "Manchester City suffered their first loss of the season to Aston Villa, with Arsenal looking to take advantage against Everton on another bu",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50220422/premier-league-live-updates-aston-villa-manchester-city-arsenal-everton-chelsea-tottenham-hotspur",
-      "image": "https://a.espncdn.com/photo/2026/1019/r1733028_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735412_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "El Clásico is served! Get a taste of the LaLiga showdown",
+      "title": "Mourinho: Real Madrid win trophies with me",
       "league": "La Liga",
-      "time": "10h ago",
-      "published": "2026-10-24T00:19:46.000Z",
-      "excerpt": "El Clásico is served! Get a taste of the LaLiga showdown",
+      "time": "0h ago",
+      "published": "2026-10-24T14:52:52.000Z",
+      "excerpt": "Mourinho: Real Madrid win trophies with me",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50261693/el-clasico-served-get-taste-laliga-showdown",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/ss_20261023_201605091_3707432/ss_20261023_201605091_3707432.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50265950/real-madrid-win-trophies-me",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_Mourinho_Real_Madrid_win_trophies_with_me/dm_261024_Mourinho_Real_Madrid_win_trophies_with_me.jpg",
       "category": "football"
     },
     {
-      "title": "Nottingham Forest rue 'wrong' red card call, missed chances in Ipswich draw",
+      "title": "How can teams stop Erling Haaland?",
       "league": "Premier League",
-      "time": "11h ago",
-      "published": "2026-10-23T23:13:21.000Z",
-      "excerpt": "Nottingham Forest lamented the referee's decision not to reduce Ipswich Town to 10 men in the second half, as well a number of missed chance",
+      "time": "1h ago",
+      "published": "2026-10-24T14:27:22.000Z",
+      "excerpt": "How can teams stop Erling Haaland?",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50261284/nottingham-forest-ipswich-town-red-card-issa-diop",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1735247_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50265810/how-teams-stop-erling-haaland",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_How_can_teams_stop_Erling_Haaland/dm_261024_How_can_teams_stop_Erling_Haaland.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bayern Munich's Vincent Kompany 'stable,' but could be away for weeks after collapsing",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-10-24T14:25:00.000Z",
+      "excerpt": "Bayern Munich coach Vincent Kompany will have more tests to determine why he collapsed during a training session the previous day, the club ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50265094/bayern-munich-vincent-kompany-stable-away-weeks-collapsing",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1713698_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
