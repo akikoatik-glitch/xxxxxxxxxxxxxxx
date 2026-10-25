@@ -1,32 +1,43 @@
 {
-  "lastUpdate": "2026-10-25T04:21:47.553Z",
+  "lastUpdate": "2026-10-25T11:10:05.983Z",
   "news": [
     {
-      "title": "Man City beaten by Jackson's double for Aston Villa",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-25T01:57:46.000Z",
-      "excerpt": "Nicolas Jackson nets both goals for Aston Villa to end Manchester City's perfect start to the Premier League season with a 2-1 win at Villa ",
+      "title": "Real Madrid goalkeeper Thibaut Courtois out of Clasico with flu",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-10-25T10:39:42.000Z",
+      "excerpt": "Real Madrid goalkeeper Thibaut Courtois will miss the team's Clásico clash with Barcelona with flu, the club said on Sunday.",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50272717/man-city-beaten-jackson-double-aston-villa",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_EPL_Highlight_Man_City_beaten_by_Jacksons_double_for_Aston_Villa_20261025_AUS_ONLY/dm_261024_EPL_Highlight_Man_City_beaten_by_Jacksons_double_for_Aston_Villa_20261025_AUS_ONLY.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50275230/real-madrid-goalkeeper-thibaut-courtois-clasico-vs-barcelona-flu",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1713669_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Spurs claim 2nd-ever Premier League win at Chelsea",
+      "title": "Premier League live updates: Man United face Bournemouth, Liverpool host Brighton",
       "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-25T01:57:22.000Z",
-      "excerpt": "A spectacular goal by Mathys Tel seals a 2-0 Spurs victory as Tottenham end their Stamford Bridge hoodoo with their second-ever win at Chels",
+      "time": "1h ago",
+      "published": "2026-10-25T09:56:32.000Z",
+      "excerpt": "Both Liverpool and Manchester United are in Premier League action at the same time as a busy weekend of European soccer continues, with Unit",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50272702/spurs-claim-2nd-ever-premier-league-win-chelsea",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_EPL_Highlight_Spurs_claim_2ndever_Premier_League_win_at_Chelsea_20261025_AUS_ONLY/dm_261024_EPL_Highlight_Spurs_claim_2ndever_Premier_League_win_at_Chelsea_20261025_AUS_ONLY.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50220518/premier-league-live-updates-liverpool-brighton-hove-albion-bournemouth-manchester-united",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1734116_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal, Man United, Liverpool track Bayern star Karl",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-25T09:18:07.000Z",
+      "excerpt": "Arsenal, Manchester United and Liverpool are monitoring Bayern Munich forward Lennart Karl. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50274938/transfer-rumors-news-arsenal-manchester-united-liverpool-track-bayern-munich-star-karl",
+      "image": "https://a.espncdn.com/photo/2026/0114/r1600661_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Alex Freeman adding to banner 2026 with goal",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-10-25T01:54:18.000Z",
       "excerpt": "See why Alex Freeman is adding to his stellar year with another sensational goal.",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Barcelona making final preparations for Real Madrid",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-10-25T00:08:44.000Z",
-      "excerpt": "Check out what Barcelona is doing in the final hours before they take on Real Madrid in El Clasico.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50271519/barcelona-making-final-preparations-real-madrid",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/dm_261024_BarcelonaClasico/dm_261024_BarcelonaClasico.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bayern Munich's Vincent Kompany 'stable,' could be away for weeks after collapse",
       "league": "Champions League",
-      "time": "9h ago",
+      "time": "16h ago",
       "published": "2026-10-24T18:37:30.000Z",
       "excerpt": "Bayern Munich coach Vincent Kompany will have more tests to determine why he collapsed during a training session the previous day, the club ",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Napoli's Scott McTominay bags brace in derby day thriller against Roma",
       "league": "Serie A",
-      "time": "9h ago",
+      "time": "16h ago",
       "published": "2026-10-24T18:27:19.000Z",
       "excerpt": "Napoli's stuttering start in Serie A continued as Roma twice fought back to secure a 3-3 draw in a dramatic Derby del Sole.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Curtis Jones: Serie A too slow? Inter arrival explains Liverpool similarity",
       "league": "Serie A",
-      "time": "15h ago",
+      "time": "22h ago",
       "published": "2026-10-24T13:00:33.000Z",
       "excerpt": "Inter Milan midfielder Curtis Jones insists Serie A is no different to the Premier League when it comes to playing for the top clubs.",
       "source": "ESPN",
