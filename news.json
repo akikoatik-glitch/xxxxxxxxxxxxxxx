@@ -1,32 +1,65 @@
 {
-  "lastUpdate": "2026-10-25T15:57:53.623Z",
+  "lastUpdate": "2026-10-25T18:54:16.559Z",
   "news": [
     {
-      "title": "Premier League live updates: Man United embarrassed by Bournemouth, Liverpool beat Brighton",
-      "league": "Premier League",
+      "title": "Bayern Munich hold off Freiburg in first game without Kompany",
+      "league": "Bundesliga",
       "time": "0h ago",
-      "published": "2026-10-25T15:55:39.000Z",
-      "excerpt": "Manchester United boss Michael Carrick dropped captain Bruno Fernandes against Bournemouth but his side lost 3-0 to pile the pressure on him",
+      "published": "2026-10-25T18:45:33.000Z",
+      "excerpt": "Bayern Munich returned to the top of the Bundesliga table thanks to a 3-1 away win at Freiburg on Sunday.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50220518/premier-league-live-updates-liverpool-brighton-hove-albion-bournemouth-manchester-united",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735930_2_1296x729_16-9.jpg",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401884759",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736014_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Michael Carrick pressure grows, Bournemouth run riot at Man United",
+      "title": "Sunderland stay bottom of PL table after goalless draw with Leeds",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-25T15:54:20.000Z",
-      "excerpt": "The pressure on Michael Carrick grew as Manchester United slumped to a limp 3-0 defeat to Bournemouth on Sunday.",
+      "published": "2026-10-25T18:37:31.000Z",
+      "excerpt": "Sunderland and Leeds were forced to share the spoils in a goalless stalemate at the Stadium of Light.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50277463/michael-carrick-pressure-grows-bournemouth-run-riot-man-united",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735934_1296x729_16-9.jpg",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401878764",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736009_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Harry Maguire: Man United players are 'fully behind' Michael Carrick",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-25T18:09:13.000Z",
+      "excerpt": "Harry Maguire has said that he and his teammates are \"fully behind\" Michael Carrick after Manchester United slumped to a 3-0 home defeat to ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50278421/harry-maguire-man-united-fully-michael-carrick",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1735998_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Celta Vigo vs. Real Betis - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-10-25T17:17:11.000Z",
+      "excerpt": "Watch the Game Highlights from Celta Vigo vs. Real Betis, 10/25/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50278064/celta-vigo-vs-real-betis-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/689dc805-0155-4b3c-95bd-2f9f5e12a3e5/689dc805-0155-4b3c-95bd-2f9f5e12a3e5.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Man United to offload Yoro to Milan?",
+      "league": "Serie A",
+      "time": "1h ago",
+      "published": "2026-10-25T17:00:42.000Z",
+      "excerpt": "Manchester United defender Leny Yoro is on the radar of AC Milan ahead of the summer. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50274938/transfer-rumors-news-arsenal-manchester-united-liverpool-track-bayern-munich-star-karl",
+      "image": "https://a.espncdn.com/photo/2026/0417/r1645204_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Athletic Club vs. Getafe - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "3h ago",
       "published": "2026-10-25T15:03:04.000Z",
       "excerpt": "Watch the Game Highlights from Athletic Club vs. Getafe, 10/25/2026",
       "source": "ESPN",
@@ -35,20 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Liverpool loanee Harvey Elliott sent off for two yellows inside a minute",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-10-25T14:59:57.000Z",
-      "excerpt": "Liverpool loanee Harvey Elliott was sent off for two yellow card in under a minute during Valencia's 2-1 defeat to Villareal in LaLiga on Sa",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50276655/liverpool-loanee-harvey-elliott-sent-two-yellows-minute",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735887_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bayern Munich's Vincent Kompany 'stable,' could be away for weeks after collapse",
       "league": "Champions League",
-      "time": "21h ago",
+      "time": "24/10/2026",
       "published": "2026-10-24T18:37:30.000Z",
       "excerpt": "Bayern Munich coach Vincent Kompany will have more tests to determine why he collapsed during a training session the previous day, the club ",
       "source": "ESPN",
@@ -59,34 +81,12 @@
     {
       "title": "Napoli's Scott McTominay bags brace in derby day thriller against Roma",
       "league": "Serie A",
-      "time": "21h ago",
+      "time": "24/10/2026",
       "published": "2026-10-24T18:27:19.000Z",
       "excerpt": "Napoli's stuttering start in Serie A continued as Roma twice fought back to secure a 3-3 draw in a dramatic Derby del Sole.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50267803/napoli-scott-mctominay-bags-brace-derby-day-thriller-roma",
       "image": "https://a.espncdn.com/photo/2026/1024/r1735526_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Curtis Jones: Serie A too slow? Inter arrival explains Liverpool similarity",
-      "league": "Serie A",
-      "time": "24/10/2026",
-      "published": "2026-10-24T13:00:33.000Z",
-      "excerpt": "Inter Milan midfielder Curtis Jones insists Serie A is no different to the Premier League when it comes to playing for the top clubs.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50265302/curtis-jones-serie-slow-inter-liverpool",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735381_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "USMNT's Scally scores, helps Gladbach avoid worst-ever Bundesliga start",
-      "league": "Bundesliga",
-      "time": "23/10/2026",
-      "published": "2026-10-23T22:47:13.000Z",
-      "excerpt": "Borussia Mönchengladbach avoided becoming the first team in Bundesliga history to lose seven straight games to start the season, thanks to a",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50261060/borussia-monchengladbach-joe-scally-bundesliga-usa",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1735236_1296x729_16-9.jpg",
       "category": "football"
     },
     {
