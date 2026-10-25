@@ -1,8 +1,8 @@
 {
   "date": "2026-10-26",
-  "lastUpdate": "2026-10-25T18:54:16.614Z",
-  "predictionGenerated": "2026-10-25T18:54:16.614Z",
-  "dataTimestamp": "2026-10-25T18:54:14.119Z",
+  "lastUpdate": "2026-10-25T22:25:44.755Z",
+  "predictionGenerated": "2026-10-25T22:25:44.755Z",
+  "dataTimestamp": "2026-10-25T22:25:42.000Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:83+tomorrow:1+upcoming:30+fixtures:60)",
   "matches": [
@@ -13,7 +13,7 @@
       "date": "2026-10-26",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "16h to kickoff",
       "home": "CD Santa Clara",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
@@ -684,47 +684,47 @@
   ],
   "news": [
     {
-      "title": "Bayern Munich hold off Freiburg in first game without Kompany",
-      "league": "Bundesliga",
-      "time": "0h ago",
-      "published": "2026-10-25T18:45:33.000Z",
-      "excerpt": "Bayern Munich returned to the top of the Bundesliga table thanks to a 3-1 away win at Freiburg on Sunday.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401884759",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736014_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Sunderland stay bottom of PL table after goalless draw with Leeds",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-25T18:37:31.000Z",
-      "excerpt": "Sunderland and Leeds were forced to share the spoils in a goalless stalemate at the Stadium of Light.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401878764",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736009_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Harry Maguire: Man United players are 'fully behind' Michael Carrick",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-25T18:09:13.000Z",
-      "excerpt": "Harry Maguire has said that he and his teammates are \"fully behind\" Michael Carrick after Manchester United slumped to a 3-0 home defeat to ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50278421/harry-maguire-man-united-fully-michael-carrick",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735998_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Celta Vigo vs. Real Betis - Game Highlights",
+      "title": "Mbappé's brace powers Real Madrid to the win over Barca",
       "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-10-25T17:17:11.000Z",
-      "excerpt": "Watch the Game Highlights from Celta Vigo vs. Real Betis, 10/25/2026",
+      "time": "0h ago",
+      "published": "2026-10-25T22:16:31.000Z",
+      "excerpt": "Mbappé's brace powers Real Madrid to the win over Barca",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50278064/celta-vigo-vs-real-betis-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/689dc805-0155-4b3c-95bd-2f9f5e12a3e5/689dc805-0155-4b3c-95bd-2f9f5e12a3e5.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50281290/mbappe-brace-powers-real-madrid-win-barca",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/b88457ba3822438581321ab4b5b9100b1096/b88457ba3822438581321ab4b5b9100b1096.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mbappé double gives Madrid Clasico win over Barcelona",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-10-25T22:13:31.000Z",
+      "excerpt": "Real Madrid cut the gap on LaLiga leaders Barcelona to three points after Kylian Mbappé struck a late winner in a 2-1 win at the Nou Camp on",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401882832",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736144_1024x576_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "McKennie scores 1st goal since April in much-needed Juventus win",
+      "league": "Serie A",
+      "time": "2h ago",
+      "published": "2026-10-25T19:45:48.000Z",
+      "excerpt": "Weston McKennie opened the scoring for Juventus in a 2-0 win over Lecce on Sunday to help the Serie A side course correct after a pair of di",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874772",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736020_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Luis Enrique: Khvicha Kvaratskhelia will be back stronger for PSG after ACL injury",
+      "league": "Ligue 1",
+      "time": "2h ago",
+      "published": "2026-10-25T19:37:47.000Z",
+      "excerpt": "Paris Saint-Germain boss Luis Enrique says winger Khvicha Kvaratskhelia will come back stronger after he suffered an anterior cruciate ligam",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50279147/luis-enrique-khvicha-kvaratskhelia-back-stronger-psg-acl",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736040_1296x729_16-9.jpg",
       "category": "football"
     }
   ],

@@ -1,10 +1,54 @@
 {
-  "lastUpdate": "2026-10-25T18:54:16.559Z",
+  "lastUpdate": "2026-10-25T22:25:44.701Z",
   "news": [
+    {
+      "title": "Mbappé's brace powers Real Madrid to the win over Barca",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-10-25T22:16:31.000Z",
+      "excerpt": "Mbappé's brace powers Real Madrid to the win over Barca",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50281290/mbappe-brace-powers-real-madrid-win-barca",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/b88457ba3822438581321ab4b5b9100b1096/b88457ba3822438581321ab4b5b9100b1096.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mbappé double gives Madrid Clasico win over Barcelona",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-10-25T22:13:31.000Z",
+      "excerpt": "Real Madrid cut the gap on LaLiga leaders Barcelona to three points after Kylian Mbappé struck a late winner in a 2-1 win at the Nou Camp on",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401882832",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736144_1024x576_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "McKennie scores 1st goal since April in much-needed Juventus win",
+      "league": "Serie A",
+      "time": "2h ago",
+      "published": "2026-10-25T19:45:48.000Z",
+      "excerpt": "Weston McKennie opened the scoring for Juventus in a 2-0 win over Lecce on Sunday to help the Serie A side course correct after a pair of di",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874772",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736020_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Luis Enrique: Khvicha Kvaratskhelia will be back stronger for PSG after ACL injury",
+      "league": "Ligue 1",
+      "time": "2h ago",
+      "published": "2026-10-25T19:37:47.000Z",
+      "excerpt": "Paris Saint-Germain boss Luis Enrique says winger Khvicha Kvaratskhelia will come back stronger after he suffered an anterior cruciate ligam",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50279147/luis-enrique-khvicha-kvaratskhelia-back-stronger-psg-acl",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736040_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Bayern Munich hold off Freiburg in first game without Kompany",
       "league": "Bundesliga",
-      "time": "0h ago",
+      "time": "3h ago",
       "published": "2026-10-25T18:45:33.000Z",
       "excerpt": "Bayern Munich returned to the top of the Bundesliga table thanks to a 3-1 away win at Freiburg on Sunday.",
       "source": "ESPN",
@@ -15,7 +59,7 @@
     {
       "title": "Sunderland stay bottom of PL table after goalless draw with Leeds",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "3h ago",
       "published": "2026-10-25T18:37:31.000Z",
       "excerpt": "Sunderland and Leeds were forced to share the spoils in a goalless stalemate at the Stadium of Light.",
       "source": "ESPN",
@@ -26,7 +70,7 @@
     {
       "title": "Harry Maguire: Man United players are 'fully behind' Michael Carrick",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "4h ago",
       "published": "2026-10-25T18:09:13.000Z",
       "excerpt": "Harry Maguire has said that he and his teammates are \"fully behind\" Michael Carrick after Manchester United slumped to a 3-0 home defeat to ",
       "source": "ESPN",
@@ -35,36 +79,14 @@
       "category": "football"
     },
     {
-      "title": "Celta Vigo vs. Real Betis - Game Highlights",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-10-25T17:17:11.000Z",
-      "excerpt": "Watch the Game Highlights from Celta Vigo vs. Real Betis, 10/25/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50278064/celta-vigo-vs-real-betis-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/689dc805-0155-4b3c-95bd-2f9f5e12a3e5/689dc805-0155-4b3c-95bd-2f9f5e12a3e5.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Man United to offload Yoro to Milan?",
       "league": "Serie A",
-      "time": "1h ago",
+      "time": "5h ago",
       "published": "2026-10-25T17:00:42.000Z",
       "excerpt": "Manchester United defender Leny Yoro is on the radar of AC Milan ahead of the summer. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50274938/transfer-rumors-news-arsenal-manchester-united-liverpool-track-bayern-munich-star-karl",
       "image": "https://a.espncdn.com/photo/2026/0417/r1645204_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Athletic Club vs. Getafe - Game Highlights",
-      "league": "La Liga",
-      "time": "3h ago",
-      "published": "2026-10-25T15:03:04.000Z",
-      "excerpt": "Watch the Game Highlights from Athletic Club vs. Getafe, 10/25/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50277107/athletic-club-vs-getafe-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/1af601a9-adb6-4223-848d-0ac939161866/1af601a9-adb6-4223-848d-0ac939161866.jpg",
       "category": "football"
     },
     {
@@ -76,17 +98,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50265094/bayern-munich-vincent-kompany-stable-away-weeks-collapsing",
       "image": "https://a.espncdn.com/photo/2026/0909/r1713698_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Napoli's Scott McTominay bags brace in derby day thriller against Roma",
-      "league": "Serie A",
-      "time": "24/10/2026",
-      "published": "2026-10-24T18:27:19.000Z",
-      "excerpt": "Napoli's stuttering start in Serie A continued as Roma twice fought back to secure a 3-3 draw in a dramatic Derby del Sole.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50267803/napoli-scott-mctominay-bags-brace-derby-day-thriller-roma",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735526_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -109,17 +120,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50255867/bruno-fernandes-home-burgled-man-united-loss-como",
       "image": "https://a.espncdn.com/photo/2026/1023/r1734927_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Who will win the Ballon d'Or? Messi, Yamal, Kane -- or someone else?",
-      "league": "Ligue 1",
-      "time": "23/10/2026",
-      "published": "2026-10-23T07:09:46.000Z",
-      "excerpt": "There's no consensus pick for this year's Ballon d'Or -- but maybe there should be. Here's who actually deserves to win it.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50251663/who-win-ballon-dor-messi-yamal-kane-else",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1734824_1296x729_16-9.png",
       "category": "football"
     }
   ]
