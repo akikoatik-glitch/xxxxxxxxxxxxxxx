@@ -5,16 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 26 Oct 2026 12:44:02 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 19:50:05 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>CD Santa Clara vs Sport Lisboa e Benfica — Away Win @ 2.13</title>
-    <link>https://xwhiz.com/predictions/cd-santa-clara-vs-sport-lisboa-e-benfica-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/cd-santa-clara-vs-sport-lisboa-e-benfica-prediction.html</guid>
-    <pubDate>Mon, 26 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 45% confidence. Away Win at 2.13. Match kickoff: Mon, 26 Oct 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
   <item>
     <title>US Sassuolo Calcio vs SS Lazio — Away Win @ 1.43</title>
     <link>https://xwhiz.com/predictions/us-sassuolo-calcio-vs-ss-lazio-prediction.html</link>
@@ -173,6 +165,14 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/coventry-city-vs-sunderland-a-prediction.html</guid>
     <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 53% confidence. Home Win at 1.79. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>AFC Bournemouth vs Leeds United — Home Win @ 2.07</title>
+    <link>https://xwhiz.com/predictions/afc-bournemouth-vs-leeds-united-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/afc-bournemouth-vs-leeds-united-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 46% confidence. Home Win at 2.07. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
 </channel>
