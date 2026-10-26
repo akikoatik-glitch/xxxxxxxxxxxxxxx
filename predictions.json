@@ -1,10 +1,10 @@
 {
   "date": "2026-10-26",
-  "lastUpdate": "2026-10-26T04:24:58.654Z",
-  "predictionGenerated": "2026-10-26T04:24:58.654Z",
-  "dataTimestamp": "2026-10-26T04:24:56.062Z",
+  "lastUpdate": "2026-10-26T12:44:01.636Z",
+  "predictionGenerated": "2026-10-26T12:44:01.636Z",
+  "dataTimestamp": "2026-10-26T12:43:59.019Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:1+tomorrow:3+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:40+tomorrow:3+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "pt.1:2026-10-26:CD Santa Clara:Sport Lisboa e Benfica",
@@ -13,7 +13,7 @@
       "date": "2026-10-26",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "10h to kickoff",
+      "countdown": "2h to kickoff",
       "home": "CD Santa Clara",
       "away": "Sport Lisboa e Benfica",
       "league": "Primeira Liga",
@@ -86,7 +86,7 @@
       "date": "2026-10-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "US Sassuolo Calcio",
       "away": "SS Lazio",
       "league": "Serie A",
@@ -159,7 +159,7 @@
       "date": "2026-10-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "AS Roma",
       "away": "Cagliari Calcio",
       "league": "Serie A",
@@ -232,7 +232,7 @@
       "date": "2026-10-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "26h to kickoff",
       "home": "Torino",
       "away": "Como 1907",
       "league": "Serie A",
@@ -305,7 +305,7 @@
       "date": "2026-10-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "50h to kickoff",
       "home": "AC Monza",
       "away": "SSC Napoli",
       "league": "Serie A",
@@ -378,7 +378,7 @@
       "date": "2026-10-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "50h to kickoff",
       "home": "Genoa C",
       "away": "Juventus",
       "league": "Serie A",
@@ -451,7 +451,7 @@
       "date": "2026-10-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "50h to kickoff",
       "home": "Parma Calcio 1913",
       "away": "Udinese Calcio",
       "league": "Serie A",
@@ -524,7 +524,7 @@
       "date": "2026-10-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "50h to kickoff",
       "home": "Venezia",
       "away": "FC Internazionale Milano",
       "league": "Serie A",
@@ -597,7 +597,7 @@
       "date": "2026-10-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "50h to kickoff",
       "home": "AC Milan",
       "away": "Bologna FC 1909",
       "league": "Serie A",
@@ -670,7 +670,7 @@
       "date": "2026-10-29",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "82h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "ACF Fiorentina",
       "away": "Atalanta BC",
       "league": "Serie A",
@@ -743,7 +743,7 @@
       "date": "2026-10-29",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "82h to kickoff",
+      "countdown": "74h to kickoff",
       "home": "Frosinone Calcio",
       "away": "US Lecce",
       "league": "Serie A",
@@ -816,7 +816,7 @@
       "date": "2026-10-30",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "106h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "SV 07 Elversberg",
       "away": "1. FSV Mainz 05",
       "league": "Bundesliga",
@@ -889,7 +889,7 @@
       "date": "2026-10-30",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "106h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "Lille OSC",
       "away": "Racing Club de Lens",
       "league": "Ligue 1",
@@ -962,7 +962,7 @@
       "date": "2026-10-30",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "106h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "Le Havre AC",
       "away": "Paris Saint-Germain",
       "league": "Ligue 1",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-30",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "106h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "Casa Pia AC",
       "away": "Sporting Clube de Portugal",
       "league": "Primeira Liga",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-30",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "106h to kickoff",
+      "countdown": "98h to kickoff",
       "home": "Sheffield United",
       "away": "Wrexham A",
       "league": "Championship",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
+      "countdown": "122h to kickoff",
       "home": "Aston Villa",
       "away": "Fulham",
       "league": "Premier League",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
+      "countdown": "122h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Crystal Palace",
       "league": "Premier League",
@@ -1327,7 +1327,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
+      "countdown": "122h to kickoff",
       "home": "Brentford",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -1400,7 +1400,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
+      "countdown": "122h to kickoff",
       "home": "Hull City A",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -1473,7 +1473,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
+      "countdown": "122h to kickoff",
       "home": "Coventry City",
       "away": "Sunderland A",
       "league": "Premier League",
@@ -1535,225 +1535,6 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "Coventry City vs Sunderland A: Dixon-Coles P(H)53% D25% A22% • xG 1.47-0.84 • most likely score 1-0 (16%) • Home Win confidence 53% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-10-31:AFC Bournemouth:Leeds United FC",
-      "slug": "afc-bournemouth-vs-leeds-united-prediction",
-      "utcDate": "2026-10-31T15:00:00Z",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
-      "home": "AFC Bournemouth",
-      "away": "Leeds United",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 46,
-      "odds": "2.07",
-      "value": "+0%",
-      "probs": {
-        "home": 46,
-        "draw": 30,
-        "away": 24
-      },
-      "xg": {
-        "home": "1.09",
-        "away": "0.68",
-        "total": "1.77"
-      },
-      "doubleChance": {
-        "12": 70,
-        "1X": 76,
-        "X2": 54
-      },
-      "overUnder": {
-        "over2_5": 26,
-        "under2_5": 74,
-        "oddsOver": "3.65",
-        "oddsUnder": "1.28"
-      },
-      "btts": {
-        "yes": 32,
-        "no": 68
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 20
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 20
-        },
-        {
-          "score": "0-0",
-          "prob": 16
-        },
-        {
-          "score": "0-1",
-          "prob": 13
-        }
-      ],
-      "asianHandicap": "Home -0.50",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "AFC Bournemouth vs Leeds United: Dixon-Coles P(H)46% D30% A24% • xG 1.09-0.68 • most likely score 1-0 (20%) • Home Win confidence 46% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-10-31:Manchester City FC:Brighton & Hove Albion FC",
-      "slug": "manchester-city-vs-brighton-hove-albion-prediction",
-      "utcDate": "2026-10-31T15:00:00Z",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
-      "home": "Manchester City",
-      "away": "Brighton & Hove Albion",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 96,
-      "odds": "1.01",
-      "value": "+23%",
-      "probs": {
-        "home": 96,
-        "draw": 3,
-        "away": 1
-      },
-      "xg": {
-        "home": "4.20",
-        "away": "0.30",
-        "total": "4.50"
-      },
-      "doubleChance": {
-        "12": 97,
-        "1X": 97,
-        "X2": 4
-      },
-      "overUnder": {
-        "over2_5": 80,
-        "under2_5": 20,
-        "oddsOver": "1.19",
-        "oddsUnder": "4.75"
-      },
-      "btts": {
-        "yes": 25,
-        "no": 75
-      },
-      "correctScore": {
-        "score": "4-0",
-        "prob": 17
-      },
-      "topScores": [
-        {
-          "score": "4-0",
-          "prob": 17
-        },
-        {
-          "score": "3-0",
-          "prob": 16
-        },
-        {
-          "score": "5-0",
-          "prob": 14
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Manchester City vs Brighton & Hove Albion: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.30 • most likely score 4-0 (17%) • Home Win confidence 96% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-10-31:Chelsea FC:Manchester United FC",
-      "slug": "chelsea-vs-manchester-united-prediction",
-      "utcDate": "2026-10-31T15:00:00Z",
-      "date": "2026-10-31",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "130h to kickoff",
-      "home": "Chelsea",
-      "away": "Manchester United",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 81,
-      "odds": "1.18",
-      "value": "+15%",
-      "probs": {
-        "home": 81,
-        "draw": 11,
-        "away": 8
-      },
-      "xg": {
-        "home": "3.45",
-        "away": "1.06",
-        "total": "4.51"
-      },
-      "doubleChance": {
-        "12": 89,
-        "1X": 92,
-        "X2": 19
-      },
-      "overUnder": {
-        "over2_5": 82,
-        "under2_5": 18,
-        "oddsOver": "1.16",
-        "oddsUnder": "5.28"
-      },
-      "btts": {
-        "yes": 63,
-        "no": 37
-      },
-      "correctScore": {
-        "score": "3-1",
-        "prob": 9
-      },
-      "topScores": [
-        {
-          "score": "3-1",
-          "prob": 9
-        },
-        {
-          "score": "3-0",
-          "prob": 8
-        },
-        {
-          "score": "2-1",
-          "prob": 7
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Chelsea vs Manchester United: Dixon-Coles P(H)81% D11% A8% • xG 3.45-1.06 • most likely score 3-1 (9%) • Home Win confidence 81% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2363,47 +2144,47 @@
   ],
   "news": [
     {
+      "title": "Gary Neville: Some Man United players 'aren't that professional'",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-26T12:29:05.000Z",
+      "excerpt": "Gary Neville has launched a scathing tirade at Manchester United's players following their latest heavy defeat.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50286162/gary-neville-man-united-players-not-professional-michael-carrick-premier-league",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736397_2_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Chelsea will 'keep confidence' in Mike Penders - Xabi Alonso",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-26T12:23:38.000Z",
+      "excerpt": "Xabi Alonso and Maxence Lacroix have thrown their support behind Mike Penders after the 21-year-old's own goal led to Saturday's 2-0 loss to",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50286547/chelsea-confidence-mike-penders-xabi-alonso",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736419_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Flick 'not accepting excuses' after Barcelona's El Clásico defeat",
+      "league": "La Liga",
+      "time": "4h ago",
+      "published": "2026-10-26T08:29:29.000Z",
+      "excerpt": "Flick 'not accepting excuses' after Barcelona's El Clásico defeat",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50285690/flick-not-accepting-excuses-barcelona-el-clasico-defeat",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_COM_SOC_Presser_Flick_not_accepting_excuses_after_Barcelonas_El_Clasico_defeat_20261026_GLOBA/dm_261026_COM_SOC_Presser_Flick_not_accepting_excuses_after_Barcelonas_El_Clasico_defeat_20261026_GLOBA.jpg",
+      "category": "football"
+    },
+    {
       "title": "Real Madrid take the Clásico",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "11h ago",
       "published": "2026-10-26T01:04:46.000Z",
       "excerpt": "Alex Kirkland recaps Real Madrid's performance against rivals Barcelona.",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50283410/real-madrid-take-clasico",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/dm_261025_16x9_Real_Madrid_IA/dm_261025_16x9_Real_Madrid_IA.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Pedri says Barcelona paid for stupid mistakes in loss to Real Madrid",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-10-25T23:57:32.000Z",
-      "excerpt": "Midfielder Pedri lamented stupid makes and slowness on the ball as Barcelona's perfect start to the LaLiga season was ended by Real Madrid i",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50282662/pedri-barcelona-stupid-mistakes-loss-real-madrid",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736234_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Sources: United consider Howe, Nagelsmann to replace under-fire Carrick",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-10-25T23:40:24.000Z",
-      "excerpt": "Manchester United are weighing up replacements with Michael Carrick's future as head coach in serious doubt, sources told ESPN.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50282328/man-united-howe-nagelsmann-replace-carrick",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729888_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Do Man United need to make a decision on Carrick's future?",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-10-25T23:38:41.000Z",
-      "excerpt": "Do Man United need to make a decision on Carrick's future?",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50282426/do-man-united-need-make-decision-carrick-future",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/dm_261025_COM_SOC_Analysis_Do_Man_United_need_to_make_a_decision_on_CarrickE28099s_future3F__GLOBAL_2026-10-25/dm_261025_COM_SOC_Analysis_Do_Man_United_need_to_make_a_decision_on_CarrickE28099s_future3F__GLOBAL_2026-10-25.jpg",
       "category": "football"
     }
   ],
