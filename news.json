@@ -1,22 +1,44 @@
 {
-  "lastUpdate": "2026-10-27T17:53:54.306Z",
+  "lastUpdate": "2026-10-27T22:03:54.829Z",
   "news": [
     {
-      "title": "Bayern Munich's Vincent Kompany improving 'day by day,' but no return date yet",
-      "league": "Bundesliga",
+      "title": "Yamal excited despite Ballon d'Or miss: 'Good things take time'",
+      "league": "La Liga",
       "time": "0h ago",
-      "published": "2026-10-27T17:51:46.000Z",
-      "excerpt": "Bayern Munich assistant coach Aaron Danks said head coach Vincent Kompany is in good spirits and improving \"day by day\" after being hospital",
+      "published": "2026-10-27T21:46:47.000Z",
+      "excerpt": "Barcelona star Lamine Yamal won best young talent for a third-straight year at Monday's Ballon d'Or, but the 19-year-old has his sights set ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50299531/bayern-munich-vincent-kompany-coach-collapse-virus",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737071_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50301141/yamal-excited-ballon-dor-miss",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732115_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Wayne Rooney's son Kai scores four for Man United Under-18s vs. Burnley",
-      "league": "Premier League",
+      "title": "Ballon d'or winner Harry Kane gets hero's welcome on Bayern Munich return",
+      "league": "Bundesliga",
       "time": "0h ago",
-      "published": "2026-10-27T17:44:52.000Z",
+      "published": "2026-10-27T21:16:30.000Z",
+      "excerpt": "After an historic Ballon d'Or win and an emotional speech, Harry Kane arrived back in Germany on Tuesday to a hero's welcome at Bayern Munic",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50301097/harry-kane-ballon-dor-award-bayern-munich-welcome",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737178_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Dortmund's Nmecha among Liverpool's midfield targets",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-27T20:47:00.000Z",
+      "excerpt": "Several midfielders across Europe are reportedly linked with a move to Liverpool. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50295266/transfer-rumors-news-real-madrid-eye-liverpool-alexis-mac-allister",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737159_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Wayne Rooney's son, Kai scores, 4 goals for Man United under-18s vs. Burnley",
+      "league": "Premier League",
+      "time": "3h ago",
+      "published": "2026-10-27T18:37:32.000Z",
       "excerpt": "Kai Rooney scored four goals as Manchester United's Under-18s thrashed Burnley 6-0 on Tuesday.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50299369/wayne-rooney-son-kai-hits-four-manchester-united-18s-vs-burnley",
@@ -26,7 +48,7 @@
     {
       "title": "Lens fans banned from Liverpool match for throwing flares vs. Brugge",
       "league": "Champions League",
-      "time": "0h ago",
+      "time": "4h ago",
       "published": "2026-10-27T17:36:00.000Z",
       "excerpt": "Fans of Ligue 1 club Lens were banned from buying tickets for a Champions League game at Liverpool by a UEFA disciplinary ruling Tuesday.",
       "source": "ESPN",
@@ -35,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Gary Neville: 'Really surprised' but 'happy' Michael Carrick set to continue as Man United boss",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-27T17:11:00.000Z",
-      "excerpt": "Michael Carrick faces a tough ask to get Manchester United's misfiring players to turn his team's fortunes around, according to former club ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50299184/gary-neville-really-surprised-happy-michael-carrick-set-continue-man-united-boss",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734430_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Napoli coach Massimiliano Allegri will not appeal touchline ban",
       "league": "Serie A",
-      "time": "0h ago",
+      "time": "4h ago",
       "published": "2026-10-27T17:08:45.000Z",
       "excerpt": "Napoli coach Massimiliano Allegri will watch Wednesday's Serie A clash with Monza from the stands after deciding not to appeal against his t",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "PSG's Khvicha Kvaratskhelia undergoes successful knee surgery",
       "league": "Ligue 1",
-      "time": "2h ago",
+      "time": "6h ago",
       "published": "2026-10-27T15:37:31.000Z",
       "excerpt": "Khvicha Kvaratskhelia has undergone successful surgery on his serious knee injury, Paris Saint-Germain confirmed.",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Milan boss Ruben Amorim faces injury headache ahead of pre-derby Bologna game",
       "league": "Serie A",
-      "time": "2h ago",
+      "time": "6h ago",
       "published": "2026-10-27T15:24:05.000Z",
       "excerpt": "A growing injury list has left AC Milan head coach Ruben Amorim facing a difficult week leading up to the weekend's derby against Inter Mila",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Ligue 1 reschedules matches amid public protests on streets in France",
       "league": "Ligue 1",
-      "time": "3h ago",
+      "time": "7h ago",
       "published": "2026-10-27T14:34:05.000Z",
       "excerpt": "Ligue 1 is moving scheduled games from Saturday at the request of public authorities amid weekend protests across the country.",
       "source": "ESPN",
@@ -92,7 +103,7 @@
     {
       "title": "Kane's long road to Ballon d'Or glory ends with his crowning moment",
       "league": "Champions League",
-      "time": "3h ago",
+      "time": "7h ago",
       "published": "2026-10-27T14:04:40.000Z",
       "excerpt": "After a remarkable year for Bayern Munich and England, Harry Kane becoming the world's best player is the ultimate reward for years of perse",
       "source": "ESPN",
@@ -103,34 +114,12 @@
     {
       "title": "Why Real Madrid's Mbappé, Barcelona's Yamal lost Ballon d'Or",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "7h ago",
       "published": "2026-10-27T14:04:11.000Z",
       "excerpt": "Kylian Mbappé and Lamine Yamal both achieved greatness last season, but it still wasn't enough for either of them to claim soccer's top indi",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50295834/why-real-madrid-kylian-mbappe-barcelona-lamine-yamal-lost-ballon-dor-harry-kane",
       "image": "https://a.espncdn.com/photo/2026/1027/r1736954_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Real Madrid eye Liverpool's Alexis Mac Allister",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-10-27T13:23:18.000Z",
-      "excerpt": "Liverpool midfielder Alexis Mac Allister has admirers at Real Madrid, while the Reds line up potential replacements. Transfer Talk has the l",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50295266/transfer-rumors-news-real-madrid-eye-liverpool-alexis-mac-allister",
-      "image": "https://a.espncdn.com/photo/2026/0909/r1713962_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Kane: Ballon d'Or win beyond wildest dreams",
-      "league": "Bundesliga",
-      "time": "9h ago",
-      "published": "2026-10-27T08:32:23.000Z",
-      "excerpt": "Kane: Ballon d'Or win beyond wildest dreams",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50295274/ballon-dor-win-wildest-dreams",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/dm_261027_COM_SOC_Presser_Kane_Ballon_dOr_win_beyond_wildest_dreams_20261027_GLOBAL/dm_261027_COM_SOC_Presser_Kane_Ballon_dOr_win_beyond_wildest_dreams_20261027_GLOBAL.jpg",
       "category": "football"
     }
   ]
