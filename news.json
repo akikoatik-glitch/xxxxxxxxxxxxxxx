@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-10-27T22:03:54.829Z",
+  "lastUpdate": "2026-10-28T05:18:13.067Z",
   "news": [
+    {
+      "title": "Is Fleetwood Town's defeat of Arsenal the biggest upset in League Cup history?",
+      "league": "Premier League",
+      "time": "5h ago",
+      "published": "2026-10-27T23:20:21.000Z",
+      "excerpt": "Arsenal aren't the only Premier League side to suffer Cup humiliation; ESPN takes a look at all the famous \"giant killings\" in England's Lea",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/46093270/is-fleetwood-town-defeat-arsenal-biggest-upset-league-cup-history",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737269_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Espanyol, with Watt among owners, sack González after loss to 4th-tier side",
+      "league": "La Liga",
+      "time": "6h ago",
+      "published": "2026-10-27T22:59:30.000Z",
+      "excerpt": "Espanyol, the LaLiga side whose ownership group includes former NFL star J.J. Watt, have sacked coach Manolo González following Tuesday's Co",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50301676/espanyol-watt-owners-sack-gonzalez-loss-4th-tier-side",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737240_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Yamal excited despite Ballon d'Or miss: 'Good things take time'",
       "league": "La Liga",
-      "time": "0h ago",
+      "time": "7h ago",
       "published": "2026-10-27T21:46:47.000Z",
       "excerpt": "Barcelona star Lamine Yamal won best young talent for a third-straight year at Monday's Ballon d'Or, but the 19-year-old has his sights set ",
       "source": "ESPN",
@@ -15,7 +37,7 @@
     {
       "title": "Ballon d'or winner Harry Kane gets hero's welcome on Bayern Munich return",
       "league": "Bundesliga",
-      "time": "0h ago",
+      "time": "8h ago",
       "published": "2026-10-27T21:16:30.000Z",
       "excerpt": "After an historic Ballon d'Or win and an emotional speech, Harry Kane arrived back in Germany on Tuesday to a hero's welcome at Bayern Munic",
       "source": "ESPN",
@@ -26,7 +48,7 @@
     {
       "title": "Transfer rumors, news: Dortmund's Nmecha among Liverpool's midfield targets",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "8h ago",
       "published": "2026-10-27T20:47:00.000Z",
       "excerpt": "Several midfielders across Europe are reportedly linked with a move to Liverpool. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -35,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Wayne Rooney's son, Kai scores, 4 goals for Man United under-18s vs. Burnley",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-10-27T18:37:32.000Z",
-      "excerpt": "Kai Rooney scored four goals as Manchester United's Under-18s thrashed Burnley 6-0 on Tuesday.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50299369/wayne-rooney-son-kai-hits-four-manchester-united-18s-vs-burnley",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737065_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Lens fans banned from Liverpool match for throwing flares vs. Brugge",
       "league": "Champions League",
-      "time": "4h ago",
+      "time": "11h ago",
       "published": "2026-10-27T17:36:00.000Z",
       "excerpt": "Fans of Ligue 1 club Lens were banned from buying tickets for a Champions League game at Liverpool by a UEFA disciplinary ruling Tuesday.",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Napoli coach Massimiliano Allegri will not appeal touchline ban",
       "league": "Serie A",
-      "time": "4h ago",
+      "time": "12h ago",
       "published": "2026-10-27T17:08:45.000Z",
       "excerpt": "Napoli coach Massimiliano Allegri will watch Wednesday's Serie A clash with Monza from the stands after deciding not to appeal against his t",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "PSG's Khvicha Kvaratskhelia undergoes successful knee surgery",
       "league": "Ligue 1",
-      "time": "6h ago",
+      "time": "13h ago",
       "published": "2026-10-27T15:37:31.000Z",
       "excerpt": "Khvicha Kvaratskhelia has undergone successful surgery on his serious knee injury, Paris Saint-Germain confirmed.",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Milan boss Ruben Amorim faces injury headache ahead of pre-derby Bologna game",
       "league": "Serie A",
-      "time": "6h ago",
+      "time": "13h ago",
       "published": "2026-10-27T15:24:05.000Z",
       "excerpt": "A growing injury list has left AC Milan head coach Ruben Amorim facing a difficult week leading up to the weekend's derby against Inter Mila",
       "source": "ESPN",
@@ -92,7 +103,7 @@
     {
       "title": "Ligue 1 reschedules matches amid public protests on streets in France",
       "league": "Ligue 1",
-      "time": "7h ago",
+      "time": "14h ago",
       "published": "2026-10-27T14:34:05.000Z",
       "excerpt": "Ligue 1 is moving scheduled games from Saturday at the request of public authorities amid weekend protests across the country.",
       "source": "ESPN",
@@ -103,23 +114,12 @@
     {
       "title": "Kane's long road to Ballon d'Or glory ends with his crowning moment",
       "league": "Champions League",
-      "time": "7h ago",
+      "time": "15h ago",
       "published": "2026-10-27T14:04:40.000Z",
       "excerpt": "After a remarkable year for Bayern Munich and England, Harry Kane becoming the world's best player is the ultimate reward for years of perse",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50265615/harry-kanes-long-road-ballon-dor-glory-ends-crowning-moment",
       "image": "https://a.espncdn.com/photo/2026/1026/r1736765_3_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Why Real Madrid's Mbappé, Barcelona's Yamal lost Ballon d'Or",
-      "league": "La Liga",
-      "time": "7h ago",
-      "published": "2026-10-27T14:04:11.000Z",
-      "excerpt": "Kylian Mbappé and Lamine Yamal both achieved greatness last season, but it still wasn't enough for either of them to claim soccer's top indi",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50295834/why-real-madrid-kylian-mbappe-barcelona-lamine-yamal-lost-ballon-dor-harry-kane",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736954_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
