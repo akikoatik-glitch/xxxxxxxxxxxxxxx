@@ -1,32 +1,65 @@
 {
-  "lastUpdate": "2026-10-28T12:36:41.838Z",
+  "lastUpdate": "2026-10-28T19:26:10.397Z",
   "news": [
     {
-      "title": "Man United's Michael Carrick and Bruno Fernandes hold 'clear-the-air' talks - reports",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-28T12:34:08.000Z",
-      "excerpt": "Manchester United head coach Michael Carrick and captain Bruno Fernandes have held clear-the-air talks.",
+      "title": "LaLiga chief Javier Tebas holds talks with Chinese ambassador over Mbappé-Mao controversy",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-10-28T17:43:48.000Z",
+      "excerpt": "LaLiga president Javier Tebas has met with China's Ambassador to Spain, Yao Jing, to \"find solutions\" to the Kylian Mbappé alleged dictator ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50306999/michael-carrick-bruno-fernandes-man-united-clear-air-talks-reports",
-      "image": "https://a.espncdn.com/photo/2026/1028/r1737443_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50306336/laliga-chief-javier-tebas-holds-crisis-talks-chinese-ambassador-mbappe-mao-controversy",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737420_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Sources: USMNT's Christian Pulisic set to sign new AC Milan contract",
+      "league": "Serie A",
+      "time": "2h ago",
+      "published": "2026-10-28T17:24:14.000Z",
+      "excerpt": "United States star Christian Pulisic is set to sign a new contract with AC Milan through to 2031, sources have told ESPN.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50305893/usmnt-christian-pulisic-set-sign-new-ac-milan-contract-sources",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737410_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Barcelona fined €602 over Julián Álvarez approach",
       "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-10-28T12:33:20.000Z",
-      "excerpt": "Barcelona have been fined €602 ($669) by the Royal Spanish Football Federation [RFEF] for approaching Julián Álvarez before notifying Atleti",
+      "time": "2h ago",
+      "published": "2026-10-28T16:59:18.000Z",
+      "excerpt": "Barcelona have been fined €602 ($669) by the Royal Spanish Football Federation [RFEF] for approaching Julián Álvarez before notifying Atléti",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50306327/barcelona-fined-julian-alvarez-approach-atletico-madrid",
       "image": "https://a.espncdn.com/photo/2026/1028/r1737418_1296x729_16-9.jpg",
       "category": "football"
     },
     {
+      "title": "Man United's Michael Carrick and Bruno Fernandes hold 'clear-the-air' talks - reports",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-28T16:57:15.000Z",
+      "excerpt": "Manchester United head coach Michael Carrick and captain Bruno Fernandes have held clear-the-air talks.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50306999/michael-carrick-bruno-fernandes-man-united-clear-air-talks-reports",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737470_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mussolini's great-grandson scores first goal for Lazio",
+      "league": "Serie A",
+      "time": "4h ago",
+      "published": "2026-10-28T15:21:00.000Z",
+      "excerpt": "Romano Floriani Mussolini, the great-grandson of former Italian dictator Benito Mussolini, scored his first goal for Lazio on Tuesday.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50308537/mussolini-great-grandson-scores-first-goal-lazio-serie-a",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737518_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
       "title": "Transfer rumors, news: Arsenal, Chelsea, City tracking PSG star Doué",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "7h ago",
       "published": "2026-10-28T12:01:41.000Z",
       "excerpt": "Paris Saint-Germain winger Désiré Doué is being watched by three Premier League clubs and Bayern Munich. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -35,20 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Sources: USMNT's Christian Pulisic set to sign new AC Milan contract",
-      "league": "Serie A",
-      "time": "0h ago",
-      "published": "2026-10-28T11:38:39.000Z",
-      "excerpt": "United States star Christian Pulisic is set to sign a new contract with AC Milan through to 2031, sources have told ESPN.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50305893/usmnt-christian-pulisic-set-sign-new-ac-milan-contract-sources",
-      "image": "https://a.espncdn.com/photo/2026/1028/r1737410_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Ballon d'Or winner Harry Kane gets hero's welcome on Bayern Munich return",
       "league": "Bundesliga",
-      "time": "1h ago",
+      "time": "8h ago",
       "published": "2026-10-28T10:45:27.000Z",
       "excerpt": "After an historic Ballon d'Or win and an emotional speech, Harry Kane arrived back in Germany on Tuesday to a hero's welcome at Bayern Munic",
       "source": "ESPN",
@@ -57,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "LaLiga chief Javier Tebas holds talks with Chinese ambassador over Mbappé-Mao controversy",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-10-28T10:38:03.000Z",
-      "excerpt": "LaLiga president Javier Tebas has met with China's Ambassador to Spain, Yao Jing, to \"find solutions\" to the Kylian Mbappé alleged dictator ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50306336/laliga-chief-javier-tebas-holds-crisis-talks-chinese-ambassador-mbappe-mao-controversy",
-      "image": "https://a.espncdn.com/photo/2026/1028/r1737420_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Dortmund's Nmecha among Liverpool's midfield targets",
       "league": "Bundesliga",
-      "time": "15h ago",
+      "time": "22h ago",
       "published": "2026-10-27T20:47:00.000Z",
       "excerpt": "Several midfielders across Europe are reportedly linked with a move to Liverpool. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Lens fans banned from Liverpool match for throwing flares vs. Brugge",
       "league": "Champions League",
-      "time": "19h ago",
+      "time": "27/10/2026",
       "published": "2026-10-27T17:36:00.000Z",
       "excerpt": "Fans of Ligue 1 club Lens were banned from buying tickets for a Champions League game at Liverpool by a UEFA disciplinary ruling Tuesday.",
       "source": "ESPN",
@@ -90,20 +101,9 @@
       "category": "football"
     },
     {
-      "title": "Napoli coach Massimiliano Allegri will not appeal touchline ban",
-      "league": "Serie A",
-      "time": "19h ago",
-      "published": "2026-10-27T17:08:45.000Z",
-      "excerpt": "Napoli coach Massimiliano Allegri will watch Wednesday's Serie A clash with Monza from the stands after deciding not to appeal against his t",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50299199/napoli-coach-massimiliano-allegri-not-appeal-touchline-ban",
-      "image": "https://a.espncdn.com/photo/2024/0604/r1341465_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "PSG's Khvicha Kvaratskhelia undergoes successful knee surgery",
       "league": "Ligue 1",
-      "time": "20h ago",
+      "time": "27/10/2026",
       "published": "2026-10-27T15:37:31.000Z",
       "excerpt": "Khvicha Kvaratskhelia has undergone successful surgery on his serious knee injury, Paris Saint-Germain confirmed.",
       "source": "ESPN",
@@ -114,7 +114,7 @@
     {
       "title": "Kane's long road to Ballon d'Or glory ends with his crowning moment",
       "league": "Champions League",
-      "time": "22h ago",
+      "time": "27/10/2026",
       "published": "2026-10-27T14:04:40.000Z",
       "excerpt": "After a remarkable year for Bayern Munich and England, Harry Kane becoming the world's best player is the ultimate reward for years of perse",
       "source": "ESPN",

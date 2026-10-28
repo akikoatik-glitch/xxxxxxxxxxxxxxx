@@ -5,48 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 28 Oct 2026 12:36:42 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 19:26:10 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>AC Milan vs Bologna FC 1909 — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/ac-milan-vs-bologna-fc-1909-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/ac-milan-vs-bologna-fc-1909-prediction.html</guid>
-    <pubDate>Wed, 28 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 96% confidence. Home Win at 1.01. Match kickoff: Wed, 28 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Venezia vs FC Internazionale Milano — Home Win @ 1.93</title>
-    <link>https://xwhiz.com/predictions/venezia-vs-fc-internazionale-milano-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/venezia-vs-fc-internazionale-milano-prediction.html</guid>
-    <pubDate>Wed, 28 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 49% confidence. Home Win at 1.93. Match kickoff: Wed, 28 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Parma Calcio 1913 vs Udinese Calcio — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/parma-calcio-1913-vs-udinese-calcio-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/parma-calcio-1913-vs-udinese-calcio-prediction.html</guid>
-    <pubDate>Wed, 28 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Wed, 28 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Genoa C vs Juventus — Away Win @ 1.25</title>
-    <link>https://xwhiz.com/predictions/genoa-c-vs-juventus-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/genoa-c-vs-juventus-prediction.html</guid>
-    <pubDate>Wed, 28 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 76% confidence. Away Win at 1.25. Match kickoff: Wed, 28 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>AC Monza vs SSC Napoli — Away Win @ 1.90</title>
-    <link>https://xwhiz.com/predictions/ac-monza-vs-ssc-napoli-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/ac-monza-vs-ssc-napoli-prediction.html</guid>
-    <pubDate>Wed, 28 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 50% confidence. Away Win at 1.90. Match kickoff: Wed, 28 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
   <item>
     <title>Frosinone Calcio vs US Lecce — Away Win @ 2.32</title>
     <link>https://xwhiz.com/predictions/frosinone-calcio-vs-us-lecce-prediction.html</link>
@@ -198,6 +158,46 @@
     <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
     <description>Bundesliga — 45% confidence. Home Win at 2.10. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>FC Schalke 04 vs RB Leipzig — Away Win @ 1.30</title>
+    <link>https://xwhiz.com/predictions/fc-schalke-04-vs-rb-leipzig-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-schalke-04-vs-rb-leipzig-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 73% confidence. Away Win at 1.30. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>Borussia Mönchengladbach vs SC Paderborn 07 — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/borussia-moenchengladbach-vs-sc-paderborn-07-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/borussia-moenchengladbach-vs-sc-paderborn-07-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>AC Milan vs FC Internazionale Milano — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/ac-milan-vs-fc-internazionale-milano-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ac-milan-vs-fc-internazionale-milano-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Udinese Calcio vs AS Roma — Away Win @ 1.06</title>
+    <link>https://xwhiz.com/predictions/udinese-calcio-vs-as-roma-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/udinese-calcio-vs-as-roma-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 90% confidence. Away Win at 1.06. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Bologna FC 1909 vs AC Monza — Away Win @ 2.27</title>
+    <link>https://xwhiz.com/predictions/bologna-fc-1909-vs-ac-monza-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/bologna-fc-1909-vs-ac-monza-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 42% confidence. Away Win at 2.27. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
   </item>
 </channel>
 </rss>
