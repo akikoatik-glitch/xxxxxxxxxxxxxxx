@@ -1,10 +1,54 @@
 {
-  "lastUpdate": "2026-10-29T05:33:48.256Z",
+  "lastUpdate": "2026-10-29T12:46:46.478Z",
   "news": [
+    {
+      "title": "Gary Neville tells the Glazers to sell their stakes in Manchester United",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-10-29T11:58:02.000Z",
+      "excerpt": "Former Manchester United captain Gary Neville has told the Glazers \"enough is enough\" and to sell their stake in the club.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50317190/gary-neville-glazers-man-united-ownership-joel-glazer-avram-glazer",
+      "image": "https://a.espncdn.com/photo/2026/1029/r1738010_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Xabi Alonso: Estêvão will 'have his moment' at Chelsea",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-29T11:09:49.000Z",
+      "excerpt": "Chelsea coach Xabi Alonso insists Estêvão will have \"his moment\" this season, with the teenage winger having only played 172 minutes.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50316630/xabi-alonso-estevao-chelsea-brazil-english-premier-league",
+      "image": "https://a.espncdn.com/photo/2026/1029/r1737998_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Mbappé's 100 Real Madrid goals: Quicker than Ronaldo to hit century",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-29T10:36:28.000Z",
+      "excerpt": "Kylian Mbappé has reached the 100-goal mark at Real Madrid. How does his century of strikes compare to some of the club's greatest forwards?",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50311567/mbappes-100-real-madrid-goals-quicker-ronaldo-hit-century",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737810_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Spain's top two football divisions to observe minute's silence for train crash victims",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-10-29T10:32:00.000Z",
+      "excerpt": "LaLiga have announced that a minute's silence will be held at all games in Spain's top two divisions this weekend in memory of the victims o",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50316339/spain-top-two-football-divisions-observe-minutes-silence-train-crash-victims",
+      "image": "https://a.espncdn.com/photo/2026/1029/r1737982_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Bayern Munich's Vincent Kompany discharged from hospital after collapse",
       "league": "Bundesliga",
-      "time": "4h ago",
+      "time": "11h ago",
       "published": "2026-10-29T01:01:52.000Z",
       "excerpt": "Bayern Munich coach Vincent Kompany has been discharged from the hospital following his collapse last week.",
       "source": "ESPN",
@@ -13,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "Enzo Maresca: Man City 'never practiced penalties' before shootout win",
-      "league": "Premier League",
-      "time": "5h ago",
-      "published": "2026-10-28T23:43:15.000Z",
-      "excerpt": "Man City boss Enzo Maresca said his players had not practiced penalties after edging past Brighton in a Carabao Cup shootout on Wednesday.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50312020/man-city-never-practiced-penalties-shootout-win",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1729308_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Bologna storm back to hand Milan, Amorim first Serie A loss",
       "league": "Serie A",
-      "time": "8h ago",
+      "time": "15h ago",
       "published": "2026-10-28T20:59:34.000Z",
       "excerpt": "Samuel Mbangula fired a hat trick as Bologna beat AC Milan 4-2 to hand the hosts a first Serie A loss of the season.",
       "source": "ESPN",
@@ -36,8 +69,8 @@
     },
     {
       "title": "Transfer rumors, news: Juventus eye move for USMNT's Balogun",
-      "league": "Premier League",
-      "time": "9h ago",
+      "league": "Serie A",
+      "time": "16h ago",
       "published": "2026-10-28T20:05:27.000Z",
       "excerpt": "AS Monaco and USMNT striker Folarin Balogun is reportedly linked with a move to Juventus. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -46,31 +79,9 @@
       "category": "football"
     },
     {
-      "title": "LaLiga chief Javier Tebas holds talks with Chinese ambassador over Mbappé-Mao controversy",
-      "league": "La Liga",
-      "time": "11h ago",
-      "published": "2026-10-28T17:43:48.000Z",
-      "excerpt": "LaLiga president Javier Tebas has met with China's Ambassador to Spain, Yao Jing, to \"find solutions\" to the Kylian Mbappé alleged dictator ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50306336/laliga-chief-javier-tebas-holds-crisis-talks-chinese-ambassador-mbappe-mao-controversy",
-      "image": "https://a.espncdn.com/photo/2026/1028/r1737420_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Barcelona fined €602 over Julián Álvarez approach",
-      "league": "La Liga",
-      "time": "12h ago",
-      "published": "2026-10-28T16:59:18.000Z",
-      "excerpt": "Barcelona have been fined €602 ($669) by the Royal Spanish Football Federation [RFEF] for approaching Julián Álvarez before notifying Atléti",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50306327/barcelona-fined-julian-alvarez-approach-atletico-madrid",
-      "image": "https://a.espncdn.com/photo/2026/1028/r1737418_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Ballon d'Or winner Harry Kane gets hero's welcome on Bayern Munich return",
       "league": "Bundesliga",
-      "time": "18h ago",
+      "time": "28/10/2026",
       "published": "2026-10-28T10:45:27.000Z",
       "excerpt": "After an historic Ballon d'Or win and an emotional speech, Harry Kane arrived back in Germany on Tuesday to a hero's welcome at Bayern Munic",
       "source": "ESPN",
