@@ -5,40 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 29 Oct 2026 12:46:46 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 19:29:46 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Tampines Rovers FC vs Preah Khan Reach Svay Rieng FC — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/tampines-rovers-fc-vs-preah-khan-reach-svay-rieng-fc-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/tampines-rovers-fc-vs-preah-khan-reach-svay-rieng-fc-prediction.html</guid>
-    <pubDate>Thu, 29 Oct 2026 10:00:00 GMT</pubDate>
-    <description>AFC Champions League Two — 61% confidence. Home Win at 1.56. Match kickoff: Thu, 29 Oct 2026 10:00:00 GMT.</description>
-    <category>AFC Champions League Two</category>
-  </item>
-  <item>
-    <title>Gangwon FC vs Kuching City FC — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/gangwon-fc-vs-kuching-city-fc-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/gangwon-fc-vs-kuching-city-fc-prediction.html</guid>
-    <pubDate>Thu, 29 Oct 2026 10:00:00 GMT</pubDate>
-    <description>AFC Champions League Two — 61% confidence. Home Win at 1.56. Match kickoff: Thu, 29 Oct 2026 10:00:00 GMT.</description>
-    <category>AFC Champions League Two</category>
-  </item>
-  <item>
-    <title>Frosinone Calcio vs US Lecce — Away Win @ 2.32</title>
-    <link>https://xwhiz.com/predictions/frosinone-calcio-vs-us-lecce-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/frosinone-calcio-vs-us-lecce-prediction.html</guid>
-    <pubDate>Thu, 29 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 41% confidence. Away Win at 2.32. Match kickoff: Thu, 29 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>ACF Fiorentina vs Atalanta BC — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/acf-fiorentina-vs-atalanta-bc-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/acf-fiorentina-vs-atalanta-bc-prediction.html</guid>
-    <pubDate>Thu, 29 Oct 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 94% confidence. Home Win at 1.01. Match kickoff: Thu, 29 Oct 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
   <item>
     <title>SV 07 Elversberg vs 1. FSV Mainz 05 — Away Win @ 1.83</title>
     <link>https://xwhiz.com/predictions/sv-07-elversberg-vs-1-fsv-mainz-05-prediction.html</link>
@@ -157,6 +125,22 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/bayer-04-leverkusen-vs-vfb-stuttgart-prediction.html</guid>
     <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
     <description>Bundesliga — 74% confidence. Home Win at 1.28. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>SV Werder Bremen vs TSG 1899 Hoffenheim — Home Win @ 1.58</title>
+    <link>https://xwhiz.com/predictions/sv-werder-bremen-vs-tsg-1899-hoffenheim-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sv-werder-bremen-vs-tsg-1899-hoffenheim-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 60% confidence. Home Win at 1.58. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
+    <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>FC Augsburg vs SC Freiburg — Home Win @ 2.10</title>
+    <link>https://xwhiz.com/predictions/fc-augsburg-vs-sc-freiburg-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-augsburg-vs-sc-freiburg-prediction.html</guid>
+    <pubDate>Sat, 31 Oct 2026 15:00:00 GMT</pubDate>
+    <description>Bundesliga — 45% confidence. Home Win at 2.10. Match kickoff: Sat, 31 Oct 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
   </item>
 </channel>
