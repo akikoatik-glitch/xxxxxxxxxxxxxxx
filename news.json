@@ -1,10 +1,76 @@
 {
-  "lastUpdate": "2026-10-30T12:38:59.789Z",
+  "lastUpdate": "2026-10-30T19:07:02.513Z",
   "news": [
     {
-      "title": "Global power ranking: The top 20 soccer teams in the world, ranked!",
-      "league": "Premier League",
+      "title": "Bayern Munich not allowing Kompany to be involved in Dortmund clash",
+      "league": "Bundesliga",
       "time": "0h ago",
+      "published": "2026-10-30T18:47:23.000Z",
+      "excerpt": "Vincent Kompany won't be on the sidelines for Bayern's match against Borussia Dortmund following his hospitalization last week.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50328630/vincent-kompany-sit-bayern-dortmund-leaving-hospital",
+      "image": "https://a.espncdn.com/photo/2026/0909/r1713698_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "USMNT star Christian Pulisic signs new AC Milan contract through 2031",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-10-30T18:36:04.000Z",
+      "excerpt": "United States star Christian Pulisic has signed a new contract with AC Milan through 2031.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50308383/usmnt-star-christian-pulisic-signs-new-ac-milan-contract",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737505_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Virgil van Dijk: Liverpool must 'take that risk' under Andoni Iraola playing style",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-30T17:30:15.000Z",
+      "excerpt": "Andoni Iraola's brand of risk-reward football is starting to take hold at Liverpool and captain Virgil van Dijk has said the players are bec",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50329062/virgil-van-dijk-liverpool-take-risk-andoni-iraola-playstyle",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738605_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Are Man City fans right about a Premier League 'Red Cartel' that's out to get them?",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-10-30T17:01:38.000Z",
+      "excerpt": "Man City fans have insisted for years that the likes of Liverpool, Man United and Arsenal have been conspiring against them, which is why Ci",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50321217/man-city-premier-league-red-cartel-allegation-liverpool-man-united-arsenal",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738598_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Barcelona's Flick on Yamal's Ballon d'Or setback: He reacted well",
+      "league": "La Liga",
+      "time": "3h ago",
+      "published": "2026-10-30T15:38:32.000Z",
+      "excerpt": "Barcelona coach Hansi Flick said Lamine Yamal has reacted like a champion to missing out on the Ballon d'Or to Bayern Munich striker Harry K",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50327622/barcelona-flick-yamal-ballon-dor-setback-reacted-well",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736915_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Pulisic staying in Milan reflects his club career: Good, but not quite great",
+      "league": "Serie A",
+      "time": "4h ago",
+      "published": "2026-10-30T14:09:57.000Z",
+      "excerpt": "Christian Pulisic's new contract with AC Milan means he'll spend the rest of his prime with the Italian giants. Could he have achieved more ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50319610/usmnt-christian-pulisic-new-contract-ac-milan-analysis-club-career",
+      "image": "https://a.espncdn.com/photo/2026/1029/r1738177_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Global power ranking: The top 20 soccer teams in the world, ranked!",
+      "league": "La Liga",
+      "time": "7h ago",
       "published": "2026-10-30T12:06:05.000Z",
       "excerpt": "If we look beyond the Premier League and beyond those who qualified for the Champions League, which are the best teams in the world?",
       "source": "ESPN",
@@ -13,31 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Tottenham's Pedro Porro keen on future LaLiga return",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-30T12:02:15.000Z",
-      "excerpt": "Pedro Porro has denied receiving offers from Barcelona and Real Madrid this summer but the Tottenham right-back has said that he would like ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50327134/pedro-porro-tottenham-hotspur-premier-league-laliga-real-madrid-barcelona",
-      "image": "https://a.espncdn.com/photo/2026/1030/r1738504_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Ruben Amorim 'not in danger' - AC Milan chief makes Top Gun vow",
-      "league": "Serie A",
-      "time": "2h ago",
-      "published": "2026-10-30T10:10:15.000Z",
-      "excerpt": "Ruben Amorim has been backed by AC Milan's owner who used a famous Top Gun reference.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50326721/ruben-amorim-gerry-cardinale-ac-milan-chief-makes-top-gun-vow",
-      "image": "https://a.espncdn.com/photo/2026/0915/r1717033_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Liverpool in contact over Monaco's Camara",
       "league": "Ligue 1",
-      "time": "16h ago",
+      "time": "22h ago",
       "published": "2026-10-29T20:20:34.000Z",
       "excerpt": "Liverpool have reached out to representatives of Lamine Camara and will explore a transfer next summer. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -48,7 +92,7 @@
     {
       "title": "Man City, Bayern among the good, bad and lucky in Europe's top leagues",
       "league": "Champions League",
-      "time": "20h ago",
+      "time": "29/10/2026",
       "published": "2026-10-29T16:26:42.000Z",
       "excerpt": "We're a quarter of the way through the 2026-27 European season -- long enough to separate fact from fiction when it comes to from. Who's bee",
       "source": "ESPN",
