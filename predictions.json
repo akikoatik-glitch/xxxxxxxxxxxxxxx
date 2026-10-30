@@ -1,8 +1,8 @@
 {
   "date": "2026-10-31",
-  "lastUpdate": "2026-10-30T19:07:02.581Z",
-  "predictionGenerated": "2026-10-30T19:07:02.581Z",
-  "dataTimestamp": "2026-10-30T19:07:00.087Z",
+  "lastUpdate": "2026-10-30T23:35:50.169Z",
+  "predictionGenerated": "2026-10-30T23:35:50.169Z",
+  "dataTimestamp": "2026-10-30T23:35:47.417Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:45+tomorrow:39+upcoming:30+fixtures:60)",
   "matches": [
@@ -13,7 +13,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Chelsea",
       "away": "Manchester United",
       "league": "Premier League",
@@ -86,7 +86,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Manchester City",
       "away": "Brighton & Hove Albion",
       "league": "Premier League",
@@ -159,7 +159,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "AFC Bournemouth",
       "away": "Leeds United",
       "league": "Premier League",
@@ -232,7 +232,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Coventry City",
       "away": "Sunderland A",
       "league": "Premier League",
@@ -305,7 +305,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Hull City A",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -378,7 +378,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Brentford",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -451,7 +451,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Crystal Palace",
       "league": "Premier League",
@@ -524,7 +524,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Aston Villa",
       "away": "Fulham",
       "league": "Premier League",
@@ -597,7 +597,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Borussia Mönchengladbach",
       "away": "SC Paderborn 07",
       "league": "Bundesliga",
@@ -670,7 +670,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "FC Schalke 04",
       "away": "RB Leipzig",
       "league": "Bundesliga",
@@ -743,7 +743,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "FC Augsburg",
       "away": "SC Freiburg",
       "league": "Bundesliga",
@@ -816,7 +816,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "SV Werder Bremen",
       "away": "TSG 1899 Hoffenheim",
       "league": "Bundesliga",
@@ -889,7 +889,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Bayer 04 Leverkusen",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -962,7 +962,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "FC Bayern München",
       "away": "Borussia Dortmund",
       "league": "Bundesliga",
@@ -1035,7 +1035,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Bologna FC 1909",
       "away": "AC Monza",
       "league": "Serie A",
@@ -1108,7 +1108,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Udinese Calcio",
       "away": "AS Roma",
       "league": "Serie A",
@@ -1181,7 +1181,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "AC Milan",
       "away": "FC Internazionale Milano",
       "league": "Serie A",
@@ -1254,7 +1254,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "OGC Nice",
       "away": "Stade Rennais FC 1901",
       "league": "Ligue 1",
@@ -1263,50 +1263,50 @@
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 86,
-      "odds": "1.11",
-      "value": "+18%",
+      "conf": 93,
+      "odds": "1.02",
+      "value": "+22%",
       "probs": {
-        "home": 86,
-        "draw": 11,
-        "away": 4
+        "home": 93,
+        "draw": 5,
+        "away": 2
       },
       "xg": {
-        "home": "2.62",
-        "away": "0.36",
-        "total": "2.98"
+        "home": "3.71",
+        "away": "0.38",
+        "total": "4.09"
       },
       "doubleChance": {
-        "12": 89,
-        "1X": 96,
-        "X2": 14
+        "12": 95,
+        "1X": 97,
+        "X2": 7
       },
       "overUnder": {
-        "over2_5": 56,
-        "under2_5": 44,
-        "oddsOver": "1.70",
-        "oddsUnder": "2.16"
+        "over2_5": 76,
+        "under2_5": 24,
+        "oddsOver": "1.25",
+        "oddsUnder": "3.96"
       },
       "btts": {
-        "yes": 28,
-        "no": 72
+        "yes": 31,
+        "no": 69
       },
       "correctScore": {
-        "score": "2-0",
-        "prob": 18
+        "score": "3-0",
+        "prob": 16
       },
       "topScores": [
         {
-          "score": "2-0",
-          "prob": 18
-        },
-        {
           "score": "3-0",
-          "prob": 15
+          "prob": 16
         },
         {
-          "score": "1-0",
+          "score": "4-0",
           "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -1315,7 +1315,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "OGC Nice vs Stade Rennais FC 1901: Dixon-Coles P(H)86% D11% A4% • xG 2.62-0.36 • most likely score 2-0 (18%) • Home Win confidence 86% • strengths from real standings",
+      "whyWin": "OGC Nice vs Stade Rennais FC 1901: Dixon-Coles P(H)93% D5% A2% • xG 3.71-0.38 • most likely score 3-0 (16%) • Home Win confidence 93% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1327,7 +1327,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Olympique Lyonnais",
       "away": "Angers SCO",
       "league": "Ligue 1",
@@ -1346,8 +1346,8 @@
       },
       "xg": {
         "home": "4.20",
-        "away": "0.33",
-        "total": "4.53"
+        "away": "0.32",
+        "total": "4.52"
       },
       "doubleChance": {
         "12": 97,
@@ -1388,7 +1388,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Olympique Lyonnais vs Angers SCO: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.33 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
+      "whyWin": "Olympique Lyonnais vs Angers SCO: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.32 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1400,7 +1400,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "FC Lorient",
       "away": "Stade Brestois 29",
       "league": "Ligue 1",
@@ -1410,7 +1410,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 41,
-      "odds": "2.31",
+      "odds": "2.32",
       "value": "+0%",
       "probs": {
         "home": 41,
@@ -1418,9 +1418,9 @@
         "away": 36
       },
       "xg": {
-        "home": "1.47",
-        "away": "1.35",
-        "total": "2.82"
+        "home": "1.45",
+        "away": "1.33",
+        "total": "2.78"
       },
       "doubleChance": {
         "12": 77,
@@ -1428,14 +1428,14 @@
         "X2": 59
       },
       "overUnder": {
-        "over2_5": 54,
-        "under2_5": 46,
-        "oddsOver": "1.76",
-        "oddsUnder": "2.07"
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
       },
       "btts": {
-        "yes": 56,
-        "no": 44
+        "yes": 55,
+        "no": 45
       },
       "correctScore": {
         "score": "1-1",
@@ -1461,7 +1461,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "FC Lorient vs Stade Brestois 29: Dixon-Coles P(H)41% D23% A36% • xG 1.47-1.35 • most likely score 1-1 (11%) • Home Win confidence 41% • strengths from real standings",
+      "whyWin": "FC Lorient vs Stade Brestois 29: Dixon-Coles P(H)41% D23% A36% • xG 1.45-1.33 • most likely score 1-1 (11%) • Home Win confidence 41% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1473,7 +1473,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "ES Troyes AC",
       "away": "Le Mans",
       "league": "Ligue 1",
@@ -1483,7 +1483,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 74,
-      "odds": "1.28",
+      "odds": "1.29",
       "value": "+12%",
       "probs": {
         "home": 74,
@@ -1491,9 +1491,9 @@
         "away": 11
       },
       "xg": {
-        "home": "2.51",
-        "away": "0.83",
-        "total": "3.34"
+        "home": "2.47",
+        "away": "0.82",
+        "total": "3.29"
       },
       "doubleChance": {
         "12": 85,
@@ -1501,23 +1501,23 @@
         "X2": 26
       },
       "overUnder": {
-        "over2_5": 64,
-        "under2_5": 36,
-        "oddsOver": "1.48",
-        "oddsUnder": "2.64"
+        "over2_5": 63,
+        "under2_5": 37,
+        "oddsOver": "1.51",
+        "oddsUnder": "2.57"
       },
       "btts": {
-        "yes": 51,
-        "no": 49
+        "yes": 50,
+        "no": 50
       },
       "correctScore": {
         "score": "2-0",
-        "prob": 11
+        "prob": 12
       },
       "topScores": [
         {
           "score": "2-0",
-          "prob": 11
+          "prob": 12
         },
         {
           "score": "1-0",
@@ -1534,7 +1534,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "ES Troyes AC vs Le Mans: Dixon-Coles P(H)74% D15% A11% • xG 2.51-0.83 • most likely score 2-0 (11%) • Home Win confidence 74% • strengths from real standings",
+      "whyWin": "ES Troyes AC vs Le Mans: Dixon-Coles P(H)74% D15% A11% • xG 2.47-0.82 • most likely score 2-0 (12%) • Home Win confidence 74% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1546,7 +1546,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Feyenoord Rotterdam",
       "away": "Fortuna Sittard",
       "league": "Eredivisie",
@@ -1619,7 +1619,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "SC Heerenveen",
       "away": "NEC",
       "league": "Eredivisie",
@@ -1692,7 +1692,7 @@
       "date": "2026-10-31",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "19h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "PSV",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Bayern Munich not allowing Kompany to be involved in Dortmund clash",
-      "league": "Bundesliga",
-      "time": "0h ago",
-      "published": "2026-10-30T18:47:23.000Z",
-      "excerpt": "Vincent Kompany won't be on the sidelines for Bayern's match against Borussia Dortmund following his hospitalization last week.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50328630/vincent-kompany-sit-bayern-dortmund-leaving-hospital",
-      "image": "https://a.espncdn.com/photo/2026/0909/r1713698_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "USMNT star Christian Pulisic signs new AC Milan contract through 2031",
-      "league": "Serie A",
-      "time": "0h ago",
-      "published": "2026-10-30T18:36:04.000Z",
-      "excerpt": "United States star Christian Pulisic has signed a new contract with AC Milan through 2031.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50308383/usmnt-star-christian-pulisic-signs-new-ac-milan-contract",
-      "image": "https://a.espncdn.com/photo/2026/1028/r1737505_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Virgil van Dijk: Liverpool must 'take that risk' under Andoni Iraola playing style",
+      "title": "Michael Carrick: 'Hard truths' have been shared amid Man United slump",
       "league": "Premier League",
       "time": "1h ago",
-      "published": "2026-10-30T17:30:15.000Z",
-      "excerpt": "Andoni Iraola's brand of risk-reward football is starting to take hold at Liverpool and captain Virgil van Dijk has said the players are bec",
+      "published": "2026-10-30T22:31:03.000Z",
+      "excerpt": "Manchester United manager Michael Carrick said \"hard truths\" have been spoken between himself, the players and the club hierarchy amid an ei",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50329062/virgil-van-dijk-liverpool-take-risk-andoni-iraola-playstyle",
-      "image": "https://a.espncdn.com/photo/2026/1030/r1738605_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50329748/man-united-michael-carrick-coach-players-talks",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738651_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Are Man City fans right about a Premier League 'Red Cartel' that's out to get them?",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-10-30T17:01:38.000Z",
-      "excerpt": "Man City fans have insisted for years that the likes of Liverpool, Man United and Arsenal have been conspiring against them, which is why Ci",
+      "title": "Achraf Hakimi scores 1st career hat trick as Luis Enrique makes PSG history",
+      "league": "Ligue 1",
+      "time": "1h ago",
+      "published": "2026-10-30T22:30:15.000Z",
+      "excerpt": "Right back Achraf Hakimi claimed a first career hat trick and provided two assists as Luis Enrique became the winningest coach in Paris Sain",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50321217/man-city-premier-league-red-cartel-allegation-liverpool-man-united-arsenal",
-      "image": "https://a.espncdn.com/photo/2026/1030/r1738598_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50330654/psg-achraf-hakimi-hat-trick-luis-enrique-wins-record-le-havre",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738690_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Burley: Alonso and Carrick both under pressure ahead of Man United-Chelsea clash",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-10-30T22:00:40.000Z",
+      "excerpt": "Burley: Alonso and Carrick both under pressure ahead of Man United-Chelsea clash",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50331086/alonso-carrick-pressure-ahead-man-united-chelsea-clash",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1030/dm_261030_BurleyAlonso_and_Carrick_both_under_pressure_ahead_of_Man_UnitedChelsea_clash/dm_261030_BurleyAlonso_and_Carrick_both_under_pressure_ahead_of_Man_UnitedChelsea_clash.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Villarreal vs. Espanyol - Game Highlights",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-10-30T21:59:33.000Z",
+      "excerpt": "Watch the Game Highlights from Villarreal vs. Espanyol, 10/31/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50331093/villarreal-vs-espanyol-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/53b6a5f9-ba83-42fb-99a2-adabc8d0f9f9/53b6a5f9-ba83-42fb-99a2-adabc8d0f9f9.jpg",
       "category": "football"
     }
   ],
