@@ -1,8 +1,8 @@
 {
   "date": "2026-11-01",
-  "lastUpdate": "2026-10-31T18:24:51.869Z",
-  "predictionGenerated": "2026-10-31T18:24:51.869Z",
-  "dataTimestamp": "2026-10-31T18:24:49.380Z",
+  "lastUpdate": "2026-10-31T23:16:03.031Z",
+  "predictionGenerated": "2026-10-31T23:16:03.031Z",
+  "dataTimestamp": "2026-10-31T23:16:00.402Z",
   "dataFreshness": "fresh",
   "source": "rolling 7-day pool (today:84+tomorrow:29+upcoming:30+fixtures:60)",
   "matches": [
@@ -13,7 +13,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Liverpool",
       "away": "Arsenal",
       "league": "Premier League",
@@ -41,10 +41,10 @@
         "X2": 66
       },
       "overUnder": {
-        "over2_5": 22,
-        "under2_5": 78,
-        "oddsOver": "4.32",
-        "oddsUnder": "1.22"
+        "over2_5": 23,
+        "under2_5": 77,
+        "oddsOver": "4.13",
+        "oddsUnder": "1.23"
       },
       "btts": {
         "yes": 30,
@@ -52,12 +52,12 @@
       },
       "correctScore": {
         "score": "0-0",
-        "prob": 19
+        "prob": 18
       },
       "topScores": [
         {
           "score": "0-0",
-          "prob": 19
+          "prob": 18
         },
         {
           "score": "1-0",
@@ -74,7 +74,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Liverpool vs Arsenal: Dixon-Coles P(H)34% D33% A33% • xG 0.83-0.80 • most likely score 0-0 (19%) • Home Win confidence 34% • strengths from real standings",
+      "whyWin": "Liverpool vs Arsenal: Dixon-Coles P(H)34% D33% A33% • xG 0.83-0.80 • most likely score 0-0 (18%) • Home Win confidence 34% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -86,7 +86,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Real Betis Balompié",
       "away": "Málaga CF",
       "league": "La Liga",
@@ -159,7 +159,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Villarreal CF",
       "away": "RCD Espanyol de Barcelona",
       "league": "La Liga",
@@ -169,7 +169,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 37,
-      "odds": "2.58",
+      "odds": "2.59",
       "value": "+0%",
       "probs": {
         "home": 37,
@@ -177,9 +177,9 @@
         "away": 34
       },
       "xg": {
-        "home": "1.00",
-        "away": "0.95",
-        "total": "1.95"
+        "home": "0.99",
+        "away": "0.93",
+        "total": "1.92"
       },
       "doubleChance": {
         "12": 71,
@@ -187,23 +187,23 @@
         "X2": 63
       },
       "overUnder": {
-        "over2_5": 31,
-        "under2_5": 69,
-        "oddsOver": "3.06",
-        "oddsUnder": "1.38"
+        "over2_5": 30,
+        "under2_5": 70,
+        "oddsOver": "3.17",
+        "oddsUnder": "1.36"
       },
       "btts": {
-        "yes": 38,
-        "no": 62
+        "yes": 37,
+        "no": 63
       },
       "correctScore": {
         "score": "1-0",
-        "prob": 15
+        "prob": 16
       },
       "topScores": [
         {
           "score": "1-0",
-          "prob": 15
+          "prob": 16
         },
         {
           "score": "0-1",
@@ -211,7 +211,7 @@
         },
         {
           "score": "0-0",
-          "prob": 13
+          "prob": 14
         }
       ],
       "asianHandicap": "Level (0)",
@@ -220,7 +220,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Villarreal CF vs RCD Espanyol de Barcelona: Dixon-Coles P(H)37% D29% A34% • xG 1.00-0.95 • most likely score 1-0 (15%) • Home Win confidence 37% • strengths from real standings",
+      "whyWin": "Villarreal CF vs RCD Espanyol de Barcelona: Dixon-Coles P(H)37% D29% A34% • xG 0.99-0.93 • most likely score 1-0 (16%) • Home Win confidence 37% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -232,7 +232,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Elche CF",
       "away": "Valencia CF",
       "league": "La Liga",
@@ -241,33 +241,33 @@
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 64,
-      "odds": "1.49",
+      "conf": 63,
+      "odds": "1.50",
       "value": "+7%",
       "probs": {
-        "home": 64,
-        "draw": 22,
+        "home": 63,
+        "draw": 23,
         "away": 14
       },
       "xg": {
-        "home": "1.63",
-        "away": "0.59",
-        "total": "2.22"
+        "home": "1.61",
+        "away": "0.58",
+        "total": "2.19"
       },
       "doubleChance": {
-        "12": 78,
+        "12": 77,
         "1X": 86,
-        "X2": 36
+        "X2": 37
       },
       "overUnder": {
-        "over2_5": 38,
-        "under2_5": 62,
-        "oddsOver": "2.50",
-        "oddsUnder": "1.53"
+        "over2_5": 37,
+        "under2_5": 63,
+        "oddsOver": "2.57",
+        "oddsUnder": "1.51"
       },
       "btts": {
-        "yes": 35,
-        "no": 65
+        "yes": 34,
+        "no": 66
       },
       "correctScore": {
         "score": "1-0",
@@ -280,7 +280,7 @@
         },
         {
           "score": "2-0",
-          "prob": 14
+          "prob": 15
         },
         {
           "score": "0-0",
@@ -293,7 +293,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Elche CF vs Valencia CF: Dixon-Coles P(H)64% D22% A14% • xG 1.63-0.59 • most likely score 1-0 (19%) • Home Win confidence 64% • strengths from real standings",
+      "whyWin": "Elche CF vs Valencia CF: Dixon-Coles P(H)63% D23% A14% • xG 1.61-0.58 • most likely score 1-0 (19%) • Home Win confidence 63% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -305,7 +305,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Athletic Club",
       "away": "Real Sociedad de Fútbol",
       "league": "La Liga",
@@ -323,9 +323,9 @@
         "away": 1
       },
       "xg": {
-        "home": "3.68",
+        "home": "3.65",
         "away": "0.30",
-        "total": "3.98"
+        "total": "3.95"
       },
       "doubleChance": {
         "12": 95,
@@ -333,10 +333,10 @@
         "X2": 6
       },
       "overUnder": {
-        "over2_5": 74,
-        "under2_5": 26,
-        "oddsOver": "1.28",
-        "oddsUnder": "3.65"
+        "over2_5": 73,
+        "under2_5": 27,
+        "oddsOver": "1.30",
+        "oddsUnder": "3.52"
       },
       "btts": {
         "yes": 25,
@@ -353,7 +353,7 @@
         },
         {
           "score": "4-0",
-          "prob": 16
+          "prob": 15
         },
         {
           "score": "2-0",
@@ -366,7 +366,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Athletic Club vs Real Sociedad de Fútbol: Dixon-Coles P(H)94% D5% A1% • xG 3.68-0.30 • most likely score 3-0 (17%) • Home Win confidence 94% • strengths from real standings",
+      "whyWin": "Athletic Club vs Real Sociedad de Fútbol: Dixon-Coles P(H)94% D5% A1% • xG 3.65-0.30 • most likely score 3-0 (17%) • Home Win confidence 94% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -378,7 +378,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Levante UD",
       "away": "Club Atlético de Madrid",
       "league": "La Liga",
@@ -451,7 +451,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "RC Deportivo La Coruña",
       "away": "CA Osasuna",
       "league": "La Liga",
@@ -469,9 +469,9 @@
         "away": 27
       },
       "xg": {
-        "home": "1.47",
-        "away": "1.03",
-        "total": "2.50"
+        "home": "1.46",
+        "away": "1.02",
+        "total": "2.48"
       },
       "doubleChance": {
         "12": 76,
@@ -503,7 +503,7 @@
         },
         {
           "score": "0-1",
-          "prob": 9
+          "prob": 10
         }
       ],
       "asianHandicap": "Home -0.50",
@@ -512,7 +512,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "RC Deportivo La Coruña vs CA Osasuna: Dixon-Coles P(H)48% D24% A27% • xG 1.47-1.03 • most likely score 1-0 (13%) • Home Win confidence 48% • strengths from real standings",
+      "whyWin": "RC Deportivo La Coruña vs CA Osasuna: Dixon-Coles P(H)48% D24% A27% • xG 1.46-1.02 • most likely score 1-0 (13%) • Home Win confidence 48% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -524,7 +524,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "FC Barcelona",
       "away": "Deportivo Alavés",
       "league": "La Liga",
@@ -543,8 +543,8 @@
       },
       "xg": {
         "home": "4.20",
-        "away": "0.32",
-        "total": "4.52"
+        "away": "0.31",
+        "total": "4.51"
       },
       "doubleChance": {
         "12": 97,
@@ -558,21 +558,21 @@
         "oddsUnder": "4.75"
       },
       "btts": {
-        "yes": 27,
-        "no": 73
+        "yes": 26,
+        "no": 74
       },
       "correctScore": {
         "score": "4-0",
-        "prob": 16
+        "prob": 17
       },
       "topScores": [
         {
           "score": "4-0",
-          "prob": 16
+          "prob": 17
         },
         {
           "score": "3-0",
-          "prob": 15
+          "prob": 16
         },
         {
           "score": "5-0",
@@ -585,7 +585,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "FC Barcelona vs Deportivo Alavés: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.32 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
+      "whyWin": "FC Barcelona vs Deportivo Alavés: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.31 • most likely score 4-0 (17%) • Home Win confidence 96% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -597,7 +597,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Getafe CF",
       "away": "Sevilla",
       "league": "La Liga",
@@ -670,7 +670,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Real Racing Club de Santander",
       "away": "Real Madrid CF",
       "league": "La Liga",
@@ -743,7 +743,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Rayo Vallecano de Madrid",
       "away": "RC Celta de Vigo",
       "league": "La Liga",
@@ -816,7 +816,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -889,7 +889,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "Hamburger SV",
       "league": "Bundesliga",
@@ -962,7 +962,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Como 1907",
       "away": "Venezia",
       "league": "Serie A",
@@ -972,7 +972,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 66,
-      "odds": "1.44",
+      "odds": "1.45",
       "value": "+8%",
       "probs": {
         "home": 66,
@@ -980,9 +980,9 @@
         "away": 13
       },
       "xg": {
-        "home": "1.69",
+        "home": "1.68",
         "away": "0.56",
-        "total": "2.25"
+        "total": "2.24"
       },
       "doubleChance": {
         "12": 78,
@@ -1017,13 +1017,13 @@
           "prob": 10
         }
       ],
-      "asianHandicap": "Home -1.3",
+      "asianHandicap": "Home -1.0",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Como 1907 vs Venezia: Dixon-Coles P(H)66% D22% A13% • xG 1.69-0.56 • most likely score 1-0 (19%) • Home Win confidence 66% • strengths from real standings",
+      "whyWin": "Como 1907 vs Venezia: Dixon-Coles P(H)66% D22% A13% • xG 1.68-0.56 • most likely score 1-0 (19%) • Home Win confidence 66% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1035,7 +1035,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Frosinone Calcio",
       "away": "Torino",
       "league": "Serie A",
@@ -1044,22 +1044,22 @@
       "status": "TIMED",
       "pred": "Away Win",
       "sub": "2 • Full Time",
-      "conf": 54,
-      "odds": "1.77",
+      "conf": 53,
+      "odds": "1.78",
       "value": "+2%",
       "probs": {
         "home": 24,
         "draw": 23,
-        "away": 54
+        "away": 53
       },
       "xg": {
-        "home": "0.99",
-        "away": "1.65",
-        "total": "2.64"
+        "home": "0.98",
+        "away": "1.63",
+        "total": "2.61"
       },
       "doubleChance": {
         "12": 77,
-        "1X": 46,
+        "1X": 47,
         "X2": 76
       },
       "overUnder": {
@@ -1069,8 +1069,8 @@
         "oddsUnder": "1.86"
       },
       "btts": {
-        "yes": 50,
-        "no": 50
+        "yes": 49,
+        "no": 51
       },
       "correctScore": {
         "score": "0-1",
@@ -1096,7 +1096,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Frosinone Calcio vs Torino: Dixon-Coles P(H)24% D23% A54% • xG 0.99-1.65 • most likely score 0-1 (13%) • Away Win confidence 54% • strengths from real standings",
+      "whyWin": "Frosinone Calcio vs Torino: Dixon-Coles P(H)24% D23% A53% • xG 0.98-1.63 • most likely score 0-1 (13%) • Away Win confidence 53% • strengths from real standings",
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1108,7 +1108,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "SS Lazio",
       "away": "Cagliari Calcio",
       "league": "Serie A",
@@ -1181,7 +1181,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "US Lecce",
       "away": "Genoa C",
       "league": "Serie A",
@@ -1254,7 +1254,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Juventus",
       "away": "SSC Napoli",
       "league": "Serie A",
@@ -1264,7 +1264,7 @@
       "pred": "Home Win",
       "sub": "1 • Full Time",
       "conf": 56,
-      "odds": "1.69",
+      "odds": "1.70",
       "value": "+3%",
       "probs": {
         "home": 56,
@@ -1272,9 +1272,9 @@
         "away": 18
       },
       "xg": {
-        "home": "1.41",
+        "home": "1.39",
         "away": "0.65",
-        "total": "2.06"
+        "total": "2.04"
       },
       "doubleChance": {
         "12": 74,
@@ -1282,10 +1282,10 @@
         "X2": 44
       },
       "overUnder": {
-        "over2_5": 34,
-        "under2_5": 66,
-        "oddsOver": "2.79",
-        "oddsUnder": "1.44"
+        "over2_5": 33,
+        "under2_5": 67,
+        "oddsOver": "2.88",
+        "oddsUnder": "1.42"
       },
       "btts": {
         "yes": 35,
@@ -1315,7 +1315,7 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Juventus vs SSC Napoli: Dixon-Coles P(H)56% D26% A18% • xG 1.41-0.65 • most likely score 1-0 (19%) • Home Win confidence 56% • strengths from real standings",
+      "whyWin": "Juventus vs SSC Napoli: Dixon-Coles P(H)56% D26% A18% • xG 1.39-0.65 • most likely score 1-0 (19%) • Home Win confidence 56% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1327,7 +1327,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "RC Strasbourg Alsace",
       "away": "AJ Auxerre",
       "league": "Ligue 1",
@@ -1400,7 +1400,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Paris",
       "away": "AS Monaco",
       "league": "Ligue 1",
@@ -1473,7 +1473,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Olympique de Marseille",
       "away": "Toulouse",
       "league": "Ligue 1",
@@ -1546,7 +1546,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "PEC Zwolle",
       "away": "ADO Den Haag",
       "league": "Eredivisie",
@@ -1619,7 +1619,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "Telstar 1963",
       "away": "FC Utrecht",
       "league": "Eredivisie",
@@ -1692,7 +1692,7 @@
       "date": "2026-11-01",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "20h to kickoff",
+      "countdown": "15h to kickoff",
       "home": "SBV Excelsior",
       "away": "FC Twente '65",
       "league": "Eredivisie",
@@ -2363,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Premier League live updates: Chelsea punish wasteful Man United, City fall to Brighton",
+      "title": "Leboeuf: I enjoy Tottenham's style of play under De Zerbi",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-31T18:18:13.000Z",
-      "excerpt": "We've got plenty of treats in store on Halloween. Chelsea beat Manchester United 2-0 as Lisandro Martinez was sent off before Man City slipp",
+      "published": "2026-10-31T23:05:10.000Z",
+      "excerpt": "Leboeuf: I enjoy Tottenham's style of play under De Zerbi",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50319491/premier-league-live-updates-chelsea-manchester-united-manchester-city-tottenham",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1739017_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50341145/enjoy-tottenham-style-play-de-zerbi",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Leboeuf3A_I_enjoy_TottenhamE28099s_style_of_play_under_De_Zerbi_GLOBAL_2026-10-31/dm_261031_COM_SOC_Analysis_Leboeuf3A_I_enjoy_TottenhamE28099s_style_of_play_under_De_Zerbi_GLOBAL_2026-10-31.jpg",
       "category": "football"
     },
     {
-      "title": "Are Brighton the most 'complete' team in the Premier League?",
+      "title": "Nicol: Yamal gets too frustrated on the pitch for Barcelona",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-10-31T23:04:26.000Z",
+      "excerpt": "Nicol: Yamal gets too frustrated on the pitch for Barcelona",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50341133/yamal-gets-too-frustrated-pitch-barcelona",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Nicol slams Martinez for his red card vs. Chelsea",
       "league": "Premier League",
       "time": "0h ago",
-      "published": "2026-10-31T17:27:32.000Z",
-      "excerpt": "Are Brighton the most 'complete' team in the Premier League?",
+      "published": "2026-10-31T23:03:58.000Z",
+      "excerpt": "Nicol slams Martinez for his red card vs. Chelsea",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50337378/are-brighton-most-complete-team-premier-league",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Are_Brighton_the_most_E807/dm_261031_COM_SOC_Analysis_Are_Brighton_the_most_E807.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50341092/nicol-slams-martinez-red-card-vs-chelsea",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Nicol_slams_Martinez_for_his_red_card_vs_Chelsea__GLOBAL_2026-10-31/dm_261031_COM_SOC_Analysis_Nicol_slams_Martinez_for_his_red_card_vs_Chelsea__GLOBAL_2026-10-31.jpg",
       "category": "football"
     },
     {
-      "title": "Rayo Vallecano vs. Celta Vigo - Game Highlights",
+      "title": "Anthony Gordon, Lamine Yamal, Raphinha on target as Barcelona hit Alavés for six",
       "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-10-31T17:19:25.000Z",
-      "excerpt": "Watch the Game Highlights from Rayo Vallecano vs. Celta Vigo, 10/31/2026",
+      "time": "0h ago",
+      "published": "2026-10-31T22:31:51.000Z",
+      "excerpt": "Free-scoring Barcelona put six past Alavés as they bounced back from defeat against Real Madrid in style.",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50337294/rayo-vallecano-vs-celta-vigo-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/356b02ba-ffef-480a-9b40-ab6069c6ade5/356b02ba-ffef-480a-9b40-ab6069c6ade5.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Levante vs. Atletico Madrid - Game Highlights",
-      "league": "La Liga",
-      "time": "3h ago",
-      "published": "2026-10-31T15:03:07.000Z",
-      "excerpt": "Watch the Game Highlights from Levante vs. Atletico Madrid, 10/31/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50336280/levante-vs-atletico-madrid-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/a8604853-cc4e-4e4a-8660-d9655cf892cc/a8604853-cc4e-4e4a-8660-d9655cf892cc.jpg",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401882822",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10.jpg",
       "category": "football"
     }
   ],
