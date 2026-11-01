@@ -1,54 +1,65 @@
 {
-  "lastUpdate": "2026-11-01T18:50:41.213Z",
+  "lastUpdate": "2026-11-01T23:28:29.462Z",
   "news": [
     {
-      "title": "Arsenal hold off Liverpool for first win at Anfield since 2012",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-01T18:48:28.000Z",
-      "excerpt": "Arsenal recorded a first Premier League win at Anfield in 16 years but needed some help from Liverpool goalkeeper Alisson Becker, whose firs",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401879246",
-      "image": "https://a.espncdn.com/photo/2026/1101/r1739575_1024x576_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League recap: Arsenal beat Liverpool 1-0 in thrilling game",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-01T18:46:04.000Z",
-      "excerpt": "Kai Havertz's early goal proved enough as Arsenal held on to beat Liverpool 1-0 at Anfield on Sunday. Here's all the action as it happened.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50321644/premier-league-live-updates-liverpool-host-arsenal-blockbuster-clash",
-      "image": "https://a.espncdn.com/photo/2026/1101/r1739521_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Burley: Real Madrid have been better without Vinícius Jr.",
+      "title": "Athletic Club vs. Real Sociedad - Game Highlights",
       "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-11-01T18:13:08.000Z",
-      "excerpt": "Burley: Real Madrid have been better without Vinícius Jr.",
+      "time": "1h ago",
+      "published": "2026-11-01T22:07:23.000Z",
+      "excerpt": "Watch the Game Highlights from Athletic Club vs. Real Sociedad, 11/02/2026",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50349337/real-madrid-better-vinicius-jr",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/dm_261101_COM_SOC_Analysis_Burley_Real_Madrid_have_been_better_without_Vinicius_Jr_20261101_GLOBAL/dm_261101_COM_SOC_Analysis_Burley_Real_Madrid_have_been_better_without_Vinicius_Jr_20261101_GLOBAL.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50351677/athletic-club-vs-real-sociedad-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/d7548940-ef17-4dfb-96d2-cf72cf695535/d7548940-ef17-4dfb-96d2-cf72cf695535.jpg",
       "category": "football"
     },
     {
-      "title": "Mbappé, Bellingham, Diomande help Madrid down Racing Santander",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-11-01T18:02:58.000Z",
-      "excerpt": "Real Madrid picked up a fourth successive La Liga victory as they earned a comfortable 3-0 win over Racing Santander.",
+      "title": "Kerim Alajbegovic and Jérémie Boga hit stunners as Juventus beat 10-man Napoli",
+      "league": "Serie A",
+      "time": "1h ago",
+      "published": "2026-11-01T21:59:27.000Z",
+      "excerpt": "Kerim Alajbegovic and Jérémie Boga scored stunning second-half goals as Juventus beat 10-man Napoli 2-0 at the Allianz Stadium to ease the p",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401882819",
-      "image": "https://a.espncdn.com/photo/2026/1101/r1739549_1296x729_16-9.jpg",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401874949",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739743_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arteta says Arsenal 'loved the mission' in first Anfield win since 2012",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-01T21:05:51.000Z",
+      "excerpt": "Mikel Arteta said his players \"loved the mission\" of winning at Liverpool for the first time in 14 years as he hailed Sunday's \"historic\" 1-",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50349973/arteta-arsenal-loved-mission-anfield-win",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739642_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ex-Liverpool, Man City star Milner runs NYC Marathon in just over three hours",
+      "league": "Premier League",
+      "time": "3h ago",
+      "published": "2026-11-01T19:59:54.000Z",
+      "excerpt": "It's clear James Milner is enjoying his retirement from soccer, as he ran the 2026 NYC Marathon on Sunday with an impressive time. Did we me",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50350050/james-milner-liverpool-man-city-england-runs-nyc-new-york-marathon-three-hours",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739636_1296x729_16-9.png",
+      "category": "football"
+    },
+    {
+      "title": "Elche vs. Valencia - Game Highlights",
+      "league": "La Liga",
+      "time": "3h ago",
+      "published": "2026-11-01T19:33:03.000Z",
+      "excerpt": "Watch the Game Highlights from Elche vs. Valencia, 11/01/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50349915/elche-vs-valencia-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/b38b6466-cf86-48ef-9e87-2110ead15329/b38b6466-cf86-48ef-9e87-2110ead15329.jpg",
       "category": "football"
     },
     {
       "title": "Ten Hag: Ronaldo's time was 'over' at Juventus",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "7h ago",
       "published": "2026-11-01T16:20:15.000Z",
       "excerpt": "Ten Hag: Ronaldo's time was 'over' at Juventus",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Christian Pulisic scores as AC Milan beat rivals Inter Milan",
       "league": "Serie A",
-      "time": "20h ago",
+      "time": "31/10/2026",
       "published": "2026-10-31T22:16:57.000Z",
       "excerpt": "Christian Pulisic scored inside five minutes while Diego Moreira scored and added two assists as AC Milan beat rivals Inter 3-1.",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Harry Kane parades Ballon d'Or in front of Bayern Munich fans before Borussia Dortmund clash",
       "league": "Bundesliga",
-      "time": "21h ago",
+      "time": "31/10/2026",
       "published": "2026-10-31T21:11:10.000Z",
       "excerpt": "Harry Kane paraded the Ballon d'Or in front of fans at the Allianz Arena before Bayern Munich's game against Borussia Dortmund on Saturday, ",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Harry Kane misses penalty as Bayern Munich draw with Borussia Dortmund ",
       "league": "Bundesliga",
-      "time": "22h ago",
+      "time": "31/10/2026",
       "published": "2026-10-31T19:54:52.000Z",
       "excerpt": "Ballon d'Or winner Harry Kane missed a penalty as Bayern Munich were held by Der Klassiker rivals Borussia Dortmund in a 2-2 draw at the All",
       "source": "ESPN",
@@ -98,17 +109,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50330654/psg-achraf-hakimi-hat-trick-luis-enrique-wins-record-le-havre",
       "image": "https://a.espncdn.com/photo/2026/1030/r1738690_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Pulisic staying in Milan reflects his club career: Good, but not quite great",
-      "league": "Serie A",
-      "time": "30/10/2026",
-      "published": "2026-10-30T14:09:57.000Z",
-      "excerpt": "Christian Pulisic's new contract with AC Milan means he'll spend the rest of his prime with the Italian giants. Could he have achieved more ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50319610/usmnt-christian-pulisic-new-contract-ac-milan-analysis-club-career",
-      "image": "https://a.espncdn.com/photo/2026/1029/r1738177_1296x729_16-9.jpg",
       "category": "football"
     },
     {
