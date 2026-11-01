@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-10-31T23:16:02.982Z",
+  "lastUpdate": "2026-11-01T05:43:15.316Z",
   "news": [
+    {
+      "title": "Why Barcelona's 6-1 win felt 'hollow'",
+      "league": "La Liga",
+      "time": "3h ago",
+      "published": "2026-11-01T01:58:19.000Z",
+      "excerpt": "Samuel Marsden discusses Barcelona's 6-1 win over Alavés.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50343157/why-barcelona-6-1-win-felt-hollow",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_Barcelona_beats_Alaves_IA/dm_261031_Barcelona_beats_Alaves_IA.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Barcelona boss Hansi Flick on Lamine Yamal: 'Easier' to substitute when he scores",
+      "league": "La Liga",
+      "time": "5h ago",
+      "published": "2026-10-31T23:44:05.000Z",
+      "excerpt": "Hansi Flick said it's easier to substitute Lamine Yamal when he's scored after the forward starred in Saturday's 6-1 LaLiga win over Alavés ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50341573/barcelona-alaves-hansi-flick-lamine-yamal-easier-substitute-scores",
+      "image": "https://a.espncdn.com/photo/2026/1031/r1739203_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Man United's relegation fears grow in loss to Chelsea",
+      "league": "Premier League",
+      "time": "6h ago",
+      "published": "2026-10-31T23:30:55.000Z",
+      "excerpt": "Manchester United implode in a 2-0 loss against Chelsea, leaving the Red Devils on the edge of the relegation zone as they make it nine game",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50341482/man-united-relegation-fears-grow-loss-chelsea",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_EPL_Highlight_Man_Uniteds_relegation_fears_grow_in_loss_to_Chelsea_2026111_AUS_ONLY/dm_261031_EPL_Highlight_Man_Uniteds_relegation_fears_grow_in_loss_to_Chelsea_2026111_AUS_ONLY.jpg",
+      "category": "football"
+    },
     {
       "title": "Leboeuf: I enjoy Tottenham's style of play under De Zerbi",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "6h ago",
       "published": "2026-10-31T23:05:10.000Z",
       "excerpt": "Leboeuf: I enjoy Tottenham's style of play under De Zerbi",
       "source": "ESPN",
@@ -13,42 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Nicol: Yamal gets too frustrated on the pitch for Barcelona",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-10-31T23:04:26.000Z",
-      "excerpt": "Nicol: Yamal gets too frustrated on the pitch for Barcelona",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50341133/yamal-gets-too-frustrated-pitch-barcelona",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Nicol slams Martinez for his red card vs. Chelsea",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-10-31T23:03:58.000Z",
-      "excerpt": "Nicol slams Martinez for his red card vs. Chelsea",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50341092/nicol-slams-martinez-red-card-vs-chelsea",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Nicol_slams_Martinez_for_his_red_card_vs_Chelsea__GLOBAL_2026-10-31/dm_261031_COM_SOC_Analysis_Nicol_slams_Martinez_for_his_red_card_vs_Chelsea__GLOBAL_2026-10-31.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Anthony Gordon, Lamine Yamal, Raphinha on target as Barcelona hit Alavés for six",
-      "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-10-31T22:31:51.000Z",
-      "excerpt": "Free-scoring Barcelona put six past Alavés as they bounced back from defeat against Real Madrid in style.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401882822",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1031/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10/dm_261031_COM_SOC_Analysis_Nicol3A_Nicol3A_Yamal_gets_too_frustrated_on_the_pitch_for_Barcelona_GLOBAL_2026-10.jpg",
-      "category": "football"
-    },
-    {
       "title": "Christian Pulisic scores as AC Milan beat rivals Inter Milan",
       "league": "Serie A",
-      "time": "0h ago",
+      "time": "7h ago",
       "published": "2026-10-31T22:16:57.000Z",
       "excerpt": "Christian Pulisic scored inside five minutes while Diego Moreira scored and added two assists as AC Milan beat rivals Inter 3-1.",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Harry Kane parades Ballon d'Or in front of Bayern Munich fans before Borussia Dortmund clash",
       "league": "Bundesliga",
-      "time": "2h ago",
+      "time": "8h ago",
       "published": "2026-10-31T21:11:10.000Z",
       "excerpt": "Harry Kane paraded the Ballon d'Or in front of fans at the Allianz Arena before Bayern Munich's game against Borussia Dortmund on Saturday, ",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Harry Kane misses penalty as Bayern Munich draw with Borussia Dortmund ",
       "league": "Bundesliga",
-      "time": "3h ago",
+      "time": "9h ago",
       "published": "2026-10-31T19:54:52.000Z",
       "excerpt": "Ballon d'Or winner Harry Kane missed a penalty as Bayern Munich were held by Der Klassiker rivals Borussia Dortmund in a 2-2 draw at the All",
       "source": "ESPN",
