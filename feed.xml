@@ -5,48 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 02 Nov 2026 15:29:49 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 23:24:16 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Newcastle United vs Everton — Home Win @ 1.20</title>
-    <link>https://xwhiz.com/predictions/newcastle-united-vs-everton-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/newcastle-united-vs-everton-prediction.html</guid>
-    <pubDate>Mon, 02 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 79% confidence. Home Win at 1.20. Match kickoff: Mon, 02 Nov 2026 15:00:00 GMT.</description>
-    <category>Premier League</category>
-  </item>
-  <item>
-    <title>US Sassuolo Calcio vs ACF Fiorentina — Away Win @ 1.53</title>
-    <link>https://xwhiz.com/predictions/us-sassuolo-calcio-vs-acf-fiorentina-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/us-sassuolo-calcio-vs-acf-fiorentina-prediction.html</guid>
-    <pubDate>Mon, 02 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 62% confidence. Away Win at 1.53. Match kickoff: Mon, 02 Nov 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Atalanta BC vs Parma Calcio 1913 — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/atalanta-bc-vs-parma-calcio-1913-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/atalanta-bc-vs-parma-calcio-1913-prediction.html</guid>
-    <pubDate>Mon, 02 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Mon, 02 Nov 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Sport Lisboa e Benfica vs FC Alverca — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/sport-lisboa-e-benfica-vs-fc-alverca-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sport-lisboa-e-benfica-vs-fc-alverca-prediction.html</guid>
-    <pubDate>Mon, 02 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 94% confidence. Home Win at 1.01. Match kickoff: Mon, 02 Nov 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
-  <item>
-    <title>Gil Vicente vs Vitória Guimarães — Home Win @ 1.81</title>
-    <link>https://xwhiz.com/predictions/gil-vicente-vs-vitoria-guimaraes-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/gil-vicente-vs-vitoria-guimaraes-prediction.html</guid>
-    <pubDate>Mon, 02 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 53% confidence. Home Win at 1.81. Match kickoff: Mon, 02 Nov 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
   <item>
     <title>Queens Park Rangers vs Burnley — Home Win @ 1.84</title>
     <link>https://xwhiz.com/predictions/queens-park-rangers-vs-burnley-prediction.html</link>
@@ -152,19 +112,19 @@
     <category>Bundesliga</category>
   </item>
   <item>
-    <title>Venezia vs Udinese Calcio — Home Win @ 2.24</title>
+    <title>Venezia vs Udinese Calcio — Home Win @ 2.25</title>
     <link>https://xwhiz.com/predictions/venezia-vs-udinese-calcio-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/venezia-vs-udinese-calcio-prediction.html</guid>
     <pubDate>Fri, 06 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 42% confidence. Home Win at 2.24. Match kickoff: Fri, 06 Nov 2026 15:00:00 GMT.</description>
+    <description>Serie A — 42% confidence. Home Win at 2.25. Match kickoff: Fri, 06 Nov 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
   </item>
   <item>
-    <title>Toulouse vs RC Strasbourg Alsace — Home Win @ 1.46</title>
+    <title>Toulouse vs RC Strasbourg Alsace — Home Win @ 1.45</title>
     <link>https://xwhiz.com/predictions/toulouse-vs-rc-strasbourg-alsace-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/toulouse-vs-rc-strasbourg-alsace-prediction.html</guid>
     <pubDate>Fri, 06 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Ligue 1 — 65% confidence. Home Win at 1.46. Match kickoff: Fri, 06 Nov 2026 15:00:00 GMT.</description>
+    <description>Ligue 1 — 65% confidence. Home Win at 1.45. Match kickoff: Fri, 06 Nov 2026 15:00:00 GMT.</description>
     <category>Ligue 1</category>
   </item>
   <item>
@@ -192,11 +152,35 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Manchester United vs Aston Villa — Home Win @ 1.62</title>
+    <title>Manchester United vs Aston Villa — Home Win @ 1.61</title>
     <link>https://xwhiz.com/predictions/manchester-united-vs-aston-villa-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/manchester-united-vs-aston-villa-prediction.html</guid>
     <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 59% confidence. Home Win at 1.62. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <description>Premier League — 59% confidence. Home Win at 1.61. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Brighton &amp; Hove Albion vs Brentford — Away Win @ 1.28</title>
+    <link>https://xwhiz.com/predictions/brighton-hove-albion-vs-brentford-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/brighton-hove-albion-vs-brentford-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 74% confidence. Away Win at 1.28. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Ipswich Town vs AFC Bournemouth — Away Win @ 2.22</title>
+    <link>https://xwhiz.com/predictions/ipswich-town-vs-afc-bournemouth-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/ipswich-town-vs-afc-bournemouth-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 43% confidence. Away Win at 2.22. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Sunderland A vs Chelsea — Away Win @ 1.10</title>
+    <link>https://xwhiz.com/predictions/sunderland-a-vs-chelsea-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sunderland-a-vs-chelsea-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 87% confidence. Away Win at 1.10. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
 </channel>
