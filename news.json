@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-11-02T23:24:16.615Z",
+  "lastUpdate": "2026-11-03T06:22:47.194Z",
   "news": [
+    {
+      "title": "Moyes after 2nd Everton win over Newcastle: 'Not an easy thing'",
+      "league": "Premier League",
+      "time": "6h ago",
+      "published": "2026-11-03T00:08:34.000Z",
+      "excerpt": "David Moyes hailed a \"great result\" for Everton as they secured back-to-back wins over Newcastle United with a 1-0 triumph at St James' Park",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50361954/moyes-2nd-everton-win-newcastle",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740279_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Melchiot: Martínez would leave Manchester United with his head down",
+      "league": "Champions League",
+      "time": "6h ago",
+      "published": "2026-11-02T23:54:01.000Z",
+      "excerpt": "Melchiot: Martínez would leave Manchester United with his head down",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50362045/martinez-leave-manchester-united-head-down",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Melchiot_Martinez_would_leave_Manchester_United_with_his_head_down/dm_261102_Melchiot_Martinez_would_leave_Manchester_United_with_his_head_down.jpg",
+      "category": "football"
+    },
     {
       "title": "Barry leads Everton to second win over Newcastle in four days",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "7h ago",
       "published": "2026-11-02T23:06:16.000Z",
       "excerpt": "Thierno Barry's second-half strike helped Everton return to winning ways in the Premier League with a 1-0 victory over Newcastle at St James",
       "source": "ESPN",
@@ -15,7 +37,7 @@
     {
       "title": "Deportivo La Coruña vs. Osasuna - Game Highlights",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "8h ago",
       "published": "2026-11-02T22:06:08.000Z",
       "excerpt": "Watch the Game Highlights from Deportivo La Coruña vs. Osasuna, 11/03/2026",
       "source": "ESPN",
@@ -24,36 +46,14 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Both Manchester clubs eye move for USMNT's Freeman",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-11-02T20:26:25.000Z",
-      "excerpt": "Several Premier League clubs are interested in signing Villarreal and United States international Alex Freeman. Transfer Talk has the latest",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50356555/transfer-rumors-news-real-madrid-manchester-united-jj-gabriel",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740188_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Flick '100% convinced' Barcelona can win Champions League and LaLiga",
       "league": "Champions League",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-11-02T20:26:07.000Z",
       "excerpt": "Flick '100% convinced' Barcelona can win Champions League and LaLiga",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50360679/flick-100-convinced-barcelona-win-champions-league-laliga",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Flick_100_convinced_Barcelona_can_win_Champions_League_and_LaLiga/dm_261102_Flick_100_convinced_Barcelona_can_win_Champions_League_and_LaLiga.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Carrick 'can't wait' for Roma game and disregards sack talk",
-      "league": "Champions League",
-      "time": "2h ago",
-      "published": "2026-11-02T20:25:28.000Z",
-      "excerpt": "Carrick 'can't wait' for Roma game and disregards sack talk",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50360639/carrick-wait-roma-game-disregards-sack-talk",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Carrick_cant_wait_for_Roma_game_and_disregards_sack_talk/dm_261102_Carrick_cant_wait_for_Roma_game_and_disregards_sack_talk.jpg",
       "category": "football"
     },
     {

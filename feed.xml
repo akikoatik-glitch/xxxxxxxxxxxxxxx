@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 02 Nov 2026 23:24:16 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 06:22:48 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Queens Park Rangers vs Burnley — Home Win @ 1.84</title>
@@ -80,11 +80,11 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Bristol City vs Wolverhampton Wanderers — Home Win @ 2.33</title>
-    <link>https://xwhiz.com/predictions/bristol-city-vs-wolverhampton-wanderers-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/bristol-city-vs-wolverhampton-wanderers-prediction.html</guid>
+    <title>Cardiff City vs West Ham United — Away Win @ 2.42</title>
+    <link>https://xwhiz.com/predictions/cardiff-city-vs-west-ham-united-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/cardiff-city-vs-west-ham-united-prediction.html</guid>
     <pubDate>Wed, 04 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 41% confidence. Home Win at 2.33. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
+    <description>Championship — 39% confidence. Away Win at 2.42. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
     <category>Championship</category>
   </item>
   <item>
@@ -96,11 +96,11 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Cardiff City vs West Ham United — Away Win @ 2.42</title>
-    <link>https://xwhiz.com/predictions/cardiff-city-vs-west-ham-united-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/cardiff-city-vs-west-ham-united-prediction.html</guid>
+    <title>Bristol City vs Wolverhampton Wanderers — Home Win @ 2.33</title>
+    <link>https://xwhiz.com/predictions/bristol-city-vs-wolverhampton-wanderers-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/bristol-city-vs-wolverhampton-wanderers-prediction.html</guid>
     <pubDate>Wed, 04 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 39% confidence. Away Win at 2.42. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
+    <description>Championship — 41% confidence. Home Win at 2.33. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
     <category>Championship</category>
   </item>
   <item>
@@ -181,6 +181,22 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/sunderland-a-vs-chelsea-prediction.html</guid>
     <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 87% confidence. Away Win at 1.10. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Crystal Palace vs Liverpool — Away Win @ 1.18</title>
+    <link>https://xwhiz.com/predictions/crystal-palace-vs-liverpool-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/crystal-palace-vs-liverpool-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 80% confidence. Away Win at 1.18. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Everton vs Coventry City — Home Win @ 1.16</title>
+    <link>https://xwhiz.com/predictions/everton-vs-coventry-city-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/everton-vs-coventry-city-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 82% confidence. Home Win at 1.16. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
 </channel>
