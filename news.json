@@ -1,21 +1,43 @@
 {
-  "lastUpdate": "2026-11-03T16:03:16.669Z",
+  "lastUpdate": "2026-11-03T23:10:01.165Z",
   "news": [
     {
-      "title": "Champions League live updates: Galatasaray take on Stuttgart before full slate",
+      "title": "Did Man United's Champions League comeback save Carrick's job?",
       "league": "Champions League",
       "time": "0h ago",
-      "published": "2026-11-03T15:57:45.000Z",
-      "excerpt": "Atlético Madrid face Bayern Munich, Barcelona host Aston Villa and Manchester United take on Roma in a packed Tuesday of UEFA Champions Leag",
+      "published": "2026-11-03T22:53:58.000Z",
+      "excerpt": "Just when it looked like Man United would suffer another humiliating loss, they made a turnaround that might save their Champions League cam",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50372373/did-man-united-champions-league-comeback-save-carrick-job",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740756_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Champions League recap: Cunha leads Man United in comeback win vs. Roma",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-11-03T22:47:33.000Z",
+      "excerpt": "Matheus Cunha scored a brace in a thrilling win for Manchester United against Roma on a Tuesday full of UEFA Champions League action.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50329034/uefa-champions-league-live-updates-atletico-madrid-bayern-munich-manchester-united-roma-barcelona-aston-villa",
-      "image": "https://a.espncdn.com/photo/2026/1030/r1738601_1296x729_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740732_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "William Saliba 'ready to go' for Arsenal after injury at World Cup",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-03T20:28:49.000Z",
+      "excerpt": "William Saliba has returned to full training at Arsenal, 3½ months after his last game -- in the World Cup semifinals for France.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50371277/william-saliba-arsenal-injury-training-mikel-arteta",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740660_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Steven Gerrard names Premier League wonderkid to watch: 'I have seen enough'",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "7h ago",
       "published": "2026-11-03T15:34:31.000Z",
       "excerpt": "Tottenham academy prospect Luca Williams-Barnett has shown in just a few moments why he is definitely a young player \"to look out for,\" acco",
       "source": "ESPN",
@@ -24,31 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Ryan Gravenberch out of Liverpool's clash with Fenerbahce with heel injury",
-      "league": "Champions League",
-      "time": "2h ago",
-      "published": "2026-11-03T13:59:05.000Z",
-      "excerpt": "Injury has ruled Liverpool midfielder Ryan Gravenberch out of the Champions League match against Fenerbahce in Istanbul.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50368628/ryan-gravenberch-liverpool-champions-league-heel-injury-fenerbahce",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740484_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Real Madrid tracking Arsenal's Calafiori",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-11-03T12:43:04.000Z",
-      "excerpt": "Real Madrid are monitoring Arsenal defender Riccardo Calafiori as a primary target to strengthen their left back position. Transfer Talk has",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50366900/transfer-rumors-news-real-madrid-tracking-arsenal-calafiori",
-      "image": "https://a.espncdn.com/photo/2026/1010/r1728635_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Barcelona lift ban on supporters' group for Aston Villa clash",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "12h ago",
       "published": "2026-11-03T10:19:28.000Z",
       "excerpt": "Barcelona has lifted a ban on different supporters' groups ahead of Tuesday's Champions League home game against Aston Villa following a pos",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Achraf Hakimi's historic hat-trick all but secures another African player of the year gong",
       "league": "Ligue 1",
-      "time": "8h ago",
+      "time": "15h ago",
       "published": "2026-11-03T07:44:35.000Z",
       "excerpt": "The Morocco captain scored a hat-trick and registered two assists as Paris Saint-Germain came back from a goal down to demolish Le Havre 5-1",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Deportivo La Coruña vs. Osasuna - Game Highlights",
       "league": "La Liga",
-      "time": "17h ago",
+      "time": "02/11/2026",
       "published": "2026-11-02T22:06:08.000Z",
       "excerpt": "Watch the Game Highlights from Deportivo La Coruña vs. Osasuna, 11/03/2026",
       "source": "ESPN",
