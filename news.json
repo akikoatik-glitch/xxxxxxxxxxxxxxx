@@ -1,70 +1,81 @@
 {
-  "lastUpdate": "2026-11-03T06:22:47.194Z",
+  "lastUpdate": "2026-11-03T16:03:16.669Z",
   "news": [
     {
-      "title": "Moyes after 2nd Everton win over Newcastle: 'Not an easy thing'",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-11-03T00:08:34.000Z",
-      "excerpt": "David Moyes hailed a \"great result\" for Everton as they secured back-to-back wins over Newcastle United with a 1-0 triumph at St James' Park",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50361954/moyes-2nd-everton-win-newcastle",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740279_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Melchiot: Martínez would leave Manchester United with his head down",
+      "title": "Champions League live updates: Galatasaray take on Stuttgart before full slate",
       "league": "Champions League",
-      "time": "6h ago",
-      "published": "2026-11-02T23:54:01.000Z",
-      "excerpt": "Melchiot: Martínez would leave Manchester United with his head down",
+      "time": "0h ago",
+      "published": "2026-11-03T15:57:45.000Z",
+      "excerpt": "Atlético Madrid face Bayern Munich, Barcelona host Aston Villa and Manchester United take on Roma in a packed Tuesday of UEFA Champions Leag",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50362045/martinez-leave-manchester-united-head-down",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Melchiot_Martinez_would_leave_Manchester_United_with_his_head_down/dm_261102_Melchiot_Martinez_would_leave_Manchester_United_with_his_head_down.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50329034/uefa-champions-league-live-updates-atletico-madrid-bayern-munich-manchester-united-roma-barcelona-aston-villa",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738601_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Barry leads Everton to second win over Newcastle in four days",
+      "title": "Steven Gerrard names Premier League wonderkid to watch: 'I have seen enough'",
       "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-11-02T23:06:16.000Z",
-      "excerpt": "Thierno Barry's second-half strike helped Everton return to winning ways in the Premier League with a 1-0 victory over Newcastle at St James",
+      "time": "0h ago",
+      "published": "2026-11-03T15:34:31.000Z",
+      "excerpt": "Tottenham academy prospect Luca Williams-Barnett has shown in just a few moments why he is definitely a young player \"to look out for,\" acco",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401878762",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740227_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50369087/steven-gerrard-tottenham-wonderkid-luca-williams-barnett",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740523_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Ryan Gravenberch out of Liverpool's clash with Fenerbahce with heel injury",
+      "league": "Champions League",
+      "time": "2h ago",
+      "published": "2026-11-03T13:59:05.000Z",
+      "excerpt": "Injury has ruled Liverpool midfielder Ryan Gravenberch out of the Champions League match against Fenerbahce in Istanbul.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50368628/ryan-gravenberch-liverpool-champions-league-heel-injury-fenerbahce",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740484_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid tracking Arsenal's Calafiori",
+      "league": "Premier League",
+      "time": "3h ago",
+      "published": "2026-11-03T12:43:04.000Z",
+      "excerpt": "Real Madrid are monitoring Arsenal defender Riccardo Calafiori as a primary target to strengthen their left back position. Transfer Talk has",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50366900/transfer-rumors-news-real-madrid-tracking-arsenal-calafiori",
+      "image": "https://a.espncdn.com/photo/2026/1010/r1728635_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Barcelona lift ban on supporters' group for Aston Villa clash",
+      "league": "La Liga",
+      "time": "5h ago",
+      "published": "2026-11-03T10:19:28.000Z",
+      "excerpt": "Barcelona has lifted a ban on different supporters' groups ahead of Tuesday's Champions League home game against Aston Villa following a pos",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50367435/barcelona-lift-ban-supporters-group-aston-villa",
+      "image": "https://a.espncdn.com/photo/2023/0615/r1186743_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Achraf Hakimi's historic hat-trick all but secures another African player of the year gong",
+      "league": "Ligue 1",
+      "time": "8h ago",
+      "published": "2026-11-03T07:44:35.000Z",
+      "excerpt": "The Morocco captain scored a hat-trick and registered two assists as Paris Saint-Germain came back from a goal down to demolish Le Havre 5-1",
+      "source": "ESPN",
+      "url": "https://www.espn.com/espn/story/_/id/50366716/achraf-hakimi-historic-hat-trick-all-secures-another-african-player-year-gong",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738690_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Deportivo La Coruña vs. Osasuna - Game Highlights",
       "league": "La Liga",
-      "time": "8h ago",
+      "time": "17h ago",
       "published": "2026-11-02T22:06:08.000Z",
       "excerpt": "Watch the Game Highlights from Deportivo La Coruña vs. Osasuna, 11/03/2026",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50361314/deportivo-la-coruna-vs-osasuna-game-highlights",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1102/87b87b0c-6c9a-443a-b77a-7ae9d9c3baf9/87b87b0c-6c9a-443a-b77a-7ae9d9c3baf9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Flick '100% convinced' Barcelona can win Champions League and LaLiga",
-      "league": "Champions League",
-      "time": "9h ago",
-      "published": "2026-11-02T20:26:07.000Z",
-      "excerpt": "Flick '100% convinced' Barcelona can win Champions League and LaLiga",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50360679/flick-100-convinced-barcelona-win-champions-league-laliga",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_Flick_100_convinced_Barcelona_can_win_Champions_League_and_LaLiga/dm_261102_Flick_100_convinced_Barcelona_can_win_Champions_League_and_LaLiga.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Athletic Club vs. Real Sociedad - Game Highlights",
-      "league": "La Liga",
-      "time": "01/11/2026",
-      "published": "2026-11-01T22:07:23.000Z",
-      "excerpt": "Watch the Game Highlights from Athletic Club vs. Real Sociedad, 11/02/2026",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50351677/athletic-club-vs-real-sociedad-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/d7548940-ef17-4dfb-96d2-cf72cf695535/d7548940-ef17-4dfb-96d2-cf72cf695535.jpg",
       "category": "football"
     },
     {
@@ -120,17 +131,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50330654/psg-achraf-hakimi-hat-trick-luis-enrique-wins-record-le-havre",
       "image": "https://a.espncdn.com/photo/2026/1030/r1738690_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Global power ranking: The top 20 soccer teams in the world, ranked!",
-      "league": "Ligue 1",
-      "time": "30/10/2026",
-      "published": "2026-10-30T12:06:05.000Z",
-      "excerpt": "If we look beyond the Premier League and beyond those who qualified for the Champions League, which are the best teams in the world?",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50312487/top-20-soccer-teams-world-ranked",
-      "image": "https://a.espncdn.com/photo/2026/1030/r1738425_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
