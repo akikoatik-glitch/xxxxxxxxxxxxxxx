@@ -5,32 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 04 Nov 2026 14:15:39 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 21:47:31 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Cardiff City vs West Ham United — Away Win @ 2.42</title>
-    <link>https://xwhiz.com/predictions/cardiff-city-vs-west-ham-united-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/cardiff-city-vs-west-ham-united-prediction.html</guid>
-    <pubDate>Wed, 04 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 39% confidence. Away Win at 2.42. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
-  <item>
-    <title>Wrexham A vs Middlesbrough — Away Win @ 2.37</title>
-    <link>https://xwhiz.com/predictions/wrexham-a-vs-middlesbrough-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/wrexham-a-vs-middlesbrough-prediction.html</guid>
-    <pubDate>Wed, 04 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 40% confidence. Away Win at 2.37. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
-  <item>
-    <title>Bristol City vs Wolverhampton Wanderers — Home Win @ 2.33</title>
-    <link>https://xwhiz.com/predictions/bristol-city-vs-wolverhampton-wanderers-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/bristol-city-vs-wolverhampton-wanderers-prediction.html</guid>
-    <pubDate>Wed, 04 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 41% confidence. Home Win at 2.33. Match kickoff: Wed, 04 Nov 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
   <item>
     <title>Hamburger SV vs Borussia Mönchengladbach — Home Win @ 1.08</title>
     <link>https://xwhiz.com/predictions/hamburger-sv-vs-borussia-moenchengladbach-prediction.html</link>
@@ -198,6 +174,30 @@
     <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
     <description>Bundesliga — 86% confidence. Home Win at 1.11. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
     <category>Bundesliga</category>
+  </item>
+  <item>
+    <title>AS Roma vs US Sassuolo Calcio — Home Win @ 1.01</title>
+    <link>https://xwhiz.com/predictions/as-roma-vs-us-sassuolo-calcio-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/as-roma-vs-us-sassuolo-calcio-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 96% confidence. Home Win at 1.01. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Parma Calcio 1913 vs Bologna FC 1909 — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/parma-calcio-1913-vs-bologna-fc-1909-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/parma-calcio-1913-vs-bologna-fc-1909-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
+  </item>
+  <item>
+    <title>Cagliari Calcio vs Frosinone Calcio — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/cagliari-calcio-vs-frosinone-calcio-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/cagliari-calcio-vs-frosinone-calcio-prediction.html</guid>
+    <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Serie A — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 07 Nov 2026 15:00:00 GMT.</description>
+    <category>Serie A</category>
   </item>
 </channel>
 </rss>
