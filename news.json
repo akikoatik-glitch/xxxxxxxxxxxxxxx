@@ -1,21 +1,43 @@
 {
-  "lastUpdate": "2026-11-04T21:47:30.865Z",
+  "lastUpdate": "2026-11-05T02:10:34.705Z",
   "news": [
     {
-      "title": "Liverpool bemoan 'cheap, messy goals' in loss at Fenerbahce",
-      "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-11-04T21:45:13.000Z",
-      "excerpt": "Liverpool head coach Andoni Iraola bemoaned his side's poor defending of set pieces leading to \"cheap, messy\" goals which cost them a 3-2 de",
+      "title": "Spanish medical official questions pitchside emergency protocols after De Miguel's death",
+      "league": "La Liga",
+      "time": "1h ago",
+      "published": "2026-11-05T01:07:40.000Z",
+      "excerpt": "Spanish medical workers are questioning pitchside emergency protocols following the fatal on-field collision involving Tenerife forward Jesú",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50381609/liverpool-fenerbahce-andoni-iraola-uefa-champions-league",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741181_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50383582/medical-official-pitchside-emergency-upgrades-de-miguel-death",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741332_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Champions League talking points: Are Como the real deal?",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-11-05T00:34:55.000Z",
+      "excerpt": "Gab Marcotti, Rob Dawson, Mark Ogden and Sam Marsden run the rule over upstarts Como, plus all the other moments that mattered from Matchday",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50381317/champions-league-talking-points-como-real-deal",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741315_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Who has the most Champions League goals, assists all time?",
+      "league": "Champions League",
+      "time": "1h ago",
+      "published": "2026-11-05T00:18:24.000Z",
+      "excerpt": "Cristiano Ronaldo leads the Champions League in all-time goals and assists. Check out which other soccer stars are behind him.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/43810752/who-most-champions-league-goals-assists-all",
+      "image": "https://a.espncdn.com/photo/2018/0411/r355065_608x342_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Juventus eye moves for Šeško, Balogun",
       "league": "Premier League",
-      "time": "0h ago",
+      "time": "4h ago",
       "published": "2026-11-04T21:28:20.000Z",
       "excerpt": "Juventus are keeping tabs on possible moves for forwards Benjamin Šeško and Folarin Balogun. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -24,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Champions League live updates: Arsenal, Man City in action, Fenerbahçe stun Liverpool",
-      "league": "Champions League",
-      "time": "0h ago",
-      "published": "2026-11-04T21:25:08.000Z",
-      "excerpt": "Fenerbahçe get a shock win against Liverpool, while Arsenal and Manchester City are both in action as UEFA Champions League league phase con",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50329182/real-madrid-liverpool-manchester-city-arsenal",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741168_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Aston Villa planning long-term future with Unai Emery in message to rivals",
       "league": "Premier League",
-      "time": "2h ago",
+      "time": "6h ago",
       "published": "2026-11-04T19:21:37.000Z",
       "excerpt": "Aston Villa have signalled their intention to build their long-term future around manager Unai Emery.",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Ruben Amorim not satisfied with Milan's start: 'We can do better'",
       "league": "Serie A",
-      "time": "3h ago",
+      "time": "7h ago",
       "published": "2026-11-04T18:23:15.000Z",
       "excerpt": "Coach Ruben Amorim said he was not satisfied with AC Milan's start to the season, either in Serie A or the Europa Leagu.",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Tennis great Rafa Nadal accepts Real Madrid offer to join board of directors",
       "league": "La Liga",
-      "time": "7h ago",
+      "time": "11h ago",
       "published": "2026-11-04T14:16:08.000Z",
       "excerpt": "Tennis legend Rafa Nadal confirmed on Wednesday he has accepted an offer to become a member of Real Madrid's board of directors.",
       "source": "ESPN",
@@ -68,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Man United fans throwing tennis balls is part of soccer's rich history of supporter protests",
-      "league": "La Liga",
-      "time": "8h ago",
-      "published": "2026-11-04T13:45:44.000Z",
-      "excerpt": "After Manchester United's match was disrupted by tennis balls thrown onto the pitch, here are some of the various ways fans have made themse",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50378091/man-united-fans-tennis-balls-soccer-history-supporter-protests",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1740923_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Arsenal to sign Bournemouth's Kroupi?",
       "league": "Bundesliga",
-      "time": "16h ago",
+      "time": "21h ago",
       "published": "2026-11-04T04:58:15.000Z",
       "excerpt": "Arsenal are one of the clubs linked with a move for AFC Bournemouth forward Junior Kroupi. Transfer Talk has the latest.",
       "source": "ESPN",
