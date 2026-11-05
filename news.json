@@ -1,21 +1,76 @@
 {
-  "lastUpdate": "2026-11-05T02:10:34.705Z",
+  "lastUpdate": "2026-11-05T12:06:58.631Z",
   "news": [
     {
-      "title": "Spanish medical official questions pitchside emergency protocols after De Miguel's death",
+      "title": "Ogden: Time catches up with everyone, even Cristiano Ronaldo",
       "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-11-05T01:07:40.000Z",
-      "excerpt": "Spanish medical workers are questioning pitchside emergency protocols following the fatal on-field collision involving Tenerife forward Jesú",
+      "time": "0h ago",
+      "published": "2026-11-05T12:03:06.000Z",
+      "excerpt": "Ogden: Time catches up with everyone, even Cristiano Ronaldo",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50383582/medical-official-pitchside-emergency-upgrades-de-miguel-death",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741332_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50387532/catches-everyone-even-cristiano-ronaldo",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Ogden_Time_catches_up_with_everyone_even_Cristiano_Ronaldo/dm_261105_Ogden_Time_catches_up_with_everyone_even_Cristiano_Ronaldo.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Portugal, Man United, Real Madrid: Cristiano Ronaldo's long history of rows with coaches",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-05T11:56:54.000Z",
+      "excerpt": "Cristiano Ronaldo has retired from international soccer with Portugal after being benched by coach Jorge Jesus. It is far from the first hig",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50075485/cristiano-ronaldo-long-history-rows-portugal-manchester-united-real-madrid-juventus-coaches",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724373_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Kane: Were are on the verge of something really special at Bayern",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-11-05T11:16:00.000Z",
+      "excerpt": "Kane: Were are on the verge of something really special at Bayern",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50387301/were-verge-really-special-bayern",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Kane_Were_are_on_the_verge_of_something_really_special_at_Bayern/dm_261105_Kane_Were_are_on_the_verge_of_something_really_special_at_Bayern.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Harry Kane signs new Bayern Munich contract: 'I want to win many more titles'",
+      "league": "Bundesliga",
+      "time": "2h ago",
+      "published": "2026-11-05T09:32:08.000Z",
+      "excerpt": "Harry Kane has signed a new contract to commit his future to Bayern Munich until 2029.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50216815/harry-kane-signs-new-bayern-munich-contract",
+      "image": "https://a.espncdn.com/photo/2026/1102/r1739991_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Run, Man United, run: How preseason fitness can hinder Premier League form",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-05T09:24:08.000Z",
+      "excerpt": "Man United rank poorly compared to other Premier League teams in every running statistic presented, and there is no way to rectify it this s",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50347463/how-pre-season-fitness-hinder-premier-league-form",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739427_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Premier League clubs line up for Como defender",
+      "league": "Serie A",
+      "time": "3h ago",
+      "published": "2026-11-05T08:27:18.000Z",
+      "excerpt": "Como center back Jacobo Ramón has caught the eye of Manchester United, Chelsea, Arsenal and Liverpool. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50386327/transfer-rumors-news-premier-league-clubs-line-como-defender",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741400_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Champions League talking points: Are Como the real deal?",
       "league": "Champions League",
-      "time": "1h ago",
+      "time": "11h ago",
       "published": "2026-11-05T00:34:55.000Z",
       "excerpt": "Gab Marcotti, Rob Dawson, Mark Ogden and Sam Marsden run the rule over upstarts Como, plus all the other moments that mattered from Matchday",
       "source": "ESPN",
@@ -24,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Who has the most Champions League goals, assists all time?",
-      "league": "Champions League",
-      "time": "1h ago",
-      "published": "2026-11-05T00:18:24.000Z",
-      "excerpt": "Cristiano Ronaldo leads the Champions League in all-time goals and assists. Check out which other soccer stars are behind him.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/43810752/who-most-champions-league-goals-assists-all",
-      "image": "https://a.espncdn.com/photo/2018/0411/r355065_608x342_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Juventus eye moves for Šeško, Balogun",
-      "league": "Premier League",
-      "time": "4h ago",
+      "league": "Ligue 1",
+      "time": "14h ago",
       "published": "2026-11-04T21:28:20.000Z",
       "excerpt": "Juventus are keeping tabs on possible moves for forwards Benjamin Šeško and Folarin Balogun. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -46,58 +90,14 @@
       "category": "football"
     },
     {
-      "title": "Aston Villa planning long-term future with Unai Emery in message to rivals",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-11-04T19:21:37.000Z",
-      "excerpt": "Aston Villa have signalled their intention to build their long-term future around manager Unai Emery.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50380736/aston-villa-unai-emery-manager-contract-future",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741118_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Ruben Amorim not satisfied with Milan's start: 'We can do better'",
-      "league": "Serie A",
-      "time": "7h ago",
-      "published": "2026-11-04T18:23:15.000Z",
-      "excerpt": "Coach Ruben Amorim said he was not satisfied with AC Milan's start to the season, either in Serie A or the Europa Leagu.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50380347/ruben-amorim-ac-milan-season-start-europa-league-ferencvaros",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741080_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Tennis great Rafa Nadal accepts Real Madrid offer to join board of directors",
-      "league": "La Liga",
-      "time": "11h ago",
-      "published": "2026-11-04T14:16:08.000Z",
-      "excerpt": "Tennis legend Rafa Nadal confirmed on Wednesday he has accepted an offer to become a member of Real Madrid's board of directors.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50378635/rafa-nadal-accepts-real-madrid-offer-join-board-directors",
-      "image": "https://a.espncdn.com/photo/2022/0527/r1018132_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Arsenal to sign Bournemouth's Kroupi?",
-      "league": "Bundesliga",
-      "time": "21h ago",
+      "league": "Ligue 1",
+      "time": "04/11/2026",
       "published": "2026-11-04T04:58:15.000Z",
       "excerpt": "Arsenal are one of the clubs linked with a move for AFC Bournemouth forward Junior Kroupi. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50366900/transfer-rumors-news-real-madrid-tracking-arsenal-calafiori",
       "image": "https://a.espncdn.com/photo/2026/1103/r1740773_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Harry Kane misses penalty as Bayern Munich draw with Borussia Dortmund ",
-      "league": "Bundesliga",
-      "time": "31/10/2026",
-      "published": "2026-10-31T19:54:52.000Z",
-      "excerpt": "Ballon d'Or winner Harry Kane missed a penalty as Bayern Munich were held by Der Klassiker rivals Borussia Dortmund in a 2-2 draw at the All",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401884754",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1739072_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
