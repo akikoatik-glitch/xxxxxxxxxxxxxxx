@@ -1,10 +1,87 @@
 {
-  "lastUpdate": "2026-11-05T20:59:07.154Z",
+  "lastUpdate": "2026-11-06T11:58:25.139Z",
   "news": [
+    {
+      "title": "Vincent Kompany: Bayern Munich boss close to 'full recovery' after collapse",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-11-06T11:56:47.000Z",
+      "excerpt": "Bayern Munich coach Vincent Kompany is on track for a \"full recovery\" after a lengthy absence following his collapse at a training session, ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50398505/vincent-kompany-bayern-munich-collapse-recovery-return",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741932_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Gianluigi Donnarumma knows he's 'made mistakes' for Man City - Enzo Maresca",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-06T11:55:42.000Z",
+      "excerpt": "Manchester City boss Enzo Maresca has reiterated his support for Gianluigi Donnarumma but said the Italian goalkeeper knows he's made mistak",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50398344/gianluigi-donnarumma-made-mistakes-man-city-enzo-maresca",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741927_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal tracking RB Leipzig's Nusa after Vinicius snub",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-06T11:20:54.000Z",
+      "excerpt": "RB Leipzig winger Antonio Nusa is being tracked by Arsenal ahead of the January transfer window. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50397632/transfer-rumors-news-arsenal-tracking-rb-leipzig-antonio-nusa-vinicius-jr-snub",
+      "image": "https://a.espncdn.com/photo/2026/0630/r1682174_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Anthony Gordon left Premier League for Barcelona to get 'respect' -- he's got it now",
+      "league": "La Liga",
+      "time": "0h ago",
+      "published": "2026-11-06T11:02:39.000Z",
+      "excerpt": "Anthony Gordon's move to Barcelona was a surprise to some, but he's become an instant fan favorite at Camp Nou as well as a key player for E",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50377434/anthony-gordon-barcelona-england-premier-league-respect",
+      "image": "https://a.espncdn.com/photo/2026/1105/premier_league_barcelona_16x9_1296x729.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?",
+      "league": "Champions League",
+      "time": "0h ago",
+      "published": "2026-11-06T11:02:23.000Z",
+      "excerpt": "If Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50395131/does-man-united-coach-matter-jurgen-klopp-reach-premier-league-glory-old-trafford",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741877_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "'No excuses': Ruben Amorim slams team, questions himself after shock Milan loss",
+      "league": "Serie A",
+      "time": "12h ago",
+      "published": "2026-11-05T23:46:09.000Z",
+      "excerpt": "AC Milan coach Ruben Amorim questioned himself and hit out at his team after a shock 2-0 home loss to Hungarian side Ferencvaros on Thursday",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50393432/ruben-amorim-ac-milan-ferencvaros-uefa-europa-league",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741805_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Nicol slams Liverpool's 'schoolboy' defending",
+      "league": "Champions League",
+      "time": "12h ago",
+      "published": "2026-11-05T23:03:49.000Z",
+      "excerpt": "Nicol slams Liverpool's 'schoolboy' defending",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50393143/nicol-slams-liverpool-schoolboy-defending",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Nicol_slams_Liverpools_schoolboy_defending/dm_261105_Nicol_slams_Liverpools_schoolboy_defending.jpg",
+      "category": "football"
+    },
     {
       "title": "Jude Bellingham visits Atlanta Falcons training session",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "17h ago",
       "published": "2026-11-05T18:01:50.000Z",
       "excerpt": "Jude Bellingham visits Atlanta Falcons training session",
       "source": "ESPN",
@@ -13,20 +90,9 @@
       "category": "football"
     },
     {
-      "title": "Soccer's main characters: Man United, Como, PSG, Donnarumma",
-      "league": "Champions League",
-      "time": "3h ago",
-      "published": "2026-11-05T17:51:39.000Z",
-      "excerpt": "What are we watching this week? Man United are hoping for a rally, Como are magical to watch, PSG are the team to beat and we're worried abo",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50388254/soccer-champions-league-main-characters-man-united-como-psg-donnarumma",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741544_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Portugal, Man United, Real Madrid: Cristiano Ronaldo's long history of rows with coaches",
       "league": "Serie A",
-      "time": "4h ago",
+      "time": "19h ago",
       "published": "2026-11-05T16:21:16.000Z",
       "excerpt": "Cristiano Ronaldo has retired from international soccer with Portugal after being benched by coach Jorge Jesus. It is far from the first hig",
       "source": "ESPN",
@@ -35,75 +101,9 @@
       "category": "football"
     },
     {
-      "title": "All of Anthony Gordon's goals and assists in LALIGA so far",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-11-05T16:13:44.000Z",
-      "excerpt": "All of Anthony Gordon's goals and assists in LALIGA so far",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50389589/all-anthony-gordon-goals-assists-laliga-far",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_All_of_Anthony_Gordons_goals_and_assists_in_LALIGA_so_far/dm_261105_All_of_Anthony_Gordons_goals_and_assists_in_LALIGA_so_far.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Mikel Arteta: Viktor Gyökeres 'really needed' a good Arsenal performance",
-      "league": "Premier League",
-      "time": "5h ago",
-      "published": "2026-11-05T15:55:45.000Z",
-      "excerpt": "Mikel Arteta has admitted Arsenal forward Viktor Gyökeres \"needed\" a good performance after he starred in the 2-1 Champions League win at Sl",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50389379/mikel-arteta-viktor-gyokeres-really-needed-good-arsenal-performance",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741509_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Jack Grealish won't return for Everton this weekend - David Moyes",
-      "league": "Premier League",
-      "time": "5h ago",
-      "published": "2026-11-05T15:36:28.000Z",
-      "excerpt": "Jack Grealish remains unavailable for Everton's Premier League clash with Coventry on Friday.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50389209/jack-grealish-unavailable-everton-club-discipline-breach",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741504_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Harry Kane signs new Bayern Munich contract: 'I want to win many more titles'",
-      "league": "Bundesliga",
-      "time": "6h ago",
-      "published": "2026-11-05T14:47:38.000Z",
-      "excerpt": "Harry Kane has signed a new contract to commit his future to Bayern Munich until 2029.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50216815/harry-kane-signs-new-bayern-munich-contract",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1739991_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Premier League clubs line up for Como defender",
-      "league": "Serie A",
-      "time": "7h ago",
-      "published": "2026-11-05T13:48:17.000Z",
-      "excerpt": "Como center back Jacobo Ramón has caught the eye of Manchester United, Chelsea, Arsenal and Liverpool. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50386327/transfer-rumors-news-premier-league-clubs-line-como-defender",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741400_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Kane: We're on the verge of something really special at Bayern",
-      "league": "Bundesliga",
-      "time": "7h ago",
-      "published": "2026-11-05T13:17:31.000Z",
-      "excerpt": "Kane: We're on the verge of something really special at Bayern",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50387301/verge-really-special-bayern",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Kane_Were_are_on_the_verge_of_something_really_special_at_Bayern/dm_261105_Kane_Were_are_on_the_verge_of_something_really_special_at_Bayern.jpg",
-      "category": "football"
-    },
-    {
       "title": "Transfer rumors, news: Juventus eye moves for Šeško, Balogun",
       "league": "Ligue 1",
-      "time": "23h ago",
+      "time": "04/11/2026",
       "published": "2026-11-04T21:28:20.000Z",
       "excerpt": "Juventus are keeping tabs on possible moves for forwards Benjamin Šeško and Folarin Balogun. Transfer Talk has the latest.",
       "source": "ESPN",

@@ -1,10 +1,10 @@
 {
   "date": "2026-11-06",
-  "lastUpdate": "2026-11-05T20:59:07.221Z",
-  "predictionGenerated": "2026-11-05T20:59:07.221Z",
-  "dataTimestamp": "2026-11-05T20:59:04.640Z",
+  "lastUpdate": "2026-11-06T11:58:25.191Z",
+  "predictionGenerated": "2026-11-06T11:58:25.191Z",
+  "dataTimestamp": "2026-11-06T11:58:22.467Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:37+tomorrow:6+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:30+tomorrow:38+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "de.1:2026-11-06:Hamburger SV:Borussia Mönchengladbach",
@@ -13,7 +13,7 @@
       "date": "2026-11-06",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "3h to kickoff",
       "home": "Hamburger SV",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -86,7 +86,7 @@
       "date": "2026-11-06",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "3h to kickoff",
       "home": "Venezia",
       "away": "Udinese Calcio",
       "league": "Serie A",
@@ -159,7 +159,7 @@
       "date": "2026-11-06",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "3h to kickoff",
       "home": "Toulouse",
       "away": "RC Strasbourg Alsace",
       "league": "Ligue 1",
@@ -232,7 +232,7 @@
       "date": "2026-11-06",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "3h to kickoff",
       "home": "Willem II Tilburg",
       "away": "PEC Zwolle",
       "league": "Eredivisie",
@@ -305,7 +305,7 @@
       "date": "2026-11-06",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "3h to kickoff",
       "home": "FC Famalicão",
       "away": "FC Arouca",
       "league": "Primeira Liga",
@@ -378,7 +378,7 @@
       "date": "2026-11-06",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "3h to kickoff",
       "home": "Derby County",
       "away": "Bolton Wanderers",
       "league": "Championship",
@@ -445,670 +445,13 @@
       "locked": false
     },
     {
-      "id": "en.1:2026-11-07:Manchester United FC:Aston Villa FC",
-      "slug": "manchester-united-vs-aston-villa-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Manchester United",
-      "away": "Aston Villa",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 59,
-      "odds": "1.61",
-      "value": "+4%",
-      "probs": {
-        "home": 59,
-        "draw": 22,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.74",
-        "away": "0.86",
-        "total": "2.60"
-      },
-      "doubleChance": {
-        "12": 78,
-        "1X": 81,
-        "X2": 41
-      },
-      "overUnder": {
-        "over2_5": 48,
-        "under2_5": 52,
-        "oddsOver": "1.98",
-        "oddsUnder": "1.83"
-      },
-      "btts": {
-        "yes": 47,
-        "no": 53
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 14
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "1-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Manchester United vs Aston Villa: Dixon-Coles P(H)59% D22% A19% • xG 1.74-0.86 • most likely score 1-0 (14%) • Home Win confidence 59% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Brighton & Hove Albion FC:Brentford FC",
-      "slug": "brighton-hove-albion-vs-brentford-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Brighton & Hove Albion",
-      "away": "Brentford",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 74,
-      "odds": "1.28",
-      "value": "+12%",
-      "probs": {
-        "home": 10,
-        "draw": 15,
-        "away": 74
-      },
-      "xg": {
-        "home": "0.70",
-        "away": "2.33",
-        "total": "3.03"
-      },
-      "doubleChance": {
-        "12": 85,
-        "1X": 26,
-        "X2": 90
-      },
-      "overUnder": {
-        "over2_5": 58,
-        "under2_5": 42,
-        "oddsOver": "1.64",
-        "oddsUnder": "2.26"
-      },
-      "btts": {
-        "yes": 45,
-        "no": 55
-      },
-      "correctScore": {
-        "score": "0-2",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "0-2",
-          "prob": 13
-        },
-        {
-          "score": "0-1",
-          "prob": 12
-        },
-        {
-          "score": "0-3",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.8",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Brighton & Hove Albion vs Brentford: Dixon-Coles P(H)10% D15% A74% • xG 0.70-2.33 • most likely score 0-2 (13%) • Away Win confidence 74% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Ipswich Town FC:AFC Bournemouth",
-      "slug": "ipswich-town-vs-afc-bournemouth-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Ipswich Town",
-      "away": "AFC Bournemouth",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 43,
-      "odds": "2.22",
-      "value": "+0%",
-      "probs": {
-        "home": 36,
-        "draw": 21,
-        "away": 43
-      },
-      "xg": {
-        "home": "1.61",
-        "away": "1.78",
-        "total": "3.39"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 57,
-        "X2": 64
-      },
-      "overUnder": {
-        "over2_5": 66,
-        "under2_5": 34,
-        "oddsOver": "1.44",
-        "oddsUnder": "2.79"
-      },
-      "btts": {
-        "yes": 66,
-        "no": 34
-      },
-      "correctScore": {
-        "score": "1-1",
-        "prob": 9
-      },
-      "topScores": [
-        {
-          "score": "1-1",
-          "prob": 9
-        },
-        {
-          "score": "1-2",
-          "prob": 9
-        },
-        {
-          "score": "2-1",
-          "prob": 8
-        }
-      ],
-      "asianHandicap": "Away +0.25",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Ipswich Town vs AFC Bournemouth: Dixon-Coles P(H)36% D21% A43% • xG 1.61-1.78 • most likely score 1-1 (9%) • Away Win confidence 43% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Sunderland AFC:Chelsea FC",
-      "slug": "sunderland-a-vs-chelsea-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Sunderland A",
-      "away": "Chelsea",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 87,
-      "odds": "1.10",
-      "value": "+18%",
-      "probs": {
-        "home": 5,
-        "draw": 8,
-        "away": 87
-      },
-      "xg": {
-        "home": "0.87",
-        "away": "3.74",
-        "total": "4.61"
-      },
-      "doubleChance": {
-        "12": 92,
-        "1X": 13,
-        "X2": 95
-      },
-      "overUnder": {
-        "over2_5": 82,
-        "under2_5": 18,
-        "oddsOver": "1.16",
-        "oddsUnder": "5.28"
-      },
-      "btts": {
-        "yes": 56,
-        "no": 44
-      },
-      "correctScore": {
-        "score": "0-3",
-        "prob": 10
-      },
-      "topScores": [
-        {
-          "score": "0-3",
-          "prob": 10
-        },
-        {
-          "score": "0-4",
-          "prob": 9
-        },
-        {
-          "score": "1-3",
-          "prob": 8
-        }
-      ],
-      "asianHandicap": "Away +2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Sunderland A vs Chelsea: Dixon-Coles P(H)5% D8% A87% • xG 0.87-3.74 • most likely score 0-3 (10%) • Away Win confidence 87% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Crystal Palace FC:Liverpool FC",
-      "slug": "crystal-palace-vs-liverpool-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Crystal Palace",
-      "away": "Liverpool",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 80,
-      "odds": "1.18",
-      "value": "+15%",
-      "probs": {
-        "home": 7,
-        "draw": 13,
-        "away": 80
-      },
-      "xg": {
-        "home": "0.57",
-        "away": "2.54",
-        "total": "3.11"
-      },
-      "doubleChance": {
-        "12": 87,
-        "1X": 20,
-        "X2": 93
-      },
-      "overUnder": {
-        "over2_5": 59,
-        "under2_5": 41,
-        "oddsOver": "1.61",
-        "oddsUnder": "2.32"
-      },
-      "btts": {
-        "yes": 39,
-        "no": 61
-      },
-      "correctScore": {
-        "score": "0-2",
-        "prob": 15
-      },
-      "topScores": [
-        {
-          "score": "0-2",
-          "prob": 15
-        },
-        {
-          "score": "0-3",
-          "prob": 12
-        },
-        {
-          "score": "0-1",
-          "prob": 12
-        }
-      ],
-      "asianHandicap": "Away +2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Crystal Palace vs Liverpool: Dixon-Coles P(H)7% D13% A80% • xG 0.57-2.54 • most likely score 0-2 (15%) • Away Win confidence 80% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Everton FC:Coventry City FC",
-      "slug": "everton-vs-coventry-city-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Everton",
-      "away": "Coventry City",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 82,
-      "odds": "1.16",
-      "value": "+16%",
-      "probs": {
-        "home": 82,
-        "draw": 13,
-        "away": 5
-      },
-      "xg": {
-        "home": "2.33",
-        "away": "0.39",
-        "total": "2.72"
-      },
-      "doubleChance": {
-        "12": 87,
-        "1X": 95,
-        "X2": 18
-      },
-      "overUnder": {
-        "over2_5": 50,
-        "under2_5": 50,
-        "oddsOver": "1.90",
-        "oddsUnder": "1.90"
-      },
-      "btts": {
-        "yes": 28,
-        "no": 72
-      },
-      "correctScore": {
-        "score": "2-0",
-        "prob": 18
-      },
-      "topScores": [
-        {
-          "score": "2-0",
-          "prob": 18
-        },
-        {
-          "score": "1-0",
-          "prob": 16
-        },
-        {
-          "score": "3-0",
-          "prob": 14
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Everton vs Coventry City: Dixon-Coles P(H)82% D13% A5% • xG 2.33-0.39 • most likely score 2-0 (18%) • Home Win confidence 82% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Fulham FC:Newcastle United FC",
-      "slug": "fulham-vs-newcastle-united-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Fulham",
-      "away": "Newcastle United",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 39,
-      "odds": "2.45",
-      "value": "+0%",
-      "probs": {
-        "home": 39,
-        "draw": 26,
-        "away": 35
-      },
-      "xg": {
-        "home": "1.21",
-        "away": "1.14",
-        "total": "2.35"
-      },
-      "doubleChance": {
-        "12": 74,
-        "1X": 65,
-        "X2": 61
-      },
-      "overUnder": {
-        "over2_5": 42,
-        "under2_5": 58,
-        "oddsOver": "2.26",
-        "oddsUnder": "1.64"
-      },
-      "btts": {
-        "yes": 47,
-        "no": 53
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "1-1",
-          "prob": 12
-        },
-        {
-          "score": "0-1",
-          "prob": 12
-        }
-      ],
-      "asianHandicap": "Level (0)",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Fulham vs Newcastle United: Dixon-Coles P(H)39% D26% A35% • xG 1.21-1.14 • most likely score 1-0 (13%) • Home Win confidence 39% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Leeds United FC:Tottenham Hotspur FC",
-      "slug": "leeds-united-vs-tottenham-hotspur-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Leeds United",
-      "away": "Tottenham Hotspur",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 35,
-      "odds": "2.68",
-      "value": "+0%",
-      "probs": {
-        "home": 35,
-        "draw": 35,
-        "away": 30
-      },
-      "xg": {
-        "home": "0.79",
-        "away": "0.70",
-        "total": "1.49"
-      },
-      "doubleChance": {
-        "12": 65,
-        "1X": 70,
-        "X2": 65
-      },
-      "overUnder": {
-        "over2_5": 19,
-        "under2_5": 81,
-        "oddsOver": "5.00",
-        "oddsUnder": "1.17"
-      },
-      "btts": {
-        "yes": 27,
-        "no": 73
-      },
-      "correctScore": {
-        "score": "0-0",
-        "prob": 21
-      },
-      "topScores": [
-        {
-          "score": "0-0",
-          "prob": 21
-        },
-        {
-          "score": "1-0",
-          "prob": 19
-        },
-        {
-          "score": "0-1",
-          "prob": 17
-        }
-      ],
-      "asianHandicap": "Level (0)",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Leeds United vs Tottenham Hotspur: Dixon-Coles P(H)35% D35% A30% • xG 0.79-0.70 • most likely score 0-0 (21%) • Home Win confidence 35% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "en.1:2026-11-07:Nottingham Forest FC:Manchester City FC",
-      "slug": "nottingham-forest-vs-manchester-city-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Nottingham Forest",
-      "away": "Manchester City",
-      "league": "Premier League",
-      "code": "PL",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 87,
-      "odds": "1.09",
-      "value": "+19%",
-      "probs": {
-        "home": 4,
-        "draw": 9,
-        "away": 87
-      },
-      "xg": {
-        "home": "0.39",
-        "away": "2.84",
-        "total": "3.23"
-      },
-      "doubleChance": {
-        "12": 91,
-        "1X": 13,
-        "X2": 96
-      },
-      "overUnder": {
-        "over2_5": 62,
-        "under2_5": 38,
-        "oddsOver": "1.53",
-        "oddsUnder": "2.50"
-      },
-      "btts": {
-        "yes": 30,
-        "no": 70
-      },
-      "correctScore": {
-        "score": "0-2",
-        "prob": 16
-      },
-      "topScores": [
-        {
-          "score": "0-2",
-          "prob": 16
-        },
-        {
-          "score": "0-3",
-          "prob": 15
-        },
-        {
-          "score": "0-1",
-          "prob": 12
-        }
-      ],
-      "asianHandicap": "Away +2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Nottingham Forest vs Manchester City: Dixon-Coles P(H)4% D9% A87% • xG 0.39-2.84 • most likely score 0-2 (16%) • Away Win confidence 87% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
       "id": "en.1:2026-11-07:Arsenal FC:Hull City AFC",
       "slug": "arsenal-vs-hull-city-a-prediction",
       "utcDate": "2026-11-07T15:00:00Z",
       "date": "2026-11-07",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
+      "countdown": "27h to kickoff",
       "home": "Arsenal",
       "away": "Hull City A",
       "league": "Premier League",
@@ -1175,284 +518,284 @@
       "locked": false
     },
     {
-      "id": "de.1:2026-11-07:VfB Stuttgart:SV Werder Bremen",
-      "slug": "vfb-stuttgart-vs-sv-werder-bremen-prediction",
+      "id": "en.1:2026-11-07:Nottingham Forest FC:Manchester City FC",
+      "slug": "nottingham-forest-vs-manchester-city-prediction",
       "utcDate": "2026-11-07T15:00:00Z",
       "date": "2026-11-07",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "VfB Stuttgart",
-      "away": "SV Werder Bremen",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
+      "countdown": "27h to kickoff",
+      "home": "Nottingham Forest",
+      "away": "Manchester City",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 75,
-      "odds": "1.27",
-      "value": "+13%",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 87,
+      "odds": "1.09",
+      "value": "+19%",
       "probs": {
-        "home": 75,
-        "draw": 15,
-        "away": 10
+        "home": 4,
+        "draw": 9,
+        "away": 87
       },
       "xg": {
-        "home": "2.38",
-        "away": "0.70",
-        "total": "3.08"
+        "home": "0.39",
+        "away": "2.84",
+        "total": "3.23"
       },
       "doubleChance": {
-        "12": 85,
-        "1X": 90,
-        "X2": 25
+        "12": 91,
+        "1X": 13,
+        "X2": 96
       },
       "overUnder": {
-        "over2_5": 59,
-        "under2_5": 41,
-        "oddsOver": "1.61",
-        "oddsUnder": "2.32"
+        "over2_5": 62,
+        "under2_5": 38,
+        "oddsOver": "1.53",
+        "oddsUnder": "2.50"
       },
       "btts": {
-        "yes": 45,
-        "no": 55
+        "yes": 30,
+        "no": 70
       },
       "correctScore": {
-        "score": "2-0",
-        "prob": 13
+        "score": "0-2",
+        "prob": 16
       },
       "topScores": [
         {
-          "score": "2-0",
-          "prob": 13
+          "score": "0-2",
+          "prob": 16
         },
         {
-          "score": "1-0",
+          "score": "0-3",
+          "prob": 15
+        },
+        {
+          "score": "0-1",
           "prob": 12
-        },
-        {
-          "score": "3-0",
-          "prob": 10
         }
       ],
-      "asianHandicap": "Home -1.8",
+      "asianHandicap": "Away +2.0",
       "form": {
         "home": null,
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "VfB Stuttgart vs SV Werder Bremen: Dixon-Coles P(H)75% D15% A10% • xG 2.38-0.70 • most likely score 2-0 (13%) • Home Win confidence 75% • strengths from real standings",
+      "whyWin": "Nottingham Forest vs Manchester City: Dixon-Coles P(H)4% D9% A87% • xG 0.39-2.84 • most likely score 0-2 (16%) • Away Win confidence 87% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Leeds United FC:Tottenham Hotspur FC",
+      "slug": "leeds-united-vs-tottenham-hotspur-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Leeds United",
+      "away": "Tottenham Hotspur",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 35,
+      "odds": "2.68",
+      "value": "+0%",
+      "probs": {
+        "home": 35,
+        "draw": 35,
+        "away": 30
+      },
+      "xg": {
+        "home": "0.79",
+        "away": "0.70",
+        "total": "1.49"
+      },
+      "doubleChance": {
+        "12": 65,
+        "1X": 70,
+        "X2": 65
+      },
+      "overUnder": {
+        "over2_5": 19,
+        "under2_5": 81,
+        "oddsOver": "5.00",
+        "oddsUnder": "1.17"
+      },
+      "btts": {
+        "yes": 27,
+        "no": 73
+      },
+      "correctScore": {
+        "score": "0-0",
+        "prob": 21
+      },
+      "topScores": [
+        {
+          "score": "0-0",
+          "prob": 21
+        },
+        {
+          "score": "1-0",
+          "prob": 19
+        },
+        {
+          "score": "0-1",
+          "prob": 17
+        }
+      ],
+      "asianHandicap": "Level (0)",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Leeds United vs Tottenham Hotspur: Dixon-Coles P(H)35% D35% A30% • xG 0.79-0.70 • most likely score 0-0 (21%) • Home Win confidence 35% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     },
     {
-      "id": "de.1:2026-11-07:SC Paderborn 07:Eintracht Frankfurt",
-      "slug": "sc-paderborn-07-vs-eintracht-frankfurt-prediction",
+      "id": "en.1:2026-11-07:Fulham FC:Newcastle United FC",
+      "slug": "fulham-vs-newcastle-united-prediction",
       "utcDate": "2026-11-07T15:00:00Z",
       "date": "2026-11-07",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "SC Paderborn 07",
-      "away": "Eintracht Frankfurt",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 66,
-      "odds": "1.45",
-      "value": "+8%",
-      "probs": {
-        "home": 15,
-        "draw": 19,
-        "away": 66
-      },
-      "xg": {
-        "home": "0.83",
-        "away": "2.01",
-        "total": "2.84"
-      },
-      "doubleChance": {
-        "12": 81,
-        "1X": 34,
-        "X2": 85
-      },
-      "overUnder": {
-        "over2_5": 54,
-        "under2_5": 46,
-        "oddsOver": "1.76",
-        "oddsUnder": "2.07"
-      },
-      "btts": {
-        "yes": 48,
-        "no": 52
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 13
-        },
-        {
-          "score": "0-2",
-          "prob": 12
-        },
-        {
-          "score": "1-2",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.3",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "SC Paderborn 07 vs Eintracht Frankfurt: Dixon-Coles P(H)15% D19% A66% • xG 0.83-2.01 • most likely score 0-1 (13%) • Away Win confidence 66% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "de.1:2026-11-07:1. FSV Mainz 05:FC Bayern München",
-      "slug": "1-fsv-mainz-05-vs-fc-bayern-muenchen-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "1. FSV Mainz 05",
-      "away": "FC Bayern München",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 59,
-      "odds": "1.60",
-      "value": "+5%",
-      "probs": {
-        "home": 20,
-        "draw": 21,
-        "away": 59
-      },
-      "xg": {
-        "home": "0.92",
-        "away": "1.82",
-        "total": "2.74"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 41,
-        "X2": 80
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 50,
-        "no": 50
-      },
-      "correctScore": {
-        "score": "0-1",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "0-1",
-          "prob": 13
-        },
-        {
-          "score": "0-2",
-          "prob": 11
-        },
-        {
-          "score": "1-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "1. FSV Mainz 05 vs FC Bayern München: Dixon-Coles P(H)20% D21% A59% • xG 0.92-1.82 • most likely score 0-1 (13%) • Away Win confidence 59% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "de.1:2026-11-07:Borussia Dortmund:SV 07 Elversberg",
-      "slug": "borussia-dortmund-vs-sv-07-elversberg-prediction",
-      "utcDate": "2026-11-07T15:00:00Z",
-      "date": "2026-11-07",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "Borussia Dortmund",
-      "away": "SV 07 Elversberg",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
+      "countdown": "27h to kickoff",
+      "home": "Fulham",
+      "away": "Newcastle United",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 95,
-      "odds": "1.01",
-      "value": "+23%",
+      "conf": 39,
+      "odds": "2.45",
+      "value": "+0%",
       "probs": {
-        "home": 95,
-        "draw": 3,
-        "away": 1
+        "home": 39,
+        "draw": 26,
+        "away": 35
       },
       "xg": {
-        "home": "4.20",
-        "away": "0.34",
-        "total": "4.54"
+        "home": "1.21",
+        "away": "1.14",
+        "total": "2.35"
       },
       "doubleChance": {
-        "12": 97,
-        "1X": 97,
-        "X2": 5
+        "12": 74,
+        "1X": 65,
+        "X2": 61
       },
       "overUnder": {
-        "over2_5": 81,
-        "under2_5": 19,
-        "oddsOver": "1.17",
-        "oddsUnder": "5.00"
+        "over2_5": 42,
+        "under2_5": 58,
+        "oddsOver": "2.26",
+        "oddsUnder": "1.64"
+      },
+      "btts": {
+        "yes": 47,
+        "no": 53
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "1-1",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Level (0)",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Fulham vs Newcastle United: Dixon-Coles P(H)39% D26% A35% • xG 1.21-1.14 • most likely score 1-0 (13%) • Home Win confidence 39% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Everton FC:Coventry City FC",
+      "slug": "everton-vs-coventry-city-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Everton",
+      "away": "Coventry City",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 82,
+      "odds": "1.16",
+      "value": "+16%",
+      "probs": {
+        "home": 82,
+        "draw": 13,
+        "away": 5
+      },
+      "xg": {
+        "home": "2.33",
+        "away": "0.39",
+        "total": "2.72"
+      },
+      "doubleChance": {
+        "12": 87,
+        "1X": 95,
+        "X2": 18
+      },
+      "overUnder": {
+        "over2_5": 50,
+        "under2_5": 50,
+        "oddsOver": "1.90",
+        "oddsUnder": "1.90"
       },
       "btts": {
         "yes": 28,
         "no": 72
       },
       "correctScore": {
-        "score": "4-0",
-        "prob": 16
+        "score": "2-0",
+        "prob": 18
       },
       "topScores": [
         {
-          "score": "4-0",
+          "score": "2-0",
+          "prob": 18
+        },
+        {
+          "score": "1-0",
           "prob": 16
         },
         {
           "score": "3-0",
-          "prob": 15
-        },
-        {
-          "score": "5-0",
-          "prob": 13
+          "prob": 14
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -1461,7 +804,372 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Borussia Dortmund vs SV 07 Elversberg: Dixon-Coles P(H)95% D3% A1% • xG 4.20-0.34 • most likely score 4-0 (16%) • Home Win confidence 95% • strengths from real standings",
+      "whyWin": "Everton vs Coventry City: Dixon-Coles P(H)82% D13% A5% • xG 2.33-0.39 • most likely score 2-0 (18%) • Home Win confidence 82% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Crystal Palace FC:Liverpool FC",
+      "slug": "crystal-palace-vs-liverpool-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Crystal Palace",
+      "away": "Liverpool",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 80,
+      "odds": "1.18",
+      "value": "+15%",
+      "probs": {
+        "home": 7,
+        "draw": 13,
+        "away": 80
+      },
+      "xg": {
+        "home": "0.57",
+        "away": "2.54",
+        "total": "3.11"
+      },
+      "doubleChance": {
+        "12": 87,
+        "1X": 20,
+        "X2": 93
+      },
+      "overUnder": {
+        "over2_5": 59,
+        "under2_5": 41,
+        "oddsOver": "1.61",
+        "oddsUnder": "2.32"
+      },
+      "btts": {
+        "yes": 39,
+        "no": 61
+      },
+      "correctScore": {
+        "score": "0-2",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "0-2",
+          "prob": 15
+        },
+        {
+          "score": "0-3",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Away +2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Crystal Palace vs Liverpool: Dixon-Coles P(H)7% D13% A80% • xG 0.57-2.54 • most likely score 0-2 (15%) • Away Win confidence 80% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Sunderland AFC:Chelsea FC",
+      "slug": "sunderland-a-vs-chelsea-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Sunderland A",
+      "away": "Chelsea",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 87,
+      "odds": "1.10",
+      "value": "+18%",
+      "probs": {
+        "home": 5,
+        "draw": 8,
+        "away": 87
+      },
+      "xg": {
+        "home": "0.87",
+        "away": "3.74",
+        "total": "4.61"
+      },
+      "doubleChance": {
+        "12": 92,
+        "1X": 13,
+        "X2": 95
+      },
+      "overUnder": {
+        "over2_5": 82,
+        "under2_5": 18,
+        "oddsOver": "1.16",
+        "oddsUnder": "5.28"
+      },
+      "btts": {
+        "yes": 56,
+        "no": 44
+      },
+      "correctScore": {
+        "score": "0-3",
+        "prob": 10
+      },
+      "topScores": [
+        {
+          "score": "0-3",
+          "prob": 10
+        },
+        {
+          "score": "0-4",
+          "prob": 9
+        },
+        {
+          "score": "1-3",
+          "prob": 8
+        }
+      ],
+      "asianHandicap": "Away +2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Sunderland A vs Chelsea: Dixon-Coles P(H)5% D8% A87% • xG 0.87-3.74 • most likely score 0-3 (10%) • Away Win confidence 87% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Ipswich Town FC:AFC Bournemouth",
+      "slug": "ipswich-town-vs-afc-bournemouth-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Ipswich Town",
+      "away": "AFC Bournemouth",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 43,
+      "odds": "2.22",
+      "value": "+0%",
+      "probs": {
+        "home": 36,
+        "draw": 21,
+        "away": 43
+      },
+      "xg": {
+        "home": "1.61",
+        "away": "1.78",
+        "total": "3.39"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 57,
+        "X2": 64
+      },
+      "overUnder": {
+        "over2_5": 66,
+        "under2_5": 34,
+        "oddsOver": "1.44",
+        "oddsUnder": "2.79"
+      },
+      "btts": {
+        "yes": 66,
+        "no": 34
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 9
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 9
+        },
+        {
+          "score": "1-2",
+          "prob": 9
+        },
+        {
+          "score": "2-1",
+          "prob": 8
+        }
+      ],
+      "asianHandicap": "Away +0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Ipswich Town vs AFC Bournemouth: Dixon-Coles P(H)36% D21% A43% • xG 1.61-1.78 • most likely score 1-1 (9%) • Away Win confidence 43% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Brighton & Hove Albion FC:Brentford FC",
+      "slug": "brighton-hove-albion-vs-brentford-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Brighton & Hove Albion",
+      "away": "Brentford",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 74,
+      "odds": "1.28",
+      "value": "+12%",
+      "probs": {
+        "home": 10,
+        "draw": 15,
+        "away": 74
+      },
+      "xg": {
+        "home": "0.70",
+        "away": "2.33",
+        "total": "3.03"
+      },
+      "doubleChance": {
+        "12": 85,
+        "1X": 26,
+        "X2": 90
+      },
+      "overUnder": {
+        "over2_5": 58,
+        "under2_5": 42,
+        "oddsOver": "1.64",
+        "oddsUnder": "2.26"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "0-2",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-2",
+          "prob": 13
+        },
+        {
+          "score": "0-1",
+          "prob": 12
+        },
+        {
+          "score": "0-3",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Brighton & Hove Albion vs Brentford: Dixon-Coles P(H)10% D15% A74% • xG 0.70-2.33 • most likely score 0-2 (13%) • Away Win confidence 74% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-07:Manchester United FC:Aston Villa FC",
+      "slug": "manchester-united-vs-aston-villa-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Manchester United",
+      "away": "Aston Villa",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 59,
+      "odds": "1.61",
+      "value": "+4%",
+      "probs": {
+        "home": 59,
+        "draw": 22,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.74",
+        "away": "0.86",
+        "total": "2.60"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 81,
+        "X2": 41
+      },
+      "overUnder": {
+        "over2_5": 48,
+        "under2_5": 52,
+        "oddsOver": "1.98",
+        "oddsUnder": "1.83"
+      },
+      "btts": {
+        "yes": 47,
+        "no": 53
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Manchester United vs Aston Villa: Dixon-Coles P(H)59% D22% A19% • xG 1.74-0.86 • most likely score 1-0 (14%) • Home Win confidence 59% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1473,7 +1181,7 @@
       "date": "2026-11-07",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
+      "countdown": "27h to kickoff",
       "home": "RB Leipzig",
       "away": "FC Augsburg",
       "league": "Bundesliga",
@@ -1540,65 +1248,65 @@
       "locked": false
     },
     {
-      "id": "it.1:2026-11-07:AS Roma:US Sassuolo Calcio",
-      "slug": "as-roma-vs-us-sassuolo-calcio-prediction",
+      "id": "de.1:2026-11-07:Borussia Dortmund:SV 07 Elversberg",
+      "slug": "borussia-dortmund-vs-sv-07-elversberg-prediction",
       "utcDate": "2026-11-07T15:00:00Z",
       "date": "2026-11-07",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
-      "home": "AS Roma",
-      "away": "US Sassuolo Calcio",
-      "league": "Serie A",
-      "code": "SA",
-      "flag": "🇮🇹",
+      "countdown": "27h to kickoff",
+      "home": "Borussia Dortmund",
+      "away": "SV 07 Elversberg",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
       "status": "TIMED",
       "pred": "Home Win",
       "sub": "1 • Full Time",
-      "conf": 96,
+      "conf": 95,
       "odds": "1.01",
       "value": "+23%",
       "probs": {
-        "home": 96,
+        "home": 95,
         "draw": 3,
         "away": 1
       },
       "xg": {
         "home": "4.20",
-        "away": "0.30",
-        "total": "4.50"
+        "away": "0.34",
+        "total": "4.54"
       },
       "doubleChance": {
         "12": 97,
         "1X": 97,
-        "X2": 4
+        "X2": 5
       },
       "overUnder": {
-        "over2_5": 80,
-        "under2_5": 20,
-        "oddsOver": "1.19",
-        "oddsUnder": "4.75"
+        "over2_5": 81,
+        "under2_5": 19,
+        "oddsOver": "1.17",
+        "oddsUnder": "5.00"
       },
       "btts": {
-        "yes": 25,
-        "no": 75
+        "yes": 28,
+        "no": 72
       },
       "correctScore": {
         "score": "4-0",
-        "prob": 17
+        "prob": 16
       },
       "topScores": [
         {
           "score": "4-0",
-          "prob": 17
-        },
-        {
-          "score": "3-0",
           "prob": 16
         },
         {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
           "score": "5-0",
-          "prob": 14
+          "prob": 13
         }
       ],
       "asianHandicap": "Home -2.0",
@@ -1607,7 +1315,372 @@
         "away": null
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "AS Roma vs US Sassuolo Calcio: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.30 • most likely score 4-0 (17%) • Home Win confidence 96% • strengths from real standings",
+      "whyWin": "Borussia Dortmund vs SV 07 Elversberg: Dixon-Coles P(H)95% D3% A1% • xG 4.20-0.34 • most likely score 4-0 (16%) • Home Win confidence 95% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-07:1. FSV Mainz 05:FC Bayern München",
+      "slug": "1-fsv-mainz-05-vs-fc-bayern-muenchen-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "1. FSV Mainz 05",
+      "away": "FC Bayern München",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 59,
+      "odds": "1.60",
+      "value": "+5%",
+      "probs": {
+        "home": 20,
+        "draw": 21,
+        "away": 59
+      },
+      "xg": {
+        "home": "0.92",
+        "away": "1.82",
+        "total": "2.74"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 41,
+        "X2": 80
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 50,
+        "no": 50
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 13
+        },
+        {
+          "score": "0-2",
+          "prob": 11
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "1. FSV Mainz 05 vs FC Bayern München: Dixon-Coles P(H)20% D21% A59% • xG 0.92-1.82 • most likely score 0-1 (13%) • Away Win confidence 59% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-07:SC Paderborn 07:Eintracht Frankfurt",
+      "slug": "sc-paderborn-07-vs-eintracht-frankfurt-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "SC Paderborn 07",
+      "away": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 66,
+      "odds": "1.45",
+      "value": "+8%",
+      "probs": {
+        "home": 15,
+        "draw": 19,
+        "away": 66
+      },
+      "xg": {
+        "home": "0.83",
+        "away": "2.01",
+        "total": "2.84"
+      },
+      "doubleChance": {
+        "12": 81,
+        "1X": 34,
+        "X2": 85
+      },
+      "overUnder": {
+        "over2_5": 54,
+        "under2_5": 46,
+        "oddsOver": "1.76",
+        "oddsUnder": "2.07"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 13
+        },
+        {
+          "score": "0-2",
+          "prob": 12
+        },
+        {
+          "score": "1-2",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SC Paderborn 07 vs Eintracht Frankfurt: Dixon-Coles P(H)15% D19% A66% • xG 0.83-2.01 • most likely score 0-1 (13%) • Away Win confidence 66% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-07:VfB Stuttgart:SV Werder Bremen",
+      "slug": "vfb-stuttgart-vs-sv-werder-bremen-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "VfB Stuttgart",
+      "away": "SV Werder Bremen",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 75,
+      "odds": "1.27",
+      "value": "+13%",
+      "probs": {
+        "home": 75,
+        "draw": 15,
+        "away": 10
+      },
+      "xg": {
+        "home": "2.38",
+        "away": "0.70",
+        "total": "3.08"
+      },
+      "doubleChance": {
+        "12": 85,
+        "1X": 90,
+        "X2": 25
+      },
+      "overUnder": {
+        "over2_5": 59,
+        "under2_5": 41,
+        "oddsOver": "1.61",
+        "oddsUnder": "2.32"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "3-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "VfB Stuttgart vs SV Werder Bremen: Dixon-Coles P(H)75% D15% A10% • xG 2.38-0.70 • most likely score 2-0 (13%) • Home Win confidence 75% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-11-07:Torino FC:US Lecce",
+      "slug": "torino-vs-us-lecce-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Torino",
+      "away": "US Lecce",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 68,
+      "odds": "1.40",
+      "value": "+9%",
+      "probs": {
+        "home": 68,
+        "draw": 19,
+        "away": 14
+      },
+      "xg": {
+        "home": "2.01",
+        "away": "0.74",
+        "total": "2.75"
+      },
+      "doubleChance": {
+        "12": 81,
+        "1X": 86,
+        "X2": 32
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Torino vs US Lecce: Dixon-Coles P(H)68% D19% A14% • xG 2.01-0.74 • most likely score 1-0 (14%) • Home Win confidence 68% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-11-07:Cagliari Calcio:Frosinone Calcio",
+      "slug": "cagliari-calcio-vs-frosinone-calcio-prediction",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "date": "2026-11-07",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "27h to kickoff",
+      "home": "Cagliari Calcio",
+      "away": "Frosinone Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Cagliari Calcio vs Frosinone Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -1619,7 +1692,7 @@
       "date": "2026-11-07",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "42h to kickoff",
+      "countdown": "27h to kickoff",
       "home": "Parma Calcio 1913",
       "away": "Bologna FC 1909",
       "league": "Serie A",
@@ -2290,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Jude Bellingham visits Atlanta Falcons training session",
+      "title": "Vincent Kompany: Bayern Munich boss close to 'full recovery' after collapse",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-11-06T11:56:47.000Z",
+      "excerpt": "Bayern Munich coach Vincent Kompany is on track for a \"full recovery\" after a lengthy absence following his collapse at a training session, ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50398505/vincent-kompany-bayern-munich-collapse-recovery-return",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741932_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Gianluigi Donnarumma knows he's 'made mistakes' for Man City - Enzo Maresca",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-06T11:55:42.000Z",
+      "excerpt": "Manchester City boss Enzo Maresca has reiterated his support for Gianluigi Donnarumma but said the Italian goalkeeper knows he's made mistak",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50398344/gianluigi-donnarumma-made-mistakes-man-city-enzo-maresca",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741927_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal tracking RB Leipzig's Nusa after Vinicius snub",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-06T11:20:54.000Z",
+      "excerpt": "RB Leipzig winger Antonio Nusa is being tracked by Arsenal ahead of the January transfer window. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50397632/transfer-rumors-news-arsenal-tracking-rb-leipzig-antonio-nusa-vinicius-jr-snub",
+      "image": "https://a.espncdn.com/photo/2026/0630/r1682174_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Anthony Gordon left Premier League for Barcelona to get 'respect' -- he's got it now",
       "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-11-05T18:01:50.000Z",
-      "excerpt": "Jude Bellingham visits Atlanta Falcons training session",
+      "time": "0h ago",
+      "published": "2026-11-06T11:02:39.000Z",
+      "excerpt": "Anthony Gordon's move to Barcelona was a surprise to some, but he's become an instant fan favorite at Camp Nou as well as a key player for E",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50390519/jude-bellingham-visits-atlanta-falcons-training-session",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_Jude_Bellingham_visits_Atlanta_Falcons_training_session/dm_261105_Jude_Bellingham_visits_Atlanta_Falcons_training_session.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Soccer's main characters: Man United, Como, PSG, Donnarumma",
-      "league": "Champions League",
-      "time": "3h ago",
-      "published": "2026-11-05T17:51:39.000Z",
-      "excerpt": "What are we watching this week? Man United are hoping for a rally, Como are magical to watch, PSG are the team to beat and we're worried abo",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50388254/soccer-champions-league-main-characters-man-united-como-psg-donnarumma",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741544_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Portugal, Man United, Real Madrid: Cristiano Ronaldo's long history of rows with coaches",
-      "league": "Serie A",
-      "time": "4h ago",
-      "published": "2026-11-05T16:21:16.000Z",
-      "excerpt": "Cristiano Ronaldo has retired from international soccer with Portugal after being benched by coach Jorge Jesus. It is far from the first hig",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50075485/cristiano-ronaldo-long-history-rows-portugal-manchester-united-real-madrid-juventus-coaches",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724373_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "All of Anthony Gordon's goals and assists in LALIGA so far",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-11-05T16:13:44.000Z",
-      "excerpt": "All of Anthony Gordon's goals and assists in LALIGA so far",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50389589/all-anthony-gordon-goals-assists-laliga-far",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/dm_261105_All_of_Anthony_Gordons_goals_and_assists_in_LALIGA_so_far/dm_261105_All_of_Anthony_Gordons_goals_and_assists_in_LALIGA_so_far.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50377434/anthony-gordon-barcelona-england-premier-league-respect",
+      "image": "https://a.espncdn.com/photo/2026/1105/premier_league_barcelona_16x9_1296x729.jpg",
       "category": "football"
     }
   ],
