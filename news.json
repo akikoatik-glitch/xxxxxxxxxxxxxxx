@@ -1,54 +1,65 @@
 {
-  "lastUpdate": "2026-11-07T21:41:32.705Z",
+  "lastUpdate": "2026-11-08T01:15:38.427Z",
   "news": [
     {
-      "title": "Man United hit 40-year low after dropping into Premier League relegation zone",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-11-07T20:09:48.000Z",
-      "excerpt": "Manchester United have ended a day in the Premier League relegation zone for the first time in 40 years at this stage of a season.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50410672/man-united-premier-league-relegation-zone",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742541_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Hislop questions 'predictable' Man City after another defeat",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-11-07T20:05:09.000Z",
-      "excerpt": "Hislop questions 'predictable' Man City after another defeat",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50410739/hislop-questions-predictable-man-city-another-defeat",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_Hislop_questions_predictable_Man_City_after_another_defeat/dm_261107_Hislop_questions_predictable_Man_City_after_another_defeat.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Osasuna vs. Athletic Club - Game Highlights",
+      "title": "Does Mourinho deserve 'praise' for his start as Real Madrid manager?",
       "league": "La Liga",
       "time": "2h ago",
-      "published": "2026-11-07T19:36:16.000Z",
-      "excerpt": "Watch the Game Highlights from Osasuna vs. Athletic Club, 11/07/2026",
+      "published": "2026-11-07T23:11:58.000Z",
+      "excerpt": "Does Mourinho deserve 'praise' for his start as Real Madrid manager?",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50410537/osasuna-vs-athletic-club-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/7f0f88ac-a76a-4dd4-8cb8-088d09483b06/7f0f88ac-a76a-4dd4-8cb8-088d09483b06.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50413417/does-mourinho-deserve-praise-start-real-madrid-manager",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_COM_SOC_Analysis_Does_Mourinho_deserve_E1091/dm_261107_COM_SOC_Analysis_Does_Mourinho_deserve_E1091.jpg",
       "category": "football"
     },
     {
-      "title": "Espanyol vs. Deportivo La Coruña - Game Highlights",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-11-07T17:16:34.000Z",
-      "excerpt": "Watch the Game Highlights from Espanyol vs. Deportivo La Coruña, 11/07/2026",
+      "title": "Burley slams VAR for not sending off Bogle",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-07T23:10:21.000Z",
+      "excerpt": "Burley slams VAR for not sending off Bogle",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50409154/espanyol-vs-deportivo-la-coruna-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/c9a2597b-b503-4795-bdc9-2840ac04ef44/c9a2597b-b503-4795-bdc9-2840ac04ef44.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50413391/burley-slams-var-not-sending-bogle",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_COM_SOC_Analysis_Burley_slams_VAR_for_not_sending_off_Bogle_GLOBAL_2026-11-07/dm_261107_COM_SOC_Analysis_Burley_slams_VAR_for_not_sending_off_Bogle_GLOBAL_2026-11-07.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Man City fall again as Delap's double inspires Forest",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-07T23:06:21.000Z",
+      "excerpt": "Liam Delap's brace earns Nottingham Forest an empathetic 3-1 victory, condemning Manchester City to their third straight EPL loss.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50413322/man-city-fall-again-delap-double-inspires-forest",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_EPL_Highlight_Man_City_fall_again_as_Delaps_double_inspires_Forest__2026118_AUS_ONLY/dm_261107_EPL_Highlight_Man_City_fall_again_as_Delaps_double_inspires_Forest__2026118_AUS_ONLY.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Güler inspires Real Madrid's 8th straight win to go level with Barcelona",
+      "league": "La Liga",
+      "time": "2h ago",
+      "published": "2026-11-07T22:36:05.000Z",
+      "excerpt": "Arda Güler scored his third goal in five matches to fire Real Madrid to an eighth straight victory and move them level on points with Barcel",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401882808",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742634_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "PSG cruise to 11th straight win as Illia Zabarnyi nets winner against Troyes",
+      "league": "Ligue 1",
+      "time": "2h ago",
+      "published": "2026-11-07T22:29:05.000Z",
+      "excerpt": "Paris Saint-Germain extended their winning streak to 11 matches in all competitions with a 1-0 victory over Ligue 1 strugglers Troyes at the",
+      "source": "ESPN",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401876407",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742625_594x334_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Ballon d'Or winner Harry Kane notches two assists as Bayern Munich beat Mainz",
       "league": "Bundesliga",
-      "time": "4h ago",
+      "time": "8h ago",
       "published": "2026-11-07T16:57:55.000Z",
       "excerpt": "Harry Kane played a part in both goals as Bayern Munich returned to winning ways in the Bundesliga with a 2-1 victory over Mainz.",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Liverpool's Rio Ngumoha still a Bayern Munich target",
       "league": "Bundesliga",
-      "time": "11h ago",
+      "time": "15h ago",
       "published": "2026-11-07T09:44:44.000Z",
       "excerpt": "Bayern Munich still have Liverpool and England winger Rio Ngumoha firmly in their sights. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Gio Reyna scores, exits with apparent injury ahead of USMNT camp",
       "league": "Ligue 1",
-      "time": "20h ago",
+      "time": "07/11/2026",
       "published": "2026-11-07T01:06:27.000Z",
       "excerpt": "Gio Reyna 's participation for the USMNT in the Concacaf Nations League quarterfinals could be in jeopardy after he exited Strasbourg's loss",
       "source": "ESPN",
@@ -120,17 +131,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50075485/cristiano-ronaldo-long-history-rows-portugal-manchester-united-real-madrid-juventus-coaches",
       "image": "https://a.espncdn.com/photo/2026/1001/r1724373_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Juventus eye moves for Šeško, Balogun",
-      "league": "Ligue 1",
-      "time": "04/11/2026",
-      "published": "2026-11-04T21:28:20.000Z",
-      "excerpt": "Juventus are keeping tabs on possible moves for forwards Benjamin Šeško and Folarin Balogun. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50376623/transfer-rumors-news-arsenal-want-atletico-madrid-winger",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741190_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
