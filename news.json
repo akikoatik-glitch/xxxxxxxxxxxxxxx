@@ -1,10 +1,21 @@
 {
-  "lastUpdate": "2026-11-08T01:15:38.427Z",
+  "lastUpdate": "2026-11-08T08:51:19.083Z",
   "news": [
+    {
+      "title": "Mourinho on Real Madrid's latest win: Happy dressing room -- with horrible music",
+      "league": "La Liga",
+      "time": "7h ago",
+      "published": "2026-11-08T01:26:29.000Z",
+      "excerpt": "José Mourinho described a happy Real Madrid dressing room after an eighth straight win, before joking that his players had celebrated with \"",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50414787/jose-mourinho-real-madrid-valencia-music-laliga",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1742741_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Does Mourinho deserve 'praise' for his start as Real Madrid manager?",
       "league": "La Liga",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-11-07T23:11:58.000Z",
       "excerpt": "Does Mourinho deserve 'praise' for his start as Real Madrid manager?",
       "source": "ESPN",
@@ -15,7 +26,7 @@
     {
       "title": "Burley slams VAR for not sending off Bogle",
       "league": "Premier League",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-11-07T23:10:21.000Z",
       "excerpt": "Burley slams VAR for not sending off Bogle",
       "source": "ESPN",
@@ -26,7 +37,7 @@
     {
       "title": "Man City fall again as Delap's double inspires Forest",
       "league": "Premier League",
-      "time": "2h ago",
+      "time": "9h ago",
       "published": "2026-11-07T23:06:21.000Z",
       "excerpt": "Liam Delap's brace earns Nottingham Forest an empathetic 3-1 victory, condemning Manchester City to their third straight EPL loss.",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Güler inspires Real Madrid's 8th straight win to go level with Barcelona",
-      "league": "La Liga",
-      "time": "2h ago",
-      "published": "2026-11-07T22:36:05.000Z",
-      "excerpt": "Arda Güler scored his third goal in five matches to fire Real Madrid to an eighth straight victory and move them level on points with Barcel",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401882808",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742634_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "PSG cruise to 11th straight win as Illia Zabarnyi nets winner against Troyes",
       "league": "Ligue 1",
-      "time": "2h ago",
+      "time": "10h ago",
       "published": "2026-11-07T22:29:05.000Z",
       "excerpt": "Paris Saint-Germain extended their winning streak to 11 matches in all competitions with a 1-0 victory over Ligue 1 strugglers Troyes at the",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Ballon d'Or winner Harry Kane notches two assists as Bayern Munich beat Mainz",
       "league": "Bundesliga",
-      "time": "8h ago",
+      "time": "15h ago",
       "published": "2026-11-07T16:57:55.000Z",
       "excerpt": "Harry Kane played a part in both goals as Bayern Munich returned to winning ways in the Bundesliga with a 2-1 victory over Mainz.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Liverpool's Rio Ngumoha still a Bayern Munich target",
       "league": "Bundesliga",
-      "time": "15h ago",
+      "time": "23h ago",
       "published": "2026-11-07T09:44:44.000Z",
       "excerpt": "Bayern Munich still have Liverpool and England winger Rio Ngumoha firmly in their sights. Transfer Talk has the latest.",
       "source": "ESPN",
