@@ -1,10 +1,32 @@
 {
-  "lastUpdate": "2026-11-09T01:35:36.849Z",
+  "lastUpdate": "2026-11-09T09:35:07.935Z",
   "news": [
+    {
+      "title": "Transfer rumors, news: Man United to hire USMNT's Pochettino to replace Carrick?",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-09T08:55:42.000Z",
+      "excerpt": "Manchester United are in the relegation zone and could turn to United States head coach Mauricio Pochettino to replace Michael Carrick. Tran",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50430657/transfer-rumors-news-man-united-hire-usmnt-pochettino-replace-carrick",
+      "image": "https://a.espncdn.com/photo/2026/0804/r1697370_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Fermín López delivers brace as Barcelona defeat Atlético Madrid",
+      "league": "La Liga",
+      "time": "7h ago",
+      "published": "2026-11-09T02:02:54.000Z",
+      "excerpt": "Sam Marsden describes a stunning performance from Fermín López as Barcelona secure a 2-1 win over Atlético Madrid.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50428424/fermin-lopez-delivers-brace-barcelona-defeat-atletico-madrid",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dm_261108_Fermin_Lopez_delivers_brace_as_Barcelona_defeat_Atletico_Madrid/dm_261108_Fermin_Lopez_delivers_brace_as_Barcelona_defeat_Atletico_Madrid.jpg",
+      "category": "football"
+    },
     {
       "title": "Diego Simeone: Atlético Madrid need Julián Álvarez at his 'best' to succeed",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "9h ago",
       "published": "2026-11-09T00:19:08.000Z",
       "excerpt": "Diego Simeone says Atlético Madrid will give Julián Álvarez time to re-discover his best form after the striker missed a string of chances i",
       "source": "ESPN",
@@ -15,7 +37,7 @@
     {
       "title": "Zirkzee, Dorgu score late to rescue a point for United",
       "league": "Premier League",
-      "time": "1h ago",
+      "time": "9h ago",
       "published": "2026-11-08T23:52:08.000Z",
       "excerpt": "Manchester United net two late stoppage-time goals to draw with Aston Villa as Michael Carrick's job remains in the balance.",
       "source": "ESPN",
@@ -24,31 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Barça pass their biggest test yet as Fermín López sinks Atlético Madrid",
-      "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-11-08T23:47:36.000Z",
-      "excerpt": "Needing a response after losing to Paris Saint-Germain and Real Madrid, Barcelona came from behind at Atlético on Sunday to underline their ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50426411/barca-pass-their-biggest-test-yet-fermin-lopez-sinks-atletico-madrid",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1743329_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Premier League VAR review: Should Man United's equalizing goal have been allowed?",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-11-08T23:30:28.000Z",
-      "excerpt": "VAR often causes controversy, but how are decisions made? Our resident ref, Andy Davies, explains all.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49703019/premier-league-var-review-red-card-penalty-handball-goal-line-technology",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1743302_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "What if Manchester United had hired Jurgen Klopp?",
       "league": "Champions League",
-      "time": "4h ago",
+      "time": "12h ago",
       "published": "2026-11-08T21:11:30.000Z",
       "excerpt": "If Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Christian Pulisic scores again as Amorim's AC Milan bounce back with Genoa win",
       "league": "Serie A",
-      "time": "7h ago",
+      "time": "15h ago",
       "published": "2026-11-08T17:59:07.000Z",
       "excerpt": "Christian Pulisic scored as AC Milan bounced back from a shock Europa League defeat with a 2-1 victory away at Genoa on Sunday.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Bayern Munich's Manuel Neuer set for spell on sidelines with foot injury",
       "league": "Champions League",
-      "time": "11h ago",
+      "time": "19h ago",
       "published": "2026-11-08T14:16:56.000Z",
       "excerpt": "Bayern Munich goalkeeper Manuel Neuer sustained a partial ligament tear in his right foot and will be out of action for \"the time being,\" th",
       "source": "ESPN",
@@ -81,7 +81,7 @@
     {
       "title": "Transfer rumors, news: Man United scout defender Mahamadou Nagida",
       "league": "Ligue 1",
-      "time": "15h ago",
+      "time": "23h ago",
       "published": "2026-11-08T09:55:02.000Z",
       "excerpt": "Rennes left-back Mahamadou Nagida is being monitored by Manchester United. Transfer Talk has the latest.",
       "source": "ESPN",
