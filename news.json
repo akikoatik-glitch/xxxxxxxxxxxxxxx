@@ -1,11 +1,33 @@
 {
-  "lastUpdate": "2026-11-10T21:44:56.239Z",
+  "lastUpdate": "2026-11-11T01:48:56.078Z",
   "news": [
+    {
+      "title": "Ogden: Stars aligning for Pochettino to join Manchester United",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-10T22:49:46.000Z",
+      "excerpt": "Ogden: Stars aligning for Pochettino to join Manchester United",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50446824/stars-aligning-pochettino-join-manchester-united",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/dm_261110_Ogden_Stars_aligning_for_Pochettino_to_join_Manchester_United/dm_261110_Ogden_Stars_aligning_for_Pochettino_to_join_Manchester_United.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Barcelona eye move for Bayern's Tah",
+      "league": "La Liga",
+      "time": "3h ago",
+      "published": "2026-11-10T21:50:28.000Z",
+      "excerpt": "Barcelona are looking to improve their defense and could look to Bayern Munich's Jonathan Tah as an option. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50440438/transfer-rumors-news-gossip-arsenal-atletico-madrid",
+      "image": "https://a.espncdn.com/photo/2026/1110/r1744203_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "MrBeast, meet Haaland: Man City star puts YouTuber through soccer gauntlet",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-10T21:41:01.000Z",
+      "time": "3h ago",
+      "published": "2026-11-10T21:49:29.000Z",
       "excerpt": "Manchester City star Erling Haaland has collaborated with popular YouTuber \"MrBeast\" in a series of various soccer challenges.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50445699/mrbeast-meet-erling-haaland-manchester-city-star-puts-youtuber-soccer-gauntlet",
@@ -15,7 +37,7 @@
     {
       "title": "Why Messi won't be 'doing a Wrexham' as owner of Cornellà",
       "league": "La Liga",
-      "time": "4h ago",
+      "time": "8h ago",
       "published": "2026-11-10T16:57:44.000Z",
       "excerpt": "UE Cornellà gained global fame when Lionel Messi purchased them earlier this year. Why has the GOAT bought a semi-professional club in Spain",
       "source": "ESPN",
@@ -24,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Ogden brands Man United 'pathetic' for keeping Carrick in limbo",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-11-10T15:40:33.000Z",
-      "excerpt": "Ogden brands Man United 'pathetic' for keeping Carrick in limbo",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50442918/ogden-brands-man-united-pathetic-keeping-carrick-limbo",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/dm_261110_Ogden_brands_Man_United_pathetic_for_keeping_Carrick_in_limbo/dm_261110_Ogden_brands_Man_United_pathetic_for_keeping_Carrick_in_limbo.jpg",
-      "category": "football"
-    },
-    {
       "title": "Vincent Kompany returns to Bayern Munich training for first time since collapse",
       "league": "Bundesliga",
-      "time": "6h ago",
+      "time": "10h ago",
       "published": "2026-11-10T14:58:06.000Z",
       "excerpt": "Bayern Munich manager Vincent Kompany has made a return to the club's base for the first time since he collapsed in a training session.",
       "source": "ESPN",
@@ -46,20 +57,9 @@
       "category": "football"
     },
     {
-      "title": "José Mourinho: I'll be 'grateful' if Brazil boss Ancelotti gives Endrick minutes",
-      "league": "La Liga",
-      "time": "11h ago",
-      "published": "2026-11-10T10:39:30.000Z",
-      "excerpt": "Real Madrid head coach José Mourinho may be unable to give Endrick the opportunities the Brazilian craves but hopes that national team boss ",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50441089/endrick-jose-mourinho-real-madrid-ancelotti-brazil",
-      "image": "https://a.espncdn.com/photo/2026/1110/r1743896_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Keller: USMNT roster will understand if Pochettino joins Man United",
       "league": "Champions League",
-      "time": "13h ago",
+      "time": "17h ago",
       "published": "2026-11-10T08:44:27.000Z",
       "excerpt": "Keller: USMNT roster will understand if Pochettino joins Man United",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Are scoring sensations Lassine Sinayoko and Yassir Zabiri as good as they seem?",
       "league": "Ligue 1",
-      "time": "14h ago",
+      "time": "18h ago",
       "published": "2026-11-10T07:38:57.000Z",
       "excerpt": "Mali's Lassine Sinayoko leads Ligue 1 with nine goals in 10 appearances, while Morocco's Yassir Zabiri has nine in 12 La Liga outings, behin",
       "source": "ESPN",
@@ -109,17 +109,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50418356/transfer-rumors-news-man-united-rennes-defender-mahamadou-nagida",
       "image": "https://a.espncdn.com/photo/2026/1108/r1742863_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Ballon d'Or winner Harry Kane notches two assists as Bayern Munich beat Mainz",
-      "league": "Bundesliga",
-      "time": "07/11/2026",
-      "published": "2026-11-07T16:57:55.000Z",
-      "excerpt": "Harry Kane played a part in both goals as Bayern Munich returned to winning ways in the Bundesliga with a 2-1 victory over Mainz.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401884740",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742431_1296x729_16-9.jpg",
       "category": "football"
     },
     {
