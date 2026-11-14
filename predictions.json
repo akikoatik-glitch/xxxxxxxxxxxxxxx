@@ -1,10 +1,10 @@
 {
   "date": "2026-11-20",
-  "lastUpdate": "2026-11-13T23:27:07.804Z",
-  "predictionGenerated": "2026-11-13T23:27:07.804Z",
-  "dataTimestamp": "2026-11-13T23:27:04.058Z",
+  "lastUpdate": "2026-11-14T05:59:09.307Z",
+  "predictionGenerated": "2026-11-14T05:59:09.307Z",
+  "dataTimestamp": "2026-11-14T05:59:06.982Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:27+upcoming:29+fixtures:29)",
+  "source": "rolling 7-day pool (upcoming:30+fixtures:43)",
   "matches": [
     {
       "id": "de.1:2026-11-20:FC Bayern München:1. FC Köln",
@@ -13,7 +13,7 @@
       "date": "2026-11-20",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "159h to kickoff",
+      "countdown": "153h to kickoff",
       "home": "FC Bayern München",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -86,7 +86,7 @@
       "date": "2026-11-20",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "159h to kickoff",
+      "countdown": "153h to kickoff",
       "home": "ES Troyes AC",
       "away": "Le Havre AC",
       "league": "Ligue 1",
@@ -151,9 +151,2135 @@
       "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Newcastle United FC:Arsenal FC",
+      "slug": "newcastle-united-vs-arsenal-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Newcastle United",
+      "away": "Arsenal",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 65,
+      "odds": "1.46",
+      "value": "+8%",
+      "probs": {
+        "home": 12,
+        "draw": 23,
+        "away": 65
+      },
+      "xg": {
+        "home": "0.48",
+        "away": "1.57",
+        "total": "2.05"
+      },
+      "doubleChance": {
+        "12": 77,
+        "1X": 35,
+        "X2": 88
+      },
+      "overUnder": {
+        "over2_5": 34,
+        "under2_5": 66,
+        "oddsOver": "2.79",
+        "oddsUnder": "1.44"
+      },
+      "btts": {
+        "yes": 29,
+        "no": 71
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 21
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 21
+        },
+        {
+          "score": "0-2",
+          "prob": 16
+        },
+        {
+          "score": "0-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Away +1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Newcastle United vs Arsenal: Dixon-Coles P(H)12% D23% A65% • xG 0.48-1.57 • most likely score 0-1 (21%) • Away Win confidence 65% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Coventry City FC:Crystal Palace FC",
+      "slug": "coventry-city-vs-crystal-palace-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Coventry City",
+      "away": "Crystal Palace",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 51,
+      "odds": "1.87",
+      "value": "+0%",
+      "probs": {
+        "home": 51,
+        "draw": 22,
+        "away": 28
+      },
+      "xg": {
+        "home": "1.78",
+        "away": "1.24",
+        "total": "3.02"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 72,
+        "X2": 49
+      },
+      "overUnder": {
+        "over2_5": 58,
+        "under2_5": 42,
+        "oddsOver": "1.64",
+        "oddsUnder": "2.26"
+      },
+      "btts": {
+        "yes": 58,
+        "no": 42
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 10
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 10
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Coventry City vs Crystal Palace: Dixon-Coles P(H)51% D22% A28% • xG 1.78-1.24 • most likely score 1-1 (10%) • Home Win confidence 51% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Brentford FC:Everton FC",
+      "slug": "brentford-vs-everton-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Brentford",
+      "away": "Everton",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 65,
+      "odds": "1.47",
+      "value": "+7%",
+      "probs": {
+        "home": 65,
+        "draw": 22,
+        "away": 14
+      },
+      "xg": {
+        "home": "1.70",
+        "away": "0.60",
+        "total": "2.30"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 86,
+        "X2": 35
+      },
+      "overUnder": {
+        "over2_5": 40,
+        "under2_5": 60,
+        "oddsOver": "2.38",
+        "oddsUnder": "1.58"
+      },
+      "btts": {
+        "yes": 36,
+        "no": 64
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 18
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 18
+        },
+        {
+          "score": "2-0",
+          "prob": 14
+        },
+        {
+          "score": "1-1",
+          "prob": 9
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Brentford vs Everton: Dixon-Coles P(H)65% D22% A14% • xG 1.70-0.60 • most likely score 1-0 (18%) • Home Win confidence 65% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Tottenham Hotspur FC:Ipswich Town FC",
+      "slug": "tottenham-hotspur-vs-ipswich-town-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Tottenham Hotspur",
+      "away": "Ipswich Town",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 92,
+      "odds": "1.04",
+      "value": "+21%",
+      "probs": {
+        "home": 92,
+        "draw": 6,
+        "away": 2
+      },
+      "xg": {
+        "home": "3.57",
+        "away": "0.45",
+        "total": "4.02"
+      },
+      "doubleChance": {
+        "12": 94,
+        "1X": 97,
+        "X2": 8
+      },
+      "overUnder": {
+        "over2_5": 75,
+        "under2_5": 25,
+        "oddsOver": "1.27",
+        "oddsUnder": "3.80"
+      },
+      "btts": {
+        "yes": 35,
+        "no": 65
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
+          "score": "4-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Tottenham Hotspur vs Ipswich Town: Dixon-Coles P(H)92% D6% A2% • xG 3.57-0.45 • most likely score 3-0 (15%) • Home Win confidence 92% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:AFC Bournemouth:Nottingham Forest FC",
+      "slug": "afc-bournemouth-vs-nottingham-forest-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "AFC Bournemouth",
+      "away": "Nottingham Forest",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 64,
+      "odds": "1.47",
+      "value": "+7%",
+      "probs": {
+        "home": 64,
+        "draw": 22,
+        "away": 14
+      },
+      "xg": {
+        "home": "1.70",
+        "away": "0.62",
+        "total": "2.32"
+      },
+      "doubleChance": {
+        "12": 78,
+        "1X": 86,
+        "X2": 36
+      },
+      "overUnder": {
+        "over2_5": 41,
+        "under2_5": 59,
+        "oddsOver": "2.32",
+        "oddsUnder": "1.61"
+      },
+      "btts": {
+        "yes": 37,
+        "no": 63
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 18
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 18
+        },
+        {
+          "score": "2-0",
+          "prob": 14
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "AFC Bournemouth vs Nottingham Forest: Dixon-Coles P(H)64% D22% A14% • xG 1.70-0.62 • most likely score 1-0 (18%) • Home Win confidence 64% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Hull City AFC:Brighton & Hove Albion FC",
+      "slug": "hull-city-a-vs-brighton-hove-albion-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Hull City A",
+      "away": "Brighton & Hove Albion",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Hull City A vs Brighton & Hove Albion: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Liverpool FC:Manchester United FC",
+      "slug": "liverpool-vs-manchester-united-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Liverpool",
+      "away": "Manchester United",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 91,
+      "odds": "1.04",
+      "value": "+21%",
+      "probs": {
+        "home": 91,
+        "draw": 6,
+        "away": 3
+      },
+      "xg": {
+        "home": "3.66",
+        "away": "0.49",
+        "total": "4.15"
+      },
+      "doubleChance": {
+        "12": 94,
+        "1X": 97,
+        "X2": 9
+      },
+      "overUnder": {
+        "over2_5": 77,
+        "under2_5": 23,
+        "oddsOver": "1.23",
+        "oddsUnder": "4.13"
+      },
+      "btts": {
+        "yes": 38,
+        "no": 62
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "4-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Liverpool vs Manchester United: Dixon-Coles P(H)91% D6% A3% • xG 3.66-0.49 • most likely score 3-0 (14%) • Home Win confidence 91% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Aston Villa FC:Sunderland AFC",
+      "slug": "aston-villa-vs-sunderland-a-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Aston Villa",
+      "away": "Sunderland A",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 94,
+      "odds": "1.01",
+      "value": "+22%",
+      "probs": {
+        "home": 94,
+        "draw": 4,
+        "away": 2
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.46",
+        "total": "4.66"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 6
+      },
+      "overUnder": {
+        "over2_5": 82,
+        "under2_5": 18,
+        "oddsOver": "1.16",
+        "oddsUnder": "5.28"
+      },
+      "btts": {
+        "yes": 36,
+        "no": 64
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 14
+        },
+        {
+          "score": "3-0",
+          "prob": 13
+        },
+        {
+          "score": "5-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Aston Villa vs Sunderland A: Dixon-Coles P(H)94% D4% A2% • xG 4.20-0.46 • most likely score 4-0 (14%) • Home Win confidence 94% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Manchester City FC:Fulham FC",
+      "slug": "manchester-city-vs-fulham-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Manchester City",
+      "away": "Fulham",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 96,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 96,
+        "draw": 3,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.31",
+        "total": "4.51"
+      },
+      "doubleChance": {
+        "12": 97,
+        "1X": 97,
+        "X2": 4
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 26,
+        "no": 74
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 16
+        },
+        {
+          "score": "3-0",
+          "prob": 16
+        },
+        {
+          "score": "5-0",
+          "prob": 14
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Manchester City vs Fulham: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.31 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-21:Chelsea FC:Leeds United FC",
+      "slug": "chelsea-vs-leeds-united-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Chelsea",
+      "away": "Leeds United",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 78,
+      "odds": "1.22",
+      "value": "+14%",
+      "probs": {
+        "home": 78,
+        "draw": 15,
+        "away": 7
+      },
+      "xg": {
+        "home": "2.28",
+        "away": "0.52",
+        "total": "2.80"
+      },
+      "doubleChance": {
+        "12": 85,
+        "1X": 93,
+        "X2": 22
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 36,
+        "no": 64
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 16
+        },
+        {
+          "score": "1-0",
+          "prob": 15
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        }
+      ],
+      "asianHandicap": "Home -1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Chelsea vs Leeds United: Dixon-Coles P(H)78% D15% A7% • xG 2.28-0.52 • most likely score 2-0 (16%) • Home Win confidence 78% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-21:FC Schalke 04:VfB Stuttgart",
+      "slug": "fc-schalke-04-vs-vfb-stuttgart-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "FC Schalke 04",
+      "away": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 66,
+      "odds": "1.45",
+      "value": "+8%",
+      "probs": {
+        "home": 15,
+        "draw": 19,
+        "away": 66
+      },
+      "xg": {
+        "home": "0.83",
+        "away": "2.01",
+        "total": "2.84"
+      },
+      "doubleChance": {
+        "12": 81,
+        "1X": 34,
+        "X2": 85
+      },
+      "overUnder": {
+        "over2_5": 54,
+        "under2_5": 46,
+        "oddsOver": "1.76",
+        "oddsUnder": "2.07"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 13
+        },
+        {
+          "score": "0-2",
+          "prob": 12
+        },
+        {
+          "score": "1-2",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Schalke 04 vs VfB Stuttgart: Dixon-Coles P(H)15% D19% A66% • xG 0.83-2.01 • most likely score 0-1 (13%) • Away Win confidence 66% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-21:Eintracht Frankfurt:TSG 1899 Hoffenheim",
+      "slug": "eintracht-frankfurt-vs-tsg-1899-hoffenheim-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Eintracht Frankfurt",
+      "away": "TSG 1899 Hoffenheim",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 74,
+      "odds": "1.28",
+      "value": "+12%",
+      "probs": {
+        "home": 74,
+        "draw": 15,
+        "away": 10
+      },
+      "xg": {
+        "home": "2.35",
+        "away": "0.71",
+        "total": "3.06"
+      },
+      "doubleChance": {
+        "12": 85,
+        "1X": 90,
+        "X2": 26
+      },
+      "overUnder": {
+        "over2_5": 59,
+        "under2_5": 41,
+        "oddsOver": "1.61",
+        "oddsUnder": "2.32"
+      },
+      "btts": {
+        "yes": 46,
+        "no": 54
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "3-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Eintracht Frankfurt vs TSG 1899 Hoffenheim: Dixon-Coles P(H)74% D15% A10% • xG 2.35-0.71 • most likely score 2-0 (13%) • Home Win confidence 74% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-21:Borussia Mönchengladbach:Borussia Dortmund",
+      "slug": "borussia-moenchengladbach-vs-borussia-dortmund-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Borussia Mönchengladbach",
+      "away": "Borussia Dortmund",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 75,
+      "odds": "1.27",
+      "value": "+12%",
+      "probs": {
+        "home": 10,
+        "draw": 15,
+        "away": 75
+      },
+      "xg": {
+        "home": "0.71",
+        "away": "2.36",
+        "total": "3.07"
+      },
+      "doubleChance": {
+        "12": 85,
+        "1X": 25,
+        "X2": 90
+      },
+      "overUnder": {
+        "over2_5": 59,
+        "under2_5": 41,
+        "oddsOver": "1.61",
+        "oddsUnder": "2.32"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "0-2",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-2",
+          "prob": 13
+        },
+        {
+          "score": "0-1",
+          "prob": 12
+        },
+        {
+          "score": "0-3",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Borussia Mönchengladbach vs Borussia Dortmund: Dixon-Coles P(H)10% D15% A75% • xG 0.71-2.36 • most likely score 0-2 (13%) • Away Win confidence 75% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-21:SV 07 Elversberg:SC Freiburg",
+      "slug": "sv-07-elversberg-vs-sc-freiburg-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "SV 07 Elversberg",
+      "away": "SC Freiburg",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 59,
+      "odds": "1.60",
+      "value": "+5%",
+      "probs": {
+        "home": 20,
+        "draw": 21,
+        "away": 59
+      },
+      "xg": {
+        "home": "0.92",
+        "away": "1.82",
+        "total": "2.74"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 41,
+        "X2": 80
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 50,
+        "no": 50
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 13
+        },
+        {
+          "score": "0-2",
+          "prob": 11
+        },
+        {
+          "score": "1-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SV 07 Elversberg vs SC Freiburg: Dixon-Coles P(H)20% D21% A59% • xG 0.92-1.82 • most likely score 0-1 (13%) • Away Win confidence 59% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-21:1. FC Union Berlin:RB Leipzig",
+      "slug": "1-fc-union-berlin-vs-rb-leipzig-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "1. FC Union Berlin",
+      "away": "RB Leipzig",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 39,
+      "odds": "2.42",
+      "value": "+0%",
+      "probs": {
+        "home": 36,
+        "draw": 24,
+        "away": 39
+      },
+      "xg": {
+        "home": "1.27",
+        "away": "1.33",
+        "total": "2.60"
+      },
+      "doubleChance": {
+        "12": 76,
+        "1X": 61,
+        "X2": 64
+      },
+      "overUnder": {
+        "over2_5": 48,
+        "under2_5": 52,
+        "oddsOver": "1.98",
+        "oddsUnder": "1.83"
+      },
+      "btts": {
+        "yes": 52,
+        "no": 48
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 11
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Level (0)",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "1. FC Union Berlin vs RB Leipzig: Dixon-Coles P(H)36% D24% A39% • xG 1.27-1.33 • most likely score 1-1 (12%) • Away Win confidence 39% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-21:Bayer 04 Leverkusen:SC Paderborn 07",
+      "slug": "bayer-04-leverkusen-vs-sc-paderborn-07-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SC Paderborn 07",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 96,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 96,
+        "draw": 3,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.20",
+        "away": "0.32",
+        "total": "4.52"
+      },
+      "doubleChance": {
+        "12": 97,
+        "1X": 97,
+        "X2": 4
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 27,
+        "no": 73
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 16
+        },
+        {
+          "score": "3-0",
+          "prob": 16
+        },
+        {
+          "score": "5-0",
+          "prob": 14
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Bayer 04 Leverkusen vs SC Paderborn 07: Dixon-Coles P(H)96% D3% A1% • xG 4.20-0.32 • most likely score 4-0 (16%) • Home Win confidence 96% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-11-21:SSC Napoli:Torino FC",
+      "slug": "ssc-napoli-vs-torino-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "SSC Napoli",
+      "away": "Torino",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 83,
+      "odds": "1.15",
+      "value": "+16%",
+      "probs": {
+        "home": 83,
+        "draw": 11,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.70",
+        "away": "0.54",
+        "total": "3.24"
+      },
+      "doubleChance": {
+        "12": 89,
+        "1X": 94,
+        "X2": 17
+      },
+      "overUnder": {
+        "over2_5": 62,
+        "under2_5": 38,
+        "oddsOver": "1.53",
+        "oddsUnder": "2.50"
+      },
+      "btts": {
+        "yes": 39,
+        "no": 61
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 15
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 15
+        },
+        {
+          "score": "3-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SSC Napoli vs Torino: Dixon-Coles P(H)83% D11% A6% • xG 2.70-0.54 • most likely score 2-0 (15%) • Home Win confidence 83% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-11-21:Parma Calcio 1913:AS Roma",
+      "slug": "parma-calcio-1913-vs-as-roma-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Parma Calcio 1913",
+      "away": "AS Roma",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 92,
+      "odds": "1.03",
+      "value": "+21%",
+      "probs": {
+        "home": 2,
+        "draw": 6,
+        "away": 92
+      },
+      "xg": {
+        "home": "0.48",
+        "away": "3.71",
+        "total": "4.19"
+      },
+      "doubleChance": {
+        "12": 94,
+        "1X": 8,
+        "X2": 97
+      },
+      "overUnder": {
+        "over2_5": 77,
+        "under2_5": 23,
+        "oddsOver": "1.23",
+        "oddsUnder": "4.13"
+      },
+      "btts": {
+        "yes": 37,
+        "no": 63
+      },
+      "correctScore": {
+        "score": "0-3",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "0-3",
+          "prob": 14
+        },
+        {
+          "score": "0-4",
+          "prob": 13
+        },
+        {
+          "score": "0-2",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Away +2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Parma Calcio 1913 vs AS Roma: Dixon-Coles P(H)2% D6% A92% • xG 0.48-3.71 • most likely score 0-3 (14%) • Away Win confidence 92% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-11-21:SS Lazio:US Lecce",
+      "slug": "ss-lazio-vs-us-lecce-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "SS Lazio",
+      "away": "US Lecce",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 83,
+      "odds": "1.15",
+      "value": "+16%",
+      "probs": {
+        "home": 83,
+        "draw": 11,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.79",
+        "away": "0.60",
+        "total": "3.39"
+      },
+      "doubleChance": {
+        "12": 89,
+        "1X": 94,
+        "X2": 17
+      },
+      "overUnder": {
+        "over2_5": 65,
+        "under2_5": 35,
+        "oddsOver": "1.46",
+        "oddsUnder": "2.71"
+      },
+      "btts": {
+        "yes": 42,
+        "no": 58
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SS Lazio vs US Lecce: Dixon-Coles P(H)83% D11% A6% • xG 2.79-0.60 • most likely score 2-0 (13%) • Home Win confidence 83% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "it.1:2026-11-21:Como 1907:Cagliari Calcio",
+      "slug": "como-1907-vs-cagliari-calcio-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Como 1907",
+      "away": "Cagliari Calcio",
+      "league": "Serie A",
+      "code": "SA",
+      "flag": "🇮🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Como 1907 vs Cagliari Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-11-21:RC Strasbourg Alsace:Stade Brestois 29",
+      "slug": "rc-strasbourg-alsace-vs-stade-brestois-29-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "RC Strasbourg Alsace",
+      "away": "Stade Brestois 29",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 43,
+      "odds": "2.21",
+      "value": "+0%",
+      "probs": {
+        "home": 43,
+        "draw": 21,
+        "away": 36
+      },
+      "xg": {
+        "home": "1.82",
+        "away": "1.66",
+        "total": "3.48"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 64,
+        "X2": 57
+      },
+      "overUnder": {
+        "over2_5": 67,
+        "under2_5": 33,
+        "oddsOver": "1.42",
+        "oddsUnder": "2.88"
+      },
+      "btts": {
+        "yes": 67,
+        "no": 33
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 9
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 9
+        },
+        {
+          "score": "2-1",
+          "prob": 9
+        },
+        {
+          "score": "1-2",
+          "prob": 8
+        }
+      ],
+      "asianHandicap": "Home -0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "RC Strasbourg Alsace vs Stade Brestois 29: Dixon-Coles P(H)43% D21% A36% • xG 1.82-1.66 • most likely score 1-1 (9%) • Home Win confidence 43% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-11-21:Lille OSC:Olympique Lyonnais",
+      "slug": "lille-osc-vs-olympique-lyonnais-prediction",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "date": "2026-11-21",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "177h to kickoff",
+      "home": "Lille OSC",
+      "away": "Olympique Lyonnais",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 64,
+      "odds": "1.50",
+      "value": "+7%",
+      "probs": {
+        "home": 64,
+        "draw": 20,
+        "away": 17
+      },
+      "xg": {
+        "home": "1.95",
+        "away": "0.86",
+        "total": "2.81"
+      },
+      "doubleChance": {
+        "12": 80,
+        "1X": 83,
+        "X2": 36
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Lille OSC vs Olympique Lyonnais: Dixon-Coles P(H)64% D20% A17% • xG 1.95-0.86 • most likely score 1-0 (13%) • Home Win confidence 64% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
     }
   ],
   "results": [
+    {
+      "slug": "prykarpattya-ivano-frankivsk-vs-kolos-kovalivka-ii-prediction",
+      "home": "Prykarpattya Ivano Frankivsk",
+      "away": "Kolos Kovalivka II",
+      "league": "Ukrainian First League",
+      "code": "",
+      "utcDate": "2026-11-13T10:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "scoreText": "Prykarpattya Ivano Frankivsk 1-1 Kolos Kovalivka II",
+      "homeLine": "Prykarpattya Ivano Frankivsk 1-1 Kolos Kovalivka II",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "armed-forces-fc-vs-kelantan-city-prediction",
+      "home": "Armed Forces FC",
+      "away": "Kelantan City",
+      "league": "Malaysia A1 Semi-Pro League",
+      "code": "",
+      "utcDate": "2026-11-13T08:45:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "scoreText": "Armed Forces FC 0-1 Kelantan City",
+      "homeLine": "Armed Forces FC 0-1 Kelantan City",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "manjung-city-fc-vs-kedah-fa-prediction",
+      "home": "Manjung City FC",
+      "away": "Kedah FA",
+      "league": "Malaysia A1 Semi-Pro League",
+      "code": "",
+      "utcDate": "2026-11-13T08:45:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 4,
+      "scoreText": "Manjung City FC 1-4 Kedah FA",
+      "homeLine": "Manjung City FC 1-4 Kedah FA",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "oakleigh-cannons-vs-marconi-stallions-prediction",
+      "home": "Oakleigh Cannons",
+      "away": "Marconi Stallions",
+      "league": "Aus Champ",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 7,
+      "scoreAway": 8,
+      "scoreText": "Oakleigh Cannons 7-8 Marconi Stallions",
+      "homeLine": "Oakleigh Cannons 7-8 Marconi Stallions",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "preston-lions-vs-queensland-lions-sc-prediction",
+      "home": "Preston Lions",
+      "away": "Queensland Lions SC",
+      "league": "Aus Champ",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 3,
+      "scoreAway": 1,
+      "scoreText": "Preston Lions 3-1 Queensland Lions SC",
+      "homeLine": "Preston Lions 3-1 Queensland Lions SC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "parikrma-fc-vs-hal-fc-prediction",
+      "home": "Parikrma FC",
+      "away": "Hal FC",
+      "league": "Indian Bangalore Super Division",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Parikrma FC 1-0 Hal FC",
+      "homeLine": "Parikrma FC 1-0 Hal FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "persiba-bantul-vs-gresik-united-prediction",
+      "home": "Persiba Bantul",
+      "away": "Gresik United",
+      "league": "Indo D4",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Persiba Bantul 0-0 Gresik United",
+      "homeLine": "Persiba Bantul 0-0 Gresik United",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "persibo-bojonegoro-vs-persipa-pati-prediction",
+      "home": "Persibo Bojonegoro",
+      "away": "Persipa Pati",
+      "league": "Indo D4",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Persibo Bojonegoro 0-0 Persipa Pati",
+      "homeLine": "Persibo Bojonegoro 0-0 Persipa Pati",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "persitara-jakarta-utara-vs-pekanbaru-united-prediction",
+      "home": "Persitara Jakarta Utara",
+      "away": "Pekanbaru United",
+      "league": "Indo D4",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 5,
+      "scoreText": "Persitara Jakarta Utara 0-5 Pekanbaru United",
+      "homeLine": "Persitara Jakarta Utara 0-5 Pekanbaru United",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "persikota-tangerang-vs-pesik-kuningan-prediction",
+      "home": "Persikota Tangerang",
+      "away": "Pesik Kuningan",
+      "league": "Indo D4",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "scoreText": "Persikota Tangerang 2-1 Pesik Kuningan",
+      "homeLine": "Persikota Tangerang 2-1 Pesik Kuningan",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "persika-karanganyar-vs-persinga-ngawi-prediction",
+      "home": "Persika Karanganyar",
+      "away": "Persinga Ngawi",
+      "league": "Indo D4",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Persika Karanganyar 1-0 Persinga Ngawi",
+      "homeLine": "Persika Karanganyar 1-0 Persinga Ngawi",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "batavia-fc-vs-persikotas-tasikmalaya-prediction",
+      "home": "Batavia FC",
+      "away": "Persikotas Tasikmalaya",
+      "league": "Indo D4",
+      "code": "",
+      "utcDate": "2026-11-13T08:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "scoreText": "Batavia FC 3-2 Persikotas Tasikmalaya",
+      "homeLine": "Batavia FC 3-2 Persikotas Tasikmalaya",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "deren-fc-vs-tuv-azarganuud-prediction",
+      "home": "Deren FC",
+      "away": "Tuv Azarganuud",
+      "league": "Mongolia Premier League",
+      "code": "",
+      "utcDate": "2026-11-13T08:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 4,
+      "scoreAway": 3,
+      "scoreText": "Deren FC 4-3 Tuv Azarganuud",
+      "homeLine": "Deren FC 4-3 Tuv Azarganuud",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "mumbai-marines-vs-yawn-fc-prediction",
+      "home": "Mumbai Marines",
+      "away": "YAWN FC",
+      "league": "India Mumbai Super Division",
+      "code": "",
+      "utcDate": "2026-11-13T07:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 4,
+      "scoreAway": 0,
+      "scoreText": "Mumbai Marines 4-0 YAWN FC",
+      "homeLine": "Mumbai Marines 4-0 YAWN FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "lemi-kura-w-vs-ethiopian-sports-academy-w-prediction",
+      "home": "Lemi Kura (W)",
+      "away": "Ethiopian Sports Academy (W)",
+      "league": "Ethiopia HL W",
+      "code": "",
+      "utcDate": "2026-11-13T07:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Lemi Kura (W) 1-0 Ethiopian Sports Academy (W)",
+      "homeLine": "Lemi Kura (W) 1-0 Ethiopian Sports Academy (W)",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "kodagu-fc-vs-technico-ff-prediction",
+      "home": "Kodagu FC",
+      "away": "Technico FF",
+      "league": "Indian Bangalore Super Division",
+      "code": "",
+      "utcDate": "2026-11-13T05:55:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "scoreText": "Kodagu FC 2-0 Technico FF",
+      "homeLine": "Kodagu FC 2-0 Technico FF",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "mangere-united-vs-tonga-prediction",
+      "home": "Mangere United",
+      "away": "Tonga",
+      "league": "International Friendly",
+      "code": "",
+      "utcDate": "2026-11-13T05:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "scoreText": "Mangere United 1-1 Tonga",
+      "homeLine": "Mangere United 1-1 Tonga",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "sudeva-delhi-u21-vs-namdhari-u21-prediction",
+      "home": "Sudeva Delhi U21",
+      "away": "Namdhari U21",
+      "league": "International Club Friendly",
+      "code": "",
+      "utcDate": "2026-11-13T05:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Sudeva Delhi U21 1-0 Namdhari U21",
+      "homeLine": "Sudeva Delhi U21 1-0 Namdhari U21",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "fc-ulaanbaatar-vs-hunters-fc-prediction",
+      "home": "FC Ulaanbaatar",
+      "away": "Hunters FC",
+      "league": "Mongolia Premier League",
+      "code": "",
+      "utcDate": "2026-11-13T05:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 7,
+      "scoreAway": 1,
+      "scoreText": "FC Ulaanbaatar 7-1 Hunters FC",
+      "homeLine": "FC Ulaanbaatar 7-1 Hunters FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "ulsan-university-vs-soongsil-university-prediction",
+      "home": "Ulsan University",
+      "away": "Soongsil University",
+      "league": "South Korea University Championship",
+      "code": "",
+      "utcDate": "2026-11-13T05:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Ulsan University 0-0 Soongsil University",
+      "homeLine": "Ulsan University 0-0 Soongsil University",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "chung-ang-university-vs-yonsei-university-prediction",
+      "home": "Chung-Ang University",
+      "away": "Yonsei University",
+      "league": "South Korea University Championship",
+      "code": "",
+      "utcDate": "2026-11-13T05:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "scoreText": "Chung-Ang University 3-2 Yonsei University",
+      "homeLine": "Chung-Ang University 3-2 Yonsei University",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "real-bengaluru-vs-bangalore-dream-united-fc-prediction",
+      "home": "Real Bengaluru",
+      "away": "Bangalore Dream United FC",
+      "league": "Indian Bangalore Super Division",
+      "code": "",
+      "utcDate": "2026-11-13T03:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "scoreText": "Real Bengaluru 2-1 Bangalore Dream United FC",
+      "homeLine": "Real Bengaluru 2-1 Bangalore Dream United FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "atletico-morelia-vs-leones-negros-de-la-u-de-g-prediction",
+      "home": "Atletico Morelia",
+      "away": "Leones Negros de la U. de G.",
+      "league": "Mexico Ascenso MX",
+      "code": "",
+      "utcDate": "2026-11-13T02:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Atletico Morelia 1-0 Leones Negros de la U. de G.",
+      "homeLine": "Atletico Morelia 1-0 Leones Negros de la U. de G.",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "usa-u20-vs-japan-u19-prediction",
+      "home": "USA U20",
+      "away": "Japan U19",
+      "league": "International Friendly",
+      "code": "",
+      "utcDate": "2026-11-13T01:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "scoreText": "USA U20 0-2 Japan U19",
+      "homeLine": "USA U20 0-2 Japan U19",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "curacao-vs-panama-prediction",
+      "home": "Curacao",
+      "away": "Panama",
+      "league": "CONCACAF Nations League",
+      "code": "",
+      "utcDate": "2026-11-13T00:30:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Curacao 0-0 Panama",
+      "homeLine": "Curacao 0-0 Panama",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "llaneros-fc-vs-boyaca-chico-prediction",
+      "home": "Llaneros FC",
+      "away": "Boyaca Chico",
+      "league": "Categoría Primera A",
+      "code": "",
+      "utcDate": "2026-11-13T00:00:00+00:00",
+      "date": "2026-11-13",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Llaneros FC 0-0 Boyaca Chico",
+      "homeLine": "Llaneros FC 0-0 Boyaca Chico",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
     {
       "slug": "djijel-vs-cr-beni-thour-prediction",
       "home": "Djijel",
@@ -233,534 +2359,14 @@
       "res": "1",
       "result1X2": "1",
       "hit": true
-    },
-    {
-      "slug": "touch-electronics-u20-vs-kedah-u20-prediction",
-      "home": "Touch Electronics U20",
-      "away": "Kedah U20",
-      "league": "Malaysian President Cup",
-      "code": "",
-      "utcDate": "2026-11-10T12:30:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 1,
-      "scoreText": "Touch Electronics U20 0-1 Kedah U20",
-      "homeLine": "Touch Electronics U20 0-1 Kedah U20",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "congo-women-vs-central-african-republic-women-prediction",
-      "home": "Congo Women",
-      "away": "Central African Republic Women",
-      "league": "International Friendly",
-      "code": "",
-      "utcDate": "2026-11-10T12:15:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "Congo Women 1-1 Central African Republic Women",
-      "homeLine": "Congo Women 1-1 Central African Republic Women",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "vietnam-u23-vs-thailand-u23-prediction",
-      "home": "Vietnam U23",
-      "away": "Thailand U23",
-      "league": "International Friendly",
-      "code": "",
-      "utcDate": "2026-11-10T12:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 3,
-      "scoreAway": 0,
-      "scoreText": "Vietnam U23 3-0 Thailand U23",
-      "homeLine": "Vietnam U23 3-0 Thailand U23",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "sc-paderborn-07-vs-eintracht-braunschweig-prediction",
-      "home": "SC Paderborn 07",
-      "away": "Eintracht Braunschweig",
-      "league": "International Club Friendly",
-      "code": "",
-      "utcDate": "2026-11-10T12:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 1,
-      "scoreText": "SC Paderborn 07 4-1 Eintracht Braunschweig",
-      "homeLine": "SC Paderborn 07 4-1 Eintracht Braunschweig",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "shaoyang-football-team-vs-xiangtan-football-team-prediction",
-      "home": "Shaoyang Football Team",
-      "away": "Xiangtan Football Team",
-      "league": "Hunan Football League",
-      "code": "",
-      "utcDate": "2026-11-10T11:38:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 2,
-      "scoreText": "Shaoyang Football Team 0-2 Xiangtan Football Team",
-      "homeLine": "Shaoyang Football Team 0-2 Xiangtan Football Team",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "ravshan-kulob-vs-fc-khatlon-prediction",
-      "home": "Ravshan Kulob",
-      "away": "FC Khatlon",
-      "league": "Tajikistan Higher League",
-      "code": "",
-      "utcDate": "2026-11-10T11:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 2,
-      "scoreText": "Ravshan Kulob 1-2 FC Khatlon",
-      "homeLine": "Ravshan Kulob 1-2 FC Khatlon",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "ai-nairab-vs-al-nabek-prediction",
-      "home": "AI Nairab",
-      "away": "Al-Nabek",
-      "league": "Syrian 1st Division",
-      "code": "",
-      "utcDate": "2026-11-10T11:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 2,
-      "scoreText": "AI Nairab 0-2 Al-Nabek",
-      "homeLine": "AI Nairab 0-2 Al-Nabek",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "fc-bengaluru-united-vs-real-bengaluru-prediction",
-      "home": "FC Bengaluru United",
-      "away": "Real Bengaluru",
-      "league": "Indian Bangalore Super Division",
-      "code": "",
-      "utcDate": "2026-11-10T10:30:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 3,
-      "scoreAway": 1,
-      "scoreText": "FC Bengaluru United 3-1 Real Bengaluru",
-      "homeLine": "FC Bengaluru United 3-1 Real Bengaluru",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "scm-ramnicu-valcea-vs-cs-vulturii-farcasesti-prediction",
-      "home": "SCM Ramnicu Valcea",
-      "away": "CS Vulturii Farcasesti",
-      "league": "International Club Friendly",
-      "code": "",
-      "utcDate": "2026-11-10T10:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 1,
-      "scoreText": "SCM Ramnicu Valcea 4-1 CS Vulturii Farcasesti",
-      "homeLine": "SCM Ramnicu Valcea 4-1 CS Vulturii Farcasesti",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "gulistan-vs-karakalpakstan-fa-prediction",
-      "home": "Gulistan",
-      "away": "Karakalpakstan FA",
-      "league": "Uzbekistan First League",
-      "code": "",
-      "utcDate": "2026-11-10T09:15:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 0,
-      "scoreText": "Gulistan 4-0 Karakalpakstan FA",
-      "homeLine": "Gulistan 4-0 Karakalpakstan FA",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "selangor-pb-u20-vs-johor-darul-takzim-iii-fc-u20-prediction",
-      "home": "Selangor PB U20",
-      "away": "Johor Darul Takzim III FC U20",
-      "league": "Malaysian President Cup",
-      "code": "",
-      "utcDate": "2026-11-10T08:45:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 2,
-      "scoreText": "Selangor PB U20 1-2 Johor Darul Takzim III FC U20",
-      "homeLine": "Selangor PB U20 1-2 Johor Darul Takzim III FC U20",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "penang-u20-vs-terengganu-u20-prediction",
-      "home": "Penang U20",
-      "away": "Terengganu U20",
-      "league": "Malaysian President Cup",
-      "code": "",
-      "utcDate": "2026-11-10T08:45:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 1,
-      "scoreText": "Penang U20 0-1 Terengganu U20",
-      "homeLine": "Penang U20 0-1 Terengganu U20",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "deren-fc-vs-fc-ulaanbaatar-prediction",
-      "home": "Deren FC",
-      "away": "FC Ulaanbaatar",
-      "league": "Mongolia Premier League",
-      "code": "",
-      "utcDate": "2026-11-10T08:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 1,
-      "scoreText": "Deren FC 4-1 FC Ulaanbaatar",
-      "homeLine": "Deren FC 4-1 FC Ulaanbaatar",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "qatar-u23-vs-singapore-u23-prediction",
-      "home": "Qatar U23",
-      "away": "Singapore U23",
-      "league": "International Friendly",
-      "code": "",
-      "utcDate": "2026-11-10T08:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Qatar U23 0-0 Singapore U23",
-      "homeLine": "Qatar U23 0-0 Singapore U23",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "bangalore-dream-united-fc-vs-parikrma-fc-prediction",
-      "home": "Bangalore Dream United FC",
-      "away": "Parikrma FC",
-      "league": "Indian Bangalore Super Division",
-      "code": "",
-      "utcDate": "2026-11-10T08:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 5,
-      "scoreText": "Bangalore Dream United FC 0-5 Parikrma FC",
-      "homeLine": "Bangalore Dream United FC 0-5 Parikrma FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "east-coast-bays-vs-tonga-prediction",
-      "home": "East Coast Bays",
-      "away": "Tonga",
-      "league": "International Friendly",
-      "code": "",
-      "utcDate": "2026-11-10T06:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 11,
-      "scoreAway": 0,
-      "scoreText": "East Coast Bays 11-0 Tonga",
-      "homeLine": "East Coast Bays 11-0 Tonga",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "azure-vs-oktepa-prediction",
-      "home": "Azure",
-      "away": "Oktepa",
-      "league": "Uzbekistan First League",
-      "code": "",
-      "utcDate": "2026-11-10T06:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 2,
-      "scoreText": "Azure 0-2 Oktepa",
-      "homeLine": "Azure 0-2 Oktepa",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "stride-vs-fc-agniputhra-prediction",
-      "home": "Stride",
-      "away": "FC Agniputhra",
-      "league": "Indian Bangalore Super Division",
-      "code": "",
-      "utcDate": "2026-11-10T05:30:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 0,
-      "scoreText": "Stride 2-0 FC Agniputhra",
-      "homeLine": "Stride 2-0 FC Agniputhra",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "mumbai-tigers-vs-india-rush-sc-prediction",
-      "home": "Mumbai Tigers",
-      "away": "India Rush SC",
-      "league": "India Mumbai Super Division",
-      "code": "",
-      "utcDate": "2026-11-10T05:30:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 1,
-      "scoreText": "Mumbai Tigers 4-1 India Rush SC",
-      "homeLine": "Mumbai Tigers 4-1 India Rush SC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "tuv-azarganuud-vs-hunters-fc-prediction",
-      "home": "Tuv Azarganuud",
-      "away": "Hunters FC",
-      "league": "Mongolia Premier League",
-      "code": "",
-      "utcDate": "2026-11-10T05:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 3,
-      "scoreAway": 2,
-      "scoreText": "Tuv Azarganuud 3-2 Hunters FC",
-      "homeLine": "Tuv Azarganuud 3-2 Hunters FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "yonsei-university-vs-jeonju-kijeon-college-prediction",
-      "home": "Yonsei University",
-      "away": "Jeonju Kijeon College",
-      "league": "South Korea University Championship",
-      "code": "",
-      "utcDate": "2026-11-10T05:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 0,
-      "scoreText": "Yonsei University 2-0 Jeonju Kijeon College",
-      "homeLine": "Yonsei University 2-0 Jeonju Kijeon College",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "university-of-ulsan-vs-jeonju-university-prediction",
-      "home": "University of Ulsan",
-      "away": "Jeonju University",
-      "league": "South Korea University Championship",
-      "code": "",
-      "utcDate": "2026-11-10T05:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 1,
-      "scoreText": "University of Ulsan 4-1 Jeonju University",
-      "homeLine": "University of Ulsan 4-1 Jeonju University",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "inje-university-vs-chung-ang-university-prediction",
-      "home": "Inje University",
-      "away": "Chung-Ang University",
-      "league": "South Korea University Championship",
-      "code": "",
-      "utcDate": "2026-11-10T05:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 2,
-      "scoreText": "Inje University 0-2 Chung-Ang University",
-      "homeLine": "Inje University 0-2 Chung-Ang University",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "ulsan-university-vs-jeonju-university-prediction",
-      "home": "Ulsan University",
-      "away": "Jeonju University",
-      "league": "South Korea University Championship",
-      "code": "",
-      "utcDate": "2026-11-10T05:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Ulsan University 0-0 Jeonju University",
-      "homeLine": "Ulsan University 0-0 Jeonju University",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "chapulineros-vs-cordobes-futbol-club-prediction",
-      "home": "Chapulineros",
-      "away": "Cordobes Futbol Club",
-      "league": "MEX Liga Premier",
-      "code": "",
-      "utcDate": "2026-11-10T02:05:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "Chapulineros 1-1 Cordobes Futbol Club",
-      "homeLine": "Chapulineros 1-1 Cordobes Futbol Club",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "arnett-gardens-vs-waterhouse-fc-prediction",
-      "home": "Arnett Gardens",
-      "away": "Waterhouse FC",
-      "league": "Jamaica Premier League",
-      "code": "",
-      "utcDate": "2026-11-10T01:00:00+00:00",
-      "date": "2026-11-10",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 0,
-      "scoreText": "Arnett Gardens 1-0 Waterhouse FC",
-      "homeLine": "Arnett Gardens 1-0 Waterhouse FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
     }
   ],
   "news": [
     {
       "title": "Moreno: Pochettino had 'one foot out the door' before World Cup",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-13T23:10:39.000Z",
+      "time": "6h ago",
+      "published": "2026-11-13T23:58:35.000Z",
       "excerpt": "Moreno: Pochettino had 'one foot out the door' before World Cup",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50475260/pochettino-had-one-foot-door-world-cup",
@@ -768,36 +2374,36 @@
       "category": "football"
     },
     {
+      "title": "Onuoha: Man United's two-year deal for Pochettino makes sense",
+      "league": "Premier League",
+      "time": "6h ago",
+      "published": "2026-11-13T23:58:31.000Z",
+      "excerpt": "Onuoha: Man United's two-year deal for Pochettino makes sense",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50475329/man-united-two-year-deal-pochettino-makes-sense",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_Onuoha_Man_Uniteds_twoyear_deal_for_Pochettino_makes_sense/dm_261113_Onuoha_Man_Uniteds_twoyear_deal_for_Pochettino_makes_sense.jpg",
+      "category": "football"
+    },
+    {
       "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
       "league": "La Liga",
-      "time": "0h ago",
-      "published": "2026-11-13T22:34:36.000Z",
+      "time": "6h ago",
+      "published": "2026-11-13T23:26:46.000Z",
       "excerpt": "Real Madrid remain keen on Bayern Munich star Michael Olise. Transfer Talk has the latest.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50469742/transfer-rumors-news-man-united-balogun-freeman-pochettino",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745456_2_1024x576_16-9.jpg",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745484_1024x576_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Borussia Dortmund to end controversial sponsorship with arms manufacturer",
       "league": "Bundesliga",
-      "time": "4h ago",
+      "time": "10h ago",
       "published": "2026-11-13T19:00:26.000Z",
       "excerpt": "Borussia Dortmund says it won't renew a sponsorship deal with Germany's largest arms manufacturer Rheinmetall, which drew criticism from fan",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50473322/borussia-dortmund-rheinmetall-sponsorship-arms-manufacturer",
       "image": "https://a.espncdn.com/photo/2026/1113/r1745373_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Recap: USMNT's Pochettino in tears as he agrees to join Man United",
-      "league": "Premier League",
-      "time": "6h ago",
-      "published": "2026-11-13T17:16:59.000Z",
-      "excerpt": "USMNT head coach Mauricio Pochettino is leaving to join Manchester United. Read all the news, analysis and reaction from ESPN.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50470402/live-updates-mauricio-pochettino-usmnt-man-united",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745277_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
