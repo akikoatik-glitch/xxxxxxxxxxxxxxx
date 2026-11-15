@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-11-15T06:02:05.952Z",
+  "lastUpdate": "2026-11-15T15:33:39.629Z",
   "news": [
     {
-      "title": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
+      "title": "Live updates, reaction as Brazil legend Ronaldinho out of retirement at Ravenna",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-11-15T15:27:15.000Z",
+      "excerpt": "Ronaldinho has come out of retirement to play for Italian Serie C side Ravenna at age 46 in a bid to score his 300th career goal. Here's wha",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50489043/ronaldinho-ravenna-brazil-barcelona-serie-c",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1744719_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Haaland 'incredibly happy' at Man City, not thinking about possible sanctions",
       "league": "Premier League",
-      "time": "7h ago",
+      "time": "0h ago",
+      "published": "2026-11-15T14:46:50.000Z",
+      "excerpt": "Erling Haaland says he is \"incredibly happy\" at Manchester City and his focus is on performing and not on the potential sanctions against th",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50490251/erling-haaland-man-city-premier-league-sanctions",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745802_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arsenal's Bruno Guimarães: Learning a lot from 'machine' Declan Rice",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-11-15T14:25:57.000Z",
+      "excerpt": "Bruno Guimarães has labelled Arsenal teammate Declan Rice a \"machine\" and said he's been learning a lot by playing alongside him.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50490171/arsenal-bruno-guimaraes-declan-rice",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746054_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
+      "league": "Ligue 1",
+      "time": "17h ago",
       "published": "2026-11-14T22:32:18.000Z",
       "excerpt": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
       "source": "ESPN",
@@ -14,8 +47,8 @@
     },
     {
       "title": "Olley: Manchester United have lacked culture, togetherness and desire",
-      "league": "Premier League",
-      "time": "7h ago",
+      "league": "Champions League",
+      "time": "17h ago",
       "published": "2026-11-14T22:14:35.000Z",
       "excerpt": "Olley: Manchester United have lacked culture, togetherness and desire",
       "source": "ESPN",
@@ -26,7 +59,7 @@
     {
       "title": "Transfer rumors, news: Como's Nico Paz to be Pochettino's first Man United summer signing?",
       "league": "La Liga",
-      "time": "14h ago",
+      "time": "23h ago",
       "published": "2026-11-14T15:42:44.000Z",
       "excerpt": "Manchester United are monitoring Como superstar Nico Paz ahead of a move next summer. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -37,7 +70,7 @@
     {
       "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
       "league": "La Liga",
-      "time": "22h ago",
+      "time": "14/11/2026",
       "published": "2026-11-14T07:55:59.000Z",
       "excerpt": "Real Madrid remain keen on Bayern Munich star Michael Olise. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -87,17 +120,6 @@
       "source": "ESPN",
       "url": "http://www.espn.com/soccer/report/_/gameId/401875018",
       "image": "https://a.espncdn.com/photo/2026/1108/r1743002_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "'No excuses': Ruben Amorim slams team, questions himself after shock Milan loss",
-      "league": "Serie A",
-      "time": "05/11/2026",
-      "published": "2026-11-05T23:46:09.000Z",
-      "excerpt": "AC Milan coach Ruben Amorim questioned himself and hit out at his team after a shock 2-0 home loss to Hungarian side Ferencvaros on Thursday",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50393432/ruben-amorim-ac-milan-ferencvaros-uefa-europa-league",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741805_1296x729_16-9.jpg",
       "category": "football"
     }
   ]

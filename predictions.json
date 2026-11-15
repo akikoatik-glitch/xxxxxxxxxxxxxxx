@@ -1,10 +1,10 @@
 {
   "date": "2026-11-20",
-  "lastUpdate": "2026-11-15T06:02:06.004Z",
-  "predictionGenerated": "2026-11-15T06:02:06.004Z",
-  "dataTimestamp": "2026-11-15T06:02:03.663Z",
+  "lastUpdate": "2026-11-15T15:33:39.675Z",
+  "predictionGenerated": "2026-11-15T15:33:39.675Z",
+  "dataTimestamp": "2026-11-15T15:33:37.103Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:39+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "de.1:2026-11-20:FC Bayern München:1. FC Köln",
@@ -13,7 +13,7 @@
       "date": "2026-11-20",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "128h to kickoff",
+      "countdown": "119h to kickoff",
       "home": "FC Bayern München",
       "away": "1. FC Köln",
       "league": "Bundesliga",
@@ -86,7 +86,7 @@
       "date": "2026-11-20",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "128h to kickoff",
+      "countdown": "119h to kickoff",
       "home": "ES Troyes AC",
       "away": "Le Havre AC",
       "league": "Ligue 1",
@@ -159,7 +159,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Newcastle United",
       "away": "Arsenal",
       "league": "Premier League",
@@ -232,7 +232,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Coventry City",
       "away": "Crystal Palace",
       "league": "Premier League",
@@ -305,7 +305,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Brentford",
       "away": "Everton",
       "league": "Premier League",
@@ -378,7 +378,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Tottenham Hotspur",
       "away": "Ipswich Town",
       "league": "Premier League",
@@ -451,7 +451,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "AFC Bournemouth",
       "away": "Nottingham Forest",
       "league": "Premier League",
@@ -524,7 +524,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Hull City A",
       "away": "Brighton & Hove Albion",
       "league": "Premier League",
@@ -597,7 +597,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Liverpool",
       "away": "Manchester United",
       "league": "Premier League",
@@ -670,7 +670,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Aston Villa",
       "away": "Sunderland A",
       "league": "Premier League",
@@ -743,7 +743,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Manchester City",
       "away": "Fulham",
       "league": "Premier League",
@@ -816,7 +816,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Chelsea",
       "away": "Leeds United",
       "league": "Premier League",
@@ -889,7 +889,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "FC Schalke 04",
       "away": "VfB Stuttgart",
       "league": "Bundesliga",
@@ -962,7 +962,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Eintracht Frankfurt",
       "away": "TSG 1899 Hoffenheim",
       "league": "Bundesliga",
@@ -1035,7 +1035,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Borussia Mönchengladbach",
       "away": "Borussia Dortmund",
       "league": "Bundesliga",
@@ -1108,7 +1108,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "SV 07 Elversberg",
       "away": "SC Freiburg",
       "league": "Bundesliga",
@@ -1181,7 +1181,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "1. FC Union Berlin",
       "away": "RB Leipzig",
       "league": "Bundesliga",
@@ -1254,7 +1254,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Bayer 04 Leverkusen",
       "away": "SC Paderborn 07",
       "league": "Bundesliga",
@@ -1327,7 +1327,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "SSC Napoli",
       "away": "Torino",
       "league": "Serie A",
@@ -1400,7 +1400,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "Parma Calcio 1913",
       "away": "AS Roma",
       "league": "Serie A",
@@ -1473,7 +1473,7 @@
       "date": "2026-11-21",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
+      "countdown": "143h to kickoff",
       "home": "SS Lazio",
       "away": "US Lecce",
       "league": "Serie A",
@@ -1535,225 +1535,6 @@
       },
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "SS Lazio vs US Lecce: Dixon-Coles P(H)83% D11% A6% • xG 2.79-0.60 • most likely score 2-0 (13%) • Home Win confidence 83% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "it.1:2026-11-21:Como 1907:Cagliari Calcio",
-      "slug": "como-1907-vs-cagliari-calcio-prediction",
-      "utcDate": "2026-11-21T15:00:00Z",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
-      "home": "Como 1907",
-      "away": "Cagliari Calcio",
-      "league": "Serie A",
-      "code": "SA",
-      "flag": "🇮🇹",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Como 1907 vs Cagliari Calcio: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-11-21:RC Strasbourg Alsace:Stade Brestois 29",
-      "slug": "rc-strasbourg-alsace-vs-stade-brestois-29-prediction",
-      "utcDate": "2026-11-21T15:00:00Z",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
-      "home": "RC Strasbourg Alsace",
-      "away": "Stade Brestois 29",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 43,
-      "odds": "2.21",
-      "value": "+0%",
-      "probs": {
-        "home": 43,
-        "draw": 21,
-        "away": 36
-      },
-      "xg": {
-        "home": "1.82",
-        "away": "1.66",
-        "total": "3.48"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 64,
-        "X2": 57
-      },
-      "overUnder": {
-        "over2_5": 67,
-        "under2_5": 33,
-        "oddsOver": "1.42",
-        "oddsUnder": "2.88"
-      },
-      "btts": {
-        "yes": 67,
-        "no": 33
-      },
-      "correctScore": {
-        "score": "1-1",
-        "prob": 9
-      },
-      "topScores": [
-        {
-          "score": "1-1",
-          "prob": 9
-        },
-        {
-          "score": "2-1",
-          "prob": 9
-        },
-        {
-          "score": "1-2",
-          "prob": 8
-        }
-      ],
-      "asianHandicap": "Home -0.25",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "RC Strasbourg Alsace vs Stade Brestois 29: Dixon-Coles P(H)43% D21% A36% • xG 1.82-1.66 • most likely score 1-1 (9%) • Home Win confidence 43% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-11-21:Lille OSC:Olympique Lyonnais",
-      "slug": "lille-osc-vs-olympique-lyonnais-prediction",
-      "utcDate": "2026-11-21T15:00:00Z",
-      "date": "2026-11-21",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "152h to kickoff",
-      "home": "Lille OSC",
-      "away": "Olympique Lyonnais",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 64,
-      "odds": "1.50",
-      "value": "+7%",
-      "probs": {
-        "home": 64,
-        "draw": 20,
-        "away": 17
-      },
-      "xg": {
-        "home": "1.95",
-        "away": "0.86",
-        "total": "2.81"
-      },
-      "doubleChance": {
-        "12": 80,
-        "1X": 83,
-        "X2": 36
-      },
-      "overUnder": {
-        "over2_5": 53,
-        "under2_5": 47,
-        "oddsOver": "1.79",
-        "oddsUnder": "2.02"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Lille OSC vs Olympique Lyonnais: Dixon-Coles P(H)64% D20% A17% • xG 1.95-0.86 • most likely score 1-0 (13%) • Home Win confidence 64% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
@@ -2363,47 +2144,47 @@
   ],
   "news": [
     {
-      "title": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
+      "title": "Live updates, reaction as Brazil legend Ronaldinho out of retirement at Ravenna",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-11-15T15:27:15.000Z",
+      "excerpt": "Ronaldinho has come out of retirement to play for Italian Serie C side Ravenna at age 46 in a bid to score his 300th career goal. Here's wha",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50489043/ronaldinho-ravenna-brazil-barcelona-serie-c",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1744719_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Haaland 'incredibly happy' at Man City, not thinking about possible sanctions",
       "league": "Premier League",
-      "time": "7h ago",
+      "time": "0h ago",
+      "published": "2026-11-15T14:46:50.000Z",
+      "excerpt": "Erling Haaland says he is \"incredibly happy\" at Manchester City and his focus is on performing and not on the potential sanctions against th",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50490251/erling-haaland-man-city-premier-league-sanctions",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745802_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Arsenal's Bruno Guimarães: Learning a lot from 'machine' Declan Rice",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-11-15T14:25:57.000Z",
+      "excerpt": "Bruno Guimarães has labelled Arsenal teammate Declan Rice a \"machine\" and said he's been learning a lot by playing alongside him.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50490171/arsenal-bruno-guimaraes-declan-rice",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746054_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
+      "league": "Ligue 1",
+      "time": "17h ago",
       "published": "2026-11-14T22:32:18.000Z",
       "excerpt": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50483870/portugal-vs-denmark-was-one-worst-games-decade",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_Nicol_Portugal_vs_Denmark_was_one_of_the_worst_games_in_a_decade/dm_261114_Nicol_Portugal_vs_Denmark_was_one_of_the_worst_games_in_a_decade.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Olley: Manchester United have lacked culture, togetherness and desire",
-      "league": "Premier League",
-      "time": "7h ago",
-      "published": "2026-11-14T22:14:35.000Z",
-      "excerpt": "Olley: Manchester United have lacked culture, togetherness and desire",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50483716/manchester-united-lacked-culture-togetherness-desire",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_Olley_Manchester_United_have_lacked_culture_togetherness_and_desire/dm_261114_Olley_Manchester_United_have_lacked_culture_togetherness_and_desire.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Como's Nico Paz to be Pochettino's first Man United summer signing?",
-      "league": "La Liga",
-      "time": "14h ago",
-      "published": "2026-11-14T15:42:44.000Z",
-      "excerpt": "Manchester United are monitoring Como superstar Nico Paz ahead of a move next summer. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50478503/transfer-rumors-news-man-united-como-nico-paz-mauricio-pochettino",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744747_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
-      "league": "La Liga",
-      "time": "22h ago",
-      "published": "2026-11-14T07:55:59.000Z",
-      "excerpt": "Real Madrid remain keen on Bayern Munich star Michael Olise. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50469742/transfer-rumors-news-man-united-balogun-freeman-pochettino",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705443_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
