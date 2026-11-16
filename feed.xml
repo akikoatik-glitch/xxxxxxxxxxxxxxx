@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 15 Nov 2026 20:57:39 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 01:47:36 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>FC Bayern München vs 1. FC Köln — Home Win @ 1.01</title>
@@ -189,6 +189,14 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/rc-strasbourg-alsace-vs-stade-brestois-29-prediction.html</guid>
     <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
     <description>Ligue 1 — 43% confidence. Home Win at 2.21. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Lille OSC vs Olympique Lyonnais — Home Win @ 1.50</title>
+    <link>https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</guid>
+    <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 64% confidence. Home Win at 1.50. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
     <category>Ligue 1</category>
   </item>
 </channel>
