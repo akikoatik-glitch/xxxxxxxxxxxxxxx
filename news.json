@@ -1,59 +1,103 @@
 {
-  "lastUpdate": "2026-11-20T12:42:33.997Z",
+  "lastUpdate": "2026-11-20T21:45:00.651Z",
   "news": [
     {
-      "title": "Harry Kane sets sights on Champions League, England trophy after Ballon d'Or win",
-      "league": "Champions League",
+      "title": "Harry Kane forced off with early injury as Bayern Munich held to draw",
+      "league": "Bundesliga",
       "time": "0h ago",
-      "published": "2026-11-20T12:35:56.000Z",
-      "excerpt": "Ballon d'Or winner Harry Kane is on a mission to claim trophies that have so far eluded him in his career, namely a Champions League and a t",
+      "published": "2026-11-20T21:28:52.000Z",
+      "excerpt": "Harry Kane was forced off with an apparent injury to his left leg in the first half of Bayern Munich's Bundesliga clash at home to FC Cologn",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1739991_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50543079/harry-kane-injury-bayern-munich",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748653_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Arsenal's Bukayo Saka out for a month, William Saliba available - Mikel Arteta",
+      "title": "Pochettino: 'Massive' pressure with USMNT makes me better coach for Man United",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-20T12:07:50.000Z",
-      "excerpt": "Arsenal manager Mikel Arteta expects Bukayo Saka to be sidelined for another four weeks with the thigh injury that has already kept the Engl",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50540215/arsenal-saka-saliba-arteta-injury",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1735028_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Mikel Arteta: Steps taken to avoid team leaks due to Fantasy Premier League",
-      "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-11-20T11:27:07.000Z",
-      "excerpt": "Mikel Arteta has said Arsenal have taken steps to avoid future team leaks via Fantasy Premier League after Christos Tzolis inadvertently rev",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50539955/arsenal-arteta-fantasy-premier-league-injuries-team-news",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748481_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "José Mourinho wants Vinícius Jr. to move on from summer woes",
-      "league": "La Liga",
       "time": "2h ago",
-      "published": "2026-11-20T10:21:51.000Z",
-      "excerpt": "José Mourinho has suggested Vinícius Júnior made a mistake in admitting a lack of preseason preparation was to blame for his poor form.",
+      "published": "2026-11-20T19:02:39.000Z",
+      "excerpt": "Mauricio Pochettino said the experience of coaching the U.S. at the World Cup stands him in good stead for taking over Manchester United.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50539637/jose-mourinho-vinicius-junior-real-madrid",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748468_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50542344/mauricio-pochettino-usa-man-united-coach",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748616_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Sources: Tom Brady buys shares in Chelsea after Birmingham exit",
+      "league": "Premier League",
+      "time": "3h ago",
+      "published": "2026-11-20T18:42:32.000Z",
+      "excerpt": "Seven-time Super Bowl champion quarterback Tom Brady has invested in Chelsea soccer club, sources confirmed to ESPN and NFL Network.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50542238/nfl-legend-tom-brady-buys-shares-chelsea-sources",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743720_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Champions League upstarts Como suffer Moise Kean injury blow",
+      "league": "Champions League",
+      "time": "3h ago",
+      "published": "2026-11-20T18:03:34.000Z",
+      "excerpt": "Como forward Moise Kean is set to be out injured for at least two months and could miss Champions League games against Paris Saint-Germain a",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50542117/como-moise-kean-injury-champions-league-italy-serie-a",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748599_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Transfer rumors, news: Arsenal want Athletic's World Cup winner Nico Williams",
       "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-11-20T08:28:21.000Z",
-      "excerpt": "Arsenal have reignited their interest in Athletic Club winger Nico Williams. Transfer Talk has the latest.",
+      "time": "5h ago",
+      "published": "2026-11-20T15:57:55.000Z",
+      "excerpt": "Arsenal have reignited their interest in Athletic Club winger Nico Williams as they seek a new left-sided forward. Transfer Talk has the lat",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50539252/transfer-rumors-news-arsenal-world-cup-nico-williams-spain",
       "image": "https://a.espncdn.com/photo/2026/0905/r1711846_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
+      "league": "Ligue 1",
+      "time": "5h ago",
+      "published": "2026-11-20T15:53:45.000Z",
+      "excerpt": "AS Monaco and USMNT striker Folarin Balogun is reportedly linked to two of Italy's biggest clubs. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50508862/transfer-rumors-news-manchester-united-newcastle-malick-thiaw",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747230_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
+      "league": "Bundesliga",
+      "time": "5h ago",
+      "published": "2026-11-20T15:52:40.000Z",
+      "excerpt": "Real Madrid remain keen on Bayern Munich star Michael Olise. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50469742/transfer-rumors-news-man-united-balogun-freeman-pochettino",
+      "image": "https://a.espncdn.com/photo/2026/0822/r1705443_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Vinícius Júnior admits he was underprepared for the World Cup",
+      "league": "La Liga",
+      "time": "6h ago",
+      "published": "2026-11-20T15:36:31.000Z",
+      "excerpt": "Alex Kirkland breaks down José Mourinho's response to Júnior's claim and what it could mean for the player as new signing Yan Diomandé pushe",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50541363/vinicius-junior-admits-was-underprepared-world-cup",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/dm_261120_11-20_Real_Madrid_IA/dm_261120_11-20_Real_Madrid_IA.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Harry Kane sets sights on Champions League, England trophy after Ballon d'Or win",
+      "league": "Champions League",
+      "time": "9h ago",
+      "published": "2026-11-20T12:35:56.000Z",
+      "excerpt": "Ballon d'Or winner Harry Kane is on a mission to claim trophies that have so far eluded him in his career, namely a Champions League and a t",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
+      "image": "https://a.espncdn.com/photo/2026/1102/r1739991_1296x729_16-9.jpg",
       "category": "football"
     },
     {
@@ -68,28 +112,6 @@
       "category": "football"
     },
     {
-      "title": "As Nike replaces Adidas, is UEFA Champions League star ball on its way out?",
-      "league": "Champions League",
-      "time": "18/11/2026",
-      "published": "2026-11-18T09:04:01.000Z",
-      "excerpt": "Nike will replace Adidas as supplier of UEFA Champions League match balls from next season. Will the famous 'star ball' design soon be no mo",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49730333/uefa-champions-league-adidas-nike-ball",
-      "image": "https://a.espncdn.com/photo/2026/0826/r1707048_2_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
-      "league": "Serie A",
-      "time": "17/11/2026",
-      "published": "2026-11-17T20:40:33.000Z",
-      "excerpt": "AS Monaco and USMNT striker Folarin Balogun is reportedly linked to two of Italy's biggest clubs. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50508862/transfer-rumors-news-manchester-united-newcastle-malick-thiaw",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1747230_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Nicol: Portugal vs. Denmark was one of the worst games in a decade",
       "league": "Ligue 1",
       "time": "14/11/2026",
@@ -98,28 +120,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/video/clip/_/id/50483870/portugal-vs-denmark-was-one-worst-games-decade",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_Nicol_Portugal_vs_Denmark_was_one_of_the_worst_games_in_a_decade/dm_261114_Nicol_Portugal_vs_Denmark_was_one_of_the_worst_games_in_a_decade.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
-      "league": "Bundesliga",
-      "time": "14/11/2026",
-      "published": "2026-11-14T07:55:59.000Z",
-      "excerpt": "Real Madrid remain keen on Bayern Munich star Michael Olise. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50469742/transfer-rumors-news-man-united-balogun-freeman-pochettino",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705443_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Borussia Dortmund to end controversial sponsorship with arms manufacturer",
-      "league": "Bundesliga",
-      "time": "13/11/2026",
-      "published": "2026-11-13T19:00:26.000Z",
-      "excerpt": "Borussia Dortmund says it won't renew a sponsorship deal with Germany's largest arms manufacturer Rheinmetall, which drew criticism from fan",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50473322/borussia-dortmund-rheinmetall-sponsorship-arms-manufacturer",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745373_1296x729_16-9.jpg",
       "category": "football"
     }
   ]

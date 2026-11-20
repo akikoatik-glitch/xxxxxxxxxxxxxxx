@@ -301,66 +301,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/football/leagues/bundesliga/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/bundesliga/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/bundesliga/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/leagues/ligue-1/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/ligue-1/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/ligue-1/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
-  </url>
-<url>
     <loc>https://xwhiz.com/football/leagues/premier-league/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
@@ -391,6 +331,36 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/premier-league/"/>
   </url>
 <url>
+    <loc>https://xwhiz.com/football/leagues/bundesliga/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/leagues/bundesliga/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/leagues/bundesliga/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/"/>
+  </url>
+<url>
     <loc>https://xwhiz.com/football/leagues/serie-a/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
@@ -419,6 +389,36 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/serie-a/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/serie-a/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/serie-a/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/leagues/ligue-1/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/leagues/ligue-1/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/leagues/ligue-1/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/leagues/turkish-second-league/</loc>
@@ -811,36 +811,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/mexico-liga-premier-serie-a/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/football/leagues/japanese-j1-league/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/japanese-j1-league/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/japanese-j1-league/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/japanese-j1-league/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/japanese-j1-league/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/japanese-j1-league/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/japanese-j1-league/"/>
-  </url>
-<url>
     <loc>https://xwhiz.com/football/teams/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
@@ -869,126 +839,6 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/fc-bayern-muenchen/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-bayern-muenchen/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/fc-bayern-muenchen/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-bayern-muenchen/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/fc-bayern-muenchen/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/fc-bayern-muenchen/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/fc-bayern-muenchen/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/1-fc-koeln/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fc-koeln/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/1-fc-koeln/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fc-koeln/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/1-fc-koeln/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/1-fc-koeln/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/1-fc-koeln/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/es-troyes-ac/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/es-troyes-ac/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/es-troyes-ac/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/es-troyes-ac/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/es-troyes-ac/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/es-troyes-ac/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/es-troyes-ac/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/teams/le-havre-ac/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/le-havre-ac/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/teams/le-havre-ac/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/le-havre-ac/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/teams/le-havre-ac/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/le-havre-ac/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/le-havre-ac/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/chelsea/</loc>
@@ -2309,6 +2159,126 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/aj-auxerre/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/aj-auxerre/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/aj-auxerre/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/racing-club-de-lens/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/racing-club-de-lens/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/racing-club-de-lens/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/racing-club-de-lens/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/racing-club-de-lens/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/racing-club-de-lens/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/racing-club-de-lens/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/toulouse/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/toulouse/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/toulouse/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/toulouse/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/toulouse/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/toulouse/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/toulouse/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/lille-osc/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/lille-osc/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/lille-osc/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/lille-osc/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/lille-osc/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/lille-osc/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/lille-osc/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/teams/olympique-lyonnais/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/olympique-lyonnais/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/teams/olympique-lyonnais/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/olympique-lyonnais/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/teams/olympique-lyonnais/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/teams/olympique-lyonnais/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/teams/olympique-lyonnais/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/teams/adana-demirspor/</loc>
@@ -4681,66 +4651,6 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/betting-guides/btts-prediction-guide/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/football/leagues/bundesliga/predictions/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/bundesliga/predictions/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/bundesliga/predictions/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/football/leagues/ligue-1/predictions/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/football/leagues/ligue-1/predictions/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/football/leagues/ligue-1/predictions/</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/predictions/"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
-  </url>
-<url>
     <loc>https://xwhiz.com/football/leagues/premier-league/predictions/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
@@ -4769,6 +4679,36 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/premier-league/predictions/"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/premier-league/predictions/"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/premier-league/predictions/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/football/leagues/bundesliga/predictions/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/football/leagues/bundesliga/predictions/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/football/leagues/bundesliga/predictions/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/bundesliga/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/bundesliga/predictions/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/football/leagues/serie-a/predictions/</loc>
@@ -4801,64 +4741,34 @@
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/serie-a/predictions/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html</loc>
+    <loc>https://xwhiz.com/football/leagues/ligue-1/predictions/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/fr/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html</loc>
+    <loc>https://xwhiz.com/fr/football/leagues/ligue-1/predictions/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
   </url>
 <url>
-    <loc>https://xwhiz.com/ar/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html</loc>
+    <loc>https://xwhiz.com/ar/football/leagues/ligue-1/predictions/</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/fr/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-  </url>
-<url>
-    <loc>https://xwhiz.com/ar/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
-      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/football/leagues/ligue-1/predictions/"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/football/leagues/ligue-1/predictions/"/>
   </url>
 <url>
     <loc>https://xwhiz.com/predictions/chelsea-vs-leeds-united-prediction.html</loc>
@@ -5519,6 +5429,66 @@
       <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/as-monaco-vs-aj-auxerre-prediction.html"/>
       <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/as-monaco-vs-aj-auxerre-prediction.html"/>
       <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/as-monaco-vs-aj-auxerre-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/racing-club-de-lens-vs-toulouse-prediction.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/racing-club-de-lens-vs-toulouse-prediction.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/fr/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+  </url>
+<url>
+    <loc>https://xwhiz.com/ar/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+      <xhtml:link rel="alternate" hreflang="en" href="https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="fr" href="https://xwhiz.com/fr/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="ar" href="https://xwhiz.com/ar/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
+      <xhtml:link rel="alternate" hreflang="x-default" href="https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html"/>
   </url>
 <url>
     <loc>https://xwhiz.com/predictions/adana-demirspor-vs-gmg-kastamonuspor-prediction.html</loc>

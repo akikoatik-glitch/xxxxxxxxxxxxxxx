@@ -5,24 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 20 Nov 2026 12:42:34 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 21:45:01 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>FC Bayern München vs 1. FC Köln — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-bayern-muenchen-vs-1-fc-koeln-prediction.html</guid>
-    <pubDate>Fri, 20 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 96% confidence. Home Win at 1.01. Match kickoff: Fri, 20 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>ES Troyes AC vs Le Havre AC — Away Win @ 2.32</title>
-    <link>https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/es-troyes-ac-vs-le-havre-ac-prediction.html</guid>
-    <pubDate>Fri, 20 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Ligue 1 — 41% confidence. Away Win at 2.32. Match kickoff: Fri, 20 Nov 2026 15:00:00 GMT.</description>
-    <category>Ligue 1</category>
-  </item>
   <item>
     <title>Chelsea vs Leeds United — Home Win @ 1.22</title>
     <link>https://xwhiz.com/predictions/chelsea-vs-leeds-united-prediction.html</link>
@@ -168,19 +152,19 @@
     <category>Serie A</category>
   </item>
   <item>
-    <title>Parma Calcio 1913 vs AS Roma — Away Win @ 1.43</title>
+    <title>Parma Calcio 1913 vs AS Roma — Away Win @ 1.03</title>
     <link>https://xwhiz.com/predictions/parma-calcio-1913-vs-as-roma-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/parma-calcio-1913-vs-as-roma-prediction.html</guid>
     <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 66% confidence. Away Win at 1.43. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
+    <description>Serie A — 92% confidence. Away Win at 1.03. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
   </item>
   <item>
-    <title>SSC Napoli vs Torino — Home Win @ 1.17</title>
+    <title>SSC Napoli vs Torino — Home Win @ 1.15</title>
     <link>https://xwhiz.com/predictions/ssc-napoli-vs-torino-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/ssc-napoli-vs-torino-prediction.html</guid>
     <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 81% confidence. Home Win at 1.17. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
+    <description>Serie A — 83% confidence. Home Win at 1.15. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
     <category>Serie A</category>
   </item>
   <item>
@@ -197,6 +181,22 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/as-monaco-vs-aj-auxerre-prediction.html</guid>
     <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
     <description>Ligue 1 — 93% confidence. Home Win at 1.02. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Racing Club de Lens vs Toulouse — Home Win @ 1.42</title>
+    <link>https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/racing-club-de-lens-vs-toulouse-prediction.html</guid>
+    <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 67% confidence. Home Win at 1.42. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Lille OSC vs Olympique Lyonnais — Home Win @ 1.50</title>
+    <link>https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/lille-osc-vs-olympique-lyonnais-prediction.html</guid>
+    <pubDate>Sat, 21 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 64% confidence. Home Win at 1.50. Match kickoff: Sat, 21 Nov 2026 15:00:00 GMT.</description>
     <category>Ligue 1</category>
   </item>
 </channel>
