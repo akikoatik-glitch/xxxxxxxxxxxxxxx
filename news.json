@@ -1,10 +1,65 @@
 {
-  "lastUpdate": "2026-11-21T03:03:53.741Z",
+  "lastUpdate": "2026-11-21T12:23:51.816Z",
   "news": [
+    {
+      "title": "Mauricio Pochettino's Man United moment has arrived. Is he ready?",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-21T12:05:45.000Z",
+      "excerpt": "Mauricio Pochettino faces the sizable challenge of restoring Man United to their former glory. Can he succeed where Michael Carrick, Ruben A",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50543478/pochettino-manchester-united-debut-liverpool",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748696_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Premier League live updates: Manchester City host Fulham in early match",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-21T11:58:24.000Z",
+      "excerpt": "Club soccer returns across Europe this weekend following the final international break of 2026, with Manchester City hosting Fulham to kick ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50532558/premier-league-live-updates-man-city-chelsea-arsenal",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748896_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Harry Kane vows to be back for 'business end of the season' after ankle surgery",
+      "league": "Bundesliga",
+      "time": "1h ago",
+      "published": "2026-11-21T11:14:51.000Z",
+      "excerpt": "Ballon d'Or winner Harry Kane is set to be out for several months after suffering a ligament tear in his left ankle during Bayern Munich's d",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50548680/harry-kane-injury-bayern-munich",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748887_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Could Scott McTominay return to Man United?",
+      "league": "Serie A",
+      "time": "1h ago",
+      "published": "2026-11-21T11:10:30.000Z",
+      "excerpt": "Scott McTominay left Manchester United little over two years ago, but could he return as his Napoli contact runs down? Transfer Talk has the",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50548678/transfer-rumors-news-scott-mctominay-man-united-return",
+      "image": "https://a.espncdn.com/photo/2026/0908/r1713214_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Real Madrid expected to sign Como's Nico Paz next summer",
+      "league": "La Liga",
+      "time": "7h ago",
+      "published": "2026-11-21T05:21:23.000Z",
+      "excerpt": "Real Madrid are looking to boost their attack by signing Como and Argentina international Nico Paz. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50539252/transfer-rumors-news-arsenal-world-cup-nico-williams-spain",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748712_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Ballon d'Or winner Harry Kane out a 'few months' after ankle injury",
       "league": "Bundesliga",
-      "time": "2h ago",
+      "time": "12h ago",
       "published": "2026-11-21T00:18:19.000Z",
       "excerpt": "Ballon d'Or winner Harry Kane is set to be out for several months after suffering a ligament tear in his left ankle during Bayern Munich's d",
       "source": "ESPN",
@@ -13,31 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Burley labels Pochettino has the biggest manager since Mourinho for Man United",
-      "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-11-20T22:49:50.000Z",
-      "excerpt": "ESPN's Nedum Onuoha, Craig Burley and Frank Leboeuf join Kay Murray to react to Mauricio Pochettino's first press conference as Manchester U",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50544050/burley-labels-pochettino-biggest-manager-mourinho-man-united",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/dm_261120_COM_SOC_Analysis_Burley_labels_Pochettino_has_the_biggest_manager_since_Mourinho_for_Man_United_GL/dm_261120_COM_SOC_Analysis_Burley_labels_Pochettino_has_the_biggest_manager_since_Mourinho_for_Man_United_GL.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Transfer rumors, news: Real Madrid expected to sign Como's Nico Paz next summer",
-      "league": "La Liga",
-      "time": "4h ago",
-      "published": "2026-11-20T22:22:39.000Z",
-      "excerpt": "Real Madrid are looking to boost their attack by signing Como and Argentina international Nico Paz. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50539252/transfer-rumors-news-arsenal-world-cup-nico-williams-spain",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748712_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Athletic Club vs. Espanyol - Game Highlights",
       "league": "La Liga",
-      "time": "5h ago",
+      "time": "14h ago",
       "published": "2026-11-20T22:03:47.000Z",
       "excerpt": "Watch the Game Highlights from Athletic Club vs. Espanyol, 11/21/2026",
       "source": "ESPN",
@@ -46,20 +79,9 @@
       "category": "football"
     },
     {
-      "title": "Pochettino: 'Massive' pressure with USMNT makes me better coach for Man United",
-      "league": "Premier League",
-      "time": "8h ago",
-      "published": "2026-11-20T19:02:39.000Z",
-      "excerpt": "Mauricio Pochettino said the experience of coaching the U.S. at the World Cup stands him in good stead for taking over Manchester United.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50542344/mauricio-pochettino-usa-man-united-coach",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748616_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Champions League upstarts Como suffer Moise Kean injury blow",
       "league": "Champions League",
-      "time": "9h ago",
+      "time": "18h ago",
       "published": "2026-11-20T18:03:34.000Z",
       "excerpt": "Como forward Moise Kean is set to be out injured for at least two months and could miss Champions League games against Paris Saint-Germain a",
       "source": "ESPN",
@@ -70,7 +92,7 @@
     {
       "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
       "league": "Ligue 1",
-      "time": "11h ago",
+      "time": "20h ago",
       "published": "2026-11-20T15:53:45.000Z",
       "excerpt": "AS Monaco and USMNT striker Folarin Balogun is reportedly linked to two of Italy's biggest clubs. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -79,20 +101,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
-      "league": "Bundesliga",
-      "time": "11h ago",
-      "published": "2026-11-20T15:52:40.000Z",
-      "excerpt": "Real Madrid remain keen on Bayern Munich star Michael Olise. Transfer Talk has the latest.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50469742/transfer-rumors-news-man-united-balogun-freeman-pochettino",
-      "image": "https://a.espncdn.com/photo/2026/0822/r1705443_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Harry Kane sets sights on Champions League, England trophy after Ballon d'Or win",
       "league": "Champions League",
-      "time": "14h ago",
+      "time": "23h ago",
       "published": "2026-11-20T12:35:56.000Z",
       "excerpt": "Ballon d'Or winner Harry Kane is on a mission to claim trophies that have so far eluded him in his career, namely a Champions League and a t",
       "source": "ESPN",
