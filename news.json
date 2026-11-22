@@ -1,10 +1,43 @@
 {
-  "lastUpdate": "2026-11-22T02:01:54.114Z",
+  "lastUpdate": "2026-11-22T12:26:05.879Z",
   "news": [
+    {
+      "title": "Transfer rumors, news: Antonee Robinson latest USMNT star linked with Man United",
+      "league": "Premier League",
+      "time": "1h ago",
+      "published": "2026-11-22T11:16:19.000Z",
+      "excerpt": "Antonee Robinson is reportedly attracting interest from Manchester United. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50560783/transfer-rumors-news-antonee-robinson-usmnt-man-united",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749524_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bruno Fernandes confirms Manchester United contract talks on hold, 'priority is winning'",
+      "league": "Premier League",
+      "time": "2h ago",
+      "published": "2026-11-22T09:52:00.000Z",
+      "excerpt": "Bruno Fernandes has confirmed Manchester United offered him a new contract but talks are on hold as he wants the club to focus on returning ",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50560581/bruno-fernandes-manchester-united-premier-league-mauricio-pochettino",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742541_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "DiBernardo joins Rapinoe, Pulisic in pantheon of great Olimpicos",
+      "league": "Champions League",
+      "time": "8h ago",
+      "published": "2026-11-22T03:53:18.000Z",
+      "excerpt": "Vanessa DiBernardo joined an elite list on Saturday, scoring for Kansas City direct from a corner. Known in soccer circles as an Olimpico, h",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/46407078/celebrating-olimpico-one-soccers-most-audacious-goals",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749419_1296x729_16-9.jpg",
+      "category": "football"
+    },
     {
       "title": "Carlos Espí's 'most special' goal earns Real Madrid win and Rafael Nadal praise",
       "league": "La Liga",
-      "time": "1h ago",
+      "time": "12h ago",
       "published": "2026-11-22T00:06:03.000Z",
       "excerpt": "Real Madrid supersub Carlos Espí said his late goal against Celta Vigo was his \"most special\" yet after earning his team the win and praise ",
       "source": "ESPN",
@@ -13,31 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Burley: Raya injury won't stop Arsenal beating 'embarrassing' title rivals",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-11-21T23:31:49.000Z",
-      "excerpt": "Craig Burley thinks Arsenal's title rivals are too poor to take advantage of any injury to David Raya.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50555377/raya-injury-stop-arsenal-beating-embarrassing-title-rivals",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/dm_261121_Burley_Raya_injury_wont_stop_Arsenal_beating_embarrassing_title_rivals/dm_261121_Burley_Raya_injury_wont_stop_Arsenal_beating_embarrassing_title_rivals.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Chelsea in 'fragile moment' as Caicedo injury adds to pain of Leeds rout",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-11-21T23:00:06.000Z",
-      "excerpt": "Another crisis might be unfolding at Chelsea, just a few months into Xabi Alonso's tenure.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50554949/chelsea-leeds-united-moises-caicedo-injury-xabi-alonso",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1749249_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "PSG star Désiré Doué suffers 'serious' knee injury in win over Nice",
       "league": "Ligue 1",
-      "time": "3h ago",
+      "time": "13h ago",
       "published": "2026-11-21T22:52:36.000Z",
       "excerpt": "PSG forward Désiré Doué was carried off on a stretcher with a serious knee injury late in the first half of the team's 3-2 win at Nice in Li",
       "source": "ESPN",
@@ -48,7 +59,7 @@
     {
       "title": "Bellingham & Espí rescue Real Madrid after Mbappé's missed penalty",
       "league": "La Liga",
-      "time": "3h ago",
+      "time": "13h ago",
       "published": "2026-11-21T22:42:56.000Z",
       "excerpt": "Real Madrid overcome Pablo Durán's early strike and Kylian Mbappé's missed penalty to win 2-1 over Celta Vigo, thanks to goals from Jude Bel",
       "source": "ESPN",
@@ -59,7 +70,7 @@
     {
       "title": "Scott McTominay sinks Torino to end Napoli's three-game winless streak",
       "league": "Serie A",
-      "time": "3h ago",
+      "time": "13h ago",
       "published": "2026-11-21T22:31:02.000Z",
       "excerpt": "Scott McTominay's second-half strike earned Napoli a hard-fought 1-0 win over Torino to ease the pressure on manager Massimiliano Allegri.",
       "source": "ESPN",
@@ -70,7 +81,7 @@
     {
       "title": "Transfer rumors, news: Liverpool, Man United want Scalvini",
       "league": "Serie A",
-      "time": "4h ago",
+      "time": "14h ago",
       "published": "2026-11-21T21:44:21.000Z",
       "excerpt": "A trio of Premier League giants are eyeing Atalanta defender Giorgio Scalvini. Transfer Talk has the latest.",
       "source": "ESPN",
@@ -81,7 +92,7 @@
     {
       "title": "Désiré Doué stretchered off with knee injury as PSG beat Nice 3-2",
       "league": "Ligue 1",
-      "time": "6h ago",
+      "time": "17h ago",
       "published": "2026-11-21T19:19:49.000Z",
       "excerpt": "Paris Saint-Germain forward Désiré Doué was carried off on a stretcher late in the first half of the team's Ligue 1 match away to Nice on Sa",
       "source": "ESPN",
@@ -92,7 +103,7 @@
     {
       "title": "FIFPRO slams Bayern Munich's treatment of Jamal Musiala: Club has 'duty of care'",
       "league": "Bundesliga",
-      "time": "8h ago",
+      "time": "19h ago",
       "published": "2026-11-21T17:18:15.000Z",
       "excerpt": "Global players' union FIFPRO has criticized Bayern Munich and urged the Bundesliga champions to respect its \"duty of care\" to Jamal Musiala.",
       "source": "ESPN",
@@ -103,7 +114,7 @@
     {
       "title": "Harry Kane vows to be back for 'business end of the season' after ankle surgery",
       "league": "Bundesliga",
-      "time": "14h ago",
+      "time": "21/11/2026",
       "published": "2026-11-21T11:14:51.000Z",
       "excerpt": "Ballon d'Or winner Harry Kane is set to be out for several months after suffering a ligament tear in his left ankle during Bayern Munich's d",
       "source": "ESPN",
@@ -120,17 +131,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50542117/como-moise-kean-injury-champions-league-italy-serie-a",
       "image": "https://a.espncdn.com/photo/2026/1120/r1748599_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Harry Kane sets sights on Champions League, England trophy after Ballon d'Or win",
-      "league": "Champions League",
-      "time": "20/11/2026",
-      "published": "2026-11-20T12:35:56.000Z",
-      "excerpt": "Ballon d'Or winner Harry Kane is on a mission to claim trophies that have so far eluded him in his career, namely a Champions League and a t",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50540283/harry-kane-champions-league-bayern-munich-england",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1739991_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
