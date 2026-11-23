@@ -1,10 +1,10 @@
 {
   "date": "2026-11-23",
-  "lastUpdate": "2026-11-22T20:38:44.450Z",
-  "predictionGenerated": "2026-11-22T20:38:44.450Z",
-  "dataTimestamp": "2026-11-22T20:38:42.127Z",
+  "lastUpdate": "2026-11-23T02:26:48.341Z",
+  "predictionGenerated": "2026-11-23T02:26:48.341Z",
+  "dataTimestamp": "2026-11-23T02:26:45.904Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (today:68+tomorrow:2+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:2+tomorrow:8+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "it.1:2026-11-23:AC Monza:ACF Fiorentina",
@@ -13,7 +13,7 @@
       "date": "2026-11-23",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "AC Monza",
       "away": "ACF Fiorentina",
       "league": "Serie A",
@@ -86,7 +86,7 @@
       "date": "2026-11-23",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "18h to kickoff",
+      "countdown": "12h to kickoff",
       "home": "Juventus",
       "away": "Venezia",
       "league": "Serie A",
@@ -151,122 +151,1628 @@
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
       "model": "Dixon-Coles + Elo",
       "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Cardiff City FC:Preston North End FC",
+      "slug": "cardiff-city-vs-preston-north-end-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Cardiff City",
+      "away": "Preston North End",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 80,
+      "odds": "1.19",
+      "value": "+15%",
+      "probs": {
+        "home": 80,
+        "draw": 13,
+        "away": 7
+      },
+      "xg": {
+        "home": "2.64",
+        "away": "0.64",
+        "total": "3.28"
+      },
+      "doubleChance": {
+        "12": 87,
+        "1X": 93,
+        "X2": 20
+      },
+      "overUnder": {
+        "over2_5": 63,
+        "under2_5": 37,
+        "oddsOver": "1.51",
+        "oddsUnder": "2.57"
+      },
+      "btts": {
+        "yes": 43,
+        "no": 57
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Cardiff City vs Preston North End: Dixon-Coles P(H)80% D13% A7% • xG 2.64-0.64 • most likely score 2-0 (13%) • Home Win confidence 80% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Middlesbrough FC:Swansea City AFC",
+      "slug": "middlesbrough-vs-swansea-city-a-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Middlesbrough",
+      "away": "Swansea City A",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 83,
+      "odds": "1.15",
+      "value": "+16%",
+      "probs": {
+        "home": 83,
+        "draw": 11,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.79",
+        "away": "0.60",
+        "total": "3.39"
+      },
+      "doubleChance": {
+        "12": 89,
+        "1X": 94,
+        "X2": 17
+      },
+      "overUnder": {
+        "over2_5": 65,
+        "under2_5": 35,
+        "oddsOver": "1.46",
+        "oddsUnder": "2.71"
+      },
+      "btts": {
+        "yes": 42,
+        "no": 58
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Middlesbrough vs Swansea City A: Dixon-Coles P(H)83% D11% A6% • xG 2.79-0.60 • most likely score 2-0 (13%) • Home Win confidence 83% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Portsmouth FC:West Ham United FC",
+      "slug": "portsmouth-vs-west-ham-united-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Portsmouth",
+      "away": "West Ham United",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 40,
+      "odds": "2.37",
+      "value": "+0%",
+      "probs": {
+        "home": 35,
+        "draw": 24,
+        "away": 40
+      },
+      "xg": {
+        "home": "1.25",
+        "away": "1.35",
+        "total": "2.60"
+      },
+      "doubleChance": {
+        "12": 76,
+        "1X": 60,
+        "X2": 65
+      },
+      "overUnder": {
+        "over2_5": 48,
+        "under2_5": 52,
+        "oddsOver": "1.98",
+        "oddsUnder": "1.83"
+      },
+      "btts": {
+        "yes": 52,
+        "no": 48
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 11
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Level (0)",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Portsmouth vs West Ham United: Dixon-Coles P(H)35% D24% A40% • xG 1.25-1.35 • most likely score 1-1 (12%) • Away Win confidence 40% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Sheffield United FC:Southampton FC",
+      "slug": "sheffield-united-vs-southampton-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Sheffield United",
+      "away": "Southampton",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 64,
+      "odds": "1.48",
+      "value": "+7%",
+      "probs": {
+        "home": 64,
+        "draw": 19,
+        "away": 16
+      },
+      "xg": {
+        "home": "1.98",
+        "away": "0.85",
+        "total": "2.83"
+      },
+      "doubleChance": {
+        "12": 81,
+        "1X": 84,
+        "X2": 36
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Sheffield United vs Southampton: Dixon-Coles P(H)64% D19% A16% • xG 1.98-0.85 • most likely score 1-0 (13%) • Home Win confidence 64% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Charlton Athletic FC:Lincoln City FC",
+      "slug": "charlton-athletic-vs-lincoln-city-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Charlton Athletic",
+      "away": "Lincoln City",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 47,
+      "odds": "2.02",
+      "value": "+0%",
+      "probs": {
+        "home": 47,
+        "draw": 24,
+        "away": 29
+      },
+      "xg": {
+        "home": "1.50",
+        "away": "1.12",
+        "total": "2.62"
+      },
+      "doubleChance": {
+        "12": 76,
+        "1X": 71,
+        "X2": 53
+      },
+      "overUnder": {
+        "over2_5": 49,
+        "under2_5": 51,
+        "oddsOver": "1.94",
+        "oddsUnder": "1.86"
+      },
+      "btts": {
+        "yes": 51,
+        "no": 49
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "1-1",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 9
+        }
+      ],
+      "asianHandicap": "Home -0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Charlton Athletic vs Lincoln City: Dixon-Coles P(H)47% D24% A29% • xG 1.50-1.12 • most likely score 1-0 (12%) • Home Win confidence 47% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Bristol City FC:Wrexham AFC",
+      "slug": "bristol-city-vs-wrexham-a-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Bristol City",
+      "away": "Wrexham A",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 77,
+      "odds": "1.24",
+      "value": "+13%",
+      "probs": {
+        "home": 77,
+        "draw": 14,
+        "away": 9
+      },
+      "xg": {
+        "home": "2.45",
+        "away": "0.68",
+        "total": "3.13"
+      },
+      "doubleChance": {
+        "12": 86,
+        "1X": 91,
+        "X2": 23
+      },
+      "overUnder": {
+        "over2_5": 60,
+        "under2_5": 40,
+        "oddsOver": "1.58",
+        "oddsUnder": "2.38"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        },
+        {
+          "score": "3-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Bristol City vs Wrexham A: Dixon-Coles P(H)77% D14% A9% • xG 2.45-0.68 • most likely score 2-0 (13%) • Home Win confidence 77% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Norwich City FC:Queens Park Rangers FC",
+      "slug": "norwich-city-vs-queens-park-rangers-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Norwich City",
+      "away": "Queens Park Rangers",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 68,
+      "odds": "1.40",
+      "value": "+9%",
+      "probs": {
+        "home": 68,
+        "draw": 18,
+        "away": 14
+      },
+      "xg": {
+        "home": "2.09",
+        "away": "0.80",
+        "total": "2.89"
+      },
+      "doubleChance": {
+        "12": 82,
+        "1X": 86,
+        "X2": 32
+      },
+      "overUnder": {
+        "over2_5": 55,
+        "under2_5": 45,
+        "oddsOver": "1.73",
+        "oddsUnder": "2.11"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Norwich City vs Queens Park Rangers: Dixon-Coles P(H)68% D18% A14% • xG 2.09-0.80 • most likely score 1-0 (12%) • Home Win confidence 68% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-24:Wolverhampton Wanderers FC:Derby County FC",
+      "slug": "wolverhampton-wanderers-vs-derby-county-prediction",
+      "utcDate": "2026-11-24T15:00:00Z",
+      "date": "2026-11-24",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "36h to kickoff",
+      "home": "Wolverhampton Wanderers",
+      "away": "Derby County",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 77,
+      "odds": "1.24",
+      "value": "+13%",
+      "probs": {
+        "home": 77,
+        "draw": 14,
+        "away": 9
+      },
+      "xg": {
+        "home": "2.45",
+        "away": "0.68",
+        "total": "3.13"
+      },
+      "doubleChance": {
+        "12": 86,
+        "1X": 91,
+        "X2": 23
+      },
+      "overUnder": {
+        "over2_5": 60,
+        "under2_5": 40,
+        "oddsOver": "1.58",
+        "oddsUnder": "2.38"
+      },
+      "btts": {
+        "yes": 45,
+        "no": 55
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "1-0",
+          "prob": 11
+        },
+        {
+          "score": "3-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -1.8",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Wolverhampton Wanderers vs Derby County: Dixon-Coles P(H)77% D14% A9% • xG 2.45-0.68 • most likely score 2-0 (13%) • Home Win confidence 77% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-25:Stoke City FC:Millwall FC",
+      "slug": "stoke-city-vs-millwall-prediction",
+      "utcDate": "2026-11-25T15:00:00Z",
+      "date": "2026-11-25",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "60h to kickoff",
+      "home": "Stoke City",
+      "away": "Millwall",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 64,
+      "odds": "1.50",
+      "value": "+7%",
+      "probs": {
+        "home": 64,
+        "draw": 20,
+        "away": 17
+      },
+      "xg": {
+        "home": "1.95",
+        "away": "0.86",
+        "total": "2.81"
+      },
+      "doubleChance": {
+        "12": 80,
+        "1X": 83,
+        "X2": 36
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Stoke City vs Millwall: Dixon-Coles P(H)64% D20% A17% • xG 1.95-0.86 • most likely score 1-0 (13%) • Home Win confidence 64% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-25:Burnley FC:Birmingham City FC",
+      "slug": "burnley-vs-birmingham-city-prediction",
+      "utcDate": "2026-11-25T15:00:00Z",
+      "date": "2026-11-25",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "60h to kickoff",
+      "home": "Burnley",
+      "away": "Birmingham City",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 69,
+      "odds": "1.38",
+      "value": "+9%",
+      "probs": {
+        "home": 69,
+        "draw": 18,
+        "away": 14
+      },
+      "xg": {
+        "home": "2.13",
+        "away": "0.79",
+        "total": "2.92"
+      },
+      "doubleChance": {
+        "12": 82,
+        "1X": 86,
+        "X2": 31
+      },
+      "overUnder": {
+        "over2_5": 55,
+        "under2_5": 45,
+        "oddsOver": "1.73",
+        "oddsUnder": "2.11"
+      },
+      "btts": {
+        "yes": 47,
+        "no": 53
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Burnley vs Birmingham City: Dixon-Coles P(H)69% D18% A14% • xG 2.13-0.79 • most likely score 1-0 (12%) • Home Win confidence 69% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-25:Bolton Wanderers FC:West Bromwich Albion FC",
+      "slug": "bolton-wanderers-vs-west-bromwich-albion-prediction",
+      "utcDate": "2026-11-25T15:00:00Z",
+      "date": "2026-11-25",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "60h to kickoff",
+      "home": "Bolton Wanderers",
+      "away": "West Bromwich Albion",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 42,
+      "odds": "2.27",
+      "value": "+0%",
+      "probs": {
+        "home": 34,
+        "draw": 24,
+        "away": 42
+      },
+      "xg": {
+        "home": "1.21",
+        "away": "1.39",
+        "total": "2.60"
+      },
+      "doubleChance": {
+        "12": 76,
+        "1X": 58,
+        "X2": 66
+      },
+      "overUnder": {
+        "over2_5": 48,
+        "under2_5": 52,
+        "oddsOver": "1.98",
+        "oddsUnder": "1.83"
+      },
+      "btts": {
+        "yes": 52,
+        "no": 48
+      },
+      "correctScore": {
+        "score": "1-1",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-1",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 11
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +0.25",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Bolton Wanderers vs West Bromwich Albion: Dixon-Coles P(H)34% D24% A42% • xG 1.21-1.39 • most likely score 1-1 (12%) • Away Win confidence 42% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-25:Watford FC:Blackburn Rovers FC",
+      "slug": "watford-vs-blackburn-rovers-prediction",
+      "utcDate": "2026-11-25T15:00:00Z",
+      "date": "2026-11-25",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "60h to kickoff",
+      "home": "Watford",
+      "away": "Blackburn Rovers",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 68,
+      "odds": "1.40",
+      "value": "+9%",
+      "probs": {
+        "home": 68,
+        "draw": 18,
+        "away": 14
+      },
+      "xg": {
+        "home": "2.09",
+        "away": "0.80",
+        "total": "2.89"
+      },
+      "doubleChance": {
+        "12": 82,
+        "1X": 86,
+        "X2": 32
+      },
+      "overUnder": {
+        "over2_5": 55,
+        "under2_5": 45,
+        "oddsOver": "1.73",
+        "oddsUnder": "2.11"
+      },
+      "btts": {
+        "yes": 48,
+        "no": 52
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 12
+        },
+        {
+          "score": "2-0",
+          "prob": 12
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Watford vs Blackburn Rovers: Dixon-Coles P(H)68% D18% A14% • xG 2.09-0.80 • most likely score 1-0 (12%) • Home Win confidence 68% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "de.1:2026-11-27:SV Werder Bremen:Borussia Mönchengladbach",
+      "slug": "sv-werder-bremen-vs-borussia-moenchengladbach-prediction",
+      "utcDate": "2026-11-27T15:00:00Z",
+      "date": "2026-11-27",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "league": "Bundesliga",
+      "code": "BL1",
+      "flag": "🇩🇪",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 89,
+      "odds": "1.07",
+      "value": "+19%",
+      "probs": {
+        "home": 89,
+        "draw": 8,
+        "away": 4
+      },
+      "xg": {
+        "home": "3.27",
+        "away": "0.51",
+        "total": "3.78"
+      },
+      "doubleChance": {
+        "12": 92,
+        "1X": 96,
+        "X2": 11
+      },
+      "overUnder": {
+        "over2_5": 71,
+        "under2_5": 29,
+        "oddsOver": "1.34",
+        "oddsUnder": "3.28"
+      },
+      "btts": {
+        "yes": 38,
+        "no": 62
+      },
+      "correctScore": {
+        "score": "3-0",
+        "prob": 14
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "prob": 14
+        },
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "4-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "SV Werder Bremen vs Borussia Mönchengladbach: Dixon-Coles P(H)89% D8% A4% • xG 3.27-0.51 • most likely score 3-0 (14%) • Home Win confidence 89% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "fr.1:2026-11-27:Stade Brestois 29:Paris FC",
+      "slug": "stade-brestois-29-vs-paris-prediction",
+      "utcDate": "2026-11-27T15:00:00Z",
+      "date": "2026-11-27",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "Stade Brestois 29",
+      "away": "Paris",
+      "league": "Ligue 1",
+      "code": "FL1",
+      "flag": "🇫🇷",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 95,
+      "odds": "1.01",
+      "value": "+23%",
+      "probs": {
+        "home": 95,
+        "draw": 4,
+        "away": 1
+      },
+      "xg": {
+        "home": "4.12",
+        "away": "0.35",
+        "total": "4.47"
+      },
+      "doubleChance": {
+        "12": 96,
+        "1X": 97,
+        "X2": 5
+      },
+      "overUnder": {
+        "over2_5": 80,
+        "under2_5": 20,
+        "oddsOver": "1.19",
+        "oddsUnder": "4.75"
+      },
+      "btts": {
+        "yes": 29,
+        "no": 71
+      },
+      "correctScore": {
+        "score": "4-0",
+        "prob": 16
+      },
+      "topScores": [
+        {
+          "score": "4-0",
+          "prob": 16
+        },
+        {
+          "score": "3-0",
+          "prob": 15
+        },
+        {
+          "score": "5-0",
+          "prob": 13
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Stade Brestois 29 vs Paris: Dixon-Coles P(H)95% D4% A1% • xG 4.12-0.35 • most likely score 4-0 (16%) • Home Win confidence 95% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "nl.1:2026-11-27:FC Groningen:Willem II Tilburg",
+      "slug": "fc-groningen-vs-willem-ii-tilburg-prediction",
+      "utcDate": "2026-11-27T15:00:00Z",
+      "date": "2026-11-27",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "FC Groningen",
+      "away": "Willem II Tilburg",
+      "league": "Eredivisie",
+      "code": "DED",
+      "flag": "🇳🇱",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 82,
+      "odds": "1.16",
+      "value": "+16%",
+      "probs": {
+        "home": 82,
+        "draw": 12,
+        "away": 6
+      },
+      "xg": {
+        "home": "2.75",
+        "away": "0.61",
+        "total": "3.36"
+      },
+      "doubleChance": {
+        "12": 88,
+        "1X": 94,
+        "X2": 18
+      },
+      "overUnder": {
+        "over2_5": 65,
+        "under2_5": 35,
+        "oddsOver": "1.46",
+        "oddsUnder": "2.71"
+      },
+      "btts": {
+        "yes": 42,
+        "no": 58
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 13
+        },
+        {
+          "score": "3-0",
+          "prob": 12
+        },
+        {
+          "score": "1-0",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "FC Groningen vs Willem II Tilburg: Dixon-Coles P(H)82% D12% A6% • xG 2.75-0.61 • most likely score 2-0 (13%) • Home Win confidence 82% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "pt.1:2026-11-27:CS Marítimo:CD Nacional",
+      "slug": "cs-maritimo-vs-cd-nacional-prediction",
+      "utcDate": "2026-11-27T15:00:00Z",
+      "date": "2026-11-27",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "CS Marítimo",
+      "away": "CD Nacional",
+      "league": "Primeira Liga",
+      "code": "PPL",
+      "flag": "🇵🇹",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 61,
+      "odds": "1.56",
+      "value": "+5%",
+      "probs": {
+        "home": 61,
+        "draw": 21,
+        "away": 19
+      },
+      "xg": {
+        "home": "1.87",
+        "away": "0.90",
+        "total": "2.77"
+      },
+      "doubleChance": {
+        "12": 79,
+        "1X": 81,
+        "X2": 39
+      },
+      "overUnder": {
+        "over2_5": 52,
+        "under2_5": 48,
+        "oddsOver": "1.83",
+        "oddsUnder": "1.98"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "CS Marítimo vs CD Nacional: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.2:2026-11-27:Southampton FC:Middlesbrough FC",
+      "slug": "southampton-vs-middlesbrough-prediction",
+      "utcDate": "2026-11-27T15:00:00Z",
+      "date": "2026-11-27",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "108h to kickoff",
+      "home": "Southampton",
+      "away": "Middlesbrough",
+      "league": "Championship",
+      "code": "ELC",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 64,
+      "odds": "1.50",
+      "value": "+7%",
+      "probs": {
+        "home": 64,
+        "draw": 20,
+        "away": 17
+      },
+      "xg": {
+        "home": "1.95",
+        "away": "0.86",
+        "total": "2.81"
+      },
+      "doubleChance": {
+        "12": 80,
+        "1X": 83,
+        "X2": 36
+      },
+      "overUnder": {
+        "over2_5": 53,
+        "under2_5": 47,
+        "oddsOver": "1.79",
+        "oddsUnder": "2.02"
+      },
+      "btts": {
+        "yes": 49,
+        "no": 51
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 13
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 13
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        },
+        {
+          "score": "2-1",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Home -1.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Southampton vs Middlesbrough: Dixon-Coles P(H)64% D20% A17% • xG 1.95-0.86 • most likely score 1-0 (13%) • Home Win confidence 64% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-28:Crystal Palace FC:Hull City AFC",
+      "slug": "crystal-palace-vs-hull-city-a-prediction",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "132h to kickoff",
+      "home": "Crystal Palace",
+      "away": "Hull City A",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 80,
+      "odds": "1.19",
+      "value": "+15%",
+      "probs": {
+        "home": 80,
+        "draw": 12,
+        "away": 8
+      },
+      "xg": {
+        "home": "2.92",
+        "away": "0.82",
+        "total": "3.74"
+      },
+      "doubleChance": {
+        "12": 88,
+        "1X": 92,
+        "X2": 20
+      },
+      "overUnder": {
+        "over2_5": 71,
+        "under2_5": 29,
+        "oddsOver": "1.34",
+        "oddsUnder": "3.28"
+      },
+      "btts": {
+        "yes": 52,
+        "no": 48
+      },
+      "correctScore": {
+        "score": "2-0",
+        "prob": 10
+      },
+      "topScores": [
+        {
+          "score": "2-0",
+          "prob": 10
+        },
+        {
+          "score": "3-0",
+          "prob": 10
+        },
+        {
+          "score": "2-1",
+          "prob": 9
+        }
+      ],
+      "asianHandicap": "Home -2.0",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Crystal Palace vs Hull City A: Dixon-Coles P(H)80% D12% A8% • xG 2.92-0.82 • most likely score 2-0 (10%) • Home Win confidence 80% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-28:Sunderland AFC:Tottenham Hotspur FC",
+      "slug": "sunderland-a-vs-tottenham-hotspur-prediction",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "132h to kickoff",
+      "home": "Sunderland A",
+      "away": "Tottenham Hotspur",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 69,
+      "odds": "1.37",
+      "value": "+10%",
+      "probs": {
+        "home": 11,
+        "draw": 20,
+        "away": 69
+      },
+      "xg": {
+        "home": "0.53",
+        "away": "1.82",
+        "total": "2.35"
+      },
+      "doubleChance": {
+        "12": 80,
+        "1X": 31,
+        "X2": 89
+      },
+      "overUnder": {
+        "over2_5": 42,
+        "under2_5": 58,
+        "oddsOver": "2.26",
+        "oddsUnder": "1.64"
+      },
+      "btts": {
+        "yes": 34,
+        "no": 66
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 18
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 18
+        },
+        {
+          "score": "0-2",
+          "prob": 16
+        },
+        {
+          "score": "0-3",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.3",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Sunderland A vs Tottenham Hotspur: Dixon-Coles P(H)11% D20% A69% • xG 0.53-1.82 • most likely score 0-1 (18%) • Away Win confidence 69% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-28:Brighton & Hove Albion FC:Newcastle United FC",
+      "slug": "brighton-hove-albion-vs-newcastle-united-prediction",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "132h to kickoff",
+      "home": "Brighton & Hove Albion",
+      "away": "Newcastle United",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 73,
+      "odds": "1.30",
+      "value": "+11%",
+      "probs": {
+        "home": 12,
+        "draw": 16,
+        "away": 73
+      },
+      "xg": {
+        "home": "0.83",
+        "away": "2.41",
+        "total": "3.24"
+      },
+      "doubleChance": {
+        "12": 84,
+        "1X": 27,
+        "X2": 88
+      },
+      "overUnder": {
+        "over2_5": 62,
+        "under2_5": 38,
+        "oddsOver": "1.53",
+        "oddsUnder": "2.50"
+      },
+      "btts": {
+        "yes": 50,
+        "no": 50
+      },
+      "correctScore": {
+        "score": "0-2",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "0-2",
+          "prob": 12
+        },
+        {
+          "score": "0-1",
+          "prob": 10
+        },
+        {
+          "score": "1-2",
+          "prob": 10
+        }
+      ],
+      "asianHandicap": "Away +1.5",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Brighton & Hove Albion vs Newcastle United: Dixon-Coles P(H)12% D16% A73% • xG 0.83-2.41 • most likely score 0-2 (12%) • Away Win confidence 73% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-28:Nottingham Forest FC:Chelsea FC",
+      "slug": "nottingham-forest-vs-chelsea-prediction",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "132h to kickoff",
+      "home": "Nottingham Forest",
+      "away": "Chelsea",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Away Win",
+      "sub": "2 • Full Time",
+      "conf": 49,
+      "odds": "1.93",
+      "value": "+0%",
+      "probs": {
+        "home": 28,
+        "draw": 23,
+        "away": 49
+      },
+      "xg": {
+        "home": "1.11",
+        "away": "1.58",
+        "total": "2.69"
+      },
+      "doubleChance": {
+        "12": 77,
+        "1X": 51,
+        "X2": 72
+      },
+      "overUnder": {
+        "over2_5": 50,
+        "under2_5": 50,
+        "oddsOver": "1.90",
+        "oddsUnder": "1.90"
+      },
+      "btts": {
+        "yes": 52,
+        "no": 48
+      },
+      "correctScore": {
+        "score": "0-1",
+        "prob": 12
+      },
+      "topScores": [
+        {
+          "score": "0-1",
+          "prob": 12
+        },
+        {
+          "score": "1-1",
+          "prob": 11
+        },
+        {
+          "score": "1-2",
+          "prob": 9
+        }
+      ],
+      "asianHandicap": "Away +0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Nottingham Forest vs Chelsea: Dixon-Coles P(H)28% D23% A49% • xG 1.11-1.58 • most likely score 0-1 (12%) • Away Win confidence 49% • strengths from real standings",
+      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
+    },
+    {
+      "id": "en.1:2026-11-28:Fulham FC:AFC Bournemouth",
+      "slug": "fulham-vs-afc-bournemouth-prediction",
+      "utcDate": "2026-11-28T15:00:00Z",
+      "date": "2026-11-28",
+      "time": "15:00",
+      "precise": "15:00 UTC • 16:00 CET",
+      "countdown": "132h to kickoff",
+      "home": "Fulham",
+      "away": "AFC Bournemouth",
+      "league": "Premier League",
+      "code": "PL",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "status": "TIMED",
+      "pred": "Home Win",
+      "sub": "1 • Full Time",
+      "conf": 52,
+      "odds": "1.84",
+      "value": "+1%",
+      "probs": {
+        "home": 52,
+        "draw": 26,
+        "away": 22
+      },
+      "xg": {
+        "home": "1.36",
+        "away": "0.77",
+        "total": "2.13"
+      },
+      "doubleChance": {
+        "12": 74,
+        "1X": 78,
+        "X2": 48
+      },
+      "overUnder": {
+        "over2_5": 36,
+        "under2_5": 64,
+        "oddsOver": "2.64",
+        "oddsUnder": "1.48"
+      },
+      "btts": {
+        "yes": 39,
+        "no": 61
+      },
+      "correctScore": {
+        "score": "1-0",
+        "prob": 17
+      },
+      "topScores": [
+        {
+          "score": "1-0",
+          "prob": 17
+        },
+        {
+          "score": "1-1",
+          "prob": 11
+        },
+        {
+          "score": "2-0",
+          "prob": 11
+        }
+      ],
+      "asianHandicap": "Home -0.50",
+      "form": {
+        "home": null,
+        "away": null
+      },
+      "injuries": "Lineups confirmed ~1h before kickoff",
+      "whyWin": "Fulham vs AFC Bournemouth: Dixon-Coles P(H)52% D26% A22% • xG 1.36-0.77 • most likely score 1-0 (17%) • Home Win confidence 52% • strengths from real standings",
+      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
+      "model": "Dixon-Coles + Elo",
+      "locked": false
     }
   ],
   "results": [
     {
-      "slug": "tokyo-verdy-vs-nagoya-grampus-prediction",
-      "home": "Tokyo Verdy",
-      "away": "Nagoya Grampus",
-      "league": "Japanese J1 League",
+      "slug": "tokushima-vortis-vs-shonan-bellmare-prediction",
+      "home": "Tokushima Vortis",
+      "away": "Shonan Bellmare",
+      "league": "Japanese J2 League",
       "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Tokyo Verdy 0-0 Nagoya Grampus",
-      "homeLine": "Tokyo Verdy 0-0 Nagoya Grampus",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "machida-zelvia-vs-v-varen-nagasaki-prediction",
-      "home": "Machida Zelvia",
-      "away": "V-Varen Nagasaki",
-      "league": "Japanese J1 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Machida Zelvia 0-0 V-Varen Nagasaki",
-      "homeLine": "Machida Zelvia 0-0 V-Varen Nagasaki",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "kyoto-sanga-vs-urawa-red-diamonds-prediction",
-      "home": "Kyoto Sanga",
-      "away": "Urawa Red Diamonds",
-      "league": "Japanese J1 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 1,
-      "scoreText": "Kyoto Sanga 2-1 Urawa Red Diamonds",
-      "homeLine": "Kyoto Sanga 2-1 Urawa Red Diamonds",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "sanfrecce-hiroshima-vs-yokohama-f-marinos-prediction",
-      "home": "Sanfrecce Hiroshima",
-      "away": "Yokohama F. Marinos",
-      "league": "Japanese J1 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 2,
+      "scoreHome": 1,
       "scoreAway": 2,
-      "scoreText": "Sanfrecce Hiroshima 2-2 Yokohama F. Marinos",
-      "homeLine": "Sanfrecce Hiroshima 2-2 Yokohama F. Marinos",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "jubilo-iwata-vs-rb-omiya-ardija-prediction",
-      "home": "Jubilo Iwata",
-      "away": "RB Omiya Ardija",
-      "league": "Japanese J2 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 0,
-      "scoreText": "Jubilo Iwata 2-0 RB Omiya Ardija",
-      "homeLine": "Jubilo Iwata 2-0 RB Omiya Ardija",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "fujieda-myfc-vs-fc-imabari-prediction",
-      "home": "Fujieda MYFC",
-      "away": "FC Imabari",
-      "league": "Japanese J2 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 1,
-      "scoreText": "Fujieda MYFC 0-1 FC Imabari",
-      "homeLine": "Fujieda MYFC 0-1 FC Imabari",
+      "scoreText": "Tokushima Vortis 1-2 Shonan Bellmare",
+      "homeLine": "Tokushima Vortis 1-2 Shonan Bellmare",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
@@ -275,78 +1781,18 @@
       "hit": false
     },
     {
-      "slug": "kataller-toyama-vs-oita-trinita-prediction",
-      "home": "Kataller Toyama",
-      "away": "Oita Trinita",
-      "league": "Japanese J2 League",
+      "slug": "gimcheon-sangmu-football-club-vs-jeju-sk-fc-prediction",
+      "home": "Gimcheon Sangmu Football Club",
+      "away": "Jeju SK FC",
+      "league": "Korean K League 1",
       "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "Kataller Toyama 1-1 Oita Trinita",
-      "homeLine": "Kataller Toyama 1-1 Oita Trinita",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "sagan-tosu-vs-vegalta-sendai-prediction",
-      "home": "Sagan Tosu",
-      "away": "Vegalta Sendai",
-      "league": "Japanese J2 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "Sagan Tosu 1-1 Vegalta Sendai",
-      "homeLine": "Sagan Tosu 1-1 Vegalta Sendai",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "blaublitz-akita-vs-montedio-yamagata-prediction",
-      "home": "Blaublitz Akita",
-      "away": "Montedio Yamagata",
-      "league": "Japanese J2 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 3,
-      "scoreAway": 1,
-      "scoreText": "Blaublitz Akita 3-1 Montedio Yamagata",
-      "homeLine": "Blaublitz Akita 3-1 Montedio Yamagata",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "yokohama-fc-vs-hokkaido-consadole-sapporo-prediction",
-      "home": "Yokohama FC",
-      "away": "Hokkaido Consadole Sapporo",
-      "league": "Japanese J2 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
       "scoreHome": 0,
-      "scoreAway": 2,
-      "scoreText": "Yokohama FC 0-2 Hokkaido Consadole Sapporo",
-      "homeLine": "Yokohama FC 0-2 Hokkaido Consadole Sapporo",
+      "scoreAway": 1,
+      "scoreText": "Gimcheon Sangmu Football Club 0-1 Jeju SK FC",
+      "homeLine": "Gimcheon Sangmu Football Club 0-1 Jeju SK FC",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
@@ -355,198 +1801,18 @@
       "hit": false
     },
     {
-      "slug": "tegevajaro-miyazaki-vs-iwaki-fc-prediction",
-      "home": "Tegevajaro Miyazaki",
-      "away": "Iwaki FC",
-      "league": "Japanese J2 League",
+      "slug": "gwangju-football-club-vs-bucheon-fc-1995-prediction",
+      "home": "Gwangju Football Club",
+      "away": "Bucheon FC 1995",
+      "league": "Korean K League 1",
       "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "Tegevajaro Miyazaki 1-1 Iwaki FC",
-      "homeLine": "Tegevajaro Miyazaki 1-1 Iwaki FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "tochigi-city-vs-albirex-niigata-prediction",
-      "home": "Tochigi City",
-      "away": "Albirex Niigata",
-      "league": "Japanese J2 League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 3,
-      "scoreText": "Tochigi City 0-3 Albirex Niigata",
-      "homeLine": "Tochigi City 0-3 Albirex Niigata",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "busan-i-park-vs-chungbuk-cheongju-fc-prediction",
-      "home": "Busan I Park",
-      "away": "Chungbuk Cheongju FC",
-      "league": "Korean K League 2",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Busan I Park 0-0 Chungbuk Cheongju FC",
-      "homeLine": "Busan I Park 0-0 Chungbuk Cheongju FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "suwon-samsung-bluewings-vs-gyeongnam-fc-prediction",
-      "home": "Suwon Samsung Bluewings",
-      "away": "Gyeongnam FC",
-      "league": "Korean K League 2",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 3,
-      "scoreAway": 1,
-      "scoreText": "Suwon Samsung Bluewings 3-1 Gyeongnam FC",
-      "homeLine": "Suwon Samsung Bluewings 3-1 Gyeongnam FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "ska-khabarovsk-vs-rotor-volgograd-prediction",
-      "home": "SKA Khabarovsk",
-      "away": "Rotor Volgograd",
-      "league": "Russian First League",
-      "code": "",
-      "utcDate": "2026-11-21T05:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "SKA Khabarovsk 1-1 Rotor Volgograd",
-      "homeLine": "SKA Khabarovsk 1-1 Rotor Volgograd",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "auckland-fc-vs-melbourne-victory-prediction",
-      "home": "Auckland FC",
-      "away": "Melbourne Victory",
-      "league": "Australia A-League",
-      "code": "",
-      "utcDate": "2026-11-21T04:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "scoreText": "Auckland FC 1-1 Melbourne Victory",
-      "homeLine": "Auckland FC 1-1 Melbourne Victory",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "briobecca-urayasu-vs-vonds-ichihara-prediction",
-      "home": "Briobecca Urayasu",
-      "away": "VONDS Ichihara",
-      "league": "Japanese Football League",
-      "code": "",
-      "utcDate": "2026-11-21T04:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Briobecca Urayasu 0-0 VONDS Ichihara",
-      "homeLine": "Briobecca Urayasu 0-0 VONDS Ichihara",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "verspah-oita-vs-fc-tiamo-hirakata-prediction",
-      "home": "Verspah Oita",
-      "away": "FC Tiamo Hirakata",
-      "league": "Japanese Football League",
-      "code": "",
-      "utcDate": "2026-11-21T04:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 5,
-      "scoreText": "Verspah Oita 2-5 FC Tiamo Hirakata",
-      "homeLine": "Verspah Oita 2-5 FC Tiamo Hirakata",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "2",
-      "result1X2": "2",
-      "hit": false
-    },
-    {
-      "slug": "marconi-stallions-vs-sydney-olympic-prediction",
-      "home": "Marconi Stallions",
-      "away": "Sydney Olympic",
-      "league": "Aus Champ",
-      "code": "",
-      "utcDate": "2026-11-21T04:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 1,
-      "scoreText": "Marconi Stallions 2-1 Sydney Olympic",
-      "homeLine": "Marconi Stallions 2-1 Sydney Olympic",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "oakleigh-cannons-vs-bayswater-city-prediction",
-      "home": "Oakleigh Cannons",
-      "away": "Bayswater City",
-      "league": "Aus Champ",
-      "code": "",
-      "utcDate": "2026-11-21T04:00:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
       "scoreHome": 4,
       "scoreAway": 2,
-      "scoreText": "Oakleigh Cannons 4-2 Bayswater City",
-      "homeLine": "Oakleigh Cannons 4-2 Bayswater City",
+      "scoreText": "Gwangju Football Club 4-2 Bucheon FC 1995",
+      "homeLine": "Gwangju Football Club 4-2 Bucheon FC 1995",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
@@ -555,58 +1821,38 @@
       "hit": true
     },
     {
-      "slug": "club-tijuana-vs-atlante-fc-prediction",
-      "home": "Club Tijuana",
-      "away": "Atlante FC",
-      "league": "Mexico Liga MX",
+      "slug": "daegu-football-club-vs-gimhae-city-prediction",
+      "home": "Daegu Football Club",
+      "away": "Gimhae City",
+      "league": "Korean K League 2",
       "code": "",
-      "utcDate": "2026-11-21T03:10:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 1,
-      "scoreAway": 0,
-      "scoreText": "Club Tijuana 1-0 Atlante FC",
-      "homeLine": "Club Tijuana 1-0 Atlante FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "fc-juarez-vs-atlas-prediction",
-      "home": "FC Juarez",
-      "away": "Atlas",
-      "league": "Mexico Liga MX",
-      "code": "",
-      "utcDate": "2026-11-21T03:00:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
       "scoreHome": 3,
-      "scoreAway": 3,
-      "scoreText": "FC Juarez 3-3 Atlas",
-      "homeLine": "FC Juarez 3-3 Atlas",
+      "scoreAway": 0,
+      "scoreText": "Daegu Football Club 3-0 Gimhae City",
+      "homeLine": "Daegu Football Club 3-0 Gimhae City",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
     },
     {
-      "slug": "kickstart-karnataka-fc-vs-real-bengaluru-prediction",
-      "home": "Kickstart Karnataka FC",
-      "away": "Real Bengaluru",
-      "league": "Indian Bangalore Super Division",
+      "slug": "jeonnam-dragons-vs-ansan-greeners-fc-prediction",
+      "home": "Jeonnam Dragons",
+      "away": "Ansan Greeners FC",
+      "league": "Korean K League 2",
       "code": "",
-      "utcDate": "2026-11-21T02:40:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 3,
-      "scoreText": "Kickstart Karnataka FC 0-3 Real Bengaluru",
-      "homeLine": "Kickstart Karnataka FC 0-3 Real Bengaluru",
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "scoreText": "Jeonnam Dragons 1-2 Ansan Greeners FC",
+      "homeLine": "Jeonnam Dragons 1-2 Ansan Greeners FC",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
@@ -615,18 +1861,138 @@
       "hit": false
     },
     {
-      "slug": "escorpiones-belen-vs-ad-san-carlos-prediction",
-      "home": "Escorpiones Belen",
-      "away": "AD San Carlos",
-      "league": "Costa Rica Primera Division",
+      "slug": "renofa-yamaguchi-vs-reilac-shiga-fc-prediction",
+      "home": "Renofa Yamaguchi",
+      "away": "Reilac Shiga FC",
+      "league": "Japanese J3 League",
       "code": "",
-      "utcDate": "2026-11-21T02:00:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Renofa Yamaguchi 1-0 Reilac Shiga FC",
+      "homeLine": "Renofa Yamaguchi 1-0 Reilac Shiga FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "azul-claro-numazu-vs-yokohama-scc-prediction",
+      "home": "Azul Claro Numazu",
+      "away": "Yokohama SCC",
+      "league": "Japanese Football League",
+      "code": "",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "scoreText": "Azul Claro Numazu 0-2 Yokohama SCC",
+      "homeLine": "Azul Claro Numazu 0-2 Yokohama SCC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "bright-cerulean-fc-vs-sham-shui-po-prediction",
+      "home": "Bright Cerulean FC",
+      "away": "Sham Shui Po",
+      "league": "Chinese Hong Kong First Division",
+      "code": "",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Bright Cerulean FC 1-0 Sham Shui Po",
+      "homeLine": "Bright Cerulean FC 1-0 Sham Shui Po",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "gamba-osaka-u21-vs-tokyo-verdy-u21-prediction",
+      "home": "Gamba Osaka U21",
+      "away": "Tokyo Verdy U21",
+      "league": "J.League U-21",
+      "code": "",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 2,
+      "scoreAway": 3,
+      "scoreText": "Gamba Osaka U21 2-3 Tokyo Verdy U21",
+      "homeLine": "Gamba Osaka U21 2-3 Tokyo Verdy U21",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "vissel-kobe-u21-vs-fc-tokyo-u21-prediction",
+      "home": "Vissel Kobe U21",
+      "away": "FC Tokyo U21",
+      "league": "J.League U-21",
+      "code": "",
+      "utcDate": "2026-11-22T05:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Vissel Kobe U21 1-0 FC Tokyo U21",
+      "homeLine": "Vissel Kobe U21 1-0 FC Tokyo U21",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "roasso-kumamoto-vs-giravanz-kitakyushu-prediction",
+      "home": "Roasso Kumamoto",
+      "away": "Giravanz Kitakyushu",
+      "league": "Japanese J3 League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Roasso Kumamoto 1-0 Giravanz Kitakyushu",
+      "homeLine": "Roasso Kumamoto 1-0 Giravanz Kitakyushu",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "veertien-mie-vs-criacao-shinjuku-prediction",
+      "home": "Veertien Mie",
+      "away": "Criacao Shinjuku",
+      "league": "Japanese Football League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
       "scoreHome": 2,
       "scoreAway": 2,
-      "scoreText": "Escorpiones Belen 2-2 AD San Carlos",
-      "homeLine": "Escorpiones Belen 2-2 AD San Carlos",
+      "scoreText": "Veertien Mie 2-2 Criacao Shinjuku",
+      "homeLine": "Veertien Mie 2-2 Criacao Shinjuku",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
@@ -635,118 +2001,358 @@
       "hit": false
     },
     {
-      "slug": "ferrymead-bays-vs-auckland-fc-reserves-prediction",
-      "home": "Ferrymead Bays",
-      "away": "Auckland FC Reserves",
+      "slug": "okinawa-sv-vs-maruyasu-okazaki-prediction",
+      "home": "Okinawa SV",
+      "away": "Maruyasu Okazaki",
+      "league": "Japanese Football League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Okinawa SV 1-0 Maruyasu Okazaki",
+      "homeLine": "Okinawa SV 1-0 Maruyasu Okazaki",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "iwate-grulla-morioka-vs-j-lease-fc-prediction",
+      "home": "Iwate Grulla Morioka",
+      "away": "J-Lease FC",
+      "league": "Japanese Football League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "scoreText": "Iwate Grulla Morioka 1-2 J-Lease FC",
+      "homeLine": "Iwate Grulla Morioka 1-2 J-Lease FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "minebea-mitsumi-fc-vs-reinmeer-aomori-fc-prediction",
+      "home": "Minebea Mitsumi FC",
+      "away": "Reinmeer Aomori FC",
+      "league": "Japanese Football League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 2,
+      "scoreAway": 6,
+      "scoreText": "Minebea Mitsumi FC 2-6 Reinmeer Aomori FC",
+      "homeLine": "Minebea Mitsumi FC 2-6 Reinmeer Aomori FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "yokogawa-musashino-fc-vs-honda-fc-prediction",
+      "home": "Yokogawa Musashino FC",
+      "away": "Honda FC",
+      "league": "Japanese Football League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 4,
+      "scoreAway": 0,
+      "scoreText": "Yokogawa Musashino FC 4-0 Honda FC",
+      "homeLine": "Yokogawa Musashino FC 4-0 Honda FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "melbourne-victory-women-vs-perth-glory-women-prediction",
+      "home": "Melbourne Victory Women",
+      "away": "Perth Glory Women",
+      "league": "Australia W-League",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Melbourne Victory Women 0-0 Perth Glory Women",
+      "homeLine": "Melbourne Victory Women 0-0 Perth Glory Women",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "adelaide-city-fc-vs-broadmeadow-magic-prediction",
+      "home": "Adelaide City FC",
+      "away": "Broadmeadow Magic",
+      "league": "Aus Champ",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 5,
+      "scoreText": "Adelaide City FC 1-5 Broadmeadow Magic",
+      "homeLine": "Adelaide City FC 1-5 Broadmeadow Magic",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "avondale-fc-vs-apia-leichhardt-tigers-prediction",
+      "home": "Avondale FC",
+      "away": "APIA Leichhardt Tigers",
+      "league": "Aus Champ",
+      "code": "",
+      "utcDate": "2026-11-22T04:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "scoreText": "Avondale FC 2-1 APIA Leichhardt Tigers",
+      "homeLine": "Avondale FC 2-1 APIA Leichhardt Tigers",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "tigres-uanl-vs-club-america-prediction",
+      "home": "Tigres UANL",
+      "away": "Club America",
+      "league": "Mexico Liga MX",
+      "code": "",
+      "utcDate": "2026-11-22T03:10:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "Tigres UANL 1-0 Club America",
+      "homeLine": "Tigres UANL 1-0 Club America",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "eastern-suburbs-afc-vs-wellington-phoenix-reserve-prediction",
+      "home": "Eastern Suburbs AFC",
+      "away": "Wellington Phoenix Reserve",
       "league": "New Zealand Football Championship",
       "code": "",
-      "utcDate": "2026-11-21T02:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Ferrymead Bays 0-0 Auckland FC Reserves",
-      "homeLine": "Ferrymead Bays 0-0 Auckland FC Reserves",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "xolos-de-hermosillo-vs-datileros-san-luis-rc-prediction",
-      "home": "Xolos de Hermosillo",
-      "away": "Datileros San Luis RC",
-      "league": "Mexican TDP League",
-      "code": "",
-      "utcDate": "2026-11-21T02:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 3,
-      "scoreAway": 2,
-      "scoreText": "Xolos de Hermosillo 3-2 Datileros San Luis RC",
-      "homeLine": "Xolos de Hermosillo 3-2 Datileros San Luis RC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "cordoba-veracruz-vs-formacion-metropolitana-fc-prediction",
-      "home": "Cordoba Veracruz",
-      "away": "Formacion Metropolitana FC",
-      "league": "Mexican TDP League",
-      "code": "",
-      "utcDate": "2026-11-21T02:00:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 4,
-      "scoreAway": 2,
-      "scoreText": "Cordoba Veracruz 4-2 Formacion Metropolitana FC",
-      "homeLine": "Cordoba Veracruz 4-2 Formacion Metropolitana FC",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "deportivo-cali-vs-millonarios-prediction",
-      "home": "Deportivo Cali",
-      "away": "Millonarios",
-      "league": "Categoría Primera A",
-      "code": "",
-      "utcDate": "2026-11-21T01:40:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "scoreText": "Deportivo Cali 0-0 Millonarios",
-      "homeLine": "Deportivo Cali 0-0 Millonarios",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "X",
-      "result1X2": "X",
-      "hit": false
-    },
-    {
-      "slug": "ca-central-argentino-vs-villa-cubas-prediction",
-      "home": "CA Central Argentino",
-      "away": "Villa Cubas",
-      "league": "ARFC",
-      "code": "",
-      "utcDate": "2026-11-21T01:20:00+00:00",
-      "date": "2026-11-21",
-      "status": "FINISHED",
-      "scoreHome": 2,
-      "scoreAway": 1,
-      "scoreText": "CA Central Argentino 2-1 Villa Cubas",
-      "homeLine": "CA Central Argentino 2-1 Villa Cubas",
-      "pred": "Home Win",
-      "conf": null,
-      "odds": null,
-      "res": "1",
-      "result1X2": "1",
-      "hit": true
-    },
-    {
-      "slug": "puebla-vs-atletico-san-luis-prediction",
-      "home": "Puebla",
-      "away": "Atletico San Luis",
-      "league": "Mexico Liga MX",
-      "code": "",
-      "utcDate": "2026-11-21T01:00:00+00:00",
-      "date": "2026-11-21",
+      "utcDate": "2026-11-22T03:00:00+00:00",
+      "date": "2026-11-22",
       "status": "FINISHED",
       "scoreHome": 1,
       "scoreAway": 1,
-      "scoreText": "Puebla 1-1 Atletico San Luis",
-      "homeLine": "Puebla 1-1 Atletico San Luis",
+      "scoreText": "Eastern Suburbs AFC 1-1 Wellington Phoenix Reserve",
+      "homeLine": "Eastern Suburbs AFC 1-1 Wellington Phoenix Reserve",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "X",
+      "result1X2": "X",
+      "hit": false
+    },
+    {
+      "slug": "kawasaki-frontale-u21-vs-fagiano-okayama-u21-prediction",
+      "home": "Kawasaki Frontale U21",
+      "away": "Fagiano Okayama U21",
+      "league": "J.League U-21",
+      "code": "",
+      "utcDate": "2026-11-22T03:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 3,
+      "scoreAway": 0,
+      "scoreText": "Kawasaki Frontale U21 3-0 Fagiano Okayama U21",
+      "homeLine": "Kawasaki Frontale U21 3-0 Fagiano Okayama U21",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "club-atletico-tijuana-vs-club-sporting-de-sonora-prediction",
+      "home": "Club Atletico Tijuana",
+      "away": "Club Sporting de Sonora",
+      "league": "Mexican TDP League",
+      "code": "",
+      "utcDate": "2026-11-22T03:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "scoreText": "Club Atletico Tijuana 0-2 Club Sporting de Sonora",
+      "homeLine": "Club Atletico Tijuana 0-2 Club Sporting de Sonora",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "municipal-perez-zeledon-vs-deportivo-saprissa-prediction",
+      "home": "Municipal Pérez Zeledón",
+      "away": "Deportivo Saprissa",
+      "league": "Costa Rica Primera Division",
+      "code": "",
+      "utcDate": "2026-11-22T02:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 3,
+      "scoreText": "Municipal Pérez Zeledón 1-3 Deportivo Saprissa",
+      "homeLine": "Municipal Pérez Zeledón 1-3 Deportivo Saprissa",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "guastatoya-vs-c-s-d-comunicaciones-prediction",
+      "home": "Guastatoya",
+      "away": "C.S.D. Comunicaciones",
+      "league": "Guatemala Liga Nacional",
+      "code": "",
+      "utcDate": "2026-11-22T02:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 4,
+      "scoreAway": 1,
+      "scoreText": "Guastatoya 4-1 C.S.D. Comunicaciones",
+      "homeLine": "Guastatoya 4-1 C.S.D. Comunicaciones",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "wellington-phoenix-vs-macarthur-fc-prediction",
+      "home": "Wellington Phoenix",
+      "away": "Macarthur FC",
+      "league": "Australia A-League",
+      "code": "",
+      "utcDate": "2026-11-22T02:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "scoreText": "Wellington Phoenix 1-2 Macarthur FC",
+      "homeLine": "Wellington Phoenix 1-2 Macarthur FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "atletico-morelia-vs-club-atletico-la-paz-prediction",
+      "home": "Atletico Morelia",
+      "away": "Club Atletico La Paz",
+      "league": "Mexico Ascenso MX",
+      "code": "",
+      "utcDate": "2026-11-22T02:00:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 4,
+      "scoreAway": 1,
+      "scoreText": "Atletico Morelia 4-1 Club Atletico La Paz",
+      "homeLine": "Atletico Morelia 4-1 Club Atletico La Paz",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "cd-arabe-unido-vs-san-francisco-fc-prediction",
+      "home": "CD Arabe Unido",
+      "away": "San Francisco FC",
+      "league": "Panamanian Liga de Futbol",
+      "code": "",
+      "utcDate": "2026-11-22T01:30:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "scoreText": "CD Arabe Unido 1-0 San Francisco FC",
+      "homeLine": "CD Arabe Unido 1-0 San Francisco FC",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "1",
+      "result1X2": "1",
+      "hit": true
+    },
+    {
+      "slug": "real-espana-vs-marathon-prediction",
+      "home": "Real Espana",
+      "away": "Marathon",
+      "league": "Honduras Primera Division",
+      "code": "",
+      "utcDate": "2026-11-22T01:30:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 1,
+      "scoreAway": 2,
+      "scoreText": "Real Espana 1-2 Marathon",
+      "homeLine": "Real Espana 1-2 Marathon",
+      "pred": "Home Win",
+      "conf": null,
+      "odds": null,
+      "res": "2",
+      "result1X2": "2",
+      "hit": false
+    },
+    {
+      "slug": "deportiva-once-caldas-vs-atletico-nacional-medellin-prediction",
+      "home": "Deportiva Once Caldas",
+      "away": "Atletico Nacional Medellin",
+      "league": "Categoría Primera A",
+      "code": "",
+      "utcDate": "2026-11-22T01:15:00+00:00",
+      "date": "2026-11-22",
+      "status": "FINISHED",
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "scoreText": "Deportiva Once Caldas 0-0 Atletico Nacional Medellin",
+      "homeLine": "Deportiva Once Caldas 0-0 Atletico Nacional Medellin",
       "pred": "Home Win",
       "conf": null,
       "odds": null,
@@ -757,47 +2363,47 @@
   ],
   "news": [
     {
-      "title": "Milan into top four as classy Pulisic solo goal caps Serie A rout",
-      "league": "Serie A",
-      "time": "0h ago",
-      "published": "2026-11-22T20:27:47.000Z",
-      "excerpt": "AC Milan racked up their biggest win of the season under Ruben Amorim as Frosinone were beaten 5-1 at San Siro on Sunday.",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401874989",
-      "image": "https://a.espncdn.com/photo/2026/1122/r1749701_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Pochettino: Isak wasn't in control of the ball for Yoro red card",
+      "title": "Rough start for Pochettino at Manchester United",
       "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-22T20:23:47.000Z",
-      "excerpt": "Mauricio Pochettino reacts to Leny Yoro's red card in Manchester United's 4-0 loss to Liverpool.",
+      "time": "3h ago",
+      "published": "2026-11-22T22:53:16.000Z",
+      "excerpt": "Liverpool put four past Manchester United at home as the Red Devils sink to 19th on the table and immediately put Mauricio Pochettino under ",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50564280/isak-control-ball-yoro-red-card",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/dm_261122_COM_SOC_Presser_Pochettino_Isak_wasnt_in_control_of_the_ball_for_Yoro_red_card_20261122_GLOBAL/dm_261122_COM_SOC_Presser_Pochettino_Isak_wasnt_in_control_of_the_ball_for_Yoro_red_card_20261122_GLOBAL.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50566373/rough-start-pochettino-manchester-united",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/dm_261122_Soccer_HIGHLIGHT_Rough_start_for_Pochettino_at_Manchester_United_20261123_AUS/dm_261122_Soccer_HIGHLIGHT_Rough_start_for_Pochettino_at_Manchester_United_20261123_AUS.jpg",
       "category": "football"
     },
     {
-      "title": "Rio Ngumoha: Need to 'stay grounded' despite 'special' goal against Man Utd",
-      "league": "Premier League",
-      "time": "0h ago",
-      "published": "2026-11-22T20:12:44.000Z",
-      "excerpt": "Rio Ngumoha has described his goal in Liverpool's 4-0 victory over Manchester United as \"really special\" but said he needs to \"stay grounded",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50564207/liverpool-rio-ngumoha-man-united-premier-league",
-      "image": "https://a.espncdn.com/photo/2026/1122/r1749743_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Osasuna vs. Málaga - Game Highlights",
+      "title": "USMNT's Cardoso scores as Atlético ease to win over Getafe",
       "league": "La Liga",
-      "time": "1h ago",
-      "published": "2026-11-22T19:29:13.000Z",
-      "excerpt": "Watch the Game Highlights from Osasuna vs. Málaga, 11/22/2026",
+      "time": "3h ago",
+      "published": "2026-11-22T22:36:54.000Z",
+      "excerpt": "Atlético Madrid bolstered their spot in third in LaLiga with a comfortable 3-0 win at Getafe on Sunday.",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50563895/osasuna-vs-malaga-game-highlights",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/2ce5921f-342d-4aba-b850-14a787dc15f7/2ce5921f-342d-4aba-b850-14a787dc15f7.jpg",
+      "url": "http://www.espn.com/soccer/report/_/gameId/401882803",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749840_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Getafe vs. Atletico Madrid - Game Highlights",
+      "league": "La Liga",
+      "time": "4h ago",
+      "published": "2026-11-22T22:04:53.000Z",
+      "excerpt": "Watch the Game Highlights from Getafe vs. Atletico Madrid, 11/23/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50565685/getafe-vs-atletico-madrid-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/8802b1c0-130a-4d86-bcd1-b121dce5f5f2/8802b1c0-130a-4d86-bcd1-b121dce5f5f2.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Bruno Fernandes disputes Leny Yoro red card in Liverpool's rout of Man United",
+      "league": "Premier League",
+      "time": "4h ago",
+      "published": "2026-11-22T21:34:31.000Z",
+      "excerpt": "Manchester United captain Bruno Fernandes was not happy with the officiating in Sunday's 4-0 drubbing at Liverpool.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50565229/bruno-fernandes-man-united-liverpool",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749810_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
