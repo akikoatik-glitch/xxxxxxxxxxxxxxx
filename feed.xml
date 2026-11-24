@@ -5,24 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 23 Nov 2026 14:20:01 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 02:50:38 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>AC Monza vs ACF Fiorentina — Home Win @ 2.33</title>
-    <link>https://xwhiz.com/predictions/ac-monza-vs-acf-fiorentina-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/ac-monza-vs-acf-fiorentina-prediction.html</guid>
-    <pubDate>Mon, 23 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 41% confidence. Home Win at 2.33. Match kickoff: Mon, 23 Nov 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
-  <item>
-    <title>Juventus vs Venezia — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/juventus-vs-venezia-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/juventus-vs-venezia-prediction.html</guid>
-    <pubDate>Mon, 23 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Serie A — 96% confidence. Home Win at 1.01. Match kickoff: Mon, 23 Nov 2026 15:00:00 GMT.</description>
-    <category>Serie A</category>
-  </item>
   <item>
     <title>Cardiff City vs Preston North End — Home Win @ 1.19</title>
     <link>https://xwhiz.com/predictions/cardiff-city-vs-preston-north-end-prediction.html</link>
@@ -88,19 +72,11 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Stoke City vs Millwall — Home Win @ 1.50</title>
-    <link>https://xwhiz.com/predictions/stoke-city-vs-millwall-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/stoke-city-vs-millwall-prediction.html</guid>
+    <title>Watford vs Blackburn Rovers — Home Win @ 1.40</title>
+    <link>https://xwhiz.com/predictions/watford-vs-blackburn-rovers-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/watford-vs-blackburn-rovers-prediction.html</guid>
     <pubDate>Wed, 25 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 64% confidence. Home Win at 1.50. Match kickoff: Wed, 25 Nov 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
-  <item>
-    <title>Burnley vs Birmingham City — Home Win @ 1.38</title>
-    <link>https://xwhiz.com/predictions/burnley-vs-birmingham-city-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/burnley-vs-birmingham-city-prediction.html</guid>
-    <pubDate>Wed, 25 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 69% confidence. Home Win at 1.38. Match kickoff: Wed, 25 Nov 2026 15:00:00 GMT.</description>
+    <description>Championship — 68% confidence. Home Win at 1.40. Match kickoff: Wed, 25 Nov 2026 15:00:00 GMT.</description>
     <category>Championship</category>
   </item>
   <item>
@@ -112,11 +88,19 @@
     <category>Championship</category>
   </item>
   <item>
-    <title>Watford vs Blackburn Rovers — Home Win @ 1.40</title>
-    <link>https://xwhiz.com/predictions/watford-vs-blackburn-rovers-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/watford-vs-blackburn-rovers-prediction.html</guid>
+    <title>Burnley vs Birmingham City — Home Win @ 1.38</title>
+    <link>https://xwhiz.com/predictions/burnley-vs-birmingham-city-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/burnley-vs-birmingham-city-prediction.html</guid>
     <pubDate>Wed, 25 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 68% confidence. Home Win at 1.40. Match kickoff: Wed, 25 Nov 2026 15:00:00 GMT.</description>
+    <description>Championship — 69% confidence. Home Win at 1.38. Match kickoff: Wed, 25 Nov 2026 15:00:00 GMT.</description>
+    <category>Championship</category>
+  </item>
+  <item>
+    <title>Stoke City vs Millwall — Home Win @ 1.50</title>
+    <link>https://xwhiz.com/predictions/stoke-city-vs-millwall-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/stoke-city-vs-millwall-prediction.html</guid>
+    <pubDate>Wed, 25 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Championship — 64% confidence. Home Win at 1.50. Match kickoff: Wed, 25 Nov 2026 15:00:00 GMT.</description>
     <category>Championship</category>
   </item>
   <item>
@@ -176,11 +160,11 @@
     <category>Premier League</category>
   </item>
   <item>
-    <title>Brighton &amp; Hove Albion vs Newcastle United — Away Win @ 1.30</title>
+    <title>Brighton &amp; Hove Albion vs Newcastle United — Away Win @ 1.31</title>
     <link>https://xwhiz.com/predictions/brighton-hove-albion-vs-newcastle-united-prediction.html</link>
     <guid isPermaLink="true">https://xwhiz.com/predictions/brighton-hove-albion-vs-newcastle-united-prediction.html</guid>
     <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Premier League — 73% confidence. Away Win at 1.30. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <description>Premier League — 73% confidence. Away Win at 1.31. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
   <item>
@@ -197,6 +181,22 @@
     <guid isPermaLink="true">https://xwhiz.com/predictions/fulham-vs-afc-bournemouth-prediction.html</guid>
     <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 52% confidence. Home Win at 1.84. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Everton vs Liverpool — Away Win @ 1.33</title>
+    <link>https://xwhiz.com/predictions/everton-vs-liverpool-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/everton-vs-liverpool-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 71% confidence. Away Win at 1.33. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Premier League</category>
+  </item>
+  <item>
+    <title>Manchester United vs Brentford — Home Win @ 2.12</title>
+    <link>https://xwhiz.com/predictions/manchester-united-vs-brentford-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/manchester-united-vs-brentford-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Premier League — 45% confidence. Home Win at 2.12. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
   </item>
 </channel>
