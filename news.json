@@ -1,43 +1,65 @@
 {
-  "lastUpdate": "2026-11-24T02:50:38.237Z",
+  "lastUpdate": "2026-11-24T14:43:00.301Z",
   "news": [
     {
-      "title": "David Moyes accepts James Tarkowski red card in Everton defeat to Brentford",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-11-23T23:23:34.000Z",
-      "excerpt": "Everton manager David Moyes said he understood why James Tarkowski was shown a straight red card in the 4-0 defeat to Brentford.",
+      "title": "Lazio are top of Serie A despite playing without their fans",
+      "league": "Serie A",
+      "time": "0h ago",
+      "published": "2026-11-24T14:18:42.000Z",
+      "excerpt": "Lazio's success this season has been one of the big stories in Serie A, made more remarkable by the fact that their fans won't attend home g",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50577324/david-moyes-james-tarkowski-everton-brentford",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750403_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50575536/lazio-serie-fan-protests-claudio-lotito",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750526_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Burley questions Man United's desire after Anfield collapse",
+      "title": "Transfer rumors, news: PSG eye Chelsea's Estêvão, Bayern's Luis Díaz amid injury woes",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-24T14:02:52.000Z",
+      "excerpt": "Paris Saint-Germain have added Bayern Munich's Luis Díaz and Chelsea's Estêvão to their shortlist. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50580721/transfer-rumors-news-psg-estevao-luis-diaz-chelsea-bayern",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747805_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Paris Saint-Germain drop one of this season's best kits in latest Jordan collab",
       "league": "Champions League",
-      "time": "3h ago",
-      "published": "2026-11-23T22:53:38.000Z",
-      "excerpt": "Craig Burley explains why he finds Manchester United's mentality the most worrying part of their start to the season.",
+      "time": "1h ago",
+      "published": "2026-11-24T13:21:57.000Z",
+      "excerpt": "Three months into the season, Paris Saint-Germain finally unveiled their 2026-27 third kit in collaboration with the Jordan brand. It was wo",
       "source": "ESPN",
-      "url": "https://www.espn.com/video/clip/_/id/50577165/burley-questions-man-united-desire-anfield-collapse",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1123/dm_261123_Burley_questions_Man_Uniteds_desire_after_Anfield_collapse/dm_261123_Burley_questions_Man_Uniteds_desire_after_Anfield_collapse.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50581189/psg-kit-nike-jordan-champions-league",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750534_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Vitaly Janelt hits stunner as Brentford stroll to victory over 10-man Everton",
+      "title": "Premier League's set-piece goal surge is over, but Arsenal are No. 1 anyway",
       "league": "Premier League",
-      "time": "4h ago",
-      "published": "2026-11-23T22:20:58.000Z",
-      "excerpt": "Vitaly Janelt scored a 30-yard screamer as Brentford romped to a 4-0 victory against 10-man Everton at the Gtech Community Stadium.",
+      "time": "6h ago",
+      "published": "2026-11-24T08:37:39.000Z",
+      "excerpt": "Arsenal won the Premier League in controversial fashion last season, but the set-piece goals they counted on have disappeared. Why?",
       "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401879237",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750365_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50576776/premier-league-set-piece-goal-arsenal-standings-table",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750388_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Niko Kovac hails Jobe Bellingham's development after England call-up",
+      "league": "Bundesliga",
+      "time": "7h ago",
+      "published": "2026-11-24T07:41:50.000Z",
+      "excerpt": "Niko Kovac has talked up the development of Borussia Dortmund and England midfielder Jobe Bellingham.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50580591/jobe-bellingham-niko-kovac-dortmund",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750518_1296x729_16-9.jpg",
       "category": "football"
     },
     {
       "title": "Levante vs. Elche - Game Highlights",
       "league": "La Liga",
-      "time": "4h ago",
+      "time": "16h ago",
       "published": "2026-11-23T22:03:25.000Z",
       "excerpt": "Watch the Game Highlights from Levante vs. Elche, 11/23/2026",
       "source": "ESPN",
@@ -46,20 +68,9 @@
       "category": "football"
     },
     {
-      "title": "Kevin De Bruyne: Man City achievements will not be tainted if appeal fails",
-      "league": "Champions League",
-      "time": "5h ago",
-      "published": "2026-11-23T21:18:52.000Z",
-      "excerpt": "Kevin De Bruyne insists his achievements will not be tainted if Manchester City are stripped of any titles.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50576304/kevin-de-bruyne-man-city",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750337_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "Diego Simeone takes LaLiga win record with 345th Atlético Madrid victory",
       "league": "La Liga",
-      "time": "9h ago",
+      "time": "21h ago",
       "published": "2026-11-23T17:18:23.000Z",
       "excerpt": "Diego Simeone has become LaLiga's all-time record holder for wins as a manager after Atlético Madrid strolled to a 3-0 victory at Getafe on ",
       "source": "ESPN",
@@ -90,28 +101,6 @@
       "category": "football"
     },
     {
-      "title": "Scott McTominay sinks Torino to end Napoli's three-game winless streak",
-      "league": "Serie A",
-      "time": "21/11/2026",
-      "published": "2026-11-21T22:31:02.000Z",
-      "excerpt": "Scott McTominay's second-half strike earned Napoli a hard-fought 1-0 win over Torino to ease the pressure on manager Massimiliano Allegri.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50554626/scott-mctominay-napoli-torino",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1749217_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Désiré Doué stretchered off with knee injury as PSG beat Nice 3-2",
-      "league": "Ligue 1",
-      "time": "21/11/2026",
-      "published": "2026-11-21T19:19:49.000Z",
-      "excerpt": "Paris Saint-Germain forward Désiré Doué was carried off on a stretcher late in the first half of the team's Ligue 1 match away to Nice on Sa",
-      "source": "ESPN",
-      "url": "http://www.espn.com/soccer/report/_/gameId/401876398",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1749082_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "FIFPRO slams Bayern Munich's treatment of Jamal Musiala: Club has 'duty of care'",
       "league": "Bundesliga",
       "time": "21/11/2026",
@@ -120,17 +109,6 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50550461/fifpro-bayern-munich-jamal-musiala-rummenigge",
       "image": "https://a.espncdn.com/photo/2026/1121/r1748965_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Harry Kane vows to be back for 'business end of the season' after ankle surgery",
-      "league": "Bundesliga",
-      "time": "21/11/2026",
-      "published": "2026-11-21T11:14:51.000Z",
-      "excerpt": "Ballon d'Or winner Harry Kane is set to be out for several months after suffering a ligament tear in his left ankle during Bayern Munich's d",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50548680/harry-kane-injury-bayern-munich",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1748887_1296x729_16-9.jpg",
       "category": "football"
     }
   ]
