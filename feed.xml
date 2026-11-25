@@ -5,7 +5,7 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 25 Nov 2026 00:32:03 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 11:05:50 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>Watford vs Blackburn Rovers — Home Win @ 1.40</title>
@@ -158,46 +158,6 @@
     <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
     <description>Premier League — 88% confidence. Home Win at 1.08. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
     <category>Premier League</category>
-  </item>
-  <item>
-    <title>VfB Stuttgart vs Eintracht Frankfurt — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/vfb-stuttgart-vs-eintracht-frankfurt-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/vfb-stuttgart-vs-eintracht-frankfurt-prediction.html</guid>
-    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>Hamburger SV vs FC Bayern München — Away Win @ 1.51</title>
-    <link>https://xwhiz.com/predictions/hamburger-sv-vs-fc-bayern-muenchen-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/hamburger-sv-vs-fc-bayern-muenchen-prediction.html</guid>
-    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 63% confidence. Away Win at 1.51. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>SC Paderborn 07 vs FC Schalke 04 — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/sc-paderborn-07-vs-fc-schalke-04-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sc-paderborn-07-vs-fc-schalke-04-prediction.html</guid>
-    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>1. FSV Mainz 05 vs 1. FC Union Berlin — Home Win @ 1.50</title>
-    <link>https://xwhiz.com/predictions/1-fsv-mainz-05-vs-1-fc-union-berlin-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fsv-mainz-05-vs-1-fc-union-berlin-prediction.html</guid>
-    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 64% confidence. Home Win at 1.50. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>1. FC Köln vs SV 07 Elversberg — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/1-fc-koeln-vs-sv-07-elversberg-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/1-fc-koeln-vs-sv-07-elversberg-prediction.html</guid>
-    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
   </item>
 </channel>
 </rss>
