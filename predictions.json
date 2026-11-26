@@ -1,10 +1,10 @@
 {
   "date": "2026-11-27",
-  "lastUpdate": "2026-11-26T04:03:38.986Z",
-  "predictionGenerated": "2026-11-26T04:03:38.986Z",
-  "dataTimestamp": "2026-11-26T04:03:36.353Z",
+  "lastUpdate": "2026-11-26T16:43:43.079Z",
+  "predictionGenerated": "2026-11-26T16:43:43.079Z",
+  "dataTimestamp": "2026-11-26T16:43:40.425Z",
   "dataFreshness": "fresh",
-  "source": "rolling 7-day pool (tomorrow:5+upcoming:30+fixtures:60)",
+  "source": "rolling 7-day pool (today:41+tomorrow:5+upcoming:30+fixtures:60)",
   "matches": [
     {
       "id": "de.1:2026-11-27:SV Werder Bremen:Borussia Mönchengladbach",
@@ -13,7 +13,7 @@
       "date": "2026-11-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "SV Werder Bremen",
       "away": "Borussia Mönchengladbach",
       "league": "Bundesliga",
@@ -86,7 +86,7 @@
       "date": "2026-11-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "Stade Brestois 29",
       "away": "Paris",
       "league": "Ligue 1",
@@ -159,7 +159,7 @@
       "date": "2026-11-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "FC Groningen",
       "away": "Willem II Tilburg",
       "league": "Eredivisie",
@@ -232,7 +232,7 @@
       "date": "2026-11-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "CS Marítimo",
       "away": "CD Nacional",
       "league": "Primeira Liga",
@@ -305,7 +305,7 @@
       "date": "2026-11-27",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "34h to kickoff",
+      "countdown": "22h to kickoff",
       "home": "Southampton",
       "away": "Middlesbrough",
       "league": "Championship",
@@ -378,7 +378,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Crystal Palace",
       "away": "Hull City A",
       "league": "Premier League",
@@ -451,7 +451,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Sunderland A",
       "away": "Tottenham Hotspur",
       "league": "Premier League",
@@ -524,7 +524,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Brighton & Hove Albion",
       "away": "Newcastle United",
       "league": "Premier League",
@@ -597,7 +597,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Nottingham Forest",
       "away": "Chelsea",
       "league": "Premier League",
@@ -670,7 +670,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Fulham",
       "away": "AFC Bournemouth",
       "league": "Premier League",
@@ -743,7 +743,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Everton",
       "away": "Liverpool",
       "league": "Premier League",
@@ -816,7 +816,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Manchester United",
       "away": "Brentford",
       "league": "Premier League",
@@ -889,7 +889,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Arsenal",
       "away": "Manchester City",
       "league": "Premier League",
@@ -962,7 +962,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Ipswich Town",
       "away": "Aston Villa",
       "league": "Premier League",
@@ -1035,7 +1035,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Leeds United",
       "away": "Coventry City",
       "league": "Premier League",
@@ -1108,7 +1108,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "VfB Stuttgart",
       "away": "Eintracht Frankfurt",
       "league": "Bundesliga",
@@ -1181,7 +1181,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "Hamburger SV",
       "away": "FC Bayern München",
       "league": "Bundesliga",
@@ -1254,7 +1254,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "SC Paderborn 07",
       "away": "FC Schalke 04",
       "league": "Bundesliga",
@@ -1327,7 +1327,7 @@
       "date": "2026-11-28",
       "time": "15:00",
       "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
+      "countdown": "46h to kickoff",
       "home": "1. FSV Mainz 05",
       "away": "1. FC Union Berlin",
       "league": "Bundesliga",
@@ -1390,371 +1390,6 @@
       "injuries": "Lineups confirmed ~1h before kickoff",
       "whyWin": "1. FSV Mainz 05 vs 1. FC Union Berlin: Dixon-Coles P(H)64% D20% A17% • xG 1.95-0.86 • most likely score 1-0 (13%) • Home Win confidence 64% • strengths from real standings",
       "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "de.1:2026-11-28:1. FC Köln:SV 07 Elversberg",
-      "slug": "1-fc-koeln-vs-sv-07-elversberg-prediction",
-      "utcDate": "2026-11-28T15:00:00Z",
-      "date": "2026-11-28",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
-      "home": "1. FC Köln",
-      "away": "SV 07 Elversberg",
-      "league": "Bundesliga",
-      "code": "BL1",
-      "flag": "🇩🇪",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 61,
-      "odds": "1.56",
-      "value": "+5%",
-      "probs": {
-        "home": 61,
-        "draw": 21,
-        "away": 19
-      },
-      "xg": {
-        "home": "1.87",
-        "away": "0.90",
-        "total": "2.77"
-      },
-      "doubleChance": {
-        "12": 79,
-        "1X": 81,
-        "X2": 39
-      },
-      "overUnder": {
-        "over2_5": 52,
-        "under2_5": 48,
-        "oddsOver": "1.83",
-        "oddsUnder": "1.98"
-      },
-      "btts": {
-        "yes": 49,
-        "no": 51
-      },
-      "correctScore": {
-        "score": "1-0",
-        "prob": 13
-      },
-      "topScores": [
-        {
-          "score": "1-0",
-          "prob": 13
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        },
-        {
-          "score": "2-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "1. FC Köln vs SV 07 Elversberg: Dixon-Coles P(H)61% D21% A19% • xG 1.87-0.90 • most likely score 1-0 (13%) • Home Win confidence 61% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-11-28:Paris Saint-Germain FC:FC Lorient",
-      "slug": "paris-saint-germain-vs-fc-lorient-prediction",
-      "utcDate": "2026-11-28T15:00:00Z",
-      "date": "2026-11-28",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
-      "home": "Paris Saint-Germain",
-      "away": "FC Lorient",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 93,
-      "odds": "1.02",
-      "value": "+21%",
-      "probs": {
-        "home": 93,
-        "draw": 5,
-        "away": 2
-      },
-      "xg": {
-        "home": "3.78",
-        "away": "0.44",
-        "total": "4.22"
-      },
-      "doubleChance": {
-        "12": 95,
-        "1X": 97,
-        "X2": 7
-      },
-      "overUnder": {
-        "over2_5": 77,
-        "under2_5": 23,
-        "oddsOver": "1.23",
-        "oddsUnder": "4.13"
-      },
-      "btts": {
-        "yes": 35,
-        "no": 65
-      },
-      "correctScore": {
-        "score": "3-0",
-        "prob": 14
-      },
-      "topScores": [
-        {
-          "score": "3-0",
-          "prob": 14
-        },
-        {
-          "score": "4-0",
-          "prob": 14
-        },
-        {
-          "score": "2-0",
-          "prob": 11
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Paris Saint-Germain vs FC Lorient: Dixon-Coles P(H)93% D5% A2% • xG 3.78-0.44 • most likely score 3-0 (14%) • Home Win confidence 93% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-11-28:Le Havre AC:RC Strasbourg Alsace",
-      "slug": "le-havre-ac-vs-rc-strasbourg-alsace-prediction",
-      "utcDate": "2026-11-28T15:00:00Z",
-      "date": "2026-11-28",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
-      "home": "Le Havre AC",
-      "away": "RC Strasbourg Alsace",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 59,
-      "odds": "1.60",
-      "value": "+5%",
-      "probs": {
-        "home": 59,
-        "draw": 19,
-        "away": 22
-      },
-      "xg": {
-        "home": "2.16",
-        "away": "1.22",
-        "total": "3.38"
-      },
-      "doubleChance": {
-        "12": 81,
-        "1X": 78,
-        "X2": 41
-      },
-      "overUnder": {
-        "over2_5": 66,
-        "under2_5": 34,
-        "oddsOver": "1.44",
-        "oddsUnder": "2.79"
-      },
-      "btts": {
-        "yes": 62,
-        "no": 38
-      },
-      "correctScore": {
-        "score": "2-1",
-        "prob": 10
-      },
-      "topScores": [
-        {
-          "score": "2-1",
-          "prob": 10
-        },
-        {
-          "score": "1-1",
-          "prob": 8
-        },
-        {
-          "score": "1-0",
-          "prob": 8
-        }
-      ],
-      "asianHandicap": "Home -1.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Le Havre AC vs RC Strasbourg Alsace: Dixon-Coles P(H)59% D19% A22% • xG 2.16-1.22 • most likely score 2-1 (10%) • Home Win confidence 59% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-11-28:OGC Nice:ES Troyes AC",
-      "slug": "ogc-nice-vs-es-troyes-ac-prediction",
-      "utcDate": "2026-11-28T15:00:00Z",
-      "date": "2026-11-28",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
-      "home": "OGC Nice",
-      "away": "ES Troyes AC",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Home Win",
-      "sub": "1 • Full Time",
-      "conf": 94,
-      "odds": "1.01",
-      "value": "+22%",
-      "probs": {
-        "home": 94,
-        "draw": 4,
-        "away": 1
-      },
-      "xg": {
-        "home": "4.08",
-        "away": "0.40",
-        "total": "4.48"
-      },
-      "doubleChance": {
-        "12": 96,
-        "1X": 97,
-        "X2": 6
-      },
-      "overUnder": {
-        "over2_5": 80,
-        "under2_5": 20,
-        "oddsOver": "1.19",
-        "oddsUnder": "4.75"
-      },
-      "btts": {
-        "yes": 32,
-        "no": 68
-      },
-      "correctScore": {
-        "score": "4-0",
-        "prob": 15
-      },
-      "topScores": [
-        {
-          "score": "4-0",
-          "prob": 15
-        },
-        {
-          "score": "3-0",
-          "prob": 15
-        },
-        {
-          "score": "5-0",
-          "prob": 12
-        }
-      ],
-      "asianHandicap": "Home -2.0",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "OGC Nice vs ES Troyes AC: Dixon-Coles P(H)94% D4% A1% • xG 4.08-0.40 • most likely score 4-0 (15%) • Home Win confidence 94% • strengths from real standings",
-      "betExplain": "Bet: Home team wins in 90 mins. Choose '1' in the 1X2 market.",
-      "model": "Dixon-Coles + Elo",
-      "locked": false
-    },
-    {
-      "id": "fr.1:2026-11-28:Le Mans FC:Lille OSC",
-      "slug": "le-mans-vs-lille-osc-prediction",
-      "utcDate": "2026-11-28T15:00:00Z",
-      "date": "2026-11-28",
-      "time": "15:00",
-      "precise": "15:00 UTC • 16:00 CET",
-      "countdown": "58h to kickoff",
-      "home": "Le Mans",
-      "away": "Lille OSC",
-      "league": "Ligue 1",
-      "code": "FL1",
-      "flag": "🇫🇷",
-      "status": "TIMED",
-      "pred": "Away Win",
-      "sub": "2 • Full Time",
-      "conf": 75,
-      "odds": "1.26",
-      "value": "+13%",
-      "probs": {
-        "home": 10,
-        "draw": 14,
-        "away": 75
-      },
-      "xg": {
-        "home": "0.79",
-        "away": "2.53",
-        "total": "3.32"
-      },
-      "doubleChance": {
-        "12": 86,
-        "1X": 25,
-        "X2": 90
-      },
-      "overUnder": {
-        "over2_5": 64,
-        "under2_5": 36,
-        "oddsOver": "1.48",
-        "oddsUnder": "2.64"
-      },
-      "btts": {
-        "yes": 50,
-        "no": 50
-      },
-      "correctScore": {
-        "score": "0-2",
-        "prob": 12
-      },
-      "topScores": [
-        {
-          "score": "0-2",
-          "prob": 12
-        },
-        {
-          "score": "0-3",
-          "prob": 10
-        },
-        {
-          "score": "0-1",
-          "prob": 10
-        }
-      ],
-      "asianHandicap": "Away +1.8",
-      "form": {
-        "home": null,
-        "away": null
-      },
-      "injuries": "Lineups confirmed ~1h before kickoff",
-      "whyWin": "Le Mans vs Lille OSC: Dixon-Coles P(H)10% D14% A75% • xG 0.79-2.53 • most likely score 0-2 (12%) • Away Win confidence 75% • strengths from real standings",
-      "betExplain": "Bet: Away team wins ('2'). Underdog value.",
       "model": "Dixon-Coles + Elo",
       "locked": false
     }
@@ -2363,47 +1998,47 @@
   ],
   "news": [
     {
-      "title": "Champions League talking points: Was this a good result for Man United?",
-      "league": "Champions League",
+      "title": "Joshua Kimmich blasts Bayern Munich over Jamal Musiala treatment: 'Absolute no-go'",
+      "league": "Bundesliga",
+      "time": "0h ago",
+      "published": "2026-11-26T16:21:13.000Z",
+      "excerpt": "Bayern Munich midfielder Joshua Kimmich has launched a stinging attack on the club's \"not Bayern-like\" treatment of his teammate Jamal Musia",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751555_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Xabi Alonso: Wesley Fofana interview row 'closed' after apology",
+      "league": "Premier League",
+      "time": "0h ago",
+      "published": "2026-11-26T15:59:44.000Z",
+      "excerpt": "Xabi Alonso called the matter \"closed\" after Wesley Fofana appeared to joke about Chelsea's Carabao Cup exit to Liverpool during an unauthor",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50604615/xabi-alonso-wesley-fofana-chelsea",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1749249_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Barcelona among clubs eyeing Man United's Ayden Heaven",
+      "league": "Premier League",
       "time": "1h ago",
-      "published": "2026-11-26T02:23:47.000Z",
-      "excerpt": "Gab Marcotti, Mark Ogden, Sam Tighe and Alex Kirkland run the rule over Man United's draw with Sporting, plus all the other moments that mat",
+      "published": "2026-11-26T15:05:13.000Z",
+      "excerpt": "Barcelona are interested in a loan move for Manchester United defender Ayden Heaven. Transfer Talk has the latest.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50594529/champions-league-talking-points-manchester-united-sporting-draw",
-      "image": "https://a.espncdn.com/photo/2026/1126/r1751438_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50602698/transfer-rumors-news-manchester-united-barcelona-heaven",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751552_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Man United's costly errors overshadow early progress under Mauricio Pochettino",
-      "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-11-26T01:32:43.000Z",
-      "excerpt": "Manchester United showed signs of progress under Mauricio Pochettino, but familiar mistakes cost them a Champions League win against Sportin",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50598965/manchester-united-pochettino-champions-league-sporting",
-      "image": "https://a.espncdn.com/photo/2026/1125/r1751389_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "Luis Enrique praises Roma after draw halts PSG's winning streak",
+      "title": "Cesc Fàbregas plays down Barcelona links, pledges immediate future to Como",
       "league": "Champions League",
       "time": "3h ago",
-      "published": "2026-11-26T01:00:55.000Z",
-      "excerpt": "Paris Saint-Germain coach Luis Enrique said Roma was his team's \"toughest match of this season\" after a hard-fought 2-2 Champions League dra",
+      "published": "2026-11-26T13:07:29.000Z",
+      "excerpt": "Cesc Fabregas has pledged his immediate future to Como amid speculation that he could one day succeed Hansi Flick at Barcelona.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50599458/luis-enrique-praises-roma-draw-halts-psg-winning-streak",
-      "image": "https://a.espncdn.com/photo/2026/1126/r1751436_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
-      "title": "VAR review: Why Man United should've gotten winner vs. Sporting",
-      "league": "Premier League",
-      "time": "3h ago",
-      "published": "2026-11-26T00:48:50.000Z",
-      "excerpt": "VAR often causes controversy, but how are decisions made? Our resident ref, Andy Davies, explains all.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/49703019/premier-league-var-review-red-card-penalty-handball-goal-line-technology",
-      "image": "https://a.espncdn.com/photo/2026/1126/r1751409_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50603870/cesc-fabregas-barcelona-como-hansi-flick",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751604_1296x729_16-9.jpg",
       "category": "football"
     }
   ],
