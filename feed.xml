@@ -5,48 +5,8 @@
   <link>https://xwhiz.com</link>
   <description>Daily statistical football predictions powered by Dixon-Coles + Elo. 1X2, Over/Under 2.5, BTTS and correct score on real fixtures.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 27 Nov 2026 10:44:10 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 21:00:30 GMT</lastBuildDate>
   <atom:link href="https://xwhiz.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>SV Werder Bremen vs Borussia Mönchengladbach — Home Win @ 1.07</title>
-    <link>https://xwhiz.com/predictions/sv-werder-bremen-vs-borussia-moenchengladbach-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/sv-werder-bremen-vs-borussia-moenchengladbach-prediction.html</guid>
-    <pubDate>Fri, 27 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Bundesliga — 89% confidence. Home Win at 1.07. Match kickoff: Fri, 27 Nov 2026 15:00:00 GMT.</description>
-    <category>Bundesliga</category>
-  </item>
-  <item>
-    <title>Stade Brestois 29 vs Paris — Home Win @ 1.01</title>
-    <link>https://xwhiz.com/predictions/stade-brestois-29-vs-paris-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/stade-brestois-29-vs-paris-prediction.html</guid>
-    <pubDate>Fri, 27 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Ligue 1 — 95% confidence. Home Win at 1.01. Match kickoff: Fri, 27 Nov 2026 15:00:00 GMT.</description>
-    <category>Ligue 1</category>
-  </item>
-  <item>
-    <title>FC Groningen vs Willem II Tilburg — Home Win @ 1.16</title>
-    <link>https://xwhiz.com/predictions/fc-groningen-vs-willem-ii-tilburg-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/fc-groningen-vs-willem-ii-tilburg-prediction.html</guid>
-    <pubDate>Fri, 27 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Eredivisie — 82% confidence. Home Win at 1.16. Match kickoff: Fri, 27 Nov 2026 15:00:00 GMT.</description>
-    <category>Eredivisie</category>
-  </item>
-  <item>
-    <title>CS Marítimo vs CD Nacional — Home Win @ 1.56</title>
-    <link>https://xwhiz.com/predictions/cs-maritimo-vs-cd-nacional-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/cs-maritimo-vs-cd-nacional-prediction.html</guid>
-    <pubDate>Fri, 27 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Primeira Liga — 61% confidence. Home Win at 1.56. Match kickoff: Fri, 27 Nov 2026 15:00:00 GMT.</description>
-    <category>Primeira Liga</category>
-  </item>
-  <item>
-    <title>Southampton vs Middlesbrough — Home Win @ 1.50</title>
-    <link>https://xwhiz.com/predictions/southampton-vs-middlesbrough-prediction.html</link>
-    <guid isPermaLink="true">https://xwhiz.com/predictions/southampton-vs-middlesbrough-prediction.html</guid>
-    <pubDate>Fri, 27 Nov 2026 15:00:00 GMT</pubDate>
-    <description>Championship — 64% confidence. Home Win at 1.50. Match kickoff: Fri, 27 Nov 2026 15:00:00 GMT.</description>
-    <category>Championship</category>
-  </item>
   <item>
     <title>Leeds United vs Coventry City — Home Win @ 1.08</title>
     <link>https://xwhiz.com/predictions/leeds-united-vs-coventry-city-prediction.html</link>
@@ -198,6 +158,46 @@
     <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
     <description>Ligue 1 — 59% confidence. Home Win at 1.60. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
     <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>Paris Saint-Germain vs FC Lorient — Home Win @ 1.02</title>
+    <link>https://xwhiz.com/predictions/paris-saint-germain-vs-fc-lorient-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/paris-saint-germain-vs-fc-lorient-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Ligue 1 — 93% confidence. Home Win at 1.02. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Ligue 1</category>
+  </item>
+  <item>
+    <title>SBV Excelsior vs Telstar 1963 — Home Win @ 1.56</title>
+    <link>https://xwhiz.com/predictions/sbv-excelsior-vs-telstar-1963-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sbv-excelsior-vs-telstar-1963-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 61% confidence. Home Win at 1.56. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>PSV vs Go Ahead Eagles — Home Win @ 1.15</title>
+    <link>https://xwhiz.com/predictions/psv-vs-go-ahead-eagles-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/psv-vs-go-ahead-eagles-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 83% confidence. Home Win at 1.15. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>SC Cambuur-Leeuwarden vs Sparta Rotterdam — Away Win @ 2.42</title>
+    <link>https://xwhiz.com/predictions/sc-cambuur-leeuwarden-vs-sparta-rotterdam-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/sc-cambuur-leeuwarden-vs-sparta-rotterdam-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Eredivisie — 39% confidence. Away Win at 2.42. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Eredivisie</category>
+  </item>
+  <item>
+    <title>Moreirense vs CD Santa Clara — Home Win @ 1.50</title>
+    <link>https://xwhiz.com/predictions/moreirense-vs-cd-santa-clara-prediction.html</link>
+    <guid isPermaLink="true">https://xwhiz.com/predictions/moreirense-vs-cd-santa-clara-prediction.html</guid>
+    <pubDate>Sat, 28 Nov 2026 15:00:00 GMT</pubDate>
+    <description>Primeira Liga — 64% confidence. Home Win at 1.50. Match kickoff: Sat, 28 Nov 2026 15:00:00 GMT.</description>
+    <category>Primeira Liga</category>
   </item>
 </channel>
 </rss>
