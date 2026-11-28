@@ -1,32 +1,43 @@
 {
-  "lastUpdate": "2026-11-27T21:00:29.786Z",
+  "lastUpdate": "2026-11-28T03:49:05.957Z",
   "news": [
     {
-      "title": "Is Arsenal-Man City still the biggest PL match of the season?",
+      "title": "Alonso urges Chelsea to 'stick together' amid run of three losses",
       "league": "Premier League",
-      "time": "1h ago",
-      "published": "2026-11-27T19:38:30.000Z",
-      "excerpt": "Arsenal vs. Man City was supposed to be the Premier League's marquee fixture, but it feels anything but in light of City's guilty verdict. W",
+      "time": "2h ago",
+      "published": "2026-11-28T01:05:32.000Z",
+      "excerpt": "Chelsea boss Xabi Alonso said his team should \"stick together\" after a 3-2 loss to Nottingham Forest on Friday made it three Premier League ",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50612391/arsenal-man-city-preview-premier-league",
-      "image": "https://a.espncdn.com/photo/2026/1127/r1752114_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/soccer/story/_/id/50615700/alonso-chelsea-stick-together-run-three-losses",
+      "image": "https://a.espncdn.com/photo/2026/1127/r1752262_1296x729_16-9.jpg",
       "category": "football"
     },
     {
-      "title": "Emery hails Garnacho's 'fantastic' attitude despite Aston Villa exclusion",
+      "title": "Moreno: Alonso must drop Fofana for Chelsea's benefit",
       "league": "Premier League",
-      "time": "2h ago",
-      "published": "2026-11-27T18:55:48.000Z",
-      "excerpt": "Unai Emery has praised the attitude of forgotten man Alejandro Garnacho and has insisted there is no bad blood between the pair.",
+      "time": "4h ago",
+      "published": "2026-11-27T23:07:34.000Z",
+      "excerpt": "The ESPN FC crew react to Nottingham Forest beating Chelsea 3-2 in the Premier League.",
       "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50613029/unai-emery-alejandro-garnacho-aston-villa-respect",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717446_1296x729_16-9.jpg",
+      "url": "https://www.espn.com/video/clip/_/id/50615678/alonso-drop-fofana-chelsea-benefit",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1127/dm_261127_COM_SOC_Analysis_Moreno3A_Alonso_must_drop_Fofana_for_ChelseaE28099s_benefit_GLOBAL_2026-11-27/dm_261127_COM_SOC_Analysis_Moreno3A_Alonso_must_drop_Fofana_for_ChelseaE28099s_benefit_GLOBAL_2026-11-27.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Levante vs. Racing Santander - Game Highlights",
+      "league": "La Liga",
+      "time": "5h ago",
+      "published": "2026-11-27T22:04:08.000Z",
+      "excerpt": "Watch the Game Highlights from Levante vs. Racing Santander, 11/30/2026",
+      "source": "ESPN",
+      "url": "https://www.espn.com/video/clip/_/id/50614840/levante-vs-racing-santander-game-highlights",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1127/c1faac87-5731-43f4-9b8d-773251bc6141/c1faac87-5731-43f4-9b8d-773251bc6141.jpg",
       "category": "football"
     },
     {
       "title": "Borussia Dortmund vs. Bayer Leverkusen: TV channel, kick-off time (Sun Nov. 29)",
       "league": "Bundesliga",
-      "time": "4h ago",
+      "time": "10h ago",
       "published": "2026-11-27T16:53:06.000Z",
       "excerpt": "Where to watch Borussia Dortmund vs. Bayer Leverkusen on TV and live stream in the UK, plus kick-off time, latest team news, injury updates ",
       "source": "ESPN",
@@ -35,20 +46,9 @@
       "category": "football"
     },
     {
-      "title": "Transfer rumors, news:Transfer rumors, news: Nico Paz open to Man United; against Real Madrid return",
-      "league": "La Liga",
-      "time": "5h ago",
-      "published": "2026-11-27T15:30:51.000Z",
-      "excerpt": "Manchester United see Como's Nico Paz as a possible replacement for Bruno Fernandes. For his part, Paz is at least open to it. Transfer Talk",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50610066/transfer-rumors-news-nico-paz-man-united-real-madrid-como",
-      "image": "https://a.espncdn.com/photo/2026/1127/r1751970_1296x729_16-9.jpg",
-      "category": "football"
-    },
-    {
       "title": "José Mourinho hails Jude Bellingham but refuses Zinedine Zidane comparison",
       "league": "Champions League",
-      "time": "6h ago",
+      "time": "12h ago",
       "published": "2026-11-27T14:59:16.000Z",
       "excerpt": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Rea",
       "source": "ESPN",
@@ -59,7 +59,7 @@
     {
       "title": "Mourinho embarrasses his 'cousin' at Real Madrid press conference",
       "league": "La Liga",
-      "time": "6h ago",
+      "time": "12h ago",
       "published": "2026-11-27T14:58:51.000Z",
       "excerpt": "Jose Mourinho ended his Real Madrid press conference by embarrassing his 'cousin' in front of the gathered media.",
       "source": "ESPN",
@@ -70,7 +70,7 @@
     {
       "title": "Vincent Kompany dismisses talk of Bayern unrest amid Jamal Musiala controversy",
       "league": "Bundesliga",
-      "time": "6h ago",
+      "time": "13h ago",
       "published": "2026-11-27T14:45:47.000Z",
       "excerpt": "Bayern Munich head coach Vincent Kompany and sporting director Christoph Freund have stressed off-field issues are not a distraction and the",
       "source": "ESPN",
@@ -98,6 +98,17 @@
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50603870/cesc-fabregas-barcelona-como-hansi-flick",
       "image": "https://a.espncdn.com/photo/2026/1126/r1751604_1296x729_16-9.jpg",
+      "category": "football"
+    },
+    {
+      "title": "Transfer rumors, news: Arsenal, Newcastle eye Inter's Pio Esposito",
+      "league": "Serie A",
+      "time": "24/11/2026",
+      "published": "2026-11-24T22:38:39.000Z",
+      "excerpt": "Both Arsenal and Newcastle United are looking to improve their attack by signing Inter's Pio Esposito. Transfer Talk has the latest.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50580721/transfer-rumors-news-psg-estevao-luis-diaz-chelsea-bayern",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750825_1296x729_16-9.jpg",
       "category": "football"
     },
     {
